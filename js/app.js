@@ -81,7 +81,8 @@ const App = {
         clearInterval(QuizEngine.state.timer);
         const score = QuizEngine.getScore();
         localStorage.setItem('lastScoreCivique', JSON.stringify({ score: score }));
-        UI.showResults(score, QuizEngine.state.questions.length);
+        //UI.showResults(score, QuizEngine.state.questions.length);
+        UI.showResults(score, QuizEngine.state);
     }
 };
 
