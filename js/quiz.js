@@ -6,14 +6,15 @@ const QuizEngine = {
 
     init(dataFR) { this.state.allFR = dataFR; },
 
-    start(lvl, lang, helpData) {
+    start(lvl, lang, helpData, nbQuestions = 40) {
         this.state.selectedLang = lang;
         this.state.allHelp = helpData;
         this.state.index = 0;
-        this.state.timeLeft = 45 * 60;
+        this.state.timeLeft = nbQuestions * 60; // 1 minute par question
         
         let filtered = (lvl === 'CSP') ? this.state.allFR.filter(q => q.difficulte !== 'CR') : this.state.allFR;
-        this.state.questions = filtered.sort(() => 0.5 - Math.random()).slice(0, 40);
+        // On mélange et on coupe à la longueur choisie (10, 20 ou 40)
+        this.state.questions = filtered.sort(() => 0.5 - Math.random()).slice(0, nbQuestions);
         this.state.userAnswers = new Array(this.state.questions.length).fill(null);
     },
 
