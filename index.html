@@ -89,9 +89,43 @@
                         <option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="fa">فارسی</option>
                     </select>
                 </div>
-                <div class="grid grid-cols-1 gap-3">
-                    <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 font-black shadow flex justify-between uppercase text-xs"><span>Carte de Séjour (A2)</span><span>➡</span></button>
-                    <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 font-black shadow flex justify-between uppercase text-xs"><span>Carte de Résident (B1)</span><span>➡</span></button>
+
+                <div class="space-y-5 mt-6">
+                    
+                    <div class="border border-blue-200 rounded overflow-hidden shadow-sm">
+                        <div class="bg-bleu-france text-white p-3 font-black text-[11px] uppercase tracking-widest flex justify-between items-center">
+                            <span>📘 Carte de Séjour (A2)</span>
+                        </div>
+                        <div class="p-3 grid grid-cols-2 gap-3 bg-blue-50">
+                            <button onclick="App.startQuiz('CSP', 10)" class="bg-white border border-blue-200 text-bleu-france py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-blue-100">
+                                Entraînement (10 Q)
+                            </button>
+                            <button onclick="App.startQuiz('CSP', 20)" class="bg-white border border-blue-200 text-bleu-france py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-blue-110">
+                                Entraînement (20 Q)
+                            </button>
+                            <button onclick="App.startQuiz('CSP', 40)" class="bg-bleu-france text-white py-3 font-black text-[10px] uppercase shadow-sm hover:bg-blue-800">
+                                Examen Officiel (40 Q)
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="border border-red-200 rounded overflow-hidden shadow-sm">
+                        <div class="bg-rouge-marianne text-white p-3 font-black text-[11px] uppercase tracking-widest flex justify-between items-center">
+                            <span>📕 Carte de Résident (B1)</span>
+                        </div>
+                        <div class="p-3 grid grid-cols-2 gap-3 bg-red-50">
+                            <button onclick="App.startQuiz('CR', 10)" class="bg-white border border-red-200 text-rouge-marianne py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-red-100">
+                                Entraînement (10 Q)
+                            </button>
+                            <button onclick="App.startQuiz('CR', 20)" class="bg-white border border-red-200 text-rouge-marianne py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-red-110">
+                                Entraînement (20 Q)
+                            </button>
+                            <button onclick="App.startQuiz('CR', 40)" class="bg-rouge-marianne text-white py-3 font-black text-[10px] uppercase shadow-sm hover:bg-red-800">
+                                Examen Officiel (40 Q)
+                            </button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -110,7 +144,7 @@
                 <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase">Précédent</button>
                 <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow uppercase">Suivant</button>
             </div>
-            <button onclick="UI.openModal('modal-quit')" class="w-full mt-8 py-2 text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">🛑 Abandonner</button>
+            <button onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase">🛑 Abandonner & Voir Bilan</button>
         </div>
 
         <div id="screen-results" class="hidden space-y-6">
