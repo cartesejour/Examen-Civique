@@ -89,7 +89,10 @@ const UI = {
     },
 
     renderCorrection(state) {
+        // 🔓 ON DÉVERROUILLE LE BOUTON D'IMPRESSION
+        document.getElementById('btn-print-main').classList.remove('hidden');
         document.getElementById('btn-corr-unlock').classList.add('hidden');
+        
         const list = document.getElementById('full-correction');
         list.classList.remove('hidden');
         list.innerHTML = '<h3 class="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-6 text-center">Correction Détaillée</h3>';
