@@ -43,7 +43,8 @@ const UI = {
         const h = state.allHelp.find(x => x.id === q.id);
         const isRTL = ["ar", "ur", "fa"].includes(state.selectedLang);
         
-        document.getElementById('current-q-num').innerText = state.index + 1;
+        // Met à jour la question actuelle ET le nombre total dynamiquement !
+        document.getElementById('current-q-num').parentElement.innerHTML = `<span id="current-q-num">${state.index + 1}</span>/${state.questions.length}`;
         document.getElementById('category-display').innerText = q.categorie || "EXAMEN";
         document.getElementById('question-text').innerText = q.question;
         
