@@ -7,25 +7,22 @@ const UI = {
         document.getElementById('modal-message').innerText = message;
         this.openModal('modal-alert');
     },
-
-    switchScreen(screenId) {
-        // 1. On cache tous les écrans
-        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions'].forEach(id => {
-            const element = document.getElementById(id);
-            if (element) element.classList.add('hidden');
+switchScreen(screenId) {
+        // 👉 On ajoute les 2 nouveaux écrans dans la liste pour bien les cacher quand on change de page
+        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-legal', 'screen-privacy'].forEach(id => {
+            const el = document.getElementById(id);
+            if(el) el.classList.add('hidden');
         });
         
-        // 2. On affiche l'écran demandé
         document.getElementById(screenId).classList.remove('hidden');
 
-        // 3. On gère l'affichage du menu principal
+        // Gestion du menu principal
         const nav = document.getElementById('main-nav');
         if (nav) {
-            // On l'affiche UNIQUEMENT sur l'accueil et les fiches
-            if (screenId === 'screen-home' || screenId === 'screen-revisions') {
+            // On affiche le menu principal sur l'accueil, les révisions ET les pages légales
+            if (screenId === 'screen-home' || screenId === 'screen-revisions' || screenId === 'screen-legal' || screenId === 'screen-privacy') {
                 nav.classList.remove('hidden');
             } else {
-                // Pendant le quiz ou les résultats, on le cache !
                 nav.classList.add('hidden');
             }
         }
