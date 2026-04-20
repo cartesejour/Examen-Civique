@@ -9,12 +9,28 @@ const UI = {
     },
 
     switchScreen(screenId) {
+        // 1. On cache tous les écrans
         ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions'].forEach(id => {
             const element = document.getElementById(id);
             if (element) element.classList.add('hidden');
         });
+        
+        // 2. On affiche l'écran demandé
         document.getElementById(screenId).classList.remove('hidden');
+
+        // 3. On gère l'affichage du menu principal
+        const nav = document.getElementById('main-nav');
+        if (nav) {
+            // On l'affiche UNIQUEMENT sur l'accueil et les fiches
+            if (screenId === 'screen-home' || screenId === 'screen-revisions') {
+                nav.classList.remove('hidden');
+            } else {
+                // Pendant le quiz ou les résultats, on le cache !
+                nav.classList.add('hidden');
+            }
+        }
     },
+    
     renderQuestion(state) {
         const q = state.questions[state.index];
 
