@@ -21,7 +21,7 @@ Le projet est architecturé de manière modulaire pour faciliter la maintenance 
 
 ## ⚖️ Droits d'auteur (Copyright)
 
-**© 2026 Aboubakr RAHIM. Tous droits réservés.**
+**© 2026 CarteSejour.fr . Tous droits réservés.**
 
 Ce logiciel et tout son contenu (code source, structure, design, base de données de questions) sont protégés par les lois sur la propriété intellectuelle. 
 
