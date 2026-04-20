@@ -87,34 +87,41 @@ const App = {
     },
     checkAdBlock() {
         const detecter = () => {
-            // On crée le piège avec des mots clés que les bloqueurs détestent
-            const adTest = document.createElement('div');
-            adTest.innerHTML = '&nbsp;';
-            adTest.className = 'adsbox pub_300x250 ad-placement sponsor'; 
-            adTest.style.position = 'absolute';
-            adTest.style.top = '-9999px';
-            adTest.style.height = '10px'; // On lui donne une petite hauteur
-            document.body.appendChild(adTest);
+            // On crée "l'appât ultime" avec les mots-clés les plus bloqués au monde
+            const bait = document.createElement('div');
+            bait.id = 'ad-banner'; 
+            bait.className = 'ads ad adsbox doubleclick sponsor advertisement'; 
+            
+            // On le rend minuscule mais "visible" sur la page pour piéger le bloqueur
+            bait.style.width = '1px';
+            bait.style.height = '1px';
+            bait.style.position = 'absolute';
+            bait.style.left = '-9999px'; // On le cache sur le côté gauche, pas en haut
+            
+            document.body.appendChild(bait);
 
+            // On laisse 500ms au bloqueur pour faire son travail
             setTimeout(() => {
-                // Si l'élément a été caché par l'extension (hauteur 0 ou display none)
-                const isBlocked = adTest.offsetHeight === 0 || window.getComputedStyle(adTest).display === 'none';
-                
+                // Si l'élément a été écrasé (hauteur/largeur à 0) ou caché (display none)
+                const style = window.getComputedStyle(bait);
+                const isBlocked = bait.offsetHeight === 0 || bait.clientWidth === 0 || style.display === 'none';
+
                 if (isBlocked) {
-                    // On affiche le mur infranchissable
-                    document.getElementById('modal-adblock').classList.remove('hidden');
+                    // BAM ! Bloqueur détecté, on lève le bouclier
+                    const modal = document.getElementById('modal-adblock');
+                    if (modal) modal.classList.remove('hidden');
                 }
-                // On nettoie la page
-                adTest.remove();
-            }, 300);
+                
+                // On nettoie la page pour ne pas l'alourdir
+                bait.remove();
+            }, 500); 
         };
 
-        // 1. On vérifie immédiatement au chargement
+        // 1. On lance la détection au chargement
         detecter();
 
-        // 2. Le mode "Harcèlement" : on revérifie toutes les 2 secondes
-        // Impossible de tricher en supprimant l'alerte dans le code de la page !
-        setInterval(detecter, 2000);
+        // 2. On harcèle le tricheur toutes les 3 secondes s'il essaie d'enlever le message
+        setInterval(detecter, 3000);
     }
 };
 
