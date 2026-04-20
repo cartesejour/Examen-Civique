@@ -72,69 +72,22 @@ const UI = {
         document.getElementById('timer-display').innerText = `${m}:${s<10?'0':''}${s}`;
     },
 
-    //showResults(score, total) {
-        //this.switchScreen('screen-results');
-        //document.getElementById('q-counter').classList.add('hidden');
-        //document.getElementById('timer-zone').classList.add('hidden');
-        
-        //document.getElementById('final-score').innerText = `${score}/${total}`;
-        //const msg = document.getElementById('result-msg');
-        //if(score >= 32) { 
-            //msg.innerText = "ADMIS ✅"; msg.className = "p-4 mb-6 bg-green-100 text-green-700 font-black uppercase text-xs"; 
-        //} else { 
-            //msg.innerText = "ÉCHEC ❌ (Min. 32)"; msg.className = "p-4 mb-6 bg-red-100 text-red-700 font-black uppercase text-xs"; 
-        //}
-    //},
-showResults(score, state) {
-        // 1. On affiche le bon écran et on cache le chrono
-        this.switchScreen('screen-result'); // Vérifiez que le nom correspond à votre HTML
+    showResults(score, state) {
+        this.switchScreen('screen-results');
         document.getElementById('q-counter').classList.add('hidden');
         document.getElementById('timer-zone').classList.add('hidden');
-
-        const total = state.questions.length;
         
-        // 2. On prépare le message d'en-tête
-        let htmlBilan = `<h2 class="text-2xl font-bold mb-4">Votre score final : ${score} / ${total}</h2>`;
-
-        if (score >= 32) {
-            htmlBilan += `<p class="text-green-600 font-bold mb-6">Félicitations, c'est un excellent résultat !</p>`;
-        } else {
-            htmlBilan += `<p class="text-red-600 font-bold mb-6">Vous devez encore vous entraîner. Voici vos erreurs :</p>`;
+        const total = state.questions.length;
+        document.getElementById('final-score').innerText = `${score}/${total}`;
+        
+        const msg = document.getElementById('result-msg');
+        if(score >= 32) { 
+            msg.innerText = "ADMIS ✅"; msg.className = "p-4 mb-6 bg-green-100 text-green-700 font-black uppercase text-xs"; 
+        } else { 
+            msg.innerText = "ÉCHEC ❌ (Min. 32)"; msg.className = "p-4 mb-6 bg-red-100 text-red-700 font-black uppercase text-xs"; 
         }
-
-        // 3. On génère la correction pour les mauvaises réponses
-        state.questions.forEach((q, index) => {
-            let reponseUser = state.userAnswers[index];
-            let estCorrect = (reponseUser === q.bonne_reponse);
-
-            if (!estCorrect) {
-                htmlBilan += `
-                <div class="mb-4 p-4 border-l-4 border-red-500 bg-red-50 rounded">
-                    <p class="font-bold text-gray-800 mb-2">Question : ${q.question}</p>
-                    <p class="text-red-600 text-sm">❌ Votre réponse : ${q.options[reponseUser]}</p>
-                    <p class="text-green-600 text-sm">✅ Bonne réponse : ${q.options[q.bonne_reponse]}</p>`;
-                
-                // On ajoute le lien s'il existe dans votre base de données
-                if (q.link) {
-                    htmlBilan += `<a href="${q.link}" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline text-sm font-semibold">🔗 Réviser ce sujet</a>`;
-                }
-                htmlBilan += `</div>`;
-            }
-        });
-
-        // 4. On ajoute le bouton PDF avec le style de votre application
-        htmlBilan += `
-        <div class="mt-8 text-center">
-            <button onclick="window.print()" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 shadow-md">
-                🖨️ Imprimer ou Sauvegarder en PDF
-            </button>
-        </div>`;
-
-        // 5. On injecte dans la balise qui sert à afficher les résultats
-        // (Assurez-vous d'avoir un <div id="result-content"></div> dans votre écran de résultats)
-        document.getElementById('result-content').innerHTML = htmlBilan;
     },
-    
+
     renderCorrection(state) {
         document.getElementById('btn-corr-unlock').classList.add('hidden');
         const list = document.getElementById('full-correction');
@@ -152,9 +105,21 @@ showResults(score, state) {
             let hRight = (h && h.options) ? ` <span class="opacity-60" dir="${isRTL?'rtl':'ltr'}">(${h.options[q.bonne_reponse]})</span>` : "";
             let hExp = (h && h.explication) ? `<p class="mt-2 font-normal opacity-70 border-t pt-2" dir="${isRTL?'rtl':'ltr'}">${h.explication}</p>` : "";
             
-            div.innerHTML = `<div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}"><span>${ok?'Correct':'Erreur'}</span><span>Question ${i+1}</span></div><p class="text-sm font-bold text-gray-900 leading-tight">${q.question}</p>${hQ}<div class="text-xs space-y-1 my-3"><p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">Votre choix : ${q.options[state.userAnswers[i]]}</p>${!ok ? `<p class="text-green-700 font-bold">Réponse : ${q.options[q.bonne_reponse]}${hRight}</p>` : ''}</div><div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic"><strong>Explication :</strong> ${q.explication}${hExp}</div>`;
+            // 👉 NOUVEAUTÉ : On prépare le lien officiel si la réponse est fausse
+            let linkHtml = (!ok && q.link) ? `<div class="mt-3 pt-3 border-t border-gray-100"><a href="${q.link}" target="_blank" class="text-bleu-france hover:underline text-[11px] font-bold uppercase tracking-wide">🔗 Réviser sur le site officiel</a></div>` : "";
+
+            // On injecte tout (y compris le lien à la fin)
+            div.innerHTML = `<div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}"><span>${ok?'Correct':'Erreur'}</span><span>Question ${i+1}</span></div><p class="text-sm font-bold text-gray-900 leading-tight">${q.question}</p>${hQ}<div class="text-xs space-y-1 my-3"><p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">Votre choix : ${q.options[state.userAnswers[i]]}</p>${!ok ? `<p class="text-green-700 font-bold">Réponse : ${q.options[q.bonne_reponse]}${hRight}</p>` : ''}</div><div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic"><strong>Explication :</strong> ${q.explication}${hExp}</div>${linkHtml}`;
             list.appendChild(div);
         });
+
+        // 👉 NOUVEAUTÉ : On ajoute le bouton d'impression TOUT EN BAS de la correction
+        const btnPrint = document.createElement('button');
+        btnPrint.className = "w-full mt-6 py-4 bg-gray-900 text-white font-black text-xs uppercase tracking-widest shadow-lg";
+        btnPrint.innerHTML = "🖨️ Imprimer mon bilan (PDF)";
+        btnPrint.onclick = () => window.print();
+        list.appendChild(btnPrint);
+
         window.scrollTo({top: list.offsetTop - 100, behavior: 'smooth'});
     }
 };
