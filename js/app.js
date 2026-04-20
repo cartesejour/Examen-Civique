@@ -86,25 +86,35 @@ const App = {
         UI.showResults(score, QuizEngine.state);
     },
     checkAdBlock() {
-        // On crée un faux élément pub
-        const adTest = document.createElement('div');
-        adTest.className = 'adsbox'; // Les bloqueurs ciblent ce nom
-        adTest.style.position = 'absolute';
-        adTest.style.top = '-999px'; // On le cache hors de l'écran
-        document.body.appendChild(adTest);
+        const detecter = () => {
+            // On crée le piège avec des mots clés que les bloqueurs détestent
+            const adTest = document.createElement('div');
+            adTest.innerHTML = '&nbsp;';
+            adTest.className = 'adsbox pub_300x250 ad-placement sponsor'; 
+            adTest.style.position = 'absolute';
+            adTest.style.top = '-9999px';
+            adTest.style.height = '10px'; // On lui donne une petite hauteur
+            document.body.appendChild(adTest);
 
-        // On attend un tout petit peu que le bloqueur fasse son travail
-        setTimeout(() => {
-            if (adTest.offsetHeight === 0) {
-                // Si la hauteur est 0, c'est que l'élément a été bloqué !
-                UI.showCustomAlert(
-                    "Bloqueur de publicités", 
-                    "Notre simulateur est 100% gratuit, mais nous avons besoin de la publicité pour payer nos serveurs. Veuillez désactiver votre bloqueur pour utiliser le site."
-                );
-            }
-            // On nettoie
-            adTest.remove();
-        }, 500);
+            setTimeout(() => {
+                // Si l'élément a été caché par l'extension (hauteur 0 ou display none)
+                const isBlocked = adTest.offsetHeight === 0 || window.getComputedStyle(adTest).display === 'none';
+                
+                if (isBlocked) {
+                    // On affiche le mur infranchissable
+                    document.getElementById('modal-adblock').classList.remove('hidden');
+                }
+                // On nettoie la page
+                adTest.remove();
+            }, 300);
+        };
+
+        // 1. On vérifie immédiatement au chargement
+        detecter();
+
+        // 2. Le mode "Harcèlement" : on revérifie toutes les 2 secondes
+        // Impossible de tricher en supprimant l'alerte dans le code de la page !
+        setInterval(detecter, 2000);
     }
 };
 
