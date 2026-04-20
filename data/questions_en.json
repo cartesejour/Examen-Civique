@@ -1,0 +1,1228 @@
+[
+  {
+    "id": 1,
+    "categorie": "Values of the Republic",
+    "question": "What is the motto of the French Republic?",
+    "options": ["Work, Family, Fatherland", "Liberty, Equality, Fraternity", "Peace, Justice, Solidarity", "Order and Progress"],
+    "bonne_reponse": 1,
+    "explication": "The motto 'Liberty, Equality, Fraternity' is the foundation of the Republic and is inscribed on public buildings."
+  },
+  {
+    "id": 2,
+    "categorie": "Values of the Republic",
+    "question": "What is secularism (laïcité) in France?",
+    "options": ["The banning of all religions", "The obligation to be atheist", "The separation of State and religions", "The state funding of churches"],
+    "bonne_reponse": 2,
+    "explication": "Secularism guarantees freedom of conscience and worship, while ensuring the absolute neutrality of the State."
+  },
+  {
+    "id": 3,
+    "categorie": "Values of the Republic",
+    "question": "What is the national anthem of France?",
+    "options": ["The Song of the Partisans", "La Marseillaise", "Ode to Joy", "La Parisienne"],
+    "bonne_reponse": 1,
+    "explication": "La Marseillaise, written by Rouget de Lisle in 1792, is the French national anthem."
+  },
+  {
+    "id": 4,
+    "categorie": "Values of the Republic",
+    "question": "Who represents the symbol of the French Republic in town halls?",
+    "options": ["Joan of Arc", "Marianne", "Victor Hugo", "Napoleon"],
+    "bonne_reponse": 1,
+    "explication": "Marianne is the allegorical figure of the Republic. Her bust is present in all town halls."
+  },
+  {
+    "id": 5,
+    "categorie": "History and Culture",
+    "question": "What is celebrated on July 14th in France?",
+    "options": ["The end of the First World War", "The storming of the Bastille and the Fête de la Fédération", "The election of the first President", "The signing of the Constitution"],
+    "bonne_reponse": 1,
+    "explication": "The National Day on July 14th commemorates the storming of the Bastille (1789) and the Fête de la Fédération (1790)."
+  },
+  {
+    "id": 6,
+    "categorie": "History and Culture",
+    "question": "In what year was the Declaration of the Rights of Man and of the Citizen signed?",
+    "options": ["1789", "1804", "1905", "1945"],
+    "bonne_reponse": 0,
+    "explication": "It was adopted in 1789, at the beginning of the French Revolution."
+  },
+  {
+    "id": 7,
+    "categorie": "History and Culture",
+    "question": "When did the First World War take place?",
+    "options": ["1870 - 1871", "1914 - 1918", "1939 - 1945", "1954 - 1962"],
+    "bonne_reponse": 1,
+    "explication": "The First World War took place from 1914 to 1918. The Armistice is celebrated on November 11th."
+  },
+  {
+    "id": 8,
+    "categorie": "History and Culture",
+    "question": "Who was Jean Moulin?",
+    "options": ["A famous writer", "A great king of France", "A leader of the French Resistance", "An inventor"],
+    "bonne_reponse": 2,
+    "explication": "Jean Moulin unified the French internal Resistance during the Second World War."
+  },
+  {
+    "id": 9,
+    "categorie": "Institutional System",
+    "question": "For how long is the President of the Republic elected?",
+    "options": ["4 years", "5 years", "7 years", "For life"],
+    "bonne_reponse": 1,
+    "explication": "The President is elected for a 5-year term (the quinquennat) by direct universal suffrage."
+  },
+  {
+    "id": 10,
+    "categorie": "Institutional System",
+    "question": "Who leads the government in France?",
+    "options": ["The President of the Republic", "The Prime Minister", "The Mayor of Paris", "The President of the National Assembly"],
+    "bonne_reponse": 1,
+    "explication": "The Prime Minister, appointed by the President of the Republic, directs the actions of the Government."
+  },
+  {
+    "id": 11,
+    "categorie": "Institutional System",
+    "question": "What is the French Parliament composed of?",
+    "options": ["The National Assembly and the Senate", "The Government and the judges", "The town halls and prefectures", "The police and the army"],
+    "bonne_reponse": 0,
+    "explication": "The Parliament, which votes on laws, is composed of two chambers: the National Assembly (deputies) and the Senate (senators)."
+  },
+  {
+    "id": 12,
+    "categorie": "Institutional System",
+    "question": "At what age do you obtain legal majority and the right to vote in France?",
+    "options": ["16 years old", "18 years old", "21 years old", "25 years old"],
+    "bonne_reponse": 1,
+    "explication": "Civil majority and the right to vote are acquired at 18 years old."
+  },
+  {
+    "id": 13,
+    "categorie": "Rights and Duties",
+    "question": "School in France is compulsory for children aged:",
+    "options": ["6 to 16 years old", "3 to 16 years old", "3 to 18 years old", "It is not compulsory"],
+    "bonne_reponse": 1,
+    "explication": "Since 2019, education is compulsory for all children from the age of 3 up to 16 years old."
+  },
+  {
+    "id": 14,
+    "categorie": "Rights and Duties",
+    "question": "Is it mandatory to pay your taxes in France?",
+    "options": ["Yes, it is a civic duty", "No, it is optional", "Only if you are rich", "Only if you own property"],
+    "bonne_reponse": 0,
+    "explication": "Paying taxes is a duty. It funds public services (hospitals, schools, roads)."
+  },
+  {
+    "id": 15,
+    "categorie": "Rights and Duties",
+    "question": "Do women and men have the same rights in France?",
+    "options": ["No, men have more rights", "Only for salary", "Yes, the law guarantees strict equality", "Only for voting"],
+    "bonne_reponse": 2,
+    "explication": "Equality between women and men is a fundamental principle enshrined in the Constitution."
+  },
+  {
+    "id": 16,
+    "categorie": "Rights and Duties",
+    "question": "Is polygamy (being married to multiple people at the same time) allowed in France?",
+    "options": ["Yes, with everyone's agreement", "No, it is forbidden by law", "Yes, depending on one's religion", "Yes, if one has the financial means"],
+    "bonne_reponse": 1,
+    "explication": "Polygamy is strictly forbidden by French law and constitutes an offense."
+  },
+  {
+    "id": 17,
+    "categorie": "Life in Society",
+    "question": "You are sick and go to see a doctor. Which card must you present to be reimbursed?",
+    "options": ["Your ID card", "Your Carte Vitale (Health insurance card)", "Your bank card", "Your residence permit"],
+    "bonne_reponse": 1,
+    "explication": "The Carte Vitale allows your medical expenses to be covered by Health Insurance."
+  },
+  {
+    "id": 18,
+    "categorie": "Scenario",
+    "question": "You witness a car accident with severely injured people. Which number do you call first?",
+    "options": ["15 (SAMU - EMS) or 112", "3919", "The Town Hall number", "Your insurance number"],
+    "bonne_reponse": 0,
+    "explication": "In case of a severe medical emergency, you must dial 15 (SAMU) or 112 (European emergency number)."
+  },
+  {
+    "id": 19,
+    "categorie": "Scenario",
+    "question": "You regularly hear your neighbor beating his wife. What should you do?",
+    "options": ["Do nothing, it's their private life", "Call the police (17) or 3919", "Go separate them yourself", "Talk to the building caretaker"],
+    "bonne_reponse": 1,
+    "explication": "Domestic violence is a crime. You must alert law enforcement (17) or the dedicated violence hotline (3919)."
+  },
+  {
+    "id": 20,
+    "categorie": "Scenario",
+    "question": "During a job interview, the recruiter asks what your religion is. Are they allowed to do this?",
+    "options": ["Yes, it's normal for integration", "No, it's a discriminatory and illegal question", "Yes, if there is a company cafeteria", "Only if it is a large company"],
+    "bonne_reponse": 1,
+    "explication": "The law forbids any hiring discrimination based on religion, origin, gender, or sexual orientation."
+  },
+  {
+    "id": 21,
+    "categorie": "History and Culture",
+    "question": "In what year was the law separating the Churches and the State passed?",
+    "options": ["1789", "1804", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "The 1905 law is the founding text of modern secularism in France."
+  },
+  {
+    "id": 22,
+    "categorie": "Institutional System",
+    "question": "What is the name of the State's representative in a department?",
+    "options": ["The Mayor", "The Prefect (Préfet)", "The Deputy", "The Judge"],
+    "bonne_reponse": 1,
+    "explication": "The Prefect, appointed by the President, represents the State in the department and ensures security and public order."
+  },
+  {
+    "id": 23,
+    "categorie": "Values of the Republic",
+    "question": "Racism and anti-Semitism in France are:",
+    "options": ["Opinions like any other", "Tolerated if it's a joke", "Offenses punished by law", "Free in the name of freedom of speech"],
+    "bonne_reponse": 2,
+    "explication": "Racism is not an opinion, it is an offense repressed by the Penal Code."
+  },
+  {
+    "id": 24,
+    "categorie": "Life in Society",
+    "question": "Where must you go to register the birth of your child?",
+    "options": ["To the Prefecture", "To the Town Hall (Mairie)", "To the police station", "To the hospital only"],
+    "bonne_reponse": 1,
+    "explication": "Birth registration is mandatory and must be done at the Town Hall (civil registry office) within 5 days."
+  },
+  {
+    "id": 25,
+    "categorie": "History and Culture",
+    "question": "France is a founding country of which major organization?",
+    "options": ["The European Union", "OPEC", "NAFTA", "MERCOSUR"],
+    "bonne_reponse": 0,
+    "explication": "France participated in the creation of the European Union, along with countries like Germany and Italy, to guarantee peace."
+  },
+  {
+    "id": 26,
+    "categorie": "Scenario",
+    "question": "You are a tenant in your apartment. What must you absolutely pay in addition to your rent?",
+    "options": ["Building renovation works", "Home insurance", "The landlord's taxes", "Nothing else"],
+    "bonne_reponse": 1,
+    "explication": "Home insurance is mandatory for tenants to cover risks such as fires or water damage."
+  },
+  {
+    "id": 27,
+    "categorie": "Rights and Duties",
+    "question": "Is it allowed to make a lot of noise at home at 2 AM?",
+    "options": ["Yes, I am in my own home", "No, it is nighttime disturbance punished by law", "Yes, only on weekends", "Only if I invite my neighbors"],
+    "bonne_reponse": 1,
+    "explication": "Respecting the neighborhood is mandatory. Nighttime noise disturbance is an offense punishable by a fine."
+  },
+  {
+    "id": 28,
+    "categorie": "History and Culture",
+    "question": "Who abolished the death penalty in France in 1981?",
+    "options": ["Charles de Gaulle", "Robert Badinter", "Emmanuel Macron", "Napoleon Bonaparte"],
+    "bonne_reponse": 1,
+    "explication": "Robert Badinter, Minister of Justice under President François Mitterrand, carried the law abolishing the death penalty."
+  },
+  {
+    "id": 29,
+    "categorie": "Institutional System",
+    "question": "In which text are the fundamental rights and the organization of powers in France written?",
+    "options": ["The Highway Code", "The Constitution", "The Labor Code", "The dictionary"],
+    "bonne_reponse": 1,
+    "explication": "The Constitution of the Fifth Republic (1958) is the supreme law text in France."
+  },
+  {
+    "id": 30,
+    "categorie": "Scenario",
+    "question": "A colleague morally or sexually harasses you at work. What do you do?",
+    "options": ["I quit my job", "I hit them", "I alert my employer and file a police complaint", "I say nothing to keep my job"],
+    "bonne_reponse": 2,
+    "explication": "The employer has an obligation to protect their employees. Harassment is an offense; a complaint must be filed at the police station."
+  },
+  {
+    "id": 31,
+    "categorie": "Values of the Republic",
+    "question": "What is the national emblem of the French Republic?",
+    "options": ["The Gallic Rooster", "The blue, white, and red tricolor flag", "The fleur-de-lis", "The Phrygian cap"],
+    "bonne_reponse": 1,
+    "explication": "The blue, white, and red tricolor flag is a strong symbol used during ceremonies, sports competitions, and on public buildings."
+  },
+  {
+    "id": 32,
+    "categorie": "History and Culture",
+    "question": "On what date does the French National Holiday take place?",
+    "options": ["May 1st", "May 8th", "July 14th", "November 11th"],
+    "bonne_reponse": 2,
+    "explication": "July 14th refers to the French Revolution and particularly the storming of the Bastille in 1789."
+  },
+  {
+    "id": 33,
+    "categorie": "Rights and Duties",
+    "question": "In France, from what age to what age is school mandatory?",
+    "options": ["From 6 to 18 years old", "From 3 to 16 years old", "From 6 to 16 years old", "School is not mandatory"],
+    "bonne_reponse": 1,
+    "explication": "A child must be educated (at school or at home) from 3 to 16 years old to guarantee a common core of knowledge for everyone."
+  },
+  {
+    "id": 34,
+    "categorie": "Rights and Duties",
+    "question": "What does the legal principle 'No one is above the law' mean?",
+    "options": ["Laws do not apply to elected officials", "The law applies to everyone, even to very important people", "Only the President can change the law", "Judges are above the law"],
+    "bonne_reponse": 1,
+    "explication": "There is no untouchable person in law. If someone breaks the law, even an important person, they can be prosecuted and judged."
+  },
+  {
+    "id": 35,
+    "categorie": "Institutional System",
+    "question": "Regarding voting in France, which statement is correct?",
+    "options": ["Voting is an obligation under penalty of a fine", "Voting is forbidden after 70 years old", "Voting is a right and a civic duty, but not an obligation", "Voting is reserved for property owners"],
+    "bonne_reponse": 2,
+    "explication": "Voting is not mandatory by law in France (no penalty), but it is a right and a moral and civic duty."
+  },
+  {
+    "id": 36,
+    "categorie": "History and Culture",
+    "question": "What event is commemorated in France on the public holiday of May 8th?",
+    "options": ["The armistice of the First World War", "The end of the Second World War in Europe (1945)", "The creation of the European Union", "The birth of the Fifth Republic"],
+    "bonne_reponse": 1,
+    "explication": "May 8th celebrates the victory of the Allies and the surrender of Nazi Germany in Europe in 1945."
+  },
+  {
+    "id": 37,
+    "categorie": "Rights and Duties",
+    "question": "In principle, who exercises parental authority over a minor child?",
+    "options": ["The father only", "The mother only", "The State", "Both parents together, whether married or not"],
+    "bonne_reponse": 3,
+    "explication": "Parental authority belongs to both parents. It is the right and duty to protect the child, to ensure their education, health, and safety."
+  },
+  {
+    "id": 38,
+    "categorie": "Rights and Duties",
+    "question": "Do you have the right to join a professional trade union in France?",
+    "options": ["No, it is forbidden", "Yes, it is a right guaranteed by the Constitution", "Only if the employer agrees", "Only for civil servants"],
+    "bonne_reponse": 1,
+    "explication": "Trade union rights allow every worker to defend their rights and interests. It is a fundamental right."
+  },
+  {
+    "id": 39,
+    "categorie": "Life in Society",
+    "question": "Regarding marriage in France, which statement is true?",
+    "options": ["Religious marriage is sufficient", "Civil marriage at the town hall is mandatory before any religious marriage", "Religious marriage is forbidden", "Civil marriage takes place after the religious ceremony"],
+    "bonne_reponse": 1,
+    "explication": "Only civil marriage (celebrated at the town hall) is recognized by French law. It must obligatorily precede a potential religious ceremony."
+  },
+  {
+    "id": 40,
+    "categorie": "Rights and Duties",
+    "question": "What are the taxes paid by citizens used for?",
+    "options": ["To reimburse the campaign expenses of elected officials", "To exclusively fund the army", "To fund public services (hospitals, schools, roads, police)", "To enrich the President of the Republic"],
+    "bonne_reponse": 2,
+    "explication": "Taxes are a mandatory contribution that allows the State to function and ensures national solidarity."
+  },
+  {
+    "id": 41,
+    "categorie": "Scenario",
+    "question": "Someone is assaulted in the street in front of you. What does the law say?",
+    "options": ["You must not get involved", "You have an obligation to act, to help or call emergency services (17 or 112)", "You must film to put it on the internet", "You must flee"],
+    "bonne_reponse": 1,
+    "explication": "Doing nothing when you could call emergency services without risk to yourself is an offense called 'failure to assist a person in danger'."
+  },
+  {
+    "id": 42,
+    "categorie": "Institutional System",
+    "question": "In France, who must respect the law?",
+    "options": ["Only ordinary citizens", "Only foreigners", "Everyone, including the President of the Republic", "Judges and police are above the law"],
+    "bonne_reponse": 2,
+    "explication": "This is the principle of the rule of law: no one, not even leaders or elected officials, is above the law."
+  },
+  {
+    "id": 43,
+    "categorie": "Rights and Duties",
+    "question": "Are surveillance cameras inside your private home mandatory?",
+    "options": ["Yes, for security reasons", "Yes, if you are a tenant", "No, no one has the right to enter your home or survey you without legal authorization", "Yes, if the mayor decides"],
+    "bonne_reponse": 2,
+    "explication": "The home is inviolable. The right to respect for private life is a fundamental right in France."
+  },
+  {
+    "id": 44,
+    "categorie": "Values of the Republic",
+    "question": "Can you publicly express religious opinions in France?",
+    "options": ["No, it is totally forbidden in the street", "Yes, in compliance with the laws and the principle of secularism, without harming others", "Only if it is the Catholic religion", "Yes, you can force others to listen"],
+    "bonne_reponse": 1,
+    "explication": "Secularism guarantees freedom of religious expression in public spaces, as long as it does not disturb public order and there is no abusive proselytism."
+  },
+  {
+    "id": 45,
+    "categorie": "Scenario",
+    "question": "An employer refuses to hire you solely because of your religion or skin color. Is this legal?",
+    "options": ["Yes, the boss chooses whoever they want", "No, it is discrimination, it is forbidden and punished by law", "Yes, if they write it in the contract", "Yes, if the company is small"],
+    "bonne_reponse": 1,
+    "explication": "Hiring discrimination (based on origin, religion, gender, disability) is a serious offense punished by the Penal Code."
+  },
+  {
+    "id": 46,
+    "categorie": "Rights and Duties",
+    "question": "Is forced marriage allowed in France?",
+    "options": ["Yes, if the parents agree", "Yes, for traditional reasons", "No, forced marriage is strictly forbidden and punished by law", "Yes, if the people are adults"],
+    "bonne_reponse": 2,
+    "explication": "Marriage requires the free and informed consent of both spouses. Forcing someone to marry is a crime."
+  },
+  {
+    "id": 47,
+    "categorie": "Life in Society",
+    "question": "What do you think about coeducation (girls and boys together) in French public schools?",
+    "options": ["It is forbidden", "It is an option chosen by parents", "It is a fundamental value of republican education", "It is reserved for high school"],
+    "bonne_reponse": 2,
+    "explication": "Coeducation is mandatory in public education. It contributes to learning equality between women and men."
+  },
+  {
+    "id": 48,
+    "categorie": "Scenario",
+    "question": "Is it permitted to criticize a religion in France?",
+    "options": ["No, it is blasphemy punished by prison", "Yes, within the framework of freedom of expression, as long as there is no incitement to hate or violence", "Only on the internet", "Yes, one can insult believers"],
+    "bonne_reponse": 1,
+    "explication": "In France, the offense of blasphemy does not exist. One has the right to criticize beliefs or dogmas (freedom of expression), but one does not have the right to insult or call for hatred against believers."
+  },
+  {
+    "id": 49,
+    "categorie": "Institutional System",
+    "question": "In a prefecture or a town hall, can public agents (those who work there) wear visible religious signs?",
+    "options": ["Yes, if they wish to", "No, they are subject to a strict obligation of neutrality", "Only a cross or a Star of David", "Only during religious holidays"],
+    "bonne_reponse": 1,
+    "explication": "The principle of secularism requires public service agents to be totally neutral to guarantee equal treatment of all citizens."
+  },
+  {
+    "id": 50,
+    "categorie": "Institutional System",
+    "question": "Who is the Prefect (Préfet)?",
+    "options": ["The head of the municipal police", "The representative of the State in a department", "A judge of the court", "The mayor's replacement"],
+    "bonne_reponse": 1,
+    "explication": "The Prefect is appointed by the President of the Republic. They represent the State and the Government in each department of France."
+  },
+  {
+    "id": 51,
+    "categorie": "Institutional System",
+    "question": "How many deputies make up the National Assembly in France?",
+    "options": ["100", "348", "577", "1000"],
+    "bonne_reponse": 2,
+    "explication": "The National Assembly is composed of 577 deputies, elected by direct universal suffrage by citizens."
+  },
+  {
+    "id": 52,
+    "categorie": "History and Culture",
+    "question": "Which great river crosses the city of Paris?",
+    "options": ["The Rhône", "The Loire", "The Seine", "The Garonne"],
+    "bonne_reponse": 2,
+    "explication": "The Seine is the river that crosses the French capital before flowing into the English Channel."
+  },
+  {
+    "id": 53,
+    "categorie": "History and Culture",
+    "question": "Which mountain range is located on the border between France and Spain?",
+    "options": ["The Alps", "The Pyrenees", "The Jura", "The Vosges"],
+    "bonne_reponse": 1,
+    "explication": "The Pyrenees form a natural border in the south of France, separating the country from Spain."
+  },
+  {
+    "id": 54,
+    "categorie": "Institutional System",
+    "question": "What is the symbol of the European Union, of which France is a member country?",
+    "options": ["A blue flag with a circle of 12 gold stars", "A white flag with a dove", "A black eagle on a yellow background", "A blue, yellow, and red tricolor flag"],
+    "bonne_reponse": 0,
+    "explication": "The European flag symbolizes the ideals of unity, solidarity, and harmony among the peoples of Europe."
+  },
+  {
+    "id": 55,
+    "categorie": "Values of the Republic",
+    "question": "What does the principle of 'Indivisibility' of the French Republic mean?",
+    "options": ["That the President can divide the country in case of war", "That the law is the same everywhere and the only official language is French", "That regions can create their own laws", "That no one can leave the territory"],
+    "bonne_reponse": 1,
+    "explication": "Indivisibility ensures that laws and rights are applied equally across the entire national territory."
+  },
+  {
+    "id": 56,
+    "categorie": "Values of the Republic",
+    "question": "Does freedom of conscience in France include the right not to believe in God?",
+    "options": ["No, it is mandatory to have a religion", "Yes, one is free to believe, not to believe, or to change religion", "Only if one is of French nationality", "Yes, but it is forbidden to say it"],
+    "bonne_reponse": 1,
+    "explication": "This is the basis of secularism: the State guarantees everyone total freedom of their religious or philosophical beliefs."
+  },
+  {
+    "id": 57,
+    "categorie": "Life in Society",
+    "question": "Can students in a public school, middle school, or high school wear ostensible (highly visible) religious signs?",
+    "options": ["Yes, if they have their parents' permission", "No, public education is neutral, it is forbidden", "Yes, if it is a small cross or a small symbol", "Yes, only on Fridays"],
+    "bonne_reponse": 1,
+    "explication": "The 2004 law prohibits the wearing of signs or clothing by which students ostensibly manifest a religious affiliation."
+  },
+  {
+    "id": 58,
+    "categorie": "Institutional System",
+    "question": "The separation of powers is a fundamental principle. What are the three powers involved?",
+    "options": ["Military, Economic, Media", "Legislative, Executive, Judicial", "Presidential, Ministerial, Trade Union", "National, Regional, Departmental"],
+    "bonne_reponse": 1,
+    "explication": "To avoid dictatorship, the power to make the law (legislative), to apply it (executive), and to punish (judicial) must be separated."
+  },
+  {
+    "id": 59,
+    "categorie": "Rights and Duties",
+    "question": "What happens if a minister or a very important person does not respect the law?",
+    "options": ["Nothing happens, they are protected", "They can be prosecuted and judged by the justice system like any citizen", "They simply pay a small fine", "The President cancels the law for them"],
+    "bonne_reponse": 1,
+    "explication": "This is the essence of the rule of law: no one is above the law, regardless of their status or wealth."
+  },
+  {
+    "id": 60,
+    "categorie": "History and Culture",
+    "question": "Which continent was most affected by French decolonization after the Second World War?",
+    "options": ["South America", "Africa", "Oceania", "Eastern Europe"],
+    "bonne_reponse": 1,
+    "explication": "In the 1950s and 1960s, many countries in North Africa and Sub-Saharan Africa, formerly under French authority, gained their independence."
+  },
+  {
+    "id": 61,
+    "categorie": "History and Culture",
+    "question": "Who was Auguste Rodin?",
+    "options": ["A famous French sculptor", "A king of France in the Middle Ages", "The composer of La Marseillaise", "An explorer"],
+    "bonne_reponse": 0,
+    "explication": "Auguste Rodin is one of the greatest sculptors in history, globally known for his work 'The Thinker'."
+  },
+  {
+    "id": 62,
+    "categorie": "Rights and Duties",
+    "question": "What obligation applies to all people residing in France, regardless of their nationality?",
+    "options": ["The obligation to vote in elections", "The obligation to do military service", "Absolute respect for French laws", "The obligation to speak perfect French"],
+    "bonne_reponse": 2,
+    "explication": "As soon as a person is on French soil (French citizen, tourist, or foreign resident), they are subject to French law."
+  },
+  {
+    "id": 63,
+    "categorie": "Life in Society",
+    "question": "What is the name of the public body that assists people in their job search in France?",
+    "options": ["Social Security (La Sécurité Sociale)", "France Travail (formerly Pôle emploi)", "The Prefecture", "URSSAF"],
+    "bonne_reponse": 1,
+    "explication": "France Travail is the public employment service in France. You can register for free to get help with your job search."
+  },
+  {
+    "id": 64,
+    "categorie": "Scenario",
+    "question": "Can an employer fire a woman just because she is pregnant?",
+    "options": ["Yes, because she won't be able to work", "No, it is completely illegal and she is protected by law", "Yes, if she is still on probation", "Yes, if it is a small company"],
+    "bonne_reponse": 1,
+    "explication": "French law strictly protects pregnant women. Dismissal due to pregnancy is prohibited discrimination."
+  },
+  {
+    "id": 65,
+    "categorie": "History and Culture",
+    "question": "Which country shares a land border with metropolitan France to the northeast?",
+    "options": ["Portugal", "Belgium", "The United Kingdom", "Sweden"],
+    "bonne_reponse": 1,
+    "explication": "To the northeast, France shares its land borders with Belgium, Luxembourg, and Germany."
+  },
+  {
+    "id": 66,
+    "categorie": "Institutional System",
+    "question": "Who elects the Mayor of a town in France?",
+    "options": ["The President of the Republic", "The Prefect", "The municipal councilors (who are themselves elected by the citizens)", "The Prime Minister"],
+    "bonne_reponse": 2,
+    "explication": "Citizens elect the municipal council during municipal elections. Then, the municipal councilors gather to elect the Mayor from among themselves."
+  },
+  {
+    "id": 67,
+    "categorie": "History and Culture",
+    "question": "Which famous French writer is the author of the novel 'Les Misérables'?",
+    "options": ["Molière", "Victor Hugo", "Emile Zola", "Marcel Proust"],
+    "bonne_reponse": 1,
+    "explication": "Victor Hugo is one of the greatest writers in French literature and a fervent defender of the Republic's values."
+  },
+  {
+    "id": 68,
+    "categorie": "Institutional System",
+    "question": "Where is the official residence of the President of the Republic located?",
+    "options": ["The Louvre Palace", "The Elysée Palace", "The Palace of Versailles", "The Luxembourg Palace"],
+    "bonne_reponse": 1,
+    "explication": "The Elysée Palace, located in Paris, is the seat of the Presidency of the Republic."
+  },
+  {
+    "id": 69,
+    "categorie": "Rights and Duties",
+    "question": "In France, does a married woman need her husband's permission to open a bank account or to work?",
+    "options": ["Yes, it is mandatory", "No, she is completely independent", "Only to work", "Only to open an account"],
+    "bonne_reponse": 1,
+    "explication": "Since 1965, the law has allowed women to work and manage their assets (such as opening a bank account) without their husband's consent."
+  },
+  {
+    "id": 70,
+    "categorie": "Values of the Republic",
+    "question": "Does France have an official religion?",
+    "options": ["Yes, Catholicism", "Yes, Christianity", "No, France is a secular Republic", "Yes, all religions are official"],
+    "bonne_reponse": 2,
+    "explication": "Under the principle of secularism, the French State is neutral and neither recognizes nor subsidizes any religion."
+  },
+  {
+    "id": 71,
+    "categorie": "Life in Society",
+    "question": "From what age is it permitted to buy alcohol or tobacco in France?",
+    "options": ["16 years old", "18 years old", "21 years old", "No age limit"],
+    "bonne_reponse": 1,
+    "explication": "The sale of alcohol and tobacco is strictly forbidden to minors (under 18) for public health reasons."
+  },
+  {
+    "id": 72,
+    "categorie": "Institutional System",
+    "question": "Who is the commander-in-chief of the armed forces in France?",
+    "options": ["The Prime Minister", "The Minister of Defense", "The President of the Republic", "The most senior General"],
+    "bonne_reponse": 2,
+    "explication": "According to the Constitution of the Fifth Republic, the President of the Republic is the guarantor of national independence and the commander of the armed forces."
+  },
+  {
+    "id": 73,
+    "categorie": "History and Culture",
+    "question": "Which king of France, nicknamed the 'Sun King', built the Palace of Versailles?",
+    "options": ["Clovis", "Henry IV", "Louis XIV", "Louis XVI"],
+    "bonne_reponse": 2,
+    "explication": "Louis XIV made Versailles the symbol of the absolute power of the French royalty in the 17th century."
+  },
+  {
+    "id": 74,
+    "categorie": "Scenario",
+    "question": "You are driving and the police signal you to pull over for a check. What do you do?",
+    "options": ["I flee", "I safely pull over to the side of the road and get my papers ready", "I honk and keep going", "I get out of the car running"],
+    "bonne_reponse": 1,
+    "explication": "You must comply with law enforcement orders. Refusing to stop constitutes the offense of refusing to comply, punished by law."
+  },
+  {
+    "id": 75,
+    "categorie": "History and Culture",
+    "question": "What major civic right did French women obtain in 1944?",
+    "options": ["The right to work", "The right to vote and stand for election", "The right to drive", "The right to go to school"],
+    "bonne_reponse": 1,
+    "explication": "French women voted for the first time in 1945, after obtaining this right through an ordinance by General de Gaulle in 1944.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 76,
+    "categorie": "Rights and Duties",
+    "question": "Do employees in France have the right to strike?",
+    "options": ["No, it's a reason for dismissal", "Yes, it is a constitutional right", "Only in the public sector", "Only once a year"],
+    "bonne_reponse": 1,
+    "explication": "The right to strike is recognized and protected by the Constitution to allow employees to defend their rights and working conditions."
+  },
+  {
+    "id": 77,
+    "categorie": "Institutional System",
+    "question": "Where do the deputies of the National Assembly sit?",
+    "options": ["At the Luxembourg Palace", "At the Bourbon Palace", "At City Hall", "At the Palace of Justice"],
+    "bonne_reponse": 1,
+    "explication": "The Bourbon Palace, located in Paris, is the seat of the National Assembly where deputies debate and vote on laws.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 78,
+    "categorie": "Life in Society",
+    "question": "What should you do if you find an identity card or a passport in the street?",
+    "options": ["Keep it", "Throw it in the trash", "Hand it in at the police station, gendarmerie, or town hall", "Give it to a friend"],
+    "bonne_reponse": 2,
+    "explication": "Identity documents belong to the State. If found, they must be handed over to the competent authorities."
+  },
+  {
+    "id": 79,
+    "categorie": "History and Culture",
+    "question": "Who is the young heroine of French history, burned alive at the stake in Rouen in 1431?",
+    "options": ["Marie Curie", "Joan of Arc (Jeanne d'Arc)", "Olympe de Gouges", "Simone Veil"],
+    "bonne_reponse": 1,
+    "explication": "Joan of Arc played a major role during the Hundred Years' War to liberate France before being captured and executed."
+  },
+  {
+    "id": 80,
+    "categorie": "Scenario",
+    "question": "You witness the start of a fire in a building or a forest. Which number do you call?",
+    "options": ["15 (SAMU)", "17 (Police)", "18 (Firefighters) or 112", "3919"],
+    "bonne_reponse": 2,
+    "explication": "18 is the number for firefighters (fire and rescue), and 112 is the European emergency number valid from any phone."
+  },
+  {
+    "id": 81,
+    "categorie": "Institutional System",
+    "question": "Which court judges misdemeanors (such as simple theft or violence)?",
+    "options": ["The Correctional Court (Tribunal Correctionnel)", "The Commercial Court", "The Labor Court (Prud'hommes)", "The Assize Court (Cour d'Assises)"],
+    "bonne_reponse": 0,
+    "explication": "The Correctional Court judges misdemeanors. By comparison, the Assize Court judges the most serious crimes (like murders).",
+    "difficulte": "CR"
+  },
+  {
+    "id": 82,
+    "categorie": "Rights and Duties",
+    "question": "Is it permitted to snoop through your husband's or wife's phone or mail without their consent?",
+    "options": ["Yes, when you are married", "No, it is a violation of the secrecy of correspondence and privacy", "Yes, to check their fidelity", "Yes, if you pay the phone bill"],
+    "bonne_reponse": 1,
+    "explication": "The secrecy of correspondence and the right to privacy also apply within a couple. It is a criminal offense."
+  },
+  {
+    "id": 83,
+    "categorie": "History and Culture",
+    "question": "Among these figures, who was a great political figure who passed the law legalizing abortion (IVG) in 1975?",
+    "options": ["Marie-Antoinette", "Edith Piaf", "Simone Veil", "Catherine Deneuve"],
+    "bonne_reponse": 2,
+    "explication": "Simone Veil, a Holocaust survivor and then Minister of Health, championed this historic law for women's rights before the National Assembly."
+  },
+  {
+    "id": 84,
+    "categorie": "Life in Society",
+    "question": "France is administratively divided into communes, departments, and regions. Who leads the commune?",
+    "options": ["The Prefect", "The Mayor", "The Deputy", "The President"],
+    "bonne_reponse": 1,
+    "explication": "The Mayor, elected by the municipal council, is the head of the commune's executive. They manage local administration and local services."
+  },
+  {
+    "id": 85,
+    "categorie": "Scenario",
+    "question": "Your landlord asks you to pay your rent in cash and refuses to give you a rent receipt (quittance). What do you do?",
+    "options": ["I accept, it's normal", "I refuse, the payment must leave a trace and a receipt is a right", "I pay double", "I give the money to the caretaker"],
+    "bonne_reponse": 1,
+    "explication": "The rent receipt is a free official document. It is essential to justify your residence during administrative procedures (like at the prefecture)."
+  },
+  {
+    "id": 86,
+    "categorie": "History and Culture",
+    "question": "Which President of the Republic founded the Fifth (Ve) Republic in 1958?",
+    "options": ["François Mitterrand", "Charles de Gaulle", "Georges Pompidou", "Emmanuel Macron"],
+    "bonne_reponse": 1,
+    "explication": "General de Gaulle led the adoption of the 1958 Constitution, which created the Fifth Republic (our current system).",
+    "difficulte": "CR"
+  },
+  {
+    "id": 87,
+    "categorie": "Institutional System",
+    "question": "What is the role of the Constitutional Council?",
+    "options": ["To manage the State budget", "To lead the army", "To verify that laws respect the Constitution", "To appoint ministers"],
+    "bonne_reponse": 2,
+    "explication": "The 9 members (the 'Sages') of the Constitutional Council ensure that no law violates the fundamental rights enshrined in the Constitution.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 88,
+    "categorie": "Rights and Duties",
+    "question": "What is the legal standard working time per week in France?",
+    "options": ["30 hours", "35 hours", "39 hours", "40 hours"],
+    "bonne_reponse": 1,
+    "explication": "The legal duration is 35 hours per week. Beyond that, they are considered overtime hours which must be paid at a higher rate or compensated with time off."
+  },
+  {
+    "id": 89,
+    "categorie": "Life in Society",
+    "question": "Which free and anonymous emergency number is dedicated to women victims of violence?",
+    "options": ["15", "119", "3919", "112"],
+    "bonne_reponse": 2,
+    "explication": "3919 (Violences Femmes Info) is the national reference number for women victims of violence (domestic, sexual, psychological)."
+  },
+  {
+    "id": 90,
+    "categorie": "Institutional System",
+    "question": "What happens if the President of the Republic dies or resigns from office?",
+    "options": ["The Prime Minister takes their place", "The army takes power", "The President of the Senate acts as interim", "The National Assembly votes for a new president"],
+    "bonne_reponse": 2,
+    "explication": "The President of the Senate temporarily takes over, while new presidential elections are organized within a very short timeframe.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 91,
+    "categorie": "History and Culture",
+    "question": "Which famous Parisian monument was built for the 1889 Universal Exhibition?",
+    "options": ["The Arc de Triomphe", "The Louvre Museum", "The Eiffel Tower", "The Pompidou Center"],
+    "bonne_reponse": 2,
+    "explication": "The Eiffel Tower, designed by engineer Gustave Eiffel, was initially meant to be destroyed after the exhibition but became the symbol of France."
+  },
+  {
+    "id": 92,
+    "categorie": "Values of the Republic",
+    "question": "What does the word 'Fraternity' (Fraternité) mean in the French motto?",
+    "options": ["The obligation to have brothers and sisters", "Solidarity among all citizens of the Republic", "Strict obedience to the State", "The rejection of foreigners"],
+    "bonne_reponse": 1,
+    "explication": "Fraternity is the principle of solidarity. It is expressed notably through the social security system where everyone contributes to protect the most vulnerable."
+  },
+  {
+    "id": 93,
+    "categorie": "Scenario",
+    "question": "You are offered to work 'under the table' (undeclared). What are the risks?",
+    "options": ["It's advantageous to avoid paying taxes", "It's legal for small jobs", "It is an offense (concealed work), you will have no unemployment insurance or pension in case of an accident", "It's only risky for the boss"],
+    "bonne_reponse": 2,
+    "explication": "Concealed work is strictly forbidden. The employee loses all social rights (Social Security, paid leave, pension) and risks being deported or having their residence card refused."
+  },
+  {
+    "id": 94,
+    "categorie": "Rights and Duties",
+    "question": "What is the 'Right of Asylum' (Droit d'asile) in France?",
+    "options": ["The right to have free housing", "The protection granted by France to a person persecuted in their country (war, opinions, religion)", "The right to free medical care", "The obligation to host homeless people"],
+    "bonne_reponse": 1,
+    "explication": "The right of asylum is a fundamental principle of the Republic, inherited from the French Revolution, to protect those whose lives or freedom are threatened."
+  },
+  {
+    "id": 95,
+    "categorie": "History and Culture",
+    "question": "What major event took place in France in 'May 68' (1968)?",
+    "options": ["The end of the Algerian War", "Large workers' strikes and student protests", "The creation of the European Union", "The election of the first President"],
+    "bonne_reponse": 1,
+    "explication": "May 68 was a student and worker social protest movement that profoundly transformed French society (liberation of morals, employee rights).",
+    "difficulte": "CR"
+  },
+  {
+    "id": 96,
+    "categorie": "Values of the Republic",
+    "question": "In a public school, what does secularism mean for teachers?",
+    "options": ["They must teach the Catholic religion", "They have an obligation to be strict", "They are subject to a duty of neutrality and must not show any religious or political affiliation", "They have the right to spread propaganda"],
+    "bonne_reponse": 2,
+    "explication": "This is the principle of State neutrality: public agents (like teachers) do not have the right to manifest their personal beliefs at work."
+  },
+  {
+    "id": 97,
+    "categorie": "Scenario",
+    "question": "You are a victim of discrimination (in housing or employment). Who can you appeal to for free?",
+    "options": ["The President of the Republic", "The Defender of Rights (Défenseur des droits)", "The Town Hall only", "The firefighters"],
+    "bonne_reponse": 1,
+    "explication": "The Defender of Rights is a State institution responsible for protecting citizens' rights and fighting against discrimination. Filing a claim is free.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 98,
+    "categorie": "Institutional System",
+    "question": "Public schools in France are:",
+    "options": ["Secular, paid, and compulsory", "Secular, free, and compulsory (from 3 to 16 years old)", "Religious, free, and optional", "Secular, free, and compulsory for boys only"],
+    "bonne_reponse": 1,
+    "explication": "Since the Jules Ferry laws (1881-1882), public school has been a pillar of the Republic: it is free for all, secular, and compulsory."
+  },
+  {
+    "id": 99,
+    "categorie": "Rights and Duties",
+    "question": "Can you be naturalized as French (obtain nationality) if you have been sentenced to a heavy prison term?",
+    "options": ["Yes, no problem", "Only if you have paid a fine", "No, the law requires you to be of 'good life and morals' and to have no serious criminal record", "Yes, if you have lived in France for 10 years"],
+    "bonne_reponse": 2,
+    "explication": "Naturalization is not a right, but a decision of the State. A criminal record with heavy sentences is a reason for refusal."
+  },
+  {
+    "id": 100,
+    "categorie": "History and Culture",
+    "question": "Which philosopher of the Enlightenment wrote 'The Social Contract'?",
+    "options": ["Voltaire", "Jean-Jacques Rousseau", "Montesquieu", "René Descartes"],
+    "bonne_reponse": 1,
+    "explication": "Rousseau laid the foundations of modern democracy by asserting that power belongs to the people.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 101,
+    "categorie": "History and Culture",
+    "question": "Who launched the Appeal of June 18, 1940 on London radio to refuse defeat?",
+    "options": ["Marshal Pétain", "General de Gaulle", "Jean Moulin", "Winston Churchill"],
+    "bonne_reponse": 1,
+    "explication": "General de Gaulle called on the French to resist the Nazi occupation from London.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 102,
+    "categorie": "History and Culture",
+    "question": "Which great scientist, a two-time Nobel Prize winner, is buried in the Panthéon?",
+    "options": ["Louis Pasteur", "Marie Curie", "Albert Einstein", "Thomas Edison"],
+    "bonne_reponse": 1,
+    "explication": "Marie Curie, a physicist and chemist of Polish origin and naturalized French citizen, is famous for her work on radioactivity."
+  },
+  {
+    "id": 103,
+    "categorie": "Rights and Duties",
+    "question": "Is car insurance mandatory in France?",
+    "options": ["No, it's optional", "Yes, for all motorized vehicles (car, scooter, electric scooter)", "Only for new cars", "Only if you transport passengers"],
+    "bonne_reponse": 1,
+    "explication": "'Third-party liability' insurance is mandatory to compensate victims in the event of an accident."
+  },
+  {
+    "id": 104,
+    "categorie": "Values of the Republic",
+    "question": "Does freedom of expression have limits in France?",
+    "options": ["No, you can say anything", "Yes, incitement to hatred, defamation, and insults are punished by law", "Yes, it is forbidden to criticize the government", "Only on the internet"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of expression is fundamental, but it stops where offenses begin (racism, homophobia, calls to violence)."
+  },
+  {
+    "id": 105,
+    "categorie": "Scenario",
+    "question": "You have lost your residence permit or it has been stolen. What do you do?",
+    "options": ["I wait for it to expire", "I immediately file a loss/theft report with the police and then ask the prefecture for a duplicate", "I travel with a photocopy", "I ask the town hall to make a new one"],
+    "bonne_reponse": 1,
+    "explication": "The residence permit is an official document. In case of loss or theft, a report to law enforcement is mandatory before contacting the prefecture."
+  },
+  {
+    "id": 106,
+    "categorie": "Institutional System",
+    "question": "What is the official currency of France since 2002?",
+    "options": ["The Franc", "The Euro", "The Dollar", "The Pound sterling"],
+    "bonne_reponse": 1,
+    "explication": "The Euro (€) is the single currency adopted by France and a large part of the European Union countries."
+  },
+  {
+    "id": 107,
+    "categorie": "History and Culture",
+    "question": "In what year was slavery definitively abolished in France?",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Thanks notably to Victor Schœlcher, slavery was definitively abolished in the French colonies in 1848.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 108,
+    "categorie": "History and Culture",
+    "question": "What is a DROM-COM (formerly DOM-TOM)?",
+    "options": ["A local tax", "An Overseas Department or Territory (e.g., Guadeloupe, Martinique, Reunion Island)", "An administrative document", "A former king of France"],
+    "bonne_reponse": 1,
+    "explication": "The overseas territories are an integral part of the French Republic, even though they are far from Europe."
+  },
+  {
+    "id": 109,
+    "categorie": "Scenario",
+    "question": "Is it permitted to hit a child as part of their education in France?",
+    "options": ["Yes, if it's not hard", "No, ordinary educational violence is forbidden by law", "Yes, only the parents", "Yes, only at home"],
+    "bonne_reponse": 1,
+    "explication": "Since 2019, the Civil Code specifies that parental authority must be exercised without physical or psychological violence."
+  },
+  {
+    "id": 110,
+    "categorie": "History and Culture",
+    "question": "Which emperor ordered the construction of the Arc de Triomphe in Paris?",
+    "options": ["Charlemagne", "Louis XIV", "Napoleon Bonaparte", "Julius Caesar"],
+    "bonne_reponse": 2,
+    "explication": "Napoleon I ordered its construction in 1806 to celebrate the victories of the French armies."
+  },
+  {
+    "id": 111,
+    "categorie": "Life in Society",
+    "question": "What is the CAF in France?",
+    "options": ["The French Call Center", "The Family Allowance Fund (Caisse d'Allocations Familiales)", "The Committee for Aid to Families", "A French diploma"],
+    "bonne_reponse": 1,
+    "explication": "The CAF is a public body that pays financial aid to families (housing aid, birth grants, family allowances)."
+  },
+  {
+    "id": 112,
+    "categorie": "Values of the Republic",
+    "question": "At work, for the same position and equal skills, should a man and a woman receive the same salary?",
+    "options": ["No, the man must earn more", "No, the woman must earn more", "Yes, this is the legal principle of equal pay", "The employer decides freely"],
+    "bonne_reponse": 2,
+    "explication": "Equal pay between women and men is enshrined in the law. Not respecting it is discrimination."
+  },
+  {
+    "id": 113,
+    "categorie": "Institutional System",
+    "question": "What is the term length of a Mayor?",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 2,
+    "explication": "Municipal elections are held every 6 years.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 114,
+    "categorie": "Rights and Duties",
+    "question": "Can a foreigner holding a residence card or resident card vote in the French presidential election?",
+    "options": ["Yes", "No, national voting rights are reserved for citizens of French nationality", "Yes, if they pay taxes", "Yes, if they have lived here for 10 years"],
+    "bonne_reponse": 1,
+    "explication": "To vote in national elections (Presidential, Legislative), one must obligatorily possess French nationality."
+  },
+  {
+    "id": 115,
+    "categorie": "Scenario",
+    "question": "A friend asks you to lend them your Carte Vitale to go to the doctor because they have no papers. What do you do?",
+    "options": ["I accept out of solidarity", "I refuse, the Carte Vitale is strictly personal and lending it is a fraud liable to prosecution", "I sell them access", "I accompany them to make it pass"],
+    "bonne_reponse": 1,
+    "explication": "Health Insurance fraud is a serious offense. Legal mechanisms exist (like State Medical Assistance) for undocumented people."
+  },
+  {
+    "id": 116,
+    "categorie": "Rights and Duties",
+    "question": "If you are randomly selected to be an assize juror (participate in a criminal trial), can you refuse?",
+    "options": ["Yes, without justification", "No, it is a mandatory civic duty (except for serious reasons)", "Yes, if you don't like the justice system", "Only if you don't have time"],
+    "bonne_reponse": 1,
+    "explication": "Being an assize juror is a civic duty for French citizens. An unjustified refusal is punished by a fine.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 117,
+    "categorie": "Scenario",
+    "question": "Is the practice of excision (female genital mutilation) tolerated in France for cultural reasons?",
+    "options": ["Yes, if the religion demands it", "Yes, but only performed by a doctor", "No, it is a serious crime punished by imprisonment", "Yes, if the parents agree"],
+    "bonne_reponse": 2,
+    "explication": "Physical integrity is guaranteed by law. Excision is considered intentional violence resulting in mutilation; it is a severely punished crime."
+  },
+  {
+    "id": 118,
+    "categorie": "History and Culture",
+    "question": "Which European institution has its seat in Strasbourg, France?",
+    "options": ["The European Central Bank", "The European Parliament", "The UN", "NATO"],
+    "bonne_reponse": 1,
+    "explication": "The European Parliament, where MEPs representing the citizens of the Union sit, is located in Strasbourg.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 119,
+    "categorie": "Institutional System",
+    "question": "The Senate examines laws alongside the National Assembly. Who elects the senators?",
+    "options": ["Citizens by direct suffrage", "The President", "The 'grand electors' (mayors, councilors, deputies)", "The Constitutional Council"],
+    "bonne_reponse": 2,
+    "explication": "Unlike deputies, senators are elected by indirect universal suffrage by other elected officials of the Republic.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 120,
+    "categorie": "Scenario",
+    "question": "Your employer forces you to work overtime but refuses to pay you for it. What do you do?",
+    "options": ["I accept so I don't lose my job", "I file a claim with the Labor Inspectorate or the Labor Court (Prud'hommes)", "I steal equipment to compensate", "I threaten my boss"],
+    "bonne_reponse": 1,
+    "explication": "Any hours worked must be paid. The Labor Court (Conseil des Prud'hommes) is the court responsible for settling disputes between employers and employees."
+  },
+  {
+    "id": 121,
+    "categorie": "History and Culture",
+    "question": "Who wrote the lyrics of La Marseillaise, the French national anthem?",
+    "options": ["Victor Hugo", "Rouget de Lisle", "Napoleon Bonaparte", "Jean-Jacques Rousseau"],
+    "bonne_reponse": 1,
+    "explication": "Rouget de Lisle wrote this 'War Song for the Army of the Rhine' in 1792, in Strasbourg.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 122,
+    "categorie": "Institutional System",
+    "question": "What is the minimum legal age to run for the presidential election in France?",
+    "options": ["18 years old", "21 years old", "35 years old", "40 years old"],
+    "bonne_reponse": 0,
+    "explication": "Any adult French citizen (18 years old) enjoying their civic rights can run, provided they gather 500 sponsorships from elected officials.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 123,
+    "categorie": "Rights and Duties",
+    "question": "Which emergency number is specifically reserved for deaf or hard-of-hearing people (via SMS or fax)?",
+    "options": ["15", "114", "119", "112"],
+    "bonne_reponse": 1,
+    "explication": "114 allows people who have difficulty hearing or speaking to contact emergency services in writing."
+  },
+  {
+    "id": 124,
+    "categorie": "Life in Society",
+    "question": "Within what timeframe must a death be declared at the town hall?",
+    "options": ["Within 24 hours", "Within 48 hours", "Within a week", "There is no time limit"],
+    "bonne_reponse": 0,
+    "explication": "Declaring a death is a mandatory procedure that must be done within 24 hours (excluding weekends and public holidays) at the town hall of the place of death."
+  },
+  {
+    "id": 125,
+    "categorie": "History and Culture",
+    "question": "What great political principle was theorized by Montesquieu in the 18th century?",
+    "options": ["The abolition of slavery", "The separation of powers", "Women's right to vote", "Secularism"],
+    "bonne_reponse": 1,
+    "explication": "Montesquieu theorized the separation of powers (legislative, executive, judicial) to prevent tyranny.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 126,
+    "categorie": "Institutions",
+    "question": "Which building houses the Senate in France?",
+    "options": ["The Bourbon Palace", "The Elysée Palace", "The Luxembourg Palace", "Hôtel Matignon"],
+    "bonne_reponse": 2,
+    "explication": "The Senate (the upper house of Parliament) sits at the Luxembourg Palace in Paris.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 127,
+    "categorie": "Scenario",
+    "question": "You are a victim of sexist harassment or sexist outrage in the street. Is this punished by law?",
+    "options": ["No, the street is a free space", "Yes, it is an offense punished by a heavy fine", "Only if it is at night", "Only if there are physical injuries"],
+    "bonne_reponse": 1,
+    "explication": "Sexist outrage (obscene remarks, persistent whistling, being followed in the street) is fined by law enforcement to protect women in public spaces."
+  },
+  {
+    "id": 128,
+    "categorie": "Rights and Duties",
+    "question": "What is the PACS in France?",
+    "options": ["A local tax", "The Civil Solidarity Pact, a legal union between two adult persons", "Housing aid", "A mandatory training course"],
+    "bonne_reponse": 1,
+    "explication": "The PACS allows two people (of the same sex or different sexes) to organize their life together with social and tax rights."
+  },
+  {
+    "id": 129,
+    "categorie": "History and Culture",
+    "question": "What event marked the end of absolute monarchy in France?",
+    "options": ["The Hundred Years' War", "The French Revolution of 1789", "The First World War", "May 68"],
+    "bonne_reponse": 1,
+    "explication": "The Revolution of 1789 put an end to the privileges of the nobility and established the sovereignty of the people.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 130,
+    "categorie": "Life in Society",
+    "question": "How much does it cost to register on the electoral roll to be able to vote (for French citizens)?",
+    "options": ["50 euros", "It is totally free", "10 euros per year", "It depends on your income"],
+    "bonne_reponse": 1,
+    "explication": "The right to vote is free. Registering at the town hall costs nothing."
+  },
+  {
+    "id": 131,
+    "categorie": "Institutional System",
+    "question": "Our current Constitution (that of the Fifth Republic) was adopted in what year?",
+    "options": ["1789", "1905", "1945", "1958"],
+    "bonne_reponse": 3,
+    "explication": "The Constitution of the Fifth Republic was approved by referendum in 1958 under the leadership of Charles de Gaulle."
+  },
+  {
+    "id": 132,
+    "categorie": "History and Culture",
+    "question": "What was the currency of France before the transition to the Euro?",
+    "options": ["The Sesterce", "The Franc", "The Écu", "The Louis d'or"],
+    "bonne_reponse": 1,
+    "explication": "The French Franc was the national currency until its definitive replacement by the Euro in 2002.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 133,
+    "categorie": "Rights and Duties",
+    "question": "In France, how many weeks of paid leave is a full-time employee entitled to over a full year?",
+    "options": ["2 weeks", "3 weeks", "5 weeks", "None, it's at the boss's discretion"],
+    "bonne_reponse": 2,
+    "explication": "French labor law guarantees a minimum of 5 weeks of paid leave per year for all employees."
+  },
+  {
+    "id": 134,
+    "categorie": "Scenario",
+    "question": "Can you mow your lawn or do very noisy work on Sundays all day?",
+    "options": ["Yes, it's the only day I don't work", "No, noise hours are strictly regulated by the town hall or the prefecture", "Yes, if I invite my neighbors", "Only in summer"],
+    "bonne_reponse": 1,
+    "explication": "On Sundays, out of respect for everyone's rest, noisy activities are generally forbidden, or limited to a short time slot in the morning."
+  },
+  {
+    "id": 135,
+    "categorie": "History and Culture",
+    "question": "Which King of the Franks converted to Catholicism around the year 496, marking the beginning of the alliance between the Church and royalty?",
+    "options": ["Charlemagne", "Clovis", "Louis XVI", "Francis I"],
+    "bonne_reponse": 1,
+    "explication": "The baptism of Clovis is considered a founding act in the history of the Kingdom of France.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 136,
+    "categorie": "Values of the Republic",
+    "question": "Is it permitted to create a newspaper or a website to criticize the decisions of the President of the Republic?",
+    "options": ["No, it's an offense", "Yes, it is guaranteed by freedom of the press and freedom of expression", "Only during elections", "Only if the newspaper is validated by the State"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of the press allows journalists and citizens to freely criticize political power, as long as there is no defamation."
+  },
+  {
+    "id": 137,
+    "categorie": "Scenario",
+    "question": "You buy a product online and change your mind. Do you have the right to send it back?",
+    "options": ["No, the purchase is final", "Yes, you have a 14-day withdrawal period", "Only if the product is broken", "Only within 24 hours"],
+    "bonne_reponse": 1,
+    "explication": "Consumer law protects the buyer. For a remote purchase, you have 14 days to change your mind and get a refund."
+  },
+  {
+    "id": 138,
+    "categorie": "Institutional System",
+    "question": "What does the character of Marianne wear on her head as a symbol of freedom?",
+    "options": ["A gold crown", "A military helmet", "A Phrygian cap", "A white scarf"],
+    "bonne_reponse": 2,
+    "explication": "The red Phrygian cap was worn by freed slaves in Rome and was adopted by French revolutionaries as a symbol of freedom.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 139,
+    "categorie": "Life in Society",
+    "question": "In France, must household waste (garbage) be sorted?",
+    "options": ["No, you put everything in the same bag", "Yes, selective sorting (glass, plastic, cardboard, food waste) is mandatory", "It is optional", "Only in big cities"],
+    "bonne_reponse": 1,
+    "explication": "Sorting waste is a legal and civic obligation to allow for recycling and to protect the environment."
+  },
+  {
+    "id": 140,
+    "categorie": "Scenario",
+    "question": "A doctor refuses to treat you because you receive State aid (like CSS or AME). Are they allowed to do this?",
+    "options": ["Yes, they decide who their patients are", "No, refusing care for this reason is illegal discrimination", "Yes, if they already have too many patients", "Only if they are a specialist"],
+    "bonne_reponse": 1,
+    "explication": "A healthcare professional cannot refuse care to a patient on the grounds that they benefit from solidary health coverage."
+  },
+  {
+    "id": 141,
+    "categorie": "History and Culture",
+    "question": "Which French statesman is considered one of the 'Fathers of Europe' for his 1950 declaration?",
+    "options": ["Napoleon Bonaparte", "Robert Schuman", "Georges Clemenceau", "Jean Jaurès"],
+    "bonne_reponse": 1,
+    "explication": "Robert Schuman's declaration laid the foundations for what later became the European Union.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 142,
+    "categorie": "Rights and Duties",
+    "question": "In what year was Social Security (Sécurité Sociale) created in France?",
+    "options": ["1789", "1905", "1945", "1981"],
+    "bonne_reponse": 2,
+    "explication": "At the end of the Second World War (1945), Social Security was established to protect citizens against illness, workplace accidents, and for retirement."
+  },
+  {
+    "id": 143,
+    "categorie": "Institutional System",
+    "question": "Which musical piece is the official anthem of the European Union?",
+    "options": ["L'Hymne à l'Amour", "La Marseillaise", "Beethoven's Ode to Joy", "Vivaldi's Four Seasons"],
+    "bonne_reponse": 2,
+    "explication": "The Ode to Joy expresses the ideals of freedom, peace, and solidarity of the European Union."
+  },
+  {
+    "id": 144,
+    "categorie": "Scenario",
+    "question": "You witness a racist insult in a public place. What does French law do?",
+    "options": ["It allows it (freedom of expression)", "It condemns racist insults, which is an offense punished by fines or prison", "It doesn't deal with it", "It only punishes it if it's on television"],
+    "bonne_reponse": 1,
+    "explication": "Racism is not an opinion, it's a crime. The law protects victims against insults and incitement to hatred."
+  },
+  {
+    "id": 145,
+    "categorie": "Institutional System",
+    "question": "If the Mayor resigns, who replaces them while waiting for a new election?",
+    "options": ["The Prefect", "A deputy mayor (adjoint au maire)", "The chief of police", "The town priest"],
+    "bonne_reponse": 1,
+    "explication": "It is generally the first deputy mayor who acts as interim until the municipal council elects a new mayor.",
+    "difficulte": "CR"
+  },
+  {
+    "id": 146,
+    "categorie": "Scenario",
+    "question": "Someone rings your doorbell to sell you a subscription and insists strongly. Are you obliged to let them in?",
+    "options": ["Yes, it's the law", "No, your home is private, you have the right to refuse and close the door", "Only if they show a badge", "Yes, if they work for the electricity company"],
+    "bonne_reponse": 1,
+    "explication": "Abusive door-to-door sales are strictly regulated. The home is inviolable; no one can enter without your agreement or without a judicial warrant."
+  },
+  {
+    "id": 147,
+    "categorie": "History and Culture",
+    "question": "What was the nickname given to the French army during the First World War?",
+    "options": ["Les Grognards", "Les Poilus", "Les Partisans", "Les Maquisards"],
+    "bonne_reponse": 1,
+    "explication": "The French soldiers in the trenches of 14-18 were nicknamed the 'Poilus' because of their difficult living conditions."
+  },
+  {
+    "id": 148,
+    "categorie": "Life in Society",
+    "question": "What is the name of the tax paid by property owners in France?",
+    "options": ["Income tax (L'impôt sur le revenu)", "VAT (La TVA)", "Property tax (La taxe foncière)", "Housing tax (La taxe d'habitation)"],
+    "bonne_reponse": 2,
+    "explication": "The property tax (taxe foncière) is a local tax owed each year by owners of real estate (apartments, houses, land)."
+  },
+  {
+    "id": 149,
+    "categorie": "Rights and Duties",
+    "question": "Do parents have a duty to provide for the needs (food, clothing, housing) of their adult child if the child cannot do so themselves?",
+    "options": ["No, it's over at 18", "Yes, it is the maintenance obligation (obligation alimentaire) that binds parents and children", "Only until 21 years old", "Only if they are a student"],
+    "bonne_reponse": 1,
+    "explication": "Family solidarity is a legal obligation. Parents must help their children in need (and conversely, children must help their elderly parents).",
+    "difficulte": "CR"
+  },
+  {
+    "id": 150,
+    "categorie": "Values of the Republic",
+    "question": "Access to care in French public hospitals is:",
+    "options": ["Reserved for the richest", "Reserved strictly for French citizens", "Accessible to all, with coverage according to social rights", "Paid before entering"],
+    "bonne_reponse": 2,
+    "explication": "The French healthcare system is based on universal solidarity. The public hospital treats everyone, regardless of their origin or social situation."
+  }
+]
