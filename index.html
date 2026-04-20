@@ -215,15 +215,22 @@
             </div>
         </div>
     </main>
+    
     <footer class="container mx-auto max-w-md px-4 pb-12 text-center">
         <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
+        <div class="flex justify-center gap-4 mb-3 text-[10px] font-bold text-gray-500 uppercase">
+            <button onclick="UI.switchScreen('screen-legal')" class="hover:text-bleu-france">Mentions Légales</button>
+            <span>|</span>
+            <button onclick="UI.switchScreen('screen-privacy')" class="hover:text-bleu-france">Confidentialité</button>
+        </div>
         <p class="text-[9px] text-gray-400 uppercase font-black tracking-[0.2em]">
             © 2026 CarteSejour.fr . Tous droits réservés.
         </p>
         <p class="text-[8px] text-gray-300 mt-1 italic">
-            Toute reproduction ou exploitation, même partielle, est strictement interdite sans accord préalable.
+            Toute reproduction ou exploitation, même partielle, est strictement interdite. Ce site n'est pas affilié au gouvernement français.
         </p>
     </footer>
+    
     <div id="modal-adblock" class="hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-[300] flex flex-col items-center justify-center p-6 text-center backdrop-blur-sm">
         <div class="bg-white max-w-sm w-full p-8 shadow-2xl border-t-4 border-rouge-marianne rounded">
             <span class="text-4xl mb-4 block">🛑</span>
