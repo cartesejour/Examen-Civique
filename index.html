@@ -167,7 +167,7 @@
 
                 <div id="vue-journees" class="space-y-4">
                     <div class="border border-gray-200 rounded overflow-hidden">
-                        <button class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between">
                             <span>📅 Journée 1 : Principes et Valeurs</span>
                             <span>▼</span>
                         </button>
@@ -197,19 +197,168 @@
                             
                         </div>
                     </div>
-                    
-                    <button class="w-full bg-gray-50 border border-gray-200 p-4 text-left font-bold text-sm text-gray-500 uppercase flex justify-between">
-                        <span>📅 Journée 2 : Vivre en France (Bientôt)</span><span>▶</span>
-                    </button>
-                    <button class="w-full bg-gray-50 border border-gray-200 p-4 text-left font-bold text-sm text-gray-500 uppercase flex justify-between">
-                        <span>📅 Journée 3 : Démarches & Emploi (Bientôt)</span><span>▶</span>
-                    </button>
+                    <div class="border border-gray-200 rounded overflow-hidden mt-4">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between hover:bg-gray-200">
+                            <span>📅 Journée 2 : Vivre en France</span>
+                            <span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">1. La Santé et l'Assurance Maladie</h4>
+                                <p class="mb-2">Le système de santé français repose sur la solidarité. L'accès aux soins est garanti pour tous.</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>La Carte Vitale :</strong> Elle contient vos droits à l'Assurance Maladie et permet d'être remboursé rapidement de vos frais médicaux.</li>
+                                    <li><strong>Le Médecin traitant :</strong> Vous devez déclarer un médecin généraliste référent pour bénéficier du meilleur taux de remboursement.</li>
+                                    <li><strong>Urgences :</strong> Appelez le <strong>15</strong> (SAMU), le <strong>18</strong> (Pompiers) ou le <strong>112</strong> (Européen).</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">2. L'Emploi et le Droit du Travail</h4>
+                                <p class="mb-2">La loi protège les salariés avec un temps de travail réglementé (généralement 35h/semaine) et un salaire minimum légal (le SMIC).</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>France Travail (Pôle Emploi) :</strong> L'organisme public pour vous accompagner dans vos recherches d'emploi ou vos formations.</li>
+                                    <li><strong>Les Contrats :</strong> Le CDI (durée indéterminée) et le CDD (durée déterminée) sont les contrats les plus courants. Le travail "au noir" (non déclaré) est un délit grave.</li>
+                                    <li><strong>Droits :</strong> Vous avez droit à 5 semaines de congés payés par an et au droit de grève (protégé par la Constitution).</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">3. Logement et Démarches Familiales</h4>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>Assurance Habitation :</strong> Elle est strictement obligatoire si vous êtes locataire.</li>
+                                    <li><strong>La CAF (Caisse d'Allocations Familiales) :</strong> Organisme qui peut verser des aides financières selon vos revenus (aides au logement, primes de naissance).</li>
+                                    <li><strong>École :</strong> L'instruction est obligatoire, gratuite et laïque pour tous les enfants (filles et garçons) de <strong>3 à 16 ans</strong>.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded overflow-hidden mt-4">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between hover:bg-gray-200">
+                            <span>📅 Journée 3 : Démarches & Institutions</span>
+                            <span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">1. Impôts et Démarches Administratives</h4>
+                                <p class="mb-2">La participation de chacun au financement des services publics est un devoir citoyen.</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>La déclaration de revenus :</strong> Elle est <strong>obligatoire</strong> chaque année en France, même si vous ne travaillez pas ou si vos revenus sont à 0. Elle est indispensable pour obtenir certaines aides (comme la CAF).</li>
+                                    <li><strong>Service-Public.fr :</strong> C'est le site officiel de l'État pour trouver tous les formulaires et connaître vos droits (logement, famille, justice).</li>
+                                    <li><strong>Changement de situation :</strong> Tout déménagement, mariage, ou naissance doit être signalé rapidement aux différentes administrations (Préfecture, CAF, Impôts).</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">2. Mobilité et Permis de Conduire</h4>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>Le Permis étranger :</strong> Selon votre pays d'origine, vous avez un délai limité (souvent 1 an après l'obtention de votre premier titre de séjour) pour demander l'échange de votre permis contre un permis français.</li>
+                                    <li><strong>L'Assurance :</strong> Conduire sans assurance "Responsabilité Civile" est un délit grave. Elle est obligatoire pour tous les véhicules à moteur.</li>
+                                </ul>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">3. Les Institutions de la République</h4>
+                                <p class="mb-2">La France est une démocratie où les pouvoirs sont strictement séparés pour éviter toute forme de dictature (l'État de Droit).</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>Le Pouvoir Exécutif :</strong> Le Président de la République (élu pour 5 ans au suffrage universel) et son Gouvernement (dirigé par le Premier ministre) appliquent les lois et dirigent le pays.</li>
+                                    <li><strong>Le Pouvoir Législatif :</strong> Le Parlement, composé de l'Assemblée Nationale (les députés) et du Sénat, rédige et vote les lois.</li>
+                                    <li><strong>L'Engagement citoyen :</strong> Même sans le droit de vote national, les étrangers en situation régulière ont le droit de créer ou de participer à des associations (loi 1901) pour s'investir dans la société, ou d'être élus représentants des parents d'élèves.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div id="vue-themes" class="hidden space-y-2">
-                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Droits et devoirs</span><span>▶</span></button>
-                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Histoire et culture</span><span>▶</span></button>
-                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Système institutionnel</span><span>▶</span></button>
+                <div id="vue-themes" class="hidden space-y-3 mt-4">
+                    
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-[11px] uppercase flex justify-between items-center hover:bg-gray-200">
+                            <span class="text-bleu-france">⚖️ Droits et devoirs</span><span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <p class="mb-2">Être citoyen ou résident en France implique un équilibre entre les droits garantis par l'État et les devoirs envers la société.</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>L'impôt :</strong> Payer ses impôts est un devoir fondamental pour financer les services publics (hôpitaux, écoles). La déclaration annuelle est obligatoire.</li>
+                                    <li><strong>L'école :</strong> L'instruction est un droit et un devoir. Elle est obligatoire pour tous les enfants de <strong>3 à 16 ans</strong>.</li>
+                                    <li><strong>Égalité stricte :</strong> La loi garantit les mêmes droits aux hommes et aux femmes (salaires, libertés). La polygamie et les mariages forcés sont strictement interdits.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-[11px] uppercase flex justify-between items-center hover:bg-gray-200">
+                            <span class="text-bleu-france">🏰 Histoire, géographie et culture</span><span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-gray-900 mb-1 text-xs">Dates clés à retenir :</h4>
+                                <ul class="list-disc pl-4 space-y-1 text-xs mb-3">
+                                    <li><strong>1789 :</strong> Révolution française et Déclaration des Droits de l'Homme.</li>
+                                    <li><strong>1905 :</strong> Loi de séparation des Églises et de l'État (Laïcité).</li>
+                                    <li><strong>1944 :</strong> Droit de vote accordé aux femmes.</li>
+                                    <li><strong>1958 :</strong> Création de la Ve République (notre constitution actuelle) par Charles de Gaulle.</li>
+                                </ul>
+                                <h4 class="font-black text-gray-900 mb-1 text-xs mt-2">Géographie :</h4>
+                                <p class="text-xs">La France est traversée par de grands fleuves (La Seine, le Rhône, la Loire) et possède des frontières naturelles comme les <strong>Pyrénées</strong> (frontière avec l'Espagne) ou les <strong>Alpes</strong>. La France est un pays fondateur de l'<strong>Union européenne</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-[11px] uppercase flex justify-between items-center hover:bg-gray-200">
+                            <span class="text-bleu-france">🤝 Principes et valeurs de la République</span><span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <p class="mb-2 text-xs">La France est une République <strong>indivisible, laïque, démocratique et sociale</strong>.</p>
+                                <ul class="list-disc pl-4 space-y-1 text-xs">
+                                    <li><strong>Indivisible :</strong> La loi est la même pour tous, partout sur le territoire. La seule langue officielle est le français.</li>
+                                    <li><strong>Laïque :</strong> L'État est neutre. Chacun est libre de croire ou de ne pas croire. Le prosélytisme abusif est interdit.</li>
+                                    <li><strong>Démocratique :</strong> Le pouvoir appartient au peuple qui vote pour ses représentants ("Gouvernement du peuple, par le peuple, pour le peuple").</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-[11px] uppercase flex justify-between items-center hover:bg-gray-200">
+                            <span class="text-bleu-france">🏛️ Système institutionnel et politique</span><span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <ul class="list-disc pl-4 space-y-2 text-xs">
+                                    <li><strong>Le Président :</strong> Élu pour 5 ans. Il réside au Palais de l'Élysée. Il nomme le Premier ministre.</li>
+                                    <li><strong>Le Parlement :</strong> Il vote les lois. Il est composé de l'<strong>Assemblée nationale</strong> (577 députés) et du <strong>Sénat</strong> (348 sénateurs).</li>
+                                    <li><strong>L'administration locale :</strong> Le <strong>Maire</strong> gère la commune (élu pour 6 ans). Le <strong>Préfet</strong> représente l'État (nommé par le Président) et veille à la sécurité.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-[11px] uppercase flex justify-between items-center hover:bg-gray-200">
+                            <span class="text-bleu-france">🥖 Vivre dans la société française</span><span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white hidden">
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <ul class="list-disc pl-4 space-y-2 text-xs">
+                                    <li><strong>Santé :</strong> La Carte Vitale permet le remboursement des soins. L'hôpital public soigne tout le monde, sans discrimination.</li>
+                                    <li><strong>Travail :</strong> L'organisme pour la recherche d'emploi s'appelle <strong>France Travail</strong>. Tout travail non déclaré ("au noir") est un délit grave.</li>
+                                    <li><strong>Logement :</strong> Si vous êtes locataire, l'assurance habitation est obligatoire. Vous devez payer votre loyer et vous avez droit à une <strong>quittance gratuite</strong>.</li>
+                                    <li><strong>Civisme :</strong> Il est obligatoire de respecter le voisinage (le tapage nocturne est puni) et de trier ses déchets ménagers.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
