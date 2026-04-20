@@ -161,10 +161,29 @@
                 <p class="text-xs text-gray-600 mb-6 text-center">Résumés officiels pour préparer les 3 journées de formation civique.</p>
                 
                 <div class="flex mb-6 border-b-2 border-gray-100">
-                    <button onclick="document.getElementById('vue-journees').classList.remove('hidden'); document.getElementById('vue-themes').classList.add('hidden');" class="flex-1 py-2 text-xs font-black uppercase text-bleu-france border-b-2 border-bleu-france -mb-[2px]">Par Journées</button>
-                    <button onclick="document.getElementById('vue-themes').classList.remove('hidden'); document.getElementById('vue-journees').classList.add('hidden');" class="flex-1 py-2 text-xs font-black uppercase text-gray-400 hover:text-gray-800">Par Thématiques</button>
+                    <button id="tab-journees" 
+                        onclick="
+                            document.getElementById('vue-journees').classList.remove('hidden'); 
+                            document.getElementById('vue-themes').classList.add('hidden');
+                            this.className='flex-1 py-2 text-xs font-black uppercase text-bleu-france border-b-2 border-bleu-france -mb-[2px]';
+                            document.getElementById('tab-themes').className='flex-1 py-2 text-xs font-black uppercase text-gray-400 hover:text-gray-800';
+                        " 
+                        class="flex-1 py-2 text-xs font-black uppercase text-bleu-france border-b-2 border-bleu-france -mb-[2px]">
+                        Par Journées
+                    </button>
+                    <button id="tab-themes" 
+                        onclick="
+                            document.getElementById('vue-themes').classList.remove('hidden'); 
+                            document.getElementById('vue-journees').classList.add('hidden');
+                            this.className='flex-1 py-2 text-xs font-black uppercase text-bleu-france border-b-2 border-bleu-france -mb-[2px]';
+                            document.getElementById('tab-journees').className='flex-1 py-2 text-xs font-black uppercase text-gray-400 hover:text-gray-800';
+                        " 
+                        class="flex-1 py-2 text-xs font-black uppercase text-gray-400 hover:text-gray-800">
+                        Par Thématiques
+                    </button>
                 </div>
 
+                
                 <div id="vue-journees" class="space-y-4">
                     <div class="border border-gray-200 rounded overflow-hidden">
                         <button onclick="this.nextElementSibling.classList.toggle('hidden');" class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between">
