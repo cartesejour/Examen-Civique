@@ -1,40 +1,57 @@
 const App = {
     async init() {
-        this.checkAdBlock(); // Lancement de la vérification AdBlock
-        // 1. Restaurer le dernier score
-        const saved = localStorage.getItem('lastScoreCivique');
-        if(saved) {
-            const data = JSON.parse(saved);
+        this.checkAdBlock(); 
+
+        const savedScore = localStorage.getItem('lastScoreCivique');
+        if(savedScore) {
+            const data = JSON.parse(savedScore);
             document.getElementById('last-score-container').classList.remove('hidden');
-            document.getElementById('last-score-val').innerText = data.score + "/40";
+            document.getElementById('last-score-val').innerText = data.score; // Score dynamique
             const b = document.getElementById('last-score-status');
-            if(data.score >= 32) { b.innerText = "Admis"; b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-green-100 text-green-700"; }
+            // Le ratio de réussite officiel est de 80% (ex: 32/40 ou 8/10)
+            if(data.score >= (data.total * 0.8)) { b.innerText = "Admis"; b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-green-100 text-green-700"; }
             else { b.innerText = "Échec"; b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-red-100 text-red-700"; }
         }
 
-        // 2. Charger la base de données
         const dataFR = await API.loadBaseFR();
-        
-        // SÉCURITÉ : On vérifie que les données sont bien là
         if(!dataFR || dataFR.length === 0) {
-            UI.showCustomAlert("Problème de données", "Impossible de charger les questions. Vérifiez que 'questions_fr.json' est bien dans le dossier 'data/'.");
+            UI.showCustomAlert("Problème de données", "Impossible de charger les questions.");
             return;
         }
-        
         QuizEngine.init(dataFR);
-        console.log("Base de données chargée avec succès :", dataFR.length, "questions.");
+        
+        // 💾 RESTAURATION ANTI-CRASH
+        const inProgress = localStorage.getItem('quizInProgress');
+        if (inProgress) {
+            if (confirm("Vous avez un quiz en cours ! Voulez-vous le reprendre là où vous vous étiez arrêté ?")) {
+                const savedState = JSON.parse(inProgress);
+                QuizEngine.state = savedState;
+                UI.switchScreen('screen-quiz');
+                document.getElementById('q-counter').classList.remove('hidden');
+                document.getElementById('timer-zone').classList.remove('hidden');
+                this.startTimer();
+                UI.renderQuestion(QuizEngine.state);
+            } else {
+                localStorage.removeItem('quizInProgress');
+            }
+        }
     },
 
-    async startQuiz(lvl) {
-        // SÉCURITÉ : Empêche de lancer un quiz vide
-        if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) {
-            return UI.showCustomAlert("Erreur", "Les questions ne sont pas encore prêtes.");
-        }
+    // 💾 Fonction pour sauvegarder la progression
+    saveProgress() {
+        const stateToSave = { ...QuizEngine.state, timer: null }; 
+        localStorage.setItem('quizInProgress', JSON.stringify(stateToSave));
+    },
+
+    async startQuiz(lvl, nbQuestions = 40) { // <-- Ajout du paramètre
+        if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) return;
 
         const lang = document.getElementById('lang-selector').value;
         const helpData = await API.loadHelp(lang);
         
-        QuizEngine.start(lvl, lang, helpData);
+        QuizEngine.start(lvl, lang, helpData, nbQuestions);
+        this.saveProgress(); // 💾 On sauvegarde dès le début
+
         UI.switchScreen('screen-quiz');
         document.getElementById('q-counter').classList.remove('hidden');
         document.getElementById('timer-zone').classList.remove('hidden');
@@ -45,6 +62,7 @@ const App = {
 
     handleAnswer(index) {
         QuizEngine.setAnswer(index);
+        this.saveProgress(); // 💾 Sauvegarde à chaque réponse
         UI.renderQuestion(QuizEngine.state);
     },
 
@@ -52,11 +70,39 @@ const App = {
         const res = QuizEngine.next();
         if (res === false) UI.showCustomAlert("Action requise", "Veuillez sélectionner une réponse.");
         else if (res === 'finish') this.finishQuiz();
-        else { UI.renderQuestion(QuizEngine.state); window.scrollTo(0,0); }
+        else { 
+            this.saveProgress(); // 💾 Sauvegarde au changement de question
+            UI.renderQuestion(QuizEngine.state); 
+            window.scrollTo(0,0); 
+        }
     },
 
     handlePrev() {
-        if (QuizEngine.prev()) UI.renderQuestion(QuizEngine.state);
+        if (QuizEngine.prev()) {
+            this.saveProgress();
+            UI.renderQuestion(QuizEngine.state);
+        }
+    },
+
+    // 🛑 ABANDON UTILE : On génère le bilan avec ce qui a été fait
+    abandonQuiz() {
+        clearInterval(QuizEngine.state.timer);
+        UI.closeModal('modal-quit');
+
+        const qRepondues = QuizEngine.state.index; // Nombre de questions vues
+        
+        if (qRepondues === 0) {
+            // S'il n'a rien répondu, on quitte juste
+            localStorage.removeItem('quizInProgress');
+            location.reload();
+            return;
+        }
+
+        // On coupe les tableaux pour ne garder que ce qu'il a fait
+        QuizEngine.state.questions = QuizEngine.state.questions.slice(0, qRepondues);
+        QuizEngine.state.userAnswers = QuizEngine.state.userAnswers.slice(0, qRepondues);
+        
+        this.finishQuiz();
     },
 
     handleJoker() {
@@ -80,11 +126,15 @@ const App = {
 
     finishQuiz() {
         clearInterval(QuizEngine.state.timer);
+        localStorage.removeItem('quizInProgress'); // 💾 On supprime la sauvegarde puisqu'il a fini
+        
         const score = QuizEngine.getScore();
-        localStorage.setItem('lastScoreCivique', JSON.stringify({ score: score }));
-        //UI.showResults(score, QuizEngine.state.questions.length);
+        const total = QuizEngine.state.questions.length;
+        
+        localStorage.setItem('lastScoreCivique', JSON.stringify({ score: score, total: total }));
         UI.showResults(score, QuizEngine.state);
     },
+    
     checkAdBlock() {
         const detecter = () => {
             // On crée "l'appât ultime" avec les mots-clés les plus bloqués au monde
