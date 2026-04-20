@@ -133,7 +133,7 @@ showResults(score, state) {
         // 5. On injecte dans la balise qui sert à afficher les résultats
         // (Assurez-vous d'avoir un <div id="result-content"></div> dans votre écran de résultats)
         document.getElementById('result-content').innerHTML = htmlBilan;
-    }
+    },
     
     renderCorrection(state) {
         document.getElementById('btn-corr-unlock').classList.add('hidden');
