@@ -1,0 +1,21 @@
+.hidden { display: none !important; }
+
+body { 
+    font-family: sans-serif; 
+    -webkit-tap-highlight-color: transparent; 
+}
+
+.selected-opt { 
+    background-color: #000091 !important; 
+    color: white !important; 
+    border-color: #000091 !important; 
+}
+
+@keyframes progress { 
+    from { width: 0%; } 
+    to { width: 100%; } 
+}
+
+.ad-bar { 
+    animation: progress 3s linear forwards; 
+}

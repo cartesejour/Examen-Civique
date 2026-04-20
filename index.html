@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Civique Français 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { 'bleu-france': '#000091', 'rouge-marianne': '#E1000F', 'fond-gris': '#F6F6F6' } } }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="js/api.js" defer></script>
+    <script src="js/quiz.js" defer></script>
+    <script src="js/ui.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
+
+    <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4 py-2 max-w-md flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
+                <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-2">
+                    <span>République</span><span>Française</span>
+                    <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500">Liberté, Égalité, Fraternité</span>
+                </div>
+                <div class="h-10 w-px bg-gray-300 mx-2"></div>
+                <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Test Civique<br><span class="text-bleu-france">Français</span></h1>
+            </div>
+            <div id="q-counter" class="hidden flex flex-col items-end">
+                <span class="text-[8px] uppercase text-gray-400 font-bold">Progression</span>
+                <span class="text-sm font-black text-bleu-france"><span id="current-q-num">1</span>/40</span>
+            </div>
+        </div>
+    </header>
+
+    <div id="modal-alert" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-bleu-france text-center">
+            <h3 id="modal-title" class="text-lg font-bold text-gray-900 mb-2 font-black uppercase">Attention</h3>
+            <p id="modal-message" class="text-sm text-gray-600 mb-6 font-medium"></p>
+            <button onclick="UI.closeModal('modal-alert')" class="w-full py-3 bg-bleu-france text-white font-bold text-xs uppercase tracking-widest">D'accord</button>
+        </div>
+    </div>
+
+    <div id="modal-quit" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-rouge-marianne text-center">
+            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-rouge-marianne">Abandonner ?</h3>
+            <p class="text-sm text-gray-600 mb-6 font-medium">Votre score sera perdu.</p>
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="UI.closeModal('modal-quit')" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase">Continuer</button>
+                <button onclick="location.reload()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase">Quitter</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ad-overlay" class="hidden fixed inset-0 bg-white z-[250] flex flex-col items-center justify-center p-8 text-center">
+        <div class="w-12 h-12 border-4 border-bleu-france border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p id="ad-text" class="text-bleu-france font-bold mb-2 uppercase tracking-widest text-xs italic">Chargement...</p>
+        <div class="w-full bg-gray-100 h-1 rounded-full overflow-hidden max-w-xs"><div class="ad-bar h-full bg-bleu-france"></div></div>
+    </div>
+
+    <div id="timer-zone" class="bg-bleu-france text-white text-center py-2 font-mono text-lg font-bold shadow-md hidden fixed top-[60px] w-full z-40">
+        ⏱ <span id="timer-display">45:00</span>
+    </div>
+
+    <main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-md">
+        
+        <div id="screen-home" class="space-y-6">
+            <div id="last-score-container" class="hidden bg-white p-4 border border-blue-200 shadow-sm flex items-center justify-between">
+                <div><p class="text-[10px] uppercase text-gray-400 font-black">Dernier résultat</p><p id="last-score-val" class="text-2xl font-black text-bleu-france"></p></div>
+                <div id="last-score-status" class="px-3 py-1 rounded-full text-[10px] font-black uppercase"></div>
+            </div>
+            <div class="bg-white p-6 border border-gray-200 shadow-sm">
+                <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Préparation 2026</h2>
+                <div class="mb-6 bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
+                    <label class="block font-bold mb-2">🌐 Langue de traduction :</label>
+                    <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300">
+                        <option value="none">Français uniquement</option>
+                        <option value="en">English</option><option value="ar">العربية</option>
+                        <option value="ru">Русский</option><option value="uk">Українська</option>
+                        <option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="fa">فارسی</option>
+                    </select>
+                </div>
+                <div class="grid grid-cols-1 gap-3">
+                    <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 font-black shadow flex justify-between uppercase text-xs"><span>Carte Séjour (A2)</span><span>➡</span></button>
+                    <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 font-black shadow flex justify-between uppercase text-xs"><span>Carte Résident (B1)</span><span>➡</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="screen-quiz" class="hidden space-y-4">
+            <div class="flex justify-between items-center">
+                <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest bg-blue-50 px-2 py-1 border border-blue-200">THEME</div>
+                <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-600 bg-white px-3 py-1 border border-yellow-300 shadow-sm">🎁 Joker 50/50</button>
+            </div>
+            <div class="bg-white p-6 border-l-4 border-bleu-france shadow-sm">
+                <h2 id="question-text" class="text-lg font-bold leading-tight text-gray-900 mb-3"></h2>
+                <p id="helper-question" class="text-sm text-gray-400 italic border-t border-gray-50 pt-3 hidden"></p>
+            </div>
+            <div id="options-container" class="grid grid-cols-1 gap-3"></div>
+            <div class="flex justify-between items-center mt-8 gap-3">
+                <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase">Précédent</button>
+                <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow uppercase">Suivant</button>
+            </div>
+            <button onclick="UI.openModal('modal-quit')" class="w-full mt-8 py-2 text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">🛑 Abandonner</button>
+        </div>
+
+        <div id="screen-results" class="hidden space-y-6">
+            <div class="bg-white p-8 border shadow-sm text-center">
+                <h2 class="text-2xl font-black text-bleu-france mb-2 uppercase">Score Final</h2>
+                <div id="final-score" class="text-6xl font-black my-6">0/40</div>
+                <div id="result-msg" class="p-4 mb-6 font-bold text-sm"></div>
+                <button id="btn-corr-unlock" onclick="App.handleCorrection()" class="w-full bg-bleu-france text-white py-4 font-black shadow uppercase text-xs mb-3 tracking-widest">🎬 Voir mes erreurs</button>
+                <button onclick="location.reload()" class="w-full bg-gray-100 text-gray-600 py-3 font-bold text-xs uppercase tracking-widest">Retour Accueil</button>
+            </div>
+            <div id="full-correction" class="hidden space-y-4 pb-12"></div>
+        </div>
+    </main>
+    <footer class="container mx-auto max-w-md px-4 pb-12 text-center">
+        <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
+        <p class="text-[9px] text-gray-400 uppercase font-black tracking-[0.2em]">
+            © 2026 Aboubakr RAHIM. Tous droits réservés.
+        </p>
+        <p class="text-[8px] text-gray-300 mt-1 italic">
+            Toute reproduction ou exploitation, même partielle, est strictement interdite sans accord préalable.
+        </p>
+    </footer>
+</body>
+</html>
