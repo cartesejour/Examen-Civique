@@ -30,6 +30,10 @@
                 <div class="h-10 w-px bg-gray-300 mx-2"></div>
                 <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1>
             </div>
+            <div class="flex gap-2 mt-2 w-full justify-center">
+                <button onclick="UI.switchScreen('screen-home')" class="text-[10px] font-black uppercase px-3 py-1 bg-gray-100 text-gray-700 rounded-full">📝 Quiz</button>
+                <button onclick="UI.switchScreen('screen-revisions')" class="text-[10px] font-black uppercase px-3 py-1 bg-blue-100 text-bleu-france rounded-full">📚 Fiches de révision</button>
+            </div>
             <div id="q-counter" class="hidden flex flex-col items-end">
                 <span class="text-[8px] uppercase text-gray-400 font-bold">Progression</span>
                 <span class="text-sm font-black text-bleu-france"><span id="current-q-num">1</span>/40</span>
@@ -119,7 +123,65 @@
             </div>
             <div id="full-correction" class="hidden space-y-4 pb-12"></div>
         </div>
-        
+        <div id="screen-revisions" class="hidden space-y-6">
+            <div class="bg-white p-6 border border-gray-200 shadow-sm">
+                <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Fiches de Synthèse</h2>
+                <p class="text-xs text-gray-600 mb-6 text-center">Résumés officiels pour préparer les 3 journées de formation civique.</p>
+                
+                <div class="flex mb-6 border-b-2 border-gray-100">
+                    <button onclick="document.getElementById('vue-journees').classList.remove('hidden'); document.getElementById('vue-themes').classList.add('hidden');" class="flex-1 py-2 text-xs font-black uppercase text-bleu-france border-b-2 border-bleu-france -mb-[2px]">Par Journées</button>
+                    <button onclick="document.getElementById('vue-themes').classList.remove('hidden'); document.getElementById('vue-journees').classList.add('hidden');" class="flex-1 py-2 text-xs font-black uppercase text-gray-400 hover:text-gray-800">Par Thématiques</button>
+                </div>
+
+                <div id="vue-journees" class="space-y-4">
+                    <div class="border border-gray-200 rounded overflow-hidden">
+                        <button class="w-full bg-fond-gris p-4 text-left font-black text-sm uppercase flex justify-between">
+                            <span>📅 Journée 1 : Principes et Valeurs</span>
+                            <span>▼</span>
+                        </button>
+                        <div class="p-4 space-y-4 text-sm text-gray-800 bg-white">
+                            
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">1. La Devise Républicaine</h4>
+                                <p><strong>Liberté :</strong> Pouvoir faire tout ce qui ne nuit pas aux autres (penser, s'exprimer, circuler).</p>
+                                <p><strong>Égalité :</strong> La loi est la même pour tous. Hommes et femmes ont strictement les mêmes droits.</p>
+                                <p><strong>Fraternité :</strong> La solidarité nationale entre les citoyens (ex: Sécurité Sociale).</p>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">2. La Laïcité</h4>
+                                <p>L'État est neutre et ne finance aucune religion. Chacun est libre de croire ou de ne pas croire, tant que l'expression de ses convictions ne trouble pas l'ordre public.</p>
+                            </div>
+
+                            <div class="border-l-4 border-bleu-france pl-3">
+                                <h4 class="font-black text-bleu-france mb-1">3. Les Symboles de la France</h4>
+                                <ul class="list-disc pl-4 space-y-1 mt-2 text-xs">
+                                    <li><strong>Le drapeau :</strong> Bleu, Blanc, Rouge.</li>
+                                    <li><strong>L'hymne :</strong> La Marseillaise (écrite par Rouget de Lisle).</li>
+                                    <li><strong>Marianne :</strong> Incarne la République et la liberté (buste dans les mairies).</li>
+                                    <li><strong>Le 14 juillet :</strong> Fête nationale (Prise de la Bastille en 1789).</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <button class="w-full bg-gray-50 border border-gray-200 p-4 text-left font-bold text-sm text-gray-500 uppercase flex justify-between">
+                        <span>📅 Journée 2 : Vivre en France (Bientôt)</span><span>▶</span>
+                    </button>
+                    <button class="w-full bg-gray-50 border border-gray-200 p-4 text-left font-bold text-sm text-gray-500 uppercase flex justify-between">
+                        <span>📅 Journée 3 : Démarches & Emploi (Bientôt)</span><span>▶</span>
+                    </button>
+                </div>
+
+                <div id="vue-themes" class="hidden space-y-2">
+                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Droits et devoirs</span><span>▶</span></button>
+                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Histoire et culture</span><span>▶</span></button>
+                    <button class="w-full border border-gray-200 p-3 text-left font-bold text-xs uppercase flex justify-between items-center"><span class="text-bleu-france">Système institutionnel</span><span>▶</span></button>
+                </div>
+
+            </div>
+        </div>
     </main>
     <footer class="container mx-auto max-w-md px-4 pb-12 text-center">
         <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
