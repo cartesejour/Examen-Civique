@@ -72,20 +72,69 @@ const UI = {
         document.getElementById('timer-display').innerText = `${m}:${s<10?'0':''}${s}`;
     },
 
-    showResults(score, total) {
-        this.switchScreen('screen-results');
+    //showResults(score, total) {
+        //this.switchScreen('screen-results');
+        //document.getElementById('q-counter').classList.add('hidden');
+        //document.getElementById('timer-zone').classList.add('hidden');
+        
+        //document.getElementById('final-score').innerText = `${score}/${total}`;
+        //const msg = document.getElementById('result-msg');
+        //if(score >= 32) { 
+            //msg.innerText = "ADMIS ✅"; msg.className = "p-4 mb-6 bg-green-100 text-green-700 font-black uppercase text-xs"; 
+        //} else { 
+            //msg.innerText = "ÉCHEC ❌ (Min. 32)"; msg.className = "p-4 mb-6 bg-red-100 text-red-700 font-black uppercase text-xs"; 
+        //}
+    //},
+showResults(score, state) {
+        // 1. On affiche le bon écran et on cache le chrono
+        this.switchScreen('screen-result'); // Vérifiez que le nom correspond à votre HTML
         document.getElementById('q-counter').classList.add('hidden');
         document.getElementById('timer-zone').classList.add('hidden');
-        
-        document.getElementById('final-score').innerText = `${score}/${total}`;
-        const msg = document.getElementById('result-msg');
-        if(score >= 32) { 
-            msg.innerText = "ADMIS ✅"; msg.className = "p-4 mb-6 bg-green-100 text-green-700 font-black uppercase text-xs"; 
-        } else { 
-            msg.innerText = "ÉCHEC ❌ (Min. 32)"; msg.className = "p-4 mb-6 bg-red-100 text-red-700 font-black uppercase text-xs"; 
-        }
-    },
 
+        const total = state.questions.length;
+        
+        // 2. On prépare le message d'en-tête
+        let htmlBilan = `<h2 class="text-2xl font-bold mb-4">Votre score final : ${score} / ${total}</h2>`;
+
+        if (score >= 32) {
+            htmlBilan += `<p class="text-green-600 font-bold mb-6">Félicitations, c'est un excellent résultat !</p>`;
+        } else {
+            htmlBilan += `<p class="text-red-600 font-bold mb-6">Vous devez encore vous entraîner. Voici vos erreurs :</p>`;
+        }
+
+        // 3. On génère la correction pour les mauvaises réponses
+        state.questions.forEach((q, index) => {
+            let reponseUser = state.userAnswers[index];
+            let estCorrect = (reponseUser === q.bonne_reponse);
+
+            if (!estCorrect) {
+                htmlBilan += `
+                <div class="mb-4 p-4 border-l-4 border-red-500 bg-red-50 rounded">
+                    <p class="font-bold text-gray-800 mb-2">Question : ${q.question}</p>
+                    <p class="text-red-600 text-sm">❌ Votre réponse : ${q.options[reponseUser]}</p>
+                    <p class="text-green-600 text-sm">✅ Bonne réponse : ${q.options[q.bonne_reponse]}</p>`;
+                
+                // On ajoute le lien s'il existe dans votre base de données
+                if (q.link) {
+                    htmlBilan += `<a href="${q.link}" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline text-sm font-semibold">🔗 Réviser ce sujet</a>`;
+                }
+                htmlBilan += `</div>`;
+            }
+        });
+
+        // 4. On ajoute le bouton PDF avec le style de votre application
+        htmlBilan += `
+        <div class="mt-8 text-center">
+            <button onclick="window.print()" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 shadow-md">
+                🖨️ Imprimer ou Sauvegarder en PDF
+            </button>
+        </div>`;
+
+        // 5. On injecte dans la balise qui sert à afficher les résultats
+        // (Assurez-vous d'avoir un <div id="result-content"></div> dans votre écran de résultats)
+        document.getElementById('result-content').innerHTML = htmlBilan;
+    }
+    
     renderCorrection(state) {
         document.getElementById('btn-corr-unlock').classList.add('hidden');
         const list = document.getElementById('full-correction');
