@@ -1,5 +1,6 @@
 const App = {
     async init() {
+        this.checkAdBlock(); // Lancement de la vérification AdBlock
         // 1. Restaurer le dernier score
         const saved = localStorage.getItem('lastScoreCivique');
         if(saved) {
@@ -83,6 +84,27 @@ const App = {
         localStorage.setItem('lastScoreCivique', JSON.stringify({ score: score }));
         //UI.showResults(score, QuizEngine.state.questions.length);
         UI.showResults(score, QuizEngine.state);
+    },
+    checkAdBlock() {
+        // On crée un faux élément pub
+        const adTest = document.createElement('div');
+        adTest.className = 'adsbox'; // Les bloqueurs ciblent ce nom
+        adTest.style.position = 'absolute';
+        adTest.style.top = '-999px'; // On le cache hors de l'écran
+        document.body.appendChild(adTest);
+
+        // On attend un tout petit peu que le bloqueur fasse son travail
+        setTimeout(() => {
+            if (adTest.offsetHeight === 0) {
+                // Si la hauteur est 0, c'est que l'élément a été bloqué !
+                UI.showCustomAlert(
+                    "Bloqueur de publicités", 
+                    "Notre simulateur est 100% gratuit, mais nous avons besoin de la publicité pour payer nos serveurs. Veuillez désactiver votre bloqueur pour utiliser le site."
+                );
+            }
+            // On nettoie
+            adTest.remove();
+        }, 500);
     }
 };
 
