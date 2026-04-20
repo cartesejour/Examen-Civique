@@ -1,18 +1,26 @@
 const App = {
     async init() {
+        // 1. Lancement de l'anti-AdBlock
         this.checkAdBlock(); 
 
+        // 2. Gestion du score précédent
         const savedScore = localStorage.getItem('lastScoreCivique');
         if(savedScore) {
             const data = JSON.parse(savedScore);
             document.getElementById('last-score-container').classList.remove('hidden');
-            document.getElementById('last-score-val').innerText = data.score; // Score dynamique
+            document.getElementById('last-score-val').innerText = data.score + "/" + data.total;
             const b = document.getElementById('last-score-status');
-            // Le ratio de réussite officiel est de 80% (ex: 32/40 ou 8/10)
-            if(data.score >= (data.total * 0.8)) { b.innerText = "Admis"; b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-green-100 text-green-700"; }
-            else { b.innerText = "Échec"; b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-red-100 text-red-700"; }
+            // Le ratio de réussite officiel est de 80%
+            if(data.score >= (data.total * 0.8)) { 
+                b.innerText = "Admis"; 
+                b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-green-100 text-green-700"; 
+            } else { 
+                b.innerText = "Échec"; 
+                b.className = "px-3 py-1 rounded-full text-[10px] font-black bg-red-100 text-red-700"; 
+            }
         }
 
+        // 3. Chargement de la base de données
         const dataFR = await API.loadBaseFR();
         if(!dataFR || dataFR.length === 0) {
             UI.showCustomAlert("Problème de données", "Impossible de charger les questions.");
@@ -20,20 +28,10 @@ const App = {
         }
         QuizEngine.init(dataFR);
         
-        // 💾 RESTAURATION ANTI-CRASH
+        // 4. 💾 RESTAURATION AVEC JOLIE MODAL (Remplace le vieux confirm)
         const inProgress = localStorage.getItem('quizInProgress');
         if (inProgress) {
-            if (confirm("Vous avez un quiz en cours ! Voulez-vous le reprendre là où vous vous étiez arrêté ?")) {
-                const savedState = JSON.parse(inProgress);
-                QuizEngine.state = savedState;
-                UI.switchScreen('screen-quiz');
-                document.getElementById('q-counter').classList.remove('hidden');
-                document.getElementById('timer-zone').classList.remove('hidden');
-                this.startTimer();
-                UI.renderQuestion(QuizEngine.state);
-            } else {
-                localStorage.removeItem('quizInProgress');
-            }
+            UI.openModal('modal-resume'); 
         }
     },
 
@@ -43,9 +41,31 @@ const App = {
         localStorage.setItem('quizInProgress', JSON.stringify(stateToSave));
     },
 
-    async startQuiz(lvl, nbQuestions = 40) { // <-- Ajout du paramètre
+    // 🆕 Fonction appelée quand on clique sur "Oui" dans le modal de reprise
+    resumeQuiz() {
+        const savedState = JSON.parse(localStorage.getItem('quizInProgress'));
+        QuizEngine.state = savedState;
+        UI.closeModal('modal-resume');
+        UI.switchScreen('screen-quiz');
+        document.getElementById('q-counter').classList.remove('hidden');
+        document.getElementById('timer-zone').classList.remove('hidden');
+        this.startTimer();
+        UI.renderQuestion(QuizEngine.state);
+    },
+
+    // 🆕 Fonction appelée quand on clique sur "Non" dans le modal de reprise
+    discardQuiz() {
+        localStorage.removeItem('quizInProgress');
+        UI.closeModal('modal-resume');
+    },
+
+    async startQuiz(lvl) {
         if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) return;
 
+        // On lit le nombre de questions choisi dans la liste déroulante !
+        const selector = document.getElementById('questions-selector');
+        const nbQuestions = selector ? parseInt(selector.value) : 40;
+        
         const lang = document.getElementById('lang-selector').value;
         const helpData = await API.loadHelp(lang);
         
@@ -137,32 +157,27 @@ const App = {
     
     checkAdBlock() {
         const detecter = () => {
-            // On crée "l'appât ultime" avec les mots-clés les plus bloqués au monde
+            // On crée "l'appât ultime"
             const bait = document.createElement('div');
             bait.id = 'ad-banner'; 
             bait.className = 'ads ad adsbox doubleclick sponsor advertisement'; 
             
-            // On le rend minuscule mais "visible" sur la page pour piéger le bloqueur
             bait.style.width = '1px';
             bait.style.height = '1px';
             bait.style.position = 'absolute';
-            bait.style.left = '-9999px'; // On le cache sur le côté gauche, pas en haut
+            bait.style.left = '-9999px'; 
             
             document.body.appendChild(bait);
 
-            // On laisse 500ms au bloqueur pour faire son travail
             setTimeout(() => {
-                // Si l'élément a été écrasé (hauteur/largeur à 0) ou caché (display none)
                 const style = window.getComputedStyle(bait);
                 const isBlocked = bait.offsetHeight === 0 || bait.clientWidth === 0 || style.display === 'none';
 
                 if (isBlocked) {
-                    // BAM ! Bloqueur détecté, on lève le bouclier
                     const modal = document.getElementById('modal-adblock');
                     if (modal) modal.classList.remove('hidden');
                 }
                 
-                // On nettoie la page pour ne pas l'alourdir
                 bait.remove();
             }, 500); 
         };
@@ -170,7 +185,7 @@ const App = {
         // 1. On lance la détection au chargement
         detecter();
 
-        // 2. On harcèle le tricheur toutes les 3 secondes s'il essaie d'enlever le message
+        // 2. On harcèle le tricheur toutes les 3 secondes
         setInterval(detecter, 3000);
     }
 };
