@@ -48,10 +48,21 @@
     <div id="modal-quit" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4">
         <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-rouge-marianne text-center">
             <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-rouge-marianne">Abandonner ?</h3>
-            <p class="text-sm text-gray-600 mb-6 font-medium">Votre score sera perdu.</p>
+            <p class="text-sm text-gray-600 mb-6 font-medium">Votre score sera calculé uniquement sur les questions auxquelles vous avez déjà répondu.</p>
             <div class="grid grid-cols-2 gap-3">
                 <button onclick="UI.closeModal('modal-quit')" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase">Continuer</button>
-                <button onclick="location.reload()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase">Quitter</button>
+                <button onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase shadow-md">Voir mon Bilan</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-resume" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-bleu-france text-center">
+            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase">Reprendre ?</h3>
+            <p class="text-sm text-gray-600 mb-6 font-medium">Vous avez un quiz en cours ! Voulez-vous le reprendre là où vous vous étiez arrêté ?</p>
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="App.discardQuiz()" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase">Non</button>
+                <button onclick="App.resumeQuiz()" class="py-3 bg-bleu-france text-white font-bold text-xs uppercase shadow-md">Oui</button>
             </div>
         </div>
     </div>
@@ -78,54 +89,39 @@
                 <div><p class="text-[10px] uppercase text-gray-400 font-black">Dernier résultat</p><p id="last-score-val" class="text-2xl font-black text-bleu-france"></p></div>
                 <div id="last-score-status" class="px-3 py-1 rounded-full text-[10px] font-black uppercase"></div>
             </div>
+            
             <div class="bg-white p-6 border border-gray-200 shadow-sm">
                 <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Préparation 2026</h2>
-                <div class="mb-6 bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
-                    <label class="block font-bold mb-2">🌐 Langue de traduction :</label>
-                    <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300">
-                        <option value="none">Français uniquement</option>
-                        <option value="en">English</option><option value="ar">العربية</option>
-                        <option value="ru">Русский</option><option value="uk">Українська</option>
-                        <option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="fa">فارسی</option>
-                    </select>
+                
+                <div class="space-y-4 mb-6">
+                    <div class="bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
+                        <label class="block font-bold mb-2 italic text-bleu-france text-[11px] uppercase tracking-wider">🔢 Nombre de questions :</label>
+                        <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 font-bold text-gray-700 outline-none">
+                            <option value="10">10 Questions (Express)</option>
+                            <option value="20">20 Questions (Entraînement)</option>
+                            <option value="30">30 Questions (Intensif)</option>
+                            <option value="40" selected>40 Questions (Examen Complet)</option>
+                        </select>
+                    </div>
+
+                    <div class="bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
+                        <label class="block font-bold mb-2 italic text-bleu-france text-[11px] uppercase tracking-wider">🌐 Traduction d'aide :</label>
+                        <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300 font-bold text-gray-700 outline-none">
+                            <option value="none">Français uniquement</option>
+                            <option value="en">English</option><option value="ar">العربية</option>
+                            <option value="ru">Русский</option><option value="uk">Українська</option>
+                            <option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="fa">فارسی</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="space-y-5 mt-6">
-                    
-                    <div class="border border-blue-200 rounded overflow-hidden shadow-sm">
-                        <div class="bg-bleu-france text-white p-3 font-black text-[11px] uppercase tracking-widest flex justify-between items-center">
-                            <span>📘 Carte de Séjour (A2)</span>
-                        </div>
-                        <div class="p-3 grid grid-cols-2 gap-3 bg-blue-50">
-                            <button onclick="App.startQuiz('CSP', 10)" class="bg-white border border-blue-200 text-bleu-france py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-blue-100">
-                                Entraînement (10 Q)
-                            </button>
-                            <button onclick="App.startQuiz('CSP', 20)" class="bg-white border border-blue-200 text-bleu-france py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-blue-110">
-                                Entraînement (20 Q)
-                            </button>
-                            <button onclick="App.startQuiz('CSP', 40)" class="bg-bleu-france text-white py-3 font-black text-[10px] uppercase shadow-sm hover:bg-blue-800">
-                                Examen Officiel (40 Q)
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="border border-red-200 rounded overflow-hidden shadow-sm">
-                        <div class="bg-rouge-marianne text-white p-3 font-black text-[11px] uppercase tracking-widest flex justify-between items-center">
-                            <span>📕 Carte de Résident (B1)</span>
-                        </div>
-                        <div class="p-3 grid grid-cols-2 gap-3 bg-red-50">
-                            <button onclick="App.startQuiz('CR', 10)" class="bg-white border border-red-200 text-rouge-marianne py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-red-100">
-                                Entraînement (10 Q)
-                            </button>
-                            <button onclick="App.startQuiz('CR', 20)" class="bg-white border border-red-200 text-rouge-marianne py-3 font-bold text-[10px] uppercase shadow-sm hover:bg-red-110">
-                                Entraînement (20 Q)
-                            </button>
-                            <button onclick="App.startQuiz('CR', 40)" class="bg-rouge-marianne text-white py-3 font-black text-[10px] uppercase shadow-sm hover:bg-red-800">
-                                Examen Officiel (40 Q)
-                            </button>
-                        </div>
-                    </div>
-
+                <div class="grid grid-cols-1 gap-4 mt-6">
+                    <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 font-black shadow flex justify-between uppercase text-xs items-center">
+                        <span>📘 Carte de Séjour (A2)</span><span>➡</span>
+                    </button>
+                    <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 font-black shadow flex justify-between uppercase text-xs items-center">
+                        <span>📕 Carte de Résident (B1)</span><span>➡</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -144,7 +140,7 @@
                 <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase">Précédent</button>
                 <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow uppercase">Suivant</button>
             </div>
-            <button onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase">🛑 Abandonner & Voir Bilan</button>
+            <button onclick="UI.openModal('modal-quit')" class="w-full mt-6 py-3 text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">🛑 Abandonner & Voir Bilan</button>
         </div>
 
         <div id="screen-results" class="hidden space-y-6">
@@ -158,6 +154,7 @@
             </div>
             <div id="full-correction" class="hidden space-y-4 pb-12"></div>
         </div>
+
         <div id="screen-revisions" class="hidden space-y-6">
             <div class="bg-white p-6 border border-gray-200 shadow-sm">
                 <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Fiches de Synthèse</h2>
@@ -227,7 +224,7 @@
             Toute reproduction ou exploitation, même partielle, est strictement interdite sans accord préalable.
         </p>
     </footer>
-<div id="modal-adblock" class="hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-[300] flex flex-col items-center justify-center p-6 text-center backdrop-blur-sm">
+    <div id="modal-adblock" class="hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-[300] flex flex-col items-center justify-center p-6 text-center backdrop-blur-sm">
         <div class="bg-white max-w-sm w-full p-8 shadow-2xl border-t-4 border-rouge-marianne rounded">
             <span class="text-4xl mb-4 block">🛑</span>
             <h3 class="text-xl font-black text-gray-900 mb-3 uppercase tracking-tight">Bloqueur détecté</h3>
