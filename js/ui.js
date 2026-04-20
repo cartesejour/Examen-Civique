@@ -9,10 +9,12 @@ const UI = {
     },
 
     switchScreen(screenId) {
-        ['screen-home', 'screen-quiz', 'screen-results'].forEach(id => document.getElementById(id).classList.add('hidden'));
+        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions'].forEach(id => {
+            const element = document.getElementById(id);
+            if (element) element.classList.add('hidden');
+        });
         document.getElementById(screenId).classList.remove('hidden');
     },
-
     renderQuestion(state) {
         const q = state.questions[state.index];
 
