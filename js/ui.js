@@ -104,8 +104,8 @@ switchScreen(screenId) {
         }
     },
 
-    renderCorrection(state) {
-        // 🔓 ON DÉVERROUILLE LE BOUTON D'IMPRESSION
+renderCorrection(state) {
+        // 🔓 ON DÉVERROUILLE LE BOUTON D'IMPRESSION PRINCIPAL (EN HAUT)
         document.getElementById('btn-print-main').classList.remove('hidden');
         document.getElementById('btn-corr-unlock').classList.add('hidden');
         
@@ -124,20 +124,31 @@ switchScreen(screenId) {
             let hRight = (h && h.options) ? ` <span class="opacity-60" dir="${isRTL?'rtl':'ltr'}">(${h.options[q.bonne_reponse]})</span>` : "";
             let hExp = (h && h.explication) ? `<p class="mt-2 font-normal opacity-70 border-t pt-2" dir="${isRTL?'rtl':'ltr'}">${h.explication}</p>` : "";
             
-            // 👉 NOUVEAUTÉ : On prépare le lien officiel si la réponse est fausse
-            let linkHtml = (!ok && q.link) ? `<div class="mt-3 pt-3 border-t border-gray-100"><a href="${q.link}" target="_blank" class="text-bleu-france hover:underline text-[11px] font-bold uppercase tracking-wide">🔗 Réviser sur le site officiel</a></div>` : "";
-
-            // On injecte tout (y compris le lien à la fin)
-            div.innerHTML = `<div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}"><span>${ok?'Correct':'Erreur'}</span><span>Question ${i+1}</span></div><p class="text-sm font-bold text-gray-900 leading-tight">${q.question}</p>${hQ}<div class="text-xs space-y-1 my-3"><p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">Votre choix : ${q.options[state.userAnswers[i]]}</p>${!ok ? `<p class="text-green-700 font-bold">Réponse : ${q.options[q.bonne_reponse]}${hRight}</p>` : ''}</div><div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic"><strong>Explication :</strong> ${q.explication}${hExp}</div>${linkHtml}`;
+            // L'injection HTML est allégée (plus de liens web)
+            div.innerHTML = `<div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}"><span>${ok?'Correct':'Erreur'}</span><span>Question ${i+1}</span></div><p class="text-sm font-bold text-gray-900 leading-tight">${q.question}</p>${hQ}<div class="text-xs space-y-1 my-3"><p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">Votre choix : ${q.options[state.userAnswers[i]]}</p>${!ok ? `<p class="text-green-700 font-bold">Réponse : ${q.options[q.bonne_reponse]}${hRight}</p>` : ''}</div><div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic"><strong>Explication :</strong> ${q.explication}${hExp}</div>`;
             list.appendChild(div);
         });
 
-        // 👉 NOUVEAUTÉ : On ajoute le bouton d'impression TOUT EN BAS de la correction
+        // Création d'un bloc en bas pour mettre les deux boutons
+        const btnContainer = document.createElement('div');
+        btnContainer.className = "flex flex-col gap-3 mt-6"; // Espacement propre entre les boutons
+
+        // 1. Bouton Impression (Gris foncé)
         const btnPrint = document.createElement('button');
-        btnPrint.className = "w-full mt-6 py-4 bg-gray-900 text-white font-black text-xs uppercase tracking-widest shadow-lg";
+        btnPrint.className = "w-full py-4 bg-gray-900 text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
         btnPrint.innerHTML = "🖨️ Imprimer mon bilan (PDF)";
         btnPrint.onclick = () => window.print();
-        list.appendChild(btnPrint);
+        btnContainer.appendChild(btnPrint);
+
+        // 2. Bouton Retour à l'accueil (Bleu France)
+        const btnHome = document.createElement('button');
+        btnHome.className = "w-full py-4 bg-bleu-france text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
+        btnHome.innerHTML = "🏠 Retour à l'accueil";
+        btnHome.onclick = () => location.reload(); // Recharge la page proprement pour revenir à zéro
+        btnContainer.appendChild(btnHome);
+
+        // On ajoute ces deux boutons tout à la fin de la liste
+        list.appendChild(btnContainer);
 
         window.scrollTo({top: list.offsetTop - 100, behavior: 'smooth'});
     }
