@@ -156,38 +156,56 @@ const App = {
     },
     
     checkAdBlock() {
-        const detecter = () => {
-            // On crée "l'appât ultime"
+        const detecter = async () => {
+            let isBlocked = false;
+
+            // TEST 1 : Le test visuel (Pour les vieux AdBlockers)
             const bait = document.createElement('div');
-            bait.id = 'ad-banner'; 
-            bait.className = 'ads ad adsbox doubleclick sponsor advertisement'; 
-            
-            bait.style.width = '1px';
-            bait.style.height = '1px';
+            bait.className = 'pub_300x250 pub_300x250m pub_728x90 text-ad textAd adSense ad-unit ad-zone ad-space adsbox';
             bait.style.position = 'absolute';
-            bait.style.left = '-9999px'; 
-            
+            bait.style.top = '-9999px';
+            bait.style.height = '1px';
             document.body.appendChild(bait);
+            
+            if (bait.offsetHeight === 0 || window.getComputedStyle(bait).display === 'none') {
+                isBlocked = true;
+            }
+            bait.remove();
 
-            setTimeout(() => {
-                const style = window.getComputedStyle(bait);
-                const isBlocked = bait.offsetHeight === 0 || bait.clientWidth === 0 || style.display === 'none';
-
-                if (isBlocked) {
-                    const modal = document.getElementById('modal-adblock');
-                    if (modal) modal.classList.remove('hidden');
+            // TEST 2 : L'arme fatale (Test réseau pour uBlock Origin, Brave, etc.)
+            if (!isBlocked) {
+                try {
+                    // On essaie de contacter le serveur publicitaire de Google
+                    await fetch("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", {
+                        method: 'HEAD',
+                        mode: 'no-cors',
+                        cache: 'no-store'
+                    });
+                } catch (e) {
+                    // Si le navigateur nous interdit d'y accéder, c'est qu'un bloqueur puissant est actif !
+                    isBlocked = true;
                 }
-                
-                bait.remove();
-            }, 500); 
+            }
+
+            // SANCTION : Si on détecte un bloqueur par n'importe quelle méthode
+            if (isBlocked) {
+                const modal = document.getElementById('modal-adblock');
+                if (modal) {
+                    modal.classList.remove('hidden');
+                    // Optionnel : On rend l'arrière-plan totalement flou pour forcer la lecture
+                    document.body.style.overflow = 'hidden'; 
+                }
+            }
         };
 
-        // 1. On lance la détection au chargement
-        detecter();
-
-        // 2. On harcèle le tricheur toutes les 3 secondes
-        setInterval(detecter, 3000);
+        // On laisse la page charger pendant 1 seconde, puis on lance le radar
+        setTimeout(() => {
+            detecter();
+            // On revérifie toutes les 3 secondes pour ceux qui essaient de tricher en cours de route
+            setInterval(detecter, 3000);
+        }, 1000);
     }
+    
 };
 
 // Connexion HTML / JS
