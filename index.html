@@ -101,7 +101,8 @@
     
 
     
-    <main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-md">
+<main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-md">
+        
         <div class="bg-blue-50 border border-blue-200 py-2 px-3 rounded shadow-sm mb-6">
             <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-[10px] font-black text-bleu-france uppercase tracking-wide text-center">
                 <span>✅ 100% Gratuit</span>
@@ -117,28 +118,24 @@
         </div>
 
         <div id="screen-home" class="space-y-6">
+            
             <div id="last-score-container" class="hidden bg-white p-4 border border-blue-200 shadow-sm flex items-center justify-between">
                 <div><p class="text-[10px] uppercase text-gray-400 font-black">Dernier résultat</p><p id="last-score-val" class="text-2xl font-black text-bleu-france"></p></div>
                 <div id="last-score-status" class="px-3 py-1 rounded-full text-[10px] font-black uppercase"></div>
             </div>
             
-<div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
-                <div class="bg-blue-50 border border-blue-200 p-4 rounded-lg shadow-sm mb-6">
+            <div class="bg-blue-50 border border-blue-200 p-4 rounded-lg shadow-sm">
                 <h2 class="text-[12px] font-black text-bleu-france uppercase tracking-tight mb-3 flex items-center">
                     <span class="text-base mr-2">⚖️</span> À propos de l'examen officiel
                 </h2>
                 <div class="space-y-3 text-[11px] text-gray-800 leading-relaxed text-justify">
-                    <p>
-                        <strong class="text-bleu-france">📜 La Loi :</strong> Suite à la nouvelle loi sur l'immigration, la réussite à un <strong>examen civique officiel</strong> est obligatoire pour valider votre assimilation à la société française, obtenir une carte de séjour pluriannuelle, une carte de résident ou demander la nationalité.
-                    </p>
-                    <p>
-                        <strong class="text-bleu-france">⏱️ Les Modalités :</strong> L'examen se présente sous la forme d'un QCM de <strong>40 questions</strong> à réaliser en <strong>45 minutes</strong>. Pour obtenir votre attestation, vous devez obligatoirement atteindre un score de réussite de <strong>80% (soit 32 bonnes réponses sur 40)</strong>.
-                    </p>
-                    <p>
-                        <strong class="text-bleu-france">🏛️ Nos Sources :</strong> Pour vous préparer au mieux, notre base de données est rigoureusement élaborée à partir du programme officiel du <strong>Ministère de l'Intérieur</strong>, des modules de formation de l'OFII et du Livret du Citoyen.
-                    </p>
+                    <p><strong class="text-bleu-france">📜 La Loi :</strong> Suite à la nouvelle loi sur l'immigration, la réussite à un <strong>examen civique officiel</strong> est obligatoire pour valider votre assimilation à la société française, obtenir une carte de séjour pluriannuelle, une carte de résident ou demander la nationalité.</p>
+                    <p><strong class="text-bleu-france">⏱️ Les Modalités :</strong> L'examen se présente sous la forme d'un QCM de <strong>40 questions</strong> à réaliser en <strong>45 minutes</strong>. Pour obtenir votre attestation, vous devez obligatoirement atteindre un score de réussite de <strong>80% (soit 32 bonnes réponses sur 40)</strong>.</p>
+                    <p><strong class="text-bleu-france">🏛️ Nos Sources :</strong> Pour vous préparer au mieux, notre base de données est rigoureusement élaborée à partir du programme officiel du <strong>Ministère de l'Intérieur</strong>, des modules de formation de l'OFII et du Livret du Citoyen.</p>
                 </div>
             </div>
+
+            <div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
                 <h2 class="text-xl font-black text-bleu-france mb-6 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Simulateur d'Examen 2026</h2>
                 
                 <div class="mb-6">
@@ -201,8 +198,50 @@
                         </button>
                     </div>
                 </div>
+            </div> 
+
+            <div class="mt-8 pt-6 border-t border-gray-200">
+                <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">💡 Outils & Ressources utiles</h2>
+                <p class="text-[11px] text-gray-600 mb-4 leading-relaxed">Pour finaliser votre dossier à la préfecture, voici quelques services partenaires recommandés.</p>
+                
+                <div class="grid grid-cols-1 gap-3">
+                    <div class="border border-gray-200 p-3 rounded-lg hover:border-bleu-france transition-colors bg-white flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-black text-gray-900 text-[12px] mb-1">📝 Traduction Assermentée</h3>
+                            <p class="text-[10px] text-gray-600 mb-3 leading-relaxed">Obligatoire pour vos actes de naissance et mariage étrangers. Obtenez une traduction certifiée conforme pour la préfecture.</p>
+                        </div>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="block text-center bg-gray-100 text-gray-800 text-[10px] font-bold uppercase py-2 px-3 shadow-sm hover:bg-gray-200">
+                            Trouver un traducteur agréé
+                        </a>
+                    </div>
+
+                    <div class="border border-gray-200 p-3 rounded-lg hover:border-bleu-france transition-colors bg-white flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-black text-gray-900 text-[12px] mb-1">🗣️ Attestation de Français</h3>
+                            <p class="text-[10px] text-gray-600 mb-3 leading-relaxed">Besoin du niveau A2 ou B1 ? Entraînez-vous à l'oral et à l'écrit avec des professeurs particuliers en ligne.</p>
+                        </div>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="block text-center bg-bleu-france text-white text-[10px] font-bold uppercase py-2 px-3 shadow-sm hover:bg-blue-800">
+                            Réviser avec un professeur
+                        </a>
+                    </div>
+
+                    <div class="border border-gray-200 p-3 rounded-lg hover:border-orange-500 transition-colors bg-white flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-black text-gray-900 text-[12px] mb-1">📚 Livres de préparation</h3>
+                            <p class="text-[10px] text-gray-600 mb-3 leading-relaxed">Complétez vos révisions avec les meilleurs manuels officiels pour réussir votre entretien d'assimilation.</p>
+                        </div>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="block text-center bg-[#FF9900] text-gray-900 text-[10px] font-black uppercase py-2 px-3 shadow-sm hover:bg-[#FFaa00]">
+                            Voir sur Amazon
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="text-[8px] text-gray-400 mt-3 text-justify italic">
+                    Transparence : Ces liens sont affiliés. Si vous souscrivez à un service via ces liens, nous touchons une commission qui aide à financer ce site gratuit, sans que cela ne vous coûte un centime de plus.
+                </p>
             </div>
-        <div id="screen-quiz" class="hidden space-y-4">
+
+        </div> <div id="screen-quiz" class="hidden space-y-4">
             <div class="flex justify-between items-center">
                 <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest bg-blue-50 px-2 py-1 border border-blue-200">THEME</div>
                 <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-600 bg-white px-3 py-1 border border-yellow-300 shadow-sm">🎁 Joker 50/50</button>
