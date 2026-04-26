@@ -122,41 +122,70 @@
                 <div id="last-score-status" class="px-3 py-1 rounded-full text-[10px] font-black uppercase"></div>
             </div>
             
-            <div class="bg-white p-6 border border-gray-200 shadow-sm">
-                <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Préparation 2026</h2>
+<div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
+                <h2 class="text-xl font-black text-bleu-france mb-6 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Simulateur d'Examen 2026</h2>
                 
-                <div class="space-y-4 mb-6">
-                    <div class="bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
-                        <label class="block font-bold mb-2 italic text-bleu-france text-[11px] uppercase tracking-wider">🔢 Nombre de questions :</label>
-                        <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 font-bold text-gray-700 outline-none">
-                            <option value="10">10 Questions (Express)</option>
-                            <option value="20">20 Questions (Entraînement)</option>
-                            <option value="30">30 Questions (Intensif)</option>
-                            <option value="40" selected>40 Questions (Examen Complet)</option>
-                        </select>
-                    </div>
+                <div class="mb-6">
+                    <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
+                        <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">1</span> 
+                        Paramètres du test
+                    </h3>
+                    
+                    <div class="space-y-3">
+                        <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
+                            <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🔢 Nombre de questions</label>
+                            <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
+                                <option value="10">10 Questions (Test Rapide)</option>
+                                <option value="20">20 Questions (Entraînement)</option>
+                                <option value="30">30 Questions (Intensif)</option>
+                                <option value="40" selected>40 Questions (Examen Complet)</option>
+                            </select>
+                        </div>
 
-                    <div class="bg-blue-50 p-4 border-l-4 border-bleu-france text-sm">
-                        <label class="block font-bold mb-2 italic text-bleu-france text-[11px] uppercase tracking-wider">🌐 Traduction d'aide :</label>
-                        <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300 font-bold text-gray-700 outline-none">
-                            <option value="none">Français uniquement</option>
-                            <option value="en">English</option><option value="zh">中文 (Chinois)</option><option value="th">ภาษาไทย (Thaï)</option><option value="tl">Tagalog (Philippin)</option><option value="ar">العربية</option>
-                            <option value="ru">Русский</option><option value="uk">Українська</option>
-                            <option value="hi">हिन्दी</option><option value="ur">اردو</option><option value="fa">فارسی</option>
-                        </select>
+                        <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
+                            <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🌐 Aide à la traduction</label>
+                            <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
+                                <option value="none">🇫🇷 Français uniquement</option>
+                                <option value="en">🇬🇧 English</option>
+                                <option value="zh">🇨🇳 中文 (Chinois)</option>
+                                <option value="th">🇹🇭 ภาษาไทย (Thaï)</option>
+                                <option value="tl">🇵🇭 Tagalog (Philippin)</option>
+                                <option value="ar">🇸🇦 العربية (Arabe)</option>
+                                <option value="ru">🇷🇺 Русский (Russe)</option>
+                                <option value="uk">🇺🇦 Українська (Ukrainien)</option>
+                                <option value="hi">🇮🇳 हिन्दी (Hindi)</option>
+                                <option value="ur">🇵🇰 اردو (Ourdou)</option>
+                                <option value="fa">🇮🇷 فارسی (Persan)</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
 
-                <div class="grid grid-cols-1 gap-4 mt-6">
-                    <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 font-black shadow flex justify-between uppercase text-xs items-center">
-                        <span>📘 Lancez l'examen Civique pour la Carte de Séjour (A2)</span><span>➡</span>
-                    </button>
-                    <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 font-black shadow flex justify-between uppercase text-xs items-center">
-                        <span>📕 Lancez l'examen Civique pour la Carte de Résident (B1)</span><span>➡</span>
-                    </button>
+                <div>
+                    <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
+                        <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">2</span> 
+                        Lancez l'examen
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 gap-3">
+                        <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
+                            <div class="relative z-10">
+                                <div class="font-black uppercase text-sm tracking-wide mb-1">📘 Carte de Séjour</div>
+                                <div class="text-[10px] text-blue-200 font-medium tracking-wide">Niveau A2 • Titre de 1 à 4 ans</div>
+                            </div>
+                            <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                        </button>
+                        
+                        <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 rounded shadow-md hover:bg-red-700 transition text-left relative overflow-hidden group border-b-4 border-red-900">
+                            <div class="relative z-10">
+                                <div class="font-black uppercase text-sm tracking-wide mb-1">📕 Carte de Résident</div>
+                                <div class="text-[10px] text-red-200 font-medium tracking-wide">Niveau B1 • Titre de 10 ans ou Nationalité</div>
+                            </div>
+                            <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
 
         <div id="screen-quiz" class="hidden space-y-4">
             <div class="flex justify-between items-center">
