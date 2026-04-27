@@ -155,56 +155,63 @@ const App = {
         UI.showResults(score, QuizEngine.state);
     },
     
-    checkAdBlock() {
+checkAdBlock() {
         const detecter = async () => {
             let isBlocked = false;
 
-            // TEST 1 : Le test visuel (Pour les vieux AdBlockers)
+            // TEST 1 : Le test visuel
             const bait = document.createElement('div');
             bait.className = 'pub_300x250 pub_300x250m pub_728x90 text-ad textAd adSense ad-unit ad-zone ad-space adsbox';
             bait.style.position = 'absolute';
             bait.style.top = '-9999px';
             bait.style.height = '1px';
+            bait.style.width = '1px';
             document.body.appendChild(bait);
+            
+            // CALIBRAGE : On laisse 100 millisecondes à l'écran pour dessiner la boîte
+            await new Promise(resolve => setTimeout(resolve, 100));
             
             if (bait.offsetHeight === 0 || window.getComputedStyle(bait).display === 'none') {
                 isBlocked = true;
             }
             bait.remove();
 
-            // TEST 2 : L'arme fatale (Test réseau pour uBlock Origin, Brave, etc.)
+            // TEST 2 : Le test réseau (Assoupli)
             if (!isBlocked) {
                 try {
-                    // On essaie de contacter le serveur publicitaire de Google
                     await fetch("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", {
                         method: 'HEAD',
                         mode: 'no-cors',
                         cache: 'no-store'
                     });
                 } catch (e) {
-                    // Si le navigateur nous interdit d'y accéder, c'est qu'un bloqueur puissant est actif !
-                    isBlocked = true;
+                    // CALIBRAGE : On sanctionne SEULEMENT si l'utilisateur a internet. 
+                    // Si navigator.onLine est false, c'est juste une perte de connexion !
+                    if (navigator.onLine) {
+                        isBlocked = true;
+                    }
                 }
             }
 
-            // SANCTION : Si on détecte un bloqueur par n'importe quelle méthode
+            // SANCTION 
             if (isBlocked) {
                 const modal = document.getElementById('modal-adblock');
                 if (modal) {
                     modal.classList.remove('hidden');
-                    // Optionnel : On rend l'arrière-plan totalement flou pour forcer la lecture
-                    document.body.style.overflow = 'hidden'; 
+                    document.body.style.overflow = 'hidden'; // Bloque le défilement
                 }
             }
         };
 
-        // On laisse la page charger pendant 1 seconde, puis on lance le radar
+        // CALIBRAGE : On attend 2.5 secondes au démarrage. Le site a le temps de respirer et de charger.
         setTimeout(() => {
             detecter();
-            // On revérifie toutes les 3 secondes pour ceux qui essaient de tricher en cours de route
-            setInterval(detecter, 3000);
-        }, 1000);
-    }
+            
+            // CALIBRAGE : On revérifie toutes les 15 secondes (au lieu de 3s). 
+            // C'est amplement suffisant et ça ne vide pas la batterie du téléphone !
+            setInterval(detecter, 15000);
+        }, 2500);
+   }
     
 };
 
