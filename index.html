@@ -110,7 +110,7 @@
 
         
         <div id="main-nav" class="flex gap-3 w-full justify-center mb-8">
-            <button onclick="UI.switchScreen('screen-home')" class="text-[11px] font-black uppercase px-6 py-3 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
+          <button onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="text-[11px] font-black uppercase px-6 py-3 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
             <button onclick="UI.switchScreen('screen-revisions')" class="text-[11px] font-black uppercase px-6 py-3 bg-bleu-france text-white rounded-full shadow-sm hover:bg-blue-800">📚 Révisions</button>
         </div>
 
@@ -139,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
+            <div id="simulateur-section" class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
                 <h2 class="text-xl font-black text-bleu-france mb-6 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Simulateur d'Examen 2026</h2>
                 
                 <div class="mb-6">
