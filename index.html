@@ -109,10 +109,13 @@
         
 
         
-        <div id="main-nav" class="flex gap-3 w-full justify-center mb-8">
-          <button onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="text-[11px] font-black uppercase px-6 py-3 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
-            <button onclick="UI.switchScreen('screen-revisions')" class="text-[11px] font-black uppercase px-6 py-3 bg-bleu-france text-white rounded-full shadow-sm hover:bg-blue-800">📚 Révisions</button>
-        </div>
+<div id="main-nav" class="flex flex-wrap gap-2 md:gap-3 w-full justify-center mb-8">
+    <button onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
+    
+    <button onclick="UI.switchScreen('screen-revisions')" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-bleu-france text-white rounded-full shadow-sm hover:bg-blue-800">📚 Révisions</button>
+    
+    <button onclick="UI.switchScreen('screen-demarches')" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📋 Démarches & Outils</button>
+</div>
 
         <div id="screen-home" class="space-y-6">
             <div class="bg-blue-50 border border-blue-200 py-2 px-3 rounded shadow-sm mb-6">
@@ -217,7 +220,7 @@
                 </script>
             </div>
             <div class="mt-8 pt-6 border-t border-gray-200">
-                <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">💡 Outils & Ressources utiles</h2>
+                <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">🌟 Services & Partenaires recommandés</h2>
                 <p class="text-[11px] text-gray-600 mb-4 leading-relaxed">Pour finaliser votre dossier à la préfecture, voici quelques services partenaires recommandés.</p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -681,6 +684,51 @@
 
             </div>
         </div>
+
+<div id="screen-demarches" class="hidden space-y-6">
+    
+    <div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
+        <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Vos Démarches en Préfecture</h2>
+        
+        <div class="space-y-3 text-sm text-gray-700 leading-relaxed text-justify mb-8">
+            <p>La constitution de votre dossier sur la plateforme de l'État (ANEF) requiert des documents extrêmement précis. Un fichier trop lourd ou mal formaté peut entraîner un refus informatique ou faire classer votre dossier comme "incomplet".</p>
+            <p>Pour vous aider, nous développons des <strong>outils 100% gratuits et sécurisés</strong>. Tous les traitements se font directement dans votre navigateur : <strong>aucun de vos documents privés ne quitte votre téléphone</strong> ni n'est stocké sur nos serveurs.</p>
+        </div>
+
+        <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 text-center">Boîte à outils (Bientôt disponible)</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 opacity-60 pointer-events-none">
+            <div class="border-2 border-dashed border-gray-300 p-4 rounded text-center bg-gray-50">
+                <span class="text-2xl mb-2 block">📄➕📄</span>
+                <h4 class="font-bold text-gray-900 text-sm">Fusionner des PDF</h4>
+                <p class="text-[10px] text-gray-500 mt-1">Pour regrouper toutes les pages de votre passeport</p>
+            </div>
+            <div class="border-2 border-dashed border-gray-300 p-4 rounded text-center bg-gray-50">
+                <span class="text-2xl mb-2 block">🗜️</span>
+                <h4 class="font-bold text-gray-900 text-sm">Compresser un fichier</h4>
+                <p class="text-[10px] text-gray-500 mt-1">Pour respecter la limite de poids de l'ANEF</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-blue-50 border-2 border-bleu-france p-6 rounded-lg shadow-md text-center">
+        <span class="text-4xl mb-3 block">💌</span>
+        <h2 class="text-lg font-black text-bleu-france uppercase tracking-tight mb-2">Rejoignez la communauté</h2>
+        <p class="text-xs text-gray-700 mb-6 max-w-md mx-auto leading-relaxed">
+            Abonnez-vous à notre newsletter gratuite pour recevoir les mises à jour des lois d'immigration, des astuces pour réussir votre entretien, et être alerté en premier dès l'ouverture de nos nouveaux outils !
+        </p>
+        
+        <form id="newsletter-form" class="max-w-sm mx-auto flex flex-col gap-3" onsubmit="event.preventDefault(); alert('Le système d\'inscription sera bientôt connecté !');">
+            <input type="email" placeholder="Votre adresse e-mail..." required class="w-full p-3 text-sm border border-gray-300 rounded shadow-sm focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
+            <button type="submit" class="w-full bg-rouge-marianne text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow hover:bg-red-700 transition">
+                Je m'abonne gratuitement
+            </button>
+            <p class="text-[9px] text-gray-500 mt-1">Promis, 0 spam. Désinscription en un clic.</p>
+        </form>
+    </div>
+
+</div>
+    
         <div id="screen-legal" class="hidden space-y-6">
             <div class="bg-white p-6 border border-gray-200 shadow-sm text-sm text-gray-700">
                 
