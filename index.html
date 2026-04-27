@@ -104,14 +104,7 @@
     
 <main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-md">
         
-        <div class="bg-blue-50 border border-blue-200 py-2 px-3 rounded shadow-sm mb-6">
-            <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-[10px] font-black text-bleu-france uppercase tracking-wide text-center">
-                <span>✅ 100% Gratuit</span>
-                <span>🌍 Multilingue</span>
-                <span>📚 Cours Officiels</span>
-                <span>🖨️ Bilan PDF</span>
-            </div>
-        </div>
+
         
         <div id="main-nav" class="flex gap-3 w-full justify-center mb-8">
             <button onclick="UI.switchScreen('screen-home')" class="text-[11px] font-black uppercase px-6 py-3 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
@@ -119,7 +112,14 @@
         </div>
 
         <div id="screen-home" class="space-y-6">
-            
+            <div class="bg-blue-50 border border-blue-200 py-2 px-3 rounded shadow-sm mb-6">
+                <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-[10px] font-black text-bleu-france uppercase tracking-wide text-center">
+                    <span>✅ 100% Gratuit</span>
+                    <span>🌍 Multilingue</span>
+                    <span>📚 Cours Officiels</span>
+                    <span>🖨️ Bilan PDF</span>
+                </div>
+            </div>
             <div id="last-score-container" class="hidden bg-white p-4 border border-blue-200 shadow-sm flex items-center justify-between">
                 <div><p class="text-[10px] uppercase text-gray-400 font-black">Dernier résultat</p><p id="last-score-val" class="text-2xl font-black text-bleu-france"></p></div>
                 <div id="last-score-status" class="px-3 py-1 rounded-full text-[10px] font-black uppercase"></div>
@@ -646,14 +646,8 @@
                     Afin d'améliorer votre expérience, nous pouvons utiliser des outils d'analyse d'audience (anonymisés) pour comprendre comment notre site est utilisé.</p>
                 </div>
             </div>
-        </div>
 
-
-        
-    </main>
-
-
-    <div class="max-w-3xl mx-auto px-4 py-8 mt-8 border-t border-gray-200">
+                <div class="max-w-3xl mx-auto px-4 py-8 mt-8 border-t border-gray-200">
             <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                 
                 <h2 class="text-lg font-black text-bleu-france uppercase mb-3">Pourquoi ce projet ?</h2>
@@ -699,6 +693,14 @@
 
             </div>
     </div>
+        </div>
+
+
+        
+    </main>
+
+
+
 
     <footer class="container mx-auto max-w-md px-4 pb-12 text-center">
         <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
