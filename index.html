@@ -43,7 +43,7 @@
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
 
     <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
-        <div class="container mx-auto px-4 py-2 max-w-md flex items-center justify-between">
+        <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-between">
             <div class="flex items-center">
                 <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
                 <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-2">
@@ -102,7 +102,7 @@
     
 
     
-<main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-md">
+<main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-4xl">
         
 
         
@@ -145,7 +145,7 @@
                         Paramètres du test
                     </h3>
                     
-                    <div class="space-y-3">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
                             <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🔢 Nombre de questions</label>
                             <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
@@ -181,7 +181,7 @@
                         Lancez l'examen
                     </h3>
                     
-                    <div class="grid grid-cols-1 gap-3">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
                             <div class="relative z-10">
                                 <div class="font-black uppercase text-sm tracking-wide mb-1">📘 Carte de Séjour</div>
@@ -205,7 +205,7 @@
                 <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">💡 Outils & Ressources utiles</h2>
                 <p class="text-[11px] text-gray-600 mb-4 leading-relaxed">Pour finaliser votre dossier à la préfecture, voici quelques services partenaires recommandés.</p>
                 
-                <div class="grid grid-cols-1 gap-3">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div class="border border-gray-200 p-3 rounded-lg hover:border-bleu-france transition-colors bg-white flex flex-col justify-between">
                         <div>
                             <h3 class="font-black text-gray-900 text-[12px] mb-1">📝 Traduction Assermentée</h3>
@@ -703,7 +703,7 @@
 
 
 
-    <footer class="container mx-auto max-w-md px-4 pb-12 text-center">
+    <footer class="container mx-auto max-w-4xl px-4 pb-12 text-center">
         <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
         <div class="flex justify-center gap-4 mb-3 text-[10px] font-bold text-gray-500 uppercase">
             <button onclick="UI.switchScreen('screen-legal')" class="hover:text-bleu-france">Mentions Légales</button>
