@@ -41,9 +41,9 @@
     
 </head>
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
-
-    <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
-        <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-between">
+<header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
+        <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-center relative">
+            
             <div class="flex items-center">
                 <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
                 <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-2">
@@ -53,12 +53,15 @@
                 <div class="h-10 w-px bg-gray-300 mx-2"></div>
                 <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1>
             </div>
-            <div id="q-counter" class="hidden flex flex-col items-end">
+
+            <div id="q-counter" class="hidden absolute right-4 md:right-8 top-1/2 -translate-y-1/2 flex-col items-end">
                 <span class="text-[8px] uppercase text-gray-400 font-bold">Progression</span>
                 <span class="text-sm font-black text-bleu-france"><span id="current-q-num">1</span>/40</span>
             </div>
+
         </div>
     </header>
+
 
     <div id="modal-alert" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4">
         <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-bleu-france text-center">
