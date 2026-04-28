@@ -271,20 +271,54 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // ==========================================
-// POP-UP NEWSLETTER INTELLIGENTE
+// GESTION DE LA NEWSLETTER (Pop-up & Footer)
 // ==========================================
+
+// Fonction qui se lance quand on clique sur "S'abonner"
+window.validerAbonnement = function() {
+    // 1. On mémorise dans le navigateur que c'est fait
+    localStorage.setItem('est_abonne', 'true');
+    
+    // 2. On fait disparaître le footer
+    const footerNews = document.getElementById('footer-newsletter');
+    if (footerNews) {
+        footerNews.classList.add('hidden');
+    }
+
+    // 3. On fait disparaître le pop-up
+    const popup = document.getElementById('modal-newsletter-popup');
+    if (popup) {
+        popup.classList.add('hidden');
+    }
+
+    // 4. On affiche la victoire !
+    setTimeout(() => {
+        alert("🎉 Félicitations ! Votre inscription est validée. Vous recevrez très vite nos astuces pour la préfecture !");
+    }, 500);
+};
+
+// Logique qui s'exécute à chaque fois qu'on ouvre le site
 window.addEventListener('DOMContentLoaded', () => {
-    // On vérifie si la personne a déjà vu la newsletter
-    if (!localStorage.getItem('newsletter_deja_vue')) {
-        
-        // On attend 5 secondes pour le laisser lire un peu le site
-        setTimeout(() => {
-            const popup = document.getElementById('modal-newsletter-popup');
-            if (popup) {
-                popup.classList.remove('hidden');
-                // On enregistre dans son téléphone qu'il l'a vue !
-                localStorage.setItem('newsletter_deja_vue', 'true');
-            }
-        }, 5000); 
+    
+    // SI la personne est DÉJÀ abonnée
+    if (localStorage.getItem('est_abonne') === 'true') {
+        // On cache le footer pour toujours
+        const footerNews = document.getElementById('footer-newsletter');
+        if (footerNews) footerNews.classList.add('hidden');
+    } 
+    // SINON (elle n'est pas abonnée)
+    else {
+        // Est-ce qu'on lui a déjà montré le pop-up ?
+        if (!localStorage.getItem('newsletter_deja_vue')) {
+            // Si non, on attend 5 secondes et on l'affiche
+            setTimeout(() => {
+                const popup = document.getElementById('modal-newsletter-popup');
+                if (popup) {
+                    popup.classList.remove('hidden');
+                    // On note qu'on lui a montré pour ne pas la harceler demain
+                    localStorage.setItem('newsletter_deja_vue', 'true');
+                }
+            }, 5000); 
+        }
     }
 });
