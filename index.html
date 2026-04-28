@@ -103,6 +103,21 @@
         ⏱ <span id="timer-display">45:00</span>
     </div>
     
+    <div id="modal-newsletter-popup" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[400] flex items-center justify-center p-4 backdrop-blur-sm">
+    <div class="bg-white max-w-sm w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative">
+        <button onclick="document.getElementById('modal-newsletter-popup').classList.add('hidden')" class="absolute top-2 right-3 text-gray-400 hover:text-gray-800 font-black text-xl">&times;</button>
+        
+        <span class="text-4xl mb-2 block">💌</span>
+        <h3 class="text-lg font-black text-bleu-france uppercase tracking-tight mb-2">Ne ratez aucune astuce !</h3>
+        <p class="text-xs text-gray-600 mb-5 font-medium leading-relaxed">Abonnez-vous gratuitement pour recevoir les mises à jour des lois et nos outils exclusifs pour la préfecture.</p>
+        
+        <form method="POST" action="VOTRE_LIEN_BREVO_ICI" target="_blank" onsubmit="document.getElementById('modal-newsletter-popup').classList.add('hidden')">
+            <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="w-full p-3 mb-3 text-sm border border-gray-300 rounded focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
+            <button type="submit" class="w-full bg-rouge-marianne text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow-md hover:bg-red-700 transition">Je m'abonne</button>
+        </form>
+        <p class="text-[9px] text-gray-400 mt-3">0 spam. Désinscription en 1 clic.</p>
+    </div>
+    </div>
 
     
 <main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-4xl">
