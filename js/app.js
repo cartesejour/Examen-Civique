@@ -271,6 +271,89 @@ const OutilsPDF = {
             btn.disabled = false;
             btn.classList.remove('opacity-50', 'cursor-not-allowed');
         }
+    },
+
+    // ==========================================
+    // 3. Afficher le fichier à compresser
+    // ==========================================
+    afficherFichierCompression: function() {
+        const input = document.getElementById('compress-input');
+        const liste = document.getElementById('compress-list');
+        const btn = document.getElementById('btn-compresser');
+        
+        liste.innerHTML = ''; 
+        
+        if (input.files.length === 0) {
+            btn.classList.add('hidden');
+            return;
+        }
+
+        const file = input.files[0];
+        // On calcule le poids en Mo pour l'afficher
+        const tailleMo = (file.size / (1024 * 1024)).toFixed(2);
+        
+        liste.innerHTML = `<p class="font-bold text-bleu-france border-b border-gray-100 pb-1">📄 ${file.name}</p>
+                           <p class="mt-1">Poids actuel : <strong class="${tailleMo > 5 ? 'text-rouge-marianne' : 'text-gray-700'}">${tailleMo} Mo</strong></p>`;
+        
+        btn.classList.remove('hidden');
+    },
+
+    // ==========================================
+    // 4. Compresser (Reconstruire) le PDF
+    // ==========================================
+    compresser: async function() {
+        const input = document.getElementById('compress-input');
+        const btn = document.getElementById('btn-compresser');
+        
+        if (input.files.length === 0) return;
+
+        try {
+            btn.innerText = "⏳ Optimisation en cours...";
+            btn.classList.add('opacity-50', 'cursor-not-allowed');
+            btn.disabled = true;
+
+            const file = input.files[0];
+            const arrayBuffer = await file.arrayBuffer();
+            
+            const { PDFDocument } = PDFLib;
+            
+            // On charge le lourd PDF d'origine
+            const pdfLourd = await PDFDocument.load(arrayBuffer);
+            
+            // On crée un tout nouveau PDF vierge
+            const pdfOptimise = await PDFDocument.create();
+            
+            // On copie uniquement les pages (ça laisse de côté le code inutile du scanner)
+            const pages = await pdfOptimise.copyPages(pdfLourd, pdfLourd.getPageIndices());
+            pages.forEach((page) => pdfOptimise.addPage(page));
+
+            // On sauvegarde avec l'option "useObjectStreams" qui aide à compresser la structure
+            const pdfBytes = await pdfOptimise.save({ useObjectStreams: true });
+            
+            // On télécharge le résultat
+            const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'Dossier_ANEF_Optimise.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            btn.innerText = "✅ Fichier allégé !";
+            setTimeout(() => {
+                btn.innerText = "Optimiser et Télécharger";
+                btn.classList.remove('opacity-50', 'cursor-not-allowed');
+                btn.disabled = false;
+            }, 3000);
+
+        } catch (erreur) {
+            console.error("Erreur lors de l'optimisation :", erreur);
+            alert("Une erreur s'est produite. Le fichier est peut-être corrompu ou protégé par un mot de passe.");
+            btn.innerText = "Optimiser et Télécharger";
+            btn.disabled = false;
+            btn.classList.remove('opacity-50', 'cursor-not-allowed');
+        }
     }
 };
 
