@@ -301,20 +301,27 @@ window.UI = UI;
 window.OutilsPDF = OutilsPDF;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. On lance le cœur du site (Quiz, Adblock...)
+    // 1. On lance le quiz et l'anti-adblock
     App.init();
 
-    // 2. On gère l'affichage de la Newsletter
+    // 2. On gère l'affichage de la Newsletter au démarrage
     if (localStorage.getItem('est_abonne') === 'true') {
         const footerNews = document.getElementById('footer-newsletter');
         if (footerNews) footerNews.classList.add('hidden');
     } else {
         if (!localStorage.getItem('newsletter_deja_vue')) {
             setTimeout(() => {
-                const popup = document.getElementById('modal-newsletter-popup');
-                if (popup) {
-                    popup.classList.remove('hidden');
-                    localStorage.setItem('newsletter_deja_vue', 'true');
+                // CORRECTION : On vérifie si la punition AdBlock est à l'écran !
+                const adblockModal = document.getElementById('modal-adblock');
+                const isAdblockVisible = adblockModal && !adblockModal.classList.contains('hidden');
+
+                // On n'affiche la newsletter QUE si l'écran est libre
+                if (!isAdblockVisible) {
+                    const popup = document.getElementById('modal-newsletter-popup');
+                    if (popup) {
+                        popup.classList.remove('hidden');
+                        localStorage.setItem('newsletter_deja_vue', 'true');
+                    }
                 }
             }, 5000); 
         }
