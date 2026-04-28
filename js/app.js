@@ -279,21 +279,24 @@ window.validerAbonnement = function() {
     // 1. On mémorise dans le navigateur que c'est fait
     localStorage.setItem('est_abonne', 'true');
     
-    // 2. On fait disparaître le footer
+    // 2. On fait disparaître le footer instantanément
     const footerNews = document.getElementById('footer-newsletter');
     if (footerNews) {
         footerNews.classList.add('hidden');
     }
 
-    // 3. On fait disparaître le pop-up
+    // 3. On fait disparaître le pop-up d'inscription (s'il était ouvert)
     const popup = document.getElementById('modal-newsletter-popup');
     if (popup) {
         popup.classList.add('hidden');
     }
 
-    // 4. On affiche la victoire !
+    // 4. On affiche la MAGNIFIQUE fenêtre de succès après une petite demi-seconde !
     setTimeout(() => {
-        alert("🎉 Félicitations ! Votre inscription est validée. Vous recevrez très vite nos astuces pour la préfecture !");
+        const successModal = document.getElementById('modal-newsletter-success');
+        if (successModal) {
+            successModal.classList.remove('hidden');
+        }
     }, 500);
 };
 
