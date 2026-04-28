@@ -110,11 +110,11 @@
 
         
 <div id="main-nav" class="flex flex-wrap gap-2 md:gap-3 w-full justify-center mb-8">
-    <button onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📝 Quiz</button>
+    <button id="btn-nav-home" onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-bleu-france text-white rounded-full shadow-sm transition-colors">📝 Quiz</button>
     
-    <button onclick="UI.switchScreen('screen-revisions')" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-bleu-france text-white rounded-full shadow-sm hover:bg-blue-800">📚 Révisions</button>
+    <button id="btn-nav-revisions" onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors">📚 Révisions</button>
     
-    <button onclick="UI.switchScreen('screen-demarches')" class="text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm hover:bg-gray-300">📋 Démarches & Outils</button>
+    <button id="btn-nav-demarches" onclick="UI.switchScreen('screen-demarches')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors">📋 Démarches & Outils</button>
 </div>
 
         <div id="screen-home" class="space-y-6">
