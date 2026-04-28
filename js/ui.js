@@ -22,31 +22,41 @@ switchScreen(screenId) {
         const mainNav = document.getElementById('main-nav');
         if (!mainNav) return; // Sécurité
 
-        // 3. On remet tous les boutons de navigation en gris normal
+        // 3. On remet TOUS les boutons en gris normal (on enlève le bleu)
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.classList.remove('bg-bleu-france', 'text-white');
             btn.classList.add('bg-gray-200', 'text-gray-800');
         });
 
-        // 4. On gère l'affichage du menu ET la couleur des boutons en même temps
+        // 4. On met en bleu SEULEMENT le bouton cliqué (et on ENLÈVE le gris)
         if (screenId === 'screen-home') {
-            document.getElementById('btn-nav-home').classList.add('bg-bleu-france', 'text-white');
+            const btn = document.getElementById('btn-nav-home');
+            if(btn) {
+                btn.classList.remove('bg-gray-200', 'text-gray-800');
+                btn.classList.add('bg-bleu-france', 'text-white');
+            }
             mainNav.classList.remove('hidden');
         } 
         else if (screenId === 'screen-revisions') {
-            document.getElementById('btn-nav-revisions').classList.add('bg-bleu-france', 'text-white');
+            const btn = document.getElementById('btn-nav-revisions');
+            if(btn) {
+                btn.classList.remove('bg-gray-200', 'text-gray-800');
+                btn.classList.add('bg-bleu-france', 'text-white');
+            }
             mainNav.classList.remove('hidden');
         } 
         else if (screenId === 'screen-demarches') {
-            document.getElementById('btn-nav-demarches').classList.add('bg-bleu-france', 'text-white');
+            const btn = document.getElementById('btn-nav-demarches');
+            if(btn) {
+                btn.classList.remove('bg-gray-200', 'text-gray-800');
+                btn.classList.add('bg-bleu-france', 'text-white');
+            }
             mainNav.classList.remove('hidden');
         } 
         else if (screenId === 'screen-legal' || screenId === 'screen-privacy') {
-            // Sur les pages légales, on affiche le menu, mais aucun bouton n'est en bleu
             mainNav.classList.remove('hidden');
         }
         else {
-            // Sur l'écran du Quiz ou des Résultats, on cache totalement le menu
             mainNav.classList.add('hidden');
         }
     },
