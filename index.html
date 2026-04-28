@@ -754,9 +754,10 @@
             <p>Pour vous aider, nous développons des <strong>outils 100% gratuits et sécurisés</strong>. Tous les traitements se font directement dans votre navigateur : <strong>aucun de vos documents privés ne quitte votre téléphone</strong> ni n'est stocké sur nos serveurs.</p>
         </div>
 
-        <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 text-center">Boîte à outils (Bientôt disponible)</h3>
+    <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 text-center">Votre Boîte à outils</h3>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 opacity-60 pointer-events-none">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
             <div class="border-2 border-bleu-france p-5 rounded text-center bg-white shadow-sm relative overflow-hidden group">
                 <div class="absolute top-0 right-0 bg-bleu-france text-white text-[9px] font-black px-2 py-1 uppercase rounded-bl">Nouveau</div>
                 
@@ -765,21 +766,24 @@
                 <p class="text-[10px] text-gray-500 mb-4 px-2">Sélectionnez plusieurs PDF (Passeport, fiches de paie...) pour les regrouper en un seul fichier pour l'ANEF.</p>
                 
                 <input type="file" id="pdf-input" multiple accept=".pdf" class="hidden" onchange="OutilsPDF.afficherFichiers()">
-                <label for="pdf-input" class="cursor-pointer inline-block bg-gray-100 text-gray-800 font-bold text-[11px] px-4 py-2 rounded border border-gray-300 hover:bg-gray-200 transition mb-3">
+                <label for="pdf-input" class="cursor-pointer inline-block bg-bleu-france text-white font-bold text-[11px] px-4 py-2 rounded shadow hover:bg-blue-800 transition mb-3">
                     📂 Choisir les PDF
                 </label>
                 
                 <div id="pdf-list" class="text-left text-[10px] text-gray-600 mb-3 space-y-1 max-h-24 overflow-y-auto px-2"></div>
                 
-                <button id="btn-fusionner" onclick="OutilsPDF.fusionner()" class="hidden w-full bg-bleu-france text-white font-black text-[11px] uppercase tracking-widest py-3 rounded shadow hover:bg-blue-800 transition">
+                <button id="btn-fusionner" onclick="OutilsPDF.fusionner()" class="hidden w-full bg-rouge-marianne text-white font-black text-[11px] uppercase tracking-widest py-3 rounded shadow-md hover:bg-red-700 transition">
                     Fusionner et Télécharger
                 </button>
             </div>
-            <div class="border-2 border-dashed border-gray-300 p-4 rounded text-center bg-gray-50">
+
+            <div class="border-2 border-dashed border-gray-300 p-4 rounded text-center bg-gray-50 opacity-60 pointer-events-none relative">
+                <div class="absolute top-0 right-0 bg-gray-300 text-gray-600 text-[9px] font-black px-2 py-1 uppercase rounded-bl">Bientôt</div>
                 <span class="text-2xl mb-2 block">🗜️</span>
                 <h4 class="font-bold text-gray-900 text-sm">Compresser un fichier</h4>
                 <p class="text-[10px] text-gray-500 mt-1">Pour respecter la limite de poids de l'ANEF</p>
             </div>
+
         </div>
     </div>
 
