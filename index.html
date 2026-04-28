@@ -777,11 +777,23 @@
                 </button>
             </div>
 
-            <div class="border-2 border-dashed border-gray-300 p-4 rounded text-center bg-gray-50 opacity-60 pointer-events-none relative">
-                <div class="absolute top-0 right-0 bg-gray-300 text-gray-600 text-[9px] font-black px-2 py-1 uppercase rounded-bl">Bientôt</div>
-                <span class="text-2xl mb-2 block">🗜️</span>
-                <h4 class="font-bold text-gray-900 text-sm">Compresser un fichier</h4>
-                <p class="text-[10px] text-gray-500 mt-1">Pour respecter la limite de poids de l'ANEF</p>
+            <div class="border-2 border-bleu-france p-5 rounded text-center bg-white shadow-sm relative overflow-hidden group">
+                <div class="absolute top-0 right-0 bg-bleu-france text-white text-[9px] font-black px-2 py-1 uppercase rounded-bl">Nouveau</div>
+                
+                <span class="text-3xl mb-2 block">🗜️</span>
+                <h4 class="font-bold text-gray-900 text-sm mb-1">Compresser un PDF</h4>
+                <p class="text-[10px] text-gray-500 mb-4 px-2">Réduisez le poids de votre document pour qu'il soit accepté par le site de la Préfecture (ANEF).</p>
+                
+                <input type="file" id="compress-input" accept=".pdf" class="sr-only" onchange="OutilsPDF.afficherFichierCompression()">
+                <label for="compress-input" class="cursor-pointer inline-block bg-bleu-france text-white font-bold text-[11px] px-4 py-2 rounded shadow hover:bg-blue-800 transition mb-3">
+                    📂 Choisir un fichier lourd
+                </label>
+                
+                <div id="compress-list" class="text-left text-[10px] text-gray-600 mb-3 px-2"></div>
+                
+                <button id="btn-compresser" onclick="OutilsPDF.compresser()" class="hidden w-full bg-rouge-marianne text-white font-black text-[11px] uppercase tracking-widest py-3 rounded shadow-md hover:bg-red-700 transition">
+                    Optimiser et Télécharger
+                </button>
             </div>
 
         </div>
