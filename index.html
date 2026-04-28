@@ -110,9 +110,8 @@
         <span class="text-4xl mb-2 block">💌</span>
         <h3 class="text-lg font-black text-bleu-france uppercase tracking-tight mb-2">Ne ratez aucune astuce !</h3>
         <p class="text-xs text-gray-600 mb-5 font-medium leading-relaxed">Abonnez-vous gratuitement pour recevoir les mises à jour des lois et nos outils exclusifs pour la préfecture.</p>
-        
-        <form method="POST" action="VOTRE_LIEN_BREVO_ICI" target="_blank" onsubmit="document.getElementById('modal-newsletter-popup').classList.add('hidden')">
-            <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="w-full p-3 mb-3 text-sm border border-gray-300 rounded focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
+        <form method="POST" action="https://88f4c451.sibforms.com/serve/MUIFABMpVB0ZSaUKLslq8MKLAb1BMopP4p9-CQ1pYB0gAwrUGceBmK6kgbnVvnHE5bfxBr-2pYFEXFxeornC9oof_-jKPQL4532OL8SnywoIbFhEroNtxrues0bcvI1m3XBu5SRSQgiv0atYoLOcgFcatxM8GkKvaMDLHdDyIe_gal1N7hBBxf-IqpRzBO8XntEqtHouW5QAODcmLQ==" target="_blank" onsubmit="document.getElementById('modal-newsletter-popup').classList.add('hidden'); App.validerAbonnement();">
+        <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="w-full p-3 mb-3 text-sm border border-gray-300 rounded focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
             <button type="submit" class="w-full bg-rouge-marianne text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow-md hover:bg-red-700 transition">Je m'abonne</button>
         </form>
         <p class="text-[9px] text-gray-400 mt-3">0 spam. Désinscription en 1 clic.</p>
@@ -726,22 +725,6 @@
         </div>
     </div>
 
-    <div class="bg-blue-50 border-2 border-bleu-france p-6 rounded-lg shadow-md text-center">
-        <span class="text-4xl mb-3 block">💌</span>
-        <h2 class="text-lg font-black text-bleu-france uppercase tracking-tight mb-2">Rejoignez la communauté</h2>
-        <p class="text-xs text-gray-700 mb-6 max-w-md mx-auto leading-relaxed">
-            Abonnez-vous à notre newsletter gratuite pour recevoir les mises à jour des lois d'immigration, des astuces pour réussir votre entretien, et être alerté en premier dès l'ouverture de nos nouveaux outils !
-        </p>
-        
-        <form id="newsletter-form" class="max-w-sm mx-auto flex flex-col gap-3" onsubmit="event.preventDefault(); alert('Le système d\'inscription sera bientôt connecté !');">
-            <input type="email" placeholder="Votre adresse e-mail..." required class="w-full p-3 text-sm border border-gray-300 rounded shadow-sm focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
-            <button type="submit" class="w-full bg-rouge-marianne text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow hover:bg-red-700 transition">
-                Je m'abonne gratuitement
-            </button>
-            <p class="text-[9px] text-gray-500 mt-1">Promis, 0 spam. Désinscription en un clic.</p>
-        </form>
-    </div>
-
 </div>
     
         <div id="screen-legal" class="hidden space-y-6">
@@ -796,7 +779,18 @@
 
     <footer class="container mx-auto max-w-4xl px-4 pb-12 text-center">
         <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
-        
+       
+        <div id="footer-newsletter" class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 mb-8 max-w-md mx-auto">
+            <h4 class="text-xs font-black text-bleu-france uppercase mb-2">💌 Restez informé</h4>
+            <p class="text-[10px] text-gray-600 mb-3 leading-relaxed">Abonnez-vous gratuitement pour recevoir nos astuces et les nouveautés de la préfecture.</p>
+            
+            <form method="POST" action="https://88f4c451.sibforms.com/serve/MUIFABMpVB0ZSaUKLslq8MKLAb1BMopP4p9-CQ1pYB0gAwrUGceBmK6kgbnVvnHE5bfxBr-2pYFEXFxeornC9oof_-jKPQL4532OL8SnywoIbFhEroNtxrues0bcvI1m3XBu5SRSQgiv0atYoLOcgFcatxM8GkKvaMDLHdDyIe_gal1N7hBBxf-IqpRzBO8XntEqtHouW5QAODcmLQ==" target="_blank" onsubmit="App.validerAbonnement()">
+                <div class="flex gap-2">
+                    <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="flex-1 p-2 text-xs border border-gray-300 rounded focus:outline-none focus:border-bleu-france">
+                    <button type="submit" class="bg-rouge-marianne text-white font-black text-[10px] uppercase px-4 py-2 rounded hover:bg-red-700 transition shadow-sm">S'abonner</button>
+                </div>
+            </form>
+        </div>
                 <div class="flex flex-wrap justify-center items-center gap-3 mb-6">
             
             <a href="https://www.instagram.com/cartesejour.fr/" target="_blank" rel="noopener noreferrer" 
