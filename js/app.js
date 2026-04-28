@@ -33,6 +33,31 @@ const App = {
         if (inProgress) {
             UI.openModal('modal-resume'); 
         }
+        
+        // Au chargement de la page :
+window.addEventListener('DOMContentLoaded', () => {
+    
+    // Si la personne est DÉJÀ abonnée, on cache le footer direct !
+    if (localStorage.getItem('est_abonne') === 'true') {
+        const footerNews = document.getElementById('footer-newsletter');
+        if (footerNews) footerNews.classList.add('hidden');
+    }
+
+    // (Gardez ici votre code qui affiche le pop-up au bout de 5 secondes s'il ne l'a pas déjà vu)
+    if (!localStorage.getItem('newsletter_deja_vue')) {
+        setTimeout(() => {
+            // On affiche le pop-up QUE s'il n'est pas déjà abonné
+            if(localStorage.getItem('est_abonne') !== 'true') {
+                const popup = document.getElementById('modal-newsletter-popup');
+                if (popup) {
+                    popup.classList.remove('hidden');
+                    localStorage.setItem('newsletter_deja_vue', 'true');
+                }
+            }
+        }, 5000); 
+    }
+    
+});
     },
 
     // 💾 Fonction pour sauvegarder la progression
@@ -153,6 +178,17 @@ const App = {
         
         localStorage.setItem('lastScoreCivique', JSON.stringify({ score: score, total: total }));
         UI.showResults(score, QuizEngine.state);
+    },
+
+    validerAbonnement() {
+        // 1. On mémorise dans le téléphone que la personne est abonnée !
+        localStorage.setItem('est_abonne', 'true');
+        
+        // 2. On fait disparaître le bloc du footer immédiatement sous ses yeux
+        const footerNews = document.getElementById('footer-newsletter');
+        if (footerNews) {
+            footerNews.classList.add('hidden');
+        }
     },
     
 checkAdBlock() {
