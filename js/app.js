@@ -181,14 +181,25 @@ window.addEventListener('DOMContentLoaded', () => {
     },
 
     validerAbonnement() {
-        // 1. On mémorise dans le téléphone que la personne est abonnée !
+        // 1. On mémorise que la personne est abonnée
         localStorage.setItem('est_abonne', 'true');
         
-        // 2. On fait disparaître le bloc du footer immédiatement sous ses yeux
+        // 2. On cache le footer
         const footerNews = document.getElementById('footer-newsletter');
         if (footerNews) {
             footerNews.classList.add('hidden');
         }
+
+        // 3. On cache le pop-up (si c'est par là qu'il s'est abonné)
+        const popup = document.getElementById('modal-newsletter-popup');
+        if (popup) {
+            popup.classList.add('hidden');
+        }
+
+        // 4. Message de succès après une petite demi-seconde
+        setTimeout(() => {
+            alert("🎉 Félicitations ! Votre inscription est validée. Vous recevrez très vite nos astuces pour la préfecture !");
+        }, 500);
     },
     
 checkAdBlock() {
