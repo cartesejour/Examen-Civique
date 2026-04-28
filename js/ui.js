@@ -7,26 +7,50 @@ const UI = {
         document.getElementById('modal-message').innerText = message;
         this.openModal('modal-alert');
     },
+
 switchScreen(screenId) {
-        // 👉 On ajoute les 2 nouveaux écrans dans la liste pour bien les cacher quand on change de page
-        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-legal', 'screen-privacy'].forEach(id => {
+        // 1. On cache TOUS les écrans (J'ai ajouté 'screen-demarches' ici !)
+        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-demarches', 'screen-legal', 'screen-privacy'].forEach(id => {
             const el = document.getElementById(id);
             if(el) el.classList.add('hidden');
         });
         
-        document.getElementById(screenId).classList.remove('hidden');
+        // 2. On affiche uniquement l'écran demandé
+        const targetScreen = document.getElementById(screenId);
+        if(targetScreen) targetScreen.classList.remove('hidden');
 
-        // Gestion du menu principal
-        const nav = document.getElementById('main-nav');
-        if (nav) {
-            // On affiche le menu principal sur l'accueil, les révisions ET les pages légales
-            if (screenId === 'screen-home' || screenId === 'screen-revisions' || screenId === 'screen-legal' || screenId === 'screen-privacy') {
-                nav.classList.remove('hidden');
-            } else {
-                nav.classList.add('hidden');
-            }
+        const mainNav = document.getElementById('main-nav');
+        if (!mainNav) return; // Sécurité
+
+        // 3. On remet tous les boutons de navigation en gris normal
+        document.querySelectorAll('.nav-btn').forEach(btn => {
+            btn.classList.remove('bg-bleu-france', 'text-white');
+            btn.classList.add('bg-gray-200', 'text-gray-800');
+        });
+
+        // 4. On gère l'affichage du menu ET la couleur des boutons en même temps
+        if (screenId === 'screen-home') {
+            document.getElementById('btn-nav-home').classList.add('bg-bleu-france', 'text-white');
+            mainNav.classList.remove('hidden');
+        } 
+        else if (screenId === 'screen-revisions') {
+            document.getElementById('btn-nav-revisions').classList.add('bg-bleu-france', 'text-white');
+            mainNav.classList.remove('hidden');
+        } 
+        else if (screenId === 'screen-demarches') {
+            document.getElementById('btn-nav-demarches').classList.add('bg-bleu-france', 'text-white');
+            mainNav.classList.remove('hidden');
+        } 
+        else if (screenId === 'screen-legal' || screenId === 'screen-privacy') {
+            // Sur les pages légales, on affiche le menu, mais aucun bouton n'est en bleu
+            mainNav.classList.remove('hidden');
+        }
+        else {
+            // Sur l'écran du Quiz ou des Résultats, on cache totalement le menu
+            mainNav.classList.add('hidden');
         }
     },
+    
     
     renderQuestion(state) {
         const q = state.questions[state.index];
