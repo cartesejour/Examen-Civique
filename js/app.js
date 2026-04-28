@@ -222,3 +222,22 @@ window.UI = UI;
 document.addEventListener('DOMContentLoaded', () => {
     App.init();
 });
+
+// ==========================================
+// POP-UP NEWSLETTER INTELLIGENTE
+// ==========================================
+window.addEventListener('DOMContentLoaded', () => {
+    // On vérifie si la personne a déjà vu la newsletter
+    if (!localStorage.getItem('newsletter_deja_vue')) {
+        
+        // On attend 5 secondes pour le laisser lire un peu le site
+        setTimeout(() => {
+            const popup = document.getElementById('modal-newsletter-popup');
+            if (popup) {
+                popup.classList.remove('hidden');
+                // On enregistre dans son téléphone qu'il l'a vue !
+                localStorage.setItem('newsletter_deja_vue', 'true');
+            }
+        }, 5000); 
+    }
+});
