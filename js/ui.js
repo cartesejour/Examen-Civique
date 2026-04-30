@@ -95,7 +95,8 @@ switchScreen(screenId) {
             btn.className = `option-item w-full text-left p-4 md:p-5 border border-gray-300 text-base md:text-lg font-bold transition flex flex-col rounded-lg ${state.userAnswers[state.index] === i ? 'selected-opt bg-blue-50 border-blue-500' : 'bg-white text-gray-900'}`;
             
             // ✨ CORRECTION : Traduction beaucoup plus lisible (text-sm, text-gray-600, plus d'italique, plus d'opacité)
-            let translate = (h && h.options) ? `<span class="text-sm text-gray-600 font-medium italic mt-2 block" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
+            // On a retiré "font-medium" et mis "mt-1" au lieu de "mt-2"
+            let translate = (h && h.options) ? `<span class="text-sm text-gray-600 italic mt-1 block" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
             
             btn.innerHTML = `<span>${opt}</span>${translate}`;
             btn.onclick = () => App.handleAnswer(i);
