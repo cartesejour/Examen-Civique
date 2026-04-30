@@ -53,12 +53,6 @@
                 <div class="h-10 w-px bg-gray-300 mx-2"></div>
                 <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1>
             </div>
-
-            <div id="q-counter" class="hidden md:absolute md:right-4 flex flex-col items-end">
-                <span class="text-[8px] uppercase text-gray-400 font-bold">Progression</span>
-                <span class="text-sm font-black text-bleu-france"><span id="current-q-num">1</span>/40</span>
-            </div>
-
         </div>
     </header>
 
@@ -99,9 +93,6 @@
         <div class="w-full bg-gray-100 h-1 rounded-full overflow-hidden max-w-xs"><div class="ad-bar h-full bg-bleu-france"></div></div>
     </div>
 
-    <div id="timer-zone" class="bg-bleu-france text-white text-center py-2 font-mono text-lg font-bold shadow-md hidden fixed top-[60px] w-full z-40">
-        ⏱ <span id="timer-display">45:00</span>
-    </div>
     
 <div id="modal-newsletter-popup" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[400] flex items-center justify-center p-4 backdrop-blur-sm">
     <div class="bg-white max-w-sm w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative">
@@ -367,22 +358,45 @@
         </div> 
     
     
-        <div id="screen-quiz" class="hidden space-y-4">
-            <div class="flex justify-between items-center">
-                <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest bg-blue-50 px-2 py-1 border border-blue-200">THEME</div>
-                <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-600 bg-white px-3 py-1 border border-yellow-300 shadow-sm">🎁 Joker 50/50</button>
+<div id="screen-quiz" class="hidden space-y-4">
+            
+            <div class="flex justify-between items-center border-b border-gray-200 pb-3">
+                <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest bg-blue-50 px-2 py-1 border border-blue-200 rounded">
+                    THEME
+                </div>
+
+                <div class="flex items-center gap-2 md:gap-3">
+                    <div id="timer-zone" class="text-xs md:text-sm font-black text-gray-700 bg-gray-100 px-2 py-1.5 md:px-3 rounded flex items-center gap-1 hidden">
+                        ⏱ <span id="timer-display"></span>
+                    </div>
+                    <div id="q-counter" class="text-xs md:text-sm font-black text-bleu-france bg-blue-50 px-2 py-1.5 md:px-3 border border-blue-100 rounded hidden">
+                        <span id="current-q-num">1</span>/40
+                    </div>
+                    <button onclick="UI.openModal('modal-quit')" class="bg-red-50 text-red-600 border border-red-200 hover:bg-red-600 hover:text-white transition rounded h-7 w-7 md:h-8 md:w-8 flex items-center justify-center font-bold shadow-sm" title="Abandonner le test">
+                        ✖
+                    </button>
+                </div>
             </div>
-            <div class="bg-white p-6 border-l-4 border-bleu-france shadow-sm">
+
+            <div class="flex justify-end">
+                <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-700 bg-yellow-50 hover:bg-yellow-100 px-3 py-1.5 rounded-full border border-yellow-300 shadow-sm transition flex items-center gap-1">
+                    🎁 <span class="uppercase tracking-wide">Joker 50/50</span>
+                </button>
+            </div>
+
+            <div class="bg-white p-6 border-l-4 border-bleu-france shadow-sm rounded-r">
                 <h2 id="question-text" class="text-lg md:text-xl font-black leading-tight text-gray-900 mb-3"></h2>
                 <p id="helper-question" class="text-sm text-gray-600 italic mt-1 mb-4 hidden"></p>
             </div>
+
             <div id="options-container" class="grid grid-cols-1 gap-3"></div>
+
             <div class="flex justify-between items-center mt-8 gap-3">
-                <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase">Précédent</button>
-                <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow uppercase">Suivant</button>
+                <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase rounded transition hover:bg-gray-300">Précédent</button>
+                <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow-md uppercase rounded transition hover:bg-blue-800">Suivant</button>
             </div>
-            <button onclick="UI.openModal('modal-quit')" class="w-full mt-6 py-3 text-[10px] text-gray-400 font-bold uppercase tracking-[0.3em]">🛑 Abandonner & Voir Bilan</button>
-        </div>
+            
+            </div>
 
         <div id="screen-results" class="hidden space-y-6">
             <div class="bg-white p-8 border shadow-sm text-center">
