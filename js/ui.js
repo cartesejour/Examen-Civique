@@ -99,7 +99,8 @@ switchScreen(screenId) {
             
             btn.className = `option-item w-full text-left p-4 md:p-5 border border-gray-300 text-base md:text-lg font-bold transition flex-col rounded-lg ${state.userAnswers[state.index] === i ? 'selected-opt bg-blue-50 border-blue-500' : 'bg-white text-gray-900'} ${isHiddenClass}`;
             
-            let translate = (h && h.options) ? `<span class="text-sm text-gray-600 italic mt-1 block" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
+            // ✨ CORRECTION : On a ajouté "font-normal" pour annuler le gras du bouton !
+            let translate = (h && h.options) ? `<span class="text-sm text-gray-600 font-normal italic mt-1 block" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
             
             btn.innerHTML = `<span>${opt}</span>${translate}`;
             btn.onclick = () => App.handleAnswer(i);
