@@ -383,6 +383,128 @@ window.App = App;
 window.UI = UI;
 window.OutilsPDF = OutilsPDF;
 
+
+// ==========================================
+// OUTIL : SIMULATEUR CIVIQUE (VERSION ULTIME)
+// ==========================================
+const Simulateur = {
+    calculer: function() {
+        const demarche = document.getElementById('sim-demarche').value;
+        const dateDepot = document.getElementById('sim-date').value;
+        const nat = document.getElementById('sim-nat').value;
+        const age = document.getElementById('sim-age').value;
+        const sante = document.getElementById('sim-sante').value;
+        const statut = document.getElementById('sim-statut').value;
+
+        // Vérification que les champs obligatoires sont remplis
+        if (!demarche || !dateDepot || !nat || !age) {
+            alert("Veuillez répondre aux 4 premières questions au minimum.");
+            return;
+        }
+
+        const questionsDiv = document.getElementById('simulateur-questions');
+        const resultatDiv = document.getElementById('simulateur-resultat');
+        const badge = document.getElementById('sim-badge');
+        const titre = document.getElementById('sim-titre');
+        const texte = document.getElementById('sim-texte');
+
+        let estConcerne = true;
+        let explication = "";
+
+        // =========================================
+        // ARBRE DE DÉCISION JURIDIQUE (Ordre de priorité)
+        // =========================================
+
+        // 1. La dispense médicale absolue (vaut pour tout, même la naturalisation)
+        if (sante === 'inapte') {
+            estConcerne = false;
+            explication = "Dispense accordée : Votre état de santé ou votre handicap vous exempte de l'examen civique, sous réserve de fournir le certificat médical réglementaire dûment rempli par un médecin.";
+        }
+        // 2. La règle de la date butoir
+        else if (dateDepot === 'avant_2026') {
+            estConcerne = false;
+            explication = "La loi n'est pas rétroactive ! Les demandes déposées avant le 1er janvier 2026 ne sont pas soumises au nouvel examen civique. Vous serez évalué(e) selon l'ancienne formule (entretien oral).";
+        }
+        // 3. Le renouvellement de titre
+        else if (demarche === 'renouvellement') {
+            estConcerne = false;
+            explication = "Dispense accordée : L'examen civique ne s'applique qu'aux premières demandes de cartes pluriannuelles ou de résident. Le simple renouvellement d'un droit déjà acquis n'exige pas de repasser l'examen.";
+        }
+        // 4. Les citoyens européens
+        else if (nat === 'ue') {
+            estConcerne = false;
+            explication = "Dispense totale : Les citoyens de l'Union Européenne, de l'EEE et de la Suisse ne sont pas soumis au Contrat d'Intégration Républicaine (CIR) ni à ses examens.";
+        }
+        // 5. Les statuts hors CIR
+        else if (demarche === 'etudiant') {
+            estConcerne = false;
+            explication = "Dispense accordée : Les cartes de séjour Étudiant, Visiteur et Passeport Talent sont exclues du champ d'application de l'examen civique.";
+        }
+        // 6. La Naturalisation (Si on arrive ici, les dispenses 1 à 5 ne s'appliquent pas)
+        else if (demarche === 'naturalisation') {
+            estConcerne = true;
+            explication = "Examen obligatoire : Pour obtenir la nationalité française, l'examen civique est requis, peu importe votre âge (la dispense des 65 ans n'existe plus pour la naturalisation) ou votre statut (réfugié, etc.).";
+        }
+        // 7. L'Accord Franco-Algérien (Cartes de séjour)
+        else if (nat === 'algerien') {
+            estConcerne = false;
+            explication = "Dispense liée à l'Accord de 1968 : En tant que ressortissant(e) algérien(ne) demandant un certificat de résidence, vous êtes exempté(e) du Contrat d'Intégration Républicaine et de cet examen.";
+        }
+        // 8. Dispense liée à l'âge (Cartes de séjour)
+        else if (age === 'plus_65') {
+            estConcerne = false;
+            explication = "Dispense accordée : Les étrangers âgés de 65 ans ou plus sont dispensés de l'examen civique pour l'obtention d'une carte de séjour pluriannuelle ou d'une carte de résident.";
+        }
+        // 9. Dispense pour l'Asile (Cartes de séjour)
+        else if (statut === 'refugie') {
+            estConcerne = false;
+            explication = "Dispense accordée : Les bénéficiaires d'une protection internationale (réfugiés, apatrides, protection subsidiaire) sont exemptés de l'examen civique pour la délivrance de leur titre de séjour.";
+        }
+        // 10. Le cas classique (Défaut)
+        else {
+            estConcerne = true;
+            explication = "Examen obligatoire : Pour obtenir une carte de séjour pluriannuelle ou de résident (10 ans) à partir de 2026, vous devez valider vos connaissances via le nouvel examen civique.";
+        }
+
+        // =========================================
+        // AFFICHAGE DU RÉSULTAT
+        // =========================================
+        questionsDiv.classList.add('hidden');
+        resultatDiv.classList.remove('hidden');
+
+        if (estConcerne) {
+            badge.className = "mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-red-100 text-red-600 text-3xl";
+            badge.innerHTML = "📝";
+            titre.className = "text-lg font-black uppercase mb-2 text-red-600";
+            titre.innerText = "Examen Obligatoire";
+        } else {
+            badge.className = "mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-green-100 text-green-600 text-3xl";
+            badge.innerHTML = "✅";
+            titre.className = "text-lg font-black uppercase mb-2 text-green-600";
+            titre.innerText = "Vous êtes dispensé(e)";
+        }
+        
+        texte.innerText = explication;
+    },
+
+    recommencer: function() {
+        // On remet toutes les listes déroulantes à zéro
+        document.getElementById('sim-demarche').value = "";
+        document.getElementById('sim-date').value = "";
+        document.getElementById('sim-nat').value = "";
+        document.getElementById('sim-age').value = "";
+        document.getElementById('sim-sante').value = "aucune";
+        document.getElementById('sim-statut').value = "aucun";
+        
+        // On inverse l'affichage
+        document.getElementById('simulateur-resultat').classList.add('hidden');
+        document.getElementById('simulateur-questions').classList.remove('hidden');
+    }
+};
+
+window.Simulateur = Simulateur;
+
+
 document.addEventListener('DOMContentLoaded', () => {
     // 1. On lance le quiz et l'anti-adblock
     App.init();
