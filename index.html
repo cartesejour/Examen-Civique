@@ -755,8 +755,23 @@
         </div>
 
     <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 text-center">Votre Boîte à outils</h3>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <div class="border-2 border-bleu-france p-5 rounded text-center bg-white shadow-sm relative overflow-hidden flex flex-col justify-between">
+                <div class="absolute top-0 right-0 bg-bleu-france text-white text-[9px] font-black px-2 py-1 uppercase rounded-bl">Populaire</div>
+                
+                <div>
+                    <span class="text-3xl mb-2 block">⚖️</span>
+                    <h4 class="font-bold text-gray-900 text-sm mb-1">Suis-je concerné(e) ?</h4>
+                    <p class="text-[10px] text-gray-500 mb-4 px-2">Découvrez en 2 clics si l'examen civique est obligatoire pour votre situation.</p>
+                </div>
+                
+                <button onclick="document.getElementById('modal-simulateur').classList.remove('hidden')" class="w-full bg-bleu-france text-white font-black text-[11px] uppercase tracking-widest py-3 rounded shadow-md hover:bg-blue-800 transition">
+                    Faire le test
+                </button>
+            </div>
+
             
             <div class="border-2 border-bleu-france p-5 rounded text-center bg-white shadow-sm relative overflow-hidden group">
                 <div class="absolute top-0 right-0 bg-bleu-france text-white text-[9px] font-black px-2 py-1 uppercase rounded-bl">Nouveau</div>
@@ -917,6 +932,87 @@
             <button onclick="location.reload()" class="w-full py-4 bg-bleu-france text-white font-black text-xs uppercase tracking-widest shadow-md">J'ai désactivé, recharger</button>
         </div>
     </div>
+
+<div id="modal-simulateur" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[500] flex items-center justify-center p-4 backdrop-blur-sm">
+    <div class="bg-white max-w-md w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg relative transform transition-all">
+        
+        <h3 class="text-xl font-black text-bleu-france uppercase tracking-tight mb-4 text-center">Simulateur d'Examen</h3>
+        
+        <div id="simulateur-questions" class="space-y-3 max-h-[60vh] overflow-y-auto px-1 pb-2">
+            
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">1. Quelle est votre démarche ?</label>
+                <select id="sim-demarche" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="" disabled selected>Choisissez...</option>
+                    <option value="naturalisation">🇫🇷 Naturalisation française</option>
+                    <option value="premiere_demande">📄 1ère demande de Carte (Pluriannuelle ou 10 ans)</option>
+                    <option value="renouvellement">🔄 Simple renouvellement d'une carte déjà acquise</option>
+                    <option value="etudiant">🎓 Carte Étudiant / Visiteur / Passeport Talent</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">2. Date de dépôt du dossier ?</label>
+                <select id="sim-date" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="" disabled selected>Choisissez...</option>
+                    <option value="avant_2026">📅 Déposé AVANT le 1er janvier 2026</option>
+                    <option value="apres_2026">📅 Déposé À PARTIR du 1er janvier 2026</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">3. Quelle est votre nationalité ?</label>
+                <select id="sim-nat" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="" disabled selected>Choisissez...</option>
+                    <option value="algerien">🇩🇿 Algérienne</option>
+                    <option value="ue">🇪🇺 UE / EEE / Suisse</option>
+                    <option value="autre">🌍 Autre nationalité</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">4. Quel est votre âge ?</label>
+                <select id="sim-age" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="" disabled selected>Choisissez...</option>
+                    <option value="moins_65">Moins de 65 ans</option>
+                    <option value="plus_65">65 ans ou plus</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">5. État de santé spécifique ?</label>
+                <select id="sim-sante" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="aucune" selected>Aucun problème médical empêchant le test</option>
+                    <option value="inapte">♿ Handicap / Maladie grave (avec certificat médical officiel)</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">6. Êtes-vous réfugié(e) ?</label>
+                <select id="sim-statut" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
+                    <option value="aucun" selected>Non</option>
+                    <option value="refugie">🕊️ Oui (Réfugié, Apatride, Protection subsidiaire)</option>
+                </select>
+            </div>
+
+            <button onclick="Simulateur.calculer()" class="w-full bg-bleu-france text-white font-black text-sm uppercase tracking-widest py-3 rounded mt-2 shadow hover:bg-blue-800 transition">
+                Voir mon résultat
+            </button>
+        </div>
+
+        <div id="simulateur-resultat" class="hidden mt-4 text-center">
+            <div id="sim-badge" class="mx-auto flex items-center justify-center h-16 w-16 rounded-full mb-4"></div>
+            <h4 id="sim-titre" class="text-lg font-black uppercase mb-2"></h4>
+            <p id="sim-texte" class="text-sm text-gray-600 mb-6 font-medium leading-relaxed"></p>
+            
+            <button onclick="Simulateur.recommencer()" class="text-xs text-gray-500 underline hover:text-bleu-france">Faire une autre simulation</button>
+        </div>
+
+        <button onclick="document.getElementById('modal-simulateur').classList.add('hidden')" class="absolute top-3 right-4 text-gray-400 hover:text-gray-800 text-2xl font-bold">&times;</button>
+    </div>
+</div>
+
+    
     <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
 </body>
 </html>
