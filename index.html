@@ -937,16 +937,18 @@
     <div class="bg-white max-w-md w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg relative transform transition-all">
         
         <h3 class="text-xl font-black text-bleu-france uppercase tracking-tight mb-4 text-center">Suis-je concerné(e) ?</h3>
-        <div id="simulateur-questions" class="space-y-3 max-h-[60vh] overflow-y-auto px-1 pb-2">
+      <div id="simulateur-questions" class="space-y-3 max-h-[60vh] overflow-y-auto px-1 pb-2">
             
             <div>
                 <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">1. Quelle est votre démarche ?</label>
                 <select id="sim-demarche" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
                     <option value="" disabled selected>Choisissez...</option>
                     <option value="naturalisation">🇫🇷 Naturalisation française</option>
-                    <option value="premiere_demande">📄 1ère demande de Carte (Pluriannuelle ou 10 ans)</option>
+                    <option value="conjoint_fr">💍 Titre de séjour "Conjoint de Français"</option>
+                    <option value="premiere_demande">📄 Autre 1ère demande (Salarié, 10 ans, VP...)</option>
                     <option value="renouvellement">🔄 Simple renouvellement d'une carte déjà acquise</option>
                     <option value="etudiant">🎓 Carte Étudiant / Visiteur / Passeport Talent</option>
+                    <option value="malade">🏥 Titre de séjour "Étranger Malade"</option>
                 </select>
             </div>
 
@@ -982,23 +984,23 @@
                 <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">5. État de santé spécifique ?</label>
                 <select id="sim-sante" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
                     <option value="aucune" selected>Aucun problème médical empêchant le test</option>
-                    <option value="inapte">♿ Handicap / Maladie grave (avec certificat médical officiel)</option>
+                    <option value="inapte">♿ Handicap / Inaptitude (avec certificat médical)</option>
                 </select>
             </div>
 
             <div>
-                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">6. Êtes-vous réfugié(e) ?</label>
+                <label class="block text-[11px] font-bold text-gray-700 uppercase mb-1">6. Situation particulière ?</label>
                 <select id="sim-statut" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-bleu-france outline-none">
-                    <option value="aucun" selected>Non</option>
-                    <option value="refugie">🕊️ Oui (Réfugié, Apatride, Protection subsidiaire)</option>
+                    <option value="aucun" selected>Aucune</option>
+                    <option value="refugie">🕊️ Réfugié / Protection subsidiaire</option>
+                    <option value="enfant_13">🎒 Arrivé(e) en France avant l'âge de 13 ans</option>
                 </select>
             </div>
 
             <button onclick="Simulateur.calculer()" class="w-full bg-bleu-france text-white font-black text-sm uppercase tracking-widest py-3 rounded mt-2 shadow hover:bg-blue-800 transition">
                 Voir mon résultat
             </button>
-        </div>
-
+      </div>
         <div id="simulateur-resultat" class="hidden mt-4 text-center">
             <div id="sim-badge" class="mx-auto flex items-center justify-center h-16 w-16 rounded-full mb-4"></div>
             <h4 id="sim-titre" class="text-lg font-black uppercase mb-2"></h4>
