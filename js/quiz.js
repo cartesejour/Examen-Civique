@@ -48,10 +48,17 @@ const QuizEngine = {
         return this.state.questions.reduce((acc, q, i) => acc + (this.state.userAnswers[i] === q.bonne_reponse ? 1 : 0), 0);
     },
 
-    useJoker() {
+useJoker() {
         const q = this.state.questions[this.state.index];
         let wrongs = [];
         q.options.forEach((_, i) => { if(i !== q.bonne_reponse) wrongs.push(i); });
-        return wrongs.sort(() => 0.5 - Math.random()).slice(0, 2);
+        
+        const eliminated = wrongs.sort(() => 0.5 - Math.random()).slice(0, 2);
+        
+        // ✨ CORRECTION : On sauvegarde les boutons éliminés dans la mémoire de l'application
+        if (!this.state.hiddenOptions) this.state.hiddenOptions = {};
+        this.state.hiddenOptions[this.state.index] = eliminated;
+        
+        return eliminated;
     }
 };
