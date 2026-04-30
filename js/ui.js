@@ -88,10 +88,15 @@ switchScreen(screenId) {
         const container = document.getElementById('options-container');
         container.innerHTML = '';
         
-        q.options.forEach((opt, i) => {
+    q.options.forEach((opt, i) => {
             const btn = document.createElement('button');
-            btn.className = `option-item w-full text-left p-4 border border-gray-300 text-sm font-bold transition flex flex-col ${state.userAnswers[state.index] === i ? 'selected-opt' : 'bg-white text-gray-700'}`;
-            let translate = (h && h.options) ? `<span class="text-[11px] italic opacity-60 font-medium mt-1" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
+            
+            // ✨ CORRECTION : On a remplacé text-sm par text-base (plus grand) et ajouté un peu d'arrondi
+            btn.className = `option-item w-full text-left p-4 md:p-5 border border-gray-300 text-base md:text-lg font-bold transition flex flex-col rounded-lg ${state.userAnswers[state.index] === i ? 'selected-opt bg-blue-50 border-blue-500' : 'bg-white text-gray-900'}`;
+            
+            // ✨ CORRECTION : Traduction beaucoup plus lisible (text-sm, text-gray-600, plus d'italique, plus d'opacité)
+            let translate = (h && h.options) ? `<span class="text-sm text-gray-600 font-medium mt-2" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
+            
             btn.innerHTML = `<span>${opt}</span>${translate}`;
             btn.onclick = () => App.handleAnswer(i);
             container.appendChild(btn);
