@@ -61,18 +61,24 @@ const App = {
         UI.closeModal('modal-resume');
     },
 
-
 async startQuiz(lvl) {
-    if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) return;
-
     const selector = document.getElementById('questions-selector');
     const nbQuestions = selector ? parseInt(selector.value) : 40;
-    
     const lang = document.getElementById('lang-selector').value;
+
+    // 1. On charge la BONNE base française (CSP ou CR)
+    const dataFR = await API.loadBaseFR(lvl);
+    if (!dataFR || dataFR.length === 0) {
+        UI.showCustomAlert("Erreur réseau", "Impossible de charger les questions.");
+        return;
+    }
+    // On met à jour le moteur avec la bonne base
+    QuizEngine.init(dataFR); 
+
+    // 2. On charge la traduction associée
+    const helpData = await API.loadHelp(lvl, lang);
     
-    // ✨ MODIFICATION ICI : On passe le niveau (lvl) et la langue (lang) à l'API
-    const helpData = await API.loadHelp(lvl, lang); 
-    
+    // 3. On lance le quiz
     QuizEngine.start(lvl, lang, helpData, nbQuestions);
     this.saveProgress(); 
 
