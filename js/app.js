@@ -23,14 +23,6 @@ const App = {
                 }
             }
         }
-
-        // 3. Chargement de la base de données
-        const dataFR = await API.loadBaseFR();
-        if(!dataFR || dataFR.length === 0) {
-            UI.showCustomAlert("Problème de données", "Impossible de charger les questions.");
-            return;
-        }
-        QuizEngine.init(dataFR);
         
         // 4. Restauration avec modal de reprise
         const inProgress = localStorage.getItem('quizInProgress');
