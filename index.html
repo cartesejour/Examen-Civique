@@ -358,45 +358,40 @@
         </div> 
     
     
-<div id="screen-quiz" class="hidden space-y-4">
-            
-            <div class="flex justify-between items-center border-b border-gray-200 pb-3">
-                <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest bg-blue-50 px-2 py-1 border border-blue-200 rounded">
+<div id="screen-quiz" class="hidden flex flex-col gap-3"> <div class="flex flex-wrap justify-between items-center bg-white p-2 md:p-3 rounded border border-gray-200 shadow-sm">
+                <div id="category-display" class="text-[9px] font-black text-bleu-france uppercase tracking-widest">
                     THEME
                 </div>
-
-                <div class="flex items-center gap-2 md:gap-3">
-                    <div id="timer-zone" class="text-xs md:text-sm font-black text-gray-700 bg-gray-100 px-2 py-1.5 md:px-3 rounded flex items-center gap-1 hidden">
+                
+                <div class="flex items-center gap-2">
+                    <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-700 bg-yellow-50 px-2 py-1 rounded border border-yellow-300">
+                        🎁 Joker
+                    </button>
+                    <div id="timer-zone" class="text-xs font-black text-gray-700 bg-gray-100 px-2 py-1 rounded hidden">
                         ⏱ <span id="timer-display"></span>
                     </div>
-                    <div id="q-counter" class="text-xs md:text-sm font-black text-bleu-france bg-blue-50 px-2 py-1.5 md:px-3 border border-blue-100 rounded hidden">
+                    <div id="q-counter" class="text-xs font-black text-bleu-france bg-blue-50 px-2 py-1 rounded hidden">
                         <span id="current-q-num">1</span>/40
                     </div>
-                    <button onclick="UI.openModal('modal-quit')" class="bg-red-50 text-red-600 border border-red-200 hover:bg-red-600 hover:text-white transition rounded h-7 w-7 md:h-8 md:w-8 flex items-center justify-center font-bold shadow-sm" title="Abandonner le test">
+                    <button onclick="UI.openModal('modal-quit')" class="text-red-500 hover:text-red-700 text-lg leading-none font-black px-1" title="Quitter">
                         ✖
                     </button>
                 </div>
             </div>
 
-            <div class="flex justify-end">
-                <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-700 bg-yellow-50 hover:bg-yellow-100 px-3 py-1.5 rounded-full border border-yellow-300 shadow-sm transition flex items-center gap-1">
-                    🎁 <span class="uppercase tracking-wide">Joker 50/50</span>
-                </button>
+            <div class="bg-white p-4 border-l-4 border-bleu-france shadow-sm rounded">
+                <h2 id="question-text" class="text-lg md:text-xl font-black leading-tight text-gray-900 mb-1"></h2>
+                <p id="helper-question" class="text-sm text-gray-600 font-normal italic mt-1 hidden"></p>
             </div>
 
-            <div class="bg-white p-6 border-l-4 border-bleu-france shadow-sm rounded-r">
-                <h2 id="question-text" class="text-lg md:text-xl font-black leading-tight text-gray-900 mb-3"></h2>
-                <p id="helper-question" class="text-sm text-gray-600 italic mt-1 mb-4 hidden"></p>
-            </div>
+            <div id="options-container" class="grid grid-cols-1 gap-2"></div>
 
-            <div id="options-container" class="grid grid-cols-1 gap-3"></div>
-
-            <div class="flex justify-between items-center mt-8 gap-3">
-                <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase rounded transition hover:bg-gray-300">Précédent</button>
-                <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs shadow-md uppercase rounded transition hover:bg-blue-800">Suivant</button>
+            <div class="flex justify-between items-center gap-3 mt-2">
+                <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-600 font-bold text-xs uppercase rounded transition">Précédent</button>
+                <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-xs uppercase rounded shadow transition">Suivant</button>
             </div>
             
-            </div>
+        </div>
 
         <div id="screen-results" class="hidden space-y-6">
             <div class="bg-white p-8 border shadow-sm text-center">
