@@ -6,28 +6,14 @@ const QuizEngine = {
 
     init(dataFR) { this.state.allFR = dataFR; },
 
-
 start(lvl, lang, helpData, nbQuestions = 40) {
     this.state.selectedLang = lang;
-    this.state.allHelp = helpData || []; // Sécurité si helpData est vide
+    this.state.allHelp = helpData;
     this.state.index = 0;
     this.state.timeLeft = nbQuestions * 60; // 1 minute par question
     
-    let filtered = (lvl === 'CSP') ? this.state.allFR.filter(q => q.difficulte !== 'CR') : this.state.allFR;
-    
-    // 1. On mélange et on coupe à la longueur choisie
-    let selectedFR = filtered.sort(() => 0.5 - Math.random()).slice(0, nbQuestions);
-    
-    // 2. ✨ FUSION AVEC LA TRADUCTION ✨
-    // Pour chaque question FR, on cherche sa petite soeur traduite grâce à l'ID
-    this.state.questions = selectedFR.map(qFR => {
-        let qTrad = this.state.allHelp.find(trad => trad.id === qFR.id);
-        return {
-            ...qFR, // On garde toutes les infos de la question en français
-            traduction: qTrad ? qTrad : null // On ajoute un objet "traduction" (ou null si français uniquement)
-        };
-    });
-
+    // Plus besoin du "filter" ! allFR contient déjà exactement les bonnes questions
+    this.state.questions = this.state.allFR.sort(() => 0.5 - Math.random()).slice(0, nbQuestions);
     this.state.userAnswers = new Array(this.state.questions.length).fill(null);
 },
 
