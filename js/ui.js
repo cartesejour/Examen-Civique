@@ -122,7 +122,7 @@ switchScreen(screenId) {
         document.getElementById('timer-display').innerText = `${m}:${s<10?'0':''}${s}`;
     },
 
-    showResults(score, state) {
+showResults(score, state) {
         this.switchScreen('screen-results');
         document.getElementById('q-counter').classList.add('hidden');
         document.getElementById('timer-zone').classList.add('hidden');
@@ -130,11 +130,16 @@ switchScreen(screenId) {
         const total = state.questions.length;
         document.getElementById('final-score').innerText = `${score}/${total}`;
         
+        // ✨ CORRECTION : Calcul automatique de 80% (le minimum pour réussir)
+        const minimumRequis = Math.ceil(total * 0.8);
         const msg = document.getElementById('result-msg');
-        if(score >= 32) { 
-            msg.innerText = "ADMIS ✅"; msg.className = "p-4 mb-6 bg-green-100 text-green-700 font-black uppercase text-xs"; 
+        
+        if(score >= minimumRequis) { 
+            msg.innerText = "ADMIS ✅"; 
+            msg.className = "p-4 mb-6 bg-green-100 text-green-800 font-black uppercase text-sm rounded"; 
         } else { 
-            msg.innerText = "ÉCHEC ❌ (Min. 32)"; msg.className = "p-4 mb-6 bg-red-100 text-red-700 font-black uppercase text-xs"; 
+            msg.innerText = `ÉCHEC ❌ (Min. ${minimumRequis})`; 
+            msg.className = "p-4 mb-6 bg-red-100 text-red-800 font-black uppercase text-sm rounded"; 
         }
     },
 
