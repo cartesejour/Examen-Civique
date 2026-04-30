@@ -75,6 +75,7 @@ async startQuiz(lvl) {
     this.saveProgress(); 
 
     UI.switchScreen('screen-quiz');
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // ✨ CORRECTION SCROLL
     document.getElementById('q-counter').classList.remove('hidden');
     document.getElementById('timer-zone').classList.remove('hidden');
     
