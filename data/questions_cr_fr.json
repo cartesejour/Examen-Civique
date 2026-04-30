@@ -1,0 +1,1698 @@
+[
+  {
+    "id": 1,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+    "options": ["Payer ses courses au supermarché", "Voter aux élections", "Avoir un compte en banque", "Aller à l'école"],
+    "bonne_reponse": 1,
+    "explication": "Le vote est l'acte fondamental de la participation citoyenne dans une démocratie, permettant de choisir ses représentants."
+  },
+  {
+    "id": 2,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que garantit la liberté d'expression ?",
+    "options": ["Le droit d'insulter qui on veut", "Le droit de dire ou d'écrire ce que l'on pense dans le respect de la loi", "Le droit de ne pas payer d'impôts", "Le droit de mentir à la police"],
+    "bonne_reponse": 1,
+    "explication": "La liberté d'expression est fondamentale mais n'est pas absolue : elle s'arrête là où commencent les délits (diffamation, incitation à la haine, injures racistes)."
+  },
+  {
+    "id": 3,
+    "categorie": "Principes et valeurs de la République",
+    "question": "À quoi sert un titre de séjour ?",
+    "options": ["À voyager gratuitement en train", "À justifier de son droit de séjourner légalement en France", "À obtenir automatiquement la nationalité", "À ne pas payer d'impôts"],
+    "bonne_reponse": 1,
+    "explication": "Le titre de séjour est le document officiel délivré par la préfecture prouvant qu'un étranger est en situation régulière sur le territoire français."
+  },
+  {
+    "id": 4,
+    "categorie": "Principes et valeurs de la République",
+    "question": "La liberté de circulation permet à toute personne de :",
+    "options": ["Conduire sans permis", "Voyager sans payer", "Se déplacer librement sur le territoire national", "Entrer dans les propriétés privées"],
+    "bonne_reponse": 2,
+    "explication": "En France, toute personne (citoyen ou étranger en situation régulière) a le droit d'aller et venir librement sur le domaine public."
+  },
+  {
+    "id": 5,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+    "options": ["Sur les sites commerciaux (.com)", "Sur les réseaux sociaux uniquement", "Sur tous les sites gouvernementaux (se terminant par .gouv.fr)", "Sur Wikipédia"],
+    "bonne_reponse": 2,
+    "explication": "Le logo officiel de la République (qui intègre Marianne et la devise) est obligatoirement présent sur tous les sites de l'État (impots.gouv.fr, service-public.gouv.fr...)."
+  },
+  {
+    "id": 6,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+    "options": ["Citoyens", "Soldats", "Français", "Enfants"],
+    "bonne_reponse": 0,
+    "explication": "Le refrain de l'hymne national appelle le peuple à défendre la liberté : 'Aux armes, citoyens, Formez vos bataillons, Marchons, marchons...'."
+  },
+  {
+    "id": 7,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\"",
+    "options": ["La guerre est finie", "Le jour de gloire est arrivé", "La France est grande", "La liberté nous guide"],
+    "bonne_reponse": 1,
+    "explication": "C'est la toute première phrase de notre hymne national, écrit en 1792 par Rouget de Lisle."
+  },
+  {
+    "id": 8,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+    "options": ["Faire justice elle-même", "Choisir librement son mode de vie, son métier et ses opinions", "Refuser d'envoyer ses enfants à l'école", "Ignorer la loi"],
+    "bonne_reponse": 1,
+    "explication": "La liberté individuelle permet à chacun de mener sa vie comme il l'entend, à la seule condition de respecter la loi et la liberté des autres."
+  },
+  {
+    "id": 9,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+    "options": ["Elle est interdite en France", "Elle est libre dans la sphère privée et publique, tant qu'elle ne trouble pas l'ordre public", "Seule la religion catholique est autorisée", "Elle est obligatoire pour voter"],
+    "bonne_reponse": 1,
+    "explication": "La laïcité garantit le libre exercice des cultes. On peut pratiquer sa religion librement, à condition de ne pas imposer ses croyances aux autres ni de troubler l'ordre public."
+  },
+  {
+    "id": 10,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+    "options": ["Oui, c'est le choix des parents", "Oui, si c'est pour des raisons religieuses", "Non, le programme scolaire est obligatoire et laïque", "Oui, avec l'accord de la mairie"],
+    "bonne_reponse": 2,
+    "explication": "L'école publique impose l'égalité filles-garçons (mixité). Aucune conviction religieuse ne permet de s'y soustraire."
+  },
+  {
+    "id": 11,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quelle est la devise de la France ?",
+    "options": ["Liberté, Égalité, Fraternité", "Travail, Famille, Patrie", "Paix, Amour, Justice", "Unité, Solidarité, Progrès"],
+    "bonne_reponse": 0,
+    "explication": "Héritée du siècle des Lumières et de la Révolution, cette devise est inscrite dans la Constitution de la République."
+  },
+  {
+    "id": 12,
+    "categorie": "Principes et valeurs de la République",
+    "question": "La répudiation de sa femme est :",
+    "options": ["Autorisée si le mariage a été fait à l'étranger", "Une pratique légale en France", "Totalement interdite en France car contraire au principe d'égalité entre époux", "Autorisée uniquement par un juge"],
+    "bonne_reponse": 2,
+    "explication": "La répudiation (le fait pour un homme de rompre seul le mariage) est une violence faite aux femmes. En France, seul le divorce (qui respecte l'égalité) est légal."
+  },
+  {
+    "id": 13,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "options": ["Payer ses impôts est facultatif", "Les impôts financent les hôpitaux, les écoles, les routes et la sécurité", "Seuls les citoyens français paient des impôts", "L'impôt sert à enrichir les ministres"],
+    "bonne_reponse": 1,
+    "explication": "L'impôt est la contribution financière obligatoire de chaque résident pour faire fonctionner les services publics essentiels et assurer la solidarité nationale."
+  },
+  {
+    "id": 14,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Peut-on brûler publiquement un drapeau français ?",
+    "options": ["Oui, c'est la liberté d'expression", "Non, c'est un délit d'outrage aux symboles de la République puni par la loi", "Oui, pendant une manifestation", "Oui, s'il est vieux"],
+    "bonne_reponse": 1,
+    "explication": "L'outrage au drapeau tricolore ou à l'hymne national lors d'une manifestation publique est pénalement sanctionné par une amende."
+  },
+  {
+    "id": 15,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que fait l'État pour lutter contre les discriminations ?",
+    "options": ["Rien du tout", "Il punit sévèrement les actes discriminatoires via le Code pénal et soutient le 'Défenseur des droits'", "Il donne de l'argent aux victimes", "Il interdit les entreprises qui discriminent"],
+    "bonne_reponse": 1,
+    "explication": "Toute discrimination (sur le sexe, la race, la religion, le handicap) est un délit. Le Défenseur des droits est une institution de l'État qui aide gratuitement les victimes."
+  },
+  {
+    "id": 16,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que représente Marianne ?",
+    "options": ["La mère du premier président", "La figure symbolique de la République française et de la liberté", "Une chanteuse", "La créatrice du drapeau"],
+    "bonne_reponse": 1,
+    "explication": "Marianne, coiffée de son bonnet phrygien, incarne la République. Son buste trône dans toutes les mairies de France."
+  },
+  {
+    "id": 17,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la liberté d'association ?",
+    "options": ["Le droit de se marier avec qui on veut", "Le droit pour les citoyens de se regrouper librement pour un projet commun ou défendre une cause", "Le droit de s'associer pour créer une entreprise", "Le droit de faire grève"],
+    "bonne_reponse": 1,
+    "explication": "C'est un droit fondamental régi par la loi de 1901. Il permet aux citoyens de créer des clubs sportifs, des associations caritatives ou culturelles."
+  },
+  {
+    "id": 18,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la liberté ?",
+    "options": ["Le droit de faire tout ce qui ne nuit pas à autrui", "Faire tout ce que l'on veut sans règles", "L'absence totale de gouvernement", "Le droit d'imposer ses idées aux autres"],
+    "bonne_reponse": 0,
+    "explication": "Selon l'article 4 de la Déclaration des Droits de l'Homme de 1789, la liberté consiste à pouvoir faire tout ce qui ne nuit pas aux autres."
+  },
+  {
+    "id": 19,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la Marseillaise ?",
+    "options": ["Un poème de Victor Hugo", "L'hymne national officiel de la France", "Une spécialité du sud de la France", "Le nom d'un navire militaire"],
+    "bonne_reponse": 1,
+    "explication": "La Marseillaise, écrite en 1792 pendant la Révolution, est l'hymne de la République française."
+  },
+  {
+    "id": 20,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Sur quel document peut-on voir Marianne ?",
+    "options": ["Le permis de conduire", "La carte Vitale", "Les timbres postaux d'usage courant et le logo du gouvernement", "Les diplômes universitaires"],
+    "bonne_reponse": 2,
+    "explication": "Le visage de Marianne illustre traditionnellement les timbres-poste français et fait partie intégrante du logo officiel de la République française."
+  },
+  {
+    "id": 21,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Un employeur refuse d'embaucher des femmes dans son entreprise. Que dit la loi ?",
+    "options": ["C'est son droit en tant que patron", "C'est une discrimination sexiste totalement interdite et punie par la loi", "C'est légal pour les métiers physiques", "C'est légal s'il a déjà trop de femmes"],
+    "bonne_reponse": 1,
+    "explication": "L'égalité professionnelle est une obligation légale. Refuser une embauche sur le critère du sexe est un délit."
+  },
+  {
+    "id": 22,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?",
+    "options": ["La loi est la même pour tous (droits et devoirs identiques)", "Tout le monde doit gagner le même salaire", "Il ne doit plus y avoir de riches", "Tout le monde doit penser pareil"],
+    "bonne_reponse": 0,
+    "explication": "L'égalité républicaine, c'est l'égalité en droit : aucun privilège lié à la naissance, à la couleur de peau ou à la religion n'est toléré."
+  },
+  {
+    "id": 23,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quelle est la place de la langue française dans la République ?",
+    "options": ["C'est une option", "C'est la langue officielle de la République (justice, lois, administration)", "Elle est uniquement parlée à l'école", "Elle est remplacée par l'anglais"],
+    "bonne_reponse": 1,
+    "explication": "L'article 2 de la Constitution stipule que la langue de la République est le français. Les agents publics doivent s'exprimer en français avec les usagers."
+  },
+  {
+    "id": 24,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quels sont des symboles officiels de la République française ?",
+    "options": ["La baguette et le fromage", "Le drapeau tricolore, l'hymne national et la devise", "Le Louvre et la Tour Eiffel", "La fleur de lys et le coq"],
+    "bonne_reponse": 1,
+    "explication": "La Constitution définit officiellement le drapeau (bleu, blanc, rouge), l'hymne (La Marseillaise) et la devise (Liberté, Égalité, Fraternité)."
+  },
+  {
+    "id": 25,
+    "categorie": "Principes et valeurs de la République",
+    "question": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent (handicap, apparence physique, sexe…) ?",
+    "options": ["Oui, liberté d'expression", "Non, l'injure discriminatoire est un délit puni par la loi", "Oui, sur les réseaux sociaux", "Oui, si c'est pour rire"],
+    "bonne_reponse": 1,
+    "explication": "La loi française punit sévèrement toutes les formes de discriminations, d'injures ou de provocations à la haine (racisme, homophobie, etc.)."
+  },
+  {
+    "id": 26,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Le régime de la France est :",
+    "options": ["Une dictature", "Une monarchie", "Une République démocratique", "Un empire"],
+    "bonne_reponse": 2,
+    "explication": "La France est une République dans laquelle le pouvoir appartient au peuple, qui élit ses représentants démocratiquement."
+  },
+  {
+    "id": 27,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+    "options": ["Pour protéger les élèves de toute pression religieuse et garantir l'égalité", "Pour interdire toutes les religions en France", "Parce que c'est l'usage", "Pour obliger les élèves à manger de tout"],
+    "bonne_reponse": 0,
+    "explication": "L'école publique est un lieu de savoir neutre. Les signes religieux ostensibles y sont interdits pour préserver la liberté de conscience des enfants."
+  },
+  {
+    "id": 28,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
+    "options": ["1789", "1905", "1958", "1981"],
+    "bonne_reponse": 1,
+    "explication": "La loi de 1905 a mis fin au Concordat. Elle stipule que la République ne reconnaît, ne salarie ni ne subventionne aucun culte."
+  },
+  {
+    "id": 29,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+    "options": ["Non, c'est illégal", "Oui, la liberté de conscience inclut le droit d'être athée (de ne pas croire)", "Seulement si elle est de nationalité française", "Oui, mais en cachette"],
+    "bonne_reponse": 1,
+    "explication": "La laïcité garantit la liberté de croire, de ne pas croire et de changer de religion librement."
+  },
+  {
+    "id": 30,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel droit est garanti par la laïcité ?",
+    "options": ["Le droit au logement", "La liberté de conscience et de culte", "Le droit de vote", "La liberté syndicale"],
+    "bonne_reponse": 1,
+    "explication": "La laïcité n'est pas l'ennemie des religions : elle garantit au contraire à chacun la liberté totale de pratiquer le culte de son choix dans le respect de la loi."
+  },
+{
+    "id": 31,
+    "categorie": "Principes et valeurs de la République",
+    "question": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+    "options": ["Les élèves", "Les professeurs", "Ni les élèves, ni les professeurs, en vertu du principe de laïcité", "Seulement le directeur"],
+    "bonne_reponse": 2,
+    "explication": "Pour protéger les enfants du prosélytisme, la loi interdit le port de signes religieux ostensibles pour les élèves. Les professeurs, en tant qu'agents de l'État, sont soumis à une stricte neutralité."
+  },
+  {
+    "id": 32,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
+    "options": ["L'État interdit toutes les religions", "L'État a une religion officielle", "L'État et ses agents ne favorisent ni ne s'opposent à aucune religion", "L'État finance les lieux de culte"],
+    "bonne_reponse": 2,
+    "explication": "La neutralité signifie que l'administration publique traite tous les citoyens de la même manière, sans tenir compte de leurs croyances religieuses."
+  },
+  {
+    "id": 33,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que peut faire un usager du service public (comme dans une mairie) ?",
+    "options": ["Il doit cacher sa religion", "Il peut porter un signe religieux, tant qu'il ne trouble pas l'ordre public ou la sécurité", "Il a le droit de prier au guichet", "Il peut exiger un agent de sa religion"],
+    "bonne_reponse": 1,
+    "explication": "Contrairement aux agents (employés) qui doivent être neutres, l'usager est libre d'exprimer ses convictions, sous réserve de ne pas gêner le fonctionnement du service public (ex: visibilité du visage pour la sécurité)."
+  },
+  {
+    "id": 34,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+    "options": ["Uniquement les usagers (le public)", "Uniquement les agents publics (le personnel de l'État)", "Tout le monde", "Personne"],
+    "bonne_reponse": 1,
+    "explication": "Seuls les agents publics (les fonctionnaires) sont soumis au devoir strict de neutralité. Ils ne doivent porter aucun signe religieux visible sur leur lieu de travail."
+  },
+  {
+    "id": 35,
+    "categorie": "Principes et valeurs de la République",
+    "question": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+    "options": ["Oui, ils doivent traiter tous les citoyens avec la même égalité, sans tenir compte de leur religion", "Non, ils peuvent favoriser ceux de leur communauté", "Seulement si le maire le demande", "Non, la neutralité ne concerne que l'habillement"],
+    "bonne_reponse": 0,
+    "explication": "La neutralité ne concerne pas que la tenue vestimentaire : elle s'applique aussi au comportement. L'agent de l'État se doit d'être impartial avec tout le monde."
+  },
+  {
+    "id": 36,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que garantit le principe de laïcité ?",
+    "options": ["La liberté de conscience, la liberté de culte et l'égalité de tous devant la loi", "L'interdiction de construire des lieux de culte", "L'obligation d'être athée", "Des jours fériés pour toutes les religions"],
+    "bonne_reponse": 0,
+    "explication": "La laïcité n'est pas une opinion, c'est le cadre légal qui garantit que chacun est libre de ses croyances dans une société unie et égalitaire."
+  },
+  {
+    "id": 37,
+    "categorie": "Principes et valeurs de la République",
+    "question": "A-t-on le droit de changer de religion ?",
+    "options": ["Non", "Oui, c'est un droit absolu garanti par la liberté de conscience", "Seulement à sa majorité", "Seulement si les parents sont d'accord"],
+    "bonne_reponse": 1,
+    "explication": "Personne n'a le droit de vous obliger à conserver une religion. Vous êtes totalement libre de vous convertir à une autre foi ou de devenir athée."
+  },
+  {
+    "id": 38,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que représente la laïcité ?",
+    "options": ["La soumission du pouvoir politique à la religion", "La séparation des institutions publiques et des organisations religieuses", "Le remplacement de la religion par la politique", "La guerre contre les religions"],
+    "bonne_reponse": 1,
+    "explication": "La laïcité sépare le pouvoir spirituel du pouvoir temporel. L'État ne gère pas les religions, et les religions ne font pas la loi de l'État."
+  },
+  {
+    "id": 39,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+    "options": ["D'étudier l'histoire", "De porter des vêtements ou signes par lesquels les élèves manifestent ostensiblement une appartenance religieuse", "De manger à la cantine", "De discuter avec les autres"],
+    "bonne_reponse": 1,
+    "explication": "Pour maintenir l'école comme un lieu neutre d'apprentissage, la loi de 2004 interdit les voiles islamiques, kippas, grandes croix ou tout autre signe religieux très visible."
+  },
+  {
+    "id": 40,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que dit l'article 1er de la Constitution française ?",
+    "options": ["La France est un empire", "La France est une République indivisible, laïque, démocratique et sociale", "La France a une religion officielle", "Le pouvoir appartient au roi"],
+    "bonne_reponse": 1,
+    "explication": "L'article 1er pose les fondations de notre pays et rappelle qu'il assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion."
+  },
+  {
+    "id": 41,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qu'est-ce que l'État de droit ?",
+    "options": ["Un système où le Président décide de tout seul", "Un système où l'État (la puissance publique) est lui-même soumis au respect des lois", "Une dictature policière", "Un pays sans juge"],
+    "bonne_reponse": 1,
+    "explication": "Dans un État de droit, les gouvernants, les ministres et l'administration doivent obéir aux mêmes lois que les citoyens. La justice s'assure de ce respect."
+  },
+  {
+    "id": 42,
+    "categorie": "Système institutionnel et politique",
+    "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "options": ["Il ne peut pas être jugé car il est président", "Il peut être destitué par le Parlement réuni en Haute Cour en cas de manquement grave à ses devoirs", "Il juge lui-même son crime", "Il paie juste une amende"],
+    "bonne_reponse": 1,
+    "explication": "Bien qu'il bénéficie d'une immunité pendant son mandat, le Président peut être destitué s'il commet un acte manifestement incompatible avec ses fonctions."
+  },
+  {
+    "id": 43,
+    "categorie": "Système institutionnel et politique",
+    "question": "La loi est l'expression de :",
+    "options": ["La volonté du Président", "La volonté générale (du peuple)", "La volonté des juges", "La volonté de l'armée"],
+    "bonne_reponse": 1,
+    "explication": "Selon la Déclaration des Droits de l'Homme, la loi est l'expression de la volonté générale. Elle est votée par les représentants du peuple (les députés)."
+  },
+  {
+    "id": 44,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 2,
+    "explication": "Les élections municipales ont lieu tous les six ans pour renouveler l'équipe dirigeante de la commune."
+  },
+  {
+    "id": 45,
+    "categorie": "Système institutionnel et politique",
+    "question": "Que garantit l'État de droit ?",
+    "options": ["Que seuls les riches ont des droits", "La protection des libertés fondamentales et l'égalité des citoyens devant la loi", "L'enrichissement des politiques", "Que le gouvernement ne peut jamais être critiqué"],
+    "bonne_reponse": 1,
+    "explication": "L'État de droit protège le citoyen contre l'arbitraire du pouvoir en assurant que chaque décision politique ou administrative respecte le Droit."
+  },
+  {
+    "id": 46,
+    "categorie": "Système institutionnel et politique",
+    "question": "Une personne peut-elle voter à la place d'une autre ?",
+    "options": ["Non, c'est formellement interdit dans tous les cas", "Oui, si l'autre personne lui a officiellement donné une procuration", "Oui, si c'est son conjoint", "Oui, par téléphone"],
+    "bonne_reponse": 1,
+    "explication": "Le vote est personnel. Toutefois, si un électeur est absent, il peut établir une 'procuration' officielle au commissariat pour qu'un autre électeur vote à sa place."
+  },
+  {
+    "id": 47,
+    "categorie": "Système institutionnel et politique",
+    "question": "Est-ce que le vote est obligatoire ?",
+    "options": ["Oui, sous peine d'amende", "Non, c'est un droit et un devoir civique moral, mais pas une obligation légale", "Oui, sauf pour les plus de 70 ans", "Seulement pour l'élection présidentielle"],
+    "bonne_reponse": 1,
+    "explication": "Contrairement à certains pays (comme la Belgique), le vote n'est pas obligatoire en France. L'abstention n'est pas sanctionnée."
+  },
+  {
+    "id": 48,
+    "categorie": "Système institutionnel et politique",
+    "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "options": ["Oui, s'il a bien travaillé", "Non, il ne peut pas rester au pouvoir sans être réélu lors d'élections démocratiques", "Oui, avec l'accord de l'armée", "Oui, indéfiniment"],
+    "bonne_reponse": 1,
+    "explication": "La démocratie impose des mandats limités dans le temps (5 ans pour le Président). De plus, il ne peut pas faire plus de deux mandats consécutifs."
+  },
+  {
+    "id": 49,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui dirige l'action du Gouvernement ?",
+    "options": ["Le Premier ministre", "Le Président de l'Assemblée nationale", "Le Maire de Paris", "Le Ministre de l'Intérieur"],
+    "bonne_reponse": 0,
+    "explication": "Selon la Constitution, le Premier ministre 'dirige l'action du Gouvernement' et assure l'exécution des lois."
+  },
+  {
+    "id": 50,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui nomme le Premier ministre ?",
+    "options": ["Le peuple", "Le Président de la République", "Les députés", "Les juges"],
+    "bonne_reponse": 1,
+    "explication": "Le Président de la République a le pouvoir de nommer le Premier ministre, en tenant généralement compte de la majorité politique à l'Assemblée nationale."
+  },
+  {
+    "id": 51,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle est l'organisation administrative de la France ?",
+    "options": ["Des quartiers et des rues", "La commune, le département et la région", "Des provinces et des royaumes", "Des comtés"],
+    "bonne_reponse": 1,
+    "explication": "La France est divisée en trois grands niveaux de collectivités territoriales : la commune (gérée par le maire), le département (conseil départemental) et la région (conseil régional)."
+  },
+  {
+    "id": 52,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qu'est-ce que le pouvoir législatif ?",
+    "options": ["Le pouvoir de rendre la justice", "Le pouvoir de faire appliquer les lois", "Le pouvoir de débattre et de voter les lois (détenu par le Parlement)", "Le pouvoir de gérer l'armée"],
+    "bonne_reponse": 2,
+    "explication": "Le pouvoir législatif appartient à l'Assemblée nationale (les députés) et au Sénat (les sénateurs), qui fabriquent la loi."
+  },
+  {
+    "id": 53,
+    "categorie": "Système institutionnel et politique",
+    "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "options": ["Pour donner plus de travail", "Pour éviter la concentration des pouvoirs entre les mains d'un seul homme (dictature) et protéger les libertés", "Pour que ça coûte plus cher", "Pour compliquer les lois"],
+    "bonne_reponse": 1,
+    "explication": "Théorisée par Montesquieu, la séparation des pouvoirs (Législatif, Exécutif, Judiciaire) permet qu'un pouvoir arrête un autre pouvoir, garantissant ainsi la démocratie."
+  },
+  {
+    "id": 54,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "options": ["La victime", "Le maire", "L'autorité judiciaire (un juge dans un tribunal)", "La police seule"],
+    "bonne_reponse": 2,
+    "explication": "Si la police arrête le suspect, seule la justice a le pouvoir de le juger coupable et de prononcer une peine (amende, prison)."
+  },
+  {
+    "id": 55,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle du gouvernement ?",
+    "options": ["De voter les lois", "De déterminer et conduire la politique de la Nation et de faire exécuter les lois", "De juger les affaires civiles", "D'organiser les fêtes nationales"],
+    "bonne_reponse": 1,
+    "explication": "Dirigé par le Premier ministre, le Gouvernement prend les décisions quotidiennes pour gérer le pays (économie, santé, sécurité) et fait appliquer les textes votés par le Parlement."
+  },
+  {
+    "id": 56,
+    "categorie": "Système institutionnel et politique",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "options": ["Il ne risque rien", "Il paie l'amende pour tout le monde", "Il peut être poursuivi et condamné par la justice, comme tout citoyen", "Le président l'excuse"],
+    "bonne_reponse": 2,
+    "explication": "Dans un État de droit, les gouvernants sont soumis à la même loi que les autres citoyens. Une cour spéciale, la Cour de Justice de la République, juge les ministres pour les crimes commis dans l'exercice de leurs fonctions."
+  },
+  {
+    "id": 57,
+    "categorie": "Système institutionnel et politique",
+    "question": "Combien de députés composent l'Assemblée nationale ?",
+    "options": ["100", "348", "577", "1000"],
+    "bonne_reponse": 2,
+    "explication": "L'Assemblée nationale est composée de 577 députés élus au suffrage universel direct pour un mandat de 5 ans."
+  },
+  {
+    "id": 58,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui peut voter aux élections en France ?",
+    "options": ["Les citoyens de nationalité française inscrits sur les listes électorales (et les citoyens européens pour les élections locales/européennes)", "Tous les résidents", "Seuls les hommes", "Seuls les propriétaires"],
+    "bonne_reponse": 0,
+    "explication": "Le droit de vote aux élections nationales est lié à la citoyenneté française. Une exception existe pour les élections municipales et européennes, ouvertes aux citoyens de l'UE."
+  },
+  {
+    "id": 59,
+    "categorie": "Système institutionnel et politique",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "options": ["3 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 2,
+    "explication": "Le Sénat est composé de 348 sénateurs élus pour un mandat de 6 ans au suffrage universel indirect (par les 'grands électeurs')."
+  },
+  {
+    "id": 60,
+    "categorie": "Système institutionnel et politique",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "options": ["Politique, Militaire, Religieux", "Législatif, Exécutif, Judiciaire", "National, Régional, Local", "Économique, Social, Environnemental"],
+    "bonne_reponse": 1,
+    "explication": "L'équilibre démocratique repose sur ces trois piliers : ceux qui font la loi (Législatif), ceux qui la mettent en œuvre (Exécutif) et ceux qui la font respecter (Judiciaire)."
+  },
+{
+    "id": 61,
+    "categorie": "Système institutionnel et politique",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "options": ["Oui, c'est comme un monarque", "Non, le pouvoir est partagé (séparation des pouvoirs) pour garantir la démocratie", "Oui, depuis la modification de la Constitution", "Oui, mais seulement en temps de guerre"],
+    "bonne_reponse": 1,
+    "explication": "Le pouvoir exécutif (le Président), le pouvoir législatif (le Parlement) et le pouvoir judiciaire (les juges) sont strictement séparés pour éviter la dictature."
+  },
+  {
+    "id": 62,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui est le préfet ?",
+    "options": ["Le représentant direct du Président et du Gouvernement dans le département", "Le chef des pompiers", "Un élu du conseil régional", "Le maire de la plus grande ville"],
+    "bonne_reponse": 0,
+    "explication": "Le préfet est un haut fonctionnaire nommé par le Président. Il représente l'État au niveau local et assure le maintien de l'ordre public."
+  },
+  {
+    "id": 63,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections (nationales) ?",
+    "options": ["Être propriétaire d'un logement", "Payer des impôts sur le revenu", "Être majeur, de nationalité française et inscrit sur les listes électorales", "Avoir un emploi"],
+    "bonne_reponse": 2,
+    "explication": "Le vote national (comme la présidentielle) nécessite d'avoir au moins 18 ans, d'être citoyen français et de s'être inscrit en mairie sur les listes électorales."
+  },
+  {
+    "id": 64,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui dirige la commune ?",
+    "options": ["Le président du conseil départemental", "Le préfet", "Le député", "Le maire et son conseil municipal"],
+    "bonne_reponse": 3,
+    "explication": "Le maire est le chef de l'exécutif de la commune. Il est élu par les membres du conseil municipal (eux-mêmes élus par les citoyens)."
+  },
+  {
+    "id": 65,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "options": ["Un régime présidentiel absolu", "Une monarchie parlementaire", "Une République démocratique", "Un régime militaire"],
+    "bonne_reponse": 2,
+    "explication": "La France est une République démocratique : la souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum."
+  },
+  {
+    "id": 66,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "options": ["Le siège du Conseil constitutionnel", "La résidence officielle et le lieu de travail du Premier ministre", "Un grand musée parisien", "Le ministère de l'Intérieur"],
+    "bonne_reponse": 1,
+    "explication": "L'Hôtel de Matignon, situé à Paris, est la résidence officielle du chef du Gouvernement (le Premier ministre), tout comme l'Élysée l'est pour le Président."
+  },
+  {
+    "id": 67,
+    "categorie": "Système institutionnel et politique",
+    "question": "Le Parlement est composé :",
+    "options": ["Du Président et de ses ministres", "De l'Assemblée nationale et du Sénat", "Des maires et des préfets", "Des juges et des avocats"],
+    "bonne_reponse": 1,
+    "explication": "En France, le Parlement est 'bicaméral' (deux chambres) : il se compose des députés (Assemblée nationale) et des sénateurs (Sénat)."
+  },
+  {
+    "id": 68,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle du président de la République ?",
+    "options": ["Voter les lois", "Diriger les juges", "Il est le chef de l'État, chef des armées et garant de la Constitution", "Gérer les budgets des mairies"],
+    "bonne_reponse": 2,
+    "explication": "Le Président veille au respect de la Constitution. Il assure, par son arbitrage, le fonctionnement régulier des pouvoirs publics ainsi que la continuité de l'État."
+  },
+  {
+    "id": 69,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle du Premier ministre ?",
+    "options": ["Diriger l'action du Gouvernement", "Présider le Sénat", "Représenter l'État à l'étranger", "Faire les lois à la place du Parlement"],
+    "bonne_reponse": 0,
+    "explication": "Le Premier ministre dirige l'action de son équipe gouvernementale (les ministres) et assure l'exécution des lois."
+  },
+  {
+    "id": 70,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui est le chef du Gouvernement ?",
+    "options": ["Le Président de la République", "Le Ministre de l'Intérieur", "Le Premier ministre", "Le Président de l'Assemblée nationale"],
+    "bonne_reponse": 2,
+    "explication": "C'est le Premier ministre. (Attention au piège : le Président de la République est le chef de l'État, pas le chef du Gouvernement)."
+  },
+  {
+    "id": 71,
+    "categorie": "Système institutionnel et politique",
+    "question": "Combien y a-t-il de régions en France ?",
+    "options": ["10", "13 en métropole (18 au total avec l'outre-mer)", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "Depuis la réforme territoriale de 2016, la France compte 18 régions (13 en France métropolitaine et 5 en outre-mer)."
+  },
+  {
+    "id": 72,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "options": ["Défendre l'État devant les tribunaux", "Protéger les droits et libertés des citoyens et lutter contre les discriminations", "Remplacer la police", "Voter les lois sociales"],
+    "bonne_reponse": 1,
+    "explication": "Le Défenseur des droits est une institution indépendante de l'État. Toute personne s'estimant victime d'une discrimination ou d'une injustice administrative peut le saisir gratuitement."
+  },
+  {
+    "id": 73,
+    "categorie": "Système institutionnel et politique",
+    "question": "Depuis quand l'euro est-elle la monnaie unique en France ?",
+    "options": ["1958", "1992", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Si la décision a été actée plus tôt, les pièces et les billets en euros ont été mis en circulation pour la première fois le 1er janvier 2002."
+  },
+  {
+    "id": 74,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle principal du département ?",
+    "options": ["Gérer l'armée", "L'action sociale (aides aux personnes âgées, RSA), la gestion des collèges et des routes départementales", "Imprimer l'argent", "Voter le budget de l'État"],
+    "bonne_reponse": 1,
+    "explication": "Le conseil départemental a pour compétence principale la solidarité et l'action sociale (RSA, aide sociale à l'enfance, handicap)."
+  },
+  {
+    "id": 75,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est le rôle principal des communes ?",
+    "options": ["Gérer les relations diplomatiques", "Gérer l'état civil, l'urbanisme local, les écoles primaires et l'action sociale de proximité", "Frapper la monnaie", "Juger les crimes"],
+    "bonne_reponse": 1,
+    "explication": "La commune est la collectivité de proximité par excellence (inscriptions scolaires, mariages, permis de construire)."
+  },
+  {
+    "id": 76,
+    "categorie": "Système institutionnel et politique",
+    "question": "Combien de communes environ existe-t-il en France ?",
+    "options": ["Environ 5 000", "Environ 15 000", "Environ 35 000", "Environ 100 000"],
+    "bonne_reponse": 2,
+    "explication": "La France compte un peu moins de 35 000 communes. C'est le pays d'Europe qui possède le plus grand nombre de communes."
+  },
+  {
+    "id": 77,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel traité concerne la fondation de l'Union européenne telle qu'on la connaît aujourd'hui ?",
+    "options": ["Le traité de Versailles", "Le traité de Maastricht", "Le traité de Paris", "L'édit de Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Le traité de Maastricht, signé en 1992, marque la fondation de l'Union européenne, en instaurant notamment la citoyenneté européenne et le projet de monnaie unique."
+  },
+  {
+    "id": 78,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel État a quitté l'Union européenne en 2020 ?",
+    "options": ["L'Italie", "Le Royaume-Uni", "La Grèce", "L'Espagne"],
+    "bonne_reponse": 1,
+    "explication": "Le Royaume-Uni est sorti officiellement de l'Union européenne le 31 janvier 2020, suite au référendum populaire connu sous le nom de 'Brexit'."
+  },
+  {
+    "id": 79,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle est la devise de l'Union européenne ?",
+    "options": ["Liberté, Égalité, Fraternité", "Unie dans la diversité", "L'union fait la force", "Paix et Prospérité"],
+    "bonne_reponse": 1,
+    "explication": "La devise 'Unie dans la diversité' souligne que les Européens s'unissent pour œuvrer en faveur de la paix, tout en s'enrichissant de leurs différentes cultures."
+  },
+  {
+    "id": 80,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel est l'hymne de l'Union européenne ?",
+    "options": ["La Marseillaise", "L'Ode à la joie", "L'Hymne à l'amour", "Le Chant des Partisans"],
+    "bonne_reponse": 1,
+    "explication": "L'Ode à la joie (tirée de la 9e symphonie du compositeur Beethoven) est l'hymne officiel de l'Union européenne."
+  },
+  {
+    "id": 81,
+    "categorie": "Système institutionnel et politique",
+    "question": "De quoi est composé le drapeau européen ?",
+    "options": ["D'un aigle noir", "D'une croix blanche", "De 12 étoiles dorées disposées en cercle", "De 27 étoiles (une pour chaque pays)"],
+    "bonne_reponse": 2,
+    "explication": "Le drapeau comporte toujours 12 étoiles en cercle, symbole de perfection, de plénitude et d'unité (le nombre d'étoiles ne change pas avec le nombre de pays membres)."
+  },
+  {
+    "id": 82,
+    "categorie": "Système institutionnel et politique",
+    "question": "De quelle couleur est le drapeau européen ?",
+    "options": ["Fond bleu avec des étoiles jaunes/dorées", "Fond blanc avec des étoiles rouges", "Fond vert avec un soleil jaune", "Rouge et noir"],
+    "bonne_reponse": 0,
+    "explication": "Le drapeau européen représente un cercle de 12 étoiles d'or sur fond bleu, symbolisant l'harmonie des peuples d'Europe."
+  },
+  {
+    "id": 83,
+    "categorie": "Système institutionnel et politique",
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Signé en 1992, le traité de Maastricht a transformé la Communauté économique européenne (CEE) en l'actuelle Union européenne."
+  },
+  {
+    "id": 84,
+    "categorie": "Système institutionnel et politique",
+    "question": "Où est le siège du Parlement européen ?",
+    "options": ["À Paris (France)", "À Strasbourg (France)", "À Berlin (Allemagne)", "À Rome (Italie)"],
+    "bonne_reponse": 1,
+    "explication": "Le siège officiel du Parlement européen (où se déroulent les sessions plénières des députés) se trouve à Strasbourg, en France."
+  },
+  {
+    "id": 85,
+    "categorie": "Système institutionnel et politique",
+    "question": "Où est le siège de la Commission européenne ?",
+    "options": ["À Bruxelles (Belgique)", "À Genève (Suisse)", "À Madrid (Espagne)", "À Strasbourg (France)"],
+    "bonne_reponse": 0,
+    "explication": "La Commission européenne, qui est l'organe exécutif de l'Union européenne (proposant et appliquant les lois), a son siège principal à Bruxelles."
+  },
+  {
+    "id": 86,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "options": ["La Suisse", "La France", "L'Allemagne", "L'Espagne"],
+    "bonne_reponse": 0,
+    "explication": "Malgré sa position au centre de l'Europe, la Suisse n'est pas membre de l'Union européenne (tout comme la Norvège ou le Royaume-Uni)."
+  },
+  {
+    "id": 87,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "options": ["Le 1er mai", "Le 9 mai", "Le 14 juillet", "Le 11 novembre"],
+    "bonne_reponse": 1,
+    "explication": "Le 9 mai célèbre l'Europe en hommage à la Déclaration Schuman du 9 mai 1950, point de départ de la construction européenne."
+  },
+  {
+    "id": 88,
+    "categorie": "Système institutionnel et politique",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "options": ["Tous les 3 ans", "Tous les 5 ans", "Tous les 7 ans", "Tous les ans"],
+    "bonne_reponse": 1,
+    "explication": "Les citoyens de l'Union européenne votent tous les 5 ans pour élire les députés qui les représenteront au Parlement européen."
+  },
+  {
+    "id": 89,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "options": ["Posséder un passeport international", "Être citoyen d'un pays membre de l'Union européenne et être inscrit sur les listes électorales", "Payer un impôt européen", "Avoir fait des études supérieures"],
+    "bonne_reponse": 1,
+    "explication": "En France, un citoyen européen d'un autre État membre peut voter aux élections européennes s'il est inscrit sur les listes électorales complémentaires."
+  },
+  {
+    "id": 90,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "options": ["La France", "La Suède", "L'Autriche", "La Pologne"],
+    "bonne_reponse": 0,
+    "explication": "La France est l'un des six membres fondateurs originels (avec l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg)."
+  },
+{
+    "id": 91,
+    "categorie": "Droits et devoirs",
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "options": ["La liberté de la presse", "Le droit à la santé et la liberté de fonder une famille", "La liberté de circulation", "Le droit de vote"],
+    "bonne_reponse": 1,
+    "explication": "La Procréation Médicalement Assistée (PMA) relève du droit fondamental d'accès aux soins et de la liberté pour les couples ou les femmes non mariées de fonder une famille."
+  },
+  {
+    "id": 92,
+    "categorie": "Droits et devoirs",
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "options": ["Au nom de la sauvegarde de l'ordre public, de la sécurité ou de la santé publique", "Pour des raisons économiques uniquement", "Pour punir les étrangers", "Pour avantager les ministres"],
+    "bonne_reponse": 0,
+    "explication": "Les libertés ne sont pas absolues. L'État peut les limiter si l'intérêt général (la sécurité de tous, comme lors d'une pandémie) l'exige impérativement."
+  },
+  {
+    "id": 93,
+    "categorie": "Droits et devoirs",
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "options": ["Il est réservé aux couples hétérosexuels", "Le mariage est un droit ouvert aux couples de sexe différent et de même sexe", "Il faut l'autorisation de la police", "Il est interdit de se marier avec une personne étrangère"],
+    "bonne_reponse": 1,
+    "explication": "Le 'Mariage pour tous', promulgué en 2013, garantit le droit de se marier civilement à tous les couples, qu'ils soient de même sexe ou de sexe différent."
+  },
+  {
+    "id": 94,
+    "categorie": "Droits et devoirs",
+    "question": "Est-il toujours possible de divorcer ?",
+    "options": ["Non, c'est interdit", "Oui, le droit au divorce est garanti par la loi pour tous les couples mariés", "Seulement si l'on n'a pas d'enfants", "Seulement avec l'accord de sa famille"],
+    "bonne_reponse": 1,
+    "explication": "Le droit de divorcer est une liberté fondamentale en France, que ce soit à l'amiable (consentement mutuel) ou de manière contentieuse devant un juge."
+  },
+  {
+    "id": 95,
+    "categorie": "Droits et devoirs",
+    "question": "La peine de mort est :",
+    "options": ["Toujours appliquée pour les crimes graves", "Suspendue provisoirement", "Abolie définitivement en France depuis 1981", "Utilisée uniquement dans les prisons de haute sécurité"],
+    "bonne_reponse": 2,
+    "explication": "Sous la présidence de François Mitterrand et grâce à Robert Badinter, la peine de mort a été abolie et remplacée par des peines d'emprisonnement."
+  },
+  {
+    "id": 96,
+    "categorie": "Droits et devoirs",
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "options": ["\"La France est un Empire\"", "\"Les hommes naissent et demeurent libres et égaux en droits\"", "\"L'État c'est moi\"", "\"Travaillez, prenez de la peine\""],
+    "bonne_reponse": 1,
+    "explication": "L'article 1er de la DDHC de 1789 est le fondement de la République : il pose le principe absolu d'égalité entre les citoyens dès leur naissance."
+  },
+  {
+    "id": 97,
+    "categorie": "Droits et devoirs",
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "options": ["Non, c'est un délit", "Oui, l'Interruption Volontaire de Grossesse (IVG) est un droit garanti", "Seulement si le père est d'accord", "Seulement pour raisons médicales graves"],
+    "bonne_reponse": 1,
+    "explication": "Depuis la loi Veil de 1975, l'avortement est autorisé. La liberté de recourir à l'IVG est même désormais inscrite dans la Constitution."
+  },
+  {
+    "id": 98,
+    "categorie": "Droits et devoirs",
+    "question": "Que contient la Constitution ?",
+    "options": ["Le Code de la route", "L'organisation des pouvoirs publics et les droits fondamentaux des citoyens", "Les horaires des trains", "Le règlement des prisons"],
+    "bonne_reponse": 1,
+    "explication": "La Constitution est le texte fondamental qui définit comment le pays est gouverné (Président, Parlement) et qui protège les droits humains."
+  },
+  {
+    "id": 99,
+    "categorie": "Droits et devoirs",
+    "question": "Que garantit la liberté de la presse ?",
+    "options": ["Que les journaux sont gratuits", "Le droit pour les journalistes de diffuser des informations et de critiquer le pouvoir sans censure préalable", "Le droit de diffamer sans être puni", "L'obligation de soutenir le Président"],
+    "bonne_reponse": 1,
+    "explication": "Pilier de la démocratie (loi de 1881), la liberté de la presse empêche l'État de contrôler ou de censurer les médias."
+  },
+  {
+    "id": 100,
+    "categorie": "Droits et devoirs",
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "options": ["L'obligation d'avoir un jardin", "Le droit de chacun de vivre dans un environnement équilibré et respectueux de la santé", "L'interdiction des voitures", "Le droit de polluer si on paie"],
+    "bonne_reponse": 1,
+    "explication": "Intégrée à la Constitution en 2005, cette charte consacre la protection de l'environnement comme un droit fondamental de valeur constitutionnelle."
+  },
+  {
+    "id": 101,
+    "categorie": "Droits et devoirs",
+    "question": "Que signifie la dignité humaine ?",
+    "options": ["Être bien habillé", "Le principe selon lequel tout être humain a droit au respect absolu de sa personne, interdisant les traitements dégradants", "Le fait de gagner beaucoup d'argent", "Ne jamais s'excuser"],
+    "bonne_reponse": 1,
+    "explication": "La dignité de la personne humaine est un principe juridique suprême. Elle interdit l'esclavage, la torture et les traitements inhumains."
+  },
+  {
+    "id": 102,
+    "categorie": "Droits et devoirs",
+    "question": "Que signifie le droit de manifester ?",
+    "options": ["Le droit de casser des vitrines", "Le droit de s'exprimer collectivement et pacifiquement sur la voie publique", "Le droit d'arrêter le travail", "L'interdiction de sortir de chez soi"],
+    "bonne_reponse": 1,
+    "explication": "Garantie par la loi, la manifestation permet aux citoyens d'exprimer publiquement leurs revendications. Elle doit obligatoirement être pacifique et déclarée."
+  },
+  {
+    "id": 103,
+    "categorie": "Droits et devoirs",
+    "question": "Que signifie PMA ?",
+    "options": ["Prime Mensuelle d'Activité", "Procréation Médicalement Assistée", "Police Municipale Auxiliaire", "Permis de Mise sur le Marché"],
+    "bonne_reponse": 1,
+    "explication": "La Procréation Médicalement Assistée (PMA) regroupe les pratiques cliniques et biologiques (comme la fécondation in vitro) permettant d'aider à la conception d'un enfant."
+  },
+  {
+    "id": 104,
+    "categorie": "Droits et devoirs",
+    "question": "Quel texte est le plus difficile à modifier ?",
+    "options": ["Le règlement d'une école", "Une loi ordinaire", "La Constitution", "Le Code de la route"],
+    "bonne_reponse": 2,
+    "explication": "La Constitution est au sommet de la hiérarchie des normes. Sa modification nécessite une procédure très lourde (référendum ou vote du Parlement réuni en Congrès)."
+  },
+  {
+    "id": 105,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "options": ["La liberté de la presse", "La liberté de circulation", "La liberté d'association", "La liberté de conscience (garantie par la laïcité)"],
+    "bonne_reponse": 3,
+    "explication": "La liberté de conscience est le droit pour chaque individu de choisir ses valeurs, ses croyances ou sa religion sans que l'État ne s'en mêle."
+  },
+  {
+    "id": 106,
+    "categorie": "Droits et devoirs",
+    "question": "Qu'est-ce que le droit de grève ?",
+    "options": ["Le droit de frapper son patron", "La cessation collective et concertée du travail pour défendre des revendications professionnelles", "Le droit de ne pas aller travailler quand il pleut", "Le droit d'insulter ses collègues"],
+    "bonne_reponse": 1,
+    "explication": "Reconnu par la Constitution, le droit de grève permet aux salariés de faire pression pacifiquement sur leur employeur pour améliorer leurs conditions de travail."
+  },
+  {
+    "id": 107,
+    "categorie": "Droits et devoirs",
+    "question": "Qu'est-ce que la Constitution ?",
+    "options": ["Le nom de l'Assemblée nationale", "L'hymne national", "La loi suprême de l'État qui organise les pouvoirs et protège les droits", "Le livre qui recense les lois pénales"],
+    "bonne_reponse": 2,
+    "explication": "Toutes les autres lois votées en France doivent obligatoirement respecter les règles posées par la Constitution."
+  },
+  {
+    "id": 108,
+    "categorie": "Droits et devoirs",
+    "question": "Qui peut demander à avorter ?",
+    "options": ["Le mari de la femme enceinte", "Uniquement un médecin", "Toute femme enceinte qui ne souhaite pas poursuivre sa grossesse", "L'employeur de la femme"],
+    "bonne_reponse": 2,
+    "explication": "Le choix de recourir à une IVG appartient exclusivement à la femme enceinte. Elle n'a besoin de l'autorisation de personne."
+  },
+  {
+    "id": 109,
+    "categorie": "Droits et devoirs",
+    "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "options": ["Non, le vote est réservé aux hommes", "Oui, les femmes ont exactement les mêmes droits politiques que les hommes", "Oui, mais uniquement pour les élections municipales", "Seulement si elle a l'accord de son mari"],
+    "bonne_reponse": 1,
+    "explication": "Obtenu en 1944, le droit de vote des femmes assure la parfaite égalité civique et politique entre tous les citoyens français."
+  },
+  {
+    "id": 110,
+    "categorie": "Droits et devoirs",
+    "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "options": ["Les lois de la République s'y appliquent (les injures et menaces y sont punies)", "On peut tout y dire en restant anonyme", "La police n'y a pas accès", "Les lois n'existent pas sur internet"],
+    "bonne_reponse": 0,
+    "explication": "L'espace numérique n'est pas une zone de non-droit. Le cyberharcèlement, la diffamation et la haine en ligne sont des délits poursuivis par la justice."
+  },
+  {
+    "id": 111,
+    "categorie": "Droits et devoirs",
+    "question": "Jeter un mégot par terre est :",
+    "options": ["Un acte toléré", "Une infraction au Code de l'environnement punie par une amende", "Légal si c'est près d'une poubelle pleine", "Une preuve de liberté"],
+    "bonne_reponse": 1,
+    "explication": "L'abandon de déchets sur la voie publique (y compris un petit mégot) est une incivilité formellement interdite et pénalement sanctionnée."
+  },
+  {
+    "id": 112,
+    "categorie": "Droits et devoirs",
+    "question": "L'État peut-il limiter les droits et libertés ?",
+    "options": ["Non, jamais", "Oui, mais uniquement par la loi et si cela est nécessaire pour protéger l'ordre public ou les droits des autres", "Oui, sur simple décision d'un policier", "Oui, selon le bon vouloir du maire"],
+    "bonne_reponse": 1,
+    "explication": "La liberté n'est pas l'absence de règles. Des limitations légales sont possibles (ex: confinement, contrôle des bagages) pour préserver la sécurité de tous."
+  },
+  {
+    "id": 113,
+    "categorie": "Droits et devoirs",
+    "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+    "options": ["Laisser couler l'eau", "Trier ses déchets et limiter sa consommation d'énergie", "Brûler ses déchets dans son jardin", "Prendre sa voiture pour de très courts trajets"],
+    "bonne_reponse": 1,
+    "explication": "La transition écologique repose sur les efforts de chacun : tri sélectif, économies d'eau et d'électricité, utilisation des transports en commun."
+  },
+  {
+    "id": 114,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle proposition constitue une obligation pour tout résident en France ?",
+    "options": ["Payer ses impôts et respecter les lois de la République", "Acheter une voiture", "Se marier avant 30 ans", "S'inscrire à un syndicat"],
+    "bonne_reponse": 0,
+    "explication": "La vie en société impose des devoirs stricts : le respect des textes de loi, la contribution fiscale (l'impôt) et le respect des autres citoyens."
+  },
+  {
+    "id": 115,
+    "categorie": "Droits et devoirs",
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "options": ["Pour protéger le Président de la critique", "En cas de provocation à la haine, d'injure ou de diffamation", "Si la presse n'est pas d'accord avec le Gouvernement", "Pour censurer les blagues"],
+    "bonne_reponse": 1,
+    "explication": "La liberté de s'exprimer ne donne pas le droit d'attaquer la dignité des personnes. Les appels à la violence et le racisme ne sont pas des opinions, mais des délits."
+  },
+  {
+    "id": 116,
+    "categorie": "Droits et devoirs",
+    "question": "Pourquoi doit-on trier ses déchets ?",
+    "options": ["Pour faire joli", "Pour permettre leur recyclage, économiser les ressources naturelles et lutter contre la pollution", "Pour occuper les éboueurs", "Parce que les poubelles sont trop petites"],
+    "bonne_reponse": 1,
+    "explication": "Le tri sélectif est un devoir civique qui s'inscrit dans la Charte de l'environnement pour assurer un développement durable."
+  },
+  {
+    "id": 117,
+    "categorie": "Droits et devoirs",
+    "question": "Que doit faire une victime de violences ?",
+    "options": ["Régler le problème elle-même", "Se taire pour éviter les problèmes", "Se mettre à l'abri, appeler les secours (17 ou 112) et porter plainte", "Attendre que ça passe"],
+    "bonne_reponse": 2,
+    "explication": "L'État a le devoir de protéger les victimes. Le dépôt de plainte permet de déclencher une enquête judiciaire pour punir l'agresseur."
+  },
+  {
+    "id": 118,
+    "categorie": "Droits et devoirs",
+    "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "options": ["Fuir", "Obtempérer et respecter leurs consignes", "Négocier avec eux", "Se défendre physiquement"],
+    "bonne_reponse": 1,
+    "explication": "Les forces de l'ordre incarnent l'autorité de l'État. Le 'refus d'obtempérer' (ne pas s'arrêter lors d'un contrôle) ou la 'rébellion' sont des délits pénaux."
+  },
+  {
+    "id": 119,
+    "categorie": "Droits et devoirs",
+    "question": "Quel est le rôle de la police ?",
+    "options": ["Faire les lois", "Juger les coupables", "Assurer la sécurité des personnes, maintenir l'ordre public et rechercher les auteurs d'infractions", "Diriger le pays"],
+    "bonne_reponse": 2,
+    "explication": "La police nationale et la gendarmerie sont chargées de faire respecter la loi sur le terrain, de protéger la population et d'enquêter sous les ordres de la justice."
+  },
+  {
+    "id": 120,
+    "categorie": "Droits et devoirs",
+    "question": "Quel est un exemple d'assistance à personne en danger ?",
+    "options": ["Filmer un accident avec son téléphone", "Regarder sans rien faire", "Alerter immédiatement les secours (SAMU, Pompiers) en voyant une personne blessée", "S'enfuir pour ne pas être témoin"],
+    "bonne_reponse": 2,
+    "explication": "La non-assistance à personne en danger est un délit grave. Appeler les secours (15, 18 ou 112) est la première obligation légale face à un accident."
+  },
+{
+    "id": 121,
+    "categorie": "Droits et devoirs",
+    "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "options": ["Interdire de conduire sans permis", "Obliger les gens à avoir la même religion", "Interdire aux femmes de travailler", "Fermer les hôpitaux le dimanche"],
+    "bonne_reponse": 0,
+    "explication": "La liberté de circulation est fondamentale, mais l'État impose le permis de conduire et le code de la route pour protéger la vie de tous les usagers."
+  },
+  {
+    "id": 122,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
+    "options": ["Faire semblant de ne rien voir", "Prendre une vidéo pour les réseaux sociaux", "Alerter immédiatement les forces de l'ordre (17 ou 112) et se mettre en sécurité", "Encourager la bagarre"],
+    "bonne_reponse": 2,
+    "explication": "Toute personne témoin d'une agression a le devoir d'appeler les secours. Ne pas le faire peut constituer le délit de non-assistance à personne en danger."
+  },
+  {
+    "id": 123,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle est l'infraction la plus grave ?",
+    "options": ["La contravention", "Le délit", "Le crime", "L'incivilité"],
+    "bonne_reponse": 2,
+    "explication": "Le droit pénal classe les infractions en trois niveaux : la contravention (amende), le délit (ex: vol, puni par le tribunal correctionnel), et le crime (ex: meurtre, puni par la cour d'assises)."
+  },
+  {
+    "id": 124,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "options": ["L'obligation de voter", "L'obligation de faire le service militaire", "L'obligation absolue de respecter la loi française", "L'obligation de parler parfaitement français"],
+    "bonne_reponse": 2,
+    "explication": "La loi s'applique à tous (citoyens, résidents étrangers, touristes) sur l'ensemble du territoire français."
+  },
+  {
+    "id": 125,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle proposition représente un exemple de crime ?",
+    "options": ["Un excès de vitesse", "Un vol à l'étalage dans un magasin", "Un meurtre ou un viol", "Un tapage nocturne"],
+    "bonne_reponse": 2,
+    "explication": "Les crimes sont les infractions les plus graves (meurtre, viol, terrorisme). Ils sont jugés par une Cour d'assises, composée de magistrats et de jurés citoyens."
+  },
+  {
+    "id": 126,
+    "categorie": "Droits et devoirs",
+    "question": "Quelle proposition représente un exemple de délit ?",
+    "options": ["Un stationnement gênant", "Un vol, des violences volontaires ou du harcèlement", "Un meurtre", "Jeter un papier par terre"],
+    "bonne_reponse": 1,
+    "explication": "Les délits sont des infractions de gravité moyenne (vol, escroquerie, violences, harcèlement) passibles de peines de prison ou de fortes amendes."
+  },
+  {
+    "id": 127,
+    "categorie": "Droits et devoirs",
+    "question": "Qui veille au maintien de l'ordre public ?",
+    "options": ["L'armée", "La police nationale et la gendarmerie nationale", "Les pompiers", "Les juges"],
+    "bonne_reponse": 1,
+    "explication": "Sous l'autorité de l'État (via le ministre de l'Intérieur et les préfets), la police et la gendarmerie ont pour mission de protéger les personnes et les biens."
+  },
+  {
+    "id": 128,
+    "categorie": "Droits et devoirs",
+    "question": "S'agissant des déchets, quelle proposition est correcte ?",
+    "options": ["On peut jeter ses meubles cassés sur le trottoir la nuit", "Le tri sélectif et le recyclage sont des obligations citoyennes et légales", "Les poubelles sont facultatives", "On peut tout brûler dans son jardin"],
+    "bonne_reponse": 1,
+    "explication": "Pour protéger l'environnement, le tri des déchets est obligatoire. Les dépôts sauvages d'encombrants sont sévèrement punis par des amendes."
+  },
+  {
+    "id": 129,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel était le surnom de Louis XIV ?",
+    "options": ["Le Roi-Chevalier", "Le Roi-Soleil", "Le Bien-Aimé", "Le Roi de Fer"],
+    "bonne_reponse": 1,
+    "explication": "Louis XIV, symbole de la monarchie absolue de droit divin en France, a choisi l'emblème du soleil. Il a fait construire le château de Versailles."
+  },
+  {
+    "id": 130,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "options": ["Henri IV", "Louis XIV", "Louis XVI", "Napoléon III"],
+    "bonne_reponse": 2,
+    "explication": "Louis XVI a été jugé pour haute trahison par les révolutionnaires et guillotiné en 1793 à Paris."
+  },
+  {
+    "id": 131,
+    "categorie": "Histoire, géographie et culture",
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Napoléon Bonaparte s'est sacré Empereur des Français en 1804. Il a profondément réformé l'État (création du Code civil, des préfets, des lycées)."
+  },
+  {
+    "id": 132,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Lequel de ces personnages a un lien direct avec la République française ?",
+    "options": ["Charlemagne", "Jules César", "Marianne", "Jeanne d'Arc"],
+    "bonne_reponse": 2,
+    "explication": "Marianne est la figure allégorique (le symbole) de la République française. Elle incarne les valeurs de Liberté, Égalité, Fraternité."
+  },
+  {
+    "id": 133,
+    "categorie": "Histoire, géographie et culture",
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "options": ["Le 14 juillet 1789", "Le 11 novembre 1918", "Le 18 juin 1940", "Le 8 mai 1945"],
+    "bonne_reponse": 2,
+    "explication": "Le 18 juin 1940, depuis Londres, le Général de Gaulle a appelé les Français à la radio (BBC) à refuser la défaite et à poursuivre le combat contre l'Allemagne nazie."
+  },
+  {
+    "id": 134,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "options": ["Pour un devoir de mémoire et pour lutter contre l'antisémitisme et la haine", "C'est une option uniquement", "Pour apprendre la géographie de l'Europe", "Parce que c'est une vieille guerre"],
+    "bonne_reponse": 0,
+    "explication": "L'enseignement du génocide juif par l'Allemagne nazie est essentiel pour transmettre la mémoire et éduquer les jeunes générations contre le racisme."
+  },
+  {
+    "id": 135,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel pays a été colonisé par la France ?",
+    "options": ["Le Japon", "L'Australie", "L'Algérie", "L'Argentine"],
+    "bonne_reponse": 2,
+    "explication": "L'Algérie a été une colonie française de 1830 à 1962, date à laquelle elle a obtenu son indépendance après une longue guerre."
+  },
+  {
+    "id": 136,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "options": ["1789", "1944", "1962", "2000"],
+    "bonne_reponse": 2,
+    "explication": "C'est une réforme majeure voulue par Charles de Gaulle en 1962. Avant cela, le Président était élu de manière indirecte par un collège de grands électeurs."
+  },
+  {
+    "id": 137,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "options": ["La création de l'euro", "La CECA (Communauté Européenne du Charbon et de l'Acier)", "Le traité de Maastricht", "L'espace Schengen"],
+    "bonne_reponse": 1,
+    "explication": "La CECA a été fondée en 1951 par 6 pays (dont la France et l'Allemagne) pour mettre en commun la production de charbon et d'acier, empêchant ainsi une nouvelle guerre."
+  },
+  {
+    "id": 138,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "options": ["Charles de Gaulle", "Valéry Giscard d'Estaing", "François Mitterrand", "Jacques Chirac"],
+    "bonne_reponse": 2,
+    "explication": "La peine de mort a été abolie en 1981, quelques mois après l'élection de François Mitterrand à la présidence de la République."
+  },
+  {
+    "id": 139,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "options": ["Le Second Empire", "La Première République", "La Monarchie constitutionnelle", "Le Consulat"],
+    "bonne_reponse": 1,
+    "explication": "Après l'abolition de la royauté, la Première République a été proclamée le 22 septembre 1792."
+  },
+  {
+    "id": 140,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "options": ["Louis XVI", "Jean Moulin", "Napoléon Bonaparte", "Le Maréchal Pétain"],
+    "bonne_reponse": 1,
+    "explication": "Jean Moulin, envoyé par le Général de Gaulle, a réussi à unifier les différents mouvements de la Résistance intérieure française en 1943."
+  },
+  {
+    "id": 141,
+    "categorie": "Histoire, géographie et culture",
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "options": ["Elles ont obtenu le droit de travailler", "Elles ont obtenu le droit de vote et d'éligibilité", "Elles ont pu ouvrir un compte bancaire", "Elles ont été obligées de faire le service militaire"],
+    "bonne_reponse": 1,
+    "explication": "Par une ordonnance du 21 avril 1944 signée par le Général de Gaulle, les femmes françaises ont enfin obtenu le droit de voter (elles voteront pour la première fois en 1945)."
+  },
+  {
+    "id": 142,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "options": ["L'Union Européenne (UE)", "L'Organisation des Nations Unies (ONU)", "L'OTAN", "La Croix-Rouge"],
+    "bonne_reponse": 1,
+    "explication": "L'ONU a été fondée en 1945 pour maintenir la paix et la sécurité dans le monde. La France en est l'un des 5 membres permanents du Conseil de sécurité."
+  },
+  {
+    "id": 143,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quelle peine a été supprimée en 1981 ?",
+    "options": ["La prison à perpétuité", "Les travaux forcés", "La peine de mort", "Les amendes pour excès de vitesse"],
+    "bonne_reponse": 2,
+    "explication": "La France a aboli la peine de mort en 1981. Aujourd'hui, aucun pays de l'Union européenne ne pratique la peine de mort."
+  },
+  {
+    "id": 144,
+    "categorie": "Histoire, géographie et culture",
+    "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Bien que créée en 1999 pour les marchés financiers, les pièces et les billets en euros sont arrivés dans les poches des Français le 1er janvier 2002, remplaçant le Franc."
+  },
+  {
+    "id": 145,
+    "categorie": "Histoire, géographie et culture",
+    "question": "En quelle année a commencé la Première Guerre mondiale ?",
+    "options": ["1870", "1914", "1939", "1945"],
+    "bonne_reponse": 1,
+    "explication": "La Première Guerre mondiale, déclenchée par l'attentat de Sarajevo, a débuté en août 1914."
+  },
+  {
+    "id": 146,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Où a eu lieu le débarquement en 1944 ?",
+    "options": ["En Bretagne", "Sur les plages de Normandie", "Sur la Côte d'Azur", "À Paris"],
+    "bonne_reponse": 1,
+    "explication": "Le 6 juin 1944, les forces alliées (américaines, britanniques, canadiennes, etc.) ont débarqué en Normandie pour libérer la France de l'occupation nazie."
+  },
+  {
+    "id": 147,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "options": ["L'Amérique du Sud", "L'Océanie", "L'Afrique", "L'Europe de l'Est"],
+    "bonne_reponse": 2,
+    "explication": "La majorité des anciennes colonies françaises étaient situées en Afrique subsaharienne et en Afrique du Nord. Elles ont obtenu leur indépendance entre les années 1950 et 1960."
+  },
+  {
+    "id": 148,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Que fête-t-on le 8 mai ?",
+    "options": ["La fête de la musique", "La fin de la Seconde Guerre mondiale en Europe (1945)", "La prise de la Bastille", "L'armistice de 1918"],
+    "bonne_reponse": 1,
+    "explication": "Le 8 mai commémore la victoire des Alliés et la capitulation de l'Allemagne nazie en Europe en 1945."
+  },
+  {
+    "id": 149,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "options": ["L'Océan Pacifique", "L'Océan Indien", "La Mer Méditerranée, l'Océan Atlantique, la Manche et la Mer du Nord", "La Mer Rouge"],
+    "bonne_reponse": 2,
+    "explication": "La France bénéficie de plusieurs milliers de kilomètres de côtes, réparties sur la Méditerranée (au sud), l'Atlantique (à l'ouest), la Manche et la Mer du Nord (au nord)."
+  },
+  {
+    "id": 150,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "options": ["Le Portugal", "Le Royaume-Uni", "L'Espagne", "La Suède"],
+    "bonne_reponse": 2,
+    "explication": "La France partage des frontières terrestres avec plusieurs pays : l'Espagne, l'Italie, la Suisse, l'Allemagne, le Luxembourg, la Belgique, ainsi que Monaco et Andorre."
+  },
+{
+    "id": 151,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel pays est séparé de la France par la mer (la Manche) ?",
+    "options": ["L'Espagne", "Le Royaume-Uni", "L'Allemagne", "L'Italie"],
+    "bonne_reponse": 1,
+    "explication": "Le Royaume-Uni est une île séparée de la France métropolitaine par la mer de la Manche. Les deux pays sont aujourd'hui reliés par le tunnel sous la Manche."
+  },
+  {
+    "id": 152,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quelle chaîne de montagnes forme une frontière naturelle entre la France et l'Espagne ?",
+    "options": ["Les Alpes", "Les Pyrénées", "Le Massif central", "Les Vosges"],
+    "bonne_reponse": 1,
+    "explication": "Les Pyrénées sont situées au sud-ouest de la France et marquent la frontière avec l'Espagne."
+  },
+  {
+    "id": 153,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel fleuve traverse la ville de Paris ?",
+    "options": ["La Loire", "Le Rhône", "La Seine", "La Garonne"],
+    "bonne_reponse": 2,
+    "explication": "La Seine traverse la capitale française avant de se jeter dans la mer de la Manche, en Normandie."
+  },
+  {
+    "id": 154,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qu'est-ce qu'un DROM (anciennement DOM) ?",
+    "options": ["Un diplôme universitaire", "Un Département ou Région d'Outre-Mer", "Un document de la mairie", "Un impôt local"],
+    "bonne_reponse": 1,
+    "explication": "Les DROM (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) sont des territoires français situés hors d'Europe, où les lois françaises s'appliquent comme en métropole."
+  },
+  {
+    "id": 155,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Lequel de ces territoires est français ?",
+    "options": ["Haïti", "La Réunion", "Madagascar", "Le Québec"],
+    "bonne_reponse": 1,
+    "explication": "L'île de La Réunion, située dans l'Océan Indien, est un département français d'outre-mer."
+  },
+  {
+    "id": 156,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui était Victor Hugo ?",
+    "options": ["Un roi de France", "Un grand écrivain et poète du 19ème siècle", "Un scientifique", "Le créateur de la Tour Eiffel"],
+    "bonne_reponse": 1,
+    "explication": "Auteur de 'Les Misérables', Victor Hugo est l'un des plus grands écrivains français. Il fut aussi un homme politique engagé, notamment contre la peine de mort."
+  },
+  {
+    "id": 157,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Lequel de ces personnages était un philosophe des 'Lumières' (18e siècle) ?",
+    "options": ["Voltaire", "Charlemagne", "Vercingétorix", "Napoléon"],
+    "bonne_reponse": 0,
+    "explication": "Voltaire, comme Rousseau ou Montesquieu, est un philosophe des Lumières dont les idées sur la liberté et la tolérance ont inspiré la Révolution française."
+  },
+  {
+    "id": 158,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui était Marie Curie ?",
+    "options": ["Une reine célèbre", "Une avocate du 20e siècle", "Une physicienne et chimiste, double Prix Nobel", "Une écrivaine"],
+    "bonne_reponse": 2,
+    "explication": "D'origine polonaise et naturalisée française, Marie Curie est mondialement connue pour ses découvertes sur la radioactivité. Elle repose au Panthéon."
+  },
+  {
+    "id": 159,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qu'est-ce que le Louvre ?",
+    "options": ["Un stade de football", "Le palais où habite le Président", "Le plus grand musée d'art de France, situé à Paris", "Le bâtiment de l'Assemblée nationale"],
+    "bonne_reponse": 2,
+    "explication": "Ancien palais des rois de France, le Louvre est aujourd'hui l'un des musées les plus visités au monde (abritant notamment la Joconde)."
+  },
+  {
+    "id": 160,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Quel monument parisien a été construit pour l'Exposition universelle de 1889 ?",
+    "options": ["L'Arc de Triomphe", "La cathédrale Notre-Dame", "La Tour Eiffel", "Le Centre Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "Conçue par l'ingénieur Gustave Eiffel, la Tour Eiffel devait initialement être démontée après l'Exposition universelle, mais elle a été conservée."
+  },
+  {
+    "id": 161,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Pendant la Révolution, qui a rédigé la Déclaration des droits de la femme et de la citoyenne ?",
+    "options": ["Marie-Antoinette", "Olympe de Gouges", "Jeanne d'Arc", "Simone de Beauvoir"],
+    "bonne_reponse": 1,
+    "explication": "Olympe de Gouges fut l'une des premières féministes françaises. En 1791, elle revendiquait l'égalité politique et sociale totale entre hommes et femmes."
+  },
+  {
+    "id": 162,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui était Simone Veil ?",
+    "options": ["Une célèbre actrice", "Une femme d'État française qui a fait voter la loi autorisant l'IVG", "La première femme Présidente de la République", "Une grande sportive"],
+    "bonne_reponse": 1,
+    "explication": "Rescapée de la Shoah, Simone Veil est une figure politique majeure. En tant que ministre de la Santé en 1975, elle a porté la loi dépénalisant l'avortement."
+  },
+  {
+    "id": 163,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui fut un grand scientifique français, pionnier de la microbiologie et inventeur du vaccin contre la rage ?",
+    "options": ["Louis Pasteur", "Gustave Eiffel", "Auguste Rodin", "Molière"],
+    "bonne_reponse": 0,
+    "explication": "Louis Pasteur (19e siècle) est célèbre pour ses travaux sur les microbes et la vaccination, qui ont révolutionné la médecine."
+  },
+  {
+    "id": 164,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Où sont inhumées (enterrées) les grandes personnalités qui ont marqué l'histoire de la République française ?",
+    "options": ["À l'Élysée", "Au Panthéon", "Au Château de Versailles", "Dans la Tour Eiffel"],
+    "bonne_reponse": 1,
+    "explication": "Le Panthéon, situé à Paris, est le monument où la Nation honore ses 'Grands Hommes' (et femmes), comme Victor Hugo, Jean Moulin ou Simone Veil."
+  },
+  {
+    "id": 165,
+    "categorie": "Vivre dans la société française",
+    "question": "Qu'est-ce que la TVA ?",
+    "options": ["Le Train à Vitesse Avancée", "La Taxe sur la Valeur Ajoutée", "Une aide financière pour le logement", "Le Tribunal des Violences Aggravées"],
+    "bonne_reponse": 1,
+    "explication": "La TVA est un impôt indirect payé par tous les consommateurs lors de l'achat d'un produit ou d'un service."
+  },
+  {
+    "id": 166,
+    "categorie": "Vivre dans la société française",
+    "question": "Comment s'appelle l'impôt direct prélevé sur les salaires, les retraites ou les bénéfices ?",
+    "options": ["La taxe foncière", "L'impôt sur le revenu", "La taxe d'habitation", "Les frais de notaire"],
+    "bonne_reponse": 1,
+    "explication": "L'impôt sur le revenu est obligatoire et déclaratif. Son montant est calculé en fonction des revenus et de la composition du foyer."
+  },
+  {
+    "id": 167,
+    "categorie": "Vivre dans la société française",
+    "question": "Dans le monde du travail, qu'est-ce qu'un CDI ?",
+    "options": ["Un Contrat à Durée Indéterminée", "Un Conseil de Direction Interne", "Un Chèque Domicile Informatique", "Un Congé De Maladie Indéterminé"],
+    "bonne_reponse": 0,
+    "explication": "Le CDI est le contrat de travail de droit commun. Il n'a pas de date de fin fixée à l'avance, ce qui offre une sécurité de l'emploi au salarié."
+  },
+  {
+    "id": 168,
+    "categorie": "Vivre dans la société française",
+    "question": "Qu'est-ce que le SMIC ?",
+    "options": ["Le syndicat des médecins", "Le Salaire Minimum Interprofessionnel de Croissance", "Une aide pour les étudiants", "Une taxe patronale"],
+    "bonne_reponse": 1,
+    "explication": "Le SMIC correspond au salaire horaire minimum légal en dessous duquel le salarié ne peut pas être rémunéré."
+  },
+  {
+    "id": 169,
+    "categorie": "Vivre dans la société française",
+    "question": "Un salarié a-t-il le droit d'adhérer à un syndicat professionnel ?",
+    "options": ["Non, c'est interdit par l'employeur", "Oui, la liberté syndicale est un droit constitutionnel", "Seulement s'il est français", "Seulement s'il est cadre supérieur"],
+    "bonne_reponse": 1,
+    "explication": "Chacun est libre de se syndiquer (ou non) pour défendre ses droits et ses intérêts matériels ou moraux."
+  },
+  {
+    "id": 170,
+    "categorie": "Vivre dans la société française",
+    "question": "À quoi sert la carte Vitale ?",
+    "options": ["À voyager dans toute l'Europe", "À remplacer sa carte d'identité", "À justifier de ses droits à l'Assurance Maladie pour obtenir le remboursement des soins", "À avoir des réductions au supermarché"],
+    "bonne_reponse": 2,
+    "explication": "La carte Vitale permet la télétransmission des feuilles de soins électroniques, garantissant un remboursement rapide des frais médicaux par la Sécurité Sociale."
+  },
+  {
+    "id": 171,
+    "categorie": "Vivre dans la société française",
+    "question": "Vous êtes malade et ne pouvez pas aller travailler. Que devez-vous fournir à votre employeur dans les 48 heures ?",
+    "options": ["Une simple lettre", "Un avis d'arrêt de travail délivré par un médecin", "Une ordonnance pour des médicaments", "Rien, un coup de téléphone suffit"],
+    "bonne_reponse": 1,
+    "explication": "L'arrêt de travail médical est le seul document légal permettant de justifier votre absence et de percevoir des indemnités journalières de l'Assurance Maladie."
+  },
+  {
+    "id": 172,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel est le numéro d'urgence valable dans toute l'Union européenne (le numéro d'urgence européen) ?",
+    "options": ["Le 15", "Le 17", "Le 18", "Le 112"],
+    "bonne_reponse": 3,
+    "explication": "Le 112 est le numéro d'appel d'urgence européen, gratuit et accessible depuis n'importe quel téléphone, même sans carte SIM."
+  },
+  {
+    "id": 173,
+    "categorie": "Vivre dans la société française",
+    "question": "À quel service d'urgence correspond le numéro 15 ?",
+    "options": ["La police", "Les pompiers", "Le SAMU (Service d'Aide Médicale Urgente)", "Enfance en danger"],
+    "bonne_reponse": 2,
+    "explication": "Le 15 est à composer pour toute urgence médicale (malaise grave, accident corporel). Un médecin régulateur évalue la situation par téléphone."
+  },
+  {
+    "id": 174,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel numéro national d'appel est dédié à l'Enfance en danger ?",
+    "options": ["Le 119", "Le 17", "Le 3919", "Le 115"],
+    "bonne_reponse": 0,
+    "explication": "Le 119 est gratuit et confidentiel. Il permet de signaler la situation d'un enfant victime de violences ou en risque de l'être."
+  },
+  {
+    "id": 175,
+    "categorie": "Vivre dans la société française",
+    "question": "En cas de violences conjugales ou envers les femmes, quel numéro d'écoute et d'orientation peut-on appeler ?",
+    "options": ["Le 114", "Le 119", "Le 3919", "Le 15"],
+    "bonne_reponse": 2,
+    "explication": "Le 3919 (Violences Femmes Info) est un numéro d'écoute national, gratuit et anonyme, destiné aux femmes victimes de violences."
+  },
+  {
+    "id": 176,
+    "categorie": "Vivre dans la société française",
+    "question": "En droit français, qui exerce l'autorité parentale sur un enfant mineur ?",
+    "options": ["Le père uniquement", "La mère uniquement", "Le juge des enfants", "Les deux parents ensemble, qu'ils soient mariés ou non"],
+    "bonne_reponse": 3,
+    "explication": "L'autorité parentale est un ensemble de droits et de devoirs appartenant conjointement au père et à la mère pour protéger l'enfant et assurer son éducation."
+  },
+  {
+    "id": 177,
+    "categorie": "Vivre dans la société française",
+    "question": "Jusqu'à quel âge l'instruction (l'école) est-elle obligatoire en France ?",
+    "options": ["De 6 à 14 ans", "De 3 à 16 ans", "De 6 à 18 ans", "Elle n'est pas obligatoire"],
+    "bonne_reponse": 1,
+    "explication": "L'instruction est obligatoire pour tous les enfants, filles comme garçons, présents sur le territoire français, de l'âge de 3 ans jusqu'à 16 ans révolus."
+  },
+  {
+    "id": 178,
+    "categorie": "Vivre dans la société française",
+    "question": "En tant que locataire de votre logement, êtes-vous obligé de l'assurer ?",
+    "options": ["Non, c'est facultatif", "Oui, la souscription d'une assurance multirisques habitation est obligatoire", "Seulement si le logement est grand", "Non, c'est au propriétaire de tout payer"],
+    "bonne_reponse": 1,
+    "explication": "Le locataire doit obligatoirement assurer le logement contre les risques locatifs (incendie, dégât des eaux). Le propriétaire demandera une attestation chaque année."
+  },
+  {
+    "id": 179,
+    "categorie": "Vivre dans la société française",
+    "question": "Où déclare-t-on la naissance d'un enfant ?",
+    "options": ["À la préfecture", "Au commissariat de police", "À la mairie du lieu de naissance (service de l'état civil)", "À l'hôpital uniquement"],
+    "bonne_reponse": 2,
+    "explication": "La déclaration de naissance à la mairie est une démarche légale obligatoire pour que l'enfant soit inscrit sur les registres de l'état civil."
+  },
+  {
+    "id": 180,
+    "categorie": "Vivre dans la société française",
+    "question": "Dans quel délai maximum doit être faite la déclaration de naissance à la mairie ?",
+    "options": ["Dans les 5 jours qui suivent l'accouchement", "Dans les 2 semaines", "Dans le mois", "Avant l'entrée à l'école"],
+    "bonne_reponse": 0,
+    "explication": "La loi impose un délai strict de 5 jours (hors jours fériés). Si ce délai est dépassé, il faudra une décision de justice pour inscrire l'enfant."
+  },
+{
+    "id": 181,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel mariage est reconnu par l'État ?",
+    "options": ["Le mariage religieux uniquement", "Seul le mariage civil célébré à la mairie est reconnu juridiquement", "Le mariage célébré à l'étranger sans transcription", "Le mariage fait par un notaire"],
+    "bonne_reponse": 1,
+    "explication": "En France, seul le mariage civil a une valeur légale. Si les époux souhaitent une cérémonie religieuse, celle-ci doit obligatoirement avoir lieu après le mariage à la mairie."
+  },
+  {
+    "id": 182,
+    "categorie": "Vivre dans la société française",
+    "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "options": ["La préfecture", "Le commissariat de police", "La mairie de leur commune de résidence", "Le Conseil départemental"],
+    "bonne_reponse": 2,
+    "explication": "L'inscription à l'école maternelle et élémentaire publique se fait à la mairie. Le maire délivre un certificat d'inscription indiquant l'école d'affectation."
+  },
+  {
+    "id": 183,
+    "categorie": "Vivre dans la société française",
+    "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "options": ["Le père uniquement", "La mère uniquement", "L'État", "En principe, les deux parents conjointement"],
+    "bonne_reponse": 3,
+    "explication": "Le divorce ne met pas fin à l'autorité parentale. Sauf motif grave décidé par le juge, les deux parents continuent de prendre les décisions importantes pour l'enfant ensemble."
+  },
+  {
+    "id": 184,
+    "categorie": "Vivre dans la société française",
+    "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "options": ["Le RSA", "L'aide juridictionnelle", "La bourse au mérite", "La carte Vitale"],
+    "bonne_reponse": 1,
+    "explication": "L'aide juridictionnelle est une prise en charge par l'État (totale ou partielle) des frais de justice (avocat, huissier) pour les personnes aux revenus modestes."
+  },
+  {
+    "id": 185,
+    "categorie": "Vivre dans la société française",
+    "question": "Où peut-on déposer un lave-vaisselle cassé ?",
+    "options": ["Sur le trottoir", "Dans la poubelle jaune", "Dans la forêt", "À la déchetterie ou auprès du service des 'encombrants' de la commune"],
+    "bonne_reponse": 3,
+    "explication": "L'abandon de gros déchets (encombrants) sur la voie publique est interdit. Il existe des services gratuits de la mairie pour s'en débarrasser écologiquement."
+  },
+  {
+    "id": 186,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel numéro d'urgence permet d'appeler la police ?",
+    "options": ["Le 15", "Le 17", "Le 18", "Le 3919"],
+    "bonne_reponse": 1,
+    "explication": "Le 17 permet d'appeler Police Secours en cas de vol, d'agression ou de danger immédiat nécessitant l'intervention des forces de l'ordre."
+  },
+  {
+    "id": 187,
+    "categorie": "Vivre dans la société française",
+    "question": "Un bail locatif (contrat de location) est valide s'il est :",
+    "options": ["Conclu uniquement à l'oral", "Signé et écrit par le propriétaire et le locataire", "Signé par le maire", "Signé par la police"],
+    "bonne_reponse": 1,
+    "explication": "Pour protéger le locataire et le propriétaire, la loi exige un contrat de location (bail) écrit, détaillant le montant du loyer, des charges et la durée de la location."
+  },
+  {
+    "id": 188,
+    "categorie": "Vivre dans la société française",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "options": ["L'hôpital ne soigne que les citoyens français", "Les médecins peuvent refuser de vous soigner selon votre religion", "L'accès aux soins est garanti pour tous, avec des dispositifs de solidarité (CSS, AME) pour les plus démunis", "Il faut payer la totalité de l'opération avant d'entrer à l'hôpital"],
+    "bonne_reponse": 2,
+    "explication": "Le système de santé français repose sur le principe de solidarité. Personne ne peut se voir refuser des soins urgents pour des raisons financières ou d'origine."
+  },
+  {
+    "id": 189,
+    "categorie": "Vivre dans la société française",
+    "question": "À qui est accessible la contraception ?",
+    "options": ["Uniquement aux femmes majeures mariées", "À toutes les femmes et hommes, y compris les mineurs (avec anonymat et gratuité pour certaines)", "Uniquement aux hommes", "Aux femmes ayant déjà un enfant"],
+    "bonne_reponse": 1,
+    "explication": "La contraception (pilule, préservatifs) est un droit. Elle est accessible à tous, et même gratuite en pharmacie pour les jeunes jusqu'à 25 ans."
+  },
+  {
+    "id": 190,
+    "categorie": "Vivre dans la société française",
+    "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "options": ["Le médecin doit tout raconter à la police", "Le secret médical : le professionnel de santé n'a pas le droit de révéler les informations sur la santé d'un patient", "Le droit de publier son dossier médical sur internet", "Le droit pour l'employeur de connaître votre maladie"],
+    "bonne_reponse": 1,
+    "explication": "Le secret médical est un droit fondamental du patient. Sauf rares exceptions prévues par la loi, un médecin encourt des peines de prison s'il le viole."
+  },
+  {
+    "id": 191,
+    "categorie": "Vivre dans la société française",
+    "question": "L'inscription à l'Assurance maladie est :",
+    "options": ["Facultative", "Uniquement pour les fonctionnaires", "Obligatoire pour toute personne résidant de manière stable et régulière en France", "Réservée aux personnes malades"],
+    "bonne_reponse": 2,
+    "explication": "C'est la base de la protection sociale en France. L'inscription à l'Assurance maladie (qui délivre la carte Vitale) permet la prise en charge des dépenses de santé."
+  },
+  {
+    "id": 192,
+    "categorie": "Vivre dans la société française",
+    "question": "Qui peut demander un congé parental d'éducation ?",
+    "options": ["Seulement la mère", "Seulement le père", "La mère ou le père du jeune enfant, pour interrompre ou réduire son activité professionnelle", "Seulement les grands-parents"],
+    "bonne_reponse": 2,
+    "explication": "La loi permet à tout salarié (père ou mère) ayant au moins 1 an d'ancienneté dans l'entreprise de prendre un congé pour s'occuper de son enfant."
+  },
+  {
+    "id": 193,
+    "categorie": "Vivre dans la société française",
+    "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "options": ["Les divorces", "Les vols et les agressions", "Les litiges (conflits) individuels liés au contrat de travail entre un employeur et un salarié", "Les problèmes de voisinage"],
+    "bonne_reponse": 2,
+    "explication": "Le Conseil de prud'hommes juge les problèmes liés au travail (licenciement abusif, salaires impayés, harcèlement au travail)."
+  },
+  {
+    "id": 194,
+    "categorie": "Vivre dans la société française",
+    "question": "Travailler sans être déclaré est :",
+    "options": ["Recommandé pour gagner plus", "Légal si l'employeur est d'accord", "Un délit (travail dissimulé ou 'au noir') privant le salarié de ses droits sociaux", "Légal pour les étudiants"],
+    "bonne_reponse": 2,
+    "explication": "Le travail dissimulé est très risqué. Le salarié n'est pas protégé en cas d'accident du travail, ne cotise pas pour le chômage ni pour la retraite."
+  },
+  {
+    "id": 195,
+    "categorie": "Vivre dans la société française",
+    "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "options": ["Le salarié doit travailler gratuitement", "Ces heures supplémentaires doivent obligatoirement être rémunérées ou récupérées en repos", "L'employeur doit appeler la police", "C'est formellement interdit"],
+    "bonne_reponse": 1,
+    "explication": "Le droit du travail français stipule que tout temps de travail effectif imposé par l'employeur doit être payé (souvent avec une majoration pour les heures supplémentaires)."
+  },
+  {
+    "id": 196,
+    "categorie": "Vivre dans la société française",
+    "question": "Quelle est la mission de France Travail ?",
+    "options": ["Délivrer les cartes de séjour", "Accompagner les demandeurs d'emploi dans leurs recherches et indemniser le chômage", "Juger les employeurs", "Payer les retraites"],
+    "bonne_reponse": 1,
+    "explication": "France Travail (nouveau nom de Pôle emploi) est le grand service public qui aide à la recherche d'emploi, propose des formations et verse les allocations."
+  },
+  {
+    "id": 197,
+    "categorie": "Vivre dans la société française",
+    "question": "Dans une entreprise, le droit syndical permet :",
+    "options": ["Aux salariés d'adhérer librement à un syndicat pour défendre leurs intérêts", "Au patron d'interdire les réunions", "De travailler sans contrat", "De remplacer le comité d'entreprise"],
+    "bonne_reponse": 0,
+    "explication": "C'est un droit constitutionnel. Il est interdit à un employeur de sanctionner un employé parce qu'il fait partie d'un syndicat."
+  },
+  {
+    "id": 198,
+    "categorie": "Vivre dans la société française",
+    "question": "Dans une entreprise, le droit de grève autorise :",
+    "options": ["La destruction de matériel", "La cessation collective et concertée du travail pour des revendications professionnelles", "Le licenciement sans préavis", "Le vol de marchandises"],
+    "bonne_reponse": 1,
+    "explication": "La grève est légale si elle est collective, qu'elle concerne l'entreprise et qu'elle a pour but d'améliorer les conditions de travail ou le salaire."
+  },
+  {
+    "id": 199,
+    "categorie": "Vivre dans la société française",
+    "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "options": ["Avoir travaillé au moins 1 mois", "Être involontairement privé d'emploi, être inscrit à France Travail et rechercher activement un emploi", "Démissionner simplement", "Être étudiant"],
+    "bonne_reponse": 1,
+    "explication": "Pour avoir droit au chômage, il faut généralement avoir été licencié (ou fin de CDD), avoir cotisé un minimum de temps et prouver sa recherche d'un nouveau travail."
+  },
+  {
+    "id": 200,
+    "categorie": "Vivre dans la société française",
+    "question": "Qu'est-ce que l'école maternelle ?",
+    "options": ["Une garderie payante", "La première étape du parcours scolaire (dès 3 ans) qui permet les premiers apprentissages", "Une école de médecine", "Une école uniquement pour les filles"],
+    "bonne_reponse": 1,
+    "explication": "Depuis 2019, l'instruction est obligatoire dès l'âge de 3 ans. L'école maternelle publique est donc une école à part entière, laïque et gratuite."
+  },
+  {
+    "id": 201,
+    "categorie": "Vivre dans la société française",
+    "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+    "options": ["Le Baccalauréat", "La Licence", "Le Diplôme National du Brevet (DNB)", "Le Master"],
+    "bonne_reponse": 2,
+    "explication": "Le Brevet (vers 14-15 ans) évalue les connaissances acquises à la fin du collège, avant l'entrée au lycée."
+  },
+  {
+    "id": 202,
+    "categorie": "Vivre dans la société française",
+    "question": "Les parents d'élève ont le droit de :",
+    "options": ["Choisir les notes de leurs enfants", "Voter pour élire leurs représentants qui participent aux conseils d'école", "Remplacer les professeurs absents", "Refuser le programme d'histoire"],
+    "bonne_reponse": 1,
+    "explication": "L'école implique les familles. Les parents élisent des représentants qui participent aux instances de l'établissement."
+  },
+  {
+    "id": 203,
+    "categorie": "Vivre dans la société française",
+    "question": "Qui peut manger à la cantine scolaire ?",
+    "options": ["Uniquement les enfants français", "Uniquement les enfants dont les parents travaillent", "Tous les enfants scolarisés dont les parents en font la demande (selon la mairie)", "Uniquement les professeurs"],
+    "bonne_reponse": 2,
+    "explication": "La restauration scolaire est un service public. Lorsqu'il existe, toutes les familles doivent pouvoir y avoir accès pour leurs enfants."
+  },
+  {
+    "id": 204,
+    "categorie": "Vivre dans la société française",
+    "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "options": ["3 ans", "6 ans", "11 ans", "16 ans"],
+    "bonne_reponse": 0,
+    "explication": "Depuis la loi pour une 'École de la confiance' (2019), l'instruction est obligatoire dès 3 ans (école maternelle)."
+  },
+  {
+    "id": 205,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel est l'âge de la majorité en France ?",
+    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
+    "bonne_reponse": 1,
+    "explication": "À 18 ans, un jeune devient juridiquement majeur : il peut voter, conduire, signer un contrat et est entièrement responsable de ses actes devant la justice."
+  },
+  {
+    "id": 206,
+    "categorie": "Vivre dans la société française",
+    "question": "À l'école, il est interdit aux parents de :",
+    "options": ["Prendre rendez-vous avec le maître", "Se substituer aux enseignants ou d'avoir un comportement violent", "Aider leur enfant à faire ses devoirs", "Participer aux fêtes de l'école"],
+    "bonne_reponse": 1,
+    "explication": "Le respect des enseignants est fondamental. Toute violence verbale ou physique d'un parent envers un membre du personnel scolaire est sévèrement punie."
+  },
+  {
+    "id": 207,
+    "categorie": "Vivre dans la société française",
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "options": ["L'enfant était trop fatigué", "Maladie de l'enfant ou événement familial grave (décès)", "Un départ en vacances hors calendrier scolaire", "Un jour de fête d'anniversaire"],
+    "bonne_reponse": 1,
+    "explication": "L'assiduité est obligatoire. Partir en vacances sur le temps de classe ou garder son enfant sans raison médicale ou grave n'est pas autorisé."
+  },
+  {
+    "id": 208,
+    "categorie": "Vivre dans la société française",
+    "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "options": ["Aucune sanction", "Une retenue sur salaire", "6 mois d'emprisonnement et 7 500 € d'amende", "L'expulsion immédiate"],
+    "bonne_reponse": 2,
+    "explication": "Priver un enfant de son droit à l'éducation (absentéisme répété non justifié ou refus de scolarisation) est un délit réprimé par le Code pénal."
+  },
+  {
+    "id": 209,
+    "categorie": "Vivre dans la société française",
+    "question": "Quand ont lieu les vacances scolaires de Noël ?",
+    "options": ["En été", "À la fin de l'année (fin décembre / début janvier)", "En avril", "En février"],
+    "bonne_reponse": 1,
+    "explication": "Les vacances de Noël (ou de fin d'année) ont lieu sur une période de deux semaines communes à l'ensemble du territoire français."
+  },
+  {
+    "id": 210,
+    "categorie": "Vivre dans la société française",
+    "question": "À l'école, un enfant en situation de handicap :",
+    "options": ["N'a pas le droit d'être scolarisé", "A le droit à une scolarisation inclusive en milieu ordinaire, avec un accompagnement si nécessaire", "Doit obligatoirement rester chez lui", "Ne peut aller qu'à l'hôpital"],
+    "bonne_reponse": 1,
+    "explication": "La loi pour l'égalité des droits garantit la scolarisation des enfants handicapés, le plus souvent possible dans une classe d'école ordinaire, parfois aidés par un AESH (accompagnant)."
+  },
+  {
+    "id": 211,
+    "categorie": "Système institutionnel et politique",
+    "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "options": ["Être propriétaire d'une voiture", "Avoir l'âge requis et réussir l'examen théorique (le code)", "Avoir un emploi", "Être de nationalité française"],
+    "bonne_reponse": 1,
+    "explication": "Le passage du permis nécessite de réussir d'abord l'épreuve du 'code de la route'. L'âge minimum légal pour conduire en autonomie est de 18 ans (et désormais 17 ans selon la dernière réforme)."
+  },
+  {
+    "id": 212,
+    "categorie": "Droits et devoirs",
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "options": ["Oui, la loi garantit la liberté d'entreprendre à égalité avec les hommes", "Non, seuls les hommes ont ce droit", "Seulement avec l'autorisation de son père ou de son mari", "Oui, mais uniquement pour de petits commerces"],
+    "bonne_reponse": 0,
+    "explication": "Depuis 1965, les femmes ont le droit de travailler, d'ouvrir un compte bancaire et de gérer une entreprise en toute indépendance et à stricte égalité avec les hommes."
+  }
+]

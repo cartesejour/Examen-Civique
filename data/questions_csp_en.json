@@ -1,0 +1,1546 @@
+[
+  {
+    "id": 1,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the date of July 14 correspond to?",
+    "options": ["Music festival", "French national holiday", "Armistice of the First World War", "Abolition of slavery"],
+    "bonne_reponse": 1,
+    "explication": "July 14 is the national holiday. It celebrates the storming of the Bastille (1789) and the Fête de la Fédération (1790), symbols of the end of the absolute monarchy.[cite: 1]"
+  },
+  {
+    "id": 2,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is one of the symbols of the French Republic?",
+    "options": ["The fleur-de-lis", "The imperial eagle", "The blue, white, red tricolor flag", "The golden lion"],
+    "bonne_reponse": 2,
+    "explication": "The tricolor flag, Marianne, the motto, the national anthem and the seal are the main official symbols of the French Republic.[cite: 1]"
+  },
+  {
+    "id": 3,
+    "categorie": "Principles and values of the Republic",
+    "question": "The principle of equality means that:",
+    "options": ["Everyone earns the same salary", "The law is the same for everyone", "Everyone must have the same opinions", "There are no more rich or poor people"],
+    "bonne_reponse": 1,
+    "explication": "Equality before the law guarantees that every citizen has the same rights and the same duties, without distinction of origin, sex or religion.[cite: 1]"
+  },
+  {
+    "id": 4,
+    "categorie": "Principles and values of the Republic",
+    "question": "\"Liberty, equality, fraternity\" is:",
+    "options": ["The first article of the Constitution", "The motto of the Republic", "The title of the national anthem", "The name of a political party"],
+    "bonne_reponse": 1,
+    "explication": "This is the official motto of the French Republic. It can be found written on town halls, public schools and coins.[cite: 1]"
+  },
+  {
+    "id": 5,
+    "categorie": "Principles and values of the Republic",
+    "question": "Do we have the right to publicly insult someone because they are different (disability, physical appearance, sex...)?",
+    "options": ["Yes, in the name of freedom of expression", "No, it is an offense punishable by law", "Yes, if the person is not French", "No, except on social networks"],
+    "bonne_reponse": 1,
+    "explication": "Discrimination and public insult based on difference (racism, sexism, homophobia, fatphobia, disability) are offenses severely punished by law.[cite: 1]"
+  },
+  {
+    "id": 6,
+    "categorie": "Principles and values of the Republic",
+    "question": "Can certain jobs be reserved for men?",
+    "options": ["Yes, very physical jobs", "Yes, in the army and the police", "No, the law guarantees professional equality", "Yes, if the employer decides"],
+    "bonne_reponse": 2,
+    "explication": "The law guarantees strict equality between women and men in the working world. No job can be forbidden to a woman.[cite: 1]"
+  },
+  {
+    "id": 7,
+    "categorie": "Principles and values of the Republic",
+    "question": "When does the Constitution of the Fifth Republic date from?",
+    "options": ["1789", "1905", "1945", "1958"],
+    "bonne_reponse": 3,
+    "explication": "Our current Constitution was adopted in 1958, under the impetus of General de Gaulle. It founded the Fifth Republic.[cite: 1]"
+  },
+  {
+    "id": 8,
+    "categorie": "Principles and values of the Republic",
+    "question": "The regime of France is:",
+    "options": ["A constitutional monarchy", "A military dictatorship", "A democratic Republic", "An empire"],
+    "bonne_reponse": 2,
+    "explication": "France is an indivisible, secular, democratic and social Republic. Power belongs to the people who exercise it by voting.[cite: 1]"
+  },
+  {
+    "id": 9,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which of these symbols officially represents the French Republic?",
+    "options": ["Marianne", "Joan of Arc", "The Eiffel Tower", "Mont Saint-Michel"],
+    "bonne_reponse": 0,
+    "explication": "Marianne is the allegorical figure of the Republic. She represents freedom and reason. Her bust is present in all town halls.[cite: 1]"
+  },
+  {
+    "id": 10,
+    "categorie": "Principles and values of the Republic",
+    "question": "Where can we see the motto of the Republic?",
+    "options": ["On churches", "On the pediment of town halls", "On banknotes only", "On driving licenses"],
+    "bonne_reponse": 1,
+    "explication": "The motto 'Liberty, Equality, Fraternity' is inscribed on public buildings of the State, such as town halls, prefectures and schools.[cite: 1]"
+  },
+  {
+    "id": 11,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does freedom mean?",
+    "options": ["The right to do whatever one wants without any limits", "The power to do anything that does not harm others, in compliance with the law", "The right not to work", "Authorization to ignore the police"],
+    "bonne_reponse": 1,
+    "explication": "According to the Declaration of Human Rights, freedom consists in being able to do anything that does not harm others. It is framed by law to protect everyone.[cite: 1]"
+  },
+  {
+    "id": 12,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the word \"fraternity\" mean in the French motto?",
+    "options": ["The legal obligation to have brothers and sisters", "Solidarity between citizens", "The fact that only men have power", "The right to live alone"],
+    "bonne_reponse": 1,
+    "explication": "Fraternity represents solidarity and mutual aid between all members of society (for example, through Social Security or taxes).[cite: 1]"
+  },
+  {
+    "id": 13,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which animal is a symbol of France?",
+    "options": ["The lion", "The eagle", "The Gallic rooster", "The horse"],
+    "bonne_reponse": 2,
+    "explication": "The Gallic rooster is a traditional symbol of France, often used during sports competitions or on war memorials.[cite: 1]"
+  },
+  {
+    "id": 14,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the name of the national anthem?",
+    "options": ["La Parisienne", "The Chant des Partisans", "Ode to Joy", "La Marseillaise"],
+    "bonne_reponse": 3,
+    "explication": "La Marseillaise, written by Rouget de Lisle in 1792, is the national anthem of France.[cite: 1]"
+  },
+  {
+    "id": 15,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the official language of the French Republic?",
+    "options": ["French", "French and English", "French and regional languages", "There is no official language"],
+    "bonne_reponse": 0,
+    "explication": "Article 2 of the Constitution specifies that \"The language of the Republic is French\". It is the only official language for administration and justice.[cite: 1]"
+  },
+  {
+    "id": 16,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is traditionally organized on the Champs Élysées on July 14 to celebrate the national holiday?",
+    "options": ["A big market", "A cycling race", "A military parade", "A classical music concert"],
+    "bonne_reponse": 2,
+    "explication": "Every July 14, a large military parade is organized on the Avenue des Champs-Élysées in Paris, in the presence of the President of the Republic.[cite: 1]"
+  },
+  {
+    "id": 17,
+    "categorie": "Principles and values of the Republic",
+    "question": "In what year was the law separating Churches and State passed?",
+    "options": ["1789", "1804", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "The 1905 law is the founding text of modern secularism in France. It separates political power from religious power.[cite: 1]"
+  },
+  {
+    "id": 18,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the principle of secularism allow?",
+    "options": ["The prohibition of all religions", "The freedom to believe or not to believe", "The obligation to choose an official religion", "State funding of churches"],
+    "bonne_reponse": 1,
+    "explication": "Secularism guarantees freedom of conscience: everyone is free to practice a religion, to change religion or to have none.[cite: 1]"
+  },
+  {
+    "id": 19,
+    "categorie": "Principles and values of the Republic",
+    "question": "Can a child refuse to go to school for religious reasons?",
+    "options": ["Yes, if his parents agree", "Yes, if it is authorized by his religion", "No, instruction is compulsory and secular", "Yes, on Friday or Saturday"],
+    "bonne_reponse": 2,
+    "explication": "School is compulsory. Religion can in no case be an excuse to refuse to be educated or to refuse to take certain courses (like sports or sciences).[cite: 1]"
+  },
+  {
+    "id": 20,
+    "categorie": "Principles and values of the Republic",
+    "question": "Can a person freely change religion?",
+    "options": ["No, it's forbidden", "Yes, it is a right guaranteed by secularism", "Only with the agreement of the town hall", "Only if she is of French nationality"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of conscience includes the absolute right to choose one's religion, to change it whenever one wishes, or to stop believing.[cite: 1]"
+  },
+  {
+    "id": 21,
+    "categorie": "Institutional and political system",
+    "question": "Who appoints the Prime Minister?",
+    "options": ["The people by direct vote", "The President of the Republic", "The National Assembly", "The Senate"],
+    "bonne_reponse": 1,
+    "explication": "The President of the Republic appoints the Prime Minister, who then becomes the head of government.[cite: 1]"
+  },
+  {
+    "id": 22,
+    "categorie": "Institutional and political system",
+    "question": "The Parliament is composed of:",
+    "options": ["The president and the ministers", "The National Assembly and the Senate", "Mayors and prefects", "Judges and lawyers"],
+    "bonne_reponse": 1,
+    "explication": "The Parliament's role is to vote laws. It is composed of two assemblies: the National Assembly (the deputies) and the Senate (the senators).[cite: 1]"
+  },
+  {
+    "id": 23,
+    "categorie": "Institutional and political system",
+    "question": "What is executive power?",
+    "options": ["The power to vote laws", "The power to render justice", "The power to enforce laws and lead the country", "The power to amend the Constitution"],
+    "bonne_reponse": 2,
+    "explication": "Executive power is held by the President of the Republic and the government. Its role is to enforce the laws voted by Parliament and to manage the State.[cite: 1]"
+  },
+  {
+    "id": 24,
+    "categorie": "Institutional and political system",
+    "question": "Leaders are elected by citizens in:",
+    "options": ["A dictatorship", "An absolute monarchy", "A democracy", "An empire"],
+    "bonne_reponse": 2,
+    "explication": "In a democracy, power belongs to the people, who freely choose their representatives through elections.[cite: 1]"
+  },
+  {
+    "id": 25,
+    "categorie": "Institutional and political system",
+    "question": "Do we have the right not to respect a law?",
+    "options": ["Yes, if we don't agree with it", "Yes, if we are foreign", "No, ignorance of the law is no excuse to violate it", "Yes, if the mayor authorizes it"],
+    "bonne_reponse": 2,
+    "explication": "In France, the law applies to everyone equally. Non-compliance with the law leads to sanctions (fines, prison sentences).[cite: 1]"
+  },
+  {
+    "id": 26,
+    "categorie": "Institutional and political system",
+    "question": "Who must respect the law?",
+    "options": ["Only French citizens", "Only adults", "Everyone on French territory", "Only people who work"],
+    "bonne_reponse": 2,
+    "explication": "In a rule of law, every person present on the territory (citizens, foreigners, leaders, police officers) must obligatorily respect the law.[cite: 1]"
+  },
+  {
+    "id": 27,
+    "categorie": "Institutional and political system",
+    "question": "What is the role of the judicial authority?",
+    "options": ["Vote laws", "Lead the government", "Enforce laws and sanction those who do not respect them", "Elect the president"],
+    "bonne_reponse": 2,
+    "explication": "The judicial authority (judges and courts) ensures compliance with laws, protects individual freedoms, settles conflicts and punishes offenses.[cite: 1]"
+  },
+  {
+    "id": 28,
+    "categorie": "Institutional and political system",
+    "question": "What happens if a minister does not respect the law?",
+    "options": ["He cannot be punished because he is protected", "He can be prosecuted and judged like any citizen", "The president cancels the law for him", "He just has to apologize publicly"],
+    "bonne_reponse": 1,
+    "explication": "No one is above the law. A minister or elected official who commits an offense can be prosecuted and judged by the justice system.[cite: 1]"
+  },
+  {
+    "id": 29,
+    "categorie": "Institutional and political system",
+    "question": "Who is elected during the legislative elections?",
+    "options": ["The President of the Republic", "The mayors", "The senators", "The deputies"],
+    "bonne_reponse": 3,
+    "explication": "Legislative elections are used to elect the deputies who sit in the National Assembly to vote laws.[cite: 1]"
+  },
+  {
+    "id": 30,
+    "categorie": "Institutional and political system",
+    "question": "How many deputies make up the National Assembly?",
+    "options": ["100", "348", "577", "1000"],
+    "bonne_reponse": 2,
+    "explication": "The National Assembly is composed of 577 deputies, elected by direct universal suffrage by French citizens.[cite: 1]"
+  },
+  {
+    "id": 31,
+    "categorie": "Institutional and political system",
+    "question": "Who is elected during the municipal elections?",
+    "options": ["The deputies", "The senators", "The municipal councilors", "The President of the Republic"],
+    "bonne_reponse": 2,
+    "explication": "Municipal elections allow the election of the municipal council. It is then these councilors who elect the mayor of the commune.[cite: 1]"
+  },
+  {
+    "id": 32,
+    "categorie": "Institutional and political system",
+    "question": "From what age do you have the right to vote in France?",
+    "options": ["16 years old", "18 years old", "21 years old", "25 years old"],
+    "bonne_reponse": 1,
+    "explication": "The civil majority and the right to vote (for citizens of French nationality) are set at 18 years old.[cite: 1]"
+  },
+  {
+    "id": 33,
+    "categorie": "Institutional and political system",
+    "question": "For how long is the President of the French Republic elected?",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 1,
+    "explication": "The President of the Republic is elected for a 5-year term, which is called the quinquennat.[cite: 1]"
+  },
+  {
+    "id": 34,
+    "categorie": "Institutional and political system",
+    "question": "Who holds the legislative power?",
+    "options": ["The President of the Republic", "The government", "The Parliament (National Assembly and Senate)", "The judges"],
+    "bonne_reponse": 2,
+    "explication": "Legislative power, which consists of proposing, debating and voting laws, belongs to Parliament.[cite: 1]"
+  },
+  {
+    "id": 35,
+    "categorie": "Institutional and political system",
+    "question": "Who sanctions the author of a theft?",
+    "options": ["The victim of the theft", "The mayor of the city", "The prefect", "A judge of the judicial authority"],
+    "bonne_reponse": 3,
+    "explication": "Only the justice system has the power to criminally sanction a person. It is forbidden to take justice into one's own hands.[cite: 1]"
+  },
+  {
+    "id": 36,
+    "categorie": "Institutional and political system",
+    "question": "Who runs the commune?",
+    "options": ["The prefect", "The mayor", "The deputy", "The president"],
+    "bonne_reponse": 1,
+    "explication": "The mayor, assisted by his municipal council, is the head of the administration of the commune. He manages the local affairs of the city.[cite: 1]"
+  },
+  {
+    "id": 37,
+    "categorie": "Institutional and political system",
+    "question": "Does the President of the Republic have all the powers?",
+    "options": ["Yes, it's like a king", "No, powers are separated in France", "Yes, in peacetime", "Yes, because he appoints the judges"],
+    "bonne_reponse": 1,
+    "explication": "France applies the principle of separation of powers (executive, legislative, judicial) in order to avoid dictatorship and guarantee democracy.[cite: 1]"
+  },
+  {
+    "id": 38,
+    "categorie": "Institutional and political system",
+    "question": "Who is the prefect?",
+    "options": ["The representative of the State in the department", "The head of the municipal police", "A judge of the Court of Cassation", "The mayor's replacement"],
+    "bonne_reponse": 0,
+    "explication": "Appointed by the president, the prefect represents the government in a department. He ensures the maintenance of public order and the application of laws.[cite: 1]"
+  },
+  {
+    "id": 39,
+    "categorie": "Institutional and political system",
+    "question": "How many States are part of the European Union as of January 1, 2025?",
+    "options": ["15", "27", "28", "50"],
+    "bonne_reponse": 1,
+    "explication": "The European Union currently has 27 Member States, following the departure of the United Kingdom (Brexit).[cite: 1]"
+  },
+  {
+    "id": 40,
+    "categorie": "Institutional and political system",
+    "question": "What is the currency used in France?",
+    "options": ["The Franc", "The Pound Sterling", "The Dollar", "The Euro"],
+    "bonne_reponse": 3,
+    "explication": "The Euro is the official currency of France and a large majority of the member countries of the European Union since 2002.[cite: 1]"
+  },
+  {
+    "id": 41,
+    "categorie": "Rights and duties",
+    "question": "What is the name of the text that sets out the rights and duties of people residing in France?",
+    "options": ["The Highway Code", "The Constitution and the laws of the Republic", "The dictionary", "The municipal regulations"],
+    "bonne_reponse": 1,
+    "explication": "The Constitution, along with the Declaration of Human Rights and the laws voted by Parliament, defines the rights, freedoms and duties of everyone.[cite: 1]"
+  },
+  {
+    "id": 42,
+    "categorie": "Rights and duties",
+    "question": "What year does the Declaration of the Rights of Man and of the Citizen date from?",
+    "options": ["1789", "1804", "1945", "1958"],
+    "bonne_reponse": 0,
+    "explication": "Adopted at the beginning of the French Revolution in 1789, it lays the universal foundations of fundamental rights (freedom, equality, property).[cite: 1]"
+  },
+  {
+    "id": 43,
+    "categorie": "Rights and duties",
+    "question": "What right allows a person to defend themselves before justice?",
+    "options": ["The right to security", "The right to housing", "The right to a fair trial (right to a lawyer)", "The right to strike"],
+    "bonne_reponse": 2,
+    "explication": "Anyone accused has the right to defend themselves, to be heard by an impartial judge and to be assisted by a lawyer during a fair trial.[cite: 1]"
+  },
+  {
+    "id": 44,
+    "categorie": "Rights and duties",
+    "question": "A woman can have an abortion:",
+    "options": ["Only if she is sick", "Only with her husband's agreement", "Freely, within the time limits provided by law (IVG)", "Only if she is over 18 years old"],
+    "bonne_reponse": 2,
+    "explication": "Voluntary Interruption of Pregnancy (IVG) is a right in France, recently inscribed in the Constitution. The decision belongs to the woman alone.[cite: 1]"
+  },
+  {
+    "id": 45,
+    "categorie": "Rights and duties",
+    "question": "The death penalty is:",
+    "options": ["Abolished in France", "Used only for very serious crimes", "Suspended for 10 years", "Authorized in wartime"],
+    "bonne_reponse": 0,
+    "explication": "The death penalty was definitively abolished in France in 1981.[cite: 1]"
+  },
+  {
+    "id": 46,
+    "categorie": "Rights and duties",
+    "question": "In France, is it legal to be married to several people at the same time?",
+    "options": ["Yes, if everyone agrees", "No, polygamy is forbidden and punished by law", "Yes, if you have the financial means", "Yes, according to one's religion"],
+    "bonne_reponse": 1,
+    "explication": "Polygamy is formally forbidden on French territory. Only monogamy is legal.[cite: 1]"
+  },
+  {
+    "id": 47,
+    "categorie": "Rights and duties",
+    "question": "What must a victim of violence do?",
+    "options": ["Stay silent", "Take revenge", "Report the facts to the police (17) or call an emergency number", "Solve the problem alone"],
+    "bonne_reponse": 2,
+    "explication": "The law protects victims. You must contact the police (17) or call national help numbers (such as 3919 for domestic violence).[cite: 1]"
+  },
+  {
+    "id": 48,
+    "categorie": "Rights and duties",
+    "question": "What is the role of the police and the gendarmerie?",
+    "options": ["Render justice and condemn", "Vote laws", "Ensure security, maintain order and search for the perpetrators of offenses", "Direct town halls"],
+    "bonne_reponse": 2,
+    "explication": "Law enforcement protects the population and ensures compliance with the law. It is then the judges who decide on the sanctions.[cite: 1]"
+  },
+  {
+    "id": 49,
+    "categorie": "Rights and duties",
+    "question": "Throwing a bottle in the street is:",
+    "options": ["Authorized if there is no trash can", "An offense punishable by a fine", "An accepted practice in the evening", "Legal if you are a pedestrian"],
+    "bonne_reponse": 1,
+    "explication": "Respecting the environment and the cleanliness of the public space is a civic duty. Throwing garbage in the street is an offense.[cite: 1]"
+  },
+  {
+    "id": 50,
+    "categorie": "Rights and duties",
+    "question": "What are the risks for a person who does not respect the law?",
+    "options": ["Nothing at all", "Sanctions provided by justice (fine, prison, etc.)", "Losing their nationality", "Having to leave the city"],
+    "bonne_reponse": 1,
+    "explication": "Non-compliance with the laws entails penalties proportional to the seriousness of the act, set by the judges (fines, community service, prison).[cite: 1]"
+  },
+  {
+    "id": 51,
+    "categorie": "History, geography and culture",
+    "question": "In what year did the French Revolution begin?",
+    "options": ["1492", "1789", "1848", "1914"],
+    "bonne_reponse": 1,
+    "explication": "The French Revolution began in 1789, marked notably by the storming of the Bastille on July 14.[cite: 1]"
+  },
+  {
+    "id": 52,
+    "categorie": "History, geography and culture",
+    "question": "Who was Napoleon I?",
+    "options": ["A famous writer", "The first president of the Republic", "A great scientist", "An emperor of the French"],
+    "bonne_reponse": 3,
+    "explication": "A brilliant military general, Napoleon Bonaparte became the Emperor of the French under the name of Napoleon I from 1804 to 1814.[cite: 1]"
+  },
+  {
+    "id": 53,
+    "categorie": "History, geography and culture",
+    "question": "Which of these historical figures is French?",
+    "options": ["Winston Churchill", "Joan of Arc", "George Washington", "Julius Caesar"],
+    "bonne_reponse": 1,
+    "explication": "Joan of Arc is a great figure in the history of France, famous for having helped repel the English during the Hundred Years' War in the 15th century.[cite: 1]"
+  },
+  {
+    "id": 54,
+    "categorie": "History, geography and culture",
+    "question": "In which Republic are we today?",
+    "options": ["The Third (IIIrd)", "The Fourth (IVth)", "The Fifth (Vth)", "The Sixth (VIth)"],
+    "bonne_reponse": 2,
+    "explication": "We are under the Fifth Republic, established in 1958 by General de Gaulle.[cite: 1]"
+  },
+  {
+    "id": 55,
+    "categorie": "History, geography and culture",
+    "question": "What is the Shoah?",
+    "options": ["A battle of the First World War", "The name of a peace treaty", "The systematic extermination of Jews by Nazi Germany", "A great workers' revolution"],
+    "bonne_reponse": 2,
+    "explication": "The Shoah designates the genocide of approximately six million European Jews organized by the Nazi regime during the Second World War.[cite: 1]"
+  },
+  {
+    "id": 56,
+    "categorie": "History, geography and culture",
+    "question": "Which country or region of the world was colonized by France?",
+    "options": ["Japan", "Algeria", "Australia", "Brazil"],
+    "bonne_reponse": 1,
+    "explication": "France possessed a vast colonial empire, including many countries in Africa (including Algeria, Senegal), Asia (Indochina) and America.[cite: 1]"
+  },
+  {
+    "id": 57,
+    "categorie": "History, geography and culture",
+    "question": "Who made school free, secular and compulsory?",
+    "options": ["Jules Ferry", "Victor Hugo", "Napoleon Bonaparte", "Charles de Gaulle"],
+    "bonne_reponse": 0,
+    "explication": "It is thanks to the laws carried by the minister Jules Ferry in 1881 and 1882 that public primary school became free, compulsory and secular.[cite: 1]"
+  },
+  {
+    "id": 58,
+    "categorie": "History, geography and culture",
+    "question": "When did the Second World War take place?",
+    "options": ["1870 - 1871", "1914 - 1918", "1939 - 1945", "1954 - 1962"],
+    "bonne_reponse": 2,
+    "explication": "The Second World War, the deadliest global conflict in history, took place from 1939 to 1945.[cite: 1]"
+  },
+  {
+    "id": 59,
+    "categorie": "History, geography and culture",
+    "question": "When did the First World War take place?",
+    "options": ["1789 - 1799", "1870 - 1871", "1914 - 1918", "1939 - 1945"],
+    "bonne_reponse": 2,
+    "explication": "The First World War began in 1914 and ended with the Armistice of November 11, 1918.[cite: 1]"
+  },
+  {
+    "id": 60,
+    "categorie": "History, geography and culture",
+    "question": "In what year was the European Economic Community (EEC) created?",
+    "options": ["1918", "1945", "1957", "2002"],
+    "bonne_reponse": 2,
+    "explication": "The EEC, the direct ancestor of the current European Union, was created by the Treaty of Rome in 1957, with France as a co-founding country.[cite: 1]"
+  },
+  {
+    "id": 61,
+    "categorie": "History, geography and culture",
+    "question": "November 11 is a public holiday. What does this date correspond to?",
+    "options": ["Music festival", "Armistice of the First World War (1918)", "End of the Second World War (1945)", "Storming of the Bastille"],
+    "bonne_reponse": 1,
+    "explication": "November 11 commemorates the Armistice signed in 1918, which ended the fighting of the First World War.[cite: 1]"
+  },
+  {
+    "id": 62,
+    "categorie": "History, geography and culture",
+    "question": "Who was the first President of the Vth Republic?",
+    "options": ["François Mitterrand", "Georges Pompidou", "Charles de Gaulle", "Jacques Chirac"],
+    "bonne_reponse": 2,
+    "explication": "General de Gaulle, after having had the new Constitution adopted, was elected first president of the Vth Republic in 1958.[cite: 1]"
+  },
+  {
+    "id": 63,
+    "categorie": "History, geography and culture",
+    "question": "In what year was slavery definitively abolished in France?",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Under the impetus of Victor Schœlcher, slavery was definitively abolished in the French colonies in 1848.[cite: 1]"
+  },
+  {
+    "id": 64,
+    "categorie": "History, geography and culture",
+    "question": "Since what year has public school been free?",
+    "options": ["1789", "1881", "1945", "1968"],
+    "bonne_reponse": 1,
+    "explication": "The absolute free nature of primary education in public schools was established by the law of June 16, 1881 (Jules Ferry law).[cite: 1]"
+  },
+  {
+    "id": 65,
+    "categorie": "History, geography and culture",
+    "question": "How many republics have there been in France?",
+    "options": ["2", "3", "4", "5"],
+    "bonne_reponse": 3,
+    "explication": "France has experienced five republics since the French Revolution. We currently live under the Vth Republic.[cite: 1]"
+  },
+  {
+    "id": 66,
+    "categorie": "History, geography and culture",
+    "question": "Who was the king of France at the time of the French Revolution?",
+    "options": ["Charlemagne", "Henri IV", "Louis XIV", "Louis XVI"],
+    "bonne_reponse": 3,
+    "explication": "Louis XVI was the king in place during the outbreak of the Revolution of 1789. He will eventually be judged and guillotined.[cite: 1]"
+  },
+  {
+    "id": 67,
+    "categorie": "History, geography and culture",
+    "question": "Why is the year 1958 important for France?",
+    "options": ["It's the end of the monarchy", "It's the year of the abolition of the death penalty", "It's the creation of the Vth Republic", "It's the victory of the World Cup"],
+    "bonne_reponse": 2,
+    "explication": "The year 1958 marks the adoption of a new Constitution and the transition to the Fifth Republic, offering more power to the President.[cite: 1]"
+  },
+  {
+    "id": 68,
+    "categorie": "History, geography and culture",
+    "question": "Which river flows in France?",
+    "options": ["The Nile", "The Danube", "The Loire", "The Thames"],
+    "bonne_reponse": 2,
+    "explication": "The Loire is the longest river in France. The Seine, the Rhône and the Garonne are the other major French rivers.[cite: 1]"
+  },
+  {
+    "id": 69,
+    "categorie": "History, geography and culture",
+    "question": "Which city is French?",
+    "options": ["Madrid", "Lyon", "Geneva", "Brussels"],
+    "bonne_reponse": 1,
+    "explication": "Lyon, located in the Auvergne-Rhône-Alpes region, is one of the largest French metropolises.[cite: 1]"
+  },
+  {
+    "id": 70,
+    "categorie": "History, geography and culture",
+    "question": "Which ocean borders the French west coast?",
+    "options": ["The Pacific Ocean", "The Indian Ocean", "The Atlantic Ocean", "The Arctic Ocean"],
+    "bonne_reponse": 2,
+    "explication": "The west coast of metropolitan France is bordered by the Atlantic Ocean (from Brittany to the Basque Country).[cite: 1]"
+  },
+  {
+    "id": 71,
+    "categorie": "History, geography and culture",
+    "question": "What is the capital of France?",
+    "options": ["Marseille", "Bordeaux", "Strasbourg", "Paris"],
+    "bonne_reponse": 3,
+    "explication": "Paris is the political, economic and cultural capital of France.[cite: 1]"
+  },
+  {
+    "id": 72,
+    "categorie": "History, geography and culture",
+    "question": "On which continent is metropolitan France located?",
+    "options": ["Asia", "America", "Europe", "Africa"],
+    "bonne_reponse": 2,
+    "explication": "Metropolitan France, often called \"the Hexagon\", is located in Western Europe.[cite: 1]"
+  },
+  {
+    "id": 73,
+    "categorie": "History, geography and culture",
+    "question": "Which island is a French overseas department?",
+    "options": ["Corsica", "Madagascar", "Guadeloupe", "The Balearic Islands"],
+    "bonne_reponse": 2,
+    "explication": "Guadeloupe, just like Martinique, Reunion and Mayotte, is an overseas department. (Corsica is in mainland France).[cite: 1]"
+  },
+  {
+    "id": 74,
+    "categorie": "History, geography and culture",
+    "question": "How many regions are there in metropolitan France?",
+    "options": ["5", "13", "22", "50"],
+    "bonne_reponse": 1,
+    "explication": "Since the major reform of 2016, metropolitan France has been divided into 13 large administrative regions.[cite: 1]"
+  },
+  {
+    "id": 75,
+    "categorie": "History, geography and culture",
+    "question": "Which city is a major seaport?",
+    "options": ["Marseille", "Paris", "Strasbourg", "Toulouse"],
+    "bonne_reponse": 0,
+    "explication": "Marseille, located on the Mediterranean coast, is the largest commercial port in France.[cite: 1]"
+  },
+  {
+    "id": 76,
+    "categorie": "History, geography and culture",
+    "question": "What is the sea to the south of metropolitan France?",
+    "options": ["The North Sea", "The Red Sea", "The Mediterranean Sea", "The Baltic Sea"],
+    "bonne_reponse": 2,
+    "explication": "The southern coast of France is bordered by the Mediterranean Sea, which separates Europe from Africa.[cite: 1]"
+  },
+  {
+    "id": 77,
+    "categorie": "History, geography and culture",
+    "question": "Where is Corsica located?",
+    "options": ["In the Atlantic Ocean", "In the Mediterranean Sea", "In the English Channel", "In the West Indies"],
+    "bonne_reponse": 1,
+    "explication": "Corsica is a French island located in the Mediterranean Sea, south-east of the French mainland.[cite: 1]"
+  },
+  {
+    "id": 78,
+    "categorie": "History, geography and culture",
+    "question": "Which mountain range is located between France and Italy?",
+    "options": ["The Pyrenees", "The Jura", "The Vosges", "The Alps"],
+    "bonne_reponse": 3,
+    "explication": "The Alps form a natural border between France and Italy. We find Mont Blanc there, the highest peak in Europe.[cite: 1]"
+  },
+  {
+    "id": 79,
+    "categorie": "History, geography and culture",
+    "question": "Who was Molière?",
+    "options": ["A king of France", "A famous man of theater and actor", "A scientist", "A general of the army"],
+    "bonne_reponse": 1,
+    "explication": "Molière is the most famous French playwright of the 17th century. The French language is moreover often called \"the language of Molière\".[cite: 1]"
+  },
+  {
+    "id": 80,
+    "categorie": "History, geography and culture",
+    "question": "Who was Charles Baudelaire?",
+    "options": ["A famous French poet", "An inventor", "An architect", "A musician"],
+    "bonne_reponse": 0,
+    "explication": "Charles Baudelaire is one of the greatest French poets of the 19th century, world-famous for his collection \"Les Fleurs du mal\".[cite: 1]"
+  },
+  {
+    "id": 81,
+    "categorie": "History, geography and culture",
+    "question": "Who was George Sand?",
+    "options": ["A queen of France", "A famous French novelist and writer of the 19th century", "A female politician", "A scientist"],
+    "bonne_reponse": 1,
+    "explication": "Amantine Aurore Lucile Dupin, known under the male pseudonym of George Sand, is one of the greatest writers of French literature.[cite: 1]"
+  },
+  {
+    "id": 82,
+    "categorie": "History, geography and culture",
+    "question": "Who was Simone de Beauvoir?",
+    "options": ["A movie actress", "A feminist philosopher and writer of the 20th century", "A lawyer", "An opera singer"],
+    "bonne_reponse": 1,
+    "explication": "Simone de Beauvoir is a major figure in literature and feminism in France, famous in particular for her essay 'The Second Sex'.[cite: 1]"
+  },
+  {
+    "id": 83,
+    "categorie": "History, geography and culture",
+    "question": "Who was Albert Camus?",
+    "options": ["A president of the Republic", "A French writer and philosopher, Nobel Prize in Literature", "A great explorer", "An army general"],
+    "bonne_reponse": 1,
+    "explication": "Albert Camus is a major author of the 20th century (author of 'The Stranger') who received the Nobel Prize in Literature in 1957.[cite: 1]"
+  },
+  {
+    "id": 84,
+    "categorie": "History, geography and culture",
+    "question": "Who was Paul Cézanne?",
+    "options": ["A famous French impressionist and post-impressionist painter", "A doctor", "A Renaissance architect", "A poet"],
+    "bonne_reponse": 0,
+    "explication": "Paul Cézanne is a major painter whose work linked 19th-century impressionism with 20th-century cubism.[cite: 1]"
+  },
+  {
+    "id": 85,
+    "categorie": "History, geography and culture",
+    "question": "Who was Josephine Baker?",
+    "options": ["A queen of England", "A French-American dancer, singer and resistance fighter", "A nurse of the First World War", "An explorer"],
+    "bonne_reponse": 1,
+    "explication": "A world-renowned music hall artist, she engaged in the Resistance during the war and was entered into the Pantheon in 2021.[cite: 1]"
+  },
+  {
+    "id": 86,
+    "categorie": "History, geography and culture",
+    "question": "Which of these names is that of a famous French singer?",
+    "options": ["Marie Curie", "Édith Piaf", "Olympe de Gouges", "Joan of Arc"],
+    "bonne_reponse": 1,
+    "explication": "Édith Piaf is one of the most famous French singers in the world, famous for titles like 'La Vie en rose' or 'L'Hymne à l'amour'.[cite: 1]"
+  },
+  {
+    "id": 87,
+    "categorie": "History, geography and culture",
+    "question": "What is the Louvre?",
+    "options": ["A football stadium", "The president's palace", "One of the largest art and antiquities museums in the world", "A large library"],
+    "bonne_reponse": 2,
+    "explication": "Former royal palace located in Paris, the Louvre is today a world-famous museum which notably houses the Mona Lisa.[cite: 1]"
+  },
+  {
+    "id": 88,
+    "categorie": "History, geography and culture",
+    "question": "Who was Jean de La Fontaine?",
+    "options": ["A music composer", "A 17th-century writer and poet, famous for his Fables", "A king of France", "A great navigator"],
+    "bonne_reponse": 1,
+    "explication": "Jean de La Fontaine wrote Fables featuring animals (like 'The Crow and the Fox') to teach moral lessons.[cite: 1]"
+  },
+  {
+    "id": 89,
+    "categorie": "History, geography and culture",
+    "question": "In which city is the Eiffel Tower located?",
+    "options": ["Lyon", "Marseille", "Bordeaux", "Paris"],
+    "bonne_reponse": 3,
+    "explication": "The Eiffel Tower, built by Gustave Eiffel for the Universal Exhibition of 1889, is the symbol monument of Paris and France.[cite: 1]"
+  },
+  {
+    "id": 90,
+    "categorie": "History, geography and culture",
+    "question": "When do we celebrate Christmas?",
+    "options": ["May 1", "July 14", "December 25", "November 11"],
+    "bonne_reponse": 2,
+    "explication": "Christmas is celebrated on December 25. Although having a Christian origin, it is today a festival very widely celebrated throughout society.[cite: 1]"
+  },
+  {
+    "id": 91,
+    "categorie": "Living in French society",
+    "question": "What emergency number makes it possible to call the SAMU (medical emergencies)?",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 0,
+    "explication": "15 is the SAMU (Service d'Aide Médicale Urgente) number for health emergencies (faintness, serious injury).[cite: 1]"
+  },
+  {
+    "id": 92,
+    "categorie": "Living in French society",
+    "question": "What emergency number makes it possible to call the fire brigade?",
+    "options": ["15", "17", "18", "3919"],
+    "bonne_reponse": 2,
+    "explication": "18 is the firefighters' number, to call in case of fire, road accident or need for rescue.[cite: 1]"
+  },
+  {
+    "id": 93,
+    "categorie": "Living in French society",
+    "question": "Under what conditions is a marriage legally recognized?",
+    "options": ["If it is celebrated in church or mosque", "If it is celebrated by the mayor (or an elected official) at the town hall", "If it is celebrated with family", "If the fiancés agree"],
+    "bonne_reponse": 1,
+    "explication": "Only civil marriage, celebrated at the town hall by a civil registrar, is recognized by law in France.[cite: 1]"
+  },
+  {
+    "id": 94,
+    "categorie": "Living in French society",
+    "question": "When should you register your child at the town hall's civil status service?",
+    "options": ["Within 5 days following birth", "Before birth", "Within the following month", "When they start school"],
+    "bonne_reponse": 0,
+    "explication": "Birth declaration is compulsory for every child born in France and must be done at the town hall of the place of birth within 5 days.[cite: 1]"
+  },
+  {
+    "id": 95,
+    "categorie": "Living in French society",
+    "question": "Undeclared work (moonlighting) is:",
+    "options": ["Forbidden by law", "Legal for students", "Legal for small jobs", "Recommended to pay less taxes"],
+    "bonne_reponse": 0,
+    "explication": "Concealed work is a serious offense. The worker loses all his social rights (no accident coverage, no retirement, no unemployment).[cite: 1]"
+  },
+  {
+    "id": 96,
+    "categorie": "Living in French society",
+    "question": "What is the SMIC?",
+    "options": ["A workers' union", "The Interprofessional Minimum Growth Wage", "A tax on salaries", "Aid for families"],
+    "bonne_reponse": 1,
+    "explication": "The SMIC is the legal minimum wage in France below which no employer can pay an employee.[cite: 1]"
+  },
+  {
+    "id": 97,
+    "categorie": "Living in French society",
+    "question": "What is the legal working time per week?",
+    "options": ["30 hours", "35 hours", "39 hours", "40 hours"],
+    "bonne_reponse": 1,
+    "explication": "The legal working time is set at 35 hours per week. Hours worked beyond this are overtime.[cite: 1]"
+  },
+  {
+    "id": 98,
+    "categorie": "Living in French society",
+    "question": "Who is helped by France Travail (formerly Pôle emploi)?",
+    "options": ["Retirees", "People looking for a job", "Students for their exams", "Sick people"],
+    "bonne_reponse": 1,
+    "explication": "France Travail is the public service in charge of supporting job seekers and paying unemployment benefits.[cite: 1]"
+  },
+  {
+    "id": 99,
+    "categorie": "Living in French society",
+    "question": "Can a woman create her own business?",
+    "options": ["No, it's forbidden", "Yes, freely, like men", "Only with her husband's agreement", "Only if she doesn't have children"],
+    "bonne_reponse": 1,
+    "explication": "Equal rights guarantee women total freedom to work, to open a bank account or to create and manage a business.[cite: 1]"
+  },
+  {
+    "id": 100,
+    "categorie": "Living in French society",
+    "question": "From what age can a minor start working (excluding specific exemptions)?",
+    "options": ["12 years old", "14 years old", "16 years old", "18 years old"],
+    "bonne_reponse": 2,
+    "explication": "The legal minimum age to work is 16, the age at which compulsory schooling ends, subject to having parents' agreement.[cite: 1]"
+  },
+  {
+    "id": 101,
+    "categorie": "Living in French society",
+    "question": "To which organization must one request reimbursement of their health costs?",
+    "options": ["The town hall", "The Primary Health Insurance Fund (CPAM)", "The prefecture", "France Travail"],
+    "bonne_reponse": 1,
+    "explication": "The CPAM (or Health Insurance) is the public organization that manages reimbursements for medical consultations and medicines.[cite: 1]"
+  },
+  {
+    "id": 102,
+    "categorie": "Living in French society",
+    "question": "Regarding access to care, which proposition is correct?",
+    "options": ["Care is refused to foreigners", "Public hospitals treat everyone in an emergency", "Care is free for everyone without exception", "You have to pay before entering the hospital"],
+    "bonne_reponse": 1,
+    "explication": "The public hospital's mission is to welcome and treat anyone whose condition requires it, including in emergency situations.[cite: 1]"
+  },
+  {
+    "id": 103,
+    "categorie": "Living in French society",
+    "question": "In case of a non-urgent health problem, who should be addressed first?",
+    "options": ["To the SAMU", "To the firefighters", "To his treating doctor (general practitioner)", "To the hospital emergencies"],
+    "bonne_reponse": 2,
+    "explication": "For an ordinary illness, you must first consult your treating doctor, who can then refer you to a specialist if necessary.[cite: 1]"
+  },
+  {
+    "id": 104,
+    "categorie": "Living in French society",
+    "question": "In what situations should one go to the hospital emergencies?",
+    "options": ["To renew a prescription", "For a cold", "For a serious injury, violent pain or a vital emergency", "To get a vaccine"],
+    "bonne_reponse": 2,
+    "explication": "Hospital emergencies are reserved for very serious or vital health problems requiring immediate care.[cite: 1]"
+  },
+  {
+    "id": 105,
+    "categorie": "Living in French society",
+    "question": "What is the Vitale card used for?",
+    "options": ["To travel for free", "To prove your rights to Health Insurance to be reimbursed faster", "To buy medicines without a prescription", "To replace the identity card"],
+    "bonne_reponse": 1,
+    "explication": "The Vitale card contains the patient's administrative information. Presented to the doctor or pharmacist, it allows an automatic reimbursement of care in a few days.[cite: 1]"
+  },
+  {
+    "id": 106,
+    "categorie": "Living in French society",
+    "question": "What is a health mutual (complementary health) used for?",
+    "options": ["To replace the hospital", "To complete the reimbursement of the Health Insurance so that the care costs less", "To pay taxes", "To find a doctor"],
+    "bonne_reponse": 1,
+    "explication": "Health Insurance often only reimburses 70% of care. The mutual covers the remaining amount to pay (co-payment, glasses, dental care).[cite: 1]"
+  },
+  {
+    "id": 107,
+    "categorie": "Living in French society",
+    "question": "Up to what age is school (instruction) compulsory in France?",
+    "options": ["12 years old", "14 years old", "16 years old", "18 years old"],
+    "bonne_reponse": 2,
+    "explication": "Instruction is compulsory for all children, girls and boys, from the age of 3 until the age of 16 completed.[cite: 1]"
+  },
+  {
+    "id": 108,
+    "categorie": "Living in French society",
+    "question": "Parental authority provides for the obligation:",
+    "options": ["To choose one's child's profession", "To protect the child in his safety, his health and his morality", "To register one's child in a religion", "To make the child work"],
+    "bonne_reponse": 1,
+    "explication": "Parental authority is a set of rights and duties aiming at the best interests of the child (education, maintenance, protection).[cite: 1]"
+  },
+  {
+    "id": 109,
+    "categorie": "Living in French society",
+    "question": "To which schools do students go after elementary (primary) school?",
+    "options": ["To high school", "To university", "To middle school", "To kindergarten"],
+    "bonne_reponse": 2,
+    "explication": "The classic school path is: nursery school, then elementary school, then middle school (from 6th to 3rd grade), and finally high school.[cite: 1]"
+  },
+  {
+    "id": 110,
+    "categorie": "Living in French society",
+    "question": "What does the school offer for children newly arrived in France who do not speak French?",
+    "options": ["They cannot go to school", "They are put in special classes where they learn French (UPE2A)", "They must pay a private teacher", "They go to the youngest class"],
+    "bonne_reponse": 1,
+    "explication": "Public school welcomes all children. Specific systems (UPE2A classes) exist to teach them French intensively.[cite: 1]"
+  },
+  {
+    "id": 111,
+    "categorie": "Principles and values of the Republic",
+    "question": "What are the official symbols of the French Republic?",
+    "options": ["The rooster, wine and cheese", "The motto, the national anthem and the tricolor flag", "The Eiffel Tower and the Louvre", "The beret and the baguette"],
+    "bonne_reponse": 1,
+    "explication": "Article 2 of the Constitution defines the official symbols: the blue-white-red flag, the anthem (La Marseillaise) and the motto (Liberty, Equality, Fraternity).[cite: 1]"
+  },
+  {
+    "id": 112,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is equality?",
+    "options": ["Having the same salary as one's neighbor", "Having the same rights and the same duties before the law", "Thinking exactly the same thing", "No longer having rich or poor people"],
+    "bonne_reponse": 1,
+    "explication": "Equality means that the law is the same for everyone, without distinction of origin, race, religion or sex.[cite: 1]"
+  },
+  {
+    "id": 113,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is one of the roles of associations?",
+    "options": ["Vote laws at the Assembly", "Create social bonds and defend causes (sports, culture, solidarity)", "Replace the police", "Collect taxes"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of association allows citizens to group together to share a passion or defend a cause of general interest.[cite: 1]"
+  },
+  {
+    "id": 114,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which symbol of the French Republic is tricolor?",
+    "options": ["The Eiffel Tower", "The flag", "Marianne", "The rooster"],
+    "bonne_reponse": 1,
+    "explication": "The national flag, emblem of the Republic, is composed of three colors: blue, white and red.[cite: 1]"
+  },
+  {
+    "id": 115,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the date of the French national holiday?",
+    "options": ["May 1st", "May 8", "July 14", "November 11"],
+    "bonne_reponse": 2,
+    "explication": "July 14 was chosen as the national holiday to commemorate the storming of the Bastille (1789) and the Fête de la Fédération (1790).[cite: 1]"
+  },
+  {
+    "id": 116,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the motto of the French Republic?",
+    "options": ["Work, Family, Fatherland", "Liberty, Equality, Fraternity", "Peace, Justice, Solidarity", "Order and Progress"],
+    "bonne_reponse": 1,
+    "explication": "Inherited from the Revolution, this motto summarizes the fundamental values that unite French citizens.[cite: 1]"
+  },
+  {
+    "id": 117,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the place of the French language in the Republic?",
+    "options": ["It is one language among others", "It is the language of the Republic, used for laws and public services", "It is mandatory only at school", "It is reserved for French citizens"],
+    "bonne_reponse": 1,
+    "explication": "The Constitution affirms that French is the only official language of the State, laws and justice.[cite: 1]"
+  },
+  {
+    "id": 118,
+    "categorie": "Principles and values of the Republic",
+    "question": "What freedom allows everyone to express their ideas?",
+    "options": ["Freedom of movement", "Freedom of expression", "Trade union freedom", "Freedom of assembly"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of expression allows one to say and write one's opinions, on condition of not defaming or calling for hatred.[cite: 1]"
+  },
+  {
+    "id": 119,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which statement is correct? Freedom of expression:",
+    "options": ["Allows one to say everything without limit", "Is limited by law to protect others (prohibition of insults, racism)", "Does not exist in France", "Is reserved for journalists"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of expression stops where offenses begin: racism, antisemitism, sexism, calls for violence are punished.[cite: 1]"
+  },
+  {
+    "id": 120,
+    "categorie": "Principles and values of the Republic",
+    "question": "What are the colors of the French flag?",
+    "options": ["Blue, White, Red", "Green, White, Red", "Black, Yellow, Red", "Blue, Yellow, Red"],
+    "bonne_reponse": 0,
+    "explication": "The colors of the national flag, set since the French Revolution, are blue, white and red.[cite: 1]"
+  },
+  {
+    "id": 121,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the Marseillaise?",
+    "options": ["A traditional dance", "The national anthem of France", "A culinary specialty", "A love poem"],
+    "bonne_reponse": 1,
+    "explication": "It is a patriotic song written in 1792 by Rouget de Lisle, which became the official national anthem of the Republic.[cite: 1]"
+  },
+  {
+    "id": 122,
+    "categorie": "Principles and values of the Republic",
+    "question": "Who is Marianne?",
+    "options": ["A former queen of France", "The symbolic figure of the French Republic", "A famous singer", "The President's wife"],
+    "bonne_reponse": 1,
+    "explication": "Marianne is an allegory (a symbol). She embodies the Republic, freedom and democracy. Her bust can be found in town halls.[cite: 1]"
+  },
+  {
+    "id": 123,
+    "categorie": "Principles and values of the Republic",
+    "question": "\"France is an indivisible, ..., democratic and social Republic\". Complete this sentence extracted from Article 1 of the Constitution:",
+    "options": ["Catholic", "Authoritarian", "Secular", "Royal"],
+    "bonne_reponse": 2,
+    "explication": "Secularism is a pillar of the Constitution. The State is neutral and guarantees the freedom of conscience of everyone.[cite: 1]"
+  },
+  {
+    "id": 124,
+    "categorie": "Principles and values of the Republic",
+    "question": "What right is guaranteed by secularism?",
+    "options": ["The right to have a job", "Freedom of conscience and religion", "The right to housing", "The right to vote"],
+    "bonne_reponse": 1,
+    "explication": "Secularism allows every citizen to believe in the religion of their choice, to change it, or not to have any religion at all.[cite: 1]"
+  },
+  {
+    "id": 125,
+    "categorie": "Principles and values of the Republic",
+    "question": "Why must the principle of secularism be respected at school?",
+    "options": ["To protect students from proselytism and guarantee equality", "To ban all religions in France", "To force students to eat the same thing", "Because it's a tradition"],
+    "bonne_reponse": 0,
+    "explication": "Public school is neutral. Conspicuous religious symbols are forbidden there to protect students from pressure and guarantee an egalitarian learning space.[cite: 1]"
+  },
+  {
+    "id": 126,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is secularism?",
+    "options": ["A religion", "The separation of the State and religions", "The prohibition of praying at home", "The obligation to go to church"],
+    "bonne_reponse": 1,
+    "explication": "Secularism is the separation of Churches and the State (1905 law). The State neither subsidizes nor privileges any cult.[cite: 1]"
+  },
+  {
+    "id": 127,
+    "categorie": "Principles and values of the Republic",
+    "question": "Does a person have the right not to believe in a religion?",
+    "options": ["No, it's forbidden", "Yes, this is what is called atheism, protected by secularism", "Only if she was born in France", "Yes, but secretly"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of conscience totally includes the right not to believe in God and to be atheist or agnostic.[cite: 1]"
+  },
+  {
+    "id": 128,
+    "categorie": "Institutional and political system",
+    "question": "When are the senators elected?",
+    "options": ["Every 5 years by the citizens", "Every 6 years by 'grand electors' (mayors, deputies...)", "They are not elected, they are appointed", "Every year"],
+    "bonne_reponse": 1,
+    "explication": "The Senate is elected by indirect universal suffrage. It is other elected officials of the Republic who vote to choose the senators.[cite: 1]"
+  },
+  {
+    "id": 129,
+    "categorie": "Institutional and political system",
+    "question": "Who is elected during the presidential elections?",
+    "options": ["The Head of Government", "The Head of State (the President of the Republic)", "The deputies", "The mayors"],
+    "bonne_reponse": 1,
+    "explication": "The presidential election allows French citizens to choose the President of the Republic by direct universal suffrage.[cite: 1]"
+  },
+  {
+    "id": 130,
+    "categorie": "Institutional and political system",
+    "question": "For how long are the deputies elected?",
+    "options": ["3 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 1,
+    "explication": "The deputies of the National Assembly are elected for a 5-year term during the legislative elections.[cite: 1]"
+  },
+  {
+    "id": 131,
+    "categorie": "Institutional and political system",
+    "question": "For how long are the senators elected?",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 2,
+    "explication": "The term of senators lasts 6 years. The Senate is renewed by half every three years.[cite: 1]"
+  },
+  {
+    "id": 132,
+    "categorie": "Institutional and political system",
+    "question": "What condition is necessary to vote in elections?",
+    "options": ["Have a job", "Pay taxes", "Be registered on the electoral rolls", "Be a property owner"],
+    "bonne_reponse": 2,
+    "explication": "To be able to vote, one must be an adult, have French nationality and be registered on the electoral rolls of one's commune.[cite: 1]"
+  },
+  {
+    "id": 133,
+    "categorie": "Institutional and political system",
+    "question": "Who can vote in elections in France?",
+    "options": ["Only men", "Adult French citizens (18 years old)", "All people living in France", "Only married people"],
+    "bonne_reponse": 1,
+    "explication": "The right to vote in national elections is reserved for French citizens aged at least 18 and enjoying their civil rights.[cite: 1]"
+  },
+  {
+    "id": 134,
+    "categorie": "Institutional and political system",
+    "question": "What does \"universal suffrage\" mean?",
+    "options": ["Only the richest vote", "The right to vote belongs to all citizens without distinction", "Only men vote", "Voting is compulsory under penalty of fine"],
+    "bonne_reponse": 1,
+    "explication": "Universal suffrage guarantees that every citizen (man or woman, rich or poor) has an equal vote in elections.[cite: 1]"
+  },
+  {
+    "id": 135,
+    "categorie": "Institutional and political system",
+    "question": "Regarding political parties, which proposition is correct?",
+    "options": ["There is only one authorized", "They are banned in France", "Citizens are free to create or join the political party of their choice", "The President's authorization is required to create one"],
+    "bonne_reponse": 2,
+    "explication": "Political pluralism is the basis of democracy. The Constitution guarantees the freedom of formation and activity of political parties.[cite: 1]"
+  },
+  {
+    "id": 136,
+    "categorie": "Institutional and political system",
+    "question": "What is the role of the deputies?",
+    "options": ["Direct the police", "Propose, discuss and vote on laws at the National Assembly", "Judge criminals", "Manage schools"],
+    "bonne_reponse": 1,
+    "explication": "Deputies represent the Nation. They pass laws and monitor the action of the Government.[cite: 1]"
+  },
+  {
+    "id": 137,
+    "categorie": "Institutional and political system",
+    "question": "The separation of powers is a fundamental principle. What are the three powers involved?",
+    "options": ["Financial, Military, Media", "Legislative, Executive, Judicial", "National, Regional, Departmental", "Presidential, Union, Religious"],
+    "bonne_reponse": 1,
+    "explication": "To prevent dictatorship, the power to make laws (legislative), to execute them (executive) and to dispense justice (judicial) are separated.[cite: 1]"
+  },
+  {
+    "id": 138,
+    "categorie": "Institutional and political system",
+    "question": "Who elects the deputies?",
+    "options": ["The President", "The Prefect", "Citizens during legislative elections", "Mayors"],
+    "bonne_reponse": 2,
+    "explication": "Deputies are elected directly by French citizens by universal suffrage.[cite: 1]"
+  },
+  {
+    "id": 139,
+    "categorie": "Institutional and political system",
+    "question": "Who votes the laws?",
+    "options": ["The President alone", "The Government", "The Parliament (National Assembly and Senate)", "The judges"],
+    "bonne_reponse": 2,
+    "explication": "The voting of the law belongs to the legislative power, that is to say to the Parliament which represents the citizens.[cite: 1]"
+  },
+  {
+    "id": 140,
+    "categorie": "Institutional and political system",
+    "question": "Who resides at the Élysée Palace?",
+    "options": ["The Prime Minister", "The President of the Republic", "The Mayor of Paris", "The deputies"],
+    "bonne_reponse": 1,
+    "explication": "The Élysée Palace is the official residence and workplace of the President of the French Republic in Paris.[cite: 1]"
+  },
+  {
+    "id": 141,
+    "categorie": "Institutional and political system",
+    "question": "How many departments are there in France?",
+    "options": ["50", "96", "101", "120"],
+    "bonne_reponse": 2,
+    "explication": "France has 101 departments: 96 in metropolitan France and 5 overseas departments.[cite: 1]"
+  },
+  {
+    "id": 142,
+    "categorie": "Institutional and political system",
+    "question": "Who represents the State in a department?",
+    "options": ["The Mayor", "The Prefect", "The Deputy", "The President of the tribunal"],
+    "bonne_reponse": 1,
+    "explication": "The Prefect, appointed by the President of the Republic, represents the State and the Government in each department.[cite: 1]"
+  },
+  {
+    "id": 143,
+    "categorie": "Institutional and political system",
+    "question": "What is the role of Parliament?",
+    "options": ["Judge criminals", "Direct the police", "Vote laws and monitor government action", "Manage town halls"],
+    "bonne_reponse": 2,
+    "explication": "The Parliament (composed of the National Assembly and the Senate) holds legislative power. Its members debate and vote laws.[cite: 1]"
+  },
+  {
+    "id": 144,
+    "categorie": "Institutional and political system",
+    "question": "What is the political regime of France today?",
+    "options": ["An absolute monarchy", "A democratic Republic", "An empire", "A military dictatorship"],
+    "bonne_reponse": 1,
+    "explication": "France is a democratic Republic: power belongs to the people who exercise it through their elected representatives.[cite: 1]"
+  },
+  {
+    "id": 145,
+    "categorie": "Institutional and political system",
+    "question": "Which State is not a member of the European Union?",
+    "options": ["France", "Germany", "The United Kingdom", "Spain"],
+    "bonne_reponse": 2,
+    "explication": "Following the referendum on 'Brexit', the United Kingdom officially left the European Union in 2020.[cite: 1]"
+  },
+  {
+    "id": 146,
+    "categorie": "Institutional and political system",
+    "question": "What condition is necessary to vote in the European elections?",
+    "options": ["Be a citizen of a European Union country and be registered on the electoral rolls", "Have a job", "Be married to a European citizen", "Speak at least three languages"],
+    "bonne_reponse": 0,
+    "explication": "European Union citizens residing in France can vote in European (and municipal) elections if they are registered on the electoral rolls.[cite: 1]"
+  },
+  {
+    "id": 147,
+    "categorie": "Institutional and political system",
+    "question": "How often are European elections held?",
+    "options": ["Every 3 years", "Every 4 years", "Every 5 years", "Every 7 years"],
+    "bonne_reponse": 2,
+    "explication": "Elections to choose Members of the European Parliament take place every 5 years in all EU member countries.[cite: 1]"
+  },
+  {
+    "id": 148,
+    "categorie": "Institutional and political system",
+    "question": "Which country is a founding country of the European Union?",
+    "options": ["Norway", "France", "Switzerland", "The United Kingdom"],
+    "bonne_reponse": 1,
+    "explication": "France, along with Germany, Italy, Belgium, the Netherlands and Luxembourg, is one of the 6 founding countries of European construction.[cite: 1]"
+  },
+  {
+    "id": 149,
+    "categorie": "Institutional and political system",
+    "question": "Who elects the Members of the European Parliament?",
+    "options": ["The mayors of each country", "The citizens of the member countries of the European Union", "The president of the European Commission", "The judges"],
+    "bonne_reponse": 1,
+    "explication": "Members of the European Parliament are elected by direct universal suffrage by the citizens of the 27 Member States of the European Union.[cite: 1]"
+  },
+  {
+    "id": 150,
+    "categorie": "Institutional and political system",
+    "question": "When is Europe Day celebrated?",
+    "options": ["January 1", "May 9", "July 14", "November 11"],
+    "bonne_reponse": 1,
+    "explication": "Europe Day is celebrated on May 9, in memory of Robert Schuman's founding declaration made on May 9, 1950.[cite: 1]"
+  },
+  {
+    "id": 151,
+    "categorie": "Rights and duties",
+    "question": "What is the name of the current Constitution of France?",
+    "options": ["The Declaration of Human Rights", "The Constitution of the Fifth Republic", "The Civil Code", "The Charter of Freedoms"],
+    "bonne_reponse": 1,
+    "explication": "The Constitution of the Fifth Republic, adopted in 1958, is the supreme text that organizes the current French institutions.[cite: 1]"
+  },
+  {
+    "id": 152,
+    "categorie": "Rights and duties",
+    "question": "Regarding individual rights, which statement is correct?",
+    "options": ["They are guaranteed by law for all people", "They are reserved for French citizens", "They do not exist in France", "They are reserved for men"],
+    "bonne_reponse": 0,
+    "explication": "In France, fundamental rights (right to security, justice, freedom of expression) are guaranteed for all persons present on the territory.[cite: 1]"
+  },
+  {
+    "id": 153,
+    "categorie": "Rights and duties",
+    "question": "Which of these rights is a fundamental right?",
+    "options": ["The right to drive without a license", "Freedom of expression", "The right not to pay taxes", "The right to steal"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of expression, freedom of conscience, the right to security and the right to a fair trial are fundamental rights.[cite: 1]"
+  },
+  {
+    "id": 154,
+    "categorie": "Rights and duties",
+    "question": "Among these texts, which one guarantees rights and freedoms in France?",
+    "options": ["The Constitution", "The dictionary", "The tourist guide", "The school rules"],
+    "bonne_reponse": 0,
+    "explication": "The Constitution is the fundamental law of the State. It guarantees the rights and freedoms of citizens and organizes political power.[cite: 1]"
+  },
+  {
+    "id": 155,
+    "categorie": "Rights and duties",
+    "question": "What is freedom of expression?",
+    "options": ["The right to publicly insult someone", "The right to freely express one's ideas in compliance with the law", "The right to lie before a judge", "The right to destroy everything"],
+    "bonne_reponse": 1,
+    "explication": "Everyone has the right to express their opinions. However, the law prohibits insult, defamation or incitement to hatred and violence.[cite: 1]"
+  },
+  {
+    "id": 156,
+    "categorie": "Rights and duties",
+    "question": "What is the founding text establishing in France the rights and duties of every citizen?",
+    "options": ["The Highway Code", "The Declaration of the Rights of Man and of the Citizen", "The Labor Code", "The European treaty"],
+    "bonne_reponse": 1,
+    "explication": "Adopted in 1789, the Declaration of the Rights of Man and of the Citizen (DDHC) is the major text that lays the foundations of our fundamental freedoms.[cite: 1]"
+  },
+  {
+    "id": 157,
+    "categorie": "Rights and duties",
+    "question": "What text was adopted during the French Revolution?",
+    "options": ["The Constitution of the Fifth Republic", "The Declaration of the Rights of Man and of the Citizen", "The abolition of the death penalty", "The women's right to vote"],
+    "bonne_reponse": 1,
+    "explication": "The Declaration of Human Rights was adopted in August 1789, at the very beginning of the French Revolution.[cite: 1]"
+  },
+  {
+    "id": 158,
+    "categorie": "Rights and duties",
+    "question": "What freedom allows a person not to have a religion?",
+    "options": ["Trade union freedom", "Freedom of movement", "Freedom of conscience (or secularism)", "Freedom of assembly"],
+    "bonne_reponse": 2,
+    "explication": "Freedom of conscience guarantees the right to choose one's religion, to change it, or to be atheist (not believing in any god).[cite: 1]"
+  },
+  {
+    "id": 159,
+    "categorie": "Rights and duties",
+    "question": "Is it always possible to get a divorce?",
+    "options": ["No, it's forbidden", "Yes, the law allows divorce for all married couples", "Only if you have children", "Only if the marriage lasted 10 years"],
+    "bonne_reponse": 1,
+    "explication": "The right to divorce is guaranteed by French law, whether by mutual consent or following a judge's decision.[cite: 1]"
+  },
+  {
+    "id": 160,
+    "categorie": "Rights and duties",
+    "question": "Regarding the limits to individual freedoms, which statement is correct?",
+    "options": ["There is no limit", "They can be limited by law to protect public order and the rights of others", "Only the mayor can limit them", "They are limited on weekends"],
+    "bonne_reponse": 1,
+    "explication": "One person's freedom ends where another's begins. The law sets limits to guarantee the safety and respect of everyone.[cite: 1]"
+  },
+  {
+    "id": 161,
+    "categorie": "Rights and duties",
+    "question": "Should you reduce your waste?",
+    "options": ["No, it is not useful", "Yes, it is an ecological responsibility to protect the environment", "Only in summer", "No, the state takes care of it"],
+    "bonne_reponse": 1,
+    "explication": "Reducing, sorting and recycling your waste is a major civic duty to preserve the planet and limit pollution.[cite: 1]"
+  },
+  {
+    "id": 162,
+    "categorie": "Rights and duties",
+    "question": "Why can individual freedoms be limited?",
+    "options": ["To save money", "To protect the general interest, public security and the rights of others", "To punish citizens", "They can never be limited"],
+    "bonne_reponse": 1,
+    "explication": "The State can restrict certain freedoms (such as freedom of movement during a pandemic) to protect the safety or health of all.[cite: 1]"
+  },
+  {
+    "id": 163,
+    "categorie": "Rights and duties",
+    "question": "What must a person do in case of an accident?",
+    "options": ["Flee quickly", "Take photos", "Protect the scene of the accident and immediately alert the emergency services", "Do nothing"],
+    "bonne_reponse": 2,
+    "explication": "Assistance to a person in danger is a legal obligation. You must secure the area and call 15 (SAMU), 18 (Firefighters) or 112.[cite: 1]"
+  },
+  {
+    "id": 164,
+    "categorie": "Rights and duties",
+    "question": "What does French citizenship allow?",
+    "options": ["The right to vote and to be elected in national elections", "The right not to respect the laws", "The exemption from paying taxes", "The right to work without a contract"],
+    "bonne_reponse": 0,
+    "explication": "Being a French citizen gives fundamental political rights, including the right to vote in all elections and the right to stand as a candidate.[cite: 1]"
+  },
+  {
+    "id": 165,
+    "categorie": "Rights and duties",
+    "question": "What is the role of the police?",
+    "options": ["Render justice and condemn", "Vote the laws at the Assembly", "Maintain public order, protect the population and search for perpetrators of offenses", "Judge divorces"],
+    "bonne_reponse": 2,
+    "explication": "The police and the gendarmerie ensure the safety of citizens. It is then the judges who decide on the criminal convictions.[cite: 1]"
+  },
+  {
+    "id": 166,
+    "categorie": "Rights and duties",
+    "question": "What is an offense?",
+    "options": ["An act forbidden and punished by law", "A new law", "A national holiday", "A tax"],
+    "bonne_reponse": 0,
+    "explication": "An offense is the violation of a law. It is classified into three categories according to its severity: contravention, misdemeanor and crime.[cite: 1]"
+  },
+  {
+    "id": 167,
+    "categorie": "Rights and duties",
+    "question": "How can you reduce your waste?",
+    "options": ["By burning them in the street", "By sorting waste, recycling and avoiding waste", "By throwing them in nature", "By giving them to your neighbors"],
+    "bonne_reponse": 1,
+    "explication": "Selective sorting (separating glass, cardboard, plastic) and recycling are compulsory and essential for the environment.[cite: 1]"
+  },
+  {
+    "id": 168,
+    "categorie": "Rights and duties",
+    "question": "Leaving a broken washing machine on the sidewalk is:",
+    "options": ["Recommended", "Legal at night", "An offense (illegal dumping) punishable by a heavy fine", "Allowed on Sundays"],
+    "bonne_reponse": 2,
+    "explication": "The abandonment of bulky waste on the public highway is prohibited. They must be deposited at the recycling center or use the town hall's 'bulky items' service.[cite: 1]"
+  },
+  {
+    "id": 169,
+    "categorie": "Rights and duties",
+    "question": "What does human trafficking consist of?",
+    "options": ["Helping the poor", "Recruiting or exploiting people by force or threat (forced labor, sexual exploitation)", "Doing international trade", "Adopting children"],
+    "bonne_reponse": 1,
+    "explication": "Human trafficking (modern slavery, prostitution networks) is an extremely serious crime, severely punished by the Penal Code.[cite: 1]"
+  },
+  {
+    "id": 170,
+    "categorie": "Rights and duties",
+    "question": "What is the most serious offense?",
+    "options": ["A contravention", "A misdemeanor", "A crime", "A fine"],
+    "bonne_reponse": 2,
+    "explication": "Criminal law classifies offenses into three levels: contravention (the least serious), misdemeanor (more serious), and crime (the most serious, judged by the Assize Court).[cite: 1]"
+  },
+  {
+    "id": 171,
+    "categorie": "Living in French society",
+    "question": "After getting a driver's license, what must you do to be able to drive your car?",
+    "options": ["Nothing more", "Compulsorily take out car insurance", "Ask the town hall for permission", "Pay a tax to the police"],
+    "bonne_reponse": 1,
+    "explication": "It is strictly forbidden to drive without insurance. Civil liability insurance is mandatory to compensate victims in the event of an accident.[cite: 1]"
+  },
+  {
+    "id": 172,
+    "categorie": "Living in French society",
+    "question": "What must an employer do to set a salary?",
+    "options": ["He can pay what he wants", "He must compulsorily respect the legal minimum wage (the SMIC)", "He asks the prefecture's advice", "He sets the salary according to nationality"],
+    "bonne_reponse": 1,
+    "explication": "The law protects workers. No full-time salary can be lower than the SMIC (Salaire Minimum Interprofessionnel de Croissance).[cite: 1]"
+  },
+  {
+    "id": 173,
+    "categorie": "Living in French society",
+    "question": "What is the first step to take to look for a job?",
+    "options": ["Register with France Travail (formerly Pôle emploi)", "Go to the town hall", "Ask the police", "Open a bank account"],
+    "bonne_reponse": 0,
+    "explication": "France Travail is the public employment service. Registration allows you to be supported in your research and, under conditions, to receive benefits.[cite: 1]"
+  },
+  {
+    "id": 174,
+    "categorie": "Living in French society",
+    "question": "Can a foreign person in a regular situation create their own business?",
+    "options": ["No, it's forbidden", "Yes, if their residence permit authorizes them to carry out a professional or commercial activity", "Only if they are married to a French person", "Yes, but without the right to hire"],
+    "bonne_reponse": 1,
+    "explication": "Business creation is possible for foreigners, provided they hold a suitable residence permit (e.g. resident card, 'entrepreneur' mention, etc.).[cite: 1]"
+  },
+  {
+    "id": 175,
+    "categorie": "Living in French society",
+    "question": "What is an emergency number?",
+    "options": ["A paid number for advice", "A free phone number, reachable 24 hours a day, to alert the emergency services (15, 17, 18, 112)", "The town hall number", "A number to find a doctor on Sunday"],
+    "bonne_reponse": 1,
+    "explication": "Emergency numbers allow you to immediately contact the police, the SAMU or the firefighters. They are free and work even without credit.[cite: 1]"
+  },
+  {
+    "id": 176,
+    "categorie": "Living in French society",
+    "question": "What is the role of the treating doctor?",
+    "options": ["Do surgical operations", "Provide regular medical follow-up and refer to specialists if necessary", "Reimburse medicines", "Check sick leave for the boss"],
+    "bonne_reponse": 1,
+    "explication": "The treating doctor (often a general practitioner) is the pillar of the care path in France. They know you, treat you on a daily basis and refer you to specialists.[cite: 1]"
+  },
+  {
+    "id": 177,
+    "categorie": "Living in French society",
+    "question": "What is the purpose of mandatory vaccinations?",
+    "options": ["Make patients pay", "Protect the child against serious diseases and prevent epidemics in the population", "Replace school", "It's just a formality for traveling"],
+    "bonne_reponse": 1,
+    "explication": "In France, 11 vaccines are mandatory for children. They protect public health by eradicating fatal diseases (tetanus, measles, polio...).[cite: 1]"
+  },
+  {
+    "id": 178,
+    "categorie": "Living in French society",
+    "question": "For whom is school compulsory?",
+    "options": ["For boys only", "For children who already speak French", "For all children, girls and boys, aged 3 to 16", "For children of French nationality only"],
+    "bonne_reponse": 2,
+    "explication": "The right to education is universal in France. Instruction is compulsory from 3 to 16 years old, regardless of nationality or the situation of the parents.[cite: 1]"
+  },
+  {
+    "id": 179,
+    "categorie": "Living in French society",
+    "question": "What diploma is generally obtained at the end of high school?",
+    "options": ["The Brevet des collèges", "The Bachelor's degree (Licence)", "The Baccalaureate (the Bac)", "The Master's degree"],
+    "bonne_reponse": 2,
+    "explication": "The Baccalaureate marks the end of secondary studies in high school and opens the doors to higher education (universities, grandes écoles).[cite: 1]"
+  },
+  {
+    "id": 180,
+    "categorie": "Living in French society",
+    "question": "A child enrolled in school:",
+    "options": ["Can go whenever they want", "Is subject to a requirement of attendance (they must be present every day of class)", "Can miss classes if they are tired", "Only goes in the morning"],
+    "bonne_reponse": 1,
+    "explication": "School attendance is mandatory. Absences must always be justified by the parents (e.g. medical certificate).[cite: 1]"
+  },
+  {
+    "id": 181,
+    "categorie": "History, geography and culture",
+    "question": "Which writer is French?",
+    "options": ["William Shakespeare", "Victor Hugo", "Miguel de Cervantes", "Leo Tolstoy"],
+    "bonne_reponse": 1,
+    "explication": "Victor Hugo is one of the most illustrious French writers, author of masterpieces like 'Les Misérables' or 'Notre-Dame de Paris'.[cite: 1]"
+  },
+  {
+    "id": 182,
+    "categorie": "Institutional and political system",
+    "question": "What power does a judge hold?",
+    "options": ["Legislative power", "The power to direct the police", "Judicial power (rendering justice)", "Executive power"],
+    "bonne_reponse": 2,
+    "explication": "The judge exercises judicial power. They are independent, interpret the law and settle conflicts or sanction offenses.[cite: 1]"
+  },
+  {
+    "id": 183,
+    "categorie": "Institutional and political system",
+    "question": "The judicial authority is exercised by:",
+    "options": ["The ministers", "The mayors", "The courts and tribunals (the magistrates)", "The deputies"],
+    "bonne_reponse": 2,
+    "explication": "The judicial institution is composed of different jurisdictions (judicial court, court of appeal, assize court) animated by independent magistrates.[cite: 1]"
+  },
+  {
+    "id": 184,
+    "categorie": "Institutional and political system",
+    "question": "Who holds executive power?",
+    "options": ["The Parliament", "The President of the Republic and the Government", "The judges", "The Constitutional Council"],
+    "bonne_reponse": 1,
+    "explication": "Executive power is responsible for conducting the policy of the Nation and executing the laws. It is directed by the President and the Prime Minister.[cite: 1]"
+  },
+  {
+    "id": 185,
+    "categorie": "History, geography and culture",
+    "question": "Who founded the Fifth Republic?",
+    "options": ["Napoleon Bonaparte", "François Mitterrand", "Charles de Gaulle", "Georges Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "General de Gaulle is the founder of the Fifth Republic in 1958, which provided France with a new Constitution and strong executive power.[cite: 1]"
+  },
+  {
+    "id": 186,
+    "categorie": "History, geography and culture",
+    "question": "Which war took place between 1914 and 1918?",
+    "options": ["The Hundred Years' War", "The First World War", "The Second World War", "The Algerian War"],
+    "bonne_reponse": 1,
+    "explication": "The First World War (or Great War) took place from 1914 to 1918, mainly opposing the Allies to the Central Powers.[cite: 1]"
+  },
+  {
+    "id": 187,
+    "categorie": "History, geography and culture",
+    "question": "What is Paris?",
+    "options": ["A simple department", "The capital of France and the seat of national institutions", "A region", "A country"],
+    "bonne_reponse": 1,
+    "explication": "Paris is the political capital (Elysée, Parliament) and the largest city in France.[cite: 1]"
+  },
+  {
+    "id": 188,
+    "categorie": "Living in French society",
+    "question": "Children who do not speak French:",
+    "options": ["Are sent back to their country", "Are taken care of by the public school in specialized classes to learn the language (UPE2A)", "Must pay for private lessons", "Cannot go to school"],
+    "bonne_reponse": 1,
+    "explication": "The school of the Republic is inclusive. Pedagogical Units for Incoming Allophone Pupils (UPE2A) exist to teach them French.[cite: 1]"
+  },
+  {
+    "id": 189,
+    "categorie": "History, geography and culture",
+    "question": "Which city is located by the Mediterranean Sea?",
+    "options": ["Lille", "Nantes", "Nice", "Bordeaux"],
+    "bonne_reponse": 2,
+    "explication": "Nice, like Marseille and Toulon, is a large city on the southern coast of France, bordered by the Mediterranean.[cite: 1]"
+  },
+  {
+    "id": 190,
+    "categorie": "Institutional and political system",
+    "question": "Who has the power to sanction the perpetrator of a theft?",
+    "options": ["The person who was robbed", "The police only", "A magistrate (a judge) in a court", "The mayor of the city"],
+    "bonne_reponse": 2,
+    "explication": "In France, the police arrest suspects, but only a judge has the power to pronounce a sentence or a criminal sanction at the end of a trial.[cite: 1]"
+  },
+  {
+    "id": 191,
+    "categorie": "Rights and duties",
+    "question": "Equality between men and women in France is:",
+    "options": ["A simple idea", "Guaranteed by the Constitution and the law", "Valid only at work", "An option"],
+    "bonne_reponse": 1,
+    "explication": "The principle of strict equality between women and men is enshrined in the Preamble to the 1946 Constitution and applies to all areas of life.[cite: 1]"
+  },
+  {
+    "id": 192,
+    "categorie": "Rights and duties",
+    "question": "The right to strike allows:",
+    "options": ["Destroying company property", "To stop work collectively to defend professional demands", "Never to work again", "Dismissing one's boss"],
+    "bonne_reponse": 1,
+    "explication": "The right to strike is a constitutional right in France. It allows employees to peacefully put pressure to improve their working conditions.[cite: 1]"
+  },
+  {
+    "id": 193,
+    "categorie": "Living in French society",
+    "question": "In case of a dispute (conflict) with your employer regarding your salary, which court should you go to?",
+    "options": ["The commercial court", "The criminal court", "The industrial tribunal (Conseil des Prud'hommes)", "The Assize Court"],
+    "bonne_reponse": 2,
+    "explication": "The industrial tribunal (Conseil des Prud'hommes) is the specialized jurisdiction in France to settle individual conflicts related to the employment contract between employers and employees.[cite: 1]"
+  }
+]
