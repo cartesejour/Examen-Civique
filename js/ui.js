@@ -88,20 +88,24 @@ switchScreen(screenId) {
         const container = document.getElementById('options-container');
         container.innerHTML = '';
         
-    q.options.forEach((opt, i) => {
+        // On récupère la liste des boutons cachés par le joker pour CETTE question
+        const hiddenOptions = (state.hiddenOptions && state.hiddenOptions[state.index]) ? state.hiddenOptions[state.index] : [];
+
+        q.options.forEach((opt, i) => {
             const btn = document.createElement('button');
             
-            // ✨ CORRECTION : On a remplacé text-sm par text-base (plus grand) et ajouté un peu d'arrondi
-            btn.className = `option-item w-full text-left p-4 md:p-5 border border-gray-300 text-base md:text-lg font-bold transition flex flex-col rounded-lg ${state.userAnswers[state.index] === i ? 'selected-opt bg-blue-50 border-blue-500' : 'bg-white text-gray-900'}`;
+            // Si le bouton fait partie de ceux éliminés par le joker, on lui ajoute la classe 'hidden' !
+            const isHiddenClass = hiddenOptions.includes(i) ? 'hidden' : 'flex';
             
-            // ✨ CORRECTION : Traduction beaucoup plus lisible (text-sm, text-gray-600, plus d'italique, plus d'opacité)
-            // On a retiré "font-medium" et mis "mt-1" au lieu de "mt-2"
+            btn.className = `option-item w-full text-left p-4 md:p-5 border border-gray-300 text-base md:text-lg font-bold transition flex-col rounded-lg ${state.userAnswers[state.index] === i ? 'selected-opt bg-blue-50 border-blue-500' : 'bg-white text-gray-900'} ${isHiddenClass}`;
+            
             let translate = (h && h.options) ? `<span class="text-sm text-gray-600 italic mt-1 block" dir="${isRTL?'rtl':'ltr'}">${h.options[i]}</span>` : "";
             
             btn.innerHTML = `<span>${opt}</span>${translate}`;
             btn.onclick = () => App.handleAnswer(i);
             container.appendChild(btn);
-        });
+        }); 
+
 
         document.getElementById('btn-prev').disabled = (state.index === 0);
         document.getElementById('btn-prev').style.opacity = (state.index === 0) ? "0.2" : "1";
