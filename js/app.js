@@ -61,25 +61,28 @@ const App = {
         UI.closeModal('modal-resume');
     },
 
-    async startQuiz(lvl) {
-        if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) return;
 
-        const selector = document.getElementById('questions-selector');
-        const nbQuestions = selector ? parseInt(selector.value) : 40;
-        
-        const lang = document.getElementById('lang-selector').value;
-        const helpData = await API.loadHelp(lang);
-        
-        QuizEngine.start(lvl, lang, helpData, nbQuestions);
-        this.saveProgress(); 
+async startQuiz(lvl) {
+    if (!QuizEngine.state.allFR || QuizEngine.state.allFR.length === 0) return;
 
-        UI.switchScreen('screen-quiz');
-        document.getElementById('q-counter').classList.remove('hidden');
-        document.getElementById('timer-zone').classList.remove('hidden');
-        
-        this.startTimer();
-        UI.renderQuestion(QuizEngine.state);
-    },
+    const selector = document.getElementById('questions-selector');
+    const nbQuestions = selector ? parseInt(selector.value) : 40;
+    
+    const lang = document.getElementById('lang-selector').value;
+    
+    // ✨ MODIFICATION ICI : On passe le niveau (lvl) et la langue (lang) à l'API
+    const helpData = await API.loadHelp(lvl, lang); 
+    
+    QuizEngine.start(lvl, lang, helpData, nbQuestions);
+    this.saveProgress(); 
+
+    UI.switchScreen('screen-quiz');
+    document.getElementById('q-counter').classList.remove('hidden');
+    document.getElementById('timer-zone').classList.remove('hidden');
+    
+    this.startTimer();
+    UI.renderQuestion(QuizEngine.state);
+},
 
     handleAnswer(index) {
         QuizEngine.setAnswer(index);
