@@ -19,64 +19,46 @@ switchScreen(screenId) {
         const targetScreen = document.getElementById(screenId);
         if(targetScreen) targetScreen.classList.remove('hidden');
 
-        // ✨ LA MAGIE POUR LE PLEIN ÉCRAN EST ICI ✨
-        const siteHeader = document.querySelector('header'); // Le bandeau avec le logo
+        const siteHeader = document.querySelector('header'); 
+        const mainNav = document.getElementById('main-nav');
+        const mainContainer = document.querySelector('main'); // On récupère le conteneur principal
+
+        // 3. Gestion de l'espace pour que tout rentre à l'écran !
         if (screenId === 'screen-quiz') {
             if (siteHeader) siteHeader.classList.add('hidden'); // Cache le logo
-            document.body.classList.add('overflow-hidden'); // Bloque le scroll derrière
+            if (mainNav) mainNav.classList.add('hidden'); // Cache le menu
+            
+            // LA MAGIE ICI : On enlève l'énorme espace vide en haut
+            if (mainContainer) {
+                mainContainer.classList.remove('pt-28');
+                mainContainer.classList.add('pt-4');
+            }
         } else {
             if (siteHeader) siteHeader.classList.remove('hidden'); // Remet le logo
-            document.body.classList.remove('overflow-hidden'); // Débloque le scroll
+            if (mainNav) {
+                if (screenId === 'screen-results') mainNav.classList.add('hidden');
+                else mainNav.classList.remove('hidden');
+            }
+            
+            // On remet l'espace pour les autres pages
+            if (mainContainer) {
+                mainContainer.classList.remove('pt-4');
+                mainContainer.classList.add('pt-28');
+            }
         }
 
-        const mainNav = document.getElementById('main-nav');
-        if (!mainNav) return; // Sécurité
-
-        // 3. On remet TOUS les boutons en gris normal (on enlève le bleu)
+        // 4. On remet TOUS les boutons en gris normal
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.classList.remove('bg-bleu-france', 'text-white');
             btn.classList.add('bg-gray-200', 'text-gray-800');
         });
 
-        // 4. On met en bleu SEULEMENT le bouton cliqué (et on ENLÈVE le gris)
-        if (screenId === 'screen-home') {
-            const btn = document.getElementById('btn-nav-home');
-            if(btn) {
-                btn.classList.remove('bg-gray-200', 'text-gray-800');
-                btn.classList.add('bg-bleu-france', 'text-white');
-            }
-            mainNav.classList.remove('hidden');
-        } 
-        else if (screenId === 'screen-quiz-setup') {
-            const btn = document.getElementById('btn-nav-quiz-setup');
-            if(btn) {
-                btn.classList.remove('bg-gray-200', 'text-gray-800');
-                btn.classList.add('bg-bleu-france', 'text-white');
-            }
-            mainNav.classList.remove('hidden');
-        }
-        else if (screenId === 'screen-revisions') {
-            const btn = document.getElementById('btn-nav-revisions');
-            if(btn) {
-                btn.classList.remove('bg-gray-200', 'text-gray-800');
-                btn.classList.add('bg-bleu-france', 'text-white');
-            }
-            mainNav.classList.remove('hidden');
-        } 
-        else if (screenId === 'screen-demarches') {
-            const btn = document.getElementById('btn-nav-demarches');
-            if(btn) {
-                btn.classList.remove('bg-gray-200', 'text-gray-800');
-                btn.classList.add('bg-bleu-france', 'text-white');
-            }
-            mainNav.classList.remove('hidden');
-        } 
-        else if (screenId === 'screen-legal' || screenId === 'screen-privacy') {
-            mainNav.classList.remove('hidden');
-        }
-        else {
-            // Pour 'screen-quiz' et 'screen-results', le menu disparaît
-            mainNav.classList.add('hidden');
+        // 5. On met en bleu SEULEMENT le bouton actif
+        const cleanId = screenId.replace('screen-', '');
+        const activeBtn = document.getElementById('btn-nav-' + cleanId);
+        if(activeBtn) {
+            activeBtn.classList.remove('bg-gray-200', 'text-gray-800');
+            activeBtn.classList.add('bg-bleu-france', 'text-white');
         }
         
         window.scrollTo(0, 0);
