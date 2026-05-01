@@ -163,25 +163,20 @@ sendReport() {
         }
 
         const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
-        
-        // Construction du lien mailto
         const email = "contact@cartesejour.fr";
-        const subject = `Signalement : Question ${QuizEngine.state.currentQuestion + 1} (${QuizEngine.state.level})`;
-        const body = `Bonjour,\n\nJe signale un problème sur la question :\n"${currentQ.question}"\n\nProblème constaté :\n${motif}\n\n--\nEnvoyé depuis CarteSejour.fr`;
+        const subject = encodeURIComponent("Signalement d'erreur - Examen Civique");
+        const body = encodeURIComponent(`Motif :\n${motif}\n\nQuestion posée :\n"${currentQ.question}"`);
 
-        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-        // Tentative d'ouverture
-        const link = document.createElement('a');
-        link.href = mailtoLink;
-        link.click(); // Plus fiable que window.location
-        
+        // On ferme la fenêtre AVANT d'ouvrir le mail pour éviter les bugs visuels
         UI.closeModal('modal-report');
+
+        // La méthode la plus directe et infaillible pour ouvrir l'appli mail
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
         
-        // Petit message de confirmation visuelle
+        // Petit message de confirmation
         setTimeout(() => {
-            UI.showCustomAlert("Merci !", "Si votre application mail ne s'est pas ouverte, vous pouvez nous écrire directement à contact@cartesejour.fr");
-        }, 500);
+            alert("Merci ! Si votre application mail ne s'est pas ouverte, écrivez-nous à contact@cartesejour.fr");
+        }, 1000);
     },
     handleJoker() {
         UI.triggerAd('joker', () => {
