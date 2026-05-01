@@ -1,0 +1,1698 @@
+[
+  {
+    "id": 1,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Alin sa mga sumusunod ang halimbawa ng pakikilahok ng mamamayan?",
+    "options": ["Pagbabayad ng mga pinamili sa supermarket", "Pagboto sa mga halalan", "Pagkakaroon ng bank account", "Pagpasok sa paaralan"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagboto ay ang pangunahing aksyon ng pakikilahok ng mamamayan sa isang demokrasya, na nagpapahintulot sa pagpili ng mga kinatawan nito."
+  },
+  {
+    "id": 2,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ginagarantiyahan ng kalayaan sa pagpapahayag?",
+    "options": ["Ang karapatang insultuhin ang sinumang gusto", "Ang karapatang sabihin o isulat ang iniisip nang may paggalang sa batas", "Ang karapatang hindi magbayad ng buwis", "Ang karapatang magsinungaling sa pulisya"],
+    "bonne_reponse": 1,
+    "explication": "Ang kalayaan sa pagpapahayag ay mahalaga ngunit hindi ganap: natatapos ito kung saan nagsisimula ang mga krimen (paninirang-puri, pag-uudyok sa poot, mga insultong nakabatay sa lahi)."
+  },
+  {
+    "id": 3,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Para saan ang 'titre de séjour' (residence permit)?",
+    "options": ["Upang makapaglakbay nang libre sa tren", "Upang patunayan ang karapatang manirahan nang legal sa Pransiya", "Upang awtomatikong makakuha ng pagkamamamayan", "Upang hindi magbayad ng buwis"],
+    "bonne_reponse": 1,
+    "explication": "Ang titre de séjour ay ang opisyal na dokumento na inisyu ng prepektura (préfecture) na nagpapatunay na ang isang dayuhan ay may legal na katayuan sa teritoryo ng Pransiya."
+  },
+  {
+    "id": 4,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang kalayaan sa pagkilos ay nagpapahintulot sa sinuman na:",
+    "options": ["Magmaneho nang walang lisensya", "Maglakbay nang hindi nagbabayad", "Malayang gumalaw sa buong pambansang teritoryo", "Pumasok sa mga pribadong ari-arian"],
+    "bonne_reponse": 2,
+    "explication": "Sa Pransiya, ang sinuman (mamamayan o dayuhan na may legal na katayuan) ay may karapatang pumunta at umalis nang malaya sa mga pampublikong lugar."
+  },
+  {
+    "id": 5,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Saang website matatagpuan ang simbolo ng Republika ng Pransiya?",
+    "options": ["Sa mga komersyal na website (.com)", "Sa mga social network lamang", "Sa lahat ng website ng gobyerno (nagtatapos sa .gouv.fr)", "Sa Wikipedia"],
+    "bonne_reponse": 2,
+    "explication": "Ang opisyal na logo ng Republika (na kinabibilangan ni Marianne at ng motto) ay dapat naroroon sa lahat ng website ng Estado (impots.gouv.fr, service-public.gouv.fr...)."
+  },
+  {
+    "id": 6,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Kumpletuhin ang mga liriko na ito ng La Marseillaise (pambansang awit): \"Aux armes […] ! Formez vos bataillons\"",
+    "options": ["Citoyens (Mga Mamamayan)", "Soldats (Mga Sundalo)", "Français (Mga Pranses)", "Enfants (Mga Bata)"],
+    "bonne_reponse": 0,
+    "explication": "Ang koro ng pambansang awit ay nananawagan sa mga tao na ipagtanggol ang kalayaan: 'Aux armes, citoyens, Formez vos bataillons, Marchons, marchons...'"
+  },
+  {
+    "id": 7,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Kumpletuhin ang mga liriko ng La Marseillaise: \"Allons enfants de la patrie […]\"",
+    "options": ["La guerre est finie (Tapos na ang digmaan)", "Le jour de gloire est arrivé (Dumating na ang araw ng kaluwalhatian)", "La France est grande (Dakila ang Pransiya)", "La liberté nous guide (Ginagabayan tayo ng kalayaan)"],
+    "bonne_reponse": 1,
+    "explication": "Ito ang pinakaunang pangungusap ng ating pambansang awit, na isinulat noong 1792 ni Rouget de Lisle."
+  },
+  {
+    "id": 8,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa pagpapatupad ng indibidwal na kalayaan, aling pahayag ang tama? Ang isang tao ay maaaring:",
+    "options": ["Ilagay ang batas sa sarili niyang mga kamay", "Malayang pumili ng kanyang pamumuhay, kanyang propesyon, at kanyang mga opinyon", "Tumangging ipadala ang kanyang mga anak sa paaralan", "Balewalain ang batas"],
+    "bonne_reponse": 1,
+    "explication": "Pinapayagan ng indibidwal na kalayaan ang bawat isa na mamuhay sa paraang gusto nila, sa tanging kundisyon na igalang ang batas at kalayaan ng iba."
+  },
+  {
+    "id": 9,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Tungkol sa pagsasabuhay ng relihiyon, aling pahayag ang tama?",
+    "options": ["Ito ay ipinagbabawal sa Pransiya", "Ito ay malaya sa pribado at pampublikong larangan, hangga't hindi ito nakakagambala sa kaayusan ng publiko", "Ang relihiyong Katoliko lamang ang pinapayagan", "Ito ay kinakailangan upang makaboto"],
+    "bonne_reponse": 1,
+    "explication": "Ang sekularismo (Laïcité) ay nagpapahintulot ng malayang pagsasagawa ng relihiyon. Maaari mong isabuhay ang iyong relihiyon nang malaya, sa kondisyon na hindi mo ipipilit ang iyong mga paniniwala sa iba at hindi gagambalain ang kaayusan ng publiko."
+  },
+  {
+    "id": 10,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Bilang isang magulang, maaari mo bang tanggihan na lumahok ang iyong anak sa mga klase sa palakasan (sports) sa paaralan dahil magkahalo (lalaki't babae) ang mga ito?",
+    "options": ["Oo, ito ay pagpili ng mga magulang", "Oo, kung ito ay para sa mga kadahilanang panrelihiyon", "Hindi, ang kurikulum ng paaralan ay sapilitan at sekular", "Oo, nang may pagsang-ayon ng munisipyo"],
+    "bonne_reponse": 2,
+    "explication": "Ang mga pampublikong paaralan ay nagpapatupad ng pagkakapantay-pantay ng mga babae at lalaki (mixité). Walang paniniwalang relihiyoso ang nagpapahintulot na takasan ito."
+  },
+  {
+    "id": 11,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang motto ng Pransiya?",
+    "options": ["Liberté, Égalité, Fraternité (Kalayaan, Pagkakapantay-pantay, Kapatiran)", "Travail, Famille, Patrie (Trabaho, Pamilya, Bansa)", "Paix, Amour, Justice (Kapayapaan, Pag-ibig, Katarungan)", "Unité, Solidarité, Progrès (Pagkakaisa, Pagkakabuklod, Pag-unlad)"],
+    "bonne_reponse": 0,
+    "explication": "Minana mula sa Panahon ng Kaliwanagan (Enlightenment) at sa Rebolusyon, ang motto na ito ay nakasulat sa Konstitusyon ng Republika."
+  },
+  {
+    "id": 12,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang pagtatakwil sa asawang babae (repudiation) ay:",
+    "options": ["Pinapayagan kung ang kasal ay ginanap sa ibang bansa", "Isang legal na gawain sa Pransiya", "Lubos na ipinagbabawal sa Pransiya dahil ito ay labag sa prinsipyo ng pagkakapantay-pantay sa pagitan ng mag-asawa", "Pinapayagan lamang ng isang hukom"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagtatakwil (ang pagkilos ng isang lalaki na buwagin ang kasal nang mag-isa) ay isang karahasan laban sa mga kababaihan. Sa Pransiya, ang diborsyo lamang (na gumagalang sa pagkakapantay-pantay) ang legal."
+  },
+  {
+    "id": 13,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ginagamit ang mga buwis para pondohan ang mga pampublikong gastusin. Aling pahayag ang tama?",
+    "options": ["Ang pagbabayad ng buwis ay opsyonal", "Pinopondohan ng buwis ang mga ospital, paaralan, kalsada at seguridad", "Tanging mga mamamayang Pranses lamang ang nagbabayad ng buwis", "Ang buwis ay ginagamit upang payamanin ang mga ministro"],
+    "bonne_reponse": 1,
+    "explication": "Ang buwis ay ang sapilitang kontribusyon sa pananalapi ng bawat residente upang patakbuhin ang mga mahahalagang serbisyo publiko at matiyak ang pagkakaisa ng bansa."
+  },
+  {
+    "id": 14,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Maaari bang sunugin nang hayagan ang isang bandila ng Pransiya?",
+    "options": ["Oo, ito ay kalayaan sa pagpapahayag", "Hindi, ito ay isang pagkakasala ng pang-iinsulto sa mga simbolo ng Republika na pinarurusahan ng batas", "Oo, sa panahon ng isang demonstrasyon", "Oo, kung ito ay luma na"],
+    "bonne_reponse": 1,
+    "explication": "Ang pang-iinsulto sa bandilang tatlong kulay o sa pambansang awit sa panahon ng isang pampublikong demonstrasyon ay pinaparusahan sa ilalim ng batas kriminal na may kaakibat na multa."
+  },
+  {
+    "id": 15,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ginagawa ng Estado para labanan ang diskriminasyon?",
+    "options": ["Wala man lang", "Matinding pinarurusahan nito ang mga gawaing diskriminasyon sa pamamagitan ng Penal Code at sinusuportahan ang 'Défenseur des droits' (Tagapagtanggol ng mga karapatan)", "Nagbibigay ito ng pera sa mga biktima", "Ipinagbabawal nito ang mga kumpanyang nandidiskrimina"],
+    "bonne_reponse": 1,
+    "explication": "Ang anumang diskriminasyon (batay sa kasarian, lahi, relihiyon, kapansanan) ay isang krimen. Ang Tagapagtanggol ng mga Karapatan ay isang institusyon ng Estado na tumutulong nang libre sa mga biktima."
+  },
+  {
+    "id": 16,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kinakatawan ni Marianne?",
+    "options": ["Ang ina ng unang pangulo", "Ang simbolikong pigura ng Republika ng Pransiya at ng kalayaan", "Isang mang-aawit", "Ang gumawa ng bandila"],
+    "bonne_reponse": 1,
+    "explication": "Si Marianne, na may suot na Phrygian cap, ang nagpapakatao sa Republika. Ang kanyang busto (estatwa) ay nakapuwesto sa lahat ng munisipyo sa Pransiya."
+  },
+  {
+    "id": 17,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kalayaan sa pagsasamahan (liberté d'association)?",
+    "options": ["Ang karapatang magpakasal sa sinumang gusto mo", "Ang karapatan para sa mga mamamayan na malayang magsama-sama para sa isang karaniwang proyekto o ipagtanggol ang isang layunin", "Ang karapatang makipagsosyo upang magtayo ng kumpanya", "Ang karapatang mag-welga"],
+    "bonne_reponse": 1,
+    "explication": "Ito ay isang pangunahing karapatan na pinamamahalaan ng batas ng 1901. Pinapayagan nito ang mga mamamayan na lumikha ng mga sports club, kawanggawa, o kultural na samahan."
+  },
+  {
+    "id": 18,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kalayaan?",
+    "options": ["Ang karapatang gawin ang anumang bagay na hindi makakasama sa iba", "Ang paggawa ng kahit anong gusto nang walang mga tuntunin", "Ang kabuuang kawalan ng gobyerno", "Ang karapatang ipilit ang iyong mga ideya sa iba"],
+    "bonne_reponse": 0,
+    "explication": "Ayon sa Artikulo 4 ng Deklarasyon ng Karapatang Pantao ng 1789, ang kalayaan ay binubuo ng kakayahang gawin ang lahat ng bagay na hindi nakakapinsala sa iba."
+  },
+  {
+    "id": 19,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang La Marseillaise?",
+    "options": ["Isang tula ni Victor Hugo", "Ang opisyal na pambansang awit ng Pransiya", "Isang espesyalidad na pagkain mula sa timog ng Pransiya", "Ang pangalan ng isang barkong militar"],
+    "bonne_reponse": 1,
+    "explication": "Ang La Marseillaise, na isinulat noong 1792 sa panahon ng Rebolusyon, ay ang awit ng Republika ng Pransiya."
+  },
+  {
+    "id": 20,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa anong dokumento makikita si Marianne?",
+    "options": ["Ang lisensya sa pagmamaneho", "Ang Carte Vitale (health card)", "Ang mga pangkaraniwang selyo sa koreo (postage stamps) at ang logo ng gobyerno", "Mga diploma sa unibersidad"],
+    "bonne_reponse": 2,
+    "explication": "Tradisyonal na inilalarawan sa mukha ni Marianne ang mga selyo ng Pransiya at ito ay mahalagang bahagi ng opisyal na logo ng Republika ng Pransiya."
+  },
+  {
+    "id": 21,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang isang tagapag-empleyo ay tumangging kumuha ng mga kababaihan sa kanyang kumpanya. Ano ang sinasabi ng batas?",
+    "options": ["Ito ay kanyang karapatan bilang boss", "Ito ay sexistang diskriminasyon na ganap na ipinagbabawal at pinaparusahan ng batas", "Legal ito para sa mga pisikal na trabaho", "Legal ito kung marami na siyang mga babaeng empleyado"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagkakapantay-pantay sa propesyon ay isang legal na obligasyon. Ang pagtanggi sa pagkuha batay sa kasarian ay isang krimen."
+  },
+  {
+    "id": 22,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Isa sa mga pagpapahalaga sa motto ng republika ay ang pagkakapantay-pantay. Ano ang ibig sabihin nito?",
+    "options": ["Ang batas ay pareho para sa lahat (pareho ang mga karapatan at tungkulin)", "Lahat ay dapat kumita ng parehong suweldo", "Hindi na dapat magkaroon ng mga mayayaman", "Lahat ay dapat may parehong pag-iisip"],
+    "bonne_reponse": 0,
+    "explication": "Ang pagkakapantay-pantay ng republika ay pagkakapantay-pantay sa batas: walang prebileyhiyo na nauugnay sa kapanganakan, kulay ng balat, o relihiyon ang pinahihintulutan."
+  },
+  {
+    "id": 23,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang lugar ng wikang Pranses sa Republika?",
+    "options": ["Ito ay isang opsyon", "Ito ang opisyal na wika ng Republika (hustisya, batas, administrasyon)", "Ito ay sinasalita lamang sa paaralan", "Ito ay napalitan na ng Ingles"],
+    "bonne_reponse": 1,
+    "explication": "Itinatadhana sa Artikulo 2 ng Konstitusyon na ang wika ng Republika ay Pranses. Dapat makipag-ugnayan ang mga pampublikong ahente sa Pranses sa mga gumagamit."
+  },
+  {
+    "id": 24,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang mga opisyal na simbolo ng Republika ng Pransiya?",
+    "options": ["Ang baguette at ang keso", "Ang bandilang tatlong kulay, pambansang awit, at ang motto", "Ang Louvre at ang Eiffel Tower", "Ang fleur-de-lys at ang manok (rooster)"],
+    "bonne_reponse": 1,
+    "explication": "Opisyal na tinutukoy ng Konstitusyon ang bandila (asul, puti, pula), ang pambansang awit (La Marseillaise) at ang motto (Kalayaan, Pagkakapantay-pantay, Kapatiran)."
+  },
+  {
+    "id": 25,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Mayroon ka bang karapatang insultuhin ang isang tao sa publiko dahil siya ay naiiba (kapansanan, pisikal na anyo, kasarian...)?",
+    "options": ["Oo, kalayaan sa pagpapahayag", "Hindi, ang diskriminasyong pang-iinsulto ay isang krimen na pinarurusahan ng batas", "Oo, sa mga social network", "Oo, kung ito ay para sa pagpapatawa"],
+    "bonne_reponse": 1,
+    "explication": "Ang batas ng Pransiya ay matinding pinarurusahan ang lahat ng anyo ng diskriminasyon, pang-iinsulto, o pag-uudyok sa poot (racism, homophobia, atbp.)."
+  },
+  {
+    "id": 26,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang rehimen ng Pransiya ay:",
+    "options": ["Isang diktadurya", "Isang monarkiya", "Isang Demokratikong Republika", "Isang imperyo"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pransiya ay isang Republika kung saan ang kapangyarihan ay pag-aari ng mga tao, na demokratikong pumipili sa kanilang mga kinatawan."
+  },
+  {
+    "id": 27,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Bakit dapat igalang ang prinsipyo ng sekularismo (laïcité) sa paaralan?",
+    "options": ["Upang protektahan ang mga mag-aaral mula sa anumang panggigipit sa relihiyon at garantiyahan ang pagkakapantay-pantay", "Upang ipagbawal ang lahat ng relihiyon sa Pransiya", "Dahil ito ay isang kaugalian", "Upang pilitin ang mga mag-aaral na kumain ng lahat ng bagay"],
+    "bonne_reponse": 0,
+    "explication": "Ang pampublikong paaralan ay isang neutral na lugar ng kaalaman. Ang mga lantarang simbolo ng relihiyon ay ipinagbabawal doon upang mapanatili ang kalayaan sa budhi ng mga bata."
+  },
+  {
+    "id": 28,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong taon naipasa ang batas ng paghihiwalay ng mga Simbahan at ng Estado?",
+    "options": ["1789", "1905", "1958", "1981"],
+    "bonne_reponse": 1,
+    "explication": "Ang batas ng 1905 ay nagtapos sa Concordat. Itinatakda nito na hindi kinikilala, hindi binabayaran, o tinutustusan ng Republika ang anumang relihiyon."
+  },
+  {
+    "id": 29,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "May karapatan ba ang isang tao na hindi maniwala sa isang relihiyon?",
+    "options": ["Hindi, ito ay ilegal", "Oo, ang kalayaan ng budhi ay kasama ang karapatang maging ateista (hindi maniwala)", "Lamang kung sila ay may nasyonalidad na Pranses", "Oo, pero ng patago"],
+    "bonne_reponse": 1,
+    "explication": "Tinitiyak ng sekularismo ang kalayaang maniwala, hindi maniwala, at malayang magpalit ng relihiyon."
+  },
+  {
+    "id": 30,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong karapatan ang ginagarantiyahan ng sekularismo (laïcité)?",
+    "options": ["Ang karapatan sa pabahay", "Ang kalayaan ng budhi at pagsamba", "Ang karapatang bumoto", "Ang kalayaan sa unyon ng manggagawa"],
+    "bonne_reponse": 1,
+    "explication": "Ang sekularismo ay hindi kaaway ng mga relihiyon: bagkus, ginagarantiyahan nito ang bawat isa ng ganap na kalayaang isagawa ang relihiyon na kanilang pinili habang iginagalang ang batas."
+  },
+  {
+    "id": 31,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa mga pampublikong paaralan, sino ang maaaring magsuot ng mga nakikitang simbolo ng relihiyon?",
+    "options": ["Ang mga mag-aaral", "Ang mga guro", "Hindi ang mga mag-aaral, ni ang mga guro, sa bisa ng prinsipyo ng sekularismo", "Ang direktor lamang"],
+    "bonne_reponse": 2,
+    "explication": "Upang maprotektahan ang mga bata mula sa proselitismo, ipinagbabawal ng batas ang pagsusuot ng mga lantad na simbolo ng relihiyon para sa mga mag-aaral. Ang mga guro, bilang mga ahente ng Estado, ay napapailalim sa mahigpit na neutralidad."
+  },
+  {
+    "id": 32,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ayon sa prinsipyo ng sekularismo, ano ang ibig sabihin ng neutralidad ng Estado?",
+    "options": ["Ipinagbabawal ng Estado ang lahat ng relihiyon", "May opisyal na relihiyon ang Estado", "Ang Estado at ang mga ahente nito ay hindi pabor o laban sa anumang relihiyon", "Pinopondohan ng Estado ang mga lugar ng pagsamba"],
+    "bonne_reponse": 2,
+    "explication": "Ang neutralidad ay nangangahulugan na ang pampublikong administrasyon ay tinatrato ang lahat ng mga mamamayan nang pareho, anuman ang kanilang mga paniniwala sa relihiyon."
+  },
+  {
+    "id": 33,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang maaaring gawin ng isang gumagamit ng pampublikong serbisyo (tulad ng sa isang munisipyo)?",
+    "options": ["Dapat niyang itago ang kanyang relihiyon", "Maaari siyang magsuot ng simbolo ng relihiyon, hangga't hindi ito nakakagambala sa kaayusan o seguridad ng publiko", "May karapatan siyang magdasal sa counter", "Maaari siyang humiling ng ahenteng katulad niya ng relihiyon"],
+    "bonne_reponse": 1,
+    "explication": "Hindi tulad ng mga ahente (empleyado) na dapat maging neutral, ang gumagamit ay malayang ipahayag ang kanyang mga paniniwala, sa kondisyon na hindi nila hahadlangan ang paggana ng pampublikong serbisyo (hal: kakayahang makita ang mukha para sa seguridad)."
+  },
+  {
+    "id": 34,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sino ang dapat igalang ang prinsipyo ng neutralidad sa relihiyon sa isang prepektura (préfecture)?",
+    "options": ["Tanging ang mga gumagamit lamang (publiko)", "Tanging ang mga pampublikong ahente (staff ng Estado)", "Lahat ng tao", "Wala"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga pampublikong ahente lamang (mga sibil na tagapaglingkod) ang napapailalim sa mahigpit na tungkulin ng neutralidad. Hindi sila dapat magsuot ng anumang nakikitang simbolo ng relihiyon sa kanilang lugar ng trabaho."
+  },
+  {
+    "id": 35,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Iniaatas ba ng sekularismo sa mga pampublikong ahente na maging neutral sa mga gumagamit?",
+    "options": ["Oo, dapat nilang tratuhin ang lahat ng mamamayan nang may pantay-pantay, anuman ang kanilang relihiyon", "Hindi, maaari nilang paboran ang mga nasa komunidad nila", "Lamang kung hilingin ng alkalde", "Hindi, ang neutralidad ay patungkol lamang sa pananamit"],
+    "bonne_reponse": 0,
+    "explication": "Ang neutralidad ay hindi lamang tungkol sa damit: nalalapat din ito sa pag-uugali. Ang ahente ng Estado ay dapat na walang kinikilingan sa lahat."
+  },
+  {
+    "id": 36,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ginagarantiyahan ng prinsipyo ng sekularismo?",
+    "options": ["Ang kalayaan ng budhi, kalayaan ng pagsamba at pagkakapantay-pantay ng lahat sa harap ng batas", "Ang pagbabawal na magtayo ng mga lugar ng pagsamba", "Ang obligasyong maging ateista", "Mga pampublikong holiday para sa lahat ng relihiyon"],
+    "bonne_reponse": 0,
+    "explication": "Ang sekularismo ay hindi isang opinyon, ito ang legal na balangkas na ginagarantiyahan na ang lahat ay malaya sa kanilang mga paniniwala sa isang nagkakaisa at pantay na lipunan."
+  },
+  {
+    "id": 37,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "May karapatan ba tayo na magpalit ng relihiyon?",
+    "options": ["Hindi", "Oo, ito ay isang ganap na karapatang ginagarantiyahan ng kalayaan ng budhi", "Sa edad ng mayorya (legal age) lamang", "Lamang kung ang mga magulang ay sumasang-ayon"],
+    "bonne_reponse": 1,
+    "explication": "Walang sinuman ang may karapatang pilitin kang panatilihin ang isang relihiyon. Kayo ay ganap na malayang magbalik-loob sa ibang pananampalataya o maging isang ateista."
+  },
+  {
+    "id": 38,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kinakatawan ng sekularismo?",
+    "options": ["Ang pagpapailalim ng kapangyarihang pampulitika sa relihiyon", "Ang paghihiwalay ng mga pampublikong institusyon at mga organisasyong panrelihiyon", "Ang pagpapalit ng relihiyon sa pamamagitan ng pulitika", "Ang digmaan laban sa mga relihiyon"],
+    "bonne_reponse": 1,
+    "explication": "Pinaghihiwalay ng sekularismo ang espirituwal na kapangyarihan mula sa temporal na kapangyarihan. Hindi pinamamahalaan ng Estado ang mga relihiyon, at ang mga relihiyon ay hindi gumagawa ng mga batas ng Estado."
+  },
+  {
+    "id": 39,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ipinagbabawal ng Charter of Secularity (Charte de la laïcité) sa paaralan?",
+    "options": ["Pag-aaral ng kasaysayan", "Ang pagsusuot ng damit o mga palatandaan kung saan ang mga mag-aaral ay hayagang nagpapakita ng kaugnayan sa relihiyon", "Kumain sa kantina", "Makipag-usap sa iba"],
+    "bonne_reponse": 1,
+    "explication": "Upang mapanatili ang paaralan bilang isang neutral na lugar ng pag-aaral, ipinagbabawal ng batas ng 2004 ang mga Islamic veil, kippah, malalaking krus o anumang iba pang nakikitang simbolo ng relihiyon."
+  },
+  {
+    "id": 40,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang sinasabi sa Artikulo 1 ng Konstitusyon ng Pransiya?",
+    "options": ["Ang Pransiya ay isang imperyo", "Ang Pransiya ay isang di mahahati, sekular, demokratiko at panlipunang Republika", "Ang Pransiya ay may opisyal na relihiyon", "Ang kapangyarihan ay pagmamay-ari ng hari"],
+    "bonne_reponse": 1,
+    "explication": "Itinatatag sa unang artikulo ang mga pundasyon ng ating bansa at inaalala na tinitiyak nito ang pagkakapantay-pantay sa harap ng batas para sa lahat ng mamamayan nang walang pagkakaiba ng pinagmulan, lahi o relihiyon."
+  },
+  {
+    "id": 41,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang Estado ng Batas (Rule of Law)?",
+    "options": ["Isang sistema kung saan ang Pangulo ang magdedesisyon ng lahat nang mag-isa", "Isang sistema kung saan ang Estado (ang pampublikong kapangyarihan) ay mismong napapailalim sa paggalang sa mga batas", "Isang diktadura ng pulisya", "Isang bansa na walang hukom"],
+    "bonne_reponse": 1,
+    "explication": "Sa isang estado ng batas (rule of law), ang mga namumuno, mga ministro at ang administrasyon ay dapat sumunod sa parehong mga batas bilang mga mamamayan. Tinitiyak ng hustisya ang paggalang na ito."
+  },
+  {
+    "id": 42,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Gumawa ng krimen ang Presidente ng Republika. Aling proposisyon ang tama?",
+    "options": ["Hindi siya maaaring litisin dahil siya ay pangulo", "Maaari siyang kasuhan ng Parliamento na nagpupulong sa Mataas na Hukuman (Haute Cour) kung sakaling may malubhang paglabag sa kanyang mga tungkulin", "Siya mismo ang huhusga sa krimen niya", "Magbabayad lang siya ng multa"],
+    "bonne_reponse": 1,
+    "explication": "Bagama't nasisiyahan siya sa immunity sa panahon ng kanyang mandato, ang Pangulo ay maaaring alisin kung siya ay gumawa ng isang gawaing maliwanag na hindi tugma sa kanyang mga tungkulin."
+  },
+  {
+    "id": 43,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang batas ay pagpapahayag ng:",
+    "options": ["Kalooban ng Pangulo", "Pangkalahatang kalooban (ng mga tao)", "Kalooban ng mga hukom", "Kalooban ng hukbo"],
+    "bonne_reponse": 1,
+    "explication": "Ayon sa Deklarasyon ng Karapatang Pantao, ang batas ay ang pagpapahayag ng pangkalahatang kalooban. Ito ay binoboto ng mga kinatawan ng mga tao (mga mambabatas)."
+  },
+  {
+    "id": 44,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang tagal ng mandato ng municipal council at ng mayor (alkalde)?",
+    "options": ["4 taon", "5 taon", "6 taon", "7 taon"],
+    "bonne_reponse": 2,
+    "explication": "Ang mga halalan sa munisipyo ay ginaganap tuwing anim na taon upang i-renew ang management team ng munisipalidad."
+  },
+  {
+    "id": 45,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang ginagarantiyahan ng estado ng batas?",
+    "options": ["Na mga mayayaman lamang ang may karapatan", "Ang proteksyon ng mga pangunahing kalayaan at ang pagkakapantay-pantay ng mga mamamayan sa harap ng batas", "Ang pagpapayaman ng mga pulitiko", "Na ang pamahalaan ay hinding-hindi maaaring punahin"],
+    "bonne_reponse": 1,
+    "explication": "Pinoprotektahan ng estado ng batas ang mamamayan laban sa di-makatwirang kapangyarihan sa pamamagitan ng pagtiyak na ang bawat pampulitika o administratibong desisyon ay gumagalang sa Batas."
+  },
+  {
+    "id": 46,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Maaari bang bumoto ang isang tao para sa iba?",
+    "options": ["Hindi, mahigpit na ipinagbabawal iyan sa lahat ng pagkakataon", "Oo, kung opisyal siyang binigyan ng proxy (procuration) ng ibang tao", "Oo, kung ito ay kanyang asawa", "Oo, sa pamamagitan ng telepono"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagboto ay personal. Gayunpaman, kung wala ang isang botante, maaari siyang magtatag ng isang opisyal na 'proxy' sa istasyon ng pulisya upang bumoto ang isa pang botante para sa kanya."
+  },
+  {
+    "id": 47,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sapilitan ba ang pagboto?",
+    "options": ["Oo, sa ilalim ng parusa ng multa", "Hindi, ito ay isang karapatan at moral na tungkulin sa sibiko, ngunit hindi isang legal na obligasyon", "Oo, maliban sa mga higit sa 70 taong gulang", "Para sa halalang pampanguluhan lamang"],
+    "bonne_reponse": 1,
+    "explication": "Hindi tulad sa ibang mga bansa (tulad ng Belgium), ang pagboto ay hindi sapilitan sa Pransiya. Ang hindi pagboto ay hindi pinarurusahan."
+  },
+  {
+    "id": 48,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sa pagtatapos ng kanyang mandato, maaari bang magpasya ang Pangulo ng Republika na manatili sa kapangyarihan?",
+    "options": ["Oo, kung nagtrabaho siya ng maayos", "Hindi, hindi siya maaaring manatili sa kapangyarihan nang hindi muling inihahalal sa mga demokratikong halalan", "Oo, nang may pahintulot ng hukbo", "Oo, nang walang katiyakan (indefinitely)"],
+    "bonne_reponse": 1,
+    "explication": "Nag-uutos ang demokrasya ng mga mandatong may limitasyon sa oras (5 taon para sa Pangulo). Higit pa rito, hindi siya makakagawa ng higit sa dalawang magkakasunod na termino."
+  },
+  {
+    "id": 49,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang nagdidirekta ng aksyon ng Pamahalaan?",
+    "options": ["Ang Punong Ministro", "Ang Pangulo ng Pambansang Asembleya (National Assembly)", "Ang Alkalde ng Paris", "Ang Ministro ng Panloob"],
+    "bonne_reponse": 0,
+    "explication": "Ayon sa Konstitusyon, ang Punong Ministro ang 'nagdidirekta ng pagkilos ng Pamahalaan' at tumitiyak sa pagpapatupad ng mga batas."
+  },
+  {
+    "id": 50,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang humirang (appoint) sa Punong Ministro?",
+    "options": ["Ang mga tao", "Ang Pangulo ng Republika", "Ang mga deputies (mambabatas)", "Ang mga hukom"],
+    "bonne_reponse": 1,
+    "explication": "May kapangyarihan ang Pangulo ng Republika na magtalaga ng Punong Ministro, na karaniwang isinasaalang-alang ang mayorya sa pulitika sa Pambansang Asembleya."
+  },
+  {
+    "id": 51,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang administratibong organisasyon ng Pransiya?",
+    "options": ["Mga kapitbahayan at mga kalye", "Ang munisipalidad (commune), ang departamento (département) at ang rehiyon (région)", "Mga lalawigan at kaharian", "Mga county"],
+    "bonne_reponse": 1,
+    "explication": "Ang Pransiya ay nahahati sa tatlong pangunahing antas ng mga teritoryal na komunidad: ang munisipalidad (pinamamahalaan ng mayor), ang departamento (konseho ng departamento) at ang rehiyon (rehiyonal na konseho)."
+  },
+  {
+    "id": 52,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang kapangyarihang lehislasyon (legislative power)?",
+    "options": ["Ang kapangyarihang mangasiwa ng hustisya", "Ang kapangyarihang ipatupad ang mga batas", "Ang kapangyarihang makipagdebate at bumoto sa mga batas (hawak ng Parlamento)", "Ang kapangyarihang pamahalaan ang hukbo"],
+    "bonne_reponse": 2,
+    "explication": "Ang kapangyarihang mambabatas (legislative) ay nabibilang sa National Assembly (mga deputies) at Senado (mga senador), na siyang gumagawa ng batas."
+  },
+  {
+    "id": 53,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Bakit ihiwalay ang tatlong kapangyarihan sa isang demokrasya?",
+    "options": ["Para makapagbigay ng karagdagang trabaho", "Upang maiwasan ang konsentrasyon ng mga kapangyarihan sa mga kamay ng iisang tao (diktadurya) at maprotektahan ang mga kalayaan", "Upang gawin itong mas mahal", "Para maging kumplikado ang mga batas"],
+    "bonne_reponse": 1,
+    "explication": "Ayon kay Montesquieu, ang paghihiwalay ng mga kapangyarihan (Lehislasyon, Ehekutibo, Hudisyal) ay nagbibigay-daan sa isang kapangyarihan na pigilan ang isa pang kapangyarihan, sa gayon ginagarantiyahan ang demokrasya."
+  },
+  {
+    "id": 54,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang nagpaparusa sa gumawa ng pagnanakaw?",
+    "options": ["Ang biktima", "Ang alkalde", "Ang awtoridad ng hudisyal (isang hukom sa korte)", "Pulisya lamang"],
+    "bonne_reponse": 2,
+    "explication": "Kung aarestuhin ng pulisya ang suspek, tanging ang sistema ng hustisya ang may kapangyarihang husgahan silang nagkasala at magpataw ng parusa (multa, kulungan)."
+  },
+  {
+    "id": 55,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang papel ng pamahalaan?",
+    "options": ["Upang bumoto sa mga batas", "Upang tukuyin at magsagawa ng patakaran ng Bansa at ipatupad ang mga batas", "Para humusga ng mga kasong sibil", "Upang ayusin ang mga pambansang pista opisyal"],
+    "bonne_reponse": 1,
+    "explication": "Sa pamumuno ng Punong Ministro, ang Gobyerno ay gumagawa ng mga araw-araw na desisyon para pamahalaan ang bansa (ekonomiya, kalusugan, seguridad) at ipinapatupad ang mga textong binoto ng Parliamento."
+  },
+  {
+    "id": 56,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang mangyayari kung hindi igalang ng isang ministro ang batas?",
+    "options": ["Wala siyang panganib", "Binabayaran niya ang multa para sa lahat", "Maaari siyang usigin at hatulan ng hustisya, tulad ng sinumang mamamayan", "Pinagpapaumanhinan siya ng pangulo"],
+    "bonne_reponse": 2,
+    "explication": "Sa estado ng batas, ang mga tagapamahala ay napapailalim sa parehong batas bilang iba pang mga mamamayan. Ang isang espesyal na korte, ang Cour de Justice de la République, ang humahatol sa mga ministro sa mga krimeng ginawa sa pagtupad ng kanilang mga tungkulin."
+  },
+  {
+    "id": 57,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ilang mga mambabatas (deputies) ang bumubuo sa Pambansang Asembleya (Assemblée nationale)?",
+    "options": ["100", "348", "577", "1000"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pambansang Asembleya ay binubuo ng 577 kinatawan (deputies) na inihalal sa pamamagitan ng direktang unibersal na pagboto para sa 5-taong mandato."
+  },
+  {
+    "id": 58,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang makakaboto sa halalan sa Pransiya?",
+    "options": ["Mga mamamayang may nasyonalidad na Pranses na nakarehistro sa listahan ng mga botante (at mga mamamayan ng Europa para sa lokal/European na halalan)", "Lahat ng residente", "Lalaki lang", "Mga may-ari lamang"],
+    "bonne_reponse": 0,
+    "explication": "Ang karapatang bumoto sa pambansang halalan ay nakaugnay sa pagkamamamayang Pranses. Ang isang pagbubukod ay umiiral para sa munisipal at European na mga halalan, na bukas sa mga mamamayan ng EU."
+  },
+  {
+    "id": 59,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Gaano katagal ang mandato ng mga senador na inihahalal?",
+    "options": ["3 taon", "5 taon", "6 taon", "7 taon"],
+    "bonne_reponse": 2,
+    "explication": "Ang Senado ay binubuo ng 348 senador na inihalal para sa isang 6-taong termino sa pamamagitan ng di-tuwirang unibersal na pagboto (ng mga 'grands électeurs')."
+  },
+  {
+    "id": 60,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang paghihiwalay ng mga kapangyarihan ay isang pangunahing prinsipyo. Ano ang tatlong kapangyarihang kinauukulan nito?",
+    "options": ["Pampulitika, Militar, Relihiyoso", "Lehislasyon, Ehekutibo, Hudisyal", "Nasyonal, Rehiyonal, Lokal", "Ekonomiko, Panlipunan, Pangkapaligiran"],
+    "bonne_reponse": 1,
+    "explication": "Ang demokratikong balanse ay nakasalalay sa tatlong haliging ito: ang mga gumagawa ng batas (Legislative), ang nagpapatupad nito (Ehekutibo) at ang mga nagpapatupad na respetuhin ito (Judicial)."
+  },
+  {
+    "id": 61,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Nasa Pangulo ba ng Republika ang lahat ng kapangyarihan?",
+    "options": ["Oo, ito ay parang monarka", "Hindi, ang kapangyarihan ay nahahati (paghihiwalay ng mga kapangyarihan) para magarantiyahan ang demokrasya", "Oo, simula sa pagbabago ng Konstitusyon", "Oo, pero kapag panahon lang ng digmaan"],
+    "bonne_reponse": 1,
+    "explication": "Ang kapangyarihang tagapagpaganap (Pangulo), kapangyarihang lehislatibo (Parliament) at kapangyarihang hudisyal (mga hukom) ay mahigpit na pinaghihiwalay para iwasan ang diktadurya."
+  },
+  {
+    "id": 62,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang prepekto (préfet)?",
+    "options": ["Ang direktang kinatawan ng Pangulo at Gobyerno sa departamento (probinsya)", "Ang pinuno ng bumbero", "Isang nahalal mula sa rehiyonal na konseho", "Ang alkalde ng pinakamalaking lungsod"],
+    "bonne_reponse": 0,
+    "explication": "Ang prepekto ay isang mataas na tagapaglingkod ng bayan na hinirang ng Pangulo. Kinakatawan niya ang Estado sa lokal na antas at sinisiguro ang pagpapanatili ng kaayusan ng publiko."
+  },
+  {
+    "id": 63,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang kinakailangang kondisyon para bumoto sa pambansang halalan?",
+    "options": ["Maging may-ari ng tirahan", "Nagbabayad ng buwis sa kita", "Nasa legal na edad (majeur), may pagkamamamayang Pranses at nakarehistro sa listahan ng mga botante", "Mayroong trabaho"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagboto sa pambansang halalan (gaya ng pampanguluhan) ay nangangailangan ng edad na hindi bababa sa 18, mamamayang Pranses at nakarehistro sa listahan ng botante sa munisipyo."
+  },
+  {
+    "id": 64,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang namamahala sa munisipalidad (commune)?",
+    "options": ["Ang presidente ng departmental council", "Ang prepekto", "Ang deputy (mambabatas)", "Ang alkalde at ang kanyang konseho ng munisipyo"],
+    "bonne_reponse": 3,
+    "explication": "Ang alkalde ay ang hepe ng ehekutibo ng munisipalidad. Siya ay inihalal ng mga miyembro ng konseho ng munisipyo (na siya namang inihalal ng mga mamamayan)."
+  },
+  {
+    "id": 65,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang kasalukuyang pampulitikang rehimen ng Pransiya?",
+    "options": ["Isang ganap na rehimeng pampanguluhan (absolute presidential)", "Isang parliamentaryong monarkiya", "Isang Demokratikong Republika", "Isang rehimeng militar"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pransiya ay isang Demokratikong Republika: ang pambansang soberanya ay kabilang sa mga tao na nagsasagawa nito sa pamamagitan ng kanilang mga kinatawan at sa pamamagitan ng referendum."
+  },
+  {
+    "id": 66,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang Hôtel de Matignon?",
+    "options": ["Ang headquarters ng Constitutional Council", "Ang opisyal na tirahan at lugar ng trabaho ng Punong Ministro", "Isang malaking museo sa Paris", "Ang Ministri ng Interyor"],
+    "bonne_reponse": 1,
+    "explication": "Ang Hôtel de Matignon, na matatagpuan sa Paris, ay ang opisyal na tirahan ng Pinuno ng Gobyerno (Punong Ministro), katulad ng Élysée na para naman sa Pangulo."
+  },
+  {
+    "id": 67,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang Parlamento ay binubuo ng:",
+    "options": ["Ang Pangulo at ang kanyang mga ministro", "Ang Pambansang Asembleya at ang Senado", "Mga Alkalde at prepekto", "Mga hukom at abugado"],
+    "bonne_reponse": 1,
+    "explication": "Sa Pransiya, ang Parlamento ay 'bicaméral' (dalawang kapulungan): ito ay binubuo ng mga deputies (Pambansang Asembleya) at mga senador (Senado)."
+  },
+  {
+    "id": 68,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang tungkulin ng Pangulo ng Republika?",
+    "options": ["Bumoto sa mga batas", "Mag-direkta sa mga hukom", "Siya ang Pinuno ng Estado, Pinuno ng sandatahang lakas at tagapaggarantiya ng Konstitusyon", "Pamahalaan ang mga badyet ng mga munisipyo"],
+    "bonne_reponse": 2,
+    "explication": "Tinitiyak ng Pangulo ang paggalang sa Konstitusyon. Tinitiyak niya, sa pamamagitan ng kanyang arbitrasyon, ang regular na paggana ng pampublikong awtoridad at pagpapatuloy ng Estado."
+  },
+  {
+    "id": 69,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang tungkulin ng Punong Ministro?",
+    "options": ["Pangunahan ang aksyon ng Gobyerno", "Pangunahan ang Senado", "Kumatawan sa Estado sa ibang bansa", "Gumawa ng mga batas sa ngalan ng Parlamento"],
+    "bonne_reponse": 0,
+    "explication": "Ang Punong Ministro ay nag-uutos sa pagkilos ng kanyang pangkat ng pamahalaan (ang mga ministro) at tinitiyak ang pagpapatupad ng mga batas."
+  },
+  {
+    "id": 70,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang Pinuno ng Pamahalaan (Chef du Gouvernement)?",
+    "options": ["Ang Pangulo ng Republika", "Ang Ministro ng Panloob", "Ang Punong Ministro", "Ang Pangulo ng Pambansang Asembleya"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay ang Punong Ministro. (Mag-ingat sa trick question: Ang Pangulo ng Republika ay ang Pinuno ng Estado, hindi ang Pinuno ng Pamahalaan)."
+  },
+  {
+    "id": 71,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ilan ang mga rehiyon sa Pransiya?",
+    "options": ["10", "13 sa métropole (kabuuan na 18 kasama ang mga nasa labas ng bansa/outre-mer)", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "Simula sa repormang teritoryal ng 2016, ang Pransiya ay mayroong 18 na rehiyon (13 sa metropolitan Pransiya at 5 sa ibayong dagat)."
+  },
+  {
+    "id": 72,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang papel ng Défenseur des droits (Tagapagtanggol ng mga karapatan)?",
+    "options": ["Ipagtanggol ang Estado sa harap ng mga korte", "Protektahan ang mga karapatan at kalayaan ng mga mamamayan at labanan ang diskriminasyon", "Palitan ang pulisya", "Bumoto ng mga panlipunang batas"],
+    "bonne_reponse": 1,
+    "explication": "Ang Tagapagtanggol ng mga karapatan ay isang malayang institusyon ng Estado. Ang sinumang tao na naniniwalang biktima sila ng diskriminasyon o inhustisyang administratibo ay maaaring magsumite nang libre."
+  },
+  {
+    "id": 73,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kailan pa naging solong currency (pera) ang euro sa Pransiya?",
+    "options": ["1958", "1992", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Kahit naitala nang maaga ang desisyon, ang mga barya at perang papel na euro ay unang inilagay sa sirkulasyon noong Enero 1, 2002."
+  },
+  {
+    "id": 74,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang pangunahing tungkulin ng isang departamento (département)?",
+    "options": ["Pamahalaan ang hukbo", "Panlipunang aksyon (tulong sa mga matatanda, RSA), ang pamamahala ng mga middle school (collège) at kalsada ng departamento", "Pag-print ng pera", "Bumoto sa budget ng Estado"],
+    "bonne_reponse": 1,
+    "explication": "Ang konseho ng departamento ay may pangunahing hurisdiksyon sa pagkakabuklod at aksyong panlipunan (RSA, tulong panlipunan para sa mga bata, kapansanan)."
+  },
+  {
+    "id": 75,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang pangunahing papel ng mga munisipalidad (communes)?",
+    "options": ["Pamamahala sa ugnayang diplomatiko", "Pamamahala ng katayuang sibil (état civil), lokal na pagpaplano ng lunsod, mababang paaralan at lokal na aksyong panlipunan", "Paggawa ng pera (Minting coin)", "Paghahatol sa mga krimen"],
+    "bonne_reponse": 1,
+    "explication": "Ang munisipalidad ang pinakamalapit na yunit ng komunidad para sa mga serbisyo (pag-enrol sa paaralan, kasal, permiso sa pagtatayo)."
+  },
+  {
+    "id": 76,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Humigit-kumulang ilang munisipalidad ang mayroon sa Pransiya?",
+    "options": ["Halos 5,000", "Halos 15,000", "Halos 35,000", "Halos 100,000"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pransiya ay may iilang mababa sa 35,000 na munisipalidad. Ito ang bansa sa Europa na may pinakamaraming munisipalidad."
+  },
+  {
+    "id": 77,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Aling kasunduan (treaty) ang nauugnay sa pagtatag ng European Union na kilala natin ngayon?",
+    "options": ["Kasunduan ng Versailles", "Kasunduan ng Maastricht", "Kasunduan ng Paris", "Utos ng Nantes (Édit de Nantes)"],
+    "bonne_reponse": 1,
+    "explication": "Ang Kasunduan ng Maastricht, nilagdaan noong 1992, ay nagmamarka sa pagkakatatag ng European Union, partikular na ang pagtatatag ng European citizenship at ang proyekto sa solong pera."
+  },
+  {
+    "id": 78,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Aling bansa ang umalis sa European Union noong 2020?",
+    "options": ["Italya", "United Kingdom", "Gresya", "Espanya"],
+    "bonne_reponse": 1,
+    "explication": "Ang United Kingdom ay opisyal na umalis sa European Union noong Enero 31, 2020, kasunod ng sikat na reperendum na kilala bilang 'Brexit'."
+  },
+  {
+    "id": 79,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang motto ng European Union?",
+    "options": ["Liberté, Égalité, Fraternité", "Nagkakaisa sa pagkakaiba-iba (Unie dans la diversité)", "Ang pagkakaisa ay lakas", "Kapayapaan at Kasaganaan"],
+    "bonne_reponse": 1,
+    "explication": "Binibigyang-diin ng motto na 'Unie dans la diversité' na ang mga Europeo ay nagkakaisa upang magtrabaho para sa kapayapaan, habang pinagyayaman mula sa kanilang magkakaibang kultura."
+  },
+  {
+    "id": 80,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang awit ng European Union?",
+    "options": ["La Marseillaise", "Ode to Joy (Ode à la joie)", "Hymne à l'amour", "Chant des Partisans"],
+    "bonne_reponse": 1,
+    "explication": "Ang Ode to Joy (kinuha sa ika-9 na symphony ni Beethoven) ay ang opisyal na awit ng European Union."
+  },
+  {
+    "id": 81,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Saan binubuo ang watawat ng Europa?",
+    "options": ["Isang itim na agila", "Isang puting krus", "12 gintong bituin na nakaayos nang pabilog", "27 bituin (isa para sa bawat bansa)"],
+    "bonne_reponse": 2,
+    "explication": "Ang bandila ay laging nagtatampok ng 12 bituin sa isang bilog, simbolo ng pagiging perpekto, kabuuan at pagkakaisa (ang bilang ng mga bituin ay hindi nagbabago kasama ng bilang ng mga miyembrong bansa)."
+  },
+  {
+    "id": 82,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Anong kulay ang bandila ng Europa?",
+    "options": ["Bughaw na background na may mga bituin na dilaw/ginto", "Puting background na may pulang bituin", "Luntiang background na may dilaw na araw", "Pula at itim"],
+    "bonne_reponse": 0,
+    "explication": "Kinakatawan ng watawat ng Europa ang bilog ng 12 gintong bituin sa isang asul na background, na sumasagisag sa pagkakasundo ng mga tao sa Europa."
+  },
+  {
+    "id": 83,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Anong taon nilagdaan ang Kasunduan ng Maastricht, na nagmamarka ng pundasyon ng EU?",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Nilagdaan noong 1992, ang Kasunduan ng Maastricht ay binago ang European Economic Community (EEC) sa kasalukuyang European Union."
+  },
+  {
+    "id": 84,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Nasaan ang himpilan ng European Parliament?",
+    "options": ["Sa Paris (Pransiya)", "Sa Strasbourg (Pransiya)", "Sa Berlin (Alemanya)", "Sa Rome (Italya)"],
+    "bonne_reponse": 1,
+    "explication": "Ang opisyal na himpilan ng European Parliament (kung saan gaganapin ang mga sesyon ng plenaryo ng mga MEP) ay matatagpuan sa Strasbourg, Pransiya."
+  },
+  {
+    "id": 85,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Nasaan ang himpilan ng European Commission?",
+    "options": ["Sa Brussels (Belhika)", "Sa Geneva (Suwisa)", "Sa Madrid (Espanya)", "Sa Strasbourg (Pransiya)"],
+    "bonne_reponse": 0,
+    "explication": "Ang European Commission, na siyang ehekutibong lupon ng EU (nagpapanukala at naglalapat ng mga batas), ay may pangunahing headquarters nito sa Brussels."
+  },
+  {
+    "id": 86,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Aling bansa ang HINDI miyembro ng European Union?",
+    "options": ["Suwisa", "Pransiya", "Alemanya", "Espanya"],
+    "bonne_reponse": 0,
+    "explication": "Sa kabila ng posisyon nito sa gitna ng Europa, ang Suwisa (Switzerland) ay hindi miyembro ng EU (katulad ng Norway o ng United Kingdom)."
+  },
+  {
+    "id": 87,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kailan natin ipinagdiriwang ang araw ng Europa?",
+    "options": ["Mayo 1", "Mayo 9", "Hulyo 14", "Nobyembre 11"],
+    "bonne_reponse": 1,
+    "explication": "Ang Mayo 9 ay nagdiriwang sa Europa bilang parangal sa Deklarasyon ng Schuman noong Mayo 9, 1950, ang simula ng konstruksyon ng Europa."
+  },
+  {
+    "id": 88,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Gaano kadalas inaayos ang mga halalan sa Europa?",
+    "options": ["Tuwing 3 taon", "Tuwing 5 taon", "Tuwing 7 taon", "Taon-taon"],
+    "bonne_reponse": 1,
+    "explication": "Bumoboto ang mga mamamayan ng EU tuwing 5 taon para maghalal ng mga MEP na kakatawan sa kanila sa European Parliament."
+  },
+  {
+    "id": 89,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Anong kondisyon ang kinakailangan upang makaboto sa mga halalan sa Europa?",
+    "options": ["Magkaroon ng pandaigdigang pasaporte", "Maging mamamayan ng isang miyembrong estado ng EU at nakarehistro sa listahan ng mga botante", "Magbayad ng European tax", "Nakapagtapos ng mataas na edukasyon"],
+    "bonne_reponse": 1,
+    "explication": "Sa Pransiya, ang isang European citizen mula sa isa pang Estado ng Miyembro ay maaaring bumoto sa mga halalan sa Europa kung sila ay nakarehistro sa mga pandagdag na listahan ng elektoral."
+  },
+  {
+    "id": 90,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Aling bansa ang isang founding country (tagapagtatag) ng European Union?",
+    "options": ["Pransiya", "Suwesya", "Austria", "Polonya"],
+    "bonne_reponse": 0,
+    "explication": "Ang Pransiya ay isa sa anim na orihinal na tagapagtatag na miyembro (kasama ang Alemanya, Italya, Belhika, Netherlands at Luxembourg)."
+  },
+  {
+    "id": 91,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Anong kalayaan ang tinutukoy ng PMA?",
+    "options": ["Ang kalayaan sa pamamahayag", "Ang karapatan sa kalusugan at kalayaang magtayo ng pamilya", "Kalayaan sa paggalaw", "Ang karapatang bumoto"],
+    "bonne_reponse": 1,
+    "explication": "Ang PMA (Procréation Médicalement Assistée) o Medically Assisted Reproduction, ay bahagi ng pangunahing karapatang ma-access sa pangangalaga sa kalusugan at kalayaan ng mag-asawa at babaeng walang asawa na bumuo ng pamilya."
+  },
+  {
+    "id": 92,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sa pangalan ng ano pinaninindigan ng Estado ang paghihigpit sa mga karapatan?",
+    "options": ["Sa ngalan ng pag-iingat sa kaayusan ng publiko, seguridad o kalusugan ng publiko", "Para sa pang-ekonomiyang dahilan lamang", "Upang parusahan ang mga dayuhan", "Para sa kapakinabangan ng mga ministro"],
+    "bonne_reponse": 0,
+    "explication": "Ang kalayaan ay hindi absolute. Maaaring limitahan ito ng Estado kung ang pangkalahatang interes (ang kaligtasan ng lahat, tulad noong panahon ng pandemya) ay nangangailangan nito."
+  },
+  {
+    "id": 93,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tungkol sa karapatang magpakasal, aling pahayag ang tama?",
+    "options": ["Nakalaan ito para sa mga heterosexual na mag-asawa", "Ang pag-aasawa ay karapatang bukas para sa mga mag-asawa ng magkasalungat na kasarian at magkaparehong kasarian", "Kailangan ang pahintulot mula sa pulis", "Ipinagbabawal ang pagpapakasal sa isang dayuhan"],
+    "bonne_reponse": 1,
+    "explication": "Ang 'Marriage for All' (Kasal para sa Lahat), na ipinahayag noong 2013, ay ginagarantiyahan ang karapatang mag-asawang sibil sa lahat ng mag-asawa, kung sila man ay pareho o magkaiba ng kasarian."
+  },
+  {
+    "id": 94,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Lagi bang posible ang makipagdiborsiyo?",
+    "options": ["Hindi, ipinagbabawal ito", "Oo, ang karapatan sa diborsyo ay ginagarantiyahan ng batas para sa lahat ng may-asawa", "Lamang kung wala kayong anak", "Sa pahintulot lamang ng pamilya"],
+    "bonne_reponse": 1,
+    "explication": "Ang karapatan na makipagdiborsyo ay isang pangunahing kalayaan sa Pransiya, kung ito man ay mapayapa (kasunduan sa kapwa) o pinagtatalunan sa harap ng isang hukom."
+  },
+  {
+    "id": 95,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ang parusang kamatayan ay:",
+    "options": ["Laging ipinapatupad para sa malubhang krimen", "Pansamantalang sinuspinde", "Tiyak na inalis (abolished) sa Pransiya mula pa noong 1981", "Ginagamit lamang sa mga mahigpit na bilangguan"],
+    "bonne_reponse": 2,
+    "explication": "Sa ilalim ng pagkapangulo ni François Mitterrand at salamat kay Robert Badinter, inalis ang parusang kamatayan at pinalitan ng mga parusang pagkakakulong."
+  },
+  {
+    "id": 96,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Alin sa mga quotes na ito ang kasama sa Declaration of the Rights of Man and of the Citizen ng 1789?",
+    "options": ["\"Ang Pransiya ay isang Imperyo\"", "\"Ang mga tao ay ipinanganak at nananatiling malaya at pantay-pantay sa mga karapatan\"", "\"Ang Estado ay ako\"", "\"Magtrabaho, magsumikap\""],
+    "bonne_reponse": 1,
+    "explication": "Ang Artikulo 1 ng DDHC ng 1789 ay ang pundasyon ng Republika: nagtatatag ito ng ganap na prinsipyo ng pagkakapantay-pantay ng mga mamamayan mula nang sila ay isilang."
+  },
+  {
+    "id": 97,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pinapayagan ba ang pagpapa-abort?",
+    "options": ["Hindi, ito ay isang krimen", "Oo, ang IVG (Voluntary Interruption of Pregnancy) ay isang garantisadong karapatan", "Tanging kung ang ama ay sumasang-ayon", "Para sa malubhang medikal na kadahilanan lamang"],
+    "bonne_reponse": 1,
+    "explication": "Mula noong batas ng Veil noong 1975, ang aborsyon ay pinahihintulutan. Ang kalayaang gumamit ng IVG ay nakasulat na ngayon sa Konstitusyon."
+  },
+  {
+    "id": 98,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang nilalaman ng Konstitusyon?",
+    "options": ["Ang batas ng trapiko (Highway Code)", "Ang organisasyon ng mga pampublikong awtoridad at ang mga pangunahing karapatan ng mga mamamayan", "Mga oras ng tren", "Ang mga regulasyon sa bilangguan"],
+    "bonne_reponse": 1,
+    "explication": "Ang Konstitusyon ay ang pangunahing teksto na nagtukoy kung paano pamamahalaan ang bansa (Presidente, Parliamento) at kung alin ang nagpoprotekta sa karapatang pantao."
+  },
+  {
+    "id": 99,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang ginagarantiyahan ng kalayaan ng pamamahayag (press freedom)?",
+    "options": ["Na libre ang mga pahayagan", "Ang karapatan para sa mga mamamahayag na magpakalat ng impormasyon at batikusin ang gobyerno nang walang paunang censorship", "Ang karapatang manirang-puri nang hindi napaparusahan", "Ang obligasyong suportahan ang Pangulo"],
+    "bonne_reponse": 1,
+    "explication": "Haligi ng demokrasya (batas ng 1881), pinipigilan ng kalayaan sa pamamahayag ang Estado sa pagkontrol o pag-censor ng media."
+  },
+  {
+    "id": 100,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang itinatadhana ng Charter ng Kapaligiran (Charte de l'environnement)?",
+    "options": ["Ang obligasyong magkaroon ng hardin", "Ang karapatan ng lahat na mabuhay sa isang kapaligiran na balanse at gumagalang sa kalusugan", "Ang pagbabawal sa mga sasakyan", "Ang karapatang magdumihan ng paligid (pollute) kung magbabayad ka"],
+    "bonne_reponse": 1,
+    "explication": "Pinagsama sa Konstitusyon noong 2005, itinatag ng charter na ito ang pangangalaga sa kalikasan bilang pangunahing karapatan ng halaga ng konstitusyonal."
+  },
+  {
+    "id": 101,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang ibig sabihin ng dignidad ng tao (human dignity)?",
+    "options": ["Maging maayos manamit", "Ang prinsipyo na ang bawat tao ay may karapatan sa ganap na paggalang sa kanyang tao, na nagbabawal sa nakakapababa na paggamot (degrading treatments)", "Ang katotohanan ng kumita ng maraming pera", "Huwag kailanmang humingi ng paumanhin"],
+    "bonne_reponse": 1,
+    "explication": "Ang dignidad ng tao ay isang pinakamataas na legal na prinsipyo. Ipinagbabawal nito ang pang-aalipin, pagpapahirap (torture) at di-makataong pagtrato."
+  },
+  {
+    "id": 102,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang ibig sabihin ng karapatang mag-demonstrate/mag-protesta?",
+    "options": ["Ang karapatang basagin ang mga bintana", "Ang karapatang ipahayag ang sarili nang sama-sama at mapayapa sa pampublikong lansangan", "Ang karapatang huminto sa trabaho", "Ang pagbabawal na lumabas ng bahay"],
+    "bonne_reponse": 1,
+    "explication": "Garantisado ng batas, pinapayagan ng demonstrasyon ang mga mamamayan na ipahayag nang hayagan ang kanilang mga hinaing. Ito ay dapat sapilitan na mapayapa at idineklara (ipinagpaalam sa gobyerno)."
+  },
+  {
+    "id": 103,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang ibig sabihin ng PMA?",
+    "options": ["Prime Mensuelle d'Activité", "Procréation Médicalement Assistée (Medically Assisted Reproduction)", "Police Municipale Auxiliaire", "Permis de Mise sur le Marché"],
+    "bonne_reponse": 1,
+    "explication": "Pinagsasama ng Procréation Médicalement Assistée (PMA) ang mga kasanayan sa klinikal at biological (tulad ng in vitro fertilization) upang makatulong sa paglilihi sa isang bata."
+  },
+  {
+    "id": 104,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling teksto ang pinakamahirap baguhin?",
+    "options": ["Ang mga panuntunan ng isang paaralan", "Isang ordinaryong batas", "Ang Konstitusyon", "Ang Highway Code"],
+    "bonne_reponse": 2,
+    "explication": "Ang Konstitusyon ay nasa tuktok ng herarkiya ng mga batas (norms). Nangangailangan ng napakabigat na pamamaraan upang mabago (reperendum o boto ng Parliamento na nagpulong bilang Kongreso)."
+  },
+  {
+    "id": 105,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Anong kalayaan ang nagpapahintulot sa isang tao na maniwala sa relihiyon na gusto niya?",
+    "options": ["Kalayaan sa pamamahayag", "Kalayaan sa paggalaw", "Kalayaan sa pagsasamahan", "Kalayaan ng budhi (freedom of conscience, ginagarantiyahan ng sekularismo)"],
+    "bonne_reponse": 3,
+    "explication": "Ang kalayaan ng budhi ay ang karapatan ng bawat indibidwal na piliin ang kanyang mga pagpapahalaga, kanyang paniniwala o kanyang relihiyon nang hindi nakikialam ang Estado."
+  },
+  {
+    "id": 106,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang karapatan sa pagwewelga (droit de grève)?",
+    "options": ["Ang karapatang saktan ang iyong amo", "Sama-sama at sama-samang pagtigil sa trabaho para ipagtanggol ang mga propesyonal na kahilingan", "Ang karapatang hindi pumasok sa trabaho kapag umuulan", "Ang karapatang insultuhin ang mga kasamahan sa trabaho"],
+    "bonne_reponse": 1,
+    "explication": "Kinikilala ng Konstitusyon, pinapayagan ng karapatan sa pag-welga ang mga empleyado na ipagpilitan nang mapayapa sa kanilang amo upang mapabuti ang kanilang mga kondisyon sa trabaho."
+  },
+  {
+    "id": 107,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang Konstitusyon?",
+    "options": ["Ang pangalan ng National Assembly", "Ang pambansang awit", "Ang kataas-taasang batas ng Estado na nag-oorganisa ng mga kapangyarihan at nagpoprotekta sa mga karapatan", "Ang aklat na naglilista ng mga kriminal na batas"],
+    "bonne_reponse": 2,
+    "explication": "Lahat ng iba pang batas na inaprubahan sa Pransiya ay dapat palaging sundin ang mga alituntuning inilatag ng Konstitusyon."
+  },
+  {
+    "id": 108,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sino ang makakapag-request ng abortion?",
+    "options": ["Ang asawa ng babaeng buntis", "Doctor lang", "Sinumang buntis na hindi nagnanais ipagpatuloy ang kanyang pagbubuntis", "Ang employer ng babae"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagpapasya na gumamit ng IVG ay eksklusibo sa buntis. Hindi niya kailangan ng pahintulot ng sinuman."
+  },
+  {
+    "id": 109,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "May karapatan bang bumoto sa halalan ang babae sa wastong gulang na Pranses?",
+    "options": ["Hindi, ang pagboto ay inilaan sa mga kalalakihan", "Oo, ang mga kababaihan ay may eksaktong kaparehong mga pampulitikang karapatan tulad ng mga lalaki", "Oo, ngunit para lamang sa mga munisipal na halalan", "Tanging kapag may pagsang-ayon ang kanyang asawa"],
+    "bonne_reponse": 1,
+    "explication": "Natamo noong 1944, ang karapatan ng mga babae sa pagboto ay nagsisiguro ng perpektong pagkakapantay-pantay sibil at pampulitika ng lahat ng mga mamamayan ng Pransiya."
+  },
+  {
+    "id": 110,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tungkol sa paggamit ng mga social network, anong proposisyon ang tama?",
+    "options": ["Ang mga batas ng Republika ay umiiral doon (ang mga pang-iinsulto at pagbabanta ay pinarurusahan)", "Lahat ay maaaring sabihin roon habang nananatiling anonymous", "Wala itong access ng pulisya", "Ang mga batas ay hindi umiiral sa internet"],
+    "bonne_reponse": 0,
+    "explication": "Ang digital na espasyo ay hindi isang zone kung saan walang batas. Ang cyberbullying, defamation, at pagkamuhi online ay mga krimeng pinaparusahan ng hustisya."
+  },
+  {
+    "id": 111,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ang pagtatapon ng upos ng sigarilyo sa lupa ay:",
+    "options": ["Isang ginagawang tinatanggap", "Isang paglabag sa Environmental Code na pinaparusahan ng multa", "Legal kung ito ay malapit sa punong basurahan", "Isang pruweba ng kalayaan"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagtatapon ng basura sa pampublikong daan (kasama na ang maliit na upos ng sigarilyo) ay isang incivility na mahigpit na ipinagbabawal at pinarurusahan ng krimen."
+  },
+  {
+    "id": 112,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Maaari bang limitahan ng Estado ang mga karapatan at kalayaan?",
+    "options": ["Hindi kailanman", "Oo, ngunit sa pamamagitan lamang ng batas at kung kinakailangan upang protektahan ang pampublikong kaayusan o karapatan ng iba", "Oo, base sa simpleng desisyon ng isang pulis", "Oo, ayon sa kagustuhan ng alkalde"],
+    "bonne_reponse": 1,
+    "explication": "Ang kalayaan ay hindi kawalan ng mga panuntunan. Ang mga legal na limitasyon ay maaaring ilagay (hal: lockdown, pagkontrol ng bagahe) upang mapanatili ang seguridad ng lahat."
+  },
+  {
+    "id": 113,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Mula sa mga gawaing ito, alin ang nagbibigay-daan sa pagpapatibay ng saloobing may paggalang sa kapaligiran?",
+    "options": ["Hayaang patuloy na tumutulo ang tubig", "Paghihiwalay sa basura at pagbabawas ng pagkonsumo ng enerhiya", "Pagsusunog ng basura sa hardin", "Ang pagkuha ng kotse para sa maikling biyahe"],
+    "bonne_reponse": 1,
+    "explication": "Ang ekolohikal na transisyon ay umaasa sa pagsisikap ng lahat: hiwalay na pag-aayos (selective sorting), pagtitipid sa tubig at kuryente, at paggamit ng pampublikong transportasyon."
+  },
+  {
+    "id": 114,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling panukala ang bumubuo ng isang obligasyon para sa bawat residente sa Pransiya?",
+    "options": ["Ang pagbabayad ng buwis at igalang ang batas ng Republika", "Bumili ng sasakyan", "Mag-asawa bago ang 30 taong gulang", "Sumali sa unyon"],
+    "bonne_reponse": 0,
+    "explication": "Ang pagtira sa lipunan ay nagpapataw ng mga mahigpit na tungkulin: paggalang sa batas, pananalapi na kontribusyon (buwis), at paggalang sa iba pang mga mamamayan."
+  },
+  {
+    "id": 115,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sa anong dahilan malilimitahan ang kalayaan sa pagpapahayag?",
+    "options": ["Upang protektahan ang Pangulo mula sa pagpuna", "Kung mayroong paghihikayat sa poot, pag-iinsulto, o paninirang-puri", "Kung ang press ay hindi sumasang-ayon sa Gobyerno", "Upang i-censor ang mga biro"],
+    "bonne_reponse": 1,
+    "explication": "Ang kalayaan sa pagpapahayag ay hindi nagbibigay ng karapatang atakihin ang dignidad ng tao. Ang paghikayat sa karahasan at kapootang panlahi ay hindi opinyon, kundi mga krimen."
+  },
+  {
+    "id": 116,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Bakit dapat nating paghiwa-hiwalayin (sort) ang ating basura?",
+    "options": ["Upang maging maganda tingnan", "Upang payagan ang recycle nito, makatipid ng natural na mapagkukunan, at labanan ang polusyon", "Upang bigyan ng gagawin ang mga nagtitipon ng basura", "Dahil masyadong maliit ang mga basurahan"],
+    "bonne_reponse": 1,
+    "explication": "Ang paghihiwalay ng basura (selective sorting) ay isang tungkuling sibiko na bahagi ng Charter for the Environment upang masiguro ang sustainable development."
+  },
+  {
+    "id": 117,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang dapat gawin ng biktima ng karahasan?",
+    "options": ["Ayusin ang problema mag-isa", "Manahimik upang maiwasan ang gulo", "Humanap ng ligtas na lugar, tawagan ang emergency services (17 o 112) at magsampa ng kaso", "Hayaan na lamang itong lumipas"],
+    "bonne_reponse": 2,
+    "explication": "May tungkulin ang Estado na protektahan ang mga biktima. Ang pagsasampa ng kaso ang nagpapasimula ng hudisyal na imbestigasyon upang parusahan ang umaatake."
+  },
+  {
+    "id": 118,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang dapat gawin sa harap ng mga utos ng pulis o gendarme?",
+    "options": ["Tumakas", "Sumunod at igalang ang kanilang mga tagubilin", "Makipag-negosasyon sa kanila", "Pisikal na ipagtanggol ang sarili"],
+    "bonne_reponse": 1,
+    "explication": "Kinakatawan ng mga tagapagpatupad ng batas ang awtoridad ng Estado. Ang 'refus d'obtempérer' (hindi paghinto sa isang kontrol) o 'rébellion' ay mga kriminal na paglabag."
+  },
+  {
+    "id": 119,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang tungkulin ng pulisya?",
+    "options": ["Gumawa ng mga batas", "Hahatulan ang may sala", "Tiyakin ang kaligtasan ng mga tao, panatilihin ang kaayusan ng publiko at hanapin ang mga may sala ng paglabag", "Pamunuan ang bansa"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pambansang Pulisya at ang gendarmerie ay namamahala sa pagpapatupad ng batas, pagprotekta sa mamamayan, at paggawa ng imbestigasyon sa ilalim ng mga kautusan mula sa sistema ng hustisya."
+  },
+  {
+    "id": 120,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang isang halimbawa ng pagtulong sa isang taong nasa panganib?",
+    "options": ["Kunan ng video ang isang aksidente gamit ang telepono", "Tumitig lang nang walang ginagawa", "Tawagan agad ang emergency (SAMU, Bumbero) kapag nakakita ng taong nasugatan", "Tumakas upang hindi maging testigo"],
+    "bonne_reponse": 2,
+    "explication": "Ang hindi pagtulong sa taong nasa panganib ay isang seryosong krimen. Ang pagtawag sa emergency services (15, 18 o 112) ang pangunahing obligasyong legal kapag may aksidente."
+  },
+  {
+    "id": 121,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling halimbawa ang naglalarawan ng paghihigpit sa kalayaan para protektahan ang pangkalahatang interes?",
+    "options": ["Pagbabawal na magmaneho ng walang lisensya", "Pilitin ang lahat na magkaroon ng iisang relihiyon", "Pagbabawal sa kababaihan na magtrabaho", "Pagsasara ng mga ospital tuwing Linggo"],
+    "bonne_reponse": 0,
+    "explication": "Ang kalayaan sa paggalaw ay pangunahin, ngunit ipinapatupad ng Estado ang lisensya sa pagmamaneho at mga code ng kalsada upang maprotektahan ang buhay ng lahat ng gumagamit nito."
+  },
+  {
+    "id": 122,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang dapat na maging saloobin kapag nakakita ng karahasan?",
+    "options": ["Magkunwari na walang nakita", "Kumuha ng video para sa mga social network", "Tawagan kaagad ang pwersa ng pulisya (17 o 112) at pumunta sa ligtas na lugar", "Hikayatin ang pag-aaway"],
+    "bonne_reponse": 2,
+    "explication": "Sinumang saksi ng pananalakay ay may tungkulin na tawagan ang emergency services. Ang pagkabigong gawin ito ay bumubuo ng pagkakasala sa hindi pagtulong sa taong nasa panganib."
+  },
+  {
+    "id": 123,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ano ang pinakamalubhang paglabag (infraction)?",
+    "options": ["La contravention (Lihis sa patakaran/Minor offense)", "Le délit (Maling Gawain/Misdemeanor)", "Le crime (Krimen/Felony)", "Ang kawalang-galang (incivilité)"],
+    "bonne_reponse": 2,
+    "explication": "Inuuri ng penal law ang mga paglabag sa tatlong antas: ang contravention (multa), délit (hal: pagnanakaw, parusahan ng korteng pangkorekson), at ang krimen (hal: pagpatay, parusahan sa cour d'assises)."
+  },
+  {
+    "id": 124,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling obligasyon ang para sa lahat ng taong naninirahan sa Pransiya anuman ang kanilang nasyonalidad?",
+    "options": ["Ang obligasyon na bumoto", "Ang obligasyon na gumawa ng military service", "Ang ganap na obligasyon upang igalang ang batas ng Pransiya", "Ang obligasyon na magsalita ng perpektong Pranses"],
+    "bonne_reponse": 2,
+    "explication": "Nalalapat ang batas sa lahat (mamamayan, dayuhang residente, turista) sa buong teritoryo ng Pransiya."
+  },
+  {
+    "id": 125,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling panukala ang kumakatawan sa isang halimbawa ng krimen (crime)?",
+    "options": ["Isang bilis na labis sa limitasyon", "Pagnanakaw sa tindahan", "Isang pagpatay o panggagahasa", "Paggawa ng ingay sa gabi"],
+    "bonne_reponse": 2,
+    "explication": "Ang mga krimen ang pinakamabigat na paglabag (pagpatay, panggagahasa, terorismo). Nililitis sila sa harap ng Cour d'assises, na binubuo ng mga hukom at mamamayang hurado."
+  },
+  {
+    "id": 126,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Aling panukala ang kumakatawan sa isang halimbawa ng maling gawain (délit)?",
+    "options": ["Maling pag-parking ng sasakyan", "Pagnanakaw, sinadyang karahasan o panliligalig", "Isang pagpatay", "Pagtatapon ng papel sa lupa"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga délit ay mga paglabag na may katamtamang kalubhaan (pagnanakaw, pandaraya, karahasan, panliligalig) na maaaring parusahan ng kulong o matataas na multa."
+  },
+  {
+    "id": 127,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sino ang titiyak sa pagpapanatili ng kaayusan ng publiko?",
+    "options": ["Ang hukbo", "Pambansang pulisya at ang pambansang gendarmerie", "Mga Bumbero", "Mga Hukom"],
+    "bonne_reponse": 1,
+    "explication": "Sa ilalim ng awtoridad ng Estado (sa pamamagitan ng Ministro ng Interyor at mga prepekto), tungkulin ng pulisya at gendarmerie na protektahan ang mga tao at ari-arian."
+  },
+  {
+    "id": 128,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tungkol sa basura, aling pahayag ang tama?",
+    "options": ["Maaari mong itapon ang mga sirang muwebles sa bangketa tuwing gabi", "Ang hiwalay na pag-aayos (sorting) at pagre-recycle ay mga sibiko at legal na obligasyon", "Ang mga basurahan ay opsyonal", "Maaari mong sunugin ang lahat sa iyong hardin"],
+    "bonne_reponse": 1,
+    "explication": "Upang maprotektahan ang kapaligiran, kinakailangan ang paghihiwalay ng basura. Ang ilegal na pagtatapon ng maramihang basura ay pinaparusahan nang matindi gamit ang mga multa."
+  },
+  {
+    "id": 129,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ano ang palayaw ni Louis XIV?",
+    "options": ["Le Roi-Chevalier (Ang Haring Kabalyero)", "Le Roi-Soleil (Ang Haring Araw)", "Le Bien-Aimé (Ang Minamahal)", "Le Roi de Fer (Ang Haring Bakal)"],
+    "bonne_reponse": 1,
+    "explication": "Louis XIV, simbolo ng absolute monarchy sa Pransiya sa banal na karapatan, pinili niya ang simbolo ng araw. Siya ang nagtayo sa Château de Versailles."
+  },
+  {
+    "id": 130,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling hari ng Pransiya ang pinatay sa panahon ng Rebolusyong Pranses?",
+    "options": ["Henri IV", "Louis XIV", "Louis XVI", "Napoléon III"],
+    "bonne_reponse": 2,
+    "explication": "Si Louis XVI ay hinatulan para sa pagtataksil ng mga rebolusyonaryo at ginilotina noong 1793 sa Paris."
+  },
+  {
+    "id": 131,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong taon naging Emperador si Napoléon I?",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Kinoronahan ni Napoléon Bonaparte ang kanyang sarili bilang Emperador ng mga Pranses noong 1804. Labis niyang nireporma ang Estado (paglikha ng Civil Code, prefect, lycées)."
+  },
+  {
+    "id": 132,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Alin sa mga karakter na ito ang may direktang kaugnayan sa Republika ng Pransiya?",
+    "options": ["Charlemagne", "Jules César", "Marianne", "Jeanne d'Arc"],
+    "bonne_reponse": 2,
+    "explication": "Si Marianne ang pigura (ang simbolo) ng Republika ng Pransiya. Kinakatawan niya ang mga halaga ng Kalayaan, Pagkakapantay-pantay, Kapatiran."
+  },
+  {
+    "id": 133,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kailan nagsimula ang tawag sa paglaban ni Heneral de Gaulle?",
+    "options": ["Hulyo 14, 1789", "Nobyembre 11, 1918", "Hunyo 18, 1940", "Mayo 8, 1945"],
+    "bonne_reponse": 2,
+    "explication": "Noong Hunyo 18, 1940, mula sa London, nanawagan si General de Gaulle sa mga Pranses sa radyo (BBC) na tanggihan ang pagkatalo at ipagpatuloy ang pakikipaglaban sa Nazi Alemanya."
+  },
+  {
+    "id": 134,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Bakit pinag-aaralan ang Shoah sa mga paaralan?",
+    "options": ["Para sa isang tungkulin ng memorya at upang labanan ang anti-Semitism at pagkamuhi", "Isa itong opsyonal na pag-aaral lamang", "Upang malaman ang heograpiya ng Europa", "Dahil ito ay isang lumang digmaan"],
+    "bonne_reponse": 0,
+    "explication": "Mahalaga ang pagtuturo tungkol sa Holocaust ng mga Hudyo (Shoah) na ginawa ng Nazi Alemanya upang maipasa ang memorya at mapag-aral ang mga kabataan laban sa rasismo."
+  },
+  {
+    "id": 135,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling bansa ang kinolonya ng Pransiya?",
+    "options": ["Japan", "Australia", "Algeria", "Argentina"],
+    "bonne_reponse": 2,
+    "explication": "Ang Algeria ay isang Pranses na kolonya mula 1830 hanggang 1962, nang makuha nito ang kanilang kalayaan matapos ang mahabang digmaan."
+  },
+  {
+    "id": 136,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mula noong kailan bumoboto ang mga Pranses para sa Pangulo ng Republika gamit ang direktang unibersal na pagboto?",
+    "options": ["1789", "1944", "1962", "2000"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang pangunahing repormang nais ni Charles de Gaulle noong 1962. Bago iyon, hindi direktang inihalal ang Pangulo ng isang electoral college."
+  },
+  {
+    "id": 137,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ano ang unang hakbang ng pagtatayo ng Europa noong 1951?",
+    "options": ["Paglikha ng euro", "Ang CECA (European Coal and Steel Community)", "Ang Maastricht Treaty", "Lugar ng Schengen"],
+    "bonne_reponse": 1,
+    "explication": "Ang CECA ay itinatag noong 1951 ng 6 na bansa (kasama ang Pransiya at Alemanya) upang pagsamahin ang produksyon ng karbon at bakal, na pinipigilan ang panibagong digmaan."
+  },
+  {
+    "id": 138,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sa panahon ng pamumuno ng aling pangulo tinanggal ang parusang kamatayan?",
+    "options": ["Charles de Gaulle", "Valéry Giscard d'Estaing", "François Mitterrand", "Jacques Chirac"],
+    "bonne_reponse": 2,
+    "explication": "Tinanggal ang parusang kamatayan noong 1981, ilang buwan matapos ihalal si François Mitterrand na mamuno sa Republika."
+  },
+  {
+    "id": 139,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong rehimeng pampulitika ang itinatag sa panahon ng Rebolusyong Pranses noong 1792?",
+    "options": ["Ang Ikalawang Imperyo", "Ang Unang Republika", "Kontitusyonal na monarkiya", "Ang Konsulado"],
+    "bonne_reponse": 1,
+    "explication": "Matapos ang pagpawi ng royalty, ang Unang Republika ay idineklara noong Setyembre 22, 1792."
+  },
+  {
+    "id": 140,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino ang naging pinuno ng French Resistance sa panahon ng Ikalawang Digmaang Pandaigdig?",
+    "options": ["Louis XVI", "Jean Moulin", "Napoléon Bonaparte", "Maréchal Pétain"],
+    "bonne_reponse": 1,
+    "explication": "Si Jean Moulin, na ipinadala ni General de Gaulle, ay matagumpay na nagkaisa ang iba't ibang kilusan ng French internal Resistance noong 1943."
+  },
+  {
+    "id": 141,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Noong 1944, ano ang nagbago para sa mga babae?",
+    "options": ["Nakuha nila ang karapatang magtrabaho", "Nakuha nila ang karapatang bumoto at maihalal", "Nakapagbukas sila ng bank account", "Pilit silang pinasali sa serbisyong militar"],
+    "bonne_reponse": 1,
+    "explication": "Sa pamamagitan ng isang kautusan noong Abril 21, 1944 na nilagdaan ni General de Gaulle, sa wakas nakuha rin ng mga babaeng Pranses ang karapatang bumoto (sila ay unang bumoto noong 1945)."
+  },
+  {
+    "id": 142,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong internasyonal na organisasyon ang nalikha noong 1945 pagkatapos ng World War II?",
+    "options": ["Ang European Union (EU)", "Ang United Nations (UN/ONU)", "Ang NATO (OTAN)", "Ang Red Cross"],
+    "bonne_reponse": 1,
+    "explication": "Ang UN ay itinatag noong 1945 upang mapanatili ang kapayapaan at seguridad sa buong mundo. Ang Pransiya ay isa sa 5 permanenteng miyembro ng Security Council nito."
+  },
+  {
+    "id": 143,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong parusa ang inalis noong 1981?",
+    "options": ["Habambuhay na pagkakulong", "Forced labor (puwersahang pagtatrabaho)", "Ang parusang kamatayan", "Multa para sa labis na bilis sa pagmamaneho"],
+    "bonne_reponse": 2,
+    "explication": "Ibinasura ng Pransiya ang parusang kamatayan noong 1981. Ngayon, walang bansa sa EU ang may parusang kamatayan."
+  },
+  {
+    "id": 144,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong taon naging opisyal na ginagamit na pera sa Pransiya ang Euro?",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Kahit na nilikha noong 1999 para sa pinansiyal na merkado, ang mga coin at banknotes na Euro ay pumasok sa bulsa ng mga Pranses noong Enero 1, 2002, na nagpalit sa Franc."
+  },
+  {
+    "id": 145,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong taon nagsimula ang Unang Digmaang Pandaigdig?",
+    "options": ["1870", "1914", "1939", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Ang Unang Digmaang Pandaigdig, na na-trigger ng asasinasyon sa Sarajevo, ay nagsimula noong Agosto 1914."
+  },
+  {
+    "id": 146,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Saan naganap ang landing ng militar noong 1944?",
+    "options": ["Sa Brittany", "Sa mga tabing-dagat ng Normandy", "Sa Côte d'Azur", "Sa Paris"],
+    "bonne_reponse": 1,
+    "explication": "Noong Hunyo 6, 1944, ang pwersa ng mga Alyado (US, UK, Canadian, atbp.) ay lumapag sa Normandy upang palayain ang Pransiya mula sa pananakop ng Nazi."
+  },
+  {
+    "id": 147,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling kontinente ang higit na naapektuhan ng dekolonisasyon ng Pransiya pagkatapos ng World War II?",
+    "options": ["Timog Amerika", "Oceania", "Aprika", "Silangang Europa"],
+    "bonne_reponse": 2,
+    "explication": "Karamihan sa mga dating kolonya ng Pransiya ay matatagpuan sa Sub-Saharan Africa at Hilagang Africa. Nakamit nila ang kanilang kalayaan noong 1950s at 1960s."
+  },
+  {
+    "id": 148,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ano ang ipinagdiriwang natin sa Mayo 8?",
+    "options": ["Pista ng musika", "Pagtatapos ng Ikalawang Digmaang Pandaigdig sa Europa (1945)", "Ang pagbagsak ng Bastille", "Armistice (pagtigil sa putukan) ng 1918"],
+    "bonne_reponse": 1,
+    "explication": "Ang ika-8 ng Mayo ay nagpapagunita sa tagumpay ng Allied forces at pagsuko ng Nazi Germany sa Europa noong 1945."
+  },
+  {
+    "id": 149,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong dagat o karagatan ang nakapaligid sa metropolitan France?",
+    "options": ["Dagat Pasipiko", "Dagat Indian", "Dagat Mediteraneo, Karagatang Atlantiko, ang Channel at ang North Sea", "Red Sea"],
+    "bonne_reponse": 2,
+    "explication": "Ang Pransiya ay mayroong ilang libong kilometro ng baybayin, na nahahati sa Mediterranean (sa timog), Atlantic (sa kanluran), Channel at North Sea (sa hilaga)."
+  },
+  {
+    "id": 150,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong bansa ang may border sa lupaing kasama ng metropolitan France?",
+    "options": ["Portugal", "United Kingdom", "Espanya", "Sweden"],
+    "bonne_reponse": 2,
+    "explication": "Nagbabahagi ang Pransiya ng border sa lupa kasama ng ilang mga bansa: Spain, Italy, Switzerland, Germany, Luxembourg, Belgium, pati na rin Monaco at Andorra."
+  },
+  {
+    "id": 151,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Anong bansa ang nahihiwalay sa Pransiya sa pamamagitan ng dagat (ang English Channel/La Manche)?",
+    "options": ["Espanya", "United Kingdom", "Alemanya", "Italya"],
+    "bonne_reponse": 1,
+    "explication": "Ang UK ay isang isla na hiwalay mula sa Pransiya gamit ang dagat sa Channel. Ang dalawang bansa ngayon ay konektado gamit ang Channel Tunnel."
+  },
+  {
+    "id": 152,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling hanay ng kabundukan ang nagsisilbing natural na hangganan ng Pransiya at Espanya?",
+    "options": ["Ang Alps", "Ang Pyrenees", "Ang Massif Central", "Ang Vosges"],
+    "bonne_reponse": 1,
+    "explication": "Ang Pyrenees ay nakalagay sa timog-kanluran ng Pransiya at markahan ng hangganan sa Espanya."
+  },
+  {
+    "id": 153,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling ilog ang dumadaan sa lungsod ng Paris?",
+    "options": ["La Loire", "Le Rhône", "La Seine", "La Garonne"],
+    "bonne_reponse": 2,
+    "explication": "Ang Seine ay tumatawid sa kabisera ng Pransiya bago mag-ambag sa Channel Sea, sa Normandy."
+  },
+  {
+    "id": 154,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ano ang DROM (dating DOM - Overseas Department or Region)?",
+    "options": ["Isang diploma ng unibersidad", "Isang Overseas Department o Rehiyon", "Dokumento mula sa munisipyo", "Isang lokal na buwis"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga DROM (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte) ay mga teritoryo ng Pransiya na nasa labas ng Europa, kung saan gumagana ang mga batas ng Pransiya katulad sa metrópolis."
+  },
+  {
+    "id": 155,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Alin sa mga teritoryong ito ang Pranses?",
+    "options": ["Haiti", "La Réunion", "Madagascar", "Quebec"],
+    "bonne_reponse": 1,
+    "explication": "Ang isla ng Réunion, na matatagpuan sa Indian Ocean, ay isang Pranses na overseas department."
+  },
+  {
+    "id": 156,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino si Victor Hugo?",
+    "options": ["Isang hari ng Pransiya", "Isang dakilang manunulat at makata mula sa ika-19 na siglo", "Isang siyentipiko", "Ang lumikha ng Eiffel Tower"],
+    "bonne_reponse": 1,
+    "explication": "Awtor ng 'Les Misérables', si Victor Hugo ay isa sa pinakadakilang manunulat na Pranses. Siya rin ay isang politikong may matibay na paninindigan, lalo na laban sa parusang kamatayan."
+  },
+  {
+    "id": 157,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Alin sa mga karakter na ito ay isang pilosopo noong 'Age of Enlightenment' (ika-18 siglo)?",
+    "options": ["Voltaire", "Charlemagne", "Vercingétorix", "Napoléon"],
+    "bonne_reponse": 0,
+    "explication": "Si Voltaire, tulad nina Rousseau o Montesquieu, ay isang pilosopo ng Age of Enlightenment na nagbigay-inspirasyon sa French Revolution ukol sa mga ideya patungkol sa kalayaan at pagpaparaya (tolerance)."
+  },
+  {
+    "id": 158,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino si Marie Curie?",
+    "options": ["Isang sikat na reyna", "Isang abogado noong ika-20 na siglo", "Isang pisisista at kimiko, na nanalo ng dalawang premyo ng Nobel", "Isang manunulat"],
+    "bonne_reponse": 2,
+    "explication": "Pinanganak na Polish at naging naturalized na Pranses, kilala si Marie Curie sa buong mundo sa kanyang mga nadiskubre patungkol sa radioactivity. Nakahimlay siya sa Panthéon."
+  },
+  {
+    "id": 159,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ano ang Louvre?",
+    "options": ["Isang istadyum ng soccer", "Ang palasyo kung saan nakatira ang Pangulo", "Ang pinakamalaking museo ng sining sa Pransiya, matatagpuan sa Paris", "Ang gusali ng Pambansang Asembleya"],
+    "bonne_reponse": 2,
+    "explication": "Ang dating palasyo ng mga hari ng Pransiya, ang Louvre ay isa na sa mga pinakabinibisitang museo sa buong mundo (kabilang doon ang Mona Lisa)."
+  },
+  {
+    "id": 160,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Aling monumento sa Paris ang ipinatayo para sa 1889 World's Fair?",
+    "options": ["Ang Arc de Triomphe", "Katedral ng Notre-Dame", "Eiffel Tower", "Centre Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "Dinisenyo ng inhinyerong si Gustave Eiffel, ang Eiffel Tower sana ay wawasakin pagkatapos ng Universal Exhibition, ngunit ito ay napreserba."
+  },
+  {
+    "id": 161,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Noong panahon ng Rebolusyon, sino ang gumawa sa Deklarasyon ng Karapatan ng mga Kababaihan at Babaeng Mamamayan?",
+    "options": ["Marie-Antoinette", "Olympe de Gouges", "Jeanne d'Arc", "Simone de Beauvoir"],
+    "bonne_reponse": 1,
+    "explication": "Isa si Olympe de Gouges sa mga unang feministang Pranses. Noong 1791, ipinaglaban niya ang ganap na pagkakapantay-pantay ng kasarian sa pulitika at lipunan."
+  },
+  {
+    "id": 162,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino si Simone Veil?",
+    "options": ["Isang sikat na aktres", "Isang babaeng nagtatrabaho sa Estado ng Pransiya na nagpatupad sa batas na pinapayagan ang IVG (aborsyon)", "Ang unang babaeng Presidente ng Republika", "Isang mahusay na atleta"],
+    "bonne_reponse": 1,
+    "explication": "Nakaligtas mula sa Shoah, si Simone Veil ay isang pangunahing political figure. Bilang Ministro ng Kalusugan noong 1975, ipinasa niya ang batas na inaalis ang parusa para sa pagpapa-abort."
+  },
+  {
+    "id": 163,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino ang dakilang siyentipiko na Pranses, pioneer sa microbiology, at nag-imbento sa bakuna laban sa rabies?",
+    "options": ["Louis Pasteur", "Gustave Eiffel", "Auguste Rodin", "Molière"],
+    "bonne_reponse": 0,
+    "explication": "Si Louis Pasteur (ika-19 na siglo) ay sikat sa kanyang mga trabaho patungkol sa mga mikrobyo at bakuna, na bumago sa larangan ng medisina."
+  },
+  {
+    "id": 164,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Saan inilibing ang mga dakilang tao na nag-iwan ng marka sa kasaysayan ng Republika ng Pransiya?",
+    "options": ["Sa Élysée", "Sa Panthéon", "Sa Château de Versailles", "Sa loob ng Eiffel Tower"],
+    "bonne_reponse": 1,
+    "explication": "Ang Panthéon, matatagpuan sa Paris, ay ang monumento kung saan ginugunita ng Nasyon ang 'Mga Dakilang Lalaki' (at Babae), kagaya nina Victor Hugo, Jean Moulin, o Simone Veil."
+  },
+  {
+    "id": 165,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang TVA?",
+    "options": ["Ang Advanced Speed Train", "Ang Value Added Tax (VAT/Taxe sur la Valeur Ajoutée)", "Tulong pinansiyal sa pagbabahay", "Ang Korte para sa Pinalalang Karahasan"],
+    "bonne_reponse": 1,
+    "explication": "Ang TVA ay isang buwis na hindi direkta na binabayaran ng lahat ng mamimili kapag bumibili ng produkto o serbisyo."
+  },
+  {
+    "id": 166,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang tawag sa direktang buwis na binabawas sa suweldo, pensiyon, o mga benepisyo?",
+    "options": ["Buwis sa ari-arian (La taxe foncière)", "Buwis sa kita (Income tax/L'impôt sur le revenu)", "Buwis sa pabahay (La taxe d'habitation)", "Bayad sa Notaryo"],
+    "bonne_reponse": 1,
+    "explication": "Ang buwis sa kita ay obligado at idinedeklara. Ang halaga nito ay kinakalkula batay sa kita at istraktura ng pamilya."
+  },
+  {
+    "id": 167,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa mundo ng pagtatrabaho, ano ang CDI?",
+    "options": ["Kontratang Walang Tiyak na Pagtatapos (Contrat à Durée Indéterminée)", "Isang Internal na Lupon ng Pamamahala", "Isang Computer Home Check", "Isang Walang Tiyak na Pag-leave dahil sa Sakit"],
+    "bonne_reponse": 0,
+    "explication": "Ang CDI ay ang pinakakaraniwang kontrata ng pagtatrabaho (regular employment). Wala itong tiyak na petsa ng pagtatapos na napagpasyahan, kaya nagbibigay ng seguridad sa trabaho."
+  },
+  {
+    "id": 168,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang SMIC?",
+    "options": ["Isang unyon ng mga doktor", "Pambansang Minimum na Sahod (Salaire Minimum Interprofessionnel de Croissance)", "Isang tulong sa mga mag-aaral", "Isang buwis sa tagapag-empleyo"],
+    "bonne_reponse": 1,
+    "explication": "Ang SMIC ay ang pinakamababang legal na sahod bawat oras; hindi pwedeng mas mababa rito ang ibayad sa manggagawa."
+  },
+  {
+    "id": 169,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "May karapatan ba ang isang manggagawa na sumali sa isang propesyonal na unyon?",
+    "options": ["Hindi, bawal iyon ng tagapag-empleyo", "Oo, ang kalayaan sa unyon ay isang karapatang nasa konstitusyon", "Tanging kung siya ay Pranses lamang", "Tanging kung siya ay isang senior na manager"],
+    "bonne_reponse": 1,
+    "explication": "Lahat ay malayang sumali (o hindi) sa isang unyon upang ipagtanggol ang kanilang mga karapatan at kanilang materyal at moral na interes."
+  },
+  {
+    "id": 170,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang ginagawa ng Carte Vitale (health insurance card)?",
+    "options": ["Upang maglakbay sa buong Europa", "Upang ipalit sa isang national ID", "Upang patunayan ang karapatan sa health insurance para makakuha ng reimbursement sa mga gastos medikal", "Para makakuha ng discount sa supermarket"],
+    "bonne_reponse": 2,
+    "explication": "Pinapahintulutan ng Carte Vitale ang electronic na paglipat ng mga dokumento sa paggamot, sinisiguro ang mabilis na reimbursement (pagbabalik ng pera) ng gastos mula sa Social Security."
+  },
+  {
+    "id": 171,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ikaw ay may sakit at hindi ka makapasok sa trabaho. Ano ang kailangan mong ibigay sa iyong tagapag-empleyo sa loob ng 48 oras?",
+    "options": ["Isang simpleng sulat", "Sertipikasyon ng pagkakasakit na ibinigay ng doktor (avis d'arrêt de travail)", "Isang reseta para sa gamot", "Wala, isang tawag lang sa telepono ay sapat na"],
+    "bonne_reponse": 1,
+    "explication": "Ang medikal na avis d'arrêt de travail ang kaisa-isang legal na dokumento para maipaliwanag ang hindi pagpasok at upang makakuha ng allowance sa Seguro sa Kalusugan (Assurance Maladie)."
+  },
+  {
+    "id": 172,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang emergency number na valid sa buong European Union (ang European emergency number)?",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 3,
+    "explication": "Ang 112 ay ang European emergency number, libre at maaaring matawagan mula sa anumang telepono, kahit walang SIM card."
+  },
+  {
+    "id": 173,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Saang emergency service tumutugon ang numerong 15?",
+    "options": ["Pulisya", "Bumbero", "SAMU (Serbisyong medikal na pang-emerhensiya)", "Nanganganib na mga bata"],
+    "bonne_reponse": 2,
+    "explication": "Ang 15 ay tinatawagan para sa anumang medikal na emergency (matinding sakit, pisikal na aksidente). I-a-assess ng nag-aayos na doktor ang sitwasyon gamit ang telepono."
+  },
+  {
+    "id": 174,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong pambansang numero ang nakalaan para sa mga batang nanganganib (Enfance en danger)?",
+    "options": ["119", "17", "3919", "115"],
+    "bonne_reponse": 0,
+    "explication": "Libre at konpidensiyal ang 119. Pinapayagan nitong ireport ang sitwasyon ng bata na biktima ng karahasan o posibleng maging biktima."
+  },
+  {
+    "id": 175,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sakaling mayroong karahasan sa tahanan o karahasan laban sa kababaihan, anong listening/orienting number ang tatawagan?",
+    "options": ["114", "119", "3919", "15"],
+    "bonne_reponse": 2,
+    "explication": "Ang 3919 (Violences Femmes Info) ay pambansang numero para pakinggan at gabayan nang libre at anonymous, para sa mga babaeng naging biktima ng karahasan."
+  },
+  {
+    "id": 176,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa batas ng Pransiya, sino ang nagpapamalas ng parental authority (awtoridad ng magulang) sa isang menor de edad na anak?",
+    "options": ["Tanging ang ama lamang", "Tanging ang ina lamang", "Isang huwes para sa mga bata", "Ang parehong magulang nang sabay, kasal man sila o hindi"],
+    "bonne_reponse": 3,
+    "explication": "Ang parental authority ay grupo ng karapatan at tungkulin na kasamang pinag-aari ng ama at ina para protektahan ang anak at siguraduhin ang pagpapalaki dito."
+  },
+  {
+    "id": 177,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Hanggang anong edad ang sapilitang pag-aaral (instruksyon) sa Pransiya?",
+    "options": ["Mula 6 hanggang 14 taong gulang", "Mula 3 hanggang 16 taong gulang", "Mula 6 hanggang 18 taong gulang", "Hindi ito sapilitan"],
+    "bonne_reponse": 1,
+    "explication": "Ang pag-aaral ay sapilitan para sa lahat ng mga bata, lalaki man o babae, na nasa Pransiya mula edad na 3 hanggang 16 taong gulang."
+  },
+  {
+    "id": 178,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Bilang isang umuupa sa inyong bahay, obligado ka bang i-insure (kumuha ng insurance) ang iyong inuupahan?",
+    "options": ["Hindi, opsyonal ito", "Oo, sapilitan ang pagkuha ng multi-risk home insurance", "Tanging kapag malaki ang bahay", "Hindi, ang may-ari dapat ang sasagot ng lahat"],
+    "bonne_reponse": 1,
+    "explication": "Ang nangungupahan ay obligadong kumuha ng insurance (assurance habitation) laban sa mga panganib na sakop ng pagrenta (sunog, pagkasira ng tubig). Hihingi ang may-ari ng sertipiko kada taon."
+  },
+  {
+    "id": 179,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Saan ipinapadeklarang opisyal ang kapanganakan ng bata?",
+    "options": ["Sa prepektura (préfecture)", "Sa istasyon ng pulisya", "Sa munisipyo ng lugar kung saan isinilang (departamento ng état civil)", "Sa ospital lamang"],
+    "bonne_reponse": 2,
+    "explication": "Ang deklarasyon ng kapanganakan sa munisipyo ay isang sapilitang legal na proseso para maiparehistro ang bata sa état civil (civil status registers)."
+  },
+  {
+    "id": 180,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang maximum na oras ng pagdedeklara ng kapanganakan sa munisipyo?",
+    "options": ["Sa loob ng 5 araw na kasunod ng panganganak", "Sa loob ng 2 linggo", "Sa loob ng 1 buwan", "Bago pumasok sa paaralan"],
+    "bonne_reponse": 0,
+    "explication": "Isinasaad ng batas na strikto itong ipinapatupad sa loob ng 5 araw (hindi kasama ang public holidays). Pagkalipas nito, kinakailangan ang desisyon mula sa husgado upang marehistro ang bata."
+  },
+  {
+    "id": 181,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong kasal ang kinikilala ng Estado?",
+    "options": ["Relihiyosong kasal lamang", "Ang kasal sibil lamang na idinadaos sa munisipyo ang legal na kinikilala", "Kasal na ginanap sa ibang bansa nang walang transkripsiyon", "Kasal na idinaos ng isang notaryo"],
+    "bonne_reponse": 1,
+    "explication": "Sa Pransiya, ang sibil na kasal (civil marriage) lang ang may legal na halaga. Kung gusto ng mag-asawa na may seremonyang panrelihiyon, kailangan itong maganap pagkatapos na ng kasal sa munisipyo."
+  },
+  {
+    "id": 182,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa anong institusyon maaaring iparehistro ng mga magulang ang kanilang anak sa pampublikong paaralan?",
+    "options": ["Ang prepektura", "Ang istasyon ng pulis", "Sa munisipyo ng kanilang tinitirhan", "Ang Conseil départemental"],
+    "bonne_reponse": 2,
+    "explication": "Ang pag-enrol sa pampublikong kindergarten o elementarya ay nagaganap sa munisipyo. Magbibigay ang Alkalde ng isang registration certificate kung saan nakasaad ang paaralang papasukan."
+  },
+  {
+    "id": 183,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sakaling mag-diborsiyo, sino ang nagpapamalas ng parental authority?",
+    "options": ["Tanging ang ama lamang", "Tanging ang ina lamang", "Ang Estado", "Sa prinsipyo, kapwa mga magulang"],
+    "bonne_reponse": 3,
+    "explication": "Hindi tinatapos ng diborsyo ang parental authority. Maliban na lang sa seryosong dahilan mula sa huwes, ang parehong magulang ay patuloy na sabay na gagawa ng mahahalagang desisyon para sa anak."
+  },
+  {
+    "id": 184,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong tulong ang pumapayag sa mga taong may problema sa pananalapi upang magkaroon ng abogado?",
+    "options": ["Ang RSA", "Ang legal na tulong (aide juridictionnelle)", "Scholarship para sa merit", "Carte Vitale"],
+    "bonne_reponse": 1,
+    "explication": "Ang legal na tulong (aide juridictionnelle) ay ang pinansiyal na sakop (buo o bahagi) galing sa Estado para sa gastusing legal (abogado, bailiff) sa mga taong mababa ang kita."
+  },
+  {
+    "id": 185,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Saan pwedeng itapon ang sirang dishwasher?",
+    "options": ["Sa bangketa", "Sa yellow bin", "Sa gubat", "Sa waste collection center (déchetterie) o sa serbisyo para sa mga malalaking gamit (encombrants) ng munisipyo"],
+    "bonne_reponse": 3,
+    "explication": "Ang pagtatapon ng malalaking basura sa pampublikong daan ay ipinagbabawal. Mayroong mga libreng serbisyo galing sa munisipyo para maayos itong itapon."
+  },
+  {
+    "id": 186,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong emergency number ang pwedeng gamitin para tawagan ang pulisya?",
+    "options": ["15", "17", "18", "3919"],
+    "bonne_reponse": 1,
+    "explication": "Tinatawagan ang 17 kapag kailangan ang tulong ng Police Secours (Police Rescue) sa kaso ng pagnanakaw, agresyon, o agarang panganib."
+  },
+  {
+    "id": 187,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ang rental lease (kontrata sa pagpapaupa) ay wasto (valid) kung ito ay:",
+    "options": ["Napagkasunduan nang berbal lamang", "Pinirmahan at isinulat ng may-ari at ng umuupa", "Pinirmahan ng Alkalde", "Pinirmahan ng pulis"],
+    "bonne_reponse": 1,
+    "explication": "Upang maprotektahan ang nangungupahan at may-ari, humihingi ang batas ng nakasulat na lease contract (kontrata sa pag-upa), nagdedetalye ng halaga ng upa, singil at ang tagal ng pagrenta."
+  },
+  {
+    "id": 188,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Patungkol sa access sa pangangalagang pangkalusugan, aling pahayag ang tama?",
+    "options": ["Ang mga mamamayang Pranses lamang ang gagamutin sa ospital", "Maaaring tumanggi ang doktor na gamutin ka ayon sa iyong relihiyon", "Ang pag-access sa pangangalaga ay ginagarantiyahan para sa lahat, kasama ang tulong pantustos (solidarity) (CSS, AME) para sa mga pinakamahihirap", "Kailangang bayaran muna ang buong operasyon bago pumasok sa ospital"],
+    "bonne_reponse": 2,
+    "explication": "Ang healthcare system ng Pransiya ay nabuo mula sa prinsipyo ng pagkakabuklod (solidarité). Hindi maaaring tanggihan ang isa kung gagamutin siya sa emergency dahil sa kakulangan sa pera o dahil sa pinanggalingan."
+  },
+  {
+    "id": 189,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sino ang may karapatang magkaroon ng contraception (birth control)?",
+    "options": ["Tanging mga nasa hustong gulang na mga babaeng may-asawa", "Sa lahat ng babae at lalaki, kasama ang menor de edad (na may anonymity at libre para sa ilan)", "Mga lalaki lamang", "Mga babaeng meron nang anak"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagpigil sa pagbubuntis/contraception (pill, condom) ay isang karapatan. Available ito sa lahat, at maging libre sa botika para sa mga kabataan hanggang edad na 25."
+  },
+  {
+    "id": 190,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang prinsipyo ng confidentiality sa kalusugan?",
+    "options": ["Dapat sabihin ng doktor ang lahat sa pulisya", "Ang pagiging kumpidensyal sa medikal: bawal na i-reveal ng mga healthcare worker ang impormasyon sa kalusugan ng isang pasyente", "Ang karapatang i-publish sa internet ang inyong medical record", "Ang karapatan ng employer na malaman ang inyong sakit"],
+    "bonne_reponse": 1,
+    "explication": "Ang pagiging kumpidensyal sa medikal ay isang pangunahing karapatan ng pasyente. Maliban na lamang sa mga bihirang kasong nakasaad sa batas, makukulong ang doktor kung sasalungat dito."
+  },
+  {
+    "id": 191,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ang pagrehistro sa Health Insurance (Assurance maladie) ay:",
+    "options": ["Opsyonal", "Tanging para sa mga civil servant", "Sapilitan para sa sinumang taong permanenteng naninirahan at may legal na status sa Pransiya", "Para lang sa mga taong may sakit"],
+    "bonne_reponse": 2,
+    "explication": "Ito ang basehan ng panlipunang proteksyon sa Pransiya. Ang pagrerehistro sa Assurance maladie (na naglalabas ng Carte Vitale) ay nakakabawas sa ginastos sa pagpapagamot."
+  },
+  {
+    "id": 192,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sino ang makakahingi ng parental leave of education?",
+    "options": ["Tanging ina lamang", "Tanging ama lamang", "Ang ina o ama ng isang bata, upang ipahinto o bawasan ang kanyang professional na aktibidad", "Tanging mga grandparents lamang"],
+    "bonne_reponse": 2,
+    "explication": "Pinapayagan ng batas ang lahat ng manggagawang employed (ina o ama) na may hindi bababa sa 1 taon na trabaho sa kumpanya na kumuha ng leave of absence para alagaan ang anak niya."
+  },
+  {
+    "id": 193,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong mga isyu/kaso ang inaasikaso ng labor court (conseil de prud'hommes)?",
+    "options": ["Mga diborsiyo", "Pagnanakaw at agresyon", "Indibidwal na mga pagtatalo (conflicts) sa pagitan ng empleyado at employer tungkol sa kontrata sa trabaho", "Problema sa mga kapitbahay"],
+    "bonne_reponse": 2,
+    "explication": "Hinuhusgahan ng labor court (Conseil de prud'hommes) ang mga isyung nauugnay sa trabaho (pagpapa-tanggal ng walang rason, hindi pagbayad sa sahod, panghaharas sa trabaho)."
+  },
+  {
+    "id": 194,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ang pagtatrabaho nang hindi idinedeklara (hindi nakarehistro) ay:",
+    "options": ["Inirerekomenda kung gustong kumita pa nang mas malaki", "Legal kung pabor dito ang employer", "Isang kriminal na pagkakasala ('trabahong nakatago' o paggawa 'sa itim/au noir') na nagkukuha sa employee ng kanyang mga social rights", "Legal para sa mga nag-aaral (estudyante)"],
+    "bonne_reponse": 2,
+    "explication": "Napakamapanganib ang trabahong nakatago (undeclared work). Walang proteksyon sa aksidente habang nasa trabaho, hindi makaka-contribute sa unemployment benefits o pension ang employee."
+  },
+  {
+    "id": 195,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Kapag gusto ng tagapag-empleyo na magtrabaho ng mas matagal ang empleyado sa oras na itinakda sa kontrata:",
+    "options": ["Dapat magtrabaho nang libre ang empleyado", "Dapat ang overtime hours (heures supplémentaires) na ito ay bigyan ng sahod, o itumbas sa oras ng pamamahinga", "Dapat tumawag ang employer sa pulis", "Ito ay tahasang ipinagbabawal"],
+    "bonne_reponse": 1,
+    "explication": "Itinatakda ng labor law ng Pransiya na ang oras ng pagtatrabaho na ginugol ng higit sa contract hours dahil inutusan ng employer ay babayaran (kalimitang may dagdag na presyo sa oras-overtime)."
+  },
+  {
+    "id": 196,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang tungkulin ng France Travail?",
+    "options": ["Mang-isyu ng mga residency permit", "Tulungan at samahan ang naghahanap ng trabaho at sustentuhan/bayaran ang mga walang trabaho", "Husgahan ang mga employers", "Bayaran ang mga retirement pensions"],
+    "bonne_reponse": 1,
+    "explication": "Ang France Travail (dating kilala bilang Pôle emploi) ay ang malaking public service na tumutulong sa paghahanap ng trabaho, nag-aalok ng panibagong training at pagbabayad sa unemployment benefits."
+  },
+  {
+    "id": 197,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa loob ng kumpanya, ano ang ipinapahintulot ng karapatang magkaroon ng unyon?",
+    "options": ["Ang mga empleyado na malayang lumahok sa mga unyon para ipagtanggol ang kanilang mga interes", "Ang pamunuan na ipagbawal ang mga pulong", "Magtrabaho nang walang kontrata", "Upang palitan ang works council (comité d'entreprise)"],
+    "bonne_reponse": 0,
+    "explication": "Ito ay isang karapatang nasa Konstitusyon. Pinagbabawalan ang employer na paghigpitan at parusahan ang kanyang empleyado dahil siya ay kabilang sa unyon."
+  },
+  {
+    "id": 198,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa loob ng isang kumpanya, ang karapatang mag-welga (droit de grève) ay nagbibigay-pahintulot sa:",
+    "options": ["Pagsira sa mga materyales/kagamitan", "Ang malawakan at pinagkaisang pagtigil sa trabaho para sa propesyonal na kahilingan (professional demands)", "Ang pagkatanggal sa trabaho nang walang notice", "Ang pagnanakaw sa mga kalakal"],
+    "bonne_reponse": 1,
+    "explication": "Legal ang strike/pag-wewelga kapag sama-sama, kapag ito ay patungkol sa kumpanya, at naghahanap na ma-improve ang trabaho o pataasin ang suweldo."
+  },
+  {
+    "id": 199,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang mga requirement upang magkaroon ng benepisyo sa kawalan ng trabaho (unemployment benefits)?",
+    "options": ["May pinagtatrabahuhan kahit na 1 buwan", "Nawalan ng trabaho nang hindi boluntaryo, dapat rehistrado sa France Travail at aktibong naghahanap ng panibagong trabaho", "Nagbitiw/nag-resign lamang", "Pagiging isang estudyante"],
+    "bonne_reponse": 1,
+    "explication": "Para makakuha ng karapatan sa pondo na walang trabaho, kailangang pinaalis ka sa trabaho (o kaya't natapos na ang CDD contract), nag-ambag/nag-contribute ng minimum at patunayang naghahanap ka ng bagong hanapbuhay."
+  },
+  {
+    "id": 200,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang école maternelle (kindergarten)?",
+    "options": ["Isang bayad na daycare center", "Ang unang yugto ng kurikulum (mula 3 taon) kung saan nagpapahintulot sa mga unang pag-aaral", "Paaralan sa Medisina", "Isang paaralang pang-babae lamang"],
+    "bonne_reponse": 1,
+    "explication": "Mula 2019, ang pormal na pagtuturo ay kinakailangan na simula edad 3. Samakatuwid, ang pampublikong kindergarten (école maternelle publique) ay isang seryosong paaralan na sekular at libre."
+  },
+  {
+    "id": 201,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang tawag sa diploma na pinapasa ng mag-aaral pagtatapos sa middle school (collège)?",
+    "options": ["Ang Baccalauréat (High School Diploma)", "Ang Licence (Bachelor)", "Ang Diplôme National du Brevet (DNB)", "Ang Master"],
+    "bonne_reponse": 2,
+    "explication": "Ang Brevet (sa pagitan ng 14-15 taon) ang sumusuri sa inyong na-acquire na knowledge/kaalaman sa pagtatapos mo ng collège bago ka mapunta sa lycée (high school)."
+  },
+  {
+    "id": 202,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ang magulang ay may karapatang:",
+    "options": ["Pumili sa mga marka (grades) na ilalagay", "Bumoto upang maghalal ng kanilang sariling kinatawan sa iba't-ibang aktibidad at lupon ng eskwelahan", "Maging replacement kung sakaling umabsent ang mga guro", "Tanggihan ang curriculum sa Kasaysayan (History)"],
+    "bonne_reponse": 1,
+    "explication": "Isinasangkot din sa eskwelahan ang pamilya. Binoboto at hinahalal ng mga magulang ang representante ng eskwelahan sa buong institution."
+  },
+  {
+    "id": 203,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sino ang pwede kumain sa school canteen?",
+    "options": ["Tanging mga batang Pranses lamang", "Tanging mga bata na ang mga magulang ay nagtatrabaho", "Lahat ng mga nag-aaral na hinihiling ng kanilang mga magulang (ayon sa munisipyo)", "Para sa mga guro lang"],
+    "bonne_reponse": 2,
+    "explication": "Ang public school canteen ay serbisyo ng gobyerno. Kapag ito'y available, ang mga pamilya ay lahat may-access dito."
+  },
+  {
+    "id": 204,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa anong edad nagsisimula ang mandatory na pag-aaral ng bata?",
+    "options": ["3 taon", "6 taon", "11 taon", "16 taon"],
+    "bonne_reponse": 0,
+    "explication": "Simula sa paggawa ng batas (loi pour une École de la confiance) (2019), kinakailangan ang pagpapasok sa mga bata pagtuntong nila ng 3 (école maternelle)."
+  },
+  {
+    "id": 205,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Ano ang legal na edad ng mayorya (legal age/majority) sa Pransiya?",
+    "options": ["16 taon", "18 taon", "21 taon", "25 taon"],
+    "bonne_reponse": 1,
+    "explication": "Sa 18 taon, ang mga kabataan ay pumasok na sa maturity; nakakaboto na, pwede mag-maneho, mag-sign ng kontrata, na may legal na pananagutan sa lahat ng kasalanan na nagawa nila."
+  },
+  {
+    "id": 206,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sa eskwelahan, bawal ang mga magulang na:",
+    "options": ["Kumuha ng paunang schedule (rendez-vous) sa guro", "Palitan ang kanilang mga guro, o gumawa ng anumang physical na gulo doon", "Tulungan at asikasuhin ang inyong bata sa paggawa nila ng takdang-aralin (homework)", "Sumali at dumalo sa mga selebrasyon sa school"],
+    "bonne_reponse": 1,
+    "explication": "Napakahalaga ang pag-respeto sa mga guro. Ang anumang berbal at pisikal na pagkakagulo, na isinagawa ng parents laban sa pamilya ng staff, ay binigyan ng seryosong batas na pagbabanta."
+  },
+  {
+    "id": 207,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Anong kaso ng absent ang kadalasang kinokonsidera bilang accepted absent ng eskwelahan?",
+    "options": ["Pagod ang inyong bata", "Nagkasakit ang bata o mayroong pagkamatay ng kamag-anak sa inyong sambahayan", "Lumipat ang inyong buong pamilya ng bakasyon (out of ordinary school period)", "Kapag ito ay celebration ng kaarawan (birthday party)"],
+    "bonne_reponse": 1,
+    "explication": "Napakahigpit sa presensya at mandatory mag-aral. Hindi sinusuportahan ang lumipad para mag-staycation kapag school day at nagpapasya lang ang pamilya na alagaan ito sa bahay nang walang valid/ligit na rason."
+  },
+  {
+    "id": 208,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Hindi sumunod ang mga magulang sa obligasyong makapag-aral ang kanilang mga anak. Ano ang pinakamataas na parusang haharapin nila?",
+    "options": ["Wala", "Bawasan at kaltasan sa inyong mga allowance at sweldo", "Kulong at penalty imprisonment ng 6 na buwan sa bilibid na maging at isamang babayaran din 7,500€ multa", "Idedeposito agad pabalik (immediate expulsion)"],
+    "bonne_reponse": 2,
+    "explication": "Ang pananakop sa inyong kabataan na manatiling mapalayas mula sa pag-access tungo sa pag-aaral, kabilang sa pag-iingat sa labis at ipinagkait ang karapatan mag-school, ay malakas na idiniklera na kriminal sa Penal Code."
+  },
+  {
+    "id": 209,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Kailan magaganap ang holiday at bakasyon niyo tuwing papasok at lalabas na pagdiriwang (Christmas break/holidays)?",
+    "options": ["Kapag tag-araw (Summer)", "Tuwing end of the year (katapusan ng buwan ng December/simula ng January)", "Nasa April ang pagtakbo ninyo", "Inilagay ito tuwing February"],
+    "bonne_reponse": 1,
+    "explication": "Ang bakasyon ng bawat eskwela kapag Christmas time (Holiday) na inaabot hanggang dulo ng simula sa panibagong taon, at binibigyan ng magkatulad na dalawang linggong break ay ipinaubaya na ginawa ito tuwina sa pamamagitan at kabuuan na Pransiya."
+  },
+  {
+    "id": 210,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Paano ginaganap ng buong Pransiya (French policy) ang inyong bata na mag-aral kung may kaso sila/siyang kapansanan?",
+    "options": ["Idineklarang wala at hindi kasama sa nag-aaral", "Tinatanggap para pasuking isali sila sa regular classroom na paaralan na bukas para sa normal at kung kinakailangan/sakali man galingan ng isa sa kasama o gabayan", "Pinapanatili at ina-obliga lahat kasama bahay lamang at di makakagalaw", "Kailangang nasa loob lamang at itutok sa pasilidad mula pagamutan"],
+    "bonne_reponse": 1,
+    "explication": "Ginagarantiyahan ng Law of Equality na ang bawat karapatan pagpasok at pumunta sa normal class ang batang nag-aaral ngunit malaki ang pangangailangan nila kung minsan ang kumuha ang assistance na may kasamang taga-gabay niyan (na itinalaga na pinapanagot ng AESH)."
+  },
+  {
+    "id": 211,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang isa sa mga kinakailangan para kumuha ng lisensya (driving license) sa Pransiya?",
+    "options": ["Pagiging may-ari ng sariling sasakyan", "Nagkaka-edad na nasa legal/itinakdang lebel ng pagsusuri na nag-comply mula eksaminasyong pinasa buhat sa batas ng trapiko at driving theory", "Nag-empleyo na matagal upang idokumento", "Pagkakaroon o pinasubukan lang para doon lamang sa nakakuha at isa mula French citizenship/nasyonalidad"],
+    "bonne_reponse": 1,
+    "explication": "Hindi magkakaroon at matanggap ito nang kung di inyong ginawa ang pagsasanay test, at dapat kumuha niyan base sa code de la route. Nasa gulang na nakatakdang at iniluwalhati magmula at least 18 taong gulang (gayundin ngayong kinonsidera hanggang nagtaasan magiging 17 anyos sumunod na sa inibang reporma at mga rule nito)."
+  },
+  {
+    "id": 212,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Posible/pwede rin kaya lumikha/magtayo ang isang babae ng enterprise (kumpanya/sariling negosyo)?",
+    "options": ["Oo at totoo yan, garantisado mula pamantayan buhat pamahalaan bilang kalayaang karapat-dapat isinasabuhay na pinantay-parehas at nabibigyan din ang mga babae maging malaya tulad ng pinapalakad galing kalalakihan", "Taliwas ito dahil maging sila pa-minsan at ito ay para pabor ito doon muna sa kalalakihan", "Ginagampanan ito depende sana as long sa inyong pag-aprub o huminging kasulatan-muna nanggaling permiso o asawa mo", "Tumpak o oo nga ngunit hindi palasak kung pwede mangyari ito lang lamang tuwing at iipunin nyo magagampanan lang the same to mga simpleng paninda na maliit sa inyo"],
+    "bonne_reponse": 0,
+    "explication": "Dahil naging pasimula din kasabay niyan noon ng taon 1965, hinahayaan at igagarantisado muli sa ating mga babae at lahat magtataglay din ang katumbas mapatapat pa man hangga't kalalakihan upang buwagin maling impormasyon upang may pantay at patas galing independenting para sa kanya ito lahat makabukas at nagta-trabahong sumusuporta kabilang pamamahala at may independensya magkaroon sa pinansiyal man o mapamahala ang negosyo."
+  }
+]
