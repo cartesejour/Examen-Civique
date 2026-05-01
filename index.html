@@ -275,18 +275,6 @@
                 </div>
             </div> 
 
-
-            <div class="my-6 text-center w-full min-h-[250px] bg-gray-50 overflow-hidden">
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-5981987195508706"
-                     data-ad-slot="2693316408"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
             <div class="mt-8 pt-6 border-t border-gray-200">
                 <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">🌟 Services & Partenaires recommandés</h2>
                 <p class="text-[11px] text-gray-600 mb-4 leading-relaxed">Pour finaliser votre dossier à la préfecture, voici quelques services partenaires recommandés.</p>
@@ -375,7 +363,6 @@
     </div>
         </div> 
     
-    
 <div id="screen-quiz" class="hidden flex flex-col gap-4">
     
     <div class="bg-bleu-france text-white p-3 md:p-4 rounded shadow-md flex justify-between items-center">
@@ -388,15 +375,15 @@
     </div>
 
     <div class="flex justify-between items-center">
-        <div id="category-display" class="text-[10px] md:text-xs font-black text-bleu-france bg-blue-100 px-3 py-1 rounded border border-blue-200 uppercase tracking-widest">
+        <div id="category-display" class="text-[10px] md:text-xs font-black text-bleu-france bg-blue-50 px-3 py-1.5 rounded border border-blue-200 uppercase tracking-widest">
             THEME
         </div>
         
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 md:gap-3">
             <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] md:text-xs font-bold text-yellow-700 bg-yellow-50 px-3 py-1.5 rounded border border-yellow-300 shadow-sm transition hover:bg-yellow-100">
-                🎁 Joker 50/50
+                🎁 Joker
             </button>
-            <button onclick="App.promptQuit()" class="text-[10px] md:text-xs font-black text-red-600 hover:text-red-800 uppercase tracking-wider transition">
+            <button onclick="App.promptQuit()" class="text-[10px] md:text-xs font-black text-red-600 bg-red-50 hover:bg-red-600 hover:text-white px-3 py-1.5 rounded border border-red-200 uppercase tracking-wider transition shadow-sm">
                 Quitter ✖
             </button>
         </div>
@@ -420,7 +407,6 @@
         </button>
     </div>
 </div>
-
         <div id="screen-results" class="hidden space-y-6">
             <div class="bg-white p-8 border shadow-sm text-center">
                 <h2 class="text-2xl font-black text-bleu-france mb-2 uppercase">Score Final</h2>
@@ -438,17 +424,6 @@
                 <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center">Fiches de Synthèse</h2>
                 <p class="text-xs text-gray-600 mb-6 text-center">Résumés officiels pour préparer les 3 journées de formation civique.</p>
 
-                <div class="my-4 text-center w-full min-h-[250px] bg-gray-50 overflow-hidden">
-                    <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-client="ca-pub-5981987195508706"
-                         data-ad-slot="2693316408"
-                         data-ad-format="auto"
-                         data-full-width-responsive="true"></ins>
-                    <script>
-                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
                 
                 <div class="flex mb-6 border-b-2 border-gray-100">
                     <button id="tab-journees" 
@@ -850,7 +825,16 @@
 
         </div>
     </div>
-
+    
+    <div class="mt-8 bg-gray-50 border border-gray-200 p-4 rounded text-[11px] md:text-xs text-gray-500 text-justify leading-relaxed">
+        <p class="mb-2">
+            <strong class="text-gray-700">Important :</strong> Ce site et ses simulateurs sont fournis à titre strictement informatif. Nous ne sommes affiliés à aucun organisme gouvernemental (Préfecture, Ministère de l'Intérieur) ni à aucun cabinet d'avocats. Les résultats du simulateur ne remplacent en aucun cas l'avis de l'administration française.
+        </p>
+        <p>
+            Besoin d'un conseil juridique pour votre dossier de titre de séjour ? Vous avez droit à des consultations gratuites. Rapprochez-vous des <a href="https://www.service-public.fr/particuliers/vosdroits/F20706" target="_blank" class="text-bleu-france underline font-bold">Points-Justice (CDAD)</a> ou des <a href="https://www.avocat.fr/annuaire" target="_blank" class="text-bleu-france underline font-bold">Barreaux de Solidarité</a> de votre région pour consulter un avocat gratuitement.
+        </p>
+    </div>
+    
 </div>
     
         <div id="screen-legal" class="hidden space-y-6">
