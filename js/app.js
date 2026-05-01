@@ -107,6 +107,27 @@ async startQuiz(lvl) {
             UI.renderQuestion(QuizEngine.state);
         }
     },
+    handleJoker() {
+        try {
+            const btn = document.getElementById('btn-joker');
+            if (btn) {
+                btn.classList.add('opacity-50', 'cursor-not-allowed');
+                btn.disabled = true;
+            }
+
+            if (typeof UI !== 'undefined' && typeof UI.triggerAd === 'function') {
+                UI.triggerAd('joker', () => {
+                    const wrongIndexes = QuizEngine.useJoker();
+                    UI.hideJokerOptions(wrongIndexes);
+                });
+            } else {
+                const wrongIndexes = QuizEngine.useJoker();
+                UI.hideJokerOptions(wrongIndexes);
+            }
+        } catch (erreur) {
+            alert("Erreur avec le bouton Éliminer : " + erreur.message);
+        }
+    },
     promptQuit() {
         const questionsRepondues = QuizEngine.state.userAnswers.filter(r => r !== null).length;
         
@@ -128,7 +149,6 @@ async startQuiz(lvl) {
         
         UI.openModal('modal-quit');
     },
-
 abandonQuiz() {
         clearInterval(QuizEngine.state.timer);
         UI.closeModal('modal-quit');
