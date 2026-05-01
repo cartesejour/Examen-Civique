@@ -157,21 +157,31 @@ reportQuestion() {
     
 sendReport() {
         const motif = document.getElementById('report-message').value;
-        if (!motif) {
-            alert("Veuillez écrire un motif avant d'envoyer.");
+        if (!motif || motif.trim().length < 5) {
+            alert("Veuillez décrire le problème (minimum 5 caractères).");
             return;
         }
 
         const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
         
-        // Prépare l'email automatique
-        const subject = encodeURIComponent("Signalement Question - Examen Civique");
-        const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler un problème sur cette question :\n\n"${currentQ.question}"\n\nMotif du signalement :\n${motif}\n\nMerci de corriger !`);
-        
-        // Ouvre l'appli mail de l'utilisateur
-        window.location.href = `mailto:contact@cartesejour.fr?subject=${subject}&body=${body}`;
+        // Construction du lien mailto
+        const email = "contact@cartesejour.fr";
+        const subject = `Signalement : Question ${QuizEngine.state.currentQuestion + 1} (${QuizEngine.state.level})`;
+        const body = `Bonjour,\n\nJe signale un problème sur la question :\n"${currentQ.question}"\n\nProblème constaté :\n${motif}\n\n--\nEnvoyé depuis CarteSejour.fr`;
+
+        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        // Tentative d'ouverture
+        const link = document.createElement('a');
+        link.href = mailtoLink;
+        link.click(); // Plus fiable que window.location
         
         UI.closeModal('modal-report');
+        
+        // Petit message de confirmation visuelle
+        setTimeout(() => {
+            UI.showCustomAlert("Merci !", "Si votre application mail ne s'est pas ouverte, vous pouvez nous écrire directement à contact@cartesejour.fr");
+        }, 500);
     },
     handleJoker() {
         UI.triggerAd('joker', () => {
