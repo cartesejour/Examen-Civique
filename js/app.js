@@ -129,27 +129,25 @@ async startQuiz(lvl) {
         UI.openModal('modal-quit');
     },
 
-    abandonQuiz() {
-        // ... votre code existant pour abandonQuiz() reste ici ...
-    abandonQuiz() {
+abandonQuiz() {
         clearInterval(QuizEngine.state.timer);
         UI.closeModal('modal-quit');
 
-        // ✨ CORRECTION : On compte COMBIEN de questions ont vraiment une réponse
         const questionsRepondues = QuizEngine.state.userAnswers.filter(reponse => reponse !== null).length;
 
-        // Si l'utilisateur n'a cliqué sur AUCUNE réponse, on rentre à la maison directement
+        // Si l'utilisateur n'a cliqué sur AUCUNE réponse, on le renvoie à l'accueil proprement
         if (questionsRepondues === 0) {
             localStorage.removeItem('quizInProgress');
-            location.reload(); // Recharge la page pour revenir à l'accueil proprement
+            // ✨ CORRECTION ICI : On ramène à l'accueil sans recharger la page
+            UI.switchScreen('screen-home');
+            window.scrollTo(0,0);
             return;
         }
 
-        // Si l'utilisateur a répondu à au moins 1 question, on coupe le quiz là où il s'est arrêté
+        // S'il y a des réponses, on calcule le bilan
         QuizEngine.state.questions = QuizEngine.state.questions.slice(0, questionsRepondues);
         QuizEngine.state.userAnswers = QuizEngine.state.userAnswers.slice(0, questionsRepondues);
         
-        // On lance le bilan uniquement pour les questions répondues
         this.finishQuiz();
     },
 
