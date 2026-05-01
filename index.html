@@ -93,15 +93,7 @@
         <div class="w-full bg-gray-100 h-1 rounded-full overflow-hidden max-w-xs"><div class="ad-bar h-full bg-bleu-france"></div></div>
     </div>
 
-    <div id="modal-report" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4" aria-hidden="true">
-        <div class="bg-white w-full max-w-sm p-6 shadow-2xl border-t-4 border-yellow-500 rounded relative">
-            <button onclick="UI.closeModal('modal-report')" class="absolute top-3 right-4 text-gray-400 hover:text-gray-800 text-2xl font-bold">&times;</button>
-            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-yellow-600">Signaler une erreur</h3>
-            <p class="text-xs text-gray-600 mb-4 font-medium">Décrivez le problème (faute de frappe, mauvaise réponse, etc.) :</p>
-            <textarea id="report-message" rows="3" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-yellow-500 outline-none mb-4" placeholder="Votre message..."></textarea>
-            <button onclick="App.sendReport()" class="w-full py-3 bg-yellow-500 text-white font-black text-xs uppercase shadow-md rounded hover:bg-yellow-600 transition">Envoyer par Email</button>
-        </div>
-    </div>
+    
 <div id="modal-newsletter-popup" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[400] flex items-center justify-center p-4 backdrop-blur-sm" aria-hidden="true">
     <div class="bg-white max-w-sm w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative">
         <button onclick="document.getElementById('modal-newsletter-popup').classList.add('hidden')" class="absolute top-2 right-3 text-gray-400 hover:text-gray-800 font-black text-xl">&times;</button>
