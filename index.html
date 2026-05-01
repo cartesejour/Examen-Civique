@@ -375,49 +375,46 @@
         </div>
     </div>
 </div>
-<div id="screen-quiz" class="hidden flex flex-col h-[calc(100vh-100px)] max-h-[800px]">
+<div id="screen-quiz" class="hidden fixed inset-0 bg-fond-gris z-[100] flex flex-col p-3">
     
-    <div class="bg-bleu-france text-white p-2 rounded shadow-md flex justify-between items-center mb-2 flex-shrink-0">
-        <div id="q-counter" class="text-sm font-black hidden">
+    <div class="bg-bleu-france text-white p-3 rounded-lg shadow-md flex justify-between items-center flex-shrink-0 mb-2">
+        <div id="q-counter" class="text-sm font-black uppercase tracking-tighter">
             Question <span id="current-q-num">1</span>/40
         </div>
-        <div id="timer-zone" class="text-sm font-mono font-black flex items-center gap-2 hidden">
-            ⏱ <span id="timer-display"></span>
+        <div id="timer-zone" class="text-sm font-mono font-black bg-blue-900 bg-opacity-30 px-3 py-1 rounded-full">
+            ⏱ <span id="timer-display">00:00</span>
         </div>
     </div>
 
-    <div class="flex justify-between items-center mb-2 flex-shrink-0">
-        <div id="category-display" class="text-[10px] font-black text-bleu-france bg-blue-50 px-2 py-1 rounded border border-blue-200 uppercase tracking-widest truncate max-w-[40%]">
+    <div class="flex justify-between items-center mb-2 flex-shrink-0 gap-2">
+        <div id="category-display" class="text-[9px] font-black text-bleu-france bg-blue-100 px-2 py-1.5 rounded border border-blue-200 uppercase truncate flex-grow">
             THEME
         </div>
-        
-        <div class="flex items-center gap-2">
-            <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-700 bg-yellow-50 px-2 py-1.5 rounded border border-yellow-300 shadow-sm transition">
-                🎁 -2 choix
-            </button>
-            <button onclick="App.promptQuit()" class="text-[10px] font-black text-red-600 bg-red-50 hover:bg-red-600 hover:text-white px-2 py-1.5 rounded border border-red-200 uppercase transition shadow-sm">
-                Quitter ✖
-            </button>
-        </div>
-    </div>
-
-    <div class="bg-white p-4 border-l-4 border-bleu-france shadow-sm rounded mb-2 flex-shrink-0">
-        <h2 id="question-text" class="text-base md:text-lg font-black leading-tight text-gray-900 mb-1"></h2>
-        <p id="helper-question" class="text-xs text-gray-600 font-normal italic mt-1 hidden"></p>
-    </div>
-
-    <div id="options-container" class="grid grid-cols-1 gap-2 overflow-y-auto flex-grow pb-2"></div>
-
-    <div class="flex justify-between items-center gap-2 mt-auto pt-2 border-t border-gray-100 flex-shrink-0">
-        <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-700 font-bold text-[11px] uppercase rounded transition">Précédent</button>
-        <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-[11px] uppercase rounded shadow transition">Suivant</button>
-    </div>
-
-    <div class="text-center mt-2 flex-shrink-0">
-        <button onclick="App.reportQuestion()" class="text-[9px] text-gray-400 hover:text-yellow-600 font-medium transition-colors pb-2">
-            🚩 Signaler une erreur
+        <button id="btn-joker" onclick="App.handleJoker()" class="text-[9px] font-bold text-purple-700 bg-purple-50 px-2 py-1.5 rounded border border-purple-200 shadow-sm">
+            ✂️ Éliminer 2
+        </button>
+        <button onclick="App.promptQuit()" class="text-[9px] font-black text-white bg-rouge-marianne px-2 py-1.5 rounded uppercase shadow-sm">
+            Quitter ✖
         </button>
     </div>
+
+    <div class="flex-grow flex flex-col min-h-0 overflow-hidden">
+        <div class="bg-white p-4 border-l-4 border-bleu-france shadow-sm rounded-lg mb-3 flex-shrink-0">
+            <h2 id="question-text" class="text-base md:text-lg font-black leading-tight text-gray-900"></h2>
+            <p id="helper-question" class="text-xs text-gray-500 italic mt-2 hidden"></p>
+        </div>
+
+        <div id="options-container" class="grid grid-cols-1 gap-2 overflow-y-auto pb-4 pr-1"></div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 pt-3 border-t border-gray-200 flex-shrink-0 bg-fond-gris">
+        <button id="btn-prev" onclick="App.handlePrev()" class="py-4 bg-gray-300 text-gray-700 font-black text-xs uppercase rounded-xl transition">Précédent</button>
+        <button id="btn-next" onclick="App.handleNext()" class="py-4 bg-bleu-france text-white font-black text-xs uppercase rounded-xl shadow-lg transition">Suivant</button>
+    </div>
+
+    <button onclick="App.reportQuestion()" class="text-[10px] text-gray-400 mt-2 hover:text-red-500 transition pb-1">
+        🚩 Signaler une erreur
+    </button>
 </div>
         <div id="screen-results" class="hidden space-y-6">
             <div class="bg-white p-8 border shadow-sm text-center">
