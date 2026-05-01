@@ -9,7 +9,7 @@ const UI = {
     },
 
 switchScreen(screenId) {
-        // 1. On cache TOUS les écrans (J'ai ajouté 'screen-quiz-setup' !)
+        // 1. On cache TOUS les écrans
         ['screen-home', 'screen-quiz-setup', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-demarches', 'screen-legal', 'screen-privacy'].forEach(id => {
             const el = document.getElementById(id);
             if(el) el.classList.add('hidden');
@@ -18,6 +18,16 @@ switchScreen(screenId) {
         // 2. On affiche uniquement l'écran demandé
         const targetScreen = document.getElementById(screenId);
         if(targetScreen) targetScreen.classList.remove('hidden');
+
+        // ✨ LA MAGIE POUR LE PLEIN ÉCRAN EST ICI ✨
+        const siteHeader = document.querySelector('header'); // Le bandeau avec le logo
+        if (screenId === 'screen-quiz') {
+            if (siteHeader) siteHeader.classList.add('hidden'); // Cache le logo
+            document.body.classList.add('overflow-hidden'); // Bloque le scroll derrière
+        } else {
+            if (siteHeader) siteHeader.classList.remove('hidden'); // Remet le logo
+            document.body.classList.remove('overflow-hidden'); // Débloque le scroll
+        }
 
         const mainNav = document.getElementById('main-nav');
         if (!mainNav) return; // Sécurité
@@ -37,7 +47,7 @@ switchScreen(screenId) {
             }
             mainNav.classList.remove('hidden');
         } 
-        else if (screenId === 'screen-quiz-setup') { // <-- AJOUT DU NOUVEAU BOUTON ICI
+        else if (screenId === 'screen-quiz-setup') {
             const btn = document.getElementById('btn-nav-quiz-setup');
             if(btn) {
                 btn.classList.remove('bg-gray-200', 'text-gray-800');
