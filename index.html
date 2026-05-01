@@ -381,7 +381,7 @@
         
         <div class="flex items-center gap-2 md:gap-3">
             <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] md:text-xs font-bold text-yellow-700 bg-yellow-50 px-3 py-1.5 rounded border border-yellow-300 shadow-sm transition hover:bg-yellow-100">
-                🎁 Joker
+                🎁 Éliminer 2 choix
             </button>
             <button onclick="App.promptQuit()" class="text-[10px] md:text-xs font-black text-red-600 bg-red-50 hover:bg-red-600 hover:text-white px-3 py-1.5 rounded border border-red-200 uppercase tracking-wider transition shadow-sm">
                 Quitter ✖
@@ -1027,7 +1027,18 @@
             <h4 id="sim-titre" class="text-lg font-black uppercase mb-2"></h4>
             <p id="sim-texte" class="text-sm text-gray-600 mb-6 font-medium leading-relaxed"></p>
             
-            <button onclick="Simulateur.recommencer()" class="text-xs text-gray-500 underline hover:text-bleu-france">Faire une autre simulation</button>
+            <div class="mt-4 mb-6 bg-gray-50 border border-gray-200 p-4 rounded-lg text-left text-[10px] text-gray-500 leading-relaxed shadow-sm">
+                <p class="mb-3">
+                    <strong class="text-gray-700 uppercase tracking-wide">⚠️ Important :</strong> Ce simulateur est fourni à titre strictement informatif. Nous ne sommes affiliés à aucun organisme gouvernemental (Préfecture, Ministère de l'Intérieur) ni à aucun cabinet d'avocats. Les résultats ne remplacent en aucun cas l'avis de l'administration française.
+                </p>
+                <p class="pt-3 border-t border-gray-200">
+                    <strong class="text-gray-700 uppercase tracking-wide">⚖️ Conseil juridique gratuit :</strong> Besoin d'aide pour votre dossier de titre de séjour ? Vous avez droit à des consultations gratuites. Rapprochez-vous des <a href="https://www.service-public.fr/particuliers/vosdroits/F20706" target="_blank" rel="noopener noreferrer" class="text-bleu-france underline font-bold hover:text-blue-800">Points-Justice (CDAD)</a> ou des <a href="https://www.avocat.fr/annuaire" target="_blank" rel="noopener noreferrer" class="text-bleu-france underline font-bold hover:text-blue-800">Barreaux de Solidarité</a> de votre région pour consulter un avocat gratuitement.
+                </p>
+            </div>
+
+            <button onclick="Simulateur.recommencer()" class="text-xs text-gray-500 underline hover:text-bleu-france font-medium transition">
+                ↺ Faire une autre simulation
+            </button>
         </div>
 
         <button onclick="document.getElementById('modal-simulateur').classList.add('hidden')" class="absolute top-3 right-4 text-gray-400 hover:text-gray-800 text-2xl font-bold">&times;</button>
