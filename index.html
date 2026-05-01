@@ -66,12 +66,12 @@
     </div>
 
     <div id="modal-quit" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4" aria-hidden="true">
-        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-rouge-marianne text-center">
-            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-rouge-marianne">Abandonner ?</h3>
-            <p class="text-sm text-gray-600 mb-6 font-medium">Votre score sera calculé uniquement sur les questions auxquelles vous avez déjà répondu.</p>
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-rouge-marianne text-center rounded">
+            <h3 id="quit-title" class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-rouge-marianne">Abandonner ?</h3>
+            <p id="quit-desc" class="text-sm text-gray-600 mb-6 font-medium">Votre score sera calculé uniquement sur les questions auxquelles vous avez déjà répondu.</p>
             <div class="grid grid-cols-2 gap-3">
-                <button onclick="UI.closeModal('modal-quit')" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase">Continuer</button>
-                <button onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase shadow-md">Voir mon Bilan</button>
+                <button onclick="UI.closeModal('modal-quit')" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase rounded hover:bg-gray-200 transition">Continuer</button>
+                <button id="btn-confirm-quit" onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase shadow-md rounded hover:bg-red-700 transition">Voir mon score</button>
             </div>
         </div>
     </div>
