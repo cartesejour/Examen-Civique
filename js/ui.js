@@ -9,8 +9,8 @@ const UI = {
     },
 
 switchScreen(screenId) {
-        // 1. On cache TOUS les écrans (J'ai ajouté 'screen-demarches' ici !)
-        ['screen-home', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-demarches', 'screen-legal', 'screen-privacy'].forEach(id => {
+        // 1. On cache TOUS les écrans (J'ai ajouté 'screen-quiz-setup' !)
+        ['screen-home', 'screen-quiz-setup', 'screen-quiz', 'screen-results', 'screen-revisions', 'screen-demarches', 'screen-legal', 'screen-privacy'].forEach(id => {
             const el = document.getElementById(id);
             if(el) el.classList.add('hidden');
         });
@@ -37,6 +37,14 @@ switchScreen(screenId) {
             }
             mainNav.classList.remove('hidden');
         } 
+        else if (screenId === 'screen-quiz-setup') { // <-- AJOUT DU NOUVEAU BOUTON ICI
+            const btn = document.getElementById('btn-nav-quiz-setup');
+            if(btn) {
+                btn.classList.remove('bg-gray-200', 'text-gray-800');
+                btn.classList.add('bg-bleu-france', 'text-white');
+            }
+            mainNav.classList.remove('hidden');
+        }
         else if (screenId === 'screen-revisions') {
             const btn = document.getElementById('btn-nav-revisions');
             if(btn) {
@@ -57,8 +65,11 @@ switchScreen(screenId) {
             mainNav.classList.remove('hidden');
         }
         else {
+            // Pour 'screen-quiz' et 'screen-results', le menu disparaît
             mainNav.classList.add('hidden');
         }
+        
+        window.scrollTo(0, 0);
     },
     
     
