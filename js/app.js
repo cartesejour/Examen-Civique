@@ -151,42 +151,24 @@ abandonQuiz() {
         this.finishQuiz();
     },
 reportQuestion() {
-        document.getElementById('report-message').value = ""; // On vide le champ texte
-        UI.openModal('modal-report');
-    },
-sendReport() {
-        const motif = document.getElementById('report-message').value;
-        
-        // 1. L'alerte s'affichera maintenant PAR-DESSUS grâce au z-[1000]
-        if (!motif || motif.trim().length < 5) {
-            UI.showCustomAlert("Attention", "Veuillez décrire le problème (minimum 5 caractères) avant d'envoyer.");
-            return;
+        try {
+            // On récupère la question actuellement affichée
+            const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
+            
+            const email = "contact@cartesejour.fr";
+            const subject = encodeURIComponent("Signalement d'erreur - Question " + (QuizEngine.state.currentQuestion + 1));
+            
+            // On prépare le texte du mail avec la question
+            const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler une erreur sur cette question :\n\n"${currentQ.question}"\n\nVoici le problème :\n(Écrivez votre explication ici)`);
+            
+            // On ouvre directement le mail, EXACTEMENT comme le bouton "Suggestion" !
+            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+            
+        } catch (erreur) {
+            console.error("Erreur d'ouverture mail :", erreur);
         }
-
-        const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
-        const email = "contact@cartesejour.fr";
-        const subject = "Signalement d'erreur - Examen Civique";
-        const body = `Motif :\n${motif}\n\nQuestion posée :\n"${currentQ.question}"`;
-
-        // 2. On ferme la fenêtre de texte proprement
-        UI.closeModal('modal-report');
-
-        // 3. LA MÉTHODE INFAILLIBLE : On simule un "vrai" clic physique sur un lien
-        const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        const fauxLien = document.createElement('a');
-        fauxLien.href = mailtoLink;
-        document.body.appendChild(fauxLien);
-        fauxLien.click(); // Force le navigateur à ouvrir l'appli Mail
-        document.body.removeChild(fauxLien); // On nettoie
-        
-        // 4. On affiche l'alerte finale avec un léger délai pour laisser le mail s'ouvrir
-        setTimeout(() => {
-            UI.showCustomAlert(
-                "Message prêt !", 
-                "Si votre application mail ne s'est pas ouverte automatiquement, vous pouvez nous écrire directement à : contact@cartesejour.fr"
-            );
-        }, 800);
     },
+
 
     handleCorrection() {
         UI.triggerAd('correction', () => UI.renderCorrection(QuizEngine.state));
