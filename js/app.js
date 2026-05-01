@@ -157,9 +157,11 @@ reportQuestion() {
     
 sendReport() {
         const motif = document.getElementById('report-message').value;
+        
+        // 1. On utilise la JOLIE alerte au lieu de l'alerte système moche
         if (!motif || motif.trim().length < 5) {
-            alert("Veuillez décrire le problème (minimum 5 caractères).");
-            return;
+            UI.showCustomAlert("Attention", "Veuillez décrire le problème (minimum 5 caractères) avant d'envoyer.");
+            return; // On arrête là si c'est vide
         }
 
         const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
@@ -167,22 +169,19 @@ sendReport() {
         const subject = encodeURIComponent("Signalement d'erreur - Examen Civique");
         const body = encodeURIComponent(`Motif :\n${motif}\n\nQuestion posée :\n"${currentQ.question}"`);
 
-        // On ferme la fenêtre AVANT d'ouvrir le mail pour éviter les bugs visuels
+        // 2. On ferme la fenêtre de texte
         UI.closeModal('modal-report');
 
-        // La méthode la plus directe et infaillible pour ouvrir l'appli mail
+        // 3. On tente d'ouvrir l'application Mail (Méthode la plus standard)
         window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
         
-        // Petit message de confirmation
+        // 4. On affiche un beau message de remerciement
         setTimeout(() => {
-            alert("Merci ! Si votre application mail ne s'est pas ouverte, écrivez-nous à contact@cartesejour.fr");
-        }, 1000);
-    },
-    handleJoker() {
-        UI.triggerAd('joker', () => {
-            const wrongIndexes = QuizEngine.useJoker();
-            UI.hideJokerOptions(wrongIndexes);
-        });
+            UI.showCustomAlert(
+                "Message préparé !", 
+                "Si votre application mail ne s'est pas ouverte automatiquement, vous pouvez nous envoyer un email directement à : contact@cartesejour.fr"
+            );
+        }, 600);
     },
 
     handleCorrection() {
