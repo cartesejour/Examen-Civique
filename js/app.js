@@ -150,21 +150,28 @@ abandonQuiz() {
         
         this.finishQuiz();
     },
-    reportQuestion() {
-        // On récupère la question actuelle
+reportQuestion() {
+        document.getElementById('report-message').value = ""; // On vide le champ texte
+        UI.openModal('modal-report');
+    },
+    
+sendReport() {
+        const motif = document.getElementById('report-message').value;
+        if (!motif) {
+            alert("Veuillez écrire un motif avant d'envoyer.");
+            return;
+        }
+
         const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
         
-        // On ouvre une petite boîte de dialogue pour demander le motif
-        const motif = prompt("Quel est le problème avec cette question ? (Erreur, orthographe, réponse fausse...)");
+        // Prépare l'email automatique
+        const subject = encodeURIComponent("Signalement Question - Examen Civique");
+        const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler un problème sur cette question :\n\n"${currentQ.question}"\n\nMotif du signalement :\n${motif}\n\nMerci de corriger !`);
         
-        if (motif) {
-            // Si l'utilisateur a écrit quelque chose, on prépare un email automatique
-            const subject = encodeURIComponent("Signalement Question - Examen Civique");
-            const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler un problème sur cette question :\n\n"${currentQ.question}"\n\nMotif du signalement :\n${motif}\n\nMerci de corriger !`);
-            
-            // Ouvre l'application mail de l'utilisateur avec le message pré-rempli
-            window.location.href = `mailto:contact@cartesejour.fr?subject=${subject}&body=${body}`;
-        }
+        // Ouvre l'appli mail de l'utilisateur
+        window.location.href = `mailto:contact@cartesejour.fr?subject=${subject}&body=${body}`;
+        
+        UI.closeModal('modal-report');
     },
     handleJoker() {
         UI.triggerAd('joker', () => {
