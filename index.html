@@ -93,7 +93,15 @@
         <div class="w-full bg-gray-100 h-1 rounded-full overflow-hidden max-w-xs"><div class="ad-bar h-full bg-bleu-france"></div></div>
     </div>
 
-    
+    <div id="modal-report" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4" aria-hidden="true">
+        <div class="bg-white w-full max-w-sm p-6 shadow-2xl border-t-4 border-yellow-500 rounded relative">
+            <button onclick="UI.closeModal('modal-report')" class="absolute top-3 right-4 text-gray-400 hover:text-gray-800 text-2xl font-bold">&times;</button>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-yellow-600">Signaler une erreur</h3>
+            <p class="text-xs text-gray-600 mb-4 font-medium">Décrivez le problème (faute de frappe, mauvaise réponse, etc.) :</p>
+            <textarea id="report-message" rows="3" class="w-full border border-gray-300 rounded p-2 text-sm text-gray-800 bg-gray-50 focus:border-yellow-500 outline-none mb-4" placeholder="Votre message..."></textarea>
+            <button onclick="App.sendReport()" class="w-full py-3 bg-yellow-500 text-white font-black text-xs uppercase shadow-md rounded hover:bg-yellow-600 transition">Envoyer par Email</button>
+        </div>
+    </div>
 <div id="modal-newsletter-popup" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[400] flex items-center justify-center p-4 backdrop-blur-sm" aria-hidden="true">
     <div class="bg-white max-w-sm w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative">
         <button onclick="document.getElementById('modal-newsletter-popup').classList.add('hidden')" class="absolute top-2 right-3 text-gray-400 hover:text-gray-800 font-black text-xl">&times;</button>
@@ -367,47 +375,47 @@
         </div>
     </div>
 </div>
-<div id="screen-quiz" class="hidden flex flex-col gap-4">
+<div id="screen-quiz" class="hidden flex flex-col h-[calc(100vh-100px)] max-h-[800px]">
     
-    <div class="bg-bleu-france text-white p-3 md:p-4 rounded shadow-md flex justify-between items-center">
-        <div id="q-counter" class="text-sm md:text-base font-black hidden">
+    <div class="bg-bleu-france text-white p-2 rounded shadow-md flex justify-between items-center mb-2 flex-shrink-0">
+        <div id="q-counter" class="text-sm font-black hidden">
             Question <span id="current-q-num">1</span>/40
         </div>
-        <div id="timer-zone" class="text-sm md:text-base font-mono font-black flex items-center gap-2 hidden">
+        <div id="timer-zone" class="text-sm font-mono font-black flex items-center gap-2 hidden">
             ⏱ <span id="timer-display"></span>
         </div>
     </div>
 
-    <div class="flex justify-between items-center">
-        <div id="category-display" class="text-[10px] md:text-xs font-black text-bleu-france bg-blue-50 px-3 py-1.5 rounded border border-blue-200 uppercase tracking-widest">
+    <div class="flex justify-between items-center mb-2 flex-shrink-0">
+        <div id="category-display" class="text-[10px] font-black text-bleu-france bg-blue-50 px-2 py-1 rounded border border-blue-200 uppercase tracking-widest truncate max-w-[40%]">
             THEME
         </div>
         
-        <div class="flex items-center gap-2 md:gap-3">
-            <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] md:text-xs font-bold text-yellow-700 bg-yellow-50 px-3 py-1.5 rounded border border-yellow-300 shadow-sm transition hover:bg-yellow-100">
-                🎁 Éliminer 2 choix
+        <div class="flex items-center gap-2">
+            <button id="btn-joker" onclick="App.handleJoker()" class="text-[10px] font-bold text-yellow-700 bg-yellow-50 px-2 py-1.5 rounded border border-yellow-300 shadow-sm transition">
+                🎁 -2 choix
             </button>
-            <button onclick="App.promptQuit()" class="text-[10px] md:text-xs font-black text-red-600 bg-red-50 hover:bg-red-600 hover:text-white px-3 py-1.5 rounded border border-red-200 uppercase tracking-wider transition shadow-sm">
+            <button onclick="App.promptQuit()" class="text-[10px] font-black text-red-600 bg-red-50 hover:bg-red-600 hover:text-white px-2 py-1.5 rounded border border-red-200 uppercase transition shadow-sm">
                 Quitter ✖
             </button>
         </div>
     </div>
 
-    <div class="bg-white p-5 md:p-6 border-l-4 border-bleu-france shadow-sm rounded">
-        <h2 id="question-text" class="text-lg md:text-xl font-black leading-tight text-gray-900 mb-1"></h2>
-        <p id="helper-question" class="text-sm text-gray-600 font-normal italic mt-2 hidden"></p>
+    <div class="bg-white p-4 border-l-4 border-bleu-france shadow-sm rounded mb-2 flex-shrink-0">
+        <h2 id="question-text" class="text-base md:text-lg font-black leading-tight text-gray-900 mb-1"></h2>
+        <p id="helper-question" class="text-xs text-gray-600 font-normal italic mt-1 hidden"></p>
     </div>
 
-    <div id="options-container" class="grid grid-cols-1 gap-2"></div>
+    <div id="options-container" class="grid grid-cols-1 gap-2 overflow-y-auto flex-grow pb-2"></div>
 
-    <div class="flex justify-between items-center gap-3 mt-2">
-        <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 md:py-4 bg-gray-200 text-gray-700 font-bold text-xs md:text-sm uppercase rounded transition hover:bg-gray-300">Précédent</button>
-        <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 md:py-4 bg-bleu-france text-white font-bold text-xs md:text-sm uppercase rounded shadow transition hover:bg-blue-800">Suivant</button>
+    <div class="flex justify-between items-center gap-2 mt-auto pt-2 border-t border-gray-100 flex-shrink-0">
+        <button id="btn-prev" onclick="App.handlePrev()" class="flex-1 py-3 bg-gray-200 text-gray-700 font-bold text-[11px] uppercase rounded transition">Précédent</button>
+        <button id="btn-next" onclick="App.handleNext()" class="flex-1 py-3 bg-bleu-france text-white font-bold text-[11px] uppercase rounded shadow transition">Suivant</button>
     </div>
 
-    <div class="text-center mt-2 pb-4">
-        <button onclick="App.reportQuestion()" class="text-[10px] text-gray-400 hover:text-red-500 hover:underline font-medium transition-colors">
-            🚩 Signaler une erreur sur cette question
+    <div class="text-center mt-2 flex-shrink-0">
+        <button onclick="App.reportQuestion()" class="text-[9px] text-gray-400 hover:text-yellow-600 font-medium transition-colors pb-2">
+            🚩 Signaler une erreur
         </button>
     </div>
 </div>
