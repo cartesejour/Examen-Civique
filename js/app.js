@@ -150,7 +150,22 @@ abandonQuiz() {
         
         this.finishQuiz();
     },
-
+    reportQuestion() {
+        // On récupère la question actuelle
+        const currentQ = QuizEngine.state.questions[QuizEngine.state.currentQuestion];
+        
+        // On ouvre une petite boîte de dialogue pour demander le motif
+        const motif = prompt("Quel est le problème avec cette question ? (Erreur, orthographe, réponse fausse...)");
+        
+        if (motif) {
+            // Si l'utilisateur a écrit quelque chose, on prépare un email automatique
+            const subject = encodeURIComponent("Signalement Question - Examen Civique");
+            const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler un problème sur cette question :\n\n"${currentQ.question}"\n\nMotif du signalement :\n${motif}\n\nMerci de corriger !`);
+            
+            // Ouvre l'application mail de l'utilisateur avec le message pré-rempli
+            window.location.href = `mailto:contact@cartesejour.fr?subject=${subject}&body=${body}`;
+        }
+    },
     handleJoker() {
         UI.triggerAd('joker', () => {
             const wrongIndexes = QuizEngine.useJoker();
