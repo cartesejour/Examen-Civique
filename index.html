@@ -160,11 +160,13 @@
 
         
 <div id="main-nav" class="flex flex-wrap gap-2 md:gap-3 w-full justify-center mb-8">
-    <button id="btn-nav-home" onclick="UI.switchScreen('screen-home'); setTimeout(() => document.getElementById('simulateur-section').scrollIntoView({behavior: 'smooth', block: 'start'}), 50);" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-bleu-france text-white rounded-full shadow-sm transition-colors">📝 Quiz</button>
+    <button onclick="UI.switchScreen('screen-home')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-900 text-white rounded-full shadow-sm transition-colors hover:bg-gray-700">Accueil</button>
     
-    <button id="btn-nav-revisions" onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors">📚 Révisions</button>
+    <button onclick="UI.switchScreen('screen-quiz-setup')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-bleu-france text-white rounded-full shadow-sm transition-colors hover:bg-blue-800">Lancer le Quiz</button>
     
-    <button id="btn-nav-demarches" onclick="UI.switchScreen('screen-demarches')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-6 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors">📋 Démarches & Outils</button>
+    <button onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Révisions</button>
+    
+    <button onclick="UI.switchScreen('screen-demarches')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Outils ANEF</button>
 </div>
 
         <div id="screen-home" class="space-y-6">
@@ -180,6 +182,9 @@
                     <button onclick="document.getElementById('modal-simulateur').classList.remove('hidden')" class="text-bleu-france underline font-bold hover:text-blue-800">Simulateur "Suis-je concerné(e) ?"</button>. 
                     Vous trouverez également des outils pour alléger et fusionner vos fichiers PDF pour vos démarches sur le <a href="https://administration-etrangers-en-france.interieur.gouv.fr" target="_blank" rel="noopener noreferrer" class="text-bleu-france underline font-bold hover:text-blue-800">portail de l'ANEF</a>.
                 </p>
+                <button onclick="UI.switchScreen('screen-quiz-setup')" class="bg-rouge-marianne text-white text-sm md:text-base font-black uppercase tracking-widest py-4 px-8 rounded shadow-lg hover:bg-red-700 transition transform hover:scale-105 inline-block mb-6">
+                    Démarrer l'entraînement ➡
+                </button>
                  <div class="text-left mt-4 border-t border-gray-100 pt-4">
                         <p class="text-[11px] text-gray-500 italic leading-relaxed">
                             <strong class="uppercase tracking-wide not-italic text-gray-600">Notez bien :</strong> Bien que nos thématiques et questions soient officielles, les propositions de réponses ont été rédigées de façon indépendante par notre équipe pour faciliter votre apprentissage. La formulation exacte des choix affichés au centre d'examen agréé pourra donc différer.
@@ -189,9 +194,9 @@
             <div class="bg-blue-50 border border-blue-200 py-2 px-3 rounded shadow-sm mb-6">
                 <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-[10px] font-black text-bleu-france uppercase tracking-wide text-center">
                     <span>100% Gratuit</span>
-                    <span>Multilingue</span>
-                    <span>Cours Officiels</span>
-                    <span>Bilan PDF</span>
+                    <span> Multilingue</span>
+                    <span> Cours Officiels</span>
+                    <span> Bilan PDF</span>
                 </div>
             </div>
             <div id="last-score-container" class="hidden bg-white p-4 border border-blue-200 shadow-sm flex items-center justify-between">
@@ -209,72 +214,6 @@
                     <p><strong class="text-bleu-france">🏛️ Nos Sources :</strong> Pour vous préparer au mieux, notre base de données est rigoureusement élaborée à partir du programme officiel du <strong>Ministère de l'Intérieur</strong>, des modules de formation de l'OFII et du Livret du Citoyen.</p>
                 </div>
             </div>
-
-            <div id="simulateur-section" class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg">
-                <h2 class="text-xl font-black text-bleu-france mb-6 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Simulateur d'Examen 2026</h2>
-                
-                <div class="mb-6">
-                    <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
-                        <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">1</span> 
-                        Paramètres du test
-                    </h3>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
-                            <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🔢 Nombre de questions</label>
-                            <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
-                                <option value="10">10 Questions (Test Rapide)</option>
-                                <option value="20">20 Questions (Entraînement)</option>
-                                <option value="30">30 Questions (Intensif)</option>
-                                <option value="40" selected>40 Questions (Examen Complet)</option>
-                            </select>
-                        </div>
-
-                        <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
-                            <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🌐 Aide à la traduction</label>
-                            <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
-                                <option value="none">🇫🇷 Français uniquement</option>
-                                <option value="en">🇬🇧 English</option>
-                                <option value="zh">🇨🇳 中文 (Chinois)</option>
-                                <option value="th">🇹🇭 ภาษาไทย (Thaï)</option>
-                                <option value="tl">🇵🇭 Tagalog (Philippin)</option>
-                                <option value="ar">🇸🇦 العربية (Arabe)</option>
-                                <option value="ru">🇷🇺 Русский (Russe)</option>
-                                <option value="uk">🇺🇦 Українська (Ukrainien)</option>
-                                <option value="hi">🇮🇳 हिन्दी (Hindi)</option>
-                                <option value="ur">🇵🇰 اردو (Ourdou)</option>
-                                <option value="fa">🇮🇷 فارسی (Persan)</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
-                        <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">2</span> 
-                        Lancez l'examen
-                    </h3>
-                    
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
-                            <div class="relative z-10">
-                                <div class="font-black uppercase text-sm tracking-wide mb-1">📘 Carte de Séjour</div>
-                                <div class="text-[10px] text-blue-200 font-medium tracking-wide">Questions officielles • Titre de 1 à 4 ans</div>
-                            </div>
-                            <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
-                        </button>
-                        
-                        <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 rounded shadow-md hover:bg-red-700 transition text-left relative overflow-hidden group border-b-4 border-red-900">
-                            <div class="relative z-10">
-                                <div class="font-black uppercase text-sm tracking-wide mb-1">📕 Résident & Nationalité</div>
-                                <div class="text-[10px] text-red-200 font-medium tracking-wide">Questions officielles • 10 ans et Naturalisation</div>
-                            </div>
-                            <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
-                        </button>
-                    </div>
-                </div>
-            </div> 
-
             <div class="mt-8 pt-6 border-t border-gray-200">
                 <h2 class="text-sm font-black text-gray-900 mb-1 uppercase tracking-tight">🌟 Services & Partenaires recommandés</h2>
                 <p class="text-[11px] text-gray-600 mb-4 leading-relaxed">Pour finaliser votre dossier à la préfecture, voici quelques services partenaires recommandés.</p>
@@ -326,19 +265,19 @@
                 <h2 class="text-lg font-black text-bleu-france uppercase mb-4">Pourquoi nous choisir ?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                     <div class="bg-gray-50 p-3 rounded border border-gray-100 border-l-4 border-l-bleu-france">
-                        <h3 class="text-xs font-bold text-gray-900 mb-1">✅ 100% Gratuit & Illimité</h3>
+                        <h3 class="text-xs font-bold text-gray-900 mb-1">100% Gratuit & Illimité</h3>
                         <p class="text-[10px] text-gray-600 leading-relaxed text-justify">Contrairement à d'autres, aucun abonnement ni paiement caché. Révisez à votre rythme.</p>
                     </div>
                     <div class="bg-gray-50 p-3 rounded border border-gray-100 border-l-4 border-l-gray-300">
-                        <h3 class="text-xs font-bold text-gray-900 mb-1">🌍 Traduction Multilingue</h3>
+                        <h3 class="text-xs font-bold text-gray-900 mb-1">Traduction Multilingue</h3>
                         <p class="text-[10px] text-gray-600 leading-relaxed text-justify">Comprenez les concepts complexes dans votre langue maternelle (Anglais, Arabe, etc.).</p>
                     </div>
                     <div class="bg-gray-50 p-3 rounded border border-gray-100 border-l-4 border-l-gray-300">
-                        <h3 class="text-xs font-bold text-gray-900 mb-1">📚 Cours Complets</h3>
+                        <h3 class="text-xs font-bold text-gray-900 mb-1">Cours Complets</h3>
                         <p class="text-[10px] text-gray-600 leading-relaxed text-justify">Apprenez grâce à nos fiches de révision structurées, tirées du programme officiel de l'État.</p>
                     </div>
                     <div class="bg-gray-50 p-3 rounded border border-gray-100 border-l-4 border-l-rouge-marianne">
-                        <h3 class="text-xs font-bold text-gray-900 mb-1">🖨️ Bilan PDF Personnalisé</h3>
+                        <h3 class="text-xs font-bold text-gray-900 mb-1">Bilan PDF Personnalisé</h3>
                         <p class="text-[10px] text-gray-600 leading-relaxed text-justify">Générez un bilan de vos erreurs à imprimer pour cibler parfaitement vos points faibles.</p>
                     </div>
                 </div>
@@ -362,7 +301,72 @@
             </div>
     </div>
         </div> 
-    
+    <div id="screen-quiz-setup" class="hidden space-y-6">
+    <div class="bg-white p-6 border border-gray-200 shadow-sm rounded-lg max-w-2xl mx-auto">
+        <h2 class="text-xl font-black text-bleu-france mb-6 uppercase tracking-tight text-center border-b border-gray-100 pb-4">Configuration du simulateur d'Examen civique 2026</h2>
+        
+        <div class="mb-8">
+            <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
+                <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">1</span> 
+                Paramètres du test
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
+                    <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🔢 Nombre de questions</label>
+                    <select id="questions-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
+                        <option value="10">10 Questions (Test Rapide)</option>
+                        <option value="20">20 Questions (Entraînement)</option>
+                        <option value="30">30 Questions (Intensif)</option>
+                        <option value="40" selected>40 Questions (Examen Complet)</option>
+                    </select>
+                </div>
+
+                <div class="bg-gray-50 p-3 border border-gray-200 rounded text-sm">
+                    <label class="block font-bold mb-1 text-gray-800 text-[11px] uppercase">🌐 Aide à la traduction</label>
+                    <select id="lang-selector" class="w-full p-2 bg-white border border-gray-300 text-gray-700 outline-none text-xs rounded shadow-sm focus:border-bleu-france">
+                        <option value="none">🇫🇷 Français uniquement</option>
+                        <option value="en">🇬🇧 English</option>
+                        <option value="ar">🇸🇦 العربية (Arabe)</option>
+                        <option value="zh">🇨🇳 中文 (Chinois)</option>
+                        <option value="th">🇹🇭 ภาษาไทย (Thaï)</option>
+                        <option value="tl">🇵🇭 Tagalog (Philippin)</option>
+                        <option value="ru">🇷🇺 Русский (Russe)</option>
+                        <option value="uk">🇺🇦 Українська (Ukrainien)</option>
+                        <option value="hi">🇮🇳 हिन्दी (Hindi)</option>
+                        <option value="ur">🇵🇰 اردو (Ourdou)</option>
+                        <option value="fa">🇮🇷 فارسی (Persan)</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3 class="text-[11px] font-black text-gray-500 uppercase tracking-widest mb-3 flex items-center">
+                <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">2</span> 
+                Choix de la catégorie et lancez l'examen
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
+                    <div class="relative z-10">
+                        <div class="font-black uppercase text-sm tracking-wide mb-1">📘 Carte de Séjour</div>
+                        <div class="text-[10px] text-blue-200 font-medium tracking-wide">Questions officielles • Titre de 1 à 4 ans</div>
+                    </div>
+                    <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                </button>
+                
+                <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 rounded shadow-md hover:bg-red-700 transition text-left relative overflow-hidden group border-b-4 border-red-900">
+                    <div class="relative z-10">
+                        <div class="font-black uppercase text-sm tracking-wide mb-1">📕 Résident & Nationalité</div>
+                        <div class="text-[10px] text-red-200 font-medium tracking-wide">Questions officielles • 10 ans et Naturalisation</div>
+                    </div>
+                    <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="screen-quiz" class="hidden flex flex-col gap-4">
     
     <div class="bg-bleu-france text-white p-3 md:p-4 rounded shadow-md flex justify-between items-center">
