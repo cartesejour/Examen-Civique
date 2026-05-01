@@ -107,7 +107,30 @@ async startQuiz(lvl) {
             UI.renderQuestion(QuizEngine.state);
         }
     },
+    promptQuit() {
+        const questionsRepondues = QuizEngine.state.userAnswers.filter(r => r !== null).length;
+        
+        const title = document.getElementById('quit-title');
+        const desc = document.getElementById('quit-desc');
+        const btnConfirm = document.getElementById('btn-confirm-quit');
 
+        if (questionsRepondues === 0) {
+            title.innerText = "Quitter le test";
+            title.className = "text-lg font-bold text-gray-900 mb-2 font-black uppercase";
+            desc.innerText = "Vous n'avez répondu à aucune question. Le test va être annulé.";
+            btnConfirm.innerText = "Oui, quitter";
+        } else {
+            title.innerText = "Abandonner ?";
+            title.className = "text-lg font-bold text-rouge-marianne mb-2 font-black uppercase";
+            desc.innerText = `Vous avez répondu à ${questionsRepondues} question(s). Voulez-vous arrêter ici et calculer votre score ?`;
+            btnConfirm.innerText = "Voir mon score";
+        }
+        
+        UI.openModal('modal-quit');
+    },
+
+    abandonQuiz() {
+        // ... votre code existant pour abandonQuiz() reste ici ...
     abandonQuiz() {
         clearInterval(QuizEngine.state.timer);
         UI.closeModal('modal-quit');
