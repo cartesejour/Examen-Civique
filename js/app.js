@@ -151,31 +151,6 @@ abandonQuiz() {
         this.finishQuiz();
     },
     
-reportQuestion() {
-        try {
-            // 1. On lit DIRECTEMENT le texte affiché sur la page (Aucun risque de crash !)
-            const questionElement = document.getElementById('question-text');
-            let texteQuestion = "Question introuvable";
-            
-            if (questionElement && questionElement.innerText) {
-                texteQuestion = questionElement.innerText;
-            }
-            
-            // 2. On prépare le mail
-            const email = "contact@cartesejour.fr";
-            const subject = encodeURIComponent("Signalement d'erreur - Examen Civique");
-            const body = encodeURIComponent(`Bonjour,\n\nJe souhaite signaler une erreur sur cette question :\n\n"${texteQuestion}"\n\nVoici le problème :\n`);
-            
-            // 3. On ouvre l'application mail
-            window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-            
-        } catch (erreur) {
-            // Si ça plante encore, cette fois le téléphone vous affichera l'erreur !
-            alert("Erreur technique : " + erreur.message);
-        }
-    },
-
-
     handleCorrection() {
         UI.triggerAd('correction', () => UI.renderCorrection(QuizEngine.state));
     },
