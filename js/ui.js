@@ -156,7 +156,6 @@ showResults(score, state) {
             msg.className = "p-4 mb-6 bg-red-100 text-red-800 font-black uppercase text-sm rounded"; 
         }
     },
-
 renderCorrection(state) {
         // 🔓 ON DÉVERROUILLE LE BOUTON D'IMPRESSION PRINCIPAL (EN HAUT)
         document.getElementById('btn-print-main').classList.remove('hidden');
@@ -164,6 +163,7 @@ renderCorrection(state) {
         
         const list = document.getElementById('full-correction');
         list.classList.remove('hidden');
+        // "Correction Détaillée" va se traduire normalement
         list.innerHTML = '<h3 class="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-6 text-center">Correction Détaillée</h3>';
         
         state.questions.forEach((q, i) => {
@@ -173,36 +173,59 @@ renderCorrection(state) {
             
             const div = document.createElement('div');
             div.className = `p-4 border-l-4 shadow-sm mb-4 bg-white ${ok ? 'border-green-500' : 'border-rouge-marianne'}`;
-            let hQ = (h && state.selectedLang !== "none") ? `<p class="notransalte text-[11px] text-gray-400 italic mt-1 border-t border-gray-50 pt-2" dir="${isRTL?'rtl':'ltr'}">${h.question}</p>` : "";
+            
+            // Correction de la faute de frappe "notransalte" -> "notranslate"
+            let hQ = (h && state.selectedLang !== "none") ? `<p class="notranslate text-[11px] text-gray-400 italic mt-1 border-t border-gray-50 pt-2" dir="${isRTL?'rtl':'ltr'}">${h.question}</p>` : "";
             let hRight = (h && h.options) ? ` <span class="notranslate opacity-60" dir="${isRTL?'rtl':'ltr'}">(${h.options[q.bonne_reponse]})</span>` : "";
             let hExp = (h && h.explication) ? `<p class="notranslate mt-2 font-normal opacity-70 border-t pt-2" dir="${isRTL?'rtl':'ltr'}">${h.explication}</p>` : "";
             
-            // L'injection HTML est allégée (plus de liens web)
-            div.innerHTML = `<div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}"><span>${ok?'Correct':'Erreur'}</span><span>Question ${i+1}</span></div><p class="text-sm font-bold text-gray-900 leading-tight">${q.question}</p>${hQ}<div class="text-xs space-y-1 my-3"><p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">Votre choix : ${q.options[state.userAnswers[i]]}</p>${!ok ? `<p class="text-green-700 font-bold">Réponse : ${q.options[q.bonne_reponse]}${hRight}</p>` : ''}</div><div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic"><strong>Explication :</strong> ${q.explication}${hExp}</div>`;
+            // 🛡️ INJECTION SÉCURISÉE : L'interface est traduisible, mais le contenu de l'examen est figé en Français (LTR)
+            div.innerHTML = `
+                <div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok ? 'text-green-600' : 'text-red-600'}">
+                    <span>${ok ? 'Correct' : 'Erreur'}</span>
+                    <span>Question ${i+1}</span>
+                </div>
+                
+                <p class="text-sm font-bold text-gray-900 leading-tight">
+                    <span class="notranslate inline-block text-left" dir="ltr">${q.question}</span>
+                </p>
+                ${hQ}
+                
+                <div class="text-xs space-y-1 my-3">
+                    <p class="${ok ? 'text-green-700 font-bold' : 'text-red-600 line-through'}">
+                        Votre choix : <span class="notranslate inline-block" dir="ltr">${q.options[state.userAnswers[i]]}</span>
+                    </p>
+                    ${!ok ? `<p class="text-green-700 font-bold">Réponse : <span class="notranslate inline-block" dir="ltr">${q.options[q.bonne_reponse]}</span>${hRight}</p>` : ''}
+                </div>
+                
+                <div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic">
+                    <strong>Explication :</strong> <span class="notranslate inline-block text-left" dir="ltr">${q.explication}</span>
+                    ${hExp}
+                </div>
+            `;
             list.appendChild(div);
         });
 
         // Création d'un bloc en bas pour mettre les deux boutons
         const btnContainer = document.createElement('div');
-        btnContainer.className = "flex flex-col gap-3 mt-6"; // Espacement propre entre les boutons
+        btnContainer.className = "flex flex-col gap-3 mt-6";
 
-        // 1. Bouton Impression (Gris foncé)
+        // 1. Bouton Impression
         const btnPrint = document.createElement('button');
         btnPrint.className = "w-full py-4 bg-gray-900 text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
         btnPrint.innerHTML = "🖨️ Imprimer mon bilan (PDF)";
         btnPrint.onclick = () => window.print();
         btnContainer.appendChild(btnPrint);
 
-        // 2. Bouton Retour à l'accueil (Bleu France)
+        // 2. Bouton Retour à l'accueil
         const btnHome = document.createElement('button');
         btnHome.className = "w-full py-4 bg-bleu-france text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
         btnHome.innerHTML = "🏠 Retour à l'accueil";
-        btnHome.onclick = () => location.reload(); // Recharge la page proprement pour revenir à zéro
+        btnHome.onclick = () => location.reload();
         btnContainer.appendChild(btnHome);
 
-        // On ajoute ces deux boutons tout à la fin de la liste
         list.appendChild(btnContainer);
 
         window.scrollTo({top: list.offsetTop - 100, behavior: 'smooth'});
-    }
+}
 };
