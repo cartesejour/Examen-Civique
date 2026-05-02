@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name='impact-site-verification' value='c7196d20-cd2c-44ec-a9d7-78b7f566a56b'>
     <title>Examen Civique Français 2026</title>
-<meta name="description" content="Simulateur gratuit pour l'examen civique français 2026. Révisez avec des questions officielles, traductions (Anglais, Arabe...) et outils pour votre dossier de carte de séjour.">
+    <meta name="description" content="Simulateur gratuit pour l'examen civique français 2026. Révisez avec des questions officielles, traductions (Anglais, Arabe...) et outils pour votre dossier de carte de séjour.">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -42,17 +42,19 @@
 </head>
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
 <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
-        <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-between md:justify-center relative">
+        <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-between relative">
             
             <div class="flex items-center">
-                <a href="#" onclick="location.reload(); return false;" class="cursor-pointer transition hover:opacity-80"><img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0"></a>
+                <a href="#" onclick="location.reload(); return false;" class="cursor-pointer transition hover:opacity-80">
+                    <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
                 <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-2">
                     <span>République</span><span>Française</span>
                     <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500">Liberté, Égalité, Fraternité</span>
                 </div>
                 <div class="h-10 w-px bg-gray-300 mx-2"></div>
-                <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1>
+                <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1></a>
             </div>
+            <div class="gtranslate_wrapper"></div>
         </div>
     </header>
 
@@ -1051,5 +1053,27 @@
 
     
     <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script>
+        window.gtranslateSettings = {
+            "default_language": "fr",
+            "languages": [
+                "fr", /* Français */
+                "en", /* Anglais */
+                "ar", /* Arabe */
+                "ja", /* Japonais */
+                "zh-CN", /* Chinois (Simplifié) */
+                "th", /* Thaï */
+                "tl", /* Tagalog */
+                "ru", /* Russe */
+                "uk", /* Ukrainien */
+                "hi", /* Hindi */
+                "ur", /* Ourdou */
+                "fa"  /* Persan */
+            ],
+            "wrapper_selector": ".gtranslate_wrapper",
+            "flag_style": "2d"
+        }
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
 </body>
 </html>
