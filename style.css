@@ -30,32 +30,55 @@ body {
 
 
 /* ==========================================================================
-   3. MENU TRADUCTION GTRANSLATE (Adapté au script Popup !)
+   3. MENU TRADUCTION GTRANSLATE (Bouton "Globe + Texte")
    ========================================================================== */
-/* On cible le lien principal DIRECTEMENT, peu importe son nom de classe */
-.gtranslate_wrapper > a,
-.gtranslate_wrapper .gt_switcher {
-    width: 32px !important;
-    height: 32px !important;
-    overflow: hidden !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    white-space: nowrap !important;
-    font-size: 0 !important;
-    color: transparent !important;
-}
 
-/* On efface le texte (span) du bouton principal */
-.gtranslate_wrapper > a span,
-.gtranslate_wrapper .gt_switcher span {
+/* 1. On CACHE l'image du drapeau sur le bouton principal */
+.gtranslate_wrapper > a img,
+.gtranslate_wrapper .gt_switcher img {
     display: none !important;
 }
 
-/* Mais on FORCE l'affichage du texte à l'intérieur de la fenêtre déroulante ! */
+/* 2. On transforme le bouton en un "vrai" bouton cliquable */
+.gtranslate_wrapper > a,
+.gtranslate_wrapper .gt_switcher {
+    width: auto !important; /* La largeur s'adapte au mot */
+    height: 32px !important;
+    padding: 0 10px !important;
+    background-color: #f3f4f6 !important; /* Petit fond gris clair */
+    border: 1px solid #e5e7eb !important; /* Bordure discrète */
+    border-radius: 6px !important; /* Coins légèrement arrondis */
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+/* 3. On RÉAFFICHE le texte (French, Arabic...) en majuscules avec le Bleu France */
+.gtranslate_wrapper > a span,
+.gtranslate_wrapper .gt_switcher span {
+    display: inline-block !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #000091 !important; /* Bleu officiel */
+    text-transform: uppercase !important; /* Forcer en majuscules */
+}
+
+/* 4. 🌐 ASTUCE DE PRO : On ajoute une petite icône Globe devant le texte ! */
+.gtranslate_wrapper > a::before,
+.gtranslate_wrapper .gt_switcher::before {
+    content: "🌐";
+    font-size: 14px !important;
+    margin-right: 6px !important;
+    filter: grayscale(100%); /* Rend le globe un peu plus sobre */
+}
+
+/* 5. Dans la liste déroulante : on garde tout normal (drapeaux + texte) */
 .gtranslate_wrapper div a span {
     display: inline-block !important;
     font-size: 14px !important;
     color: #333 !important;
+    text-transform: none !important;
 }
 
 /* ==========================================================================
@@ -82,7 +105,7 @@ html[lang="ur"] .ml-auto {
 /* ==========================================================================
    5. 🛡️ PROTECTION ABSOLUE DU QUIZ ET DES RÉSULTATS CONTRE L'INVERSION
    ========================================================================== */
-/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent *
+/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent * */
 #screen-quiz, 
 #screen-quiz *,
 #screen-result,
@@ -90,4 +113,4 @@ html[lang="ur"] .ml-auto {
     direction: ltr !important;
     text-align: left !important;
 }
-*/
+
