@@ -43,35 +43,49 @@
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
 
 <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
-    
     <style>
-        @media (max-width: 640px) {
-            .gtranslate_wrapper {
-                transform: scale(0.70); /* Réduit la taille globale de 30% sur mobile */
-                transform-origin: right center; /* Garde le bouton bien collé à droite */
-            }
-        }
+    /* 🪄 MAGIE CSS : On cache le texte du bouton GTranslate pour ne garder que le drapeau */
+    .gtranslate_wrapper span {
+        display: none !important;
+    }
+    
+    /* Et on ajuste légèrement l'alignement pour que le drapeau soit parfait */
+    .gtranslate_wrapper a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
     </style>
-
-    <div class="container mx-auto px-2 sm:px-4 py-2 max-w-4xl flex items-center justify-between relative overflow-hidden">
+    <!-- Le conteneur devient "relative" pour pouvoir accrocher le bouton dans le coin -->
+    <div class="container mx-auto px-3 py-2 max-w-4xl relative flex flex-col sm:flex-row sm:items-center justify-between">
         
-        <div class="notranslate flex items-center flex-shrink-0">
-            <a href="#" onclick="location.reload(); return false;" class="cursor-pointer transition hover:opacity-80">
-                <img src="logo.png" alt="Logo" class="h-10 w-auto mr-1 sm:mr-2 flex-shrink-0">
+        <!-- 🌍 BOUTON TRADUCTION : Flottant en haut à droite sur mobile, normal sur PC -->
+        <div class="gtranslate_wrapper absolute right-3 top-2 sm:static sm:ml-auto flex-shrink-0" style="transform: scale(0.85); transform-origin: top right; z-index: 50;"></div>
+
+        <!-- 🏛️ BLOC IDENTITÉ (Logo + Titres) -->
+        <div class="notranslate flex flex-col sm:flex-row sm:items-center w-full">
             
-            <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-1 sm:mr-2 whitespace-nowrap">
-                <span>République</span><span>Française</span>
-                <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500">Liberté, Égalité, Fraternité</span>
+            <!-- Ligne 1 (Mobile) : Logo + République Française -->
+            <div class="flex items-center pr-24 sm:pr-0"> <!-- pr-24 empêche le texte de toucher le bouton -->
+                <a href="#" onclick="location.reload(); return false;" class="cursor-pointer transition hover:opacity-80">
+                    <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
+                
+                <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 whitespace-nowrap">
+                    <span>République</span><span>Française</span>
+                    <!-- J'ai remis la devise visible pour vous ! -->
+                    <span class="normal-case italic font-medium text-[8px] mt-0.5 tracking-tight text-gray-500">Liberté, Égalité, Fraternité</span>
+                </div>
             </div>
-            <div class="h-10 w-px bg-gray-300 mx-1 sm:mx-2"></div>
-            <h1 class="text-[11px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter whitespace-nowrap">
+
+            <!-- Séparateur (Visible uniquement sur PC) -->
+            <div class="h-8 w-px bg-gray-300 mx-3 hidden sm:block"></div>
+
+            <!-- Ligne 2 (Mobile) / Suite de la ligne (PC) : Titre -->
+            <h1 class="text-[12px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter mt-2 sm:mt-0 whitespace-nowrap">
                 Examen Civique<br><span class="text-bleu-france">Français</span>
             </h1>
-            </a>
+        </a>
         </div>
-        
-        <div class="gtranslate_wrapper flex-shrink-0 ml-auto"></div>
-        
     </div>
 </header>
 
