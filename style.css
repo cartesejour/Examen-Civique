@@ -30,87 +30,64 @@ body {
 
 
 /* ==========================================================================
-   3. MENU TRADUCTION GTRANSLATE (Bouton "Globe + Texte")
+   3. GTRANSLATE : LE BOUTON GLOBE (Spécial Popup.js)
    ========================================================================== */
 
-/* 1. On ASSASSINE l'image du drapeau (elle disparaît) */
-.gtranslate_wrapper .gt_selected a img {
+/* 1. On assassine l'image du drapeau sur le bouton principal (mais on garde ceux de la liste) */
+.gtranslate_wrapper .gt_switcher .gt_selected a img {
     display: none !important;
 }
 
-/* 2. On transforme le lien cliquable en un joli bouton officiel */
-.gtranslate_wrapper .gt_selected a {
-    width: auto !important; /* Le bouton s'adapte à la longueur du mot */
-    height: auto !important;
-    padding: 6px 12px !important;
-    background-color: #f3f4f6 !important; /* Fond gris clair */
-    border: 1px solid #d1d5db !important; /* Bordure grise */
-    border-radius: 6px !important; /* Coins arrondis */
-    display: inline-flex !important;
-    align-items: center !important;
-    text-decoration: none !important;
-    
-    /* On annule la taille zéro d'avant pour réafficher le texte */
-    font-size: 12px !important; 
-    color: #000091 !important; /* Bleu France */
+/* 2. On affiche le texte (French, Arabic...) et on le met en majuscules bleues */
+.gtranslate_wrapper .gt_switcher .gt_selected a span {
+    display: inline-block !important;
+    font-size: 12px !important;
+    color: #000091 !important;
     font-weight: 900 !important;
     text-transform: uppercase !important;
 }
 
-/* 3. Au cas où le widget utiliserait une balise <span> pour le texte, on la force à s'afficher */
-.gtranslate_wrapper .gt_selected a span {
-    display: inline-block !important;
-    font-size: 12px !important;
-    color: #000091 !important;
-}
-
-/* 4. 🌐 L'astuce magique : on ajoute le Globe en CSS juste avant le texte */
-.gtranslate_wrapper .gt_selected a::before {
-    content: "🌐";
-    font-size: 14px !important;
+/* 3. 🌐 On ajoute le Globe juste avant le texte */
+.gtranslate_wrapper .gt_switcher .gt_selected a::before {
+    content: "🌐" !important;
     margin-right: 6px !important;
+    font-size: 16px !important;
     filter: grayscale(100%);
 }
 
-/* 5. On s'assure que la liste déroulante reste normale et lisible */
-.gtranslate_wrapper .gt_options a {
-    font-size: 14px !important;
-    color: #333 !important;
-}
-.gtranslate_wrapper .gt_options a img {
-    display: inline-block !important; /* On garde les drapeaux dans la liste ! */
+/* 4. On transforme le lien en un beau bouton gris clair */
+.gtranslate_wrapper .gt_switcher .gt_selected a {
+    background-color: #f3f4f6 !important;
+    padding: 6px 12px !important;
+    border-radius: 6px !important;
+    border: 1px solid #d1d5db !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
 }
 
+
 /* ==========================================================================
-   4. GESTION DES LANGUES DE DROITE À GAUCHE (Arabe, Persan, Ourdou)
+   4. GESTION DE L'ARABE (RTL) ET PROTECTION DU FRANÇAIS
    ========================================================================== */
-html[lang="ar"], 
-html[lang="fa"], 
-html[lang="ur"] {
+
+/* Si la langue est l'arabe, le persan ou l'ourdou, on inverse le site */
+html[lang="ar"], html[lang="fa"], html[lang="ur"] {
     direction: rtl;
     text-align: right;
 }
 
-header[dir="ltr"] {
+/* 🛡️ LE BOUCLIER MAGIQUE : 
+   TOUT ce qui possède la classe "notranslate" restera de gauche à droite ! 
+   Cela protège automatiquement votre logo, vos questions, vos réponses et vos corrections. */
+header[dir="ltr"],
+.notranslate {
     direction: ltr !important;
     text-align: left !important;
 }
 
-html[lang="ar"] .ml-auto, 
-html[lang="fa"] .ml-auto, 
-html[lang="ur"] .ml-auto {
+/* Ajustement des marges pour les menus en mode inversé */
+html[lang="ar"] .ml-auto, html[lang="fa"] .ml-auto, html[lang="ur"] .ml-auto {
     margin-right: auto !important;
     margin-left: 0 !important;
 }
-/* ==========================================================================
-   5. 🛡️ PROTECTION ABSOLUE DU QUIZ ET DES RÉSULTATS CONTRE L'INVERSION
-   ========================================================================== */
-/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent * */
-#screen-quiz, 
-#screen-quiz *,
-#screen-result,
-#screen-result * {
-    direction: ltr !important;
-    text-align: left !important;
-}
-
