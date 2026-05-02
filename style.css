@@ -1,10 +1,18 @@
-.hidden { display: none !important; }
+/* ==========================================================================
+   1. BASE ET UTILITAIRES
+   ========================================================================== */
+.hidden { 
+    display: none !important; 
+}
 
 body { 
     font-family: sans-serif; 
     -webkit-tap-highlight-color: transparent; 
 }
 
+/* ==========================================================================
+   2. EXAMEN CIVIQUE (Simulateur / Quiz)
+   ========================================================================== */
 .selected-opt { 
     background-color: #000091 !important; 
     color: white !important; 
@@ -18,4 +26,49 @@ body {
 
 .ad-bar { 
     animation: progress 3s linear forwards; 
+}
+
+/* ==========================================================================
+   3. MENU TRADUCTION GTRANSLATE (Bouton drapeau uniquement)
+   ========================================================================== */
+/* On limite la taille du bouton principal et on cache le texte */
+.gtranslate_wrapper .gt_selected a {
+    max-width: 2.5rem !important; 
+    overflow: hidden !important; 
+    white-space: nowrap !important;
+    color: transparent !important; 
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* On garde la liste déroulante intacte */
+.gtranslate_wrapper .gt_options a {
+    max-width: none !important;
+    color: #333 !important;
+    white-space: normal !important;
+}
+
+/* ==========================================================================
+   4. GESTION DES LANGUES DE DROITE À GAUCHE (Arabe, Persan, Ourdou)
+   ========================================================================== */
+/* On inverse le sens de lecture de tout le site */
+html[lang="ar"], 
+html[lang="fa"], 
+html[lang="ur"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* ... SAUF le header qui doit toujours rester de gauche à droite */
+header[dir="ltr"] {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+/* Correction des marges pour les icônes en mode miroir */
+html[lang="ar"] .ml-auto, 
+html[lang="fa"] .ml-auto, 
+html[lang="ur"] .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
 }
