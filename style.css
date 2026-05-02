@@ -28,35 +28,20 @@ body {
     animation: progress 3s linear forwards; 
 }
 
-
 /* ==========================================================================
-   3. GTRANSLATE : LE BOUTON GLOBE (Spécial Popup.js)
+   3. MENU TRADUCTION GTRANSLATE (Suppression radicale du drapeau)
    ========================================================================== */
 
-/* 1. On assassine l'image du drapeau sur le bouton principal (mais on garde ceux de la liste) */
-.gtranslate_wrapper .gt_switcher .gt_selected a img {
+/* 1. ON DÉTRUIT TOUS LES DRAPEAUX DANS LE WIDGET */
+.gtranslate_wrapper img {
     display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
 }
 
-/* 2. On affiche le texte (French, Arabic...) et on le met en majuscules bleues */
-.gtranslate_wrapper .gt_switcher .gt_selected a span {
-    display: inline-block !important;
-    font-size: 12px !important;
-    color: #000091 !important;
-    font-weight: 900 !important;
-    text-transform: uppercase !important;
-}
-
-/* 3. 🌐 On ajoute le Globe juste avant le texte */
-.gtranslate_wrapper .gt_switcher .gt_selected a::before {
-    content: "🌐" !important;
-    margin-right: 6px !important;
-    font-size: 16px !important;
-    filter: grayscale(100%);
-}
-
-/* 4. On transforme le lien en un beau bouton gris clair */
-.gtranslate_wrapper .gt_switcher .gt_selected a {
+/* 2. On fabrique notre joli bouton gris avec le Globe */
+.gtranslate_wrapper .gt_switcher a {
     background-color: #f3f4f6 !important;
     padding: 6px 12px !important;
     border-radius: 6px !important;
@@ -66,7 +51,22 @@ body {
     text-decoration: none !important;
 }
 
+/* 3. On met le nom de la langue en valeur (ex: FRENCH) */
+.gtranslate_wrapper .gt_switcher a span {
+    display: inline-block !important;
+    font-size: 12px !important;
+    color: #000091 !important; /* Bleu France */
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+}
 
+/* 4. 🌐 L'icône du Globe devant le texte */
+.gtranslate_wrapper .gt_switcher a::before {
+    content: "🌐" !important;
+    margin-right: 6px !important;
+    font-size: 16px !important;
+    color: #4b5563 !important;
+}
 /* ==========================================================================
    4. GESTION DE L'ARABE (RTL) ET PROTECTION DU FRANÇAIS
    ========================================================================== */
