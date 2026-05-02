@@ -163,7 +163,6 @@ renderCorrection(state) {
         
         const list = document.getElementById('full-correction');
         list.classList.remove('hidden');
-        // "Correction Détaillée" va se traduire normalement
         list.innerHTML = '<h3 class="text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-6 text-center">Correction Détaillée</h3>';
         
         state.questions.forEach((q, i) => {
@@ -174,32 +173,31 @@ renderCorrection(state) {
             const div = document.createElement('div');
             div.className = `p-4 border-l-4 shadow-sm mb-4 bg-white ${ok ? 'border-green-500' : 'border-rouge-marianne'}`;
             
-            // Correction de la faute de frappe "notransalte" -> "notranslate"
-            let hQ = (h && state.selectedLang !== "none") ? `<p class="notranslate text-[11px] text-gray-400 italic mt-1 border-t border-gray-50 pt-2" dir="${isRTL?'rtl':'ltr'}">${h.question}</p>` : "";
-            let hRight = (h && h.options) ? ` <span class="notranslate opacity-60" dir="${isRTL?'rtl':'ltr'}">(${h.options[q.bonne_reponse]})</span>` : "";
-            let hExp = (h && h.explication) ? `<p class="notranslate mt-2 font-normal opacity-70 border-t pt-2" dir="${isRTL?'rtl':'ltr'}">${h.explication}</p>` : "";
+            let hQ = (h && state.selectedLang !== "none") ? `<p translate="no" class="notranslate text-[11px] text-gray-400 italic mt-1 border-t border-gray-50 pt-2" dir="${isRTL?'rtl':'ltr'}">${h.question}</p>` : "";
+            let hRight = (h && h.options) ? ` <span translate="no" class="notranslate opacity-60" dir="${isRTL?'rtl':'ltr'}">(${h.options[q.bonne_reponse]})</span>` : "";
+            let hExp = (h && h.explication) ? `<p translate="no" class="notranslate mt-2 font-normal opacity-70 border-t pt-2" dir="${isRTL?'rtl':'ltr'}">${h.explication}</p>` : "";
             
-            // 🛡️ INJECTION SÉCURISÉE : L'interface est traduisible, mais le contenu de l'examen est figé en Français (LTR)
+            // On ajoute translate="no" sur toutes les balises qui doivent rester en français
             div.innerHTML = `
-                <div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok ? 'text-green-600' : 'text-red-600'}">
-                    <span>${ok ? 'Correct' : 'Erreur'}</span>
+                <div class="flex justify-between mb-2 text-[9px] font-black uppercase ${ok?'text-green-600':'text-red-600'}">
+                    <span>${ok?'Correct':'Erreur'}</span>
                     <span>Question ${i+1}</span>
                 </div>
                 
                 <p class="text-sm font-bold text-gray-900 leading-tight">
-                    <span class="notranslate inline-block text-left" dir="ltr">${q.question}</span>
+                    <span translate="no" class="notranslate inline-block text-left" dir="ltr">${q.question}</span>
                 </p>
                 ${hQ}
                 
                 <div class="text-xs space-y-1 my-3">
-                    <p class="${ok ? 'text-green-700 font-bold' : 'text-red-600 line-through'}">
-                        Votre choix : <span class="notranslate inline-block" dir="ltr">${q.options[state.userAnswers[i]]}</span>
+                    <p class="${ok?'text-green-700 font-bold':'text-red-600 line-through'}">
+                        Votre choix : <span translate="no" class="notranslate inline-block" dir="ltr">${q.options[state.userAnswers[i]]}</span>
                     </p>
-                    ${!ok ? `<p class="text-green-700 font-bold">Réponse : <span class="notranslate inline-block" dir="ltr">${q.options[q.bonne_reponse]}</span>${hRight}</p>` : ''}
+                    ${!ok ? `<p class="text-green-700 font-bold">Réponse : <span translate="no" class="notranslate inline-block" dir="ltr">${q.options[q.bonne_reponse]}</span>${hRight}</p>` : ''}
                 </div>
                 
                 <div class="bg-fond-gris p-3 text-[11px] text-gray-600 italic">
-                    <strong>Explication :</strong> <span class="notranslate inline-block text-left" dir="ltr">${q.explication}</span>
+                    <strong>Explication :</strong> <span translate="no" class="notranslate inline-block text-left" dir="ltr">${q.explication}</span>
                     ${hExp}
                 </div>
             `;
@@ -210,22 +208,22 @@ renderCorrection(state) {
         const btnContainer = document.createElement('div');
         btnContainer.className = "flex flex-col gap-3 mt-6";
 
-        // 1. Bouton Impression
+        // 1. Bouton Impression (Gris foncé)
         const btnPrint = document.createElement('button');
         btnPrint.className = "w-full py-4 bg-gray-900 text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
         btnPrint.innerHTML = "🖨️ Imprimer mon bilan (PDF)";
         btnPrint.onclick = () => window.print();
         btnContainer.appendChild(btnPrint);
 
-        // 2. Bouton Retour à l'accueil
+        // 2. Bouton Retour à l'accueil (Bleu France)
         const btnHome = document.createElement('button');
         btnHome.className = "w-full py-4 bg-bleu-france text-white font-black text-xs uppercase tracking-widest shadow-lg rounded";
         btnHome.innerHTML = "🏠 Retour à l'accueil";
-        btnHome.onclick = () => location.reload();
+        btnHome.onclick = () => location.reload(); 
         btnContainer.appendChild(btnHome);
 
         list.appendChild(btnContainer);
 
         window.scrollTo({top: list.offsetTop - 100, behavior: 'smooth'});
-}
+    }
 };
