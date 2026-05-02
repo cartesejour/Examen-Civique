@@ -28,33 +28,35 @@ body {
     animation: progress 3s linear forwards; 
 }
 
+
 /* ==========================================================================
-   3. MENU TRADUCTION GTRANSLATE (Le coup de grâce pour le texte)
+   3. MENU TRADUCTION GTRANSLATE (Adapté au script Popup !)
    ========================================================================== */
-/* On force le bouton à faire EXACTEMENT la taille du drapeau */
-.gtranslate_wrapper .gt_selected a {
-    width: 30px !important; 
-    height: 30px !important;
-    overflow: hidden !important; 
-    display: flex !important;
-    justify-content: flex-start !important;
+/* On cible le lien principal DIRECTEMENT, peu importe son nom de classe */
+.gtranslate_wrapper > a,
+.gtranslate_wrapper .gt_switcher {
+    width: 32px !important;
+    height: 32px !important;
+    overflow: hidden !important;
+    display: inline-flex !important;
     align-items: center !important;
-    padding: 0 !important;
+    white-space: nowrap !important;
+    font-size: 0 !important;
+    color: transparent !important;
 }
 
-/* On s'assure que le drapeau prend toute la place */
-.gtranslate_wrapper .gt_selected a img {
-    min-width: 30px !important;
-    margin: 0 !important;
+/* On efface le texte (span) du bouton principal */
+.gtranslate_wrapper > a span,
+.gtranslate_wrapper .gt_switcher span {
+    display: none !important;
 }
 
-/* La liste déroulante reste normale quand on clique */
-.gtranslate_wrapper .gt_options a {
-    width: auto !important;
+/* Mais on FORCE l'affichage du texte à l'intérieur de la fenêtre déroulante ! */
+.gtranslate_wrapper div a span {
+    display: inline-block !important;
+    font-size: 14px !important;
     color: #333 !important;
-    white-space: normal !important;
 }
-
 
 /* ==========================================================================
    4. GESTION DES LANGUES DE DROITE À GAUCHE (Arabe, Persan, Ourdou)
@@ -79,10 +81,12 @@ html[lang="ur"] .ml-auto {
 }
 
 /* ==========================================================================
-   5. 🛡️ PROTECTION DU QUIZ CONTRE L'INVERSION
+   5. 🛡️ PROTECTION ABSOLUE DU QUIZ CONTRE L'INVERSION
    ========================================================================== */
-/* Le simulateur et l'examen resteront TOUJOURS de gauche à droite */
-#screen-quiz {
+/* Le "#screen-quiz *" cible la boîte ET tout ce qu'elle contient (questions, réponses, boutons) */
+#screen-quiz, 
+#screen-quiz * {
     direction: ltr !important;
     text-align: left !important;
 }
+
