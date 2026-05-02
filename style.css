@@ -33,52 +33,52 @@ body {
    3. MENU TRADUCTION GTRANSLATE (Bouton "Globe + Texte")
    ========================================================================== */
 
-/* 1. On CACHE l'image du drapeau sur le bouton principal */
-.gtranslate_wrapper > a img,
-.gtranslate_wrapper .gt_switcher img {
+/* 1. On ASSASSINE l'image du drapeau (elle disparaît) */
+.gtranslate_wrapper .gt_selected a img {
     display: none !important;
 }
 
-/* 2. On transforme le bouton en un "vrai" bouton cliquable */
-.gtranslate_wrapper > a,
-.gtranslate_wrapper .gt_switcher {
-    width: auto !important; /* La largeur s'adapte au mot */
-    height: 32px !important;
-    padding: 0 10px !important;
-    background-color: #f3f4f6 !important; /* Petit fond gris clair */
-    border: 1px solid #e5e7eb !important; /* Bordure discrète */
-    border-radius: 6px !important; /* Coins légèrement arrondis */
+/* 2. On transforme le lien cliquable en un joli bouton officiel */
+.gtranslate_wrapper .gt_selected a {
+    width: auto !important; /* Le bouton s'adapte à la longueur du mot */
+    height: auto !important;
+    padding: 6px 12px !important;
+    background-color: #f3f4f6 !important; /* Fond gris clair */
+    border: 1px solid #d1d5db !important; /* Bordure grise */
+    border-radius: 6px !important; /* Coins arrondis */
     display: inline-flex !important;
     align-items: center !important;
     text-decoration: none !important;
-    cursor: pointer !important;
+    
+    /* On annule la taille zéro d'avant pour réafficher le texte */
+    font-size: 12px !important; 
+    color: #000091 !important; /* Bleu France */
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
 }
 
-/* 3. On RÉAFFICHE le texte (French, Arabic...) en majuscules avec le Bleu France */
-.gtranslate_wrapper > a span,
-.gtranslate_wrapper .gt_switcher span {
+/* 3. Au cas où le widget utiliserait une balise <span> pour le texte, on la force à s'afficher */
+.gtranslate_wrapper .gt_selected a span {
     display: inline-block !important;
     font-size: 12px !important;
-    font-weight: bold !important;
-    color: #000091 !important; /* Bleu officiel */
-    text-transform: uppercase !important; /* Forcer en majuscules */
+    color: #000091 !important;
 }
 
-/* 4. 🌐 ASTUCE DE PRO : On ajoute une petite icône Globe devant le texte ! */
-.gtranslate_wrapper > a::before,
-.gtranslate_wrapper .gt_switcher::before {
+/* 4. 🌐 L'astuce magique : on ajoute le Globe en CSS juste avant le texte */
+.gtranslate_wrapper .gt_selected a::before {
     content: "🌐";
     font-size: 14px !important;
     margin-right: 6px !important;
-    filter: grayscale(100%); /* Rend le globe un peu plus sobre */
+    filter: grayscale(100%);
 }
 
-/* 5. Dans la liste déroulante : on garde tout normal (drapeaux + texte) */
-.gtranslate_wrapper div a span {
-    display: inline-block !important;
+/* 5. On s'assure que la liste déroulante reste normale et lisible */
+.gtranslate_wrapper .gt_options a {
     font-size: 14px !important;
     color: #333 !important;
-    text-transform: none !important;
+}
+.gtranslate_wrapper .gt_options a img {
+    display: inline-block !important; /* On garde les drapeaux dans la liste ! */
 }
 
 /* ==========================================================================
