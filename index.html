@@ -43,21 +43,28 @@
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
 
 <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
-    <div class="container mx-auto px-4 py-2 max-w-4xl flex items-center justify-between relative">
+    
+    <style>
+        @media (max-width: 640px) {
+            .gtranslate_wrapper {
+                transform: scale(0.70); /* Réduit la taille globale de 30% sur mobile */
+                transform-origin: right center; /* Garde le bouton bien collé à droite */
+            }
+        }
+    </style>
+
+    <div class="container mx-auto px-2 sm:px-4 py-2 max-w-4xl flex items-center justify-between relative overflow-hidden">
         
         <div class="notranslate flex items-center flex-shrink-0">
-            
             <a href="#" onclick="location.reload(); return false;" class="cursor-pointer transition hover:opacity-80">
-                <img src="logo.png" alt="Logo" class="h-10 w-auto mr-2 flex-shrink-0">
+                <img src="logo.png" alt="Logo" class="h-10 w-auto mr-1 sm:mr-2 flex-shrink-0">
             
-            
-            <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-2 whitespace-nowrap">
+            <div class="flex flex-col uppercase font-black text-[10px] leading-[11px] tracking-tighter text-gray-900 mr-1 sm:mr-2 whitespace-nowrap">
                 <span>République</span><span>Française</span>
-                <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500">Liberté, Égalité...</span>
+                <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500">Liberté, Égalité, Fraternité</span>
             </div>
-            
-            <div class="h-10 w-px bg-gray-300 mx-2 hidden sm:block"></div>
-            <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter hidden sm:block whitespace-nowrap">
+            <div class="h-10 w-px bg-gray-300 mx-1 sm:mx-2"></div>
+            <h1 class="text-[11px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter whitespace-nowrap">
                 Examen Civique<br><span class="text-bleu-france">Français</span>
             </h1>
             </a>
@@ -175,7 +182,7 @@
     
     <button id="btn-nav-quiz-setup" onclick="UI.switchScreen('screen-quiz-setup')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Lancer l'examen</button>
     
-    <button id="btn-nav-revisions" onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Révisions</button>
+    <button id="btn-nav-revisions" onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Cours</button>
     
     <button id="btn-nav-demarches" onclick="UI.switchScreen('screen-demarches')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Outils ANEF</button>
 </div>
