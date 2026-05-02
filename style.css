@@ -29,19 +29,19 @@ body {
 }
 
 /* ==========================================================================
-   3. MENU TRADUCTION GTRANSLATE (Suppression radicale du drapeau)
+   3. MENU TRADUCTION GTRANSLATE (Bouton texte + Globe)
    ========================================================================== */
 
-/* 1. ON DÉTRUIT TOUS LES DRAPEAUX DANS LE WIDGET */
+/* 1. On détruit les drapeaux */
 .gtranslate_wrapper img {
     display: none !important;
     width: 0 !important;
     height: 0 !important;
-    opacity: 0 !important;
 }
 
-/* 2. On fabrique notre joli bouton gris avec le Globe */
-.gtranslate_wrapper .gt_switcher a {
+/* 2. Le style du bouton gris */
+.gtranslate_wrapper .gt_switcher a,
+.gtranslate_wrapper > a {
     background-color: #f3f4f6 !important;
     padding: 6px 12px !important;
     border-radius: 6px !important;
@@ -51,21 +51,24 @@ body {
     text-decoration: none !important;
 }
 
-/* 3. On met le nom de la langue en valeur (ex: FRENCH) */
-.gtranslate_wrapper .gt_switcher a span {
+/* 3. Le texte de la langue (FRENCH, ARABIC...) */
+.gtranslate_wrapper .gt_switcher a span,
+.gtranslate_wrapper > a span {
     display: inline-block !important;
     font-size: 12px !important;
-    color: #000091 !important; /* Bleu France */
+    color: #000091 !important;
     font-weight: 900 !important;
     text-transform: uppercase !important;
 }
 
-/* 4. 🌐 L'icône du Globe devant le texte */
-.gtranslate_wrapper .gt_switcher a::before {
-    content: "🌐" !important;
+/* 4. 🌐 LE GLOBE : Forçage absolu de l'affichage */
+.gtranslate_wrapper .gt_switcher a::before,
+.gtranslate_wrapper > a::before {
+    content: "\1F310" !important; /* Code universel Unicode pour le Globe */
+    display: inline-block !important;
     margin-right: 6px !important;
     font-size: 16px !important;
-    color: #4b5563 !important;
+    color: #000091 !important;
 }
 /* ==========================================================================
    4. GESTION DE L'ARABE (RTL) ET PROTECTION DU FRANÇAIS
