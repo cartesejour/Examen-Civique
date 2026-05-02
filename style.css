@@ -79,14 +79,14 @@ html[lang="ur"] .ml-auto {
     margin-right: auto !important;
     margin-left: 0 !important;
 }
-
 /* ==========================================================================
-   5. 🛡️ PROTECTION ABSOLUE DU QUIZ CONTRE L'INVERSION
+   5. 🛡️ PROTECTION ABSOLUE DU QUIZ ET DES RÉSULTATS CONTRE L'INVERSION
    ========================================================================== */
-/* Le "#screen-quiz *" cible la boîte ET tout ce qu'elle contient (questions, réponses, boutons) */
+/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent *) */
 #screen-quiz, 
-#screen-quiz * {
+#screen-quiz *,
+#screen-result,
+#screen-result * {
     direction: ltr !important;
     text-align: left !important;
 }
-
