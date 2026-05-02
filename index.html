@@ -46,37 +46,47 @@
 <header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
     
     <style>
-        .gt_selected a span {
+        .gtranslate_wrapper .gt_selected a {
+            font-size: 0 !important; 
+            color: transparent !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        .gtranslate_wrapper .gt_selected a span {
             display: none !important;
         }
-        .gt_selected a {
-            display: flex !important;
-            justify-content: center !important;
-            align-items: center !important;
-            padding: 5px !important;
+
+        .gtranslate_wrapper .gt_options a,
+        .gtranslate_wrapper .gt_options a span {
+            font-size: 14px !important;
+            color: #333 !important;
+            display: block !important;
         }
     </style>
 
     <div class="container mx-auto px-4 py-2 max-w-4xl flex justify-between items-center">
         
-        <div class="notranslate flex items-center">
+        <div class="notranslate flex items-center flex-shrink-0">
             
-            <a href="#" onclick="location.reload(); return false;" class="flex-shrink-0">
-                <img src="logo.png" alt="Logo" class="h-10 sm:h-12 w-auto mr-2 sm:mr-3">
-            
-            
-            <div class="flex flex-col justify-center mt-1">
+            <a href="#" onclick="location.reload(); return false;" class="flex items-center cursor-pointer transition hover:opacity-80">
                 
-                <div class="hidden sm:block uppercase font-black text-[10px] sm:text-[11px] leading-[11px] tracking-tighter text-gray-900 mb-1">
-                    République<br>Française
-                    <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500 block">Liberté, Égalité, Fraternité</span>
-                </div>
+                <img src="logo.png" alt="Logo" class="h-10 sm:h-12 w-auto mr-2 sm:mr-3 flex-shrink-0">
                 
-                <div class="text-[12px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">
-                    Examen Civique<br><span class="text-bleu-france">Français</span>
+                <div class="flex flex-col justify-center mt-1">
+                    
+                    <div class="hidden sm:block uppercase font-black text-[10px] sm:text-[11px] leading-[11px] tracking-tighter text-gray-900 mb-1">
+                        République<br>Française
+                        <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500 block">Liberté, Égalité, Fraternité</span>
+                    </div>
+                    
+                    <div class="text-[12px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">
+                        Examen Civique<br><span class="text-bleu-france">Français</span>
+                    </div>
                 </div>
-            </div>
-           </a>
+
+            </a>
         </div>
 
         <div class="gtranslate_wrapper flex-shrink-0 ml-2"></div>
