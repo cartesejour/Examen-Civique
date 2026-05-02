@@ -29,29 +29,36 @@ body {
 }
 
 /* ==========================================================================
-   3. MENU TRADUCTION GTRANSLATE (Bouton drapeau uniquement)
+   3. MENU TRADUCTION GTRANSLATE (Le coup de grâce pour le texte)
    ========================================================================== */
-/* On limite la taille du bouton principal et on cache le texte */
+/* On force le bouton à faire EXACTEMENT la taille du drapeau */
 .gtranslate_wrapper .gt_selected a {
-    max-width: 2.5rem !important; 
+    width: 30px !important; 
+    height: 30px !important;
     overflow: hidden !important; 
-    white-space: nowrap !important;
-    color: transparent !important; 
     display: flex !important;
+    justify-content: flex-start !important;
     align-items: center !important;
+    padding: 0 !important;
 }
 
-/* On garde la liste déroulante intacte */
+/* On s'assure que le drapeau prend toute la place */
+.gtranslate_wrapper .gt_selected a img {
+    min-width: 30px !important;
+    margin: 0 !important;
+}
+
+/* La liste déroulante reste normale quand on clique */
 .gtranslate_wrapper .gt_options a {
-    max-width: none !important;
+    width: auto !important;
     color: #333 !important;
     white-space: normal !important;
 }
 
+
 /* ==========================================================================
    4. GESTION DES LANGUES DE DROITE À GAUCHE (Arabe, Persan, Ourdou)
    ========================================================================== */
-/* On inverse le sens de lecture de tout le site */
 html[lang="ar"], 
 html[lang="fa"], 
 html[lang="ur"] {
@@ -59,16 +66,23 @@ html[lang="ur"] {
     text-align: right;
 }
 
-/* ... SAUF le header qui doit toujours rester de gauche à droite */
 header[dir="ltr"] {
     direction: ltr !important;
     text-align: left !important;
 }
 
-/* Correction des marges pour les icônes en mode miroir */
 html[lang="ar"] .ml-auto, 
 html[lang="fa"] .ml-auto, 
 html[lang="ur"] .ml-auto {
     margin-right: auto !important;
     margin-left: 0 !important;
+}
+
+/* ==========================================================================
+   5. 🛡️ PROTECTION DU QUIZ CONTRE L'INVERSION
+   ========================================================================== */
+/* Le simulateur et l'examen resteront TOUJOURS de gauche à droite */
+#screen-quiz {
+    direction: ltr !important;
+    text-align: left !important;
 }
