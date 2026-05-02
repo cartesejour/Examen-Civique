@@ -42,45 +42,56 @@
 </head>
 <body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
 
-
-<header class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
+<header dir="ltr" class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
     
     <style>
+        /* 1. Si la langue est l'arabe, le persan ou l'ourdou, on bascule le site en RTL */
+html[lang="ar"], html[lang="fa"], html[lang="ur"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* 2. On force le header à RESTER en LTR (Gauche à Droite) quoi qu'il arrive */
+/* car il contient le logo officiel et du texte français non traduit */
+header[dir="ltr"] {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+/* 3. Correction pour les icônes et boutons qui pourraient mal s'inverser */
+html[lang="ar"] .ml-auto, html[lang="fa"] .ml-auto, html[lang="ur"] .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}/* ✂️ TECHNIQUE RESPONSIVE : On utilise des "rem" au lieu des pixels */
         .gtranslate_wrapper .gt_selected a {
-            font-size: 0 !important; 
-            color: transparent !important;
+            max-width: 2.5rem !important; /* S'adapte proportionnellement à l'écran */
+            overflow: hidden !important; 
+            white-space: nowrap !important;
+            color: transparent !important; 
             display: flex !important;
             align-items: center !important;
-            justify-content: center !important;
-        }
-        
-        .gtranslate_wrapper .gt_selected a span {
-            display: none !important;
         }
 
-        .gtranslate_wrapper .gt_options a,
-        .gtranslate_wrapper .gt_options a span {
-            font-size: 14px !important;
+        /* La liste déroulante garde sa largeur automatique */
+        .gtranslate_wrapper .gt_options a {
+            max-width: none !important;
             color: #333 !important;
-            display: block !important;
+            white-space: normal !important;
         }
     </style>
 
     <div class="container mx-auto px-4 py-2 max-w-4xl flex justify-between items-center">
         
         <div class="notranslate flex items-center flex-shrink-0">
-            
             <a href="#" onclick="location.reload(); return false;" class="flex items-center cursor-pointer transition hover:opacity-80">
                 
                 <img src="logo.png" alt="Logo" class="h-10 sm:h-12 w-auto mr-2 sm:mr-3 flex-shrink-0">
                 
                 <div class="flex flex-col justify-center mt-1">
-                    
                     <div class="hidden sm:block uppercase font-black text-[10px] sm:text-[11px] leading-[11px] tracking-tighter text-gray-900 mb-1">
                         République<br>Française
                         <span class="normal-case italic font-medium text-[8px] mt-1 tracking-tight text-gray-500 block">Liberté, Égalité, Fraternité</span>
                     </div>
-                    
                     <div class="text-[12px] sm:text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">
                         Examen Civique<br><span class="text-bleu-france">Français</span>
                     </div>
