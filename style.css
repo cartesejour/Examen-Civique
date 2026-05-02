@@ -82,7 +82,7 @@ html[lang="ur"] .ml-auto {
 /* ==========================================================================
    5. 🛡️ PROTECTION ABSOLUE DU QUIZ ET DES RÉSULTATS CONTRE L'INVERSION
    ========================================================================== */
-/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent *) */
+/* On protège le quiz ET l'écran des résultats (ainsi que tout ce qu'ils contiennent *
 #screen-quiz, 
 #screen-quiz *,
 #screen-result,
@@ -90,3 +90,4 @@ html[lang="ur"] .ml-auto {
     direction: ltr !important;
     text-align: left !important;
 }
+*/
