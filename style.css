@@ -94,3 +94,22 @@ html[lang="ar"] .ml-auto, html[lang="fa"] .ml-auto, html[lang="ur"] .ml-auto {
     margin-right: auto !important;
     margin-left: 0 !important;
 }
+/* ==========================================================================
+   6. MASQUER LES VESTIGES DE GOOGLE TRANSLATE (Logo de chargement, bulles...)
+   ========================================================================== */
+
+/* On cache la roue de chargement, les info-bulles au survol, et la barre supérieure de Google */
+#goog-gt-tt, 
+.goog-te-balloon-frame, 
+.goog-te-spinner-pos,
+.goog-te-spinner-animation,
+.skiptranslate iframe {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Google essaie parfois de pousser la page vers le bas de 40px pour mettre sa barre. On l'en empêche. */
+body {
+    top: 0 !important;
+}
