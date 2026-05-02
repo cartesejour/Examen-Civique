@@ -54,7 +54,7 @@
                 <div class="h-10 w-px bg-gray-300 mx-2"></div>
                 <h1 class="text-[13px] font-black text-gray-900 uppercase leading-none tracking-tighter">Examen Civique<br><span class="text-bleu-france">Français</span></h1></a>
             </div>
-            <div class="gtranslate_wrapper"></div>
+            <div class="gtranslate_wrapper flex-shrink-0 ml-2"></div>
         </div>
     </header>
 
@@ -393,12 +393,12 @@
         </button>
     </div>
 
-    <div class="bg-white p-4 md:p-5 border-l-4 border-bleu-france shadow-sm rounded mb-1">
+    <div class="notranslate bg-white p-4 md:p-5 border-l-4 border-bleu-france shadow-sm rounded mb-1">
         <h2 id="question-text" class="text-base md:text-lg font-black leading-tight text-gray-900"></h2>
-        <p id="helper-question" class="text-[11px] text-gray-500 italic mt-2 hidden"></p>
+        <p id="helper-question" class="text-[12px] text-gray-500 italic mt-2 hidden"></p>
     </div>
 
-    <div id="options-container" class="grid grid-cols-1 gap-2 mb-2"></div>
+    <div id="options-container" class="notranslate grid grid-cols-1 gap-2 mb-2"></div>
 
     <div class="grid grid-cols-2 gap-3 mt-2 border-t border-gray-200 pt-3">
         <button id="btn-prev" onclick="App.handlePrev()" class="py-3 bg-gray-300 text-gray-800 font-black text-xs uppercase rounded transition shadow-sm hover:bg-gray-400">Précédent</button>
@@ -1057,23 +1057,13 @@
         window.gtranslateSettings = {
             "default_language": "fr",
             "languages": [
-                "fr", /* Français */
-                "en", /* Anglais */
-                "ar", /* Arabe */
-                "ja", /* Japonais */
-                "zh-CN", /* Chinois (Simplifié) */
-                "th", /* Thaï */
-                "tl", /* Tagalog */
-                "ru", /* Russe */
-                "uk", /* Ukrainien */
-                "hi", /* Hindi */
-                "ur", /* Ourdou */
-                "fa"  /* Persan */
+                "fr", "en", "ar", "ja", "zh-CN", "th", "tl", "ru", "uk", "hi", "ur", "fa"
             ],
             "wrapper_selector": ".gtranslate_wrapper",
             "flag_style": "2d"
         }
     </script>
-    <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
+
 </body>
 </html>
