@@ -357,24 +357,33 @@
                 <span class="bg-gray-200 text-gray-800 rounded-full w-5 h-5 inline-flex items-center justify-center mr-2">2</span> 
                 Choix de la catégorie et lancez l'examen
             </h3>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                <button onclick="App.startQuiz('CSP')" class="w-full bg-bleu-france text-white p-4 rounded-lg shadow-md hover:bg-blue-800 transition text-left relative overflow-hidden group border-b-4 border-blue-900">
                     <div class="relative z-10">
-                        <div class="font-black uppercase text-sm tracking-wide mb-1">Carte de Séjour</div>
-                        <div class="text-[10px] text-blue-200 font-medium tracking-wide">Questions officielles • Titre de 1 à 4 ans</div>
+                        <div class="font-black uppercase text-xs tracking-wide mb-1">Carte de Séjour</div>
+                        <div class="text-[10px] text-blue-100 font-medium tracking-wide opacity-90">Titre 1 à 4 ans (CSP)</div>
                     </div>
-                    <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                    <div class="absolute right-3 top-1/2 -translate-y-1/2 text-xl group-hover:translate-x-1 transition-transform opacity-50">➡</div>
                 </button>
                 
-                <button onclick="App.startQuiz('CR')" class="w-full bg-rouge-marianne text-white p-4 rounded shadow-md hover:bg-red-700 transition text-left relative overflow-hidden group border-b-4 border-red-900">
+                <button onclick="App.startQuiz('CR')" class="w-full bg-gray-800 text-white p-4 rounded-lg shadow-md hover:bg-gray-900 transition text-left relative overflow-hidden group border-b-4 border-gray-950">
                     <div class="relative z-10">
-                        <div class="font-black uppercase text-sm tracking-wide mb-1">Résident & Nationalité</div>
-                        <div class="text-[10px] text-red-200 font-medium tracking-wide">Questions officielles • 10 ans et Naturalisation</div>
+                        <div class="font-black uppercase text-xs tracking-wide mb-1">Carte de Résident</div>
+                        <div class="text-[10px] text-gray-300 font-medium tracking-wide opacity-90">Titre de 10 ans (CR)</div>
                     </div>
-                    <div class="absolute right-4 top-1/2 -translate-y-1/2 text-2xl group-hover:translate-x-1 transition-transform">➡</div>
+                    <div class="absolute right-3 top-1/2 -translate-y-1/2 text-xl group-hover:translate-x-1 transition-transform opacity-50">➡</div>
+                </button>
+                
+                <button onclick="App.startQuiz('NAT')" class="w-full bg-rouge-marianne text-white p-4 rounded-lg shadow-md hover:bg-red-700 transition text-left relative overflow-hidden group border-b-4 border-red-900">
+                    <div class="relative z-10">
+                        <div class="font-black uppercase text-xs tracking-wide mb-1">Naturalisation</div>
+                        <div class="text-[10px] text-red-100 font-medium tracking-wide opacity-90">Nationalité Française</div>
+                    </div>
+                    <div class="absolute right-3 top-1/2 -translate-y-1/2 text-xl group-hover:translate-x-1 transition-transform opacity-50">➡</div>
                 </button>
             </div>
+
         </div>
     </div>
 </div>
