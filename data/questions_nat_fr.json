@@ -1,0 +1,2084 @@
+[
+  {
+    "id": 1,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie...\"",
+    "options": ["Le jour de gloire est arrivé !", "L'étendard sanglant est levé !", "Marchons, marchons !", "Contre nous de la tyrannie"],
+    "bonne_reponse": 0,
+    "explication": "La phrase qui suit immédiatement \"Allons enfants de la patrie\" est \"Le jour de gloire est arrivé !\"."
+  },
+  {
+    "id": 2,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Dans le cadre d'un entretien d'embauche, que peut-on demander au candidat ?",
+    "options": ["Ses opinions politiques et religieuses", "Son expérience professionnelle et ses diplômes", "Son état de santé ou ses antécédents médicaux", "Son intention d'avoir des enfants prochainement"],
+    "bonne_reponse": 1,
+    "explication": "La loi interdit formellement de poser des questions sur la vie privée lors d'un entretien."
+  },
+  {
+    "id": 3,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Déclarer ses revenus aux services fiscaux est :",
+    "options": ["Facultatif si l'on gagne le SMIC", "Uniquement obligatoire pour les citoyens français", "Obligatoire pour tous les résidents en France", "Réservé aux propriétaires"],
+    "bonne_reponse": 2,
+    "explication": "La déclaration de revenus est une obligation annuelle pour toute personne résidant en France."
+  },
+  {
+    "id": 4,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "options": ["Ils sont uniquement destinés aux ministres", "Chacun est libre de choisir de payer", "Ils sont reversés aux banques", "Ils servent à financer les écoles, les hôpitaux, la police et les routes"],
+    "bonne_reponse": 3,
+    "explication": "L'impôt finance les services publics essentiels au bénéfice de tous."
+  },
+  {
+    "id": 5,
+    "categorie": "Principes et valeurs de la République",
+    "question": "La liberté d'association est :",
+    "options": ["Le droit de créer, rejoindre ou quitter librement une association", "L'obligation de faire du bénévolat", "Une autorisation spéciale du maire", "Le droit de créer une entreprise sans impôts"],
+    "bonne_reponse": 0,
+    "explication": "Garantie par la loi de 1901, elle permet de se regrouper sans autorisation préalable."
+  },
+  {
+    "id": 6,
+    "categorie": "Principes et valeurs de la République",
+    "question": "La liberté d'expression sur les réseaux sociaux en France est :",
+    "options": ["Totale et sans limites", "Limitée par la loi (diffamation, haine)", "Interdite pour la politique", "Réservée aux journalistes"],
+    "bonne_reponse": 1,
+    "explication": "Les injures et l'incitation à la haine sont des délits passibles de sanctions."
+  },
+  {
+    "id": 7,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Lequel de ces prénoms évoque un symbole de la République ?",
+    "options": ["Jeanne", "Joséphine", "Marianne", "Marguerite"],
+    "bonne_reponse": 2,
+    "explication": "Marianne est la figure symbolique incarnant la République française."
+  },
+  {
+    "id": 8,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Lequel de ces symboles représente la République française ?",
+    "options": ["La fleur de lys", "Le drapeau tricolore", "L'aigle impérial", "La croix de Lorraine"],
+    "bonne_reponse": 1,
+    "explication": "Le drapeau bleu-blanc-rouge est l'emblème national défini par la Constitution."
+  },
+  {
+    "id": 9,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Où peut-on voir la devise de la République ?",
+    "options": ["Sur les bâtiments publics", "Dans les églises", "Sur tous les billets en euros", "Uniquement à l'Élysée"],
+    "bonne_reponse": 0,
+    "explication": "La devise est inscrite sur le fronton des mairies, écoles et tribunaux."
+  },
+  {
+    "id": 10,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Lesquels sont des symboles officiels de la République française ?",
+    "options": ["Le coq et la baguette", "La Tour Eiffel et le Louvre", "Le drapeau, l'hymne et la devise", "Le Président et le Parlement"],
+    "bonne_reponse": 2,
+    "explication": "L'article 2 de la Constitution définit les symboles officiels de la France."
+  },
+  {
+    "id": 11,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Peut-on brûler publiquement un drapeau français ?",
+    "options": ["Oui, c'est la liberté d'expression", "Non, c'est un délit puni par la loi", "Oui, s'il est vieux", "Seulement en manifestation"],
+    "bonne_reponse": 1,
+    "explication": "L'outrage au drapeau tricolore est puni d'une amende de 1 500 €."
+  },
+  {
+    "id": 12,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quand la sécurité sociale a-t-elle été établie en France ?",
+    "options": ["1789", "1905", "1958", "1945"],
+    "bonne_reponse": 3,
+    "explication": "La Sécurité Sociale a été créée en 1945 après la Seconde Guerre mondiale."
+  },
+  {
+    "id": 13,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que commémore la fête nationale ?",
+    "options": ["Le 11 novembre 1918", "La naissance de la Ve République", "La prise de la Bastille (1789)", "L'abolition de l'esclavage"],
+    "bonne_reponse": 2,
+    "explication": "Le 14 juillet commémore 1789 et la Fête de la Fédération de 1790."
+  },
+  {
+    "id": 14,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que porte Marianne sur la tête ?",
+    "options": ["Une couronne", "Un casque", "Une tiare", "Un bonnet phrygien"],
+    "bonne_reponse": 3,
+    "explication": "Le bonnet phrygien symbolise la liberté acquise par les esclaves affranchis."
+  },
+  {
+    "id": 15,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que signifie le mot \"fraternité\" dans la devise française ?",
+    "options": ["La solidarité entre citoyens", "La famille biologique", "Le partage du logement", "L'égalité des salaires"],
+    "bonne_reponse": 0,
+    "explication": "La fraternité représente la tolérance et l'entraide entre tous les membres de la société."
+  },
+  {
+    "id": 16,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel symbole peut-on voir sur les maillots de l'équipe de France de football ?",
+    "options": ["La fleur de lys", "Le coq gaulois", "Le bonnet phrygien", "La Marianne"],
+    "bonne_reponse": 1,
+    "explication": "Le coq gaulois est un symbole populaire et sportif de la France."
+  },
+  {
+    "id": 17,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quelle est la devise de la République française ?",
+    "options": ["Paix et Travail", "Liberté, Égalité, Fraternité", "Unité et Solidarité", "Ordre et Progrès"],
+    "bonne_reponse": 1,
+    "explication": "Héritée de la Révolution, cette devise est inscrite dans la Constitution."
+  },
+  {
+    "id": 18,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la liberté d'association ?",
+    "options": ["Créer une entreprise", "S'inscrire à un syndicat", "Rejoindre librement un groupement de personnes", "L'accord du maire"],
+    "bonne_reponse": 2,
+    "explication": "Elle permet de se regrouper librement pour un projet commun (loi 1901)."
+  },
+  {
+    "id": 19,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce qu'une liberté ?",
+    "options": ["Faire ce qu'on veut sans lois", "Faire tout ce qui ne nuit pas à autrui", "Imposer ses opinions", "L'absence de gouvernement"],
+    "bonne_reponse": 3,
+    "explication": "La liberté individuelle est limitée par le respect des droits des autres."
+  },
+  {
+    "id": 20,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Selon la Constitution, la France est une République...",
+    "options": ["Libérale et solidaire", "Indivisible, laïque, démocratique et sociale", "Souveraine et fraternelle", "Parlementaire"],
+    "bonne_reponse": 1,
+    "explication": "C'est la définition officielle de l'État donnée par l'article 1er de la Constitution."
+  },
+  {
+    "id": 21,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Sur quel document peut-on voir Marianne ?",
+    "options": ["Le passeport", "Le permis", "Les timbres postaux", "La carte Vitale"],
+    "bonne_reponse": 2,
+    "explication": "Marianne illustre traditionnellement les timbres d'usage courant."
+  },
+  {
+    "id": 22,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que signifie l'Égalité dans la devise ?",
+    "options": ["Même salaire pour tous", "Même métier pour tous", "La loi est la même pour tous", "Les riches paient tout"],
+    "bonne_reponse": 2,
+    "explication": "L'égalité signifie que tous les citoyens ont les mêmes droits et devoirs devant la loi."
+  },
+  {
+    "id": 23,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Peut-on changer librement de religion en France ?",
+    "options": ["Oui, c'est un droit absolu", "Non, on garde celle de ses parents", "Oui, avec l'accord de la mairie", "Seulement pour le catholicisme"],
+    "bonne_reponse": 0,
+    "explication": "La liberté de conscience inclut le droit de changer de foi ou de n'en avoir aucune."
+  },
+  {
+    "id": 24,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que signifie la neutralité de l'État (laïcité) ?",
+    "options": ["Interdire les religions", "Choisir les prêtres", "Traiter tous les citoyens de la même manière", "Financer tous les cultes"],
+    "bonne_reponse": 2,
+    "explication": "L'État ne favorise aucune religion et assure l'égalité de traitement."
+  },
+  {
+    "id": 25,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que peut faire un usager dans une mairie ?",
+    "options": ["Exiger un agent de sa religion", "Demander à ne pas voir de femme", "Prier en public", "Porter un signe religieux visible"],
+    "bonne_reponse": 3,
+    "explication": "L'usager est libre d'exprimer sa foi, contrairement aux agents publics."
+  },
+  {
+    "id": 26,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En France, l'État peut financer :",
+    "options": ["Les nouvelles mosquées", "Le salaire des imams", "L'entretien des églises d'avant 1905", "Les pèlerinages"],
+    "bonne_reponse": 2,
+    "explication": "L'État entretient les édifices religieux dont il est devenu propriétaire en 1905."
+  },
+  {
+    "id": 27,
+    "categorie": "Principes et valeurs de la République",
+    "question": "En quelle année la loi de séparation a-t-elle été votée ?",
+    "options": ["1789", "1881", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "La loi de 1905 marque la fin du Concordat et instaure la laïcité."
+  },
+  {
+    "id": 28,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que dit la loi de 1905 ?",
+    "options": ["Interdire la religion", "Payer les prêtres", "La religion officielle", "Assurer la liberté de conscience"],
+    "bonne_reponse": 3,
+    "explication": "Elle sépare les Églises de l'État et garantit la liberté de culte."
+  },
+  {
+    "id": 29,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Que garantit le principe de laïcité ?",
+    "options": ["Être athée au travail", "L'égalité de tous devant la loi", "Plus de jours fériés", "Refuser les sciences"],
+    "bonne_reponse": 2,
+    "explication": "La laïcité assure que la religion ne crée aucun privilège ni aucune discrimination."
+  },
+  {
+    "id": 30,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel jour célèbre-t-on la laïcité ?",
+    "options": ["1er mai", "14 juillet", "9 décembre", "11 novembre"],
+    "bonne_reponse": 2,
+    "explication": "Le 9 décembre est l'anniversaire de la loi de 1905."
+  },
+  {
+    "id": 31,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel signe religieux peut être porté à l'école publique ?",
+    "options": ["Une grande croix", "Une kippa", "Aucun signe ostensible", "Un voile"],
+    "bonne_reponse": 2,
+    "explication": "La loi de 2004 interdit les signes religieux très visibles pour les élèves."
+  },
+  {
+    "id": 32,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel terme désigne la haine contre les Juifs ?",
+    "options": ["Racisme", "Antisémitisme", "Homophobie", "Sexisme"],
+    "bonne_reponse": 1,
+    "explication": "L'antisémitisme est un délit spécifique condamné par la loi."
+  },
+  {
+    "id": 33,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quel est le texte fondateur de la laïcité ?",
+    "options": ["DDHC 1789", "Code Civil 1804", "Loi 1905", "Constitution 1958"],
+    "bonne_reponse": 2,
+    "explication": "La loi de 1905 est le pilier central de la laïcité française."
+  },
+  {
+    "id": 34,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Quelle institution doit rester neutre ?",
+    "options": ["Entreprises privées", "État et services publics", "Clubs sportifs", "Partis politiques"],
+    "bonne_reponse": 1,
+    "explication": "L'administration doit traiter tout le monde de façon impartiale."
+  },
+  {
+    "id": 35,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la laïcité ?",
+    "options": ["Interdire les religions", "Obligation de croire", "Séparation État/Religions", "Financer les cultes"],
+    "bonne_reponse": 2,
+    "explication": "C'est un cadre de liberté et d'égalité pour tous les citoyens."
+  },
+  {
+    "id": 36,
+    "categorie": "Principes et valeurs de la République",
+    "question": "À l'école, la charte de la laïcité permet de :",
+    "options": ["Rappeler les règles et la mixité", "Interdire les origines", "Autoriser les prières", "Changer les menus"],
+    "bonne_reponse": 0,
+    "explication": "Elle explique comment la neutralité garantit un cadre serein d'apprentissage."
+  },
+  {
+    "id": 37,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Qui doit respecter la neutralité dans les services publics ?",
+    "options": ["Les usagers", "Les agents (fonctionnaires)", "Uniquement le maire", "Personne"],
+    "bonne_reponse": 1,
+    "explication": "Les employés de l'État ne doivent manifester aucune appartenance religieuse."
+  },
+  {
+    "id": 38,
+    "categorie": "Principes et valeurs de la République",
+    "question": "Une personne ne croit en aucun dieu, elle est :",
+    "options": ["Laïque", "Agnostique", "Athée", "Anticléricale"],
+    "bonne_reponse": 2,
+    "explication": "L'athéisme est le fait de ne croire en aucune divinité."
+  },
+  {
+    "id": 39,
+    "categorie": "Système institutionnel et politique",
+    "question": "Comment est désigné le Premier ministre ?",
+    "options": ["Suffrage direct", "Nommé par le Président", "Élu par les députés", "Tiré au sort"],
+    "bonne_reponse": 1,
+    "explication": "Le Président choisit le Premier ministre selon la majorité à l'Assemblée."
+  },
+  {
+    "id": 40,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui peut se présenter à la présidentielle ?",
+    "options": ["Français majeur avec 500 parrainages", "Résident depuis 10 ans", "Ancien ministre", "Citoyen européen"],
+    "bonne_reponse": 0,
+    "explication": "Il faut être citoyen français et avoir le soutien d'élus locaux."
+  },
+  {
+    "id": 41,
+    "categorie": "Système institutionnel et politique",
+    "question": "À qui appartient la souveraineté nationale ?",
+    "options": ["Au Président", "Au Parlement", "Au peuple", "Au Conseil constitutionnel"],
+    "bonne_reponse": 2,
+    "explication": "Le peuple l'exerce par ses représentants ou le référendum."
+  },
+  {
+    "id": 42,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui est élu aux municipales ?",
+    "options": ["Le préfet", "Les députés", "Les conseillers municipaux", "Le Président régional"],
+    "bonne_reponse": 2,
+    "explication": "Les citoyens élisent le conseil qui élira ensuite le maire."
+  },
+  {
+    "id": 43,
+    "categorie": "Système institutionnel et politique",
+    "question": "L'inscription sur les listes électorales est :",
+    "options": ["Payante", "Facultative", "Automatique pour étrangers", "Obligatoire pour voter"],
+    "bonne_reponse": 3,
+    "explication": "Il faut être inscrit en mairie pour exercer son droit de vote."
+  },
+  {
+    "id": 44,
+    "categorie": "Système institutionnel et politique",
+    "question": "Condition pour voter à la présidentielle :",
+    "options": ["Payer l'impôt", "Français, majeur, inscrit", "Avoir un CDI", "Né en France"],
+    "bonne_reponse": 1,
+    "explication": "Le vote national est réservé aux citoyens français majeurs."
+  },
+  {
+    "id": 45,
+    "categorie": "Système institutionnel et politique",
+    "question": "Condition pour être candidat aux municipales :",
+    "options": ["Français ou Européen résident, majeur", "Propriétaire obligatoire", "Avoir 25 ans", "Désigné par le préfet"],
+    "bonne_reponse": 0,
+    "explication": "Les municipales sont ouvertes aux citoyens de l'UE résidents."
+  },
+  {
+    "id": 46,
+    "categorie": "Système institutionnel et politique",
+    "question": "Laquelle de ces autorités est élue ?",
+    "options": ["Le préfet", "Le ministre", "Le procureur", "Le maire"],
+    "bonne_reponse": 3,
+    "explication": "Le maire est un élu local issu du suffrage universel indirect."
+  },
+  {
+    "id": 47,
+    "categorie": "Système institutionnel et politique",
+    "question": "Fonctions du maire :",
+    "options": ["Voter les lois", "Gérer la commune et l'état civil", "Juger les délits", "Diriger l'armée"],
+    "bonne_reponse": 1,
+    "explication": "Le maire administre la ville et célèbre les mariages."
+  },
+  {
+    "id": 48,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui peut se présenter à la présidentielle ?",
+    "options": ["Hauts fonctionnaires seulement", "Citoyens européens", "Tout citoyen français éligible", "Étrangers imposables"],
+    "bonne_reponse": 2,
+    "explication": "C'est une élection réservée aux citoyens de nationalité française."
+  },
+  {
+    "id": 49,
+    "categorie": "Système institutionnel et politique",
+    "question": "Où s'inscrire sur les listes sans internet ?",
+    "options": ["Commissariat", "Préfecture", "Mairie", "Poste"],
+    "bonne_reponse": 2,
+    "explication": "L'inscription se fait au service état civil de votre mairie."
+  },
+  {
+    "id": 50,
+    "categorie": "Système institutionnel et politique",
+    "question": "À quel âge devient-on électeur ?",
+    "options": ["16 ans", "18 ans", "21 ans", "25 ans"],
+    "bonne_reponse": 1,
+    "explication": "La majorité électorale est fixée à 18 ans depuis 1974."
+  },
+  {
+    "id": 51,
+    "categorie": "Système institutionnel et politique",
+    "question": "Le vote est-il obligatoire ?",
+    "options": ["Oui, sous amende", "Non, c'est un droit et devoir moral", "Oui à la présidentielle", "Seulement fonctionnaires"],
+    "bonne_reponse": 1,
+    "explication": "La loi n'impose pas de voter, contrairement à d'autres pays."
+  },
+  {
+    "id": 52,
+    "categorie": "Système institutionnel et politique",
+    "question": "Droit de ne pas respecter la loi ?",
+    "options": ["Si injuste", "Non, nul n'est censé l'ignorer", "Avec accord du maire", "Si riche"],
+    "bonne_reponse": 1,
+    "explication": "La loi s'impose à tous dans un État de droit."
+  },
+  {
+    "id": 53,
+    "categorie": "Système institutionnel et politique",
+    "question": "Comment sont désignés les députés ?",
+    "options": ["Nommés par Président", "Tirés au sort", "Élus au suffrage direct", "Nommés par juges"],
+    "bonne_reponse": 2,
+    "explication": "Les 577 députés sont élus lors des législatives."
+  },
+  {
+    "id": 54,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui vote les lois ?",
+    "options": ["Le Président", "Le Gouvernement", "Le Parlement", "Conseil constitutionnel"],
+    "bonne_reponse": 2,
+    "explication": "Le pouvoir législatif appartient à l'Assemblée et au Sénat."
+  },
+  {
+    "id": 55,
+    "categorie": "Système institutionnel et politique",
+    "question": "Les trois pouvoirs sont :",
+    "options": ["Politique, Éco, Médias", "Législatif, Exécutif, Judiciaire", "National, Régional, Local", "Civil, Pénal, Administratif"],
+    "bonne_reponse": 1,
+    "explication": "La séparation des pouvoirs évite la concentration de l'autorité."
+  },
+  {
+    "id": 56,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qu'est-ce que l'État de droit ?",
+    "options": ["Pays sans lois", "État soumis au droit", "Dictature", "Géré par juges"],
+    "bonne_reponse": 1,
+    "explication": "La puissance publique doit elle-même respecter les règles."
+  },
+  {
+    "id": 57,
+    "categorie": "Système institutionnel et politique",
+    "question": "Durée mandat maire :",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 2,
+    "explication": "Le mandat municipal dure six ans."
+  },
+  {
+    "id": 58,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui est élu aux législatives ?",
+    "options": ["Sénateurs", "Maires", "Députés", "Conseillers régionaux"],
+    "bonne_reponse": 2,
+    "explication": "Les législatives servent à former l'Assemblée nationale."
+  },
+  {
+    "id": 59,
+    "categorie": "Système institutionnel et politique",
+    "question": "Durée mandat Président :",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 1,
+    "explication": "Le Président est élu pour cinq ans (quinquennat)."
+  },
+  {
+    "id": 60,
+    "categorie": "Système institutionnel et politique",
+    "question": "Durée mandat députés :",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 1,
+    "explication": "L'Assemblée est renouvelée tous les cinq ans."
+  },
+  {
+    "id": 61,
+    "categorie": "Système institutionnel et politique",
+    "question": "Durée mandat sénateurs :",
+    "options": ["4 ans", "5 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 2,
+    "explication": "Ils sont élus pour 6 ans par les grands électeurs."
+  },
+  {
+    "id": 62,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui dirige l'action du gouvernement ?",
+    "options": ["Le Président", "Le Premier ministre", "Président Assemblée", "Conseil constitutionnel"],
+    "bonne_reponse": 1,
+    "explication": "Le Premier ministre coordonne l'équipe ministérielle."
+  },
+  {
+    "id": 63,
+    "categorie": "Système institutionnel et politique",
+    "question": "Adhérer à un parti :",
+    "options": ["Interdit", "Seulement élus", "Droit garanti", "Besoin accord préfecture"],
+    "bonne_reponse": 2,
+    "explication": "Chacun est libre de soutenir ou rejoindre un parti politique."
+  },
+  {
+    "id": 64,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui sanctionne un vol ?",
+    "options": ["Police", "Victime", "Maire", "Autorité judiciaire"],
+    "bonne_reponse": 3,
+    "explication": "Seul un juge peut condamner après enquête."
+  },
+  {
+    "id": 65,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui gère les collèges ?",
+    "options": ["Commune", "Département", "Région", "État"],
+    "bonne_reponse": 1,
+    "explication": "Les collèges relèvent du Conseil départemental."
+  },
+  {
+    "id": 66,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui gère les écoles primaires ?",
+    "options": ["Commune", "Département", "Région", "État"],
+    "bonne_reponse": 0,
+    "explication": "La mairie entretient les locaux et gère les inscriptions."
+  },
+  {
+    "id": 67,
+    "categorie": "Système institutionnel et politique",
+    "question": "Désignation des maires :",
+    "options": ["Nommés par préfet", "Suffrage direct", "Élus par conseil municipal", "Tirés au sort"],
+    "bonne_reponse": 2,
+    "explication": "C'est un suffrage indirect au sein de la mairie."
+  },
+  {
+    "id": 68,
+    "categorie": "Système institutionnel et politique",
+    "question": "Responsable des TER :",
+    "options": ["Commune", "Département", "Région", "Ministère"],
+    "bonne_reponse": 2,
+    "explication": "La région organise les transports ferroviaires régionaux."
+  },
+  {
+    "id": 69,
+    "categorie": "Système institutionnel et politique",
+    "question": "Modifier la Constitution :",
+    "options": ["Décision Président", "Majorité simple", "Référendum", "Pétition"],
+    "bonne_reponse": 2,
+    "explication": "Le peuple ou le Congrès peut réviser le texte suprême."
+  },
+  {
+    "id": 70,
+    "categorie": "Système institutionnel et politique",
+    "question": "Intérim Président :",
+    "options": ["Premier ministre", "Président du Sénat", "Président Assemblée", "Conseil constitutionnel"],
+    "bonne_reponse": 1,
+    "explication": "En cas de vacance, le Sénat assure la transition."
+  },
+  {
+    "id": 71,
+    "categorie": "Système institutionnel et politique",
+    "question": "Rôle Conseil constitutionnel :",
+    "options": ["Voter lois", "Juger criminels", "Vérifier respect Constitution", "Diriger armée"],
+    "bonne_reponse": 2,
+    "explication": "Les 'Sages' s'assurent que la loi est conforme aux droits."
+  },
+  {
+    "id": 72,
+    "categorie": "Système institutionnel et politique",
+    "question": "Condition présidentielle :",
+    "options": ["Marié", "Service militaire", "Nationalité française", "Payer 5000€"],
+    "bonne_reponse": 2,
+    "explication": "Il faut être citoyen français pour briguer l'Élysée."
+  },
+  {
+    "id": 73,
+    "categorie": "Système institutionnel et politique",
+    "question": "Nombre départements :",
+    "options": ["13", "50", "101", "348"],
+    "bonne_reponse": 2,
+    "explication": "Il y a 101 départements en tout (96 + 5 d'outre-mer)."
+  },
+  {
+    "id": 74,
+    "categorie": "Système institutionnel et politique",
+    "question": "Organisation administrative :",
+    "options": ["États fédérés", "Cantons", "Communes, Départements, Régions", "Métropoles"],
+    "bonne_reponse": 2,
+    "explication": "Ce sont les trois échelons de la décentralisation."
+  },
+  {
+    "id": 75,
+    "categorie": "Système institutionnel et politique",
+    "question": "Représente l'État dans le département :",
+    "options": ["Le Préfet", "Le Maire", "Le Député", "Le Président départemental"],
+    "bonne_reponse": 0,
+    "explication": "Le préfet garantit l'ordre et l'autorité de l'État localement."
+  },
+  {
+    "id": 76,
+    "categorie": "Système institutionnel et politique",
+    "question": "Rôle du Président :",
+    "options": ["Gérer hôpitaux", "Chef État/Armées/Constitution", "Juger citoyens", "Impôts locaux"],
+    "bonne_reponse": 1,
+    "explication": "Le Président a les fonctions régaliennes les plus hautes."
+  },
+  {
+    "id": 77,
+    "categorie": "Système institutionnel et politique",
+    "question": "Rôle du Premier ministre :",
+    "options": ["Diriger gouvernement/Exécuter lois", "Présider Assemblée", "Déclarer guerre", "ONU"],
+    "bonne_reponse": 0,
+    "explication": "Il est le chef opérationnel de l'exécutif."
+  },
+  {
+    "id": 78,
+    "categorie": "Système institutionnel et politique",
+    "question": "Rôle Défenseur des droits :",
+    "options": ["Défendre État", "Avocats gratuits", "Protéger libertés/Discrimination", "Remplacer police"],
+    "bonne_reponse": 2,
+    "explication": "C'est une autorité administrative indépendante gratuite."
+  },
+  {
+    "id": 79,
+    "categorie": "Système institutionnel et politique",
+    "question": "Citoyenneté européenne :",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Instaurée par le traité de Maastricht."
+  },
+  {
+    "id": 80,
+    "categorie": "Système institutionnel et politique",
+    "question": "Dernier État UE en 2013 :",
+    "options": ["Roumanie", "Croatie", "Pologne", "Ukraine"],
+    "bonne_reponse": 1,
+    "explication": "La Croatie est le 28e membre (avant le Brexit)."
+  },
+  {
+    "id": 81,
+    "categorie": "Système institutionnel et politique",
+    "question": "Compositeur hymne UE :",
+    "options": ["Mozart", "Chopin", "Beethoven", "Debussy"],
+    "bonne_reponse": 2,
+    "explication": "C'est un arrangement de la 9e symphonie."
+  },
+  {
+    "id": 82,
+    "categorie": "Système institutionnel et politique",
+    "question": "Journée de l'Europe :",
+    "options": ["1er mai", "8 mai", "9 mai", "14 juillet"],
+    "bonne_reponse": 2,
+    "explication": "Hommage à la déclaration Schuman de 1950."
+  },
+  {
+    "id": 83,
+    "categorie": "Système institutionnel et politique",
+    "question": "Siège BCE :",
+    "options": ["Paris", "Bruxelles", "Francfort", "Genève"],
+    "bonne_reponse": 2,
+    "explication": "La banque centrale est située en Allemagne."
+  },
+  {
+    "id": 84,
+    "categorie": "Système institutionnel et politique",
+    "question": "Siège Commission européenne :",
+    "options": ["Strasbourg", "Bruxelles", "Luxembourg", "Berlin"],
+    "bonne_reponse": 1,
+    "explication": "Le cœur de l'exécutif européen est en Belgique."
+  },
+  {
+    "id": 85,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui siège au Parlement européen ?",
+    "options": ["Présidents", "Juges", "Députés élus", "Militaires"],
+    "bonne_reponse": 2,
+    "explication": "Les eurodéputés représentent les citoyens."
+  },
+  {
+    "id": 86,
+    "categorie": "Système institutionnel et politique",
+    "question": "Vote européen locaux :",
+    "options": ["Interdit", "Si mariés", "Municipales/Européennes", "Présidentielle"],
+    "bonne_reponse": 2,
+    "explication": "Un citoyen UE peut voter localement en France."
+  },
+  {
+    "id": 87,
+    "categorie": "Système institutionnel et politique",
+    "question": "Nombre États UE en 2025 :",
+    "options": ["15", "27", "35", "50"],
+    "bonne_reponse": 1,
+    "explication": "L'UE compte 27 membres depuis le départ du Royaume-Uni."
+  },
+  {
+    "id": 88,
+    "categorie": "Système institutionnel et politique",
+    "question": "Traité de Maastricht :",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Il fonde l'Union européenne telle qu'on la connaît."
+  },
+  {
+    "id": 89,
+    "categorie": "Système institutionnel et politique",
+    "question": "Traité construction UE :",
+    "options": ["Versailles", "Maastricht", "Paris", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Maastricht est le texte de référence pour l'Union."
+  },
+  {
+    "id": 90,
+    "categorie": "Système institutionnel et politique",
+    "question": "Départ de l'UE en 2020 :",
+    "options": ["Suisse", "Islande", "Royaume-Uni", "Norvège"],
+    "bonne_reponse": 2,
+    "explication": "Le Brexit a été effectif en janvier 2020."
+  },
+  {
+    "id": 91,
+    "categorie": "Système institutionnel et politique",
+    "question": "Devise de l'UE :",
+    "options": ["Unie dans la diversité", "Liberté...", "L'union fait la force", "Paix..."],
+    "bonne_reponse": 0,
+    "explication": "C'est la devise officielle de l'Union."
+  },
+  {
+    "id": 92,
+    "categorie": "Système institutionnel et politique",
+    "question": "Hymne de l'UE :",
+    "options": ["Marseillaise", "Ode à la joie", "Hymne à l'amour", "Chant Partisans"],
+    "bonne_reponse": 1,
+    "explication": "La mélodie est tirée de Beethoven."
+  },
+  {
+    "id": 93,
+    "categorie": "Système institutionnel et politique",
+    "question": "Drapeau européen :",
+    "options": ["Croix blanche", "12 étoiles or", "27 étoiles", "Aigle noir"],
+    "bonne_reponse": 1,
+    "explication": "Les 12 étoiles forment un cercle."
+  },
+  {
+    "id": 94,
+    "categorie": "Système institutionnel et politique",
+    "question": "Qui élit députés européens ?",
+    "options": ["Présidents", "Sénateurs", "Citoyens", "Commission"],
+    "bonne_reponse": 2,
+    "explication": "Les élections ont lieu tous les 5 ans."
+  },
+  {
+    "id": 95,
+    "categorie": "Système institutionnel et politique",
+    "question": "Siège Parlement européen :",
+    "options": ["Strasbourg", "Bruxelles", "Berlin", "Luxembourg"],
+    "bonne_reponse": 0,
+    "explication": "Le Parlement siège en Alsace."
+  },
+  {
+    "id": 96,
+    "categorie": "Droits et devoirs",
+    "question": "Droit de grève :",
+    "options": ["Congés plus", "Défendre revendications", "Détruire matériel", "Pas impôts"],
+    "bonne_reponse": 1,
+    "explication": "C'est une cessation collective du travail."
+  },
+  {
+    "id": 97,
+    "categorie": "Droits et devoirs",
+    "question": "Restriction des droits :",
+    "options": ["Ordre/Sécurité/Santé", "Éco uniquement", "Privilégier Français", "Confort ministres"],
+    "bonne_reponse": 0,
+    "explication": "L'État peut limiter les libertés pour l'intérêt général."
+  },
+  {
+    "id": 98,
+    "categorie": "Droits et devoirs",
+    "question": "Citation DDHC 1789 :",
+    "options": ["L'État c'est moi", "Hommes libres et égaux", "Devise", "Diversité"],
+    "bonne_reponse": 1,
+    "explication": "C'est l'article 1er de la Déclaration."
+  },
+  {
+    "id": 99,
+    "categorie": "Droits et devoirs",
+    "question": "Art 4 DDHC liberté :",
+    "options": ["Enfreindre loi", "S'arrête aux autres", "Pas puni", "Sans règle"],
+    "bonne_reponse": 1,
+    "explication": "La liberté implique de ne pas nuire à autrui."
+  },
+  {
+    "id": 100,
+    "categorie": "Droits et devoirs",
+    "question": "Art 1 Constitution :",
+    "options": ["Empire", "Religion catholique", "Rép. indivisible/laïque/dém/soc", "Monarchie"],
+    "bonne_reponse": 2,
+    "explication": "C'est le texte socle de la Ve République."
+  },
+  {
+    "id": 101,
+    "categorie": "Droits et devoirs",
+    "question": "Liberté de la presse :",
+    "options": ["Journaux gratuits", "Sans censure", "Mentir", "Soutenir gouv"],
+    "bonne_reponse": 1,
+    "explication": "Loi de 1881 sur la liberté de diffuser."
+  },
+  {
+    "id": 102,
+    "categorie": "Droits et devoirs",
+    "question": "Liberté circulation :",
+    "options": ["Sans billet", "Sans permis", "Chez autrui", "Territoire national"],
+    "bonne_reponse": 3,
+    "explication": "Droit fondamental d'aller et venir."
+  },
+  {
+    "id": 103,
+    "categorie": "Droits et devoirs",
+    "question": "Être citoyen :",
+    "options": ["Noblesse", "Membre nation/Droits/Devoirs", "Pas impôts", "Choisir lois"],
+    "bonne_reponse": 1,
+    "explication": "Lien juridique et politique à l'État."
+  },
+  {
+    "id": 104,
+    "categorie": "Droits et devoirs",
+    "question": "Droits fondamentaux :",
+    "options": ["Hommes seulement", "Garantis par Constitution", "Riches seulement", "Commerce UE"],
+    "bonne_reponse": 1,
+    "explication": "Droits inaliénables de la personne."
+  },
+  {
+    "id": 105,
+    "categorie": "Droits et devoirs",
+    "question": "Arrestation arbitraire :",
+    "options": ["Droit sûreté", "Droit image", "Droit logement", "Liberté syndicale"],
+    "bonne_reponse": 0,
+    "explication": "Protège contre les arrestations abusives."
+  },
+  {
+    "id": 106,
+    "categorie": "Droits et devoirs",
+    "question": "Texte droits/devoirs :",
+    "options": ["Code route", "Règlement UE", "DDHC", "Charte ONU"],
+    "bonne_reponse": 2,
+    "explication": "La DDHC de 1789 est la référence."
+  },
+  {
+    "id": 107,
+    "categorie": "Droits et devoirs",
+    "question": "Texte nés libres/égaux :",
+    "options": ["Code pénal", "DDHC", "Rome", "Civil"],
+    "bonne_reponse": 1,
+    "explication": "Citation célèbre de l'article 1."
+  },
+  {
+    "id": 108,
+    "categorie": "Droits et devoirs",
+    "question": "Atteinte dignité :",
+    "options": ["File attente", "Esclavage/Torture", "Impôts", "35h"],
+    "bonne_reponse": 1,
+    "explication": "Interdiction des traitements inhumains."
+  },
+  {
+    "id": 109,
+    "categorie": "Droits et devoirs",
+    "question": "Liberté expression :",
+    "options": ["Respect loi", "Injures", "Menaces", "Mensonge police"],
+    "bonne_reponse": 0,
+    "explication": "Droit de s'exprimer sans nuire."
+  },
+  {
+    "id": 110,
+    "categorie": "Droits et devoirs",
+    "question": "Après interpellation :",
+    "options": ["Fuir", "Frapper", "Silence/Avocat", "Fausse identité"],
+    "bonne_reponse": 2,
+    "explication": "Droits de la garde à vue."
+  },
+  {
+    "id": 111,
+    "categorie": "Droits et devoirs",
+    "question": "Religion obligatoire ?",
+    "options": ["Oui", "Non, laïcité", "Oui catho", "Oui cachée"],
+    "bonne_reponse": 1,
+    "explication": "Droit de croire ou ne pas croire."
+  },
+  {
+    "id": 112,
+    "categorie": "Droits et devoirs",
+    "question": "Majorité numérique :",
+    "options": ["10 ans", "13 ans", "15 ans", "18 ans"],
+    "bonne_reponse": 2,
+    "explication": "Âge du consentement aux données en ligne."
+  },
+  {
+    "id": 113,
+    "categorie": "Droits et devoirs",
+    "question": "Autorisé à fumer :",
+    "options": ["Hôpital", "Restaurant", "École", "Chez soi"],
+    "bonne_reponse": 3,
+    "explication": "Loi Évin sur les lieux publics."
+  },
+  {
+    "id": 114,
+    "categorie": "Droits et devoirs",
+    "question": "Conduire moto sans permis :",
+    "options": ["Délit", "35€", "Court trajet", "Moto ami"],
+    "bonne_reponse": 0,
+    "explication": "C'est un risque pénal et sécuritaire."
+  },
+  {
+    "id": 115,
+    "categorie": "Droits et devoirs",
+    "question": "Devoir de solidarité :",
+    "options": ["Impôts/Services publics", "Donner argent voisins", "Héberger SDF", "Travailler gratuit"],
+    "bonne_reponse": 0,
+    "explication": "Contribution à la protection sociale."
+  },
+  {
+    "id": 116,
+    "categorie": "Droits et devoirs",
+    "question": "Mariage multiple :",
+    "options": ["Oui", "Non, polygamie interdite", "Si accord", "Si étranger"],
+    "bonne_reponse": 1,
+    "explication": "La loi impose la monogamie."
+  },
+  {
+    "id": 117,
+    "categorie": "Droits et devoirs",
+    "question": "Déclarer impôts obligatoire ?",
+    "options": ["Non", "Si riches", "Oui tous résidents", "Si Français"],
+    "bonne_reponse": 2,
+    "explication": "C'est une formalité annuelle pour tous."
+  },
+  {
+    "id": 118,
+    "categorie": "Droits et devoirs",
+    "question": "Porter secours :",
+    "options": ["Obligatoire", "Ignorer", "Si médecin", "Si famille"],
+    "bonne_reponse": 0,
+    "explication": "Assistance à personne en danger."
+  },
+  {
+    "id": 119,
+    "categorie": "Droits et devoirs",
+    "question": "Juré d'assises :",
+    "options": ["Métier", "Devoir civique", "Avocats", "Bénévole"],
+    "bonne_reponse": 1,
+    "explication": "Participation citoyenne à la justice."
+  },
+  {
+    "id": 120,
+    "categorie": "Droits et devoirs",
+    "question": "Vente alcool interdite :",
+    "options": ["14 ans", "16 ans", "18 ans", "21 ans"],
+    "bonne_reponse": 2,
+    "explication": "Protection des mineurs."
+  },
+  {
+    "id": 121,
+    "categorie": "Droits et devoirs",
+    "question": "Pour obtenir CNI :",
+    "options": ["100€", "Nationalité française", "Majeur", "Né en France"],
+    "bonne_reponse": 1,
+    "explication": "Preuve de la citoyenneté française."
+  },
+  {
+    "id": 122,
+    "categorie": "Droits et devoirs",
+    "question": "Juré assises convoqué :",
+    "options": ["Refuser", "Payer taxe", "Obligation paraître", "Études droit"],
+    "bonne_reponse": 2,
+    "explication": "C'est une réquisition de l'État."
+  },
+  {
+    "id": 123,
+    "categorie": "Droits et devoirs",
+    "question": "Majorité civile :",
+    "options": ["16", "18", "21", "25"],
+    "bonne_reponse": 1,
+    "explication": "Âge de la pleine capacité juridique."
+  },
+  {
+    "id": 124,
+    "categorie": "Droits et devoirs",
+    "question": "Devoir principal :",
+    "options": ["Service militaire", "Voter", "Respect loi/Impôts", "Syndicat"],
+    "bonne_reponse": 2,
+    "explication": "Base du contrat social."
+  },
+  {
+    "id": 125,
+    "categorie": "Droits et devoirs",
+    "question": "Citoyenneté numérique :",
+    "options": ["Ordinateur gratuit", "Vote internet", "Réseaux sociaux", "Droits/Devoirs web"],
+    "bonne_reponse": 3,
+    "explication": "Comportement responsable en ligne."
+  },
+  {
+    "id": 126,
+    "categorie": "Droits et devoirs",
+    "question": "Devoir de mémoire :",
+    "options": ["Tout savoir", "Se souvenir tragédies", "Rayer honte", "Impôt monuments"],
+    "bonne_reponse": 1,
+    "explication": "Transmettre l'histoire pour l'avenir."
+  },
+  {
+    "id": 127,
+    "categorie": "Droits et devoirs",
+    "question": "Qui juré assises :",
+    "options": ["Juges", "Français 23 ans lettré", "Police", "Étudiants"],
+    "bonne_reponse": 1,
+    "explication": "Conditions de tirage au sort."
+  },
+  {
+    "id": 128,
+    "categorie": "Droits et devoirs",
+    "question": "Privé droits civils :",
+    "options": ["Perd nationalité", "Expulsé", "Ni voter ni candidat", "Pas travailler"],
+    "bonne_reponse": 2,
+    "explication": "Sanction pénale de l'indignité civique."
+  },
+  {
+    "id": 129,
+    "categorie": "Droits et devoirs",
+    "question": "Privation droits civils pour :",
+    "options": ["Stationnement", "Terrorisme/Corruption", "Vitesse", "Poubelle"],
+    "bonne_reponse": 1,
+    "explication": "Sanctions pour actes graves."
+  },
+  {
+    "id": 130,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Texte adopté sous Napoléon :",
+    "options": ["DDHC", "Code civil (1804)", "Loi 1905", "Abolition"],
+    "bonne_reponse": 1,
+    "explication": "Unification du droit français."
+  },
+  {
+    "id": 131,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Premier Président Ve Rép :",
+    "options": ["Clemenceau", "Napoléon", "De Gaulle", "Jaurès"],
+    "bonne_reponse": 2,
+    "explication": "Instaurateur du régime actuel."
+  },
+  {
+    "id": 132,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Objectif lois Ferry :",
+    "options": ["Payante", "Religieuse", "Gratuite/Laïque/Obligatoire", "Pas filles"],
+    "bonne_reponse": 2,
+    "explication": "Fondement de l'école républicaine."
+  },
+  {
+    "id": 133,
+    "categorie": "Histoire, géographie et culture",
+    "question": "14 juillet :",
+    "options": ["Fête nationale", "Fin 1945", "Naissance Rép", "Élection"],
+    "bonne_reponse": 0,
+    "explication": "Prise de la Bastille en 1789."
+  },
+  {
+    "id": 134,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Importance 1958 :",
+    "options": ["Révolution", "Fin 1918", "Constitution Ve Rép", "Euro"],
+    "bonne_reponse": 2,
+    "explication": "Début du système actuel."
+  },
+  {
+    "id": 135,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Pays fondateur UE :",
+    "options": ["UK", "Suisse", "Espagne", "France"],
+    "bonne_reponse": 3,
+    "explication": "Un des 6 pays originels."
+  },
+  {
+    "id": 136,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Simone Veil :",
+    "options": ["Loi IVG 1975", "Droit vote 1944", "Présidente", "DDHC femme"],
+    "bonne_reponse": 0,
+    "explication": "Combat pour le droit des femmes."
+  },
+  {
+    "id": 137,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Plages débarquement :",
+    "options": ["Provence", "Bretagne", "Normandie", "Occitanie"],
+    "bonne_reponse": 2,
+    "explication": "Le 6 juin 1944."
+  },
+  {
+    "id": 138,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Ville couronnement rois :",
+    "options": ["Paris", "Versailles", "Orléans", "Reims"],
+    "bonne_reponse": 3,
+    "explication": "Cité des sacres."
+  },
+  {
+    "id": 139,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Roi guillotiné :",
+    "options": ["Louis XIV", "Henri IV", "Louis XVI", "Charles X"],
+    "bonne_reponse": 2,
+    "explication": "Exécuté en 1793."
+  },
+  {
+    "id": 140,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Début Révolution :",
+    "options": ["1789", "1804", "1914", "1958"],
+    "bonne_reponse": 0,
+    "explication": "Chute de la monarchie absolue."
+  },
+  {
+    "id": 141,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Napoléon Empereur :",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Sacre à Notre-Dame."
+  },
+  {
+    "id": 142,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Lien avec République :",
+    "options": ["Charlemagne", "César", "Jeanne d'Arc", "Marianne"],
+    "bonne_reponse": 3,
+    "explication": "Allégorie de la République."
+  },
+  {
+    "id": 143,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Appel De Gaulle :",
+    "options": ["14 juillet", "11 nov", "18 juin 1940", "8 mai"],
+    "bonne_reponse": 2,
+    "explication": "Appel à la Résistance."
+  },
+  {
+    "id": 144,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Shoah :",
+    "options": ["Bataille", "Parti", "Appel", "Génocide Juifs"],
+    "bonne_reponse": 3,
+    "explication": "Holocauste pendant 39-45."
+  },
+  {
+    "id": 145,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Colonie française :",
+    "options": ["Brésil", "Australie", "Algérie", "Inde"],
+    "bonne_reponse": 2,
+    "explication": "Indépendance en 1962."
+  },
+  {
+    "id": 146,
+    "categorie": "Histoire, géographie et culture",
+    "question": "École gratuite/laïque/obligatoire :",
+    "options": ["Hugo", "Napoléon", "Ferry", "De Gaulle"],
+    "bonne_reponse": 2,
+    "explication": "Père de l'école publique."
+  },
+  {
+    "id": 147,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Président suffrage direct :",
+    "options": ["1789", "1944", "1962", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Réforme gaullienne."
+  },
+  {
+    "id": 148,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Fondation UE :",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Traité de Maastricht."
+  },
+  {
+    "id": 149,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Seconde Guerre mondiale :",
+    "options": ["14-18", "70-71", "54-62", "39-45"],
+    "bonne_reponse": 3,
+    "explication": "Conflit planétaire contre nazisme."
+  },
+  {
+    "id": 150,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Première Guerre mondiale :",
+    "options": ["70-71", "39-45", "14-18", "54-62"],
+    "bonne_reponse": 2,
+    "explication": "La Grande Guerre."
+  },
+  {
+    "id": 151,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Abolition peine de mort :",
+    "options": ["De Gaulle", "Giscard", "Mitterrand", "Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "Robert Badinter en 1981."
+  },
+  {
+    "id": 152,
+    "categorie": "Histoire, géographie et culture",
+    "question": "8 mai :",
+    "options": ["Fin Europe 1945", "1918", "Travail", "Bastille"],
+    "bonne_reponse": 0,
+    "explication": "Capitulation allemande."
+  },
+  {
+    "id": 153,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Construction UE 1951 :",
+    "options": ["Schengen", "Euro", "CECA", "ONU"],
+    "bonne_reponse": 2,
+    "explication": "Charbon et Acier."
+  },
+  {
+    "id": 154,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Figure Résistance :",
+    "options": ["Jean Moulin", "Pétain", "Louis XVI", "Napoléon III"],
+    "bonne_reponse": 0,
+    "explication": "Héros sacrifié."
+  },
+  {
+    "id": 155,
+    "categorie": "Histoire, géographie et culture",
+    "question": "11 novembre :",
+    "options": ["1944", "Ve Rép", "1918", "Abolition"],
+    "bonne_reponse": 2,
+    "explication": "Armistice Grande Guerre."
+  },
+  {
+    "id": 156,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Abolition esclavage :",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Définitive sous la IIe Rép."
+  },
+  {
+    "id": 157,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Qui a aboli esclavage :",
+    "options": ["Schœlcher", "Hugo", "Napoléon", "Moulin"],
+    "bonne_reponse": 0,
+    "explication": "Victor Schœlcher."
+  },
+  {
+    "id": 158,
+    "categorie": "Histoire, géographie et culture",
+    "question": "École gratuite :",
+    "options": ["1789", "1881", "1945", "1968"],
+    "bonne_reponse": 1,
+    "explication": "Lois Jules Ferry."
+  },
+  {
+    "id": 159,
+    "categorie": "Histoire, géographie et culture",
+    "question": "1944 femmes :",
+    "options": ["Travailler", "Banque", "Droit vote", "Service militaire"],
+    "bonne_reponse": 2,
+    "explication": "Obtention de la citoyenneté politique."
+  },
+  {
+    "id": 160,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Organisation 1945 :",
+    "options": ["UE", "ONU", "OTAN", "Croix-Rouge"],
+    "bonne_reponse": 1,
+    "explication": "Nations Unies pour la paix."
+  },
+  {
+    "id": 161,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Euro monnaie :",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Arrivée du cash."
+  },
+  {
+    "id": 162,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Libération Paris :",
+    "options": ["Juin 1940", "Août 1944", "Mai 1945", "Nov 1918"],
+    "bonne_reponse": 1,
+    "explication": "Division Leclerc."
+  },
+  {
+    "id": 163,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Port négrier XVIIIe :",
+    "options": ["Marseille", "Brest", "Nantes", "Havre"],
+    "bonne_reponse": 2,
+    "explication": "Premier port de traite."
+  },
+  {
+    "id": 164,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Lumières contre esclavage :",
+    "options": ["Descartes", "Voltaire", "Hugo", "Zola"],
+    "bonne_reponse": 1,
+    "explication": "Auteur de Candide."
+  },
+  {
+    "id": 165,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Victor Hugo :",
+    "options": ["Trois Mousquetaires", "Bovary", "Les Misérables", "Petit Prince"],
+    "bonne_reponse": 2,
+    "explication": "Jean Valjean et Cosette."
+  },
+  {
+    "id": 166,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Peintre français :",
+    "options": ["Picasso", "Vinci", "Van Gogh", "Monet"],
+    "bonne_reponse": 3,
+    "explication": "Père de l'impressionnisme."
+  },
+  {
+    "id": 167,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Spécialité cuisine :",
+    "options": ["Paella", "Bœuf bourguignon", "Pizza", "Couscous"],
+    "bonne_reponse": 1,
+    "explication": "Plat traditionnel."
+  },
+  {
+    "id": 168,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Marie Curie :",
+    "options": ["Reine", "Scientifique 2 Nobel", "Écrivaine", "Résistante"],
+    "bonne_reponse": 1,
+    "explication": "Radioactivité."
+  },
+  {
+    "id": 169,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Liberté guidant peuple :",
+    "options": ["Monet", "Delacroix", "Renoir", "Cézanne"],
+    "bonne_reponse": 1,
+    "explication": "Peinture de 1830."
+  },
+  {
+    "id": 170,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Musée Joconde :",
+    "options": ["Orsay", "Pompidou", "Louvre", "Grévin"],
+    "bonne_reponse": 2,
+    "explication": "Ancien palais royal."
+  },
+  {
+    "id": 171,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Château Louis XIV :",
+    "options": ["Chambord", "Versailles", "Fontainebleau", "Chenonceau"],
+    "bonne_reponse": 1,
+    "explication": "Symbole absolutisme."
+  },
+  {
+    "id": 172,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Peintures préhistoriques :",
+    "options": ["Catacombes", "Mont Blanc", "Arènes", "Lascaux"],
+    "bonne_reponse": 3,
+    "explication": "Grotte en Dordogne."
+  },
+  {
+    "id": 173,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Nymphéas :",
+    "options": ["Rodin", "Cézanne", "Monet", "Manet"],
+    "bonne_reponse": 2,
+    "explication": "Série de Claude Monet."
+  },
+  {
+    "id": 174,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Gratuit patrimoine :",
+    "options": ["Musique", "Journées Patrimoine", "14 juillet", "Laïcité"],
+    "bonne_reponse": 1,
+    "explication": "En septembre."
+  },
+  {
+    "id": 175,
+    "categorie": "Histoire, géographie et culture",
+    "question": "1er mai :",
+    "options": ["Printemps", "Fête Travail", "Fin guerre", "Fête nat"],
+    "bonne_reponse": 1,
+    "explication": "Muguet et manifs."
+  },
+  {
+    "id": 176,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Rouget de Lisle :",
+    "options": ["Président", "Général", "Auteur Marseillaise", "Peintre"],
+    "bonne_reponse": 2,
+    "explication": "Compositeur de l'hymne."
+  },
+  {
+    "id": 177,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Construction Tour Eiffel :",
+    "options": ["Fin 14-18", "Expo 1889", "Visite Reine", "Antenne"],
+    "bonne_reponse": 1,
+    "explication": "Centenaire Révolution."
+  },
+  {
+    "id": 178,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Montagnes France/Italie :",
+    "options": ["Pyrénées", "Jura", "Alpes", "Vosges"],
+    "bonne_reponse": 2,
+    "explication": "Sud-Est de la France."
+  },
+  {
+    "id": 179,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Molière :",
+    "options": ["Scientifique", "Théâtre XVIIe", "Roi", "Musicien"],
+    "bonne_reponse": 1,
+    "explication": "Comédies célèbres."
+  },
+  {
+    "id": 180,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Baudelaire :",
+    "options": ["Sculpteur", "Politique", "Poète Fleurs du mal", "Explorateur"],
+    "bonne_reponse": 2,
+    "explication": "Modernité poétique."
+  },
+  {
+    "id": 181,
+    "categorie": "Histoire, géographie et culture",
+    "question": "George Sand :",
+    "options": ["Reine", "Écrivaine XIXe", "Actrice", "Scientifique"],
+    "bonne_reponse": 1,
+    "explication": "Aurore Dupin."
+  },
+  {
+    "id": 182,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Simone de Beauvoir :",
+    "options": ["Napoléon", "Chanteuse", "Philosophe féministe", "Aviation"],
+    "bonne_reponse": 2,
+    "explication": "Le Deuxième Sexe."
+  },
+  {
+    "id": 183,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Albert Camus :",
+    "options": ["Roi", "Peintre", "Écrivain Nobel", "Vaccin"],
+    "bonne_reponse": 2,
+    "explication": "La Peste."
+  },
+  {
+    "id": 184,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Marguerite Yourcenar :",
+    "options": ["Résistante", "Première femme Académie", "Championne", "Ministre"],
+    "bonne_reponse": 1,
+    "explication": "Élue en 1980."
+  },
+  {
+    "id": 185,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Paul Cézanne :",
+    "options": ["Peintre art moderne", "Sculpteur", "État", "Explorateur"],
+    "bonne_reponse": 0,
+    "explication": "Aix-en-Provence."
+  },
+  {
+    "id": 186,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Auguste Rodin :",
+    "options": ["Architecte", "Poète", "Sculpteur Penseur", "Acteur"],
+    "bonne_reponse": 2,
+    "explication": "Sculpture expressionniste."
+  },
+  {
+    "id": 187,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Compositeur français :",
+    "options": ["Mozart", "Debussy", "Beethoven", "Verdi"],
+    "bonne_reponse": 1,
+    "explication": "Musique impressionniste."
+  },
+  {
+    "id": 188,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Auguste Renoir :",
+    "options": ["Médecin", "Général", "Peintre impressionniste", "Eiffel"],
+    "bonne_reponse": 2,
+    "explication": "Couleurs et lumière."
+  },
+  {
+    "id": 189,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Musée Paris :",
+    "options": ["British", "Orsay", "Ermitage", "Prado"],
+    "bonne_reponse": 1,
+    "explication": "Ancienne gare."
+  },
+  {
+    "id": 190,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Mont-Saint-Michel :",
+    "options": ["Versailles", "Île Normandie", "Strasbourg", "Papes"],
+    "bonne_reponse": 1,
+    "explication": "Merveille de l'Occident."
+  },
+  {
+    "id": 191,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Métropole top 10 :",
+    "options": ["Biarritz", "Lyon", "Saint-Malo", "Carcassonne"],
+    "bonne_reponse": 1,
+    "explication": "Deuxième ville de France."
+  },
+  {
+    "id": 192,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Île Antilles :",
+    "options": ["Corse", "Tahiti", "Guadeloupe", "Madagascar"],
+    "bonne_reponse": 2,
+    "explication": "Département outre-mer."
+  },
+  {
+    "id": 193,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Île française :",
+    "options": ["Sicile", "Corse", "Majorque", "Crète"],
+    "bonne_reponse": 1,
+    "explication": "Méditerranée."
+  },
+  {
+    "id": 194,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Haute montagne :",
+    "options": ["Canigou", "Puy", "Mont Blanc", "Piton"],
+    "bonne_reponse": 2,
+    "explication": "Alpes."
+  },
+  {
+    "id": 195,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Île océan Indien :",
+    "options": ["Réunion", "Martinique", "Nouvelle-Calédonie", "Saint-Pierre"],
+    "bonne_reponse": 0,
+    "explication": "DROM."
+  },
+  {
+    "id": 196,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Frontière Brésil :",
+    "options": ["Guadeloupe", "Guyane", "Martinique", "Polynésie"],
+    "bonne_reponse": 1,
+    "explication": "Amazonie."
+  },
+  {
+    "id": 197,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Fusée Ariane :",
+    "options": ["Paris", "Toulouse", "Kourou", "Brest"],
+    "bonne_reponse": 2,
+    "explication": "Guyane."
+  },
+  {
+    "id": 198,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Bords maritime métropole :",
+    "options": ["Pacifique", "Atlantique/Manche/Méditerranée", "Rouge", "Indien"],
+    "bonne_reponse": 1,
+    "explication": "Multiples façades."
+  },
+  {
+    "id": 199,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Mer France/Angleterre :",
+    "options": ["Baltique", "Méditerranée", "Manche", "Caspienne"],
+    "bonne_reponse": 2,
+    "explication": "Nord-Ouest."
+  },
+  {
+    "id": 200,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Île DROM :",
+    "options": ["Maurice", "Madagascar", "Haïti", "Martinique"],
+    "bonne_reponse": 3,
+    "explication": "Antilles."
+  },
+  {
+    "id": 201,
+    "categorie": "Histoire, géographie et culture",
+    "question": "France outre-mer :",
+    "options": ["Ambassades", "Hors Europe", "Voisins", "Anciennes colonies"],
+    "bonne_reponse": 1,
+    "explication": "Territoires de la Rép."
+  },
+  {
+    "id": 202,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Population 2025 :",
+    "options": ["45M", "68M", "90M", "120M"],
+    "bonne_reponse": 1,
+    "explication": "Estimation actuelle."
+  },
+  {
+    "id": 203,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Port maritime :",
+    "options": ["Marseille", "Nice", "Bordeaux", "Nantes"],
+    "bonne_reponse": 0,
+    "explication": "Méditerranée."
+  },
+  {
+    "id": 204,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Régions métropole :",
+    "options": ["10", "13", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "Depuis 2016."
+  },
+  {
+    "id": 205,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Montagnes France/Espagne :",
+    "options": ["Jura", "Massif central", "Alpes", "Pyrénées"],
+    "bonne_reponse": 3,
+    "explication": "Sud-Ouest."
+  },
+  {
+    "id": 206,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Île sud-est Afrique :",
+    "options": ["Martinique", "Corse", "Réunion", "Tahiti"],
+    "bonne_reponse": 2,
+    "explication": "Océan Indien."
+  },
+  {
+    "id": 207,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Chef-lieu Auvergne-Rhône-Alpes :",
+    "options": ["Grenoble", "Clermont", "Lyon", "Saint-Étienne"],
+    "bonne_reponse": 2,
+    "explication": "Capitale régionale."
+  },
+  {
+    "id": 208,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Chef-lieu Bretagne :",
+    "options": ["Brest", "Rennes", "Quimper", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Ille-et-Vilaine."
+  },
+  {
+    "id": 209,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Chef-lieu PACA :",
+    "options": ["Nice", "Toulon", "Marseille", "Avignon"],
+    "bonne_reponse": 2,
+    "explication": "Bouche-du-Rhône."
+  },
+  {
+    "id": 210,
+    "categorie": "Histoire, géographie et culture",
+    "question": "101e département :",
+    "options": ["Nouvelle-Calédonie", "Saint-Barth", "Mayotte", "Wallis"],
+    "bonne_reponse": 2,
+    "explication": "Depuis 2011."
+  },
+  {
+    "id": 211,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Région ski :",
+    "options": ["Bretagne", "Normandie", "Auvergne-Rhône-Alpes", "Île-de-France"],
+    "bonne_reponse": 2,
+    "explication": "Massif alpin."
+  },
+  {
+    "id": 212,
+    "categorie": "Histoire, géographie et culture",
+    "question": "Fleuve Paris :",
+    "options": ["Loire", "Seine", "Rhône", "Garonne"],
+    "bonne_reponse": 1,
+    "explication": "Traverse la capitale."
+  },
+  {
+    "id": 213,
+    "categorie": "Vivre dans la société française",
+    "question": "Déclarer naissance :",
+    "options": ["Préfecture", "Mairie lieu naissance", "Commissariat", "Maternité"],
+    "bonne_reponse": 1,
+    "explication": "Service état civil."
+  },
+  {
+    "id": 214,
+    "categorie": "Vivre dans la société française",
+    "question": "Action locataire libre :",
+    "options": ["Mur porteur", "Sous-louer", "Peindre/Cadres", "Pas loyer"],
+    "bonne_reponse": 2,
+    "explication": "Aménagement sans transformation."
+  },
+  {
+    "id": 215,
+    "categorie": "Vivre dans la société française",
+    "question": "Mariage légal :",
+    "options": ["Religieux", "Civil mairie", "Avocat", "Notaire"],
+    "bonne_reponse": 1,
+    "explication": "Seul le maire officie légalement."
+  },
+  {
+    "id": 216,
+    "categorie": "Vivre dans la société française",
+    "question": "Place handicapée :",
+    "options": ["5 min", "Interdit sans carte", "Femmes enceintes", "Dimanche"],
+    "bonne_reponse": 1,
+    "explication": "Amende 135€."
+  },
+  {
+    "id": 217,
+    "categorie": "Vivre dans la société française",
+    "question": "Lave-vaisselle cassé :",
+    "options": ["Trottoir", "Jaune", "Forêt", "Déchetterie/Encombrants"],
+    "bonne_reponse": 2,
+    "explication": "Protection environnement."
+  },
+  {
+    "id": 218,
+    "categorie": "Vivre dans la société française",
+    "question": "Déclarer enfant :",
+    "options": ["Mariés", "Toute naissance", "Premier", "Français"],
+    "bonne_reponse": 1,
+    "explication": "Obligation universelle."
+  },
+  {
+    "id": 219,
+    "categorie": "Vivre dans la société française",
+    "question": "Délai naissance :",
+    "options": ["5 jours", "An", "École", "Jour même"],
+    "bonne_reponse": 0,
+    "explication": "Délai légal strict."
+  },
+  {
+    "id": 220,
+    "categorie": "Vivre dans la société française",
+    "question": "Appeler police :",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 1,
+    "explication": "Numéro secours."
+  },
+  {
+    "id": 221,
+    "categorie": "Vivre dans la société française",
+    "question": "Appeler SAMU :",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 0,
+    "explication": "Urgence médicale."
+  },
+  {
+    "id": 222,
+    "categorie": "Vivre dans la société française",
+    "question": "Inscription école :",
+    "options": ["Préfecture", "Mairie", "Commissariat", "Département"],
+    "bonne_reponse": 1,
+    "explication": "Service scolaire local."
+  },
+  {
+    "id": 223,
+    "categorie": "Vivre dans la société française",
+    "question": "Divorce autorité parentale :",
+    "options": ["Mère", "Père", "Juge", "Deux parents"],
+    "bonne_reponse": 3,
+    "explication": "Maintien du lien."
+  },
+  {
+    "id": 224,
+    "categorie": "Vivre dans la société française",
+    "question": "Aide avocat :",
+    "options": ["APL", "AME", "Aide juridictionnelle", "RSA"],
+    "bonne_reponse": 2,
+    "explication": "Accès à la justice."
+  },
+  {
+    "id": 225,
+    "categorie": "Vivre dans la société française",
+    "question": "Demander divorce :",
+    "options": ["Mari", "Femme", "L'un ou l'autre/Deux", "Maire"],
+    "bonne_reponse": 2,
+    "explication": "Égalité époux."
+  },
+  {
+    "id": 226,
+    "categorie": "Vivre dans la société française",
+    "question": "Remboursement santé :",
+    "options": ["CPAM", "Préfecture", "France Travail", "Mairie"],
+    "bonne_reponse": 0,
+    "explication": "Sécu."
+  },
+  {
+    "id": 227,
+    "categorie": "Vivre dans la société française",
+    "question": "Contraception :",
+    "options": ["Interdite", "Libre et gratuite jeunes", "Accord mari", "Majeures mariées"],
+    "bonne_reponse": 1,
+    "explication": "Droit santé sexuelle."
+  },
+  {
+    "id": 228,
+    "categorie": "Vivre dans la société française",
+    "question": "Confidentialité santé :",
+    "options": ["Dossier police", "Secret médical", "Cacher maladie", "Droit employeur"],
+    "bonne_reponse": 1,
+    "explication": "Vie privée."
+  },
+  {
+    "id": 229,
+    "categorie": "Vivre dans la société française",
+    "question": "Carte Vitale :",
+    "options": ["Remboursement soins", "Avion", "Impôts", "Europe"],
+    "bonne_reponse": 0,
+    "explication": "Feuille de soin électronique."
+  },
+  {
+    "id": 230,
+    "categorie": "Vivre dans la société française",
+    "question": "Mutuelle :",
+    "options": ["Remplace Sécu", "Complète Sécu", "Loyer", "Médecin gratuit"],
+    "bonne_reponse": 1,
+    "explication": "Partie complémentaire."
+  },
+  {
+    "id": 231,
+    "categorie": "Vivre dans la société française",
+    "question": "Tiers payant :",
+    "options": ["Impôt", "X3", "Pas avance frais", "Payé en 3X"],
+    "bonne_reponse": 2,
+    "explication": "Prise en charge directe."
+  },
+  {
+    "id": 232,
+    "categorie": "Vivre dans la société française",
+    "question": "Assurance maladie :",
+    "options": ["Obligatoire résidents", "Facultative", "Français seulement", "Si pauvres"],
+    "bonne_reponse": 0,
+    "explication": "Protection universelle."
+  },
+  {
+    "id": 233,
+    "categorie": "Vivre dans la société française",
+    "question": "Avortement possible ?",
+    "options": ["Non", "Oui (IVG)", "Si danger médical", "Accord père"],
+    "bonne_reponse": 1,
+    "explication": "Loi Veil."
+  },
+  {
+    "id": 234,
+    "categorie": "Vivre dans la société française",
+    "question": "Travail non déclaré :",
+    "options": ["Légal petits métiers", "Délit", "Tolérance", "Période essai"],
+    "bonne_reponse": 1,
+    "explication": "Travail dissimulé."
+  },
+  {
+    "id": 235,
+    "categorie": "Vivre dans la société française",
+    "question": "SMIC :",
+    "options": ["Médical", "Salaire min légal", "Syndicat", "Société"],
+    "bonne_reponse": 1,
+    "explication": "Revenu minimum."
+  },
+  {
+    "id": 236,
+    "categorie": "Vivre dans la société française",
+    "question": "Chercher emploi :",
+    "options": ["France Travail/CV", "Préfecture", "Attendre", "Taxe mairie"],
+    "bonne_reponse": 0,
+    "explication": "Démarche proactive."
+  },
+  {
+    "id": 237,
+    "categorie": "Vivre dans la société française",
+    "question": "Temps travail :",
+    "options": ["30h", "35h", "39h", "40h"],
+    "bonne_reponse": 1,
+    "explication": "Durée légale."
+  },
+  {
+    "id": 238,
+    "categorie": "Vivre dans la société française",
+    "question": "Congé parental :",
+    "options": ["Mère", "Père", "Salarié 1 an", "Grands-parents"],
+    "bonne_reponse": 2,
+    "explication": "Mixité parentale."
+  },
+  {
+    "id": 239,
+    "categorie": "Vivre dans la société française",
+    "question": "Étranger entrepreneur :",
+    "options": ["Interdit", "Si titre séjour autorisant", "Si marié Français", "Bâtiment"],
+    "bonne_reponse": 1,
+    "explication": "Liberté d'entreprendre."
+  },
+  {
+    "id": 240,
+    "categorie": "Vivre dans la société française",
+    "question": "Femme entrepreneur :",
+    "options": ["Oui libre", "Interdit", "Accord mari", "Mode/Beauté"],
+    "bonne_reponse": 0,
+    "explication": "Égalité droits."
+  },
+  {
+    "id": 241,
+    "categorie": "Vivre dans la société française",
+    "question": "Règles au travail :",
+    "options": ["Code civil", "Code travail/Convention/Contrat", "Règlement mairie", "DDHC"],
+    "bonne_reponse": 1,
+    "explication": "Encadrement légal."
+  },
+  {
+    "id": 242,
+    "categorie": "Vivre dans la société française",
+    "question": "Prud'hommes :",
+    "options": ["Commerçants", "Litiges individuels travail", "Routier", "Divorces"],
+    "bonne_reponse": 1,
+    "explication": "Justice paritaire."
+  },
+  {
+    "id": 243,
+    "categorie": "Vivre dans la société française",
+    "question": "Se syndiquer :",
+    "options": ["Tout travailleur", "Public seulement", "Français seulement", "Délégués"],
+    "bonne_reponse": 0,
+    "explication": "Droit constitutionnel."
+  },
+  {
+    "id": 244,
+    "categorie": "Vivre dans la société française",
+    "question": "Licencier femme enceinte ?",
+    "options": ["Si absente", "Si pas moyens", "Non protection absolue", "Si 3e enfant"],
+    "bonne_reponse": 2,
+    "explication": "Protection maternité."
+  },
+  {
+    "id": 245,
+    "categorie": "Vivre dans la société française",
+    "question": "Instruction obligatoire :",
+    "options": ["3 à 16 ans", "6 à 14 ans", "3 à 18 ans", "6 à 18 ans"],
+    "bonne_reponse": 0,
+    "explication": "Droit fondamental."
+  },
+  {
+    "id": 246,
+    "categorie": "Vivre dans la société française",
+    "question": "Sanction refus instruction :",
+    "options": ["Avertissement", "Perte allocs", "6 mois/7500€", "Expulsion"],
+    "bonne_reponse": 2,
+    "explication": "Délit pénal."
+  },
+  {
+    "id": 247,
+    "categorie": "Vivre dans la société française",
+    "question": "Autorité parentale :",
+    "options": ["Punir physique", "Père décide", "Intérêt enfant/Protéger", "Choisir métier"],
+    "bonne_reponse": 2,
+    "explication": "Protection mineur."
+  },
+  {
+    "id": 248,
+    "categorie": "Vivre dans la société française",
+    "question": "Motif absence accepté :",
+    "options": ["Vacances", "Grasse mat", "Maladie/Événement grave", "Anniversaire"],
+    "bonne_reponse": 2,
+    "explication": "Assiduité scolaire."
+  },
+  {
+    "id": 249,
+    "categorie": "Vivre dans la société française",
+    "question": "Âge école obligatoire :",
+    "options": ["14 ans", "16 ans", "18 ans", "Pas obligatoire"],
+    "bonne_reponse": 1,
+    "explication": "Instruction socle."
+  },
+  {
+    "id": 250,
+    "categorie": "Vivre dans la société française",
+    "question": "Instruction dès :",
+    "options": ["2 ans", "3 ans", "6 ans", "7 ans"],
+    "bonne_reponse": 1,
+    "explication": "Depuis 2019."
+  },
+  {
+    "id": 251,
+    "categorie": "Vivre dans la société française",
+    "question": "Après élémentaire :",
+    "options": ["Lycée", "Université", "Collège", "Maternelle"],
+    "bonne_reponse": 2,
+    "explication": "Cycle secondaire."
+  },
+  {
+    "id": 252,
+    "categorie": "Vivre dans la société française",
+    "question": "Parent d'élève droit :",
+    "options": ["Voter représentants", "Choisir programme", "Entrer classe", "Punir enfants"],
+    "bonne_reponse": 0,
+    "explication": "Co-éducation."
+  },
+  {
+    "id": 253,
+    "categorie": "Vivre dans la société française",
+    "question": "Enfant ne parlant pas français :",
+    "options": ["Pas école", "Dispositifs UPE2A", "Cours particuliers", "Écoles étrangers"],
+    "bonne_reponse": 1,
+    "explication": "Inclusion scolaire."
+  },
+  {
+    "id": 254,
+    "categorie": "Vivre dans la société française",
+    "question": "Enfant handicapé :",
+    "options": ["École inclusive", "Hôpitaux", "Pas obligatoire", "Plus cher"],
+    "bonne_reponse": 0,
+    "explication": "Loi 2005."
+  },
+  {
+    "id": 255,
+    "categorie": "Vivre dans la société française",
+    "question": "Congé paternité :",
+    "options": ["3 jours", "14 jours", "28 jours", "3 mois"],
+    "bonne_reponse": 2,
+    "explication": "Réforme 2021."
+  },
+  {
+    "id": 256,
+    "categorie": "Vivre dans la société française",
+    "question": "Punition physique :",
+    "options": ["Oui", "Main seulement", "Interdit", "Si +10 ans"],
+    "bonne_reponse": 2,
+    "explication": "Loi 2019 anti-fessée."
+  },
+  {
+    "id": 257,
+    "categorie": "Vivre dans la société française",
+    "question": "Harcèlement scolaire :",
+    "options": ["Rien", "Délit pénal", "Changer école", "Pas police"],
+    "bonne_reponse": 1,
+    "explication": "Protection harcelé."
+  },
+  {
+    "id": 258,
+    "categorie": "Vivre dans la société française",
+    "question": "Harcèlement travail :",
+    "options": ["Démission", "Silence", "Alerte/Plainte", "Violence"],
+    "bonne_reponse": 2,
+    "explication": "Droits salarié."
+  },
+  {
+    "id": 259,
+    "categorie": "Vivre dans la société française",
+    "question": "Médecine travail :",
+    "options": ["Vérifier simulation", "Prévention santé", "Soigner famille", "Remplacer traitant"],
+    "bonne_reponse": 1,
+    "explication": "Santé au travail."
+  },
+  {
+    "id": 260,
+    "categorie": "Vivre dans la société française",
+    "question": "Diplôme lycée :",
+    "options": ["Brevet", "Licence", "Baccalauréat", "Master"],
+    "bonne_reponse": 2,
+    "explication": "Le Bac."
+  }
+]
+
+

@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Kumpletuhin ang liriko ng La Marseillaise: \"Allons enfants de la patrie...\"",
+    "options": ["Le jour de gloire est arrivé ! (Dumating na ang araw ng kaluwalhatian!)", "L'étendard sanglant est levé ! (Ang madugong watawat ay itinaas!)", "Marchons, marchons ! (Tayo'y maglakad, tayo'y maglakad!)", "Contre nous de la tyrannie (Laban sa atin mula sa kalupitan)"],
+    "bonne_reponse": 0,
+    "explication": "Ang pariralang sumusunod agad sa \"Allons enfants de la patrie\" ay \"Le jour de gloire est arrivé !\"."
+  },
+  {
+    "id": 2,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa isang panayam sa trabaho (job interview), ano ang maaaring itanong sa kandidato?",
+    "options": ["Ang kanyang mga pampulitika at relihiyosong opinyon", "Ang kanyang karanasan sa trabaho at mga diploma", "Ang kanyang estado ng kalusugan o medikal na kasaysayan", "Ang kanyang intensyon na magkaroon ng mga anak sa lalong madaling panahon"],
+    "bonne_reponse": 1,
+    "explication": "Mahigpit na ipinagbabawal ng batas ang pagtatanong tungkol sa pribadong buhay sa panahon ng isang panayam."
+  },
+  {
+    "id": 3,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang pagdedeklara ng iyong kita sa mga awtoridad sa buwis ay:",
+    "options": ["Opsyonal kung kumikita ng minimum wage (SMIC)", "Sapilitan lamang para sa mga mamamayang Pranses", "Sapilitan para sa lahat ng residente sa France", "Nakalaan para sa mga may-ari ng bahay"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagdedeklara ng kita ay isang taunang obligasyon para sa sinumang naninirahan sa France."
+  },
+  {
+    "id": 4,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa France, ang mga buwis ay ginagamit upang pondohan ang mga pampublikong gastusin. Aling pahayag ang tama?",
+    "options": ["Nakalaan lamang ito para sa mga ministro", "Malaya ang bawat isa na pumili kung magbabayad", "Ibinabalik ang mga ito sa mga bangko", "Ginagamit ang mga ito upang pondohan ang mga paaralan, ospital, pulisya, at mga kalsada"],
+    "bonne_reponse": 3,
+    "explication": "Pinopondohan ng buwis ang mga mahahalagang serbisyo publiko para sa ikabubuti ng lahat."
+  },
+  {
+    "id": 5,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang kalayaan sa pagbuo ng samahan (freedom of association) ay:",
+    "options": ["Ang karapatang malayang lumikha, sumali, o umalis sa isang samahan", "Ang obligasyong magboluntaryo", "Isang espesyal na pahintulot mula sa alkalde (mayor)", "Ang karapatang lumikha ng negosyong walang buwis"],
+    "bonne_reponse": 0,
+    "explication": "Ginagarantiyahan ng batas ng 1901, pinapayagan nito ang mga tao na mag-grupo nang walang paunang pahintulot."
+  },
+  {
+    "id": 6,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang kalayaan sa pagpapahayag sa social media sa France ay:",
+    "options": ["Ganap at walang limitasyon", "Limitado ng batas (paninirang-puri, pagkamuhi)", "Ipinagbabawal para sa pulitika", "Nakalaan para sa mga mamamahayag (journalists)"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga pang-iinsulto at pag-uudyok ng pagkamuhi ay mga pagkakasala na maaaring maparusahan."
+  },
+  {
+    "id": 7,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Alin sa mga pangalang ito ang nagpapaalala sa isang simbolo ng Republika?",
+    "options": ["Jeanne", "Joséphine", "Marianne", "Marguerite"],
+    "bonne_reponse": 2,
+    "explication": "Si Marianne ay ang simbolikong pigura na nagpapakita ng Republika ng Pransya."
+  },
+  {
+    "id": 8,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Alin sa mga simbolong ito ang kumakatawan sa Republika ng Pransya?",
+    "options": ["Ang fleur de lys (liryo)", "Ang tricolor na watawat", "Ang imperial eagle", "Ang krus ng Lorraine"],
+    "bonne_reponse": 1,
+    "explication": "Ang asul-puti-pulang watawat ay ang pambansang sagisag na tinukoy ng Konstitusyon."
+  },
+  {
+    "id": 9,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Saan makikita ang motto ng Republika?",
+    "options": ["Sa mga pampublikong gusali", "Sa mga simbahan", "Sa lahat ng euro banknotes", "Sa Élysée lamang"],
+    "bonne_reponse": 0,
+    "explication": "Ang motto ay nakasulat sa harapan ng mga munisipyo, paaralan, at korte."
+  },
+  {
+    "id": 10,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Alin ang mga opisyal na simbolo ng Republika ng Pransya?",
+    "options": ["Ang tandang at ang baguette", "Ang Eiffel Tower at ang Louvre", "Ang watawat, pambansang awit, at ang motto", "Ang Pangulo at ang Parlamento"],
+    "bonne_reponse": 2,
+    "explication": "Tinutukoy ng Artikulo 2 ng Konstitusyon ang mga opisyal na simbolo ng France."
+  },
+  {
+    "id": 11,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Maaari bang sunugin sa publiko ang watawat ng France?",
+    "options": ["Oo, ito ay kalayaan sa pagpapahayag", "Hindi, ito ay isang paglabag na pinarurusahan ng batas", "Oo, kung ito ay luma na", "Sa mga demonstrasyon lamang"],
+    "bonne_reponse": 1,
+    "explication": "Ang paglapastangan sa tricolor na watawat ay pinarurusahan ng multang 1,500 €."
+  },
+  {
+    "id": 12,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Kailan itinatag ang social security sa France?",
+    "options": ["1789", "1905", "1958", "1945"],
+    "bonne_reponse": 3,
+    "explication": "Ang Social Security ay nilikha noong 1945 pagkatapos ng Ikalawang Digmaang Pandaigdig."
+  },
+  {
+    "id": 13,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ginugunita ng pambansang araw (National Holiday)?",
+    "options": ["Nobyembre 11, 1918", "Ang pagsilang ng 5th Republic", "Ang pagbagsak ng Bastille (1789)", "Ang pag-abolish ng pang-aalipin"],
+    "bonne_reponse": 2,
+    "explication": "Ang Hulyo 14 ay gumugunita sa 1789 at sa Fête de la Fédération ng 1790."
+  },
+  {
+    "id": 14,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang suot ni Marianne sa kanyang ulo?",
+    "options": ["Isang korona", "Isang helmet", "Isang tiara", "Isang Phrygian cap"],
+    "bonne_reponse": 3,
+    "explication": "Ang Phrygian cap ay sumisimbolo sa kalayaang nakamit ng mga pinalayang alipin."
+  },
+  {
+    "id": 15,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ibig sabihin ng salitang \"fraternité\" (kapatiran) sa motto ng France?",
+    "options": ["Pagkakaisa sa pagitan ng mga mamamayan", "Biyolohikal na pamilya", "Pagbabahagi ng tirahan", "Pagkakapantay-pantay ng sahod"],
+    "bonne_reponse": 0,
+    "explication": "Kinakatawan ng kapatiran ang pagpaparaya at pagtutulungan sa pagitan ng lahat ng miyembro ng lipunan."
+  },
+  {
+    "id": 16,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong simbolo ang makikita sa mga jersey ng national football team ng France?",
+    "options": ["Ang fleur de lys", "Ang Gallic rooster (tandang)", "Ang Phrygian cap", "Ang Marianne"],
+    "bonne_reponse": 1,
+    "explication": "Ang Gallic rooster ay isang tanyag na simbolo ng palakasan ng France."
+  },
+  {
+    "id": 17,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang motto ng Republika ng Pransya?",
+    "options": ["Kapayapaan at Trabaho", "Kalayaan, Pagkakapantay-pantay, Kapatiran", "Pagkakaisa at Pagtutulungan", "Kaayusan at Pag-unlad"],
+    "bonne_reponse": 1,
+    "explication": "Minana mula sa Rebolusyon, ang motto na ito ay nakasulat sa Konstitusyon."
+  },
+  {
+    "id": 18,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kalayaan sa pagbuo ng samahan?",
+    "options": ["Paglikha ng kumpanya", "Pagsali sa isang unyon", "Malayang pagsali sa isang grupo ng mga tao", "Ang kasunduan ng alkalde"],
+    "bonne_reponse": 2,
+    "explication": "Pinapayagan nito ang malayang pagpapangkat-pangkat para sa isang karaniwang proyekto (batas 1901)."
+  },
+  {
+    "id": 19,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang kalayaan?",
+    "options": ["Gawin kung ano ang gusto nang walang mga batas", "Gawin ang lahat ng hindi makakasama sa iba", "Ipagpilitan ang sariling mga opinyon", "Ang kawalan ng pamahalaan"],
+    "bonne_reponse": 3,
+    "explication": "Ang indibidwal na kalayaan ay nalilimitahan ng paggalang sa mga karapatan ng iba."
+  },
+  {
+    "id": 20,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ayon sa Konstitusyon, ang France ay isang Republika na...",
+    "options": ["Liberal at nagkakaisa", "Hindi mahahati, sekular, demokratiko at panlipunan", "Soberanya at kapatiran", "Parliamentaryo"],
+    "bonne_reponse": 1,
+    "explication": "Ito ang opisyal na kahulugan ng Estado na ibinigay ng Artikulo 1 ng Konstitusyon."
+  },
+  {
+    "id": 21,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa anong dokumento makikita si Marianne?",
+    "options": ["Ang pasaporte", "Ang lisensya", "Mga selyo sa koreo (postage stamps)", "Ang Carte Vitale"],
+    "bonne_reponse": 2,
+    "explication": "Karaniwang inilalarawan ni Marianne ang mga pang-araw-araw na selyo sa koreo."
+  },
+  {
+    "id": 22,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ibig sabihin ng Pagkakapantay-pantay sa motto?",
+    "options": ["Parehong sahod para sa lahat", "Parehong trabaho para sa lahat", "Ang batas ay pareho para sa lahat", "Ang mga mayayaman ang nagbabayad ng lahat"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagkakapantay-pantay ay nangangahulugan na ang lahat ng mamamayan ay may parehong mga karapatan at tungkulin sa harap ng batas."
+  },
+  {
+    "id": 23,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Maaari ka bang malayang magbago ng relihiyon sa France?",
+    "options": ["Oo, ito ay isang ganap na karapatan", "Hindi, pananatilihin mo ang sa iyong mga magulang", "Oo, na may kasunduan ng munisipyo", "Para lamang sa Katolisismo"],
+    "bonne_reponse": 0,
+    "explication": "Ang kalayaan sa budhi ay kinabibilangan ng karapatang baguhin ang pananampalataya o ang walang pananampalataya."
+  },
+  {
+    "id": 24,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ibig sabihin ng neutralidad ng Estado (sekularismo / laïcité)?",
+    "options": ["Ipagbawal ang mga relihiyon", "Pumili ng mga pari", "Tratuhin ang lahat ng mamamayan nang pantay-pantay", "Pondohan ang lahat ng kulto"],
+    "bonne_reponse": 2,
+    "explication": "Ang Estado ay hindi pumapabor sa anumang relihiyon at tinitiyak ang pantay na pagtrato."
+  },
+  {
+    "id": 25,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang maaaring gawin ng isang gumagamit sa isang munisipyo?",
+    "options": ["Hilingin ang isang ahente na kapareho niya ng relihiyon", "Hilingin na huwag makakita ng babae", "Manalangin sa publiko", "Magsot ng nakikitang simbolo ng relihiyon"],
+    "bonne_reponse": 3,
+    "explication": "Malaya ang gumagamit na ipahayag ang kanyang pananampalataya, hindi tulad ng mga pampublikong opisyal."
+  },
+  {
+    "id": 26,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa France, maaaring pondohan ng Estado ang:",
+    "options": ["Mga bagong mosque", "Sahod ng mga imam", "Pagpapanatili ng mga simbahan bago ang 1905", "Mga peregrinasyon (pilgrimages)"],
+    "bonne_reponse": 2,
+    "explication": "Pinapanatili ng Estado ang mga relihiyosong gusali na naging pag-aari nito noong 1905."
+  },
+  {
+    "id": 27,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong taon naipasa ang batas ng paghihiwalay (separation law)?",
+    "options": ["1789", "1881", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "Ang batas ng 1905 ay nagmamarka ng pagtatapos ng Concordat at nagtatag ng sekularismo."
+  },
+  {
+    "id": 28,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang sinasabi ng batas ng 1905?",
+    "options": ["Ipagbawal ang relihiyon", "Bayaran ang mga pari", "Ang opisyal na relihiyon", "Tiyakin ang kalayaan sa budhi"],
+    "bonne_reponse": 3,
+    "explication": "Inihihiwalay nito ang mga Simbahan sa Estado at ginagarantiyahan ang kalayaan sa pagsamba."
+  },
+  {
+    "id": 29,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang ginagarantiyahan ng prinsipyo ng sekularismo?",
+    "options": ["Maging ateista sa trabaho", "Ang pagkakapantay-pantay ng lahat sa harap ng batas", "Higit pang mga pampublikong pista opisyal", "Tanggihan ang mga agham"],
+    "bonne_reponse": 2,
+    "explication": "Tinitiyak ng sekularismo na ang relihiyon ay hindi lumilikha ng anumang pribilehiyo o diskriminasyon."
+  },
+  {
+    "id": 30,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong araw ipinagdiriwang ang sekularismo (laïcité)?",
+    "options": ["Mayo 1", "Hulyo 14", "Disyembre 9", "Nobyembre 11"],
+    "bonne_reponse": 2,
+    "explication": "Ang Disyembre 9 ay ang anibersaryo ng batas ng 1905."
+  },
+  {
+    "id": 31,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong relihiyosong simbolo ang maaaring isaalang-alang sa mga pampublikong paaralan?",
+    "options": ["Isang malaking krus", "Isang kippah", "Walang kapansin-pansing simbolo", "Isang belo"],
+    "bonne_reponse": 2,
+    "explication": "Ipinagbabawal ng batas ng 2004 ang mga nakikitang simbolo ng relihiyon para sa mga mag-aaral."
+  },
+  {
+    "id": 32,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Anong termino ang tumutukoy sa pagkamuhi laban sa mga Hudyo?",
+    "options": ["Rasismo", "Antisemitismo", "Homophobia", "Sexismo"],
+    "bonne_reponse": 1,
+    "explication": "Ang Antisemitismo ay isang tiyak na pagkakasala na kinondena ng batas."
+  },
+  {
+    "id": 33,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang founding text ng sekularismo?",
+    "options": ["DDHC 1789", "Civil Code 1804", "Batas ng 1905", "Konstitusyon ng 1958"],
+    "bonne_reponse": 2,
+    "explication": "Ang batas ng 1905 ay ang pangunahing haligi ng sekularismong Pranses."
+  },
+  {
+    "id": 34,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Aling institusyon ang dapat manatiling neutral?",
+    "options": ["Pribadong kumpanya", "Estado at pampublikong serbisyo", "Mga sports club", "Mga partidong pampulitika"],
+    "bonne_reponse": 1,
+    "explication": "Dapat tratuhin ng administrasyon ang lahat nang walang kinikilingan."
+  },
+  {
+    "id": 35,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ano ang sekularismo (laïcité)?",
+    "options": ["Ipagbawal ang mga relihiyon", "Obligasyong maniwala", "Paghihiwalay ng Estado/Relihiyon", "Pagpopondo sa mga kulto"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang balangkas ng kalayaan at pagkakapantay-pantay para sa lahat ng mamamayan."
+  },
+  {
+    "id": 36,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sa paaralan, ang charter of secularism ay nagbibigay-daan sa:",
+    "options": ["Ipaalala ang mga patakaran at paghahalo ng kasarian", "Ipagbawal ang mga pinagmulan", "Pahintulutan ang mga panalangin", "Baguhin ang mga menu"],
+    "bonne_reponse": 0,
+    "explication": "Ipinapaliwanag nito kung paano ginagarantiyahan ng neutralidad ang isang mapayapang kapaligiran sa pag-aaral."
+  },
+  {
+    "id": 37,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Sino ang dapat igalang ang neutralidad sa mga pampublikong serbisyo?",
+    "options": ["Ang mga gumagamit", "Mga ahente (civil servants)", "Ang alkalde lamang", "Wala"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga empleyado ng Estado ay hindi dapat magpakita ng anumang relihiyosong pag-aanib."
+  },
+  {
+    "id": 38,
+    "categorie": "Mga Prinsipyo at Pagpapahalaga ng Republika",
+    "question": "Ang isang tao na hindi naniniwala sa anumang diyos ay itinuturing na:",
+    "options": ["Sekular", "Agnostiko", "Ateista", "Antiklerikal"],
+    "bonne_reponse": 2,
+    "explication": "Ang ateismo ay ang katotohanan ng hindi paniniwala sa anumang diyos."
+  },
+  {
+    "id": 39,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Paano itinatalaga ang Punong Ministro?",
+    "options": ["Direktang pagboto", "Itinatalaga ng Pangulo", "Inihalal ng mga kinatawan (MPs)", "Hinugot mula sa palabunutan"],
+    "bonne_reponse": 1,
+    "explication": "Pinipili ng Pangulo ang Punong Ministro ayon sa mayorya sa Asembleya."
+  },
+  {
+    "id": 40,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang maaaring kumandidato sa pagkapangulo?",
+    "options": ["Pang-adultong Pranses na may 500 sponsorship", "Residente ng 10 taon", "Dating ministro", "Mamamayang Europeo"],
+    "bonne_reponse": 0,
+    "explication": "Dapat ay isang mamamayang Pranses at may suporta mula sa mga lokal na inihalal na opisyal."
+  },
+  {
+    "id": 41,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kanino nabibilang ang pambansang soberanya?",
+    "options": ["Sa Pangulo", "Sa Parlamento", "Sa bayan", "Sa Constitutional Council"],
+    "bonne_reponse": 2,
+    "explication": "Ginagamit ito ng mga tao sa pamamagitan ng kanilang mga kinatawan o referendum."
+  },
+  {
+    "id": 42,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang inihahalal sa mga lokal na halalan (municipals)?",
+    "options": ["Ang prefek (prefect)", "Ang mga kinatawan", "Ang mga tagapayo ng munisipyo", "Ang Regional President"],
+    "bonne_reponse": 2,
+    "explication": "Pinipili ng mga mamamayan ang konseho na pagkatapos ay pipili ng alkalde."
+  },
+  {
+    "id": 43,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang pagpaparehistro sa mga electoral roll ay:",
+    "options": ["May bayad", "Opsyonal", "Awtomatiko para sa mga dayuhan", "Sapilitan upang makaboto"],
+    "bonne_reponse": 3,
+    "explication": "Kailangan mong magparehistro sa munisipyo upang magamit ang iyong karapatang bumoto."
+  },
+  {
+    "id": 44,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kondisyon upang makaboto sa presidential election:",
+    "options": ["Magbayad ng buwis", "Pranses, nasa hustong gulang, nakarehistro", "Mayroong CDI (permanent contract)", "Ipinanganak sa France"],
+    "bonne_reponse": 1,
+    "explication": "Ang pambansang pagboto ay nakalaan para sa mga nasa hustong gulang na mamamayang Pranses."
+  },
+  {
+    "id": 45,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kondisyon upang maging kandidato sa municipal elections:",
+    "options": ["Mamamayang Pranses o Europeo na naninirahan, nasa hustong gulang", "Kinakailangang may-ari ng bahay", "Dapat ay 25 taong gulang", "Itinalaga ng prefek"],
+    "bonne_reponse": 0,
+    "explication": "Ang mga municipal election ay bukas sa mga residenteng mamamayan ng EU."
+  },
+  {
+    "id": 46,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Alin sa mga awtoridad na ito ang inihalal?",
+    "options": ["Ang prefek", "Ang ministro", "Ang tagausig", "Ang alkalde"],
+    "bonne_reponse": 3,
+    "explication": "Ang alkalde ay isang lokal na inihalal na opisyal na nagreresulta mula sa hindi direktang pangkalahatang pagboto."
+  },
+  {
+    "id": 47,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Mga tungkulin ng alkalde:",
+    "options": ["Bumoto sa mga batas", "Pamahalaan ang munisipyo at civil status", "Hukuman ang mga pagkakasala", "Pangunahan ang hukbo"],
+    "bonne_reponse": 1,
+    "explication": "Pinamamahalaan ng alkalde ang lungsod at nagdiriwang ng mga kasal."
+  },
+  {
+    "id": 48,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang maaaring kumandidato sa pagkapangulo?",
+    "options": ["Tanging mga nakatataas na opisyal ng gobyerno", "Mga mamamayang Europeo", "Sinumang karapat-dapat na mamamayang Pranses", "Mga dayuhan na nagbabayad ng buwis"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang halalan na inilaan para sa mga mamamayang may nasyonalidad na Pranses."
+  },
+  {
+    "id": 49,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Saan magpaparehistro sa mga listahan ng elektoral nang walang internet?",
+    "options": ["Presinto ng pulisya", "Prefecture", "Munisipyo (Town hall)", "Post office"],
+    "bonne_reponse": 2,
+    "explication": "Ang pagpaparehistro ay ginagawa sa civil status service ng inyong munisipyo."
+  },
+  {
+    "id": 50,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sa anong edad ka nagiging botante?",
+    "options": ["16 taong gulang", "18 taong gulang", "21 taong gulang", "25 taong gulang"],
+    "bonne_reponse": 1,
+    "explication": "Ang edad ng pagboto ay itinakda sa 18 mula noong 1974."
+  },
+  {
+    "id": 51,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang pagboto ba ay sapilitan?",
+    "options": ["Oo, sa ilalim ng multa", "Hindi, ito ay isang moral na karapatan at tungkulin", "Oo sa halalang pampanguluhan", "Tanging mga civil servants"],
+    "bonne_reponse": 1,
+    "explication": "Ang batas ay hindi nag-aatas na bumoto, hindi katulad ng ibang bansa."
+  },
+  {
+    "id": 52,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Karapatang hindi igalang ang batas?",
+    "options": ["Kung hindi makatarungan", "Hindi, ang kamangmangan sa batas ay hindi dahilan", "May kasunduan ng alkalde", "Kung mayaman"],
+    "bonne_reponse": 1,
+    "explication": "Nalalapat ang batas sa lahat sa isang estado ng batas (rule of law)."
+  },
+  {
+    "id": 53,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Paano itinatalaga ang mga kinatawan (Deputies)?",
+    "options": ["Itinatalaga ng Pangulo", "Hinugot sa palabunutan", "Inihalal ng direktang pagboto", "Itinatalaga ng mga hukom"],
+    "bonne_reponse": 2,
+    "explication": "Ang 577 kinatawan ay inihalal sa panahon ng pambatasan na halalan (legislative elections)."
+  },
+  {
+    "id": 54,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang bumoboto sa mga batas?",
+    "options": ["Ang Pangulo", "Ang Pamahalaan", "Ang Parlamento", "Constitutional Council"],
+    "bonne_reponse": 2,
+    "explication": "Ang kapangyarihang lehislatibo ay pag-aari ng National Assembly at ng Senado."
+  },
+  {
+    "id": 55,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ang tatlong kapangyarihan ay:",
+    "options": ["Pampulitika, Ekonomiya, Media", "Lehislatibo, Ehekutibo, Hudisyal", "Nasyonal, Rehiyonal, Lokal", "Sibil, Penal, Administratibo"],
+    "bonne_reponse": 1,
+    "explication": "Ang paghihiwalay ng mga kapangyarihan ay nag-iwas sa konsentrasyon ng awtoridad."
+  },
+  {
+    "id": 56,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Ano ang rule of law (État de droit)?",
+    "options": ["Bansa na walang batas", "Estado na napapailalim sa batas", "Diktadurya", "Pinamamahalaan ng mga hukom"],
+    "bonne_reponse": 1,
+    "explication": "Ang mga pampublikong awtoridad mismo ay dapat na igalang ang mga patakaran."
+  },
+  {
+    "id": 57,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Haba ng termino ng alkalde:",
+    "options": ["4 na taon", "5 taon", "6 na taon", "7 taon"],
+    "bonne_reponse": 2,
+    "explication": "Ang mandato sa munisipyo ay tumatagal ng anim na taon."
+  },
+  {
+    "id": 58,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang inihalal sa pambatasan na halalan (legislative)?",
+    "options": ["Senador", "Alkalde", "Kinatawan (Deputies)", "Regional councilors"],
+    "bonne_reponse": 2,
+    "explication": "Ang mga halalang pambatasan ay ginagamit upang bumuo ng National Assembly."
+  },
+  {
+    "id": 59,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Haba ng termino ng Pangulo:",
+    "options": ["4 na taon", "5 taon", "6 na taon", "7 taon"],
+    "bonne_reponse": 1,
+    "explication": "Ang Pangulo ay inihalal para sa limang taon (quinquennat)."
+  },
+  {
+    "id": 60,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Haba ng termino ng mga kinatawan:",
+    "options": ["4 na taon", "5 taon", "6 na taon", "7 taon"],
+    "bonne_reponse": 1,
+    "explication": "Ang Assembly ay nire-renew kada limang taon."
+  },
+  {
+    "id": 61,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Haba ng termino ng mga senador:",
+    "options": ["4 na taon", "5 taon", "6 na taon", "7 taon"],
+    "bonne_reponse": 2,
+    "explication": "Sila ay inihahalal para sa 6 na taon ng mga 'grands électeurs'."
+  },
+  {
+    "id": 62,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang nagdidirekta ng aksyon ng gobyerno?",
+    "options": ["Ang Pangulo", "Ang Punong Ministro", "Pangulo ng Assembly", "Constitutional Council"],
+    "bonne_reponse": 1,
+    "explication": "Pinag-uugnay ng Punong Ministro ang pangkat ng ministeryo."
+  },
+  {
+    "id": 63,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pagsali sa isang partido:",
+    "options": ["Ipinagbabawal", "Tanging mga inihalal na opisyal", "Garantisadong karapatan", "Kailangan ng kasunduan ng prefecture"],
+    "bonne_reponse": 2,
+    "explication": "Malaya ang lahat na sumuporta o sumali sa isang partidong pampulitika."
+  },
+  {
+    "id": 64,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang nagpaparusa sa isang pagnanakaw?",
+    "options": ["Pulis", "Biktima", "Alkalde", "Awturidad na hudisyal"],
+    "bonne_reponse": 3,
+    "explication": "Ang isang hukom lamang ang maaaring magkumpirma matapos ang imbestigasyon."
+  },
+  {
+    "id": 65,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang namamahala sa middle schools (collèges)?",
+    "options": ["Munisipyo", "Departamento", "Rehiyon", "Estado"],
+    "bonne_reponse": 1,
+    "explication": "Ang middle schools ay responsibilidad ng Departmental Council."
+  },
+  {
+    "id": 66,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang namamahala sa primary schools?",
+    "options": ["Munisipyo", "Departamento", "Rehiyon", "Estado"],
+    "bonne_reponse": 0,
+    "explication": "Pinapanatili ng town hall ang mga lugar at pinamamahalaan ang mga pagpaparehistro."
+  },
+  {
+    "id": 67,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pagtatalaga sa mga alkalde:",
+    "options": ["Itinalaga ng prefek", "Direktang pagboto", "Inihalal ng municipal council", "Hinugot sa palabunutan"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang di-tuwirang halalan sa loob ng munisipyo."
+  },
+  {
+    "id": 68,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Responsable para sa mga TER (regional trains):",
+    "options": ["Munisipyo", "Departamento", "Rehiyon", "Ministeryo"],
+    "bonne_reponse": 2,
+    "explication": "Isinasaayos ng rehiyon ang transportasyon ng tren sa rehiyon."
+  },
+  {
+    "id": 69,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pagbabago ng Konstitusyon:",
+    "options": ["Desisyon ng Pangulo", "Simpleng mayorya", "Referendum", "Petisyon"],
+    "bonne_reponse": 2,
+    "explication": "Maaaring baguhin ng mga tao o ng Kongreso ang pinakamataas na teksto."
+  },
+  {
+    "id": 70,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Interim na Pangulo:",
+    "options": ["Punong Ministro", "Pangulo ng Senado", "Pangulo ng Assembly", "Constitutional Council"],
+    "bonne_reponse": 1,
+    "explication": "Sa kaso ng bakante, tinitiyak ng Senado ang paglipat."
+  },
+  {
+    "id": 71,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Tungkulin ng Constitutional Council:",
+    "options": ["Bumoto sa mga batas", "Hukuman ang mga kriminal", "Patunayan ang pagsunod sa Konstitusyon", "Pamunuan ang hukbo"],
+    "bonne_reponse": 2,
+    "explication": "Tinitiyak ng mga 'Sages' na ang batas ay alinsunod sa mga karapatan."
+  },
+  {
+    "id": 72,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kondisyon sa pagkapangulo:",
+    "options": ["Kasal", "Serbisyo militar", "Nasyonalidad na Pranses", "Magbayad ng 5000€"],
+    "bonne_reponse": 2,
+    "explication": "Kailangan mong maging mamamayang Pranses upang tumakbo para sa Élysée."
+  },
+  {
+    "id": 73,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Bilang ng mga departamento:",
+    "options": ["13", "50", "101", "348"],
+    "bonne_reponse": 2,
+    "explication": "Mayroong 101 departamento sa kabuuan (96 + 5 overseas)."
+  },
+  {
+    "id": 74,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Administratibong organisasyon:",
+    "options": ["Federated states", "Cantons", "Munisipyo, Departamento, Rehiyon", "Mga Metropolises"],
+    "bonne_reponse": 2,
+    "explication": "Ito ang tatlong antas ng desentralisasyon."
+  },
+  {
+    "id": 75,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kumakatawan sa Estado sa departamento:",
+    "options": ["Ang Prefek (Préfet)", "Ang Alkalde", "Ang Deputy", "Ang Departmental President"],
+    "bonne_reponse": 0,
+    "explication": "Ginagarantiyahan ng prefek ang kaayusan at awtoridad ng Estado sa lokal."
+  },
+  {
+    "id": 76,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Tungkulin ng Pangulo:",
+    "options": ["Pamahalaan ang mga ospital", "Pinuno ng Estado/Armadong Lakas/Konstitusyon", "Hukuman ang mga mamamayan", "Mga lokal na buwis"],
+    "bonne_reponse": 1,
+    "explication": "Ang Pangulo ay may pinakamataas na sovereign functions."
+  },
+  {
+    "id": 77,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Tungkulin ng Punong Ministro:",
+    "options": ["Pamunuan ang gobyerno/Ipatupad ang mga batas", "Pamunuan ang Assembly", "Magdeklara ng digmaan", "UN"],
+    "bonne_reponse": 0,
+    "explication": "Siya ang operational head ng ehekutibo."
+  },
+  {
+    "id": 78,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Tungkulin ng Tagapagtanggol ng mga Karapatan (Défenseur des droits):",
+    "options": ["Ipagtanggol ang Estado", "Libreng mga abogado", "Protektahan ang mga kalayaan/Diskriminasyon", "Palitan ang pulisya"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang independiyente at libreng awtoridad na administratibo."
+  },
+  {
+    "id": 79,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pagkamamamayan sa Europa (European citizenship):",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Itinatag ng Treaty of Maastricht."
+  },
+  {
+    "id": 80,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Huling Estado ng EU noong 2013:",
+    "options": ["Romania", "Croatia", "Poland", "Ukraine"],
+    "bonne_reponse": 1,
+    "explication": "Ang Croatia ay ang ika-28 miyembro (bago ang Brexit)."
+  },
+  {
+    "id": 81,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Kompositor ng anthem ng EU:",
+    "options": ["Mozart", "Chopin", "Beethoven", "Debussy"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang arrangement ng 9th symphony."
+  },
+  {
+    "id": 82,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Araw ng Europa (Europe Day):",
+    "options": ["Mayo 1", "Mayo 8", "Mayo 9", "Hulyo 14"],
+    "bonne_reponse": 2,
+    "explication": "Pagpupugay sa Schuman Declaration ng 1950."
+  },
+  {
+    "id": 83,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Headquarters ng ECB:",
+    "options": ["Paris", "Brussels", "Frankfurt", "Geneva"],
+    "bonne_reponse": 2,
+    "explication": "Matatagpuan ang sentral na bangko sa Germany."
+  },
+  {
+    "id": 84,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Headquarters ng European Commission:",
+    "options": ["Strasbourg", "Brussels", "Luxembourg", "Berlin"],
+    "bonne_reponse": 1,
+    "explication": "Ang puso ng European executive ay nasa Belgium."
+  },
+  {
+    "id": 85,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang nakaupo sa European Parliament?",
+    "options": ["Mga Pangulo", "Mga Hukom", "Mga inihalal na MEPs", "Militar"],
+    "bonne_reponse": 2,
+    "explication": "Kinakatawan ng mga MEP (Deputies) ang mga mamamayan."
+  },
+  {
+    "id": 86,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pagboto sa lokal ng mga Europeo:",
+    "options": ["Ipinagbabawal", "Kung kasal", "Lokal/European elections", "Presidential election"],
+    "bonne_reponse": 2,
+    "explication": "Ang isang mamamayan ng EU ay maaaring bumoto nang lokal sa France."
+  },
+  {
+    "id": 87,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Bilang ng mga Estado ng EU sa 2025:",
+    "options": ["15", "27", "35", "50"],
+    "bonne_reponse": 1,
+    "explication": "Ang EU ay mayroong 27 miyembro mula noong pag-alis ng UK."
+  },
+  {
+    "id": 88,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Treaty of Maastricht:",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Itinatag nito ang European Union tulad ng alam natin."
+  },
+  {
+    "id": 89,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Treaty para sa pagtatayo ng EU:",
+    "options": ["Versailles", "Maastricht", "Paris", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Ang Maastricht ang reference text para sa Union."
+  },
+  {
+    "id": 90,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Pag-alis mula sa EU noong 2020:",
+    "options": ["Switzerland", "Iceland", "United Kingdom", "Norway"],
+    "bonne_reponse": 2,
+    "explication": "Naging epektibo ang Brexit noong Enero 2020."
+  },
+  {
+    "id": 91,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Motto ng EU:",
+    "options": ["Nagkakaisa sa pagkakaiba-iba", "Kalayaan...", "Ang pagkakaisa ay lakas", "Kapayapaan..."],
+    "bonne_reponse": 0,
+    "explication": "Ito ang opisyal na motto ng Union."
+  },
+  {
+    "id": 92,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Anthem ng EU:",
+    "options": ["Marseillaise", "Ode to Joy", "Hymne à l'amour", "Chant des Partisans"],
+    "bonne_reponse": 1,
+    "explication": "Ang himig ay kinuha mula kay Beethoven."
+  },
+  {
+    "id": 93,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "European flag:",
+    "options": ["Puteng krus", "12 gintong bituin", "27 bituin", "Itim na agila"],
+    "bonne_reponse": 1,
+    "explication": "Ang 12 bituin ay bumubuo ng isang bilog."
+  },
+  {
+    "id": 94,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Sino ang naghahalal sa mga Miyembro ng European Parliament?",
+    "options": ["Mga Pangulo", "Mga Senador", "Mga Mamamayan", "Komisyon"],
+    "bonne_reponse": 2,
+    "explication": "Ang mga halalan ay ginaganap tuwing 5 taon."
+  },
+  {
+    "id": 95,
+    "categorie": "Sistemang Institusyonal at Politikal",
+    "question": "Headquarters ng European Parliament:",
+    "options": ["Strasbourg", "Brussels", "Berlin", "Luxembourg"],
+    "bonne_reponse": 0,
+    "explication": "Naka-base ang Parlamento sa Alsace."
+  },
+  {
+    "id": 96,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Karapatang mag-strike (Droit de grève):",
+    "options": ["Mas maraming bakasyon", "Ipagtanggol ang mga kahilingan", "Sirain ang kagamitan", "Walang buwis"],
+    "bonne_reponse": 1,
+    "explication": "Ito ay isang sama-samang paghinto sa pagtatrabaho."
+  },
+  {
+    "id": 97,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Paghihigpit ng mga karapatan:",
+    "options": ["Kaayusan/Seguridad/Kalusugan", "Pang-ekonomiya lamang", "Paboran ang Pranses", "Kaginhawaan ng mga ministro"],
+    "bonne_reponse": 0,
+    "explication": "Maaaring limitahan ng Estado ang mga kalayaan para sa pangkalahatang interes."
+  },
+  {
+    "id": 98,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sipi mula sa DDHC 1789 (Deklarasyon ng mga Karapatan ng Tao at ng Mamamayan):",
+    "options": ["Ako ang Estado", "Ang mga tao ay ipinanganak na malaya at pantay", "Motto", "Pagkakaiba-iba"],
+    "bonne_reponse": 1,
+    "explication": "Ito ang Artikulo 1 ng Deklarasyon."
+  },
+  {
+    "id": 99,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Artikulo 4 DDHC kalayaan:",
+    "options": ["Labagin ang batas", "Humihinto kung saan nagsisimula ang sa iba", "Hindi pinarurusahan", "Walang panuntunan"],
+    "bonne_reponse": 1,
+    "explication": "Ang kalayaan ay nagpapahiwatig ng hindi pananakit sa iba."
+  },
+  {
+    "id": 100,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Artikulo 1 Konstitusyon:",
+    "options": ["Imperyo", "Relihiyong Katoliko", "Hindi nahahati/sekular/demokratiko/sosyal na Republika", "Monarkiya"],
+    "bonne_reponse": 2,
+    "explication": "Ito ang batayang teksto ng Fifth Republic."
+  },
+  {
+    "id": 101,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Kalayaan sa pamamahayag (Freedom of the press):",
+    "options": ["Mga libreng pahayagan", "Walang censorship", "Magsinungaling", "Suportahan ang pamahalaan"],
+    "bonne_reponse": 1,
+    "explication": "Batas 1881 sa kalayaan sa pagpapalaganap."
+  },
+  {
+    "id": 102,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Kalayaan sa paggalaw (Freedom of movement):",
+    "options": ["Walang tiket", "Walang lisensya", "Sa bahay ng iba", "Pambansang teritoryo"],
+    "bonne_reponse": 3,
+    "explication": "Pangunahing karapatan na pumunta at umalis."
+  },
+  {
+    "id": 103,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ang pagiging mamamayan:",
+    "options": ["Nobilidad", "Miyembro ng bansa/Mga Karapatan/Tungkulin", "Walang buwis", "Pumili ng mga batas"],
+    "bonne_reponse": 1,
+    "explication": "Ligal at pampulitikang ugnayan sa Estado."
+  },
+  {
+    "id": 104,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pangunahing mga karapatan:",
+    "options": ["Para sa mga lalaki lamang", "Garantisado ng Konstitusyon", "Para sa mayayaman lamang", "Kalakalan sa EU"],
+    "bonne_reponse": 1,
+    "explication": "Hindi maiaalis na karapatan ng tao."
+  },
+  {
+    "id": 105,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Arbitraryong pag-aresto:",
+    "options": ["Karapatan sa kaligtasan", "Karapatan sa imahe", "Karapatan sa pabahay", "Kalayaan sa unyon"],
+    "bonne_reponse": 0,
+    "explication": "Pinoprotektahan laban sa mga mapang-abusong pag-aresto."
+  },
+  {
+    "id": 106,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Teksto para sa mga karapatan/tungkulin:",
+    "options": ["Batas trapiko", "Regulasyon ng EU", "DDHC (Deklarasyon)", "UN Charter"],
+    "bonne_reponse": 2,
+    "explication": "Ang 1789 DDHC ang pamantayan."
+  },
+  {
+    "id": 107,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tekstong 'ipinanganak na malaya/pantay':",
+    "options": ["Penal Code", "DDHC", "Rome", "Civil"],
+    "bonne_reponse": 1,
+    "explication": "Sikat na sipi mula sa Artikulo 1."
+  },
+  {
+    "id": 108,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pag-atake sa dignidad:",
+    "options": ["Pila sa paghihintay", "Pag-aalipin/Pagpapahirap (Torture)", "Buwis", "35 oras na trabaho"],
+    "bonne_reponse": 1,
+    "explication": "Pagbabawal sa hindi makataong pagtrato."
+  },
+  {
+    "id": 109,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Kalayaan sa pagpapahayag:",
+    "options": ["Respetuhin ang batas", "Mga panlalait", "Mga pagbabanta", "Pagsisinungaling sa pulis"],
+    "bonne_reponse": 0,
+    "explication": "Karapatang magpahayag ng sarili nang hindi nananakit."
+  },
+  {
+    "id": 110,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pagkatapos ng pag-aresto:",
+    "options": ["Tumakas", "Manakit", "Manahimik/Abogado", "Pekeng pagkakakilanlan"],
+    "bonne_reponse": 2,
+    "explication": "Mga karapatan sa kustodiya ng pulisya (garde à vue)."
+  },
+  {
+    "id": 111,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sapilitan ba ang relihiyon?",
+    "options": ["Oo", "Hindi, sekularismo (laïcité)", "Oo Katoliko", "Oo ngunit nakatago"],
+    "bonne_reponse": 1,
+    "explication": "Karapatang maniwala o hindi maniwala."
+  },
+  {
+    "id": 112,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Digital na mayorya (edad):",
+    "options": ["10 taon", "13 taon", "15 taon", "18 taon"],
+    "bonne_reponse": 2,
+    "explication": "Edad ng pagpapahintulot para sa data online."
+  },
+  {
+    "id": 113,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pinapayagang manigarilyo sa:",
+    "options": ["Ospital", "Restawran", "Paaralan", "Sa bahay"],
+    "bonne_reponse": 3,
+    "explication": "Batas Évin sa mga pampublikong lugar."
+  },
+  {
+    "id": 114,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pagmamaneho ng motorsiklo nang walang lisensya:",
+    "options": ["Paglabag sa batas (Offense)", "35€", "Maikling biyahe", "Motorsiklo ng kaibigan"],
+    "bonne_reponse": 0,
+    "explication": "Ito ay isang panganib sa penal at seguridad."
+  },
+  {
+    "id": 115,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tungkulin ng pagkakaisa (solidarity):",
+    "options": ["Buwis/Pampublikong serbisyo", "Bigyan ng pera ang mga kapitbahay", "Pagpapatuloy sa mga walang bahay", "Magtrabaho ng libre"],
+    "bonne_reponse": 0,
+    "explication": "Kontribusyon sa panlipunang proteksyon."
+  },
+  {
+    "id": 116,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Multiple marriage (poligamya):",
+    "options": ["Oo", "Hindi, ipinagbabawal ang poligamya", "Kung napagkasunduan", "Kung dayuhan"],
+    "bonne_reponse": 1,
+    "explication": "Ipinag-uutos ng batas ang monogamya."
+  },
+  {
+    "id": 117,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sapilitan ba ang pagdedeklara ng buwis?",
+    "options": ["Hindi", "Kung mayaman", "Oo lahat ng residente", "Kung Pranses"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang taunang pormalidad para sa lahat."
+  },
+  {
+    "id": 118,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pagbibigay ng tulong:",
+    "options": ["Sapilitan", "Huwag pansinin", "Kung doktor", "Kung pamilya"],
+    "bonne_reponse": 0,
+    "explication": "Tulong sa taong nasa panganib."
+  },
+  {
+    "id": 119,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Hurado sa Assize Court:",
+    "options": ["Trabaho", "Tungkuling pansibiko", "Mga Abogado", "Boluntaryo"],
+    "bonne_reponse": 1,
+    "explication": "Paglahok ng mamamayan sa hustisya."
+  },
+  {
+    "id": 120,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ipinagbabawal ang pagbebenta ng alak:",
+    "options": ["14 taon", "16 taon", "18 taon", "21 taon"],
+    "bonne_reponse": 2,
+    "explication": "Proteksyon ng mga menor de edad."
+  },
+  {
+    "id": 121,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Upang makakuha ng CNI (National ID Card):",
+    "options": ["100€", "Nasyonalidad na Pranses", "Nasa hustong gulang", "Ipinanganak sa France"],
+    "bonne_reponse": 1,
+    "explication": "Patunay ng pagkamamamayang Pranses."
+  },
+  {
+    "id": 122,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Ipinatawag bilang hurado ng Assize Court:",
+    "options": ["Tanggihan", "Magbayad ng buwis", "Obligasyong humarap", "Nag-aral ng batas"],
+    "bonne_reponse": 2,
+    "explication": "Ito ay isang atas mula sa Estado (requisition)."
+  },
+  {
+    "id": 123,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sibil na mayorya (edad):",
+    "options": ["16", "18", "21", "25"],
+    "bonne_reponse": 1,
+    "explication": "Edad ng buong legal na kapasidad."
+  },
+  {
+    "id": 124,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pangunahing tungkulin:",
+    "options": ["Serbisyo militar", "Bumoto", "Respetuhin ang batas/Buwis", "Unyon"],
+    "bonne_reponse": 2,
+    "explication": "Batayan ng social contract."
+  },
+  {
+    "id": 125,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Digital na pagkamamamayan:",
+    "options": ["Libreng computer", "Pagboto sa internet", "Social networks", "Mga Karapatan/Tungkulin sa Web"],
+    "bonne_reponse": 3,
+    "explication": "Responsableng pag-uugali online."
+  },
+  {
+    "id": 126,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Tungkulin sa pag-alala (Duty of remembrance):",
+    "options": ["Alamin ang lahat", "Alalahanin ang mga trahedya", "Burahin ang kahihiyan", "Buwis para sa mga monumento"],
+    "bonne_reponse": 1,
+    "explication": "Ihatid ang kasaysayan para sa kinabukasan."
+  },
+  {
+    "id": 127,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Sino ang maaaring maging hurado sa Assize Court:",
+    "options": ["Mga Hukom", "Pranses na 23 taong gulang na marunong bumasa't sumulat", "Pulis", "Mga Estudyante"],
+    "bonne_reponse": 1,
+    "explication": "Mga kondisyon ng random drawing."
+  },
+  {
+    "id": 128,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Inalisan ng mga karapatang sibil:",
+    "options": ["Mawawalan ng nasyonalidad", "Paaalisin (Expelled)", "Hindi makakaboto o makakakandidato", "Hindi makakapagtrabaho"],
+    "bonne_reponse": 2,
+    "explication": "Penal na parusa sa civic indignity."
+  },
+  {
+    "id": 129,
+    "categorie": "Mga Karapatan at Tungkulin",
+    "question": "Pag-aalis ng mga karapatang sibil para sa:",
+    "options": ["Maling pag-parking", "Terorismo/Korapsyon", "Sobrang bilis", "Basurahan"],
+    "bonne_reponse": 1,
+    "explication": "Mga parusa para sa mga malalang gawain."
+  },
+  {
+    "id": 130,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Tekstong pinagtibay sa ilalim ni Napoleon:",
+    "options": ["DDHC", "Civil Code (1804)", "Batas ng 1905", "Pag-abolish"],
+    "bonne_reponse": 1,
+    "explication": "Pagsasama-sama (Unification) ng batas Pranses."
+  },
+  {
+    "id": 131,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Unang Pangulo ng 5th Republic:",
+    "options": ["Clemenceau", "Napoleon", "De Gaulle", "Jaurès"],
+    "bonne_reponse": 2,
+    "explication": "Tagapagtatag ng kasalukuyang rehimen."
+  },
+  {
+    "id": 132,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Layunin ng mga batas ni Ferry:",
+    "options": ["May bayad", "Relihiyoso", "Libre/Sekular/Sapilitan", "Walang mga babae"],
+    "bonne_reponse": 2,
+    "explication": "Pundasyon ng Republican school."
+  },
+  {
+    "id": 133,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Hulyo 14:",
+    "options": ["Pambansang araw (National Holiday)", "Pagtatapos ng 1945", "Pagsilang ng Republika", "Halalan"],
+    "bonne_reponse": 0,
+    "explication": "Pagbagsak ng Bastille noong 1789."
+  },
+  {
+    "id": 134,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kahalagahan ng 1958:",
+    "options": ["Rebolusyon", "Pagtatapos ng 1918", "Konstitusyon ng 5th Republic", "Euro"],
+    "bonne_reponse": 2,
+    "explication": "Simula ng kasalukuyang sistema."
+  },
+  {
+    "id": 135,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Bansang tagapagtatag ng EU:",
+    "options": ["UK", "Switzerland", "Spain", "France"],
+    "bonne_reponse": 3,
+    "explication": "Isa sa 6 na orihinal na bansa."
+  },
+  {
+    "id": 136,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Simone Veil:",
+    "options": ["Batas ng aborsyon 1975", "Karapatang bumoto 1944", "Pangulo", "DDHC ng kababaihan"],
+    "bonne_reponse": 0,
+    "explication": "Paglaban para sa karapatan ng kababaihan."
+  },
+  {
+    "id": 137,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mga dalampasigan ng D-Day (Landing beaches):",
+    "options": ["Provence", "Brittany", "Normandy", "Occitanie"],
+    "bonne_reponse": 2,
+    "explication": "Hunyo 6, 1944."
+  },
+  {
+    "id": 138,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Lungsod ng koronasyon ng mga hari:",
+    "options": ["Paris", "Versailles", "Orléans", "Reims"],
+    "bonne_reponse": 3,
+    "explication": "Lungsod ng mga koronasyon."
+  },
+  {
+    "id": 139,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Haring binitay sa guillotine:",
+    "options": ["Louis XIV", "Henry IV", "Louis XVI", "Charles X"],
+    "bonne_reponse": 2,
+    "explication": "Pinatay noong 1793."
+  },
+  {
+    "id": 140,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Simula ng Rebolusyon:",
+    "options": ["1789", "1804", "1914", "1958"],
+    "bonne_reponse": 0,
+    "explication": "Pagbagsak ng absolute monarchy."
+  },
+  {
+    "id": 141,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Napoleon bilang Emperador:",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Koronasyon sa Notre-Dame."
+  },
+  {
+    "id": 142,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ugnayan sa Republika:",
+    "options": ["Charlemagne", "Caesar", "Joan of Arc", "Marianne"],
+    "bonne_reponse": 3,
+    "explication": "Alegorya ng Republika."
+  },
+  {
+    "id": 143,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ang Panawagan ni De Gaulle:",
+    "options": ["Hulyo 14", "Nob 11", "Hunyo 18, 1940", "Mayo 8"],
+    "bonne_reponse": 2,
+    "explication": "Panawagan sa Resistance."
+  },
+  {
+    "id": 144,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Shoah:",
+    "options": ["Labanan", "Partido", "Panawagan", "Genocide ng mga Hudyo"],
+    "bonne_reponse": 3,
+    "explication": "Holocaust noong 39-45."
+  },
+  {
+    "id": 145,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kolonya ng Pransya:",
+    "options": ["Brazil", "Australia", "Algeria", "India"],
+    "bonne_reponse": 2,
+    "explication": "Kalayaan noong 1962."
+  },
+  {
+    "id": 146,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Libre/sekular/sapilitang paaralan:",
+    "options": ["Hugo", "Napoleon", "Ferry", "De Gaulle"],
+    "bonne_reponse": 2,
+    "explication": "Ama ng pampublikong paaralan."
+  },
+  {
+    "id": 147,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pangulo sa pamamagitan ng direktang pagboto:",
+    "options": ["1789", "1944", "1962", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Repormang Gaullian."
+  },
+  {
+    "id": 148,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pagtatatag ng EU:",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Treaty of Maastricht."
+  },
+  {
+    "id": 149,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ikalawang Digmaang Pandaigdig:",
+    "options": ["14-18", "70-71", "54-62", "39-45"],
+    "bonne_reponse": 3,
+    "explication": "Pandaigdigang tunggalian laban sa Nazism."
+  },
+  {
+    "id": 150,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Unang Digmaang Pandaigdig:",
+    "options": ["70-71", "39-45", "14-18", "54-62"],
+    "bonne_reponse": 2,
+    "explication": "Ang Dakilang Digmaan (The Great War)."
+  },
+  {
+    "id": 151,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pag-abolish sa parusang kamatayan:",
+    "options": ["De Gaulle", "Giscard", "Mitterrand", "Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "Robert Badinter noong 1981."
+  },
+  {
+    "id": 152,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mayo 8:",
+    "options": ["Pagtatapos ng Europa 1945", "1918", "Trabaho", "Bastille"],
+    "bonne_reponse": 0,
+    "explication": "Pagsuko ng Germany."
+  },
+  {
+    "id": 153,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Konstruksyon ng EU 1951:",
+    "options": ["Schengen", "Euro", "ECSC", "UN"],
+    "bonne_reponse": 2,
+    "explication": "Uling at Bakal (Coal and Steel)."
+  },
+  {
+    "id": 154,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pigura ng Resistance:",
+    "options": ["Jean Moulin", "Pétain", "Louis XVI", "Napoleon III"],
+    "bonne_reponse": 0,
+    "explication": "Sakripisyong bayani."
+  },
+  {
+    "id": 155,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Nobyembre 11:",
+    "options": ["1944", "5th Rep", "1918", "Pag-abolish"],
+    "bonne_reponse": 2,
+    "explication": "Armistice ng Great War."
+  },
+  {
+    "id": 156,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pag-abolish sa pang-aalipin:",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Pangwakas na pag-aalis sa ilalim ng 2nd Rep."
+  },
+  {
+    "id": 157,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Sino ang nag-abolish ng pang-aalipin:",
+    "options": ["Schœlcher", "Hugo", "Napoleon", "Moulin"],
+    "bonne_reponse": 0,
+    "explication": "Victor Schœlcher."
+  },
+  {
+    "id": 158,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Libreng paaralan:",
+    "options": ["1789", "1881", "1945", "1968"],
+    "bonne_reponse": 1,
+    "explication": "Batas Jules Ferry."
+  },
+  {
+    "id": 159,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "1944 kababaihan:",
+    "options": ["Magtrabaho", "Bangko", "Karapatang bumoto", "Serbisyo militar"],
+    "bonne_reponse": 2,
+    "explication": "Pagkuha ng pampulitikang pagkamamamayan."
+  },
+  {
+    "id": 160,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Organisasyon ng 1945:",
+    "options": ["EU", "UN", "NATO", "Red Cross"],
+    "bonne_reponse": 1,
+    "explication": "Mga Nagkakaisang Bansa (United Nations) para sa kapayapaan."
+  },
+  {
+    "id": 161,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Euro na pera:",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Pagdating ng cash."
+  },
+  {
+    "id": 162,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Paglaya ng Paris:",
+    "options": ["Hunyo 1940", "Agosto 1944", "Mayo 1945", "Nob 1918"],
+    "bonne_reponse": 1,
+    "explication": "Leclerc Division."
+  },
+  {
+    "id": 163,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Daungan ng pang-aalipin ika-18 siglo:",
+    "options": ["Marseille", "Brest", "Nantes", "Le Havre"],
+    "bonne_reponse": 2,
+    "explication": "Unang daungan ng kalakalan ng alipin."
+  },
+  {
+    "id": 164,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Panahon ng Paliwanag (Enlightenment) laban sa pang-aalipin:",
+    "options": ["Descartes", "Voltaire", "Hugo", "Zola"],
+    "bonne_reponse": 1,
+    "explication": "May-akda ng Candide."
+  },
+  {
+    "id": 165,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Victor Hugo:",
+    "options": ["Three Musketeers", "Bovary", "Les Misérables", "Little Prince"],
+    "bonne_reponse": 2,
+    "explication": "Sina Jean Valjean at Cosette."
+  },
+  {
+    "id": 166,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pintor na Pranses:",
+    "options": ["Picasso", "Da Vinci", "Van Gogh", "Monet"],
+    "bonne_reponse": 3,
+    "explication": "Ama ng Impresyonismo."
+  },
+  {
+    "id": 167,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Culinary specialty:",
+    "options": ["Paella", "Beef bourguignon", "Pizza", "Couscous"],
+    "bonne_reponse": 1,
+    "explication": "Tradisyonal na ulam."
+  },
+  {
+    "id": 168,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Marie Curie:",
+    "options": ["Reyna", "Siyentipiko 2 Nobels", "Manunulat", "Resistance fighter"],
+    "bonne_reponse": 1,
+    "explication": "Radioactivity."
+  },
+  {
+    "id": 169,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kalayaan na Nangunguna sa mga Tao (Liberty Leading the People):",
+    "options": ["Monet", "Delacroix", "Renoir", "Cézanne"],
+    "bonne_reponse": 1,
+    "explication": "Pinta mula 1830."
+  },
+  {
+    "id": 170,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Museo ng Mona Lisa:",
+    "options": ["Orsay", "Pompidou", "Louvre", "Grévin"],
+    "bonne_reponse": 2,
+    "explication": "Dating palasyo ng hari."
+  },
+  {
+    "id": 171,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kastilyo ni Louis XIV:",
+    "options": ["Chambord", "Versailles", "Fontainebleau", "Chenonceau"],
+    "bonne_reponse": 1,
+    "explication": "Simbolo ng absolutismo."
+  },
+  {
+    "id": 172,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Prehistoric paintings:",
+    "options": ["Catacombs", "Mont Blanc", "Arenas", "Lascaux"],
+    "bonne_reponse": 3,
+    "explication": "Kuweba sa Dordogne."
+  },
+  {
+    "id": 173,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Water Lilies (Nymphéas):",
+    "options": ["Rodin", "Cézanne", "Monet", "Manet"],
+    "bonne_reponse": 2,
+    "explication": "Serye ni Claude Monet."
+  },
+  {
+    "id": 174,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Libreng pamana (Heritage):",
+    "options": ["Musika", "Heritage Days", "Hulyo 14", "Sekularismo"],
+    "bonne_reponse": 1,
+    "explication": "Sa Setyembre."
+  },
+  {
+    "id": 175,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mayo 1:",
+    "options": ["Tagsibol", "Araw ng Paggawa (Labor Day)", "Pagtatapos ng digmaan", "Pambansang araw"],
+    "bonne_reponse": 1,
+    "explication": "Lily of the valley at mga protesta."
+  },
+  {
+    "id": 176,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Rouget de Lisle:",
+    "options": ["Pangulo", "Heneral", "May-akda ng Marseillaise", "Pintor"],
+    "bonne_reponse": 2,
+    "explication": "Kompositor ng anthem."
+  },
+  {
+    "id": 177,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Konstruksyon ng Eiffel Tower:",
+    "options": ["Pagtatapos 14-18", "Expo 1889", "Bisita ng Reyna", "Antenna"],
+    "bonne_reponse": 1,
+    "explication": "Sentenaryo ng Rebolusyon."
+  },
+  {
+    "id": 178,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mga bundok France/Italy:",
+    "options": ["Pyrenees", "Jura", "Alps", "Vosges"],
+    "bonne_reponse": 2,
+    "explication": "Timog-Silangan ng France."
+  },
+  {
+    "id": 179,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Molière:",
+    "options": ["Siyentipiko", "Teatro ika-17 siglo", "Hari", "Musikero"],
+    "bonne_reponse": 1,
+    "explication": "Mga sikat na komedya."
+  },
+  {
+    "id": 180,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Baudelaire:",
+    "options": ["Iskultor", "Pampulitika", "Makata Ang mga Bulaklak ng Kasamaan (Fleurs du mal)", "Explorer"],
+    "bonne_reponse": 2,
+    "explication": "Patula na modernidad."
+  },
+  {
+    "id": 181,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "George Sand:",
+    "options": ["Reyna", "Manunulat ika-19 siglo", "Aktres", "Siyentipiko"],
+    "bonne_reponse": 1,
+    "explication": "Aurore Dupin."
+  },
+  {
+    "id": 182,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Simone de Beauvoir:",
+    "options": ["Napoleon", "Mang-aawit", "Feminist na Pilosopo", "Aviation"],
+    "bonne_reponse": 2,
+    "explication": "Ang Ikalawang Kasarian (The Second Sex)."
+  },
+  {
+    "id": 183,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Albert Camus:",
+    "options": ["Hari", "Pintor", "Manunulat Nobel", "Bakuna"],
+    "bonne_reponse": 2,
+    "explication": "Ang Salot (The Plague)."
+  },
+  {
+    "id": 184,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Marguerite Yourcenar:",
+    "options": ["Resistance fighter", "Unang babae sa Academy", "Kampeon", "Ministro"],
+    "bonne_reponse": 1,
+    "explication": "Inihalal noong 1980."
+  },
+  {
+    "id": 185,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Paul Cézanne:",
+    "options": ["Modern art painter", "Iskultor", "Estado", "Explorer"],
+    "bonne_reponse": 0,
+    "explication": "Aix-en-Provence."
+  },
+  {
+    "id": 186,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Auguste Rodin:",
+    "options": ["Arkitekto", "Makata", "Iskultor Ang Nag-iisip (The Thinker)", "Aktor"],
+    "bonne_reponse": 2,
+    "explication": "Expressionist sculpture."
+  },
+  {
+    "id": 187,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Pranses na kompositor:",
+    "options": ["Mozart", "Debussy", "Beethoven", "Verdi"],
+    "bonne_reponse": 1,
+    "explication": "Impressionist na musika."
+  },
+  {
+    "id": 188,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Auguste Renoir:",
+    "options": ["Doktor", "Heneral", "Impressionist painter", "Eiffel"],
+    "bonne_reponse": 2,
+    "explication": "Mga kulay at liwanag."
+  },
+  {
+    "id": 189,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Museo sa Paris:",
+    "options": ["British", "Orsay", "Hermitage", "Prado"],
+    "bonne_reponse": 1,
+    "explication": "Dating istasyon ng tren."
+  },
+  {
+    "id": 190,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mont-Saint-Michel:",
+    "options": ["Versailles", "Isla sa Normandy", "Strasbourg", "Mga Papa"],
+    "bonne_reponse": 1,
+    "explication": "Kahanga-hangang bagay ng Kanluran."
+  },
+  {
+    "id": 191,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Top 10 Metropolises:",
+    "options": ["Biarritz", "Lyon", "Saint-Malo", "Carcassonne"],
+    "bonne_reponse": 1,
+    "explication": "Ikalawang pinakamalaking lungsod sa France."
+  },
+  {
+    "id": 192,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Isla sa Caribbean (Antilles):",
+    "options": ["Corsica", "Tahiti", "Guadeloupe", "Madagascar"],
+    "bonne_reponse": 2,
+    "explication": "Departamento sa ibayong dagat."
+  },
+  {
+    "id": 193,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Islang Pranses:",
+    "options": ["Sicily", "Corsica", "Mallorca", "Crete"],
+    "bonne_reponse": 1,
+    "explication": "Mediterranean."
+  },
+  {
+    "id": 194,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mataas na bundok:",
+    "options": ["Canigou", "Puy", "Mont Blanc", "Piton"],
+    "bonne_reponse": 2,
+    "explication": "Alps."
+  },
+  {
+    "id": 195,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Isla sa Indian Ocean:",
+    "options": ["Reunion", "Martinique", "New Caledonia", "Saint-Pierre"],
+    "bonne_reponse": 0,
+    "explication": "DROM (Overseas Department at Region)."
+  },
+  {
+    "id": 196,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Hangganan ng Brazil:",
+    "options": ["Guadeloupe", "French Guiana", "Martinique", "Polynesia"],
+    "bonne_reponse": 1,
+    "explication": "Amazonia."
+  },
+  {
+    "id": 197,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ariane rocket:",
+    "options": ["Paris", "Toulouse", "Kourou", "Brest"],
+    "bonne_reponse": 2,
+    "explication": "French Guiana."
+  },
+  {
+    "id": 198,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mga baybayin (Maritime borders) ng metropolis:",
+    "options": ["Pacific", "Atlantic/Manche/Mediterranean", "Red", "Indian"],
+    "bonne_reponse": 1,
+    "explication": "Maramihang mga facades."
+  },
+  {
+    "id": 199,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Dagat France/England:",
+    "options": ["Baltic", "Mediterranean", "English Channel (Manche)", "Caspian"],
+    "bonne_reponse": 2,
+    "explication": "North-West."
+  },
+  {
+    "id": 200,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "DROM Island:",
+    "options": ["Mauritius", "Madagascar", "Haiti", "Martinique"],
+    "bonne_reponse": 3,
+    "explication": "Caribbean (Antilles)."
+  },
+  {
+    "id": 201,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "France sa ibayong dagat (overseas):",
+    "options": ["Embahada", "Sa labas ng Europe", "Mga kapitbahay", "Mga dating kolonya"],
+    "bonne_reponse": 1,
+    "explication": "Mga teritoryo ng Republika."
+  },
+  {
+    "id": 202,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Populasyon sa 2025:",
+    "options": ["45M", "68M", "90M", "120M"],
+    "bonne_reponse": 1,
+    "explication": "Kasalukuyang pagtatantya."
+  },
+  {
+    "id": 203,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Daungan ng dagat:",
+    "options": ["Marseille", "Nice", "Bordeaux", "Nantes"],
+    "bonne_reponse": 0,
+    "explication": "Mediterranean."
+  },
+  {
+    "id": 204,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mga rehiyon sa metropolis:",
+    "options": ["10", "13", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "Simula noong 2016."
+  },
+  {
+    "id": 205,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Mga bundok France/Spain:",
+    "options": ["Jura", "Massif central", "Alps", "Pyrenees"],
+    "bonne_reponse": 3,
+    "explication": "South-West."
+  },
+  {
+    "id": 206,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Isla timog-silangan ng Africa:",
+    "options": ["Martinique", "Corsica", "Reunion", "Tahiti"],
+    "bonne_reponse": 2,
+    "explication": "Indian Ocean."
+  },
+  {
+    "id": 207,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kabisera (Chef-lieu) ng Auvergne-Rhône-Alpes:",
+    "options": ["Grenoble", "Clermont", "Lyon", "Saint-Étienne"],
+    "bonne_reponse": 2,
+    "explication": "Kabisera ng rehiyon."
+  },
+  {
+    "id": 208,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kabisera ng Brittany:",
+    "options": ["Brest", "Rennes", "Quimper", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Ille-et-Vilaine."
+  },
+  {
+    "id": 209,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Kabisera ng PACA:",
+    "options": ["Nice", "Toulon", "Marseille", "Avignon"],
+    "bonne_reponse": 2,
+    "explication": "Bouche-du-Rhône."
+  },
+  {
+    "id": 210,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ika-101 departamento:",
+    "options": ["New Caledonia", "Saint-Barth", "Mayotte", "Wallis"],
+    "bonne_reponse": 2,
+    "explication": "Mula noong 2011."
+  },
+  {
+    "id": 211,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Rehiyon ng ski:",
+    "options": ["Brittany", "Normandy", "Auvergne-Rhône-Alpes", "Île-de-France"],
+    "bonne_reponse": 2,
+    "explication": "Massif ng Alps."
+  },
+  {
+    "id": 212,
+    "categorie": "Kasaysayan, Heograpiya at Kultura",
+    "question": "Ilog sa Paris:",
+    "options": ["Loire", "Seine", "Rhône", "Garonne"],
+    "bonne_reponse": 1,
+    "explication": "Dumaraan sa kabisera."
+  },
+  {
+    "id": 213,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Idineklara ang kapanganakan (Declare birth):",
+    "options": ["Prefecture", "Munisipyo ng lugar ng kapanganakan", "Presinto ng pulisya", "Maternity ward"],
+    "bonne_reponse": 1,
+    "explication": "Serbisyo ng civil status."
+  },
+  {
+    "id": 214,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Aksyon na malayang gawin ng nangungupahan (tenant):",
+    "options": ["Gibain ang load-bearing wall", "I-sublet ang bahay", "Magpinta/magsabit ng frames", "Huwag magbayad ng upa"],
+    "bonne_reponse": 2,
+    "explication": "Pag-aayos nang walang transpormasyon sa istraktura."
+  },
+  {
+    "id": 215,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Legal na kasal:",
+    "options": ["Relihiyoso", "Sibil sa munisipyo", "Abogado", "Notaryo"],
+    "bonne_reponse": 1,
+    "explication": "Ang alkalde lamang ang legal na nag-o-officiate."
+  },
+  {
+    "id": 216,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Lugar ng paradahan para sa may kapansanan:",
+    "options": ["5 minuto", "Ipinagbabawal kung walang kard", "Mga buntis", "Linggo"],
+    "bonne_reponse": 1,
+    "explication": "Multang 135€."
+  },
+  {
+    "id": 217,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sira ang dishwasher:",
+    "options": ["Sa bangketa", "Sa dilaw na basurahan", "Sa kagubatan", "Sa recycling center/Mga malalaking basura (Encombrants)"],
+    "bonne_reponse": 2,
+    "explication": "Proteksyon sa kapaligiran."
+  },
+  {
+    "id": 218,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagdeklara ng anak:",
+    "options": ["Kasal na mga magulang", "Anumang kapanganakan", "Unang anak lamang", "Mga Pranses lamang"],
+    "bonne_reponse": 1,
+    "explication": "Pangkalahatang obligasyon."
+  },
+  {
+    "id": 219,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Deadline ng kapanganakan:",
+    "options": ["5 araw", "Isang Taon", "Bago pumasok sa paaralan", "Sa araw din iyon"],
+    "bonne_reponse": 0,
+    "explication": "Mahigpit na legal na deadline."
+  },
+  {
+    "id": 220,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Tumawag sa pulisya:",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 1,
+    "explication": "Numero para sa emergency."
+  },
+  {
+    "id": 221,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Tumawag sa SAMU (Medikal na emerhensiya):",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 0,
+    "explication": "Medikal na emerhensiya."
+  },
+  {
+    "id": 222,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagpaparehistro sa paaralan:",
+    "options": ["Prefecture", "Munisipyo (Mairie)", "Presinto ng pulis", "Departamento"],
+    "bonne_reponse": 1,
+    "explication": "Serbisyo sa lokal na paaralan."
+  },
+  {
+    "id": 223,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Awtoridad ng magulang pagkatapos ng diborsyo:",
+    "options": ["Ina", "Ama", "Hukom", "Pangalawang magulang (Pareho)"],
+    "bonne_reponse": 3,
+    "explication": "Pagpapanatili ng ugnayan."
+  },
+  {
+    "id": 224,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Tulong sa abogado:",
+    "options": ["APL", "AME", "Legal aid (Aide juridictionnelle)", "RSA"],
+    "bonne_reponse": 2,
+    "explication": "Access sa hustisya."
+  },
+  {
+    "id": 225,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Humiling ng diborsyo:",
+    "options": ["Asawang lalaki", "Asawang babae", "Alinman sa kanila/Pareho", "Alkalde"],
+    "bonne_reponse": 2,
+    "explication": "Pagkakapantay-pantay ng mga mag-asawa."
+  },
+  {
+    "id": 226,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagbabayad para sa kalusugan (reimbursement):",
+    "options": ["CPAM", "Prefecture", "France Travail", "Munisipyo"],
+    "bonne_reponse": 0,
+    "explication": "Social Security (Sécu)."
+  },
+  {
+    "id": 227,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Kontrasepsyon:",
+    "options": ["Ipinagbabawal", "Libre para sa mga kabataan", "Kasunduan ng asawa", "Mga kasal na nasa hustong gulang"],
+    "bonne_reponse": 1,
+    "explication": "Karapatan sa sekswal na kalusugan."
+  },
+  {
+    "id": 228,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagiging kumpidensyal sa kalusugan:",
+    "options": ["File ng pulisya", "Medikal na lihim", "Itago ang sakit", "Karapatan ng employer"],
+    "bonne_reponse": 1,
+    "explication": "Privacy (Pribadong buhay)."
+  },
+  {
+    "id": 229,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Carte Vitale:",
+    "options": ["Reimbursement sa pagpapagamot", "Eroplano", "Buwis", "Europe"],
+    "bonne_reponse": 0,
+    "explication": "Electronic care sheet."
+  },
+  {
+    "id": 230,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Mutual insurance (Mutuelle):",
+    "options": ["Pumapalit sa Sécu", "Kumukumpleto sa Sécu", "Upa", "Libreng doktor"],
+    "bonne_reponse": 1,
+    "explication": "Kumplementaryong bahagi."
+  },
+  {
+    "id": 231,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Third-party payment (Tiers payant):",
+    "options": ["Buwis", "X3", "Walang advance na pagbabayad", "Binabayaran ng 3 beses"],
+    "bonne_reponse": 2,
+    "explication": "Direktang coverage ng gastos."
+  },
+  {
+    "id": 232,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Health insurance:",
+    "options": ["Sapilitan para sa mga residente", "Opsyonal", "Para sa mga Pranses lamang", "Kung mahirap"],
+    "bonne_reponse": 0,
+    "explication": "Pangkalahatang proteksyon (Universal protection)."
+  },
+  {
+    "id": 233,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Posible ba ang aborsyon?",
+    "options": ["Hindi", "Oo (IVG)", "Kung may medikal na panganib", "Kasunduan ng ama"],
+    "bonne_reponse": 1,
+    "explication": "Batas ng Veil (Loi Veil)."
+  },
+  {
+    "id": 234,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Trabaho na hindi dineklara (Undeclared work):",
+    "options": ["Ligal para sa maliliit na trabaho", "Krimen/Paglabag", "Tinatanggap minsan", "Probation period"],
+    "bonne_reponse": 1,
+    "explication": "Nakatagong trabaho (Travail dissimulé)."
+  },
+  {
+    "id": 235,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "SMIC:",
+    "options": ["Medikal", "Legal na minimum na sahod", "Unyon", "Kumpanya"],
+    "bonne_reponse": 1,
+    "explication": "Minimum na kita."
+  },
+  {
+    "id": 236,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Paghahanap ng trabaho:",
+    "options": ["France Travail/CV", "Prefecture", "Maghintay", "Buwis sa munisipyo"],
+    "bonne_reponse": 0,
+    "explication": "Proactive na diskarte."
+  },
+  {
+    "id": 237,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Oras ng trabaho:",
+    "options": ["30h", "35h", "39h", "40h"],
+    "bonne_reponse": 1,
+    "explication": "Ligal na tagal ng oras."
+  },
+  {
+    "id": 238,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Parental leave:",
+    "options": ["Ina", "Ama", "Empleyado ng 1 taon", "Mga lolo at lola"],
+    "bonne_reponse": 2,
+    "explication": "Pagkakaiba-iba ng magulang (Parental mixity)."
+  },
+  {
+    "id": 239,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Dayuhang negosyante:",
+    "options": ["Ipinagbabawal", "Kung pinapayagan ng residence permit", "Kung kasal sa Pranses", "Konstruksyon"],
+    "bonne_reponse": 1,
+    "explication": "Kalayaan sa pagnenegosyo."
+  },
+  {
+    "id": 240,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Babaeng negosyante:",
+    "options": ["Oo malaya", "Ipinagbabawal", "Kasunduan ng asawa", "Fashion/Beauty"],
+    "bonne_reponse": 0,
+    "explication": "Pagkakapantay-pantay ng mga karapatan."
+  },
+  {
+    "id": 241,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Mga panuntunan sa trabaho:",
+    "options": ["Civil Code", "Labor Code/Convention/Contract", "Regulasyon ng munisipyo", "DDHC"],
+    "bonne_reponse": 1,
+    "explication": "Ligal na balangkas."
+  },
+  {
+    "id": 242,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Prud'hommes (Labor Court):",
+    "options": ["Mga mangangalakal", "Mga indibidwal na alitan sa paggawa", "Truck driver", "Mga diborsyo"],
+    "bonne_reponse": 1,
+    "explication": "Katarungan na may parehong bilang ng kinatawan (Parity justice)."
+  },
+  {
+    "id": 243,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagsali sa unyon:",
+    "options": ["Sinumang manggagawa", "Pampubliko lamang", "Pranses lamang", "Mga Delegado"],
+    "bonne_reponse": 0,
+    "explication": "Karapatan ayon sa Konstitusyon."
+  },
+  {
+    "id": 244,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Maaari bang tanggalin sa trabaho ang isang buntis?",
+    "options": ["Kung absent siya", "Kung walang pera", "Hindi, may ganap na proteksyon", "Kung ika-3 anak"],
+    "bonne_reponse": 2,
+    "explication": "Proteksyon sa maternity."
+  },
+  {
+    "id": 245,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Sapilitang pag-aaral:",
+    "options": ["3 hanggang 16 taon", "6 hanggang 14 taon", "3 hanggang 18 taon", "6 hanggang 18 taon"],
+    "bonne_reponse": 0,
+    "explication": "Pangunahing karapatan."
+  },
+  {
+    "id": 246,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Parusa sa pagtanggi sa edukasyon:",
+    "options": ["Babala", "Pagkawala ng allowance", "6 na buwan/7500€", "Deportasyon"],
+    "bonne_reponse": 2,
+    "explication": "Kriminal na pagkakasala."
+  },
+  {
+    "id": 247,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Awtoridad ng magulang:",
+    "options": ["Pisikal na parusa", "Nagpapasya ang ama", "Interes/Protektahan ang bata", "Piliin ang trabaho"],
+    "bonne_reponse": 2,
+    "explication": "Proteksyon ng menor de edad."
+  },
+  {
+    "id": 248,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Tinatanggap na dahilan ng pagliban:",
+    "options": ["Bakasyon", "Pagtulog nang matagal", "Sakit/Malalang pangyayari", "Kaarawan"],
+    "bonne_reponse": 2,
+    "explication": "Pagdalo sa paaralan."
+  },
+  {
+    "id": 249,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Edad na mandatory ang pag-aaral hanggang:",
+    "options": ["14 taon", "16 taon", "18 taon", "Hindi mandatory"],
+    "bonne_reponse": 1,
+    "explication": "Core na pag-aaral."
+  },
+  {
+    "id": 250,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Simula ng pag-aaral sa edad na:",
+    "options": ["2 taon", "3 taon", "6 taon", "7 taon"],
+    "bonne_reponse": 1,
+    "explication": "Mula noong 2019."
+  },
+  {
+    "id": 251,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pagkatapos ng elementarya:",
+    "options": ["High school (Lycée)", "Unibersidad", "Middle school (Collège)", "Kindergarten"],
+    "bonne_reponse": 2,
+    "explication": "Sekundaryang siklo."
+  },
+  {
+    "id": 252,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Karapatan ng magulang ng mag-aaral:",
+    "options": ["Iboto ang mga kinatawan", "Piliin ang programa", "Pumasok sa klase", "Parusahan ang mga bata"],
+    "bonne_reponse": 0,
+    "explication": "Co-education."
+  },
+  {
+    "id": 253,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Batang hindi nagsasalita ng Pranses:",
+    "options": ["Walang paaralan", "Mga suportang UPE2A", "Pribadong aralin", "Mga paaralan para sa mga dayuhan"],
+    "bonne_reponse": 1,
+    "explication": "School inclusion."
+  },
+  {
+    "id": 254,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Batang may kapansanan:",
+    "options": ["Inclusive na paaralan", "Ospital", "Hindi mandatory", "Mas mahal"],
+    "bonne_reponse": 0,
+    "explication": "Batas 2005."
+  },
+  {
+    "id": 255,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Paternity leave:",
+    "options": ["3 araw", "14 araw", "28 araw", "3 buwan"],
+    "bonne_reponse": 2,
+    "explication": "Reporma ng 2021."
+  },
+  {
+    "id": 256,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pisikal na parusa:",
+    "options": ["Oo", "Kamay lamang", "Ipinagbabawal", "Kung +10 taon"],
+    "bonne_reponse": 2,
+    "explication": "Batas ng 2019 laban sa pagpalo."
+  },
+  {
+    "id": 257,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Pambu-bully sa paaralan (School bullying):",
+    "options": ["Wala", "Kriminal na pagkakasala", "Lumipat ng paaralan", "Walang pulis"],
+    "bonne_reponse": 1,
+    "explication": "Proteksyon sa binu-bully."
+  },
+  {
+    "id": 258,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Harassment sa trabaho:",
+    "options": ["Magbitiw", "Manahimik", "Alerto/Reklamo", "Karahasan"],
+    "bonne_reponse": 2,
+    "explication": "Mga karapatan ng empleyado."
+  },
+  {
+    "id": 259,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Occupational medicine:",
+    "options": ["Suriin ang simulation", "Pag-iwas sa kalusugan (Health prevention)", "Gamutin ang pamilya", "Palitan ang doktor"],
+    "bonne_reponse": 1,
+    "explication": "Kalusugan sa trabaho."
+  },
+  {
+    "id": 260,
+    "categorie": "Pamumuhay sa Lipunang Pranses",
+    "question": "Diploma sa high school:",
+    "options": ["Brevet", "Licence", "Baccalauréat", "Master"],
+    "bonne_reponse": 2,
+    "explication": "Ang Bac."
+  }
+]

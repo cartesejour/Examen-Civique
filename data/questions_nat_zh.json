@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "categorie": "共和国的原则与价值观",
+    "question": "补全《马赛曲》的歌词：“Allons enfants de la patrie...” (前进，祖国的儿女们...)",
+    "options": ["Le jour de gloire est arrivé ! (光荣之日已到来！)", "L'étendard sanglant est levé ! (血染的旗帜已升起！)", "Marchons, marchons ! (前进，前进！)", "Contre nous de la tyrannie (专制暴政压迫着我们)"],
+    "bonne_reponse": 0,
+    "explication": "紧跟在“Allons enfants de la patrie”之后的一句是“Le jour de gloire est arrivé !”。"
+  },
+  {
+    "id": 2,
+    "categorie": "共和国的原则与价值观",
+    "question": "在求职面试中，可以问候选人什么？",
+    "options": ["他们的政治和宗教信仰", "他们的工作经验和学历", "他们的健康状况或病史", "他们近期是否有生育计划"],
+    "bonne_reponse": 1,
+    "explication": "法律严格禁止在面试中询问有关私生活的问题。"
+  },
+  {
+    "id": 3,
+    "categorie": "共和国的原则与价值观",
+    "question": "向税务部门申报收入是：",
+    "options": ["如果赚取最低工资 (SMIC) 则是可选的", "仅对法国公民是强制性的", "对所有法国居民都是强制性的", "仅限房主"],
+    "bonne_reponse": 2,
+    "explication": "申报收入是所有居住在法国的人每年的义务。"
+  },
+  {
+    "id": 4,
+    "categorie": "共和国的原则与价值观",
+    "question": "在法国，税收用于资助公共支出。哪项表述是正确的？",
+    "options": ["仅供部长们使用", "每个人都可以自由选择是否缴税", "税款会返还给银行", "用于资助学校、医院、警察和道路"],
+    "bonne_reponse": 3,
+    "explication": "税收资助惠及所有人的基本公共服务。"
+  },
+  {
+    "id": 5,
+    "categorie": "共和国的原则与价值观",
+    "question": "结社自由是指：",
+    "options": ["自由创建、加入或退出协会的权利", "必须做志愿者的义务", "市长的特别许可", "免税创建公司的权利"],
+    "bonne_reponse": 0,
+    "explication": "受1901年法律保障，允许人们无需事先授权即可结社。"
+  },
+  {
+    "id": 6,
+    "categorie": "共和国的原则与价值观",
+    "question": "在法国，社交网络上的言论自由是：",
+    "options": ["完全且没有限制的", "受法律限制的（诽谤、仇恨）", "禁止谈论政治的", "仅限记者的"],
+    "bonne_reponse": 1,
+    "explication": "侮辱和煽动仇恨是会受到制裁的犯罪行为。"
+  },
+  {
+    "id": 7,
+    "categorie": "共和国的原则与价值观",
+    "question": "以下哪个名字会让人联想到共和国的象征？",
+    "options": ["让娜 (Jeanne)", "约瑟芬 (Joséphine)", "玛丽安娜 (Marianne)", "玛格丽特 (Marguerite)"],
+    "bonne_reponse": 2,
+    "explication": "玛丽安娜是体现法兰西共和国的象征性人物。"
+  },
+  {
+    "id": 8,
+    "categorie": "共和国的原则与价值观",
+    "question": "以下哪个标志代表法兰西共和国？",
+    "options": ["百合花", "三色旗", "帝国雄鹰", "洛林十字"],
+    "bonne_reponse": 1,
+    "explication": "蓝白红三色旗是宪法规定的国家象征。"
+  },
+  {
+    "id": 9,
+    "categorie": "共和国的原则与价值观",
+    "question": "在哪里可以看到共和国的格言？",
+    "options": ["在公共建筑上", "在教堂里", "在所有欧元纸币上", "仅在爱丽舍宫"],
+    "bonne_reponse": 0,
+    "explication": "格言刻在市政厅、学校和法院的门面上。"
+  },
+  {
+    "id": 10,
+    "categorie": "共和国的原则与价值观",
+    "question": "哪些是法兰西共和国的官方象征？",
+    "options": ["雄鸡和法棍面包", "埃菲尔铁塔和卢浮宫", "国旗、国歌和格言", "总统和议会"],
+    "bonne_reponse": 2,
+    "explication": "宪法第二条规定了法国的官方象征。"
+  },
+  {
+    "id": 11,
+    "categorie": "共和国的原则与价值观",
+    "question": "可以公开焚烧法国国旗吗？",
+    "options": ["可以，这是言论自由", "不可以，这是应受法律惩罚的犯罪行为", "可以，如果国旗很旧", "仅在游行示威时可以"],
+    "bonne_reponse": 1,
+    "explication": "侮辱三色旗将被处以1,500欧元的罚款。"
+  },
+  {
+    "id": 12,
+    "categorie": "共和国的原则与价值观",
+    "question": "法国的社会保障制度是何时建立的？",
+    "options": ["1789年", "1905年", "1958年", "1945年"],
+    "bonne_reponse": 3,
+    "explication": "社会保障制度创建于1945年第二次世界大战之后。"
+  },
+  {
+    "id": 13,
+    "categorie": "共和国的原则与价值观",
+    "question": "国庆节纪念什么？",
+    "options": ["1918年11月11日", "第五共和国的诞生", "攻占巴士底狱 (1789年)", "废除奴隶制"],
+    "bonne_reponse": 2,
+    "explication": "7月14日纪念1789年的事件和1790年的联盟节。"
+  },
+  {
+    "id": 14,
+    "categorie": "共和国的原则与价值观",
+    "question": "玛丽安娜头上戴着什么？",
+    "options": ["王冠", "头盔", "冕状头饰", "弗里吉亚帽"],
+    "bonne_reponse": 3,
+    "explication": "弗里吉亚帽象征着被解放的奴隶获得的自由。"
+  },
+  {
+    "id": 15,
+    "categorie": "共和国的原则与价值观",
+    "question": "法国格言中的“博爱 (fraternité)”是什么意思？",
+    "options": ["公民之间的团结", "生物学上的家庭", "共享住房", "工资平等"],
+    "bonne_reponse": 0,
+    "explication": "博爱代表了社会所有成员之间的宽容和互助。"
+  },
+  {
+    "id": 16,
+    "categorie": "共和国的原则与价值观",
+    "question": "在法国国家足球队的球衣上可以看到什么标志？",
+    "options": ["百合花", "高卢雄鸡", "弗里吉亚帽", "玛丽安娜"],
+    "bonne_reponse": 1,
+    "explication": "高卢雄鸡是法国广受欢迎的体育象征。"
+  },
+  {
+    "id": 17,
+    "categorie": "共和国的原则与价值观",
+    "question": "法兰西共和国的格言是什么？",
+    "options": ["和平与劳动", "自由、平等、博爱", "团结与统一", "秩序与进步"],
+    "bonne_reponse": 1,
+    "explication": "这句格言继承自法国大革命，并被写入宪法。"
+  },
+  {
+    "id": 18,
+    "categorie": "共和国的原则与价值观",
+    "question": "什么是结社自由？",
+    "options": ["创建公司", "加入工会", "自由加入一个群体", "市长的同意"],
+    "bonne_reponse": 2,
+    "explication": "它允许人们为了一个共同的项目自由结社（1901年法律）。"
+  },
+  {
+    "id": 19,
+    "categorie": "共和国的原则与价值观",
+    "question": "什么是自由？",
+    "options": ["无视法律随心所欲", "做任何不伤害他人的事情", "强加自己的意见", "没有政府"],
+    "bonne_reponse": 3,
+    "explication": "个人自由受到尊重他人权利的限制。"
+  },
+  {
+    "id": 20,
+    "categorie": "共和国的原则与价值观",
+    "question": "根据宪法，法国是一个……的共和国",
+    "options": ["自由和团结的", "不可分割的、世俗的、民主的和社会的", "拥有主权和博爱的", "议会制的"],
+    "bonne_reponse": 1,
+    "explication": "这是宪法第一条给出的国家官方定义。"
+  },
+  {
+    "id": 21,
+    "categorie": "共和国的原则与价值观",
+    "question": "在什么文件上可以看到玛丽安娜？",
+    "options": ["护照", "驾照", "邮票", "医保卡 (Carte Vitale)"],
+    "bonne_reponse": 2,
+    "explication": "玛丽安娜传统上被用作日常邮票的插图。"
+  },
+  {
+    "id": 22,
+    "categorie": "共和国的原则与价值观",
+    "question": "格言中的“平等”意味着什么？",
+    "options": ["所有人同工同酬", "所有人从事相同的职业", "法律面前人人平等", "富人支付一切"],
+    "bonne_reponse": 2,
+    "explication": "平等意味着所有公民在法律面前享有相同的权利和义务。"
+  },
+  {
+    "id": 23,
+    "categorie": "共和国的原则与价值观",
+    "question": "在法国可以自由改变宗教信仰吗？",
+    "options": ["可以，这是一项绝对权利", "不可以，必须保持父母的宗教", "可以，经市政厅同意", "仅限改为天主教"],
+    "bonne_reponse": 0,
+    "explication": "良知自由包括改变信仰或不信仰任何宗教的权利。"
+  },
+  {
+    "id": 24,
+    "categorie": "共和国的原则与价值观",
+    "question": "国家中立（世俗主义/Laïcité）意味着什么？",
+    "options": ["禁止宗教", "挑选神父", "平等对待所有公民", "资助所有宗教"],
+    "bonne_reponse": 2,
+    "explication": "国家不偏袒任何宗教，并确保平等待遇。"
+  },
+  {
+    "id": 25,
+    "categorie": "共和国的原则与价值观",
+    "question": "用户在市政厅可以做什么？",
+    "options": ["要求由与其同宗教的办事员接待", "要求不接待女性", "公开祈祷", "佩戴可见的宗教标志"],
+    "bonne_reponse": 3,
+    "explication": "与公职人员不同，用户可以自由表达其信仰。"
+  },
+  {
+    "id": 26,
+    "categorie": "共和国的原则与价值观",
+    "question": "在法国，国家可以资助：",
+    "options": ["新建清真寺", "伊玛目的工资", "维护1905年以前的教堂", "朝圣活动"],
+    "bonne_reponse": 2,
+    "explication": "国家负责维护其在1905年成为所有者的宗教建筑。"
+  },
+  {
+    "id": 27,
+    "categorie": "共和国的原则与价值观",
+    "question": "政教分离法是哪一年通过的？",
+    "options": ["1789年", "1881年", "1905年", "1958年"],
+    "bonne_reponse": 2,
+    "explication": "1905年法律标志着教务专约的结束并确立了世俗主义。"
+  },
+  {
+    "id": 28,
+    "categorie": "共和国的原则与价值观",
+    "question": "1905年法律规定了什么？",
+    "options": ["禁止宗教", "向神父支付工资", "确立官方宗教", "保障良知自由"],
+    "bonne_reponse": 3,
+    "explication": "它将教会与国家分离，并保障宗教信仰自由。"
+  },
+  {
+    "id": 29,
+    "categorie": "共和国的原则与价值观",
+    "question": "世俗主义原则保障什么？",
+    "options": ["在工作中必须是无神论者", "所有人在法律面前平等", "增加法定节假日", "拒绝科学"],
+    "bonne_reponse": 2,
+    "explication": "世俗主义确保宗教不会造成任何特权或歧视。"
+  },
+  {
+    "id": 30,
+    "categorie": "共和国的原则与价值观",
+    "question": "世俗主义日是哪一天？",
+    "options": ["5月1日", "7月14日", "12月9日", "11月11日"],
+    "bonne_reponse": 2,
+    "explication": "12月9日是1905年法律的周年纪念日。"
+  },
+  {
+    "id": 31,
+    "categorie": "共和国的原则与价值观",
+    "question": "在公立学校可以佩戴什么宗教标志？",
+    "options": ["一个显眼的大十字架", "犹太小圆帽 (Kippa)", "不显眼的标志", "面纱/头巾"],
+    "bonne_reponse": 2,
+    "explication": "2004年法律禁止学生佩戴非常显眼的宗教标志。"
+  },
+  {
+    "id": 32,
+    "categorie": "共和国的原则与价值观",
+    "question": "哪个词指代对犹太人的仇恨？",
+    "options": ["种族主义", "反犹太主义", "恐同症", "性别歧视"],
+    "bonne_reponse": 1,
+    "explication": "反犹太主义是一种受到法律谴责的特定犯罪行为。"
+  },
+  {
+    "id": 33,
+    "categorie": "共和国的原则与价值观",
+    "question": "世俗主义的奠基性文本是什么？",
+    "options": ["1789年《人权宣言》", "1804年《民法典》", "1905年法律", "1958年《宪法》"],
+    "bonne_reponse": 2,
+    "explication": "1905年法律是法国世俗主义的核心支柱。"
+  },
+  {
+    "id": 34,
+    "categorie": "共和国的原则与价值观",
+    "question": "哪个机构必须保持中立？",
+    "options": ["私营企业", "国家和公共服务部门", "体育俱乐部", "政党"],
+    "bonne_reponse": 1,
+    "explication": "行政部门必须公平对待所有人。"
+  },
+  {
+    "id": 35,
+    "categorie": "共和国的原则与价值观",
+    "question": "什么是世俗主义 (Laïcité)？",
+    "options": ["禁止宗教", "强制信仰", "国家与宗教分离", "资助宗教"],
+    "bonne_reponse": 2,
+    "explication": "它是所有公民享有自由和平等的框架。"
+  },
+  {
+    "id": 36,
+    "categorie": "共和国的原则与价值观",
+    "question": "在学校里，《世俗主义宪章》允许：",
+    "options": ["重申规则和男女同校", "禁止谈论出身", "允许祈祷", "更改菜单"],
+    "bonne_reponse": 0,
+    "explication": "它解释了中立性如何保障宁静的学习环境。"
+  },
+  {
+    "id": 37,
+    "categorie": "共和国的原则与价值观",
+    "question": "在公共服务中谁必须遵守中立性？",
+    "options": ["用户", "公职人员 (公务员)", "仅限市长", "没有人"],
+    "bonne_reponse": 1,
+    "explication": "国家雇员绝不能表现出任何宗教归属。"
+  },
+  {
+    "id": 38,
+    "categorie": "共和国的原则与价值观",
+    "question": "一个人不信仰任何神明，他/她属于：",
+    "options": ["世俗主义者", "不可知论者", "无神论者", "反教权主义者"],
+    "bonne_reponse": 2,
+    "explication": "无神论是指不信仰任何神灵。"
+  },
+  {
+    "id": 39,
+    "categorie": "制度与政治体系",
+    "question": "总理是如何产生的？",
+    "options": ["直接普选", "由总统任命", "由代表选举产生", "抽签决定"],
+    "bonne_reponse": 1,
+    "explication": "总统根据国民议会的多数派来选择总理。"
+  },
+  {
+    "id": 40,
+    "categorie": "制度与政治体系",
+    "question": "谁可以参加总统竞选？",
+    "options": ["获得500个民选官员签名的成年法国公民", "居住满10年的居民", "前任部长", "欧洲公民"],
+    "bonne_reponse": 0,
+    "explication": "必须是法国公民，并获得地方民选官员的支持。"
+  },
+  {
+    "id": 41,
+    "categorie": "制度与政治体系",
+    "question": "国家主权属于谁？",
+    "options": ["总统", "议会", "人民", "宪法委员会"],
+    "bonne_reponse": 2,
+    "explication": "人民通过其代表或全民公投行使主权。"
+  },
+  {
+    "id": 42,
+    "categorie": "制度与政治体系",
+    "question": "在市政选举中谁被选举出来？",
+    "options": ["省长", "国民议会议员", "市议会议员", "大区议会主席"],
+    "bonne_reponse": 2,
+    "explication": "公民选举出市议会，然后由市议会选举出市长。"
+  },
+  {
+    "id": 43,
+    "categorie": "制度与政治体系",
+    "question": "在选举名册上登记是：",
+    "options": ["收费的", "可选的", "对外国人自动登记", "投票必须的强制性程序"],
+    "bonne_reponse": 3,
+    "explication": "必须在市政厅登记才能行使投票权。"
+  },
+  {
+    "id": 44,
+    "categorie": "制度与政治体系",
+    "question": "在总统选举中投票的条件：",
+    "options": ["纳税", "法国人，成年，已登记选民", "持有无固定期限劳动合同 (CDI)", "在法国出生"],
+    "bonne_reponse": 1,
+    "explication": "国家层面的投票仅限成年法国公民参加。"
+  },
+  {
+    "id": 45,
+    "categorie": "制度与政治体系",
+    "question": "成为市政选举候选人的条件：",
+    "options": ["法国人或欧盟居民，成年", "必须是房主", "年满25岁", "由省长指定"],
+    "bonne_reponse": 0,
+    "explication": "市政选举对居住在当地的欧盟公民开放。"
+  },
+  {
+    "id": 46,
+    "categorie": "制度与政治体系",
+    "question": "以下哪个权力机构是选举产生的？",
+    "options": ["省长", "部长", "检察官", "市长"],
+    "bonne_reponse": 3,
+    "explication": "市长是通过间接普选产生的地方民选官员。"
+  },
+  {
+    "id": 47,
+    "categorie": "制度与政治体系",
+    "question": "市长的职能：",
+    "options": ["对法律进行投票", "管理市镇和民事登记", "审判犯罪", "指挥军队"],
+    "bonne_reponse": 1,
+    "explication": "市长管理城市并主持婚礼。"
+  },
+  {
+    "id": 48,
+    "categorie": "制度与政治体系",
+    "question": "谁可以参加总统竞选？",
+    "options": ["仅限高级公务员", "欧洲公民", "任何符合条件的法国公民", "纳税的外国人"],
+    "bonne_reponse": 2,
+    "explication": "这是一项专为法国国籍公民设立的选举。"
+  },
+  {
+    "id": 49,
+    "categorie": "制度与政治体系",
+    "question": "如果没有互联网，去哪里进行选民登记？",
+    "options": ["警察局", "省政府", "市政厅", "邮局"],
+    "bonne_reponse": 2,
+    "explication": "选民登记在你所在市政厅的民事登记处进行。"
+  },
+  {
+    "id": 50,
+    "categorie": "制度与政治体系",
+    "question": "多少岁可以成为选民？",
+    "options": ["16岁", "18岁", "21岁", "25岁"],
+    "bonne_reponse": 1,
+    "explication": "自1974年以来，法定投票年龄设定为18岁。"
+  },
+  {
+    "id": 51,
+    "categorie": "制度与政治体系",
+    "question": "投票是强制性的吗？",
+    "options": ["是的，否则会被罚款", "不是，这是一种道德权利和义务", "在总统选举中是的", "仅对公务员是强制的"],
+    "bonne_reponse": 1,
+    "explication": "与其他一些国家不同，法律没有强制要求投票。"
+  },
+  {
+    "id": 52,
+    "categorie": "制度与政治体系",
+    "question": "有权不遵守法律吗？",
+    "options": ["如果不公平的话", "没有，任何人不得以不知法为由免责", "经市长同意", "如果是富人的话"],
+    "bonne_reponse": 1,
+    "explication": "在法治国家，法律对每个人都具有约束力。"
+  },
+  {
+    "id": 53,
+    "categorie": "制度与政治体系",
+    "question": "国民议会议员是如何产生的？",
+    "options": ["由总统任命", "抽签产生", "直接普选产生", "由法官任命"],
+    "bonne_reponse": 2,
+    "explication": "577名国民议会议员在立法选举中选出。"
+  },
+  {
+    "id": 54,
+    "categorie": "制度与政治体系",
+    "question": "谁对法律进行投票？",
+    "options": ["总统", "政府", "议会", "宪法委员会"],
+    "bonne_reponse": 2,
+    "explication": "立法权属于国民议会和参议院。"
+  },
+  {
+    "id": 55,
+    "categorie": "制度与政治体系",
+    "question": "三权分立是指：",
+    "options": ["政治、经济、媒体", "立法、行政、司法", "国家、大区、地方", "民事、刑事、行政"],
+    "bonne_reponse": 1,
+    "explication": "权力分立避免了权力的集中。"
+  },
+  {
+    "id": 56,
+    "categorie": "制度与政治体系",
+    "question": "什么是法治国家 (État de droit)？",
+    "options": ["没有法律的国家", "受法律约束的国家", "独裁统治", "由法官管理的国家"],
+    "bonne_reponse": 1,
+    "explication": "公共权力本身也必须遵守规则。"
+  },
+  {
+    "id": 57,
+    "categorie": "制度与政治体系",
+    "question": "市长任期：",
+    "options": ["4年", "5年", "6年", "7年"],
+    "bonne_reponse": 2,
+    "explication": "市政任期为六年。"
+  },
+  {
+    "id": 58,
+    "categorie": "制度与政治体系",
+    "question": "立法选举中选出的是谁？",
+    "options": ["参议员", "市长", "国民议会议员", "大区议员"],
+    "bonne_reponse": 2,
+    "explication": "立法选举用于组成国民议会。"
+  },
+  {
+    "id": 59,
+    "categorie": "制度与政治体系",
+    "question": "总统任期：",
+    "options": ["4年", "5年", "6年", "7年"],
+    "bonne_reponse": 1,
+    "explication": "总统任期为五年 (quinquennat)。"
+  },
+  {
+    "id": 60,
+    "categorie": "制度与政治体系",
+    "question": "国民议会议员任期：",
+    "options": ["4年", "5年", "6年", "7年"],
+    "bonne_reponse": 1,
+    "explication": "国民议会每五年换届一次。"
+  },
+  {
+    "id": 61,
+    "categorie": "制度与政治体系",
+    "question": "参议员任期：",
+    "options": ["4年", "5年", "6年", "7年"],
+    "bonne_reponse": 2,
+    "explication": "他们由选举人团选举产生，任期6年。"
+  },
+  {
+    "id": 62,
+    "categorie": "制度与政治体系",
+    "question": "谁领导政府的行动？",
+    "options": ["总统", "总理", "国民议会议长", "宪法委员会"],
+    "bonne_reponse": 1,
+    "explication": "总理协调部长团队。"
+  },
+  {
+    "id": 63,
+    "categorie": "制度与政治体系",
+    "question": "加入政党：",
+    "options": ["被禁止", "仅限民选官员", "是被保障的权利", "需要省政府同意"],
+    "bonne_reponse": 2,
+    "explication": "每个人都有支持或加入政党的自由。"
+  },
+  {
+    "id": 64,
+    "categorie": "制度与政治体系",
+    "question": "谁对盗窃行为进行处罚？",
+    "options": ["警察", "受害者", "市长", "司法机关"],
+    "bonne_reponse": 3,
+    "explication": "只有法官可以在调查后做出定罪。"
+  },
+  {
+    "id": 65,
+    "categorie": "制度与政治体系",
+    "question": "初中 (collèges) 由谁管理？",
+    "options": ["市镇", "省 (Département)", "大区 (Région)", "国家"],
+    "bonne_reponse": 1,
+    "explication": "初中由省议会负责。"
+  },
+  {
+    "id": 66,
+    "categorie": "制度与政治体系",
+    "question": "小学由谁管理？",
+    "options": ["市镇", "省", "大区", "国家"],
+    "bonne_reponse": 0,
+    "explication": "市政厅维护校舍并管理招生。"
+  },
+  {
+    "id": 67,
+    "categorie": "制度与政治体系",
+    "question": "市长是如何产生的：",
+    "options": ["由省长任命", "直接普选", "由市议会选举产生", "抽签决定"],
+    "bonne_reponse": 2,
+    "explication": "这是市政厅内部的间接选举。"
+  },
+  {
+    "id": 68,
+    "categorie": "制度与政治体系",
+    "question": "地区列车 (TER) 的负责人：",
+    "options": ["市镇", "省", "大区", "部委"],
+    "bonne_reponse": 2,
+    "explication": "大区负责组织地区铁路运输。"
+  },
+  {
+    "id": 69,
+    "categorie": "制度与政治体系",
+    "question": "修改宪法：",
+    "options": ["总统决定", "简单多数", "全民公投", "请愿书"],
+    "bonne_reponse": 2,
+    "explication": "人民或两院联席会议可以修改最高文本。"
+  },
+  {
+    "id": 70,
+    "categorie": "制度与政治体系",
+    "question": "代理总统职权：",
+    "options": ["总理", "参议院议长", "国民议会议长", "宪法委员会"],
+    "bonne_reponse": 1,
+    "explication": "如果出现职位空缺，参议院议长负责过渡。"
+  },
+  {
+    "id": 71,
+    "categorie": "制度与政治体系",
+    "question": "宪法委员会的作用：",
+    "options": ["对法律投票", "审判罪犯", "验证是否符合宪法", "指挥军队"],
+    "bonne_reponse": 2,
+    "explication": "“智者们 (Sages)”确保法律符合各项权利。"
+  },
+  {
+    "id": 72,
+    "categorie": "制度与政治体系",
+    "question": "总统候选人条件：",
+    "options": ["已婚", "服过兵役", "法国国籍", "支付5000欧元"],
+    "bonne_reponse": 2,
+    "explication": "必须是法国公民才能角逐爱丽舍宫。"
+  },
+  {
+    "id": 73,
+    "categorie": "制度与政治体系",
+    "question": "省 (Département) 的数量：",
+    "options": ["13", "50", "101", "348"],
+    "bonne_reponse": 2,
+    "explication": "总共有101个省（96个本土省 + 5个海外省）。"
+  },
+  {
+    "id": 74,
+    "categorie": "制度与政治体系",
+    "question": "行政组织结构：",
+    "options": ["联邦州", "州 (Cantons)", "市镇、省、大区", "大都会区"],
+    "bonne_reponse": 2,
+    "explication": "这是权力下放的三个层级。"
+  },
+  {
+    "id": 75,
+    "categorie": "制度与政治体系",
+    "question": "在省里代表国家的是：",
+    "options": ["省长 (Préfet)", "市长", "国民议会议员", "省议会主席"],
+    "bonne_reponse": 0,
+    "explication": "省长在地方保障秩序和国家权威。"
+  },
+  {
+    "id": 76,
+    "categorie": "制度与政治体系",
+    "question": "总统的职责：",
+    "options": ["管理医院", "国家元首/武装部队统帅/宪法保卫者", "审判公民", "决定地方税"],
+    "bonne_reponse": 1,
+    "explication": "总统拥有最高的国家主权职能。"
+  },
+  {
+    "id": 77,
+    "categorie": "制度与政治体系",
+    "question": "总理的职责：",
+    "options": ["领导政府/执行法律", "主持国民议会", "宣战", "联合国代表"],
+    "bonne_reponse": 0,
+    "explication": "他是行政部门的运营首脑。"
+  },
+  {
+    "id": 78,
+    "categorie": "制度与政治体系",
+    "question": "权利捍卫者 (Défenseur des droits) 的职责：",
+    "options": ["保卫国家", "提供免费律师", "保护自由/防止歧视", "取代警察"],
+    "bonne_reponse": 2,
+    "explication": "这是一个独立的、免费的行政机构。"
+  },
+  {
+    "id": 79,
+    "categorie": "制度与政治体系",
+    "question": "欧洲公民身份确立于：",
+    "options": ["1945年", "1957年", "1992年", "2002年"],
+    "bonne_reponse": 2,
+    "explication": "由《马斯特里赫特条约》设立。"
+  },
+  {
+    "id": 80,
+    "categorie": "制度与政治体系",
+    "question": "2013年加入欧盟的最后一个国家是：",
+    "options": ["罗马尼亚", "克罗地亚", "波兰", "乌克兰"],
+    "bonne_reponse": 1,
+    "explication": "克罗地亚是（英国脱欧前）第28个成员国。"
+  },
+  {
+    "id": 81,
+    "categorie": "制度与政治体系",
+    "question": "欧盟盟歌的作曲家是：",
+    "options": ["莫扎特", "肖邦", "贝多芬", "德彪西"],
+    "bonne_reponse": 2,
+    "explication": "它是第九交响曲的改编。"
+  },
+  {
+    "id": 82,
+    "categorie": "制度与政治体系",
+    "question": "欧洲日是哪一天：",
+    "options": ["5月1日", "5月8日", "5月9日", "7月14日"],
+    "bonne_reponse": 2,
+    "explication": "向1950年的舒曼宣言致敬。"
+  },
+  {
+    "id": 83,
+    "categorie": "制度与政治体系",
+    "question": "欧洲中央银行 (BCE) 总部设在：",
+    "options": ["巴黎", "布鲁塞尔", "法兰克福", "日内瓦"],
+    "bonne_reponse": 2,
+    "explication": "中央银行位于德国。"
+  },
+  {
+    "id": 84,
+    "categorie": "制度与政治体系",
+    "question": "欧盟委员会总部设在：",
+    "options": ["斯特拉斯堡", "布鲁塞尔", "卢森堡", "柏林"],
+    "bonne_reponse": 1,
+    "explication": "欧洲行政中心在比利时。"
+  },
+  {
+    "id": 85,
+    "categorie": "制度与政治体系",
+    "question": "谁在欧洲议会占有席位？",
+    "options": ["各国总统", "法官", "民选的欧洲议员", "军人"],
+    "bonne_reponse": 2,
+    "explication": "欧洲议会议员代表公民。"
+  },
+  {
+    "id": 86,
+    "categorie": "制度与政治体系",
+    "question": "欧洲人在当地的投票权：",
+    "options": ["被禁止", "如果已婚才可以", "市政选举和欧洲议会选举", "总统选举"],
+    "bonne_reponse": 2,
+    "explication": "欧盟公民可以在法国地方选举中投票。"
+  },
+  {
+    "id": 87,
+    "categorie": "制度与政治体系",
+    "question": "2025年欧盟成员国的数量：",
+    "options": ["15", "27", "35", "50"],
+    "bonne_reponse": 1,
+    "explication": "自英国脱欧以来，欧盟有27个成员国。"
+  },
+  {
+    "id": 88,
+    "categorie": "制度与政治体系",
+    "question": "《马斯特里赫特条约》签订于：",
+    "options": ["1957年", "1981年", "1992年", "2002年"],
+    "bonne_reponse": 2,
+    "explication": "它奠定了我们今天所认识的欧盟的基础。"
+  },
+  {
+    "id": 89,
+    "categorie": "制度与政治体系",
+    "question": "欧盟建设条约是：",
+    "options": ["凡尔赛条约", "马斯特里赫特条约", "巴黎条约", "南特敕令"],
+    "bonne_reponse": 1,
+    "explication": "马斯特里赫特条约是欧盟的参考文本。"
+  },
+  {
+    "id": 90,
+    "categorie": "制度与政治体系",
+    "question": "2020年退出欧盟的国家：",
+    "options": ["瑞士", "冰岛", "英国", "挪威"],
+    "bonne_reponse": 2,
+    "explication": "英国脱欧于2020年1月正式生效。"
+  },
+  {
+    "id": 91,
+    "categorie": "制度与政治体系",
+    "question": "欧盟的格言：",
+    "options": ["多元一体", "自由...", "团结就是力量", "和平..."],
+    "bonne_reponse": 0,
+    "explication": "这是欧盟的官方格言。"
+  },
+  {
+    "id": 92,
+    "categorie": "制度与政治体系",
+    "question": "欧盟盟歌：",
+    "options": ["马赛曲", "欢乐颂", "爱的赞歌", "游击队之歌"],
+    "bonne_reponse": 1,
+    "explication": "旋律取自贝多芬。"
+  },
+  {
+    "id": 93,
+    "categorie": "制度与政治体系",
+    "question": "欧洲盟旗：",
+    "options": ["白色十字", "12颗金星", "27颗星", "黑鹰"],
+    "bonne_reponse": 1,
+    "explication": "12颗星排成一个圆圈。"
+  },
+  {
+    "id": 94,
+    "categorie": "制度与政治体系",
+    "question": "谁选举欧洲议会议员？",
+    "options": ["总统", "参议员", "公民", "欧盟委员会"],
+    "bonne_reponse": 2,
+    "explication": "选举每5年举行一次。"
+  },
+  {
+    "id": 95,
+    "categorie": "制度与政治体系",
+    "question": "欧洲议会总部设在：",
+    "options": ["斯特拉斯堡", "布鲁塞尔", "柏林", "卢森堡"],
+    "bonne_reponse": 0,
+    "explication": "议会设在阿尔萨斯大区。"
+  },
+  {
+    "id": 96,
+    "categorie": "权利与义务",
+    "question": "罢工权：",
+    "options": ["获得更多假期", "捍卫诉求", "破坏设备", "不交税"],
+    "bonne_reponse": 1,
+    "explication": "这是一种集体的停止工作行为。"
+  },
+  {
+    "id": 97,
+    "categorie": "权利与义务",
+    "question": "权利的限制：",
+    "options": ["公共秩序/安全/健康", "仅限经济原因", "优待法国人", "部长的舒适度"],
+    "bonne_reponse": 0,
+    "explication": "国家可以为了公共利益限制自由。"
+  },
+  {
+    "id": 98,
+    "categorie": "权利与义务",
+    "question": "1789年《人权宣言》(DDHC) 的名言：",
+    "options": ["朕即国家", "人生来自由平等", "格言", "多样性"],
+    "bonne_reponse": 1,
+    "explication": "这是《宣言》的第一条。"
+  },
+  {
+    "id": 99,
+    "categorie": "权利与义务",
+    "question": "《人权宣言》第4条关于自由的定义：",
+    "options": ["违反法律", "以不损害他人为界", "不受惩罚", "没有规则"],
+    "bonne_reponse": 1,
+    "explication": "自由意味着不伤害他人。"
+  },
+  {
+    "id": 100,
+    "categorie": "权利与义务",
+    "question": "宪法第一条：",
+    "options": ["帝国", "天主教", "不可分割、世俗、民主和社会的共和国", "君主制"],
+    "bonne_reponse": 2,
+    "explication": "这是第五共和国的基础文本。"
+  },
+  {
+    "id": 101,
+    "categorie": "权利与义务",
+    "question": "新闻自由：",
+    "options": ["免费报纸", "没有审查制度", "允许说谎", "支持政府"],
+    "bonne_reponse": 1,
+    "explication": "关于传播自由的1881年法律。"
+  },
+  {
+    "id": 102,
+    "categorie": "权利与义务",
+    "question": "迁徙和自由流动：",
+    "options": ["无需买票", "无证驾驶", "在别人家里", "在国家领土内"],
+    "bonne_reponse": 3,
+    "explication": "来往走动的基本权利。"
+  },
+  {
+    "id": 103,
+    "categorie": "权利与义务",
+    "question": "成为公民意味着：",
+    "options": ["贵族身份", "国家的一员/享有权利/承担义务", "不交税", "选择法律"],
+    "bonne_reponse": 1,
+    "explication": "与国家之间存在法律和政治联系。"
+  },
+  {
+    "id": 104,
+    "categorie": "权利与义务",
+    "question": "基本权利：",
+    "options": ["仅限男性", "由宪法保障", "仅限富人", "欧盟贸易"],
+    "bonne_reponse": 1,
+    "explication": "人不可剥夺的权利。"
+  },
+  {
+    "id": 105,
+    "categorie": "权利与义务",
+    "question": "任意逮捕：",
+    "options": ["人身安全权", "肖像权", "住房权", "工会自由"],
+    "bonne_reponse": 0,
+    "explication": "保护免受滥用逮捕。"
+  },
+  {
+    "id": 106,
+    "categorie": "权利与义务",
+    "question": "关于权利/义务的文本：",
+    "options": ["交通法规", "欧盟法规", "人权和公民权宣言 (DDHC)", "联合国宪章"],
+    "bonne_reponse": 2,
+    "explication": "1789年的《人权宣言》是参考标准。"
+  },
+  {
+    "id": 107,
+    "categorie": "权利与义务",
+    "question": "“生来自由平等”出自：",
+    "options": ["刑法典", "人权和公民权宣言", "罗马条约", "民法典"],
+    "bonne_reponse": 1,
+    "explication": "第一条的著名引语。"
+  },
+  {
+    "id": 108,
+    "categorie": "权利与义务",
+    "question": "侵犯尊严的行为：",
+    "options": ["排队等候", "奴役/酷刑", "交税", "每周工作35小时"],
+    "bonne_reponse": 1,
+    "explication": "禁止不人道的待遇。"
+  },
+  {
+    "id": 109,
+    "categorie": "权利与义务",
+    "question": "言论自由：",
+    "options": ["遵守法律", "侮辱", "威胁", "对警察撒谎"],
+    "bonne_reponse": 0,
+    "explication": "在不伤害他人的情况下表达自己的权利。"
+  },
+  {
+    "id": 110,
+    "categorie": "权利与义务",
+    "question": "被捕后：",
+    "options": ["逃跑", "打人", "保持沉默/请律师", "使用假身份"],
+    "bonne_reponse": 2,
+    "explication": "在警察拘留期间的权利。"
+  },
+  {
+    "id": 111,
+    "categorie": "权利与义务",
+    "question": "必须信仰宗教吗？",
+    "options": ["是的", "不是，世俗主义", "必须信天主教", "必须暗中信仰"],
+    "bonne_reponse": 1,
+    "explication": "有信仰或不信仰的权利。"
+  },
+  {
+    "id": 112,
+    "categorie": "权利与义务",
+    "question": "数字法定年龄：",
+    "options": ["10岁", "13岁", "15岁", "18岁"],
+    "bonne_reponse": 2,
+    "explication": "同意处理在线数据的年龄。"
+  },
+  {
+    "id": 113,
+    "categorie": "权利与义务",
+    "question": "允许吸烟的地方：",
+    "options": ["医院", "餐厅", "学校", "自己家里"],
+    "bonne_reponse": 3,
+    "explication": "关于公共场所禁烟的《埃文法》(Loi Évin)。"
+  },
+  {
+    "id": 114,
+    "categorie": "权利与义务",
+    "question": "无证驾驶摩托车：",
+    "options": ["犯罪行为", "罚款35欧元", "短途可以", "开朋友的车可以"],
+    "bonne_reponse": 0,
+    "explication": "这带来了刑事处罚和安全风险。"
+  },
+  {
+    "id": 115,
+    "categorie": "权利与义务",
+    "question": "团结义务：",
+    "options": ["交税/公共服务", "给邻居钱", "收留无家可归者", "免费工作"],
+    "bonne_reponse": 0,
+    "explication": "对社会保障的贡献。"
+  },
+  {
+    "id": 116,
+    "categorie": "权利与义务",
+    "question": "多重婚姻（一夫多妻/一妻多夫）：",
+    "options": ["允许", "不允许，禁止重婚", "如果双方同意", "如果是外国人"],
+    "bonne_reponse": 1,
+    "explication": "法律规定实行一夫一妻制。"
+  },
+  {
+    "id": 117,
+    "categorie": "权利与义务",
+    "question": "申报税务是强制性的吗？",
+    "options": ["不是", "如果是有钱人", "是的，对所有居民都是", "如果是法国人"],
+    "bonne_reponse": 2,
+    "explication": "这是每个人每年都要办理的手续。"
+  },
+  {
+    "id": 118,
+    "categorie": "权利与义务",
+    "question": "提供援助（见义勇为）：",
+    "options": ["强制性义务", "可以无视", "如果是医生", "如果是家人"],
+    "bonne_reponse": 0,
+    "explication": "援助处于危险中的人的义务。"
+  },
+  {
+    "id": 119,
+    "categorie": "权利与义务",
+    "question": "重罪法庭陪审员：",
+    "options": ["一份职业", "公民义务", "律师担任", "志愿者"],
+    "bonne_reponse": 1,
+    "explication": "公民参与司法。"
+  },
+  {
+    "id": 120,
+    "categorie": "权利与义务",
+    "question": "禁止向多大年龄的人出售酒精：",
+    "options": ["14岁", "16岁", "18岁", "21岁"],
+    "bonne_reponse": 2,
+    "explication": "保护未成年人。"
+  },
+  {
+    "id": 121,
+    "categorie": "权利与义务",
+    "question": "获得国家身份证 (CNI) 需要：",
+    "options": ["100欧元", "法国国籍", "成年", "在法国出生"],
+    "bonne_reponse": 1,
+    "explication": "法国公民身份的证明。"
+  },
+  {
+    "id": 122,
+    "categorie": "权利与义务",
+    "question": "被传唤为重罪法庭陪审员：",
+    "options": ["可以拒绝", "交纳税款", "有出庭义务", "必须学过法律"],
+    "bonne_reponse": 2,
+    "explication": "这是国家的征用。"
+  },
+  {
+    "id": 123,
+    "categorie": "权利与义务",
+    "question": "法定成年年龄：",
+    "options": ["16岁", "18岁", "21岁", "25岁"],
+    "bonne_reponse": 1,
+    "explication": "获得完全民事行为能力的年龄。"
+  },
+  {
+    "id": 124,
+    "categorie": "权利与义务",
+    "question": "主要义务：",
+    "options": ["服兵役", "投票", "遵守法律/缴税", "加入工会"],
+    "bonne_reponse": 2,
+    "explication": "社会契约的基础。"
+  },
+  {
+    "id": 125,
+    "categorie": "权利与义务",
+    "question": "数字公民：",
+    "options": ["免费获得电脑", "互联网投票", "社交网络", "网络上的权利与义务"],
+    "bonne_reponse": 3,
+    "explication": "在网上负责任的行为。"
+  },
+  {
+    "id": 126,
+    "categorie": "权利与义务",
+    "question": "铭记历史的义务 (Devoir de mémoire)：",
+    "options": ["知晓一切", "铭记悲剧", "抹去耻辱", "纪念碑税"],
+    "bonne_reponse": 1,
+    "explication": "为了未来而传承历史。"
+  },
+  {
+    "id": 127,
+    "categorie": "权利与义务",
+    "question": "谁能成为重罪法庭陪审员：",
+    "options": ["法官", "23岁以上且识字的法国人", "警察", "学生"],
+    "bonne_reponse": 1,
+    "explication": "随机抽签的条件。"
+  },
+  {
+    "id": 128,
+    "categorie": "权利与义务",
+    "question": "被剥夺公民权利：",
+    "options": ["丧失国籍", "被驱逐出境", "不能投票也不能参选", "不能工作"],
+    "bonne_reponse": 2,
+    "explication": "针对公民失职的刑事制裁。"
+  },
+  {
+    "id": 129,
+    "categorie": "权利与义务",
+    "question": "被剥夺公民权利的原因：",
+    "options": ["违规停车", "恐怖主义/腐败", "超速", "乱扔垃圾"],
+    "bonne_reponse": 1,
+    "explication": "对严重犯罪行为的制裁。"
+  },
+  {
+    "id": 130,
+    "categorie": "历史、地理与文化",
+    "question": "在拿破仑统治时期通过的文本：",
+    "options": ["《人权宣言》", "《民法典》(1804年)", "1905年法律", "废除奴隶制"],
+    "bonne_reponse": 1,
+    "explication": "法国法律的统一。"
+  },
+  {
+    "id": 131,
+    "categorie": "历史、地理与文化",
+    "question": "第五共和国第一任总统：",
+    "options": ["克列孟梭", "拿破仑", "戴高乐", "饶勒斯"],
+    "bonne_reponse": 2,
+    "explication": "现行政体的确立者。"
+  },
+  {
+    "id": 132,
+    "categorie": "历史、地理与文化",
+    "question": "费里法 (Lois Ferry) 的目标：",
+    "options": ["收费的", "宗教的", "免费/世俗/义务的", "不收女孩"],
+    "bonne_reponse": 2,
+    "explication": "共和国学校的基础。"
+  },
+  {
+    "id": 133,
+    "categorie": "历史、地理与文化",
+    "question": "7月14日：",
+    "options": ["国庆节", "1945年二战结束", "共和国的诞生", "选举日"],
+    "bonne_reponse": 0,
+    "explication": "1789年攻占巴士底狱。"
+  },
+  {
+    "id": 134,
+    "categorie": "历史、地理与文化",
+    "question": "1958年的重要性：",
+    "options": ["法国大革命", "1918年一战结束", "第五共和国宪法", "欧元发行"],
+    "bonne_reponse": 2,
+    "explication": "现行制度的开端。"
+  },
+  {
+    "id": 135,
+    "categorie": "历史、地理与文化",
+    "question": "欧盟的创始国之一：",
+    "options": ["英国", "瑞士", "西班牙", "法国"],
+    "bonne_reponse": 3,
+    "explication": "最初的6个缔约国之一。"
+  },
+  {
+    "id": 136,
+    "categorie": "历史、地理与文化",
+    "question": "西蒙娜·韦伊 (Simone Veil)：",
+    "options": ["1975年堕胎合法化法律", "1944年获得投票权", "总统", "《女权宣言》"],
+    "bonne_reponse": 0,
+    "explication": "为妇女权利而战。"
+  },
+  {
+    "id": 137,
+    "categorie": "历史、地理与文化",
+    "question": "登陆海滩：",
+    "options": ["普罗旺斯", "布列塔尼", "诺曼底", "奥克西塔尼"],
+    "bonne_reponse": 2,
+    "explication": "1944年6月6日。"
+  },
+  {
+    "id": 138,
+    "categorie": "历史、地理与文化",
+    "question": "历代国王加冕的城市：",
+    "options": ["巴黎", "凡尔赛", "奥尔良", "兰斯"],
+    "bonne_reponse": 3,
+    "explication": "加冕之城。"
+  },
+  {
+    "id": 139,
+    "categorie": "历史、地理与文化",
+    "question": "被送上断头台的国王：",
+    "options": ["路易十四", "亨利四世", "路易十六", "查理十世"],
+    "bonne_reponse": 2,
+    "explication": "于1793年被处决。"
+  },
+  {
+    "id": 140,
+    "categorie": "历史、地理与文化",
+    "question": "法国大革命的开始：",
+    "options": ["1789年", "1804年", "1914年", "1958年"],
+    "bonne_reponse": 0,
+    "explication": "君主专制制度的垮台。"
+  },
+  {
+    "id": 141,
+    "categorie": "历史、地理与文化",
+    "question": "拿破仑称帝：",
+    "options": ["1789年", "1804年", "1815年", "1848年"],
+    "bonne_reponse": 1,
+    "explication": "在巴黎圣母院加冕。"
+  },
+  {
+    "id": 142,
+    "categorie": "历史、地理与文化",
+    "question": "与共和国的关联：",
+    "options": ["查理曼大帝", "凯撒", "圣女贞德", "玛丽安娜"],
+    "bonne_reponse": 3,
+    "explication": "共和国的化身。"
+  },
+  {
+    "id": 143,
+    "categorie": "历史、地理与文化",
+    "question": "戴高乐的呼吁：",
+    "options": ["7月14日", "11月11日", "1940年6月18日", "5月8日"],
+    "bonne_reponse": 2,
+    "explication": "呼吁抵抗法西斯。"
+  },
+  {
+    "id": 144,
+    "categorie": "历史、地理与文化",
+    "question": "大屠杀 (Shoah)：",
+    "options": ["一场战役", "一个政党", "一次呼吁", "犹太人大屠杀"],
+    "bonne_reponse": 3,
+    "explication": "二战期间的大屠杀。"
+  },
+  {
+    "id": 145,
+    "categorie": "历史、地理与文化",
+    "question": "法国的殖民地：",
+    "options": ["巴西", "澳大利亚", "阿尔及利亚", "印度"],
+    "bonne_reponse": 2,
+    "explication": "于1962年独立。"
+  },
+  {
+    "id": 146,
+    "categorie": "历史、地理与文化",
+    "question": "免费/世俗/义务学校的创立者：",
+    "options": ["雨果", "拿破仑", "茹费理 (Ferry)", "戴高乐"],
+    "bonne_reponse": 2,
+    "explication": "公立学校之父。"
+  },
+  {
+    "id": 147,
+    "categorie": "历史、地理与文化",
+    "question": "总统直接普选开始于：",
+    "options": ["1789年", "1944年", "1962年", "2002年"],
+    "bonne_reponse": 2,
+    "explication": "戴高乐派的改革。"
+  },
+  {
+    "id": 148,
+    "categorie": "历史、地理与文化",
+    "question": "欧盟的建立：",
+    "options": ["1945年", "1957年", "1992年", "2002年"],
+    "bonne_reponse": 2,
+    "explication": "《马斯特里赫特条约》。"
+  },
+  {
+    "id": 149,
+    "categorie": "历史、地理与文化",
+    "question": "第二次世界大战：",
+    "options": ["1914-1918年", "1870-1871年", "1954-1962年", "1939-1945年"],
+    "bonne_reponse": 3,
+    "explication": "反对纳粹主义的全球冲突。"
+  },
+  {
+    "id": 150,
+    "categorie": "历史、地理与文化",
+    "question": "第一次世界大战：",
+    "options": ["1870-1871年", "1939-1945年", "1914-1918年", "1954-1962年"],
+    "bonne_reponse": 2,
+    "explication": "“伟大的战争 (La Grande Guerre)”。"
+  },
+  {
+    "id": 151,
+    "categorie": "历史、地理与文化",
+    "question": "废除死刑：",
+    "options": ["戴高乐", "吉斯卡尔", "密特朗", "蓬皮杜"],
+    "bonne_reponse": 2,
+    "explication": "1981年罗贝尔·巴丹泰 (Robert Badinter) 推动。"
+  },
+  {
+    "id": 152,
+    "categorie": "历史、地理与文化",
+    "question": "5月8日：",
+    "options": ["1945年欧洲二战结束", "1918年", "劳动节", "巴士底狱"],
+    "bonne_reponse": 0,
+    "explication": "德国投降。"
+  },
+  {
+    "id": 153,
+    "categorie": "历史、地理与文化",
+    "question": "1951年的欧洲建设：",
+    "options": ["申根协议", "欧元", "欧洲煤钢共同体 (CECA)", "联合国"],
+    "bonne_reponse": 2,
+    "explication": "煤炭和钢铁。"
+  },
+  {
+    "id": 154,
+    "categorie": "历史、地理与文化",
+    "question": "抵抗运动的代表人物：",
+    "options": ["让·穆兰 (Jean Moulin)", "贝当", "路易十六", "拿破仑三世"],
+    "bonne_reponse": 0,
+    "explication": "牺牲的英雄。"
+  },
+  {
+    "id": 155,
+    "categorie": "历史、地理与文化",
+    "question": "11月11日：",
+    "options": ["1944年", "第五共和国", "1918年", "废除死刑"],
+    "bonne_reponse": 2,
+    "explication": "一战停战纪念日。"
+  },
+  {
+    "id": 156,
+    "categorie": "历史、地理与文化",
+    "question": "彻底废除奴隶制：",
+    "options": ["1789年", "1848年", "1905年", "1945年"],
+    "bonne_reponse": 1,
+    "explication": "在第二共和国时期最终废除。"
+  },
+  {
+    "id": 157,
+    "categorie": "历史、地理与文化",
+    "question": "谁废除了奴隶制：",
+    "options": ["舍尔歇 (Schœlcher)", "雨果", "拿破仑", "穆兰"],
+    "bonne_reponse": 0,
+    "explication": "维克多·舍尔歇。"
+  },
+  {
+    "id": 158,
+    "categorie": "历史、地理与文化",
+    "question": "免费学校：",
+    "options": ["1789年", "1881年", "1945年", "1968年"],
+    "bonne_reponse": 1,
+    "explication": "茹费理法 (Lois Jules Ferry)。"
+  },
+  {
+    "id": 159,
+    "categorie": "历史、地理与文化",
+    "question": "1944年妇女获得：",
+    "options": ["工作权", "银行开户权", "投票权", "服兵役权"],
+    "bonne_reponse": 2,
+    "explication": "获得政治公民权。"
+  },
+  {
+    "id": 160,
+    "categorie": "历史、地理与文化",
+    "question": "1945年成立的组织：",
+    "options": ["欧盟 (UE)", "联合国 (ONU)", "北约 (OTAN)", "红十字会"],
+    "bonne_reponse": 1,
+    "explication": "为了和平的联合国。"
+  },
+  {
+    "id": 161,
+    "categorie": "历史、地理与文化",
+    "question": "欧元货币流通：",
+    "options": ["1992年", "1999年", "2002年", "2010年"],
+    "bonne_reponse": 2,
+    "explication": "实体货币的到来。"
+  },
+  {
+    "id": 162,
+    "categorie": "历史、地理与文化",
+    "question": "巴黎解放：",
+    "options": ["1940年6月", "1944年8月", "1945年5月", "1918年11月"],
+    "bonne_reponse": 1,
+    "explication": "勒克莱尔装甲师。"
+  },
+  {
+    "id": 163,
+    "categorie": "历史、地理与文化",
+    "question": "18世纪的奴隶贸易港口：",
+    "options": ["马赛", "布雷斯特", "南特", "勒阿弗尔"],
+    "bonne_reponse": 2,
+    "explication": "第一大奴隶贸易港口。"
+  },
+  {
+    "id": 164,
+    "categorie": "历史、地理与文化",
+    "question": "反对奴隶制的启蒙思想家：",
+    "options": ["笛卡尔", "伏尔泰", "雨果", "左拉"],
+    "bonne_reponse": 1,
+    "explication": "《老实人》的作者。"
+  },
+  {
+    "id": 165,
+    "categorie": "历史、地理与文化",
+    "question": "维克多·雨果：",
+    "options": ["《三个火枪手》", "《包法利夫人》", "《悲惨世界》", "《小王子》"],
+    "bonne_reponse": 2,
+    "explication": "冉阿让和珂赛特的故事。"
+  },
+  {
+    "id": 166,
+    "categorie": "历史、地理与文化",
+    "question": "法国画家：",
+    "options": ["毕加索", "达芬奇", "梵高", "莫奈"],
+    "bonne_reponse": 3,
+    "explication": "印象派之父。"
+  },
+  {
+    "id": 167,
+    "categorie": "历史、地理与文化",
+    "question": "特色美食：",
+    "options": ["海鲜饭", "勃艮第炖牛肉", "披萨", "古斯古斯面"],
+    "bonne_reponse": 1,
+    "explication": "传统菜肴。"
+  },
+  {
+    "id": 168,
+    "categorie": "历史、地理与文化",
+    "question": "玛丽·居里 (Marie Curie)：",
+    "options": ["女王", "两次获诺贝尔奖的科学家", "作家", "抵抗运动战士"],
+    "bonne_reponse": 1,
+    "explication": "放射性研究。"
+  },
+  {
+    "id": 169,
+    "categorie": "历史、地理与文化",
+    "question": "《自由引导人民》：",
+    "options": ["莫奈", "德拉克罗瓦", "雷诺阿", "塞尚"],
+    "bonne_reponse": 1,
+    "explication": "1830年的画作。"
+  },
+  {
+    "id": 170,
+    "categorie": "历史、地理与文化",
+    "question": "收藏《蒙娜丽莎》的博物馆：",
+    "options": ["奥赛博物馆", "蓬皮杜中心", "卢浮宫", "格雷万蜡像馆"],
+    "bonne_reponse": 2,
+    "explication": "昔日的皇家宫殿。"
+  },
+  {
+    "id": 171,
+    "categorie": "历史、地理与文化",
+    "question": "路易十四的城堡：",
+    "options": ["香波堡", "凡尔赛宫", "枫丹白露宫", "舍农索城堡"],
+    "bonne_reponse": 1,
+    "explication": "君主专制的象征。"
+  },
+  {
+    "id": 172,
+    "categorie": "历史、地理与文化",
+    "question": "史前壁画：",
+    "options": ["地下墓穴", "勃朗峰", "古罗马竞技场", "拉斯科洞窟"],
+    "bonne_reponse": 3,
+    "explication": "位于多尔多涅省的洞穴。"
+  },
+  {
+    "id": 173,
+    "categorie": "历史、地理与文化",
+    "question": "《睡莲》：",
+    "options": ["罗丹", "塞尚", "莫奈", "马奈"],
+    "bonne_reponse": 2,
+    "explication": "克劳德·莫奈的系列画作。"
+  },
+  {
+    "id": 174,
+    "categorie": "历史、地理与文化",
+    "question": "免费参观遗产：",
+    "options": ["音乐节", "欧洲文化遗产日", "7月14日国庆节", "世俗主义日"],
+    "bonne_reponse": 1,
+    "explication": "在九月份。"
+  },
+  {
+    "id": 175,
+    "categorie": "历史、地理与文化",
+    "question": "5月1日：",
+    "options": ["立春", "劳动节", "战争结束", "国庆节"],
+    "bonne_reponse": 1,
+    "explication": "铃兰花和游行。"
+  },
+  {
+    "id": 176,
+    "categorie": "历史、地理与文化",
+    "question": "鲁热·德·李尔 (Rouget de Lisle)：",
+    "options": ["总统", "将军", "《马赛曲》作者", "画家"],
+    "bonne_reponse": 2,
+    "explication": "国歌的作曲家。"
+  },
+  {
+    "id": 177,
+    "categorie": "历史、地理与文化",
+    "question": "埃菲尔铁塔的建设：",
+    "options": ["一战结束", "1889年世博会", "女王来访", "安装天线"],
+    "bonne_reponse": 1,
+    "explication": "大革命一百周年纪念。"
+  },
+  {
+    "id": 178,
+    "categorie": "历史、地理与文化",
+    "question": "法国和意大利边界的山脉：",
+    "options": ["比利牛斯山脉", "汝拉山脉", "阿尔卑斯山脉", "孚日山脉"],
+    "bonne_reponse": 2,
+    "explication": "法国的东南部。"
+  },
+  {
+    "id": 179,
+    "categorie": "历史、地理与文化",
+    "question": "莫里哀 (Molière)：",
+    "options": ["科学家", "17世纪戏剧家", "国王", "音乐家"],
+    "bonne_reponse": 1,
+    "explication": "著名的喜剧。"
+  },
+  {
+    "id": 180,
+    "categorie": "历史、地理与文化",
+    "question": "波德莱尔 (Baudelaire)：",
+    "options": ["雕塑家", "政治家", "《恶之花》的诗人", "探险家"],
+    "bonne_reponse": 2,
+    "explication": "诗歌的现代性。"
+  },
+  {
+    "id": 181,
+    "categorie": "历史、地理与文化",
+    "question": "乔治·桑 (George Sand)：",
+    "options": ["女王", "19世纪女作家", "女演员", "科学家"],
+    "bonne_reponse": 1,
+    "explication": "原名奥罗尔·杜邦。"
+  },
+  {
+    "id": 182,
+    "categorie": "历史、地理与文化",
+    "question": "西蒙娜·德·波伏娃 (Simone de Beauvoir)：",
+    "options": ["拿破仑妻子", "歌手", "女权主义哲学家", "飞行员"],
+    "bonne_reponse": 2,
+    "explication": "《第二性》。"
+  },
+  {
+    "id": 183,
+    "categorie": "历史、地理与文化",
+    "question": "阿尔贝·加缪 (Albert Camus)：",
+    "options": ["国王", "画家", "诺贝尔奖作家", "疫苗发现者"],
+    "bonne_reponse": 2,
+    "explication": "《鼠疫》。"
+  },
+  {
+    "id": 184,
+    "categorie": "历史、地理与文化",
+    "question": "玛格丽特·尤瑟纳尔 (Marguerite Yourcenar)：",
+    "options": ["抵抗运动战士", "法兰西学术院第一位女院士", "世界冠军", "部长"],
+    "bonne_reponse": 1,
+    "explication": "1980年当选。"
+  },
+  {
+    "id": 185,
+    "categorie": "历史、地理与文化",
+    "question": "保罗·塞尚 (Paul Cézanne)：",
+    "options": ["现代艺术画家", "雕塑家", "国家元首", "探险家"],
+    "bonne_reponse": 0,
+    "explication": "普罗旺斯地区艾克斯。"
+  },
+  {
+    "id": 186,
+    "categorie": "历史、地理与文化",
+    "question": "奥古斯特·罗丹 (Auguste Rodin)：",
+    "options": ["建筑师", "诗人", "《思想者》的雕塑家", "演员"],
+    "bonne_reponse": 2,
+    "explication": "表现主义雕塑。"
+  },
+  {
+    "id": 187,
+    "categorie": "历史、地理与文化",
+    "question": "法国作曲家：",
+    "options": ["莫扎特", "德彪西", "贝多芬", "威尔第"],
+    "bonne_reponse": 1,
+    "explication": "印象派音乐。"
+  },
+  {
+    "id": 188,
+    "categorie": "历史、地理与文化",
+    "question": "奥古斯特·雷诺阿 (Auguste Renoir)：",
+    "options": ["医生", "将军", "印象派画家", "埃菲尔"],
+    "bonne_reponse": 2,
+    "explication": "色彩与光线。"
+  },
+  {
+    "id": 189,
+    "categorie": "历史、地理与文化",
+    "question": "位于巴黎的博物馆：",
+    "options": ["大英博物馆", "奥赛博物馆", "冬宫博物馆", "普拉多博物馆"],
+    "bonne_reponse": 1,
+    "explication": "曾经的火车站。"
+  },
+  {
+    "id": 190,
+    "categorie": "历史、地理与文化",
+    "question": "圣米歇尔山 (Mont-Saint-Michel)：",
+    "options": ["凡尔赛", "诺曼底的岛屿", "斯特拉斯堡", "教皇"],
+    "bonne_reponse": 1,
+    "explication": "西方的奇迹。"
+  },
+  {
+    "id": 191,
+    "categorie": "历史、地理与文化",
+    "question": "法国十大都市之一：",
+    "options": ["比亚里茨", "里昂", "圣马洛", "卡尔卡松"],
+    "bonne_reponse": 1,
+    "explication": "法国第二大城市。"
+  },
+  {
+    "id": 192,
+    "categorie": "历史、地理与文化",
+    "question": "安的列斯群岛的岛屿：",
+    "options": ["科西嘉岛", "大溪地", "瓜德罗普", "马达加斯加"],
+    "bonne_reponse": 2,
+    "explication": "海外省。"
+  },
+  {
+    "id": 193,
+    "categorie": "历史、地理与文化",
+    "question": "法国的岛屿：",
+    "options": ["西西里岛", "科西嘉岛", "马略卡岛", "克里特岛"],
+    "bonne_reponse": 1,
+    "explication": "地中海。"
+  },
+  {
+    "id": 194,
+    "categorie": "历史、地理与文化",
+    "question": "高山：",
+    "options": ["卡尼古峰", "多姆山", "勃朗峰", "内日峰"],
+    "bonne_reponse": 2,
+    "explication": "阿尔卑斯山脉。"
+  },
+  {
+    "id": 195,
+    "categorie": "历史、地理与文化",
+    "question": "印度洋上的岛屿：",
+    "options": ["留尼汪", "马提尼克", "新喀里多尼亚", "圣皮埃尔"],
+    "bonne_reponse": 0,
+    "explication": "法国海外省和海外大区 (DROM)。"
+  },
+  {
+    "id": 196,
+    "categorie": "历史、地理与文化",
+    "question": "与巴西接壤：",
+    "options": ["瓜德罗普", "法属圭亚那", "马提尼克", "法属波利尼西亚"],
+    "bonne_reponse": 1,
+    "explication": "亚马逊地区。"
+  },
+  {
+    "id": 197,
+    "categorie": "历史、地理与文化",
+    "question": "阿丽亚娜火箭发射基地：",
+    "options": ["巴黎", "图卢兹", "库鲁", "布雷斯特"],
+    "bonne_reponse": 2,
+    "explication": "法属圭亚那。"
+  },
+  {
+    "id": 198,
+    "categorie": "历史、地理与文化",
+    "question": "法国本土的海洋边界：",
+    "options": ["太平洋", "大西洋/英吉利海峡/地中海", "红海", "印度洋"],
+    "bonne_reponse": 1,
+    "explication": "多个海岸线。"
+  },
+  {
+    "id": 199,
+    "categorie": "历史、地理与文化",
+    "question": "法国和英国之间的海域：",
+    "options": ["波罗的海", "地中海", "英吉利海峡 (La Manche)", "里海"],
+    "bonne_reponse": 2,
+    "explication": "西北部。"
+  },
+  {
+    "id": 200,
+    "categorie": "历史、地理与文化",
+    "question": "海外省和海外大区 (DROM) 岛屿：",
+    "options": ["毛里求斯", "马达加斯加", "海地", "马提尼克"],
+    "bonne_reponse": 3,
+    "explication": "安的列斯群岛。"
+  },
+  {
+    "id": 201,
+    "categorie": "历史、地理与文化",
+    "question": "法国海外领地是指：",
+    "options": ["大使馆", "欧洲之外", "邻国", "前殖民地"],
+    "bonne_reponse": 1,
+    "explication": "共和国的领土。"
+  },
+  {
+    "id": 202,
+    "categorie": "历史、地理与文化",
+    "question": "2025年人口预计为：",
+    "options": ["4500万", "6800万", "9000万", "1.2亿"],
+    "bonne_reponse": 1,
+    "explication": "目前的估计。"
+  },
+  {
+    "id": 203,
+    "categorie": "历史、地理与文化",
+    "question": "海港城市：",
+    "options": ["马赛", "尼斯", "波尔多", "南特"],
+    "bonne_reponse": 0,
+    "explication": "地中海沿岸。"
+  },
+  {
+    "id": 204,
+    "categorie": "历史、地理与文化",
+    "question": "法国本土大区 (Régions) 的数量：",
+    "options": ["10", "13", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "自2016年起。"
+  },
+  {
+    "id": 205,
+    "categorie": "历史、地理与文化",
+    "question": "法国和西班牙边界的山脉：",
+    "options": ["汝拉山脉", "中央高原", "阿尔卑斯山脉", "比利牛斯山脉"],
+    "bonne_reponse": 3,
+    "explication": "西南部。"
+  },
+  {
+    "id": 206,
+    "categorie": "历史、地理与文化",
+    "question": "位于非洲东南部的岛屿：",
+    "options": ["马提尼克", "科西嘉", "留尼汪", "大溪地"],
+    "bonne_reponse": 2,
+    "explication": "印度洋。"
+  },
+  {
+    "id": 207,
+    "categorie": "历史、地理与文化",
+    "question": "奥弗涅-罗讷-阿尔卑斯大区的首府：",
+    "options": ["格勒诺布尔", "克莱蒙", "里昂", "圣艾蒂安"],
+    "bonne_reponse": 2,
+    "explication": "大区首府。"
+  },
+  {
+    "id": 208,
+    "categorie": "历史、地理与文化",
+    "question": "布列塔尼大区的首府：",
+    "options": ["布雷斯特", "雷恩", "坎佩尔", "南特"],
+    "bonne_reponse": 1,
+    "explication": "伊勒-维莱讷省。"
+  },
+  {
+    "id": 209,
+    "categorie": "历史、地理与文化",
+    "question": "普罗旺斯-阿尔卑斯-蔚蓝海岸大区 (PACA) 的首府：",
+    "options": ["尼斯", "土伦", "马赛", "阿维尼翁"],
+    "bonne_reponse": 2,
+    "explication": "罗讷河口省。"
+  },
+  {
+    "id": 210,
+    "categorie": "历史、地理与文化",
+    "question": "第101个省：",
+    "options": ["新喀里多尼亚", "圣巴泰勒米", "马约特", "瓦利斯"],
+    "bonne_reponse": 2,
+    "explication": "自2011年起。"
+  },
+  {
+    "id": 211,
+    "categorie": "历史、地理与文化",
+    "question": "滑雪胜地大区：",
+    "options": ["布列塔尼", "诺曼底", "奥弗涅-罗讷-阿尔卑斯", "法兰西岛"],
+    "bonne_reponse": 2,
+    "explication": "阿尔卑斯山区。"
+  },
+  {
+    "id": 212,
+    "categorie": "历史、地理与文化",
+    "question": "流经巴黎的河流：",
+    "options": ["卢瓦尔河", "塞纳河", "罗讷河", "加龙河"],
+    "bonne_reponse": 1,
+    "explication": "穿过首都。"
+  },
+  {
+    "id": 213,
+    "categorie": "在法国社会中生活",
+    "question": "申报出生：",
+    "options": ["省政府", "出生地市政厅", "警察局", "妇产医院"],
+    "bonne_reponse": 1,
+    "explication": "民事登记处。"
+  },
+  {
+    "id": 214,
+    "categorie": "在法国社会中生活",
+    "question": "租客可以自由采取的行动：",
+    "options": ["拆除承重墙", "转租", "刷漆/挂画", "不交房租"],
+    "bonne_reponse": 2,
+    "explication": "无需改造房屋的室内布置。"
+  },
+  {
+    "id": 215,
+    "categorie": "在法国社会中生活",
+    "question": "合法婚姻：",
+    "options": ["宗教婚礼", "市政厅的世俗婚礼", "律师公证", "公证人公证"],
+    "bonne_reponse": 1,
+    "explication": "只有市长主持的婚礼才具有法律效力。"
+  },
+  {
+    "id": 216,
+    "categorie": "在法国社会中生活",
+    "question": "残疾人专用停车位：",
+    "options": ["可以停5分钟", "无证禁止停放", "孕妇可以停", "周日可以停"],
+    "bonne_reponse": 1,
+    "explication": "违规罚款135欧元。"
+  },
+  {
+    "id": 217,
+    "categorie": "在法国社会中生活",
+    "question": "洗碗机坏了应该扔到哪里：",
+    "options": ["人行道上", "黄色垃圾桶", "森林里", "垃圾回收站/大件垃圾收集点"],
+    "bonne_reponse": 2,
+    "explication": "为了环境保护。"
+  },
+  {
+    "id": 218,
+    "categorie": "在法国社会中生活",
+    "question": "给孩子申报出生：",
+    "options": ["仅限已婚夫妇", "所有出生的孩子", "仅限第一胎", "仅限法国籍"],
+    "bonne_reponse": 1,
+    "explication": "这是普遍的强制性义务。"
+  },
+  {
+    "id": 219,
+    "categorie": "在法国社会中生活",
+    "question": "申报出生的期限：",
+    "options": ["5天", "一年", "上学前", "当天"],
+    "bonne_reponse": 0,
+    "explication": "严格的法定期限。"
+  },
+  {
+    "id": 220,
+    "categorie": "在法国社会中生活",
+    "question": "报警电话号码：",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 1,
+    "explication": "紧急救援号码。"
+  },
+  {
+    "id": 221,
+    "categorie": "在法国社会中生活",
+    "question": "呼叫急救中心 (SAMU) 的号码：",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 0,
+    "explication": "医疗急救。"
+  },
+  {
+    "id": 222,
+    "categorie": "在法国社会中生活",
+    "question": "学校报名地点：",
+    "options": ["省政府", "市政厅", "警察局", "省委员会"],
+    "bonne_reponse": 1,
+    "explication": "当地学校事务部门。"
+  },
+  {
+    "id": 223,
+    "categorie": "在法国社会中生活",
+    "question": "离婚后的亲权：",
+    "options": ["归母亲", "归父亲", "归法官", "父母双方共有"],
+    "bonne_reponse": 3,
+    "explication": "维持亲子纽带。"
+  },
+  {
+    "id": 224,
+    "categorie": "在法国社会中生活",
+    "question": "聘请律师的经济援助：",
+    "options": ["APL (住房补贴)", "AME (国家医疗援助)", "Aide juridictionnelle (司法援助)", "RSA (积极团结互助金)"],
+    "bonne_reponse": 2,
+    "explication": "保障司法诉诸权。"
+  },
+  {
+    "id": 225,
+    "categorie": "在法国社会中生活",
+    "question": "提出离婚申请：",
+    "options": ["丈夫", "妻子", "任何一方或双方", "市长"],
+    "bonne_reponse": 2,
+    "explication": "配偶双方平等。"
+  },
+  {
+    "id": 226,
+    "categorie": "在法国社会中生活",
+    "question": "医疗费用报销机构：",
+    "options": ["CPAM (初级医疗保险局)", "省政府", "France Travail (法国就业局)", "市政厅"],
+    "bonne_reponse": 0,
+    "explication": "社会保障局 (Sécu)。"
+  },
+  {
+    "id": 227,
+    "categorie": "在法国社会中生活",
+    "question": "避孕措施：",
+    "options": ["被禁止", "对年轻人免费且自由", "需要丈夫同意", "仅限已婚成年人"],
+    "bonne_reponse": 1,
+    "explication": "性健康权利。"
+  },
+  {
+    "id": 228,
+    "categorie": "在法国社会中生活",
+    "question": "健康保密：",
+    "options": ["警察档案", "医疗保密义务", "隐瞒疾病", "雇主的权利"],
+    "bonne_reponse": 1,
+    "explication": "保护个人隐私。"
+  },
+  {
+    "id": 229,
+    "categorie": "在法国社会中生活",
+    "question": "医保卡 (Carte Vitale) 的用途：",
+    "options": ["报销医疗费", "乘飞机", "交税", "全欧洲通用"],
+    "bonne_reponse": 0,
+    "explication": "电子医疗报销单。"
+  },
+  {
+    "id": 230,
+    "categorie": "在法国社会中生活",
+    "question": "补充医疗保险 (Mutuelle)：",
+    "options": ["代替社会保障", "补充社会保障", "交房租", "免费看医生"],
+    "bonne_reponse": 1,
+    "explication": "起补充报销的作用。"
+  },
+  {
+    "id": 231,
+    "categorie": "在法国社会中生活",
+    "question": "第三方支付结算系统 (Tiers payant)：",
+    "options": ["一种税", "付三倍", "看病时免垫付费用", "分三次付款"],
+    "bonne_reponse": 2,
+    "explication": "直接由医保系统承担费用。"
+  },
+  {
+    "id": 232,
+    "categorie": "在法国社会中生活",
+    "question": "医疗保险：",
+    "options": ["对所有居民是强制性的", "是可选的", "仅限法国人", "仅限穷人"],
+    "bonne_reponse": 0,
+    "explication": "全民健康保障。"
+  },
+  {
+    "id": 233,
+    "categorie": "在法国社会中生活",
+    "question": "可以堕胎吗？",
+    "options": ["不可以", "可以 (自愿终止妊娠 IVG)", "仅当有医疗危险时", "必须经过父亲同意"],
+    "bonne_reponse": 1,
+    "explication": "《韦伊法》(Loi Veil) 确立的权利。"
+  },
+  {
+    "id": 234,
+    "categorie": "在法国社会中生活",
+    "question": "未申报的劳动 (打黑工)：",
+    "options": ["打零工是合法的", "是犯罪行为", "是被容忍的", "属于试用期"],
+    "bonne_reponse": 1,
+    "explication": "属于隐瞒工作。"
+  },
+  {
+    "id": 235,
+    "categorie": "在法国社会中生活",
+    "question": "SMIC 是什么：",
+    "options": ["医疗名词", "法定最低工资", "工会", "公司"],
+    "bonne_reponse": 1,
+    "explication": "最低收入保障。"
+  },
+  {
+    "id": 236,
+    "categorie": "在法国社会中生活",
+    "question": "寻找工作：",
+    "options": ["France Travail (法国就业局)/投简历", "去省政府", "干等", "市政厅税"],
+    "bonne_reponse": 0,
+    "explication": "需要主动采取行动。"
+  },
+  {
+    "id": 237,
+    "categorie": "在法国社会中生活",
+    "question": "法定工作时间：",
+    "options": ["30小时", "35小时", "39小时", "40小时"],
+    "bonne_reponse": 1,
+    "explication": "法定工作时长。"
+  },
+  {
+    "id": 238,
+    "categorie": "在法国社会中生活",
+    "question": "育儿假可以由谁休：",
+    "options": ["仅限母亲", "仅限父亲", "工作满1年的员工", "祖父母"],
+    "bonne_reponse": 2,
+    "explication": "父母双方均有权休假。"
+  },
+  {
+    "id": 239,
+    "categorie": "在法国社会中生活",
+    "question": "外国人创业：",
+    "options": ["被禁止", "如果居留证允许则可以", "如果与法国人结婚则可以", "仅限建筑业"],
+    "bonne_reponse": 1,
+    "explication": "经商自由。"
+  },
+  {
+    "id": 240,
+    "categorie": "在法国社会中生活",
+    "question": "女性创业：",
+    "options": ["是的，自由创业", "被禁止", "需要丈夫同意", "仅限时尚/美容行业"],
+    "bonne_reponse": 0,
+    "explication": "权利平等。"
+  },
+  {
+    "id": 241,
+    "categorie": "在法国社会中生活",
+    "question": "工作场所的规则由什么规定：",
+    "options": ["民法典", "劳动法典/集体协议/劳动合同", "市政厅规定", "人权宣言"],
+    "bonne_reponse": 1,
+    "explication": "受法律约束。"
+  },
+  {
+    "id": 242,
+    "categorie": "在法国社会中生活",
+    "question": "劳资调解委员会 (Prud'hommes) 负责：",
+    "options": ["商人纠纷", "个人劳动纠纷", "卡车司机", "离婚"],
+    "bonne_reponse": 1,
+    "explication": "劳资对等的司法机构。"
+  },
+  {
+    "id": 243,
+    "categorie": "在法国社会中生活",
+    "question": "加入工会：",
+    "options": ["所有劳动者都可以", "仅限公共部门", "仅限法国人", "仅限代表"],
+    "bonne_reponse": 0,
+    "explication": "宪法赋予的权利。"
+  },
+  {
+    "id": 244,
+    "categorie": "在法国社会中生活",
+    "question": "可以解雇孕妇吗？",
+    "options": ["如果她缺勤", "如果公司没钱", "不可以，有绝对的保护", "如果是第三个孩子"],
+    "bonne_reponse": 2,
+    "explication": "孕产妇保护规定。"
+  },
+  {
+    "id": 245,
+    "categorie": "在法国社会中生活",
+    "question": "义务教育的年龄段：",
+    "options": ["3至16岁", "6至14岁", "3至18岁", "6至18岁"],
+    "bonne_reponse": 0,
+    "explication": "这是一项基本权利。"
+  },
+  {
+    "id": 246,
+    "categorie": "在法国社会中生活",
+    "question": "拒绝让孩子接受义务教育的惩罚：",
+    "options": ["警告", "取消家庭补助", "6个月监禁/7500欧元罚款", "驱逐出境"],
+    "bonne_reponse": 2,
+    "explication": "属于刑事犯罪。"
+  },
+  {
+    "id": 247,
+    "categorie": "在法国社会中生活",
+    "question": "亲权：",
+    "options": ["可以进行体罚", "由父亲做决定", "以孩子的利益/保护孩子为目的", "为孩子选择职业"],
+    "bonne_reponse": 2,
+    "explication": "对未成年人的保护。"
+  },
+  {
+    "id": 248,
+    "categorie": "在法国社会中生活",
+    "question": "可接受的缺课理由：",
+    "options": ["去度假", "睡懒觉", "生病/发生重大事件", "过生日"],
+    "bonne_reponse": 2,
+    "explication": "必须坚持上学。"
+  },
+  {
+    "id": 249,
+    "categorie": "在法国社会中生活",
+    "question": "必须在校接受教育至多少岁：",
+    "options": ["14岁", "16岁", "18岁", "没有义务"],
+    "bonne_reponse": 1,
+    "explication": "基础教育阶段。"
+  },
+  {
+    "id": 250,
+    "categorie": "在法国社会中生活",
+    "question": "教育从几岁开始：",
+    "options": ["2岁", "3岁", "6岁", "7岁"],
+    "bonne_reponse": 1,
+    "explication": "自2019年起实行。"
+  },
+  {
+    "id": 251,
+    "categorie": "在法国社会中生活",
+    "question": "小学之后是什么学校：",
+    "options": ["高中 (Lycée)", "大学", "初中 (Collège)", "幼儿园"],
+    "bonne_reponse": 2,
+    "explication": "中等教育阶段。"
+  },
+  {
+    "id": 252,
+    "categorie": "在法国社会中生活",
+    "question": "学生家长的权利：",
+    "options": ["投票选举家长代表", "选择教学大纲", "进入教室干涉", "体罚孩子"],
+    "bonne_reponse": 0,
+    "explication": "家校共育。"
+  },
+  {
+    "id": 253,
+    "categorie": "在法国社会中生活",
+    "question": "不会说法语的孩子：",
+    "options": ["不能上学", "有UPE2A（法语非母语学生）支持机制", "上私人辅导课", "去外国人学校"],
+    "bonne_reponse": 1,
+    "explication": "学校的包容性教育。"
+  },
+  {
+    "id": 254,
+    "categorie": "在法国社会中生活",
+    "question": "残疾儿童：",
+    "options": ["全纳教育学校（融合教育）", "去医院", "不是必须上学", "学费更贵"],
+    "bonne_reponse": 0,
+    "explication": "2005年法律规定。"
+  },
+  {
+    "id": 255,
+    "categorie": "在法国社会中生活",
+    "question": "陪产假/父亲育儿假有多长：",
+    "options": ["3天", "14天", "28天", "3个月"],
+    "bonne_reponse": 2,
+    "explication": "2021年的改革。"
+  },
+  {
+    "id": 256,
+    "categorie": "在法国社会中生活",
+    "question": "体罚：",
+    "options": ["允许", "只能用手打", "被禁止", "如果孩子超过10岁则可以"],
+    "bonne_reponse": 2,
+    "explication": "2019年反打屁股法（反体罚法）。"
+  },
+  {
+    "id": 257,
+    "categorie": "在法国社会中生活",
+    "question": "校园霸凌：",
+    "options": ["没什么大不了", "属于刑事犯罪", "让受害者转学", "警察不能介入"],
+    "bonne_reponse": 1,
+    "explication": "保护被霸凌者。"
+  },
+  {
+    "id": 258,
+    "categorie": "在法国社会中生活",
+    "question": "职场骚扰：",
+    "options": ["辞职", "保持沉默", "举报/投诉", "使用暴力解决"],
+    "bonne_reponse": 2,
+    "explication": "员工的权利。"
+  },
+  {
+    "id": 259,
+    "categorie": "在法国社会中生活",
+    "question": "劳动医学科/劳工医生负责：",
+    "options": ["检查员工是否装病", "工作场所的健康预防", "给员工家属看病", "代替员工的家庭医生"],
+    "bonne_reponse": 1,
+    "explication": "工作场所的健康保护。"
+  },
+  {
+    "id": 260,
+    "categorie": "在法国社会中生活",
+    "question": "高中毕业文凭是：",
+    "options": ["初中毕业证 (Brevet)", "学士学位 (Licence)", "高中会考文凭 (Baccalauréat)", "硕士学位 (Master)"],
+    "bonne_reponse": 2,
+    "explication": "即Bac文凭。"
+  }
+]

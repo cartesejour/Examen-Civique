@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "categorie": "Principles and values of the Republic",
+    "question": "Complete the lyrics of the Marseillaise: \"Allons enfants de la patrie...\"",
+    "options": ["Le jour de gloire est arrivé !", "L'étendard sanglant est levé !", "Marchons, marchons !", "Contre nous de la tyrannie"],
+    "bonne_reponse": 0,
+    "explication": "The phrase that immediately follows \"Allons enfants de la patrie\" is \"Le jour de gloire est arrivé !\"."
+  },
+  {
+    "id": 2,
+    "categorie": "Principles and values of the Republic",
+    "question": "During a job interview, what can be asked of the candidate?",
+    "options": ["Their political and religious opinions", "Their professional experience and diplomas", "Their state of health or medical history", "Their intention to have children soon"],
+    "bonne_reponse": 1,
+    "explication": "The law strictly forbids asking questions about private life during an interview."
+  },
+  {
+    "id": 3,
+    "categorie": "Principles and values of the Republic",
+    "question": "Declaring your income to the tax authorities is:",
+    "options": ["Optional if you earn the minimum wage (SMIC)", "Only mandatory for French citizens", "Mandatory for all residents in France", "Reserved for homeowners"],
+    "bonne_reponse": 2,
+    "explication": "Income declaration is an annual obligation for anyone residing in France."
+  },
+  {
+    "id": 4,
+    "categorie": "Principles and values of the Republic",
+    "question": "In France, taxes are used to finance public spending. Which statement is correct?",
+    "options": ["They are solely intended for ministers", "Everyone is free to choose whether to pay", "They are paid back to the banks", "They are used to finance schools, hospitals, police, and roads"],
+    "bonne_reponse": 3,
+    "explication": "Taxes finance essential public services for the benefit of all."
+  },
+  {
+    "id": 5,
+    "categorie": "Principles and values of the Republic",
+    "question": "Freedom of association is:",
+    "options": ["The right to freely create, join, or leave an association", "The obligation to volunteer", "A special authorization from the mayor", "The right to create a tax-free business"],
+    "bonne_reponse": 0,
+    "explication": "Guaranteed by the 1901 law, it allows people to group together without prior authorization."
+  },
+  {
+    "id": 6,
+    "categorie": "Principles and values of the Republic",
+    "question": "Freedom of expression on social networks in France is:",
+    "options": ["Absolute and limitless", "Limited by law (defamation, hate speech)", "Forbidden for politics", "Reserved for journalists"],
+    "bonne_reponse": 1,
+    "explication": "Insults and incitement to hatred are offenses punishable by sanctions."
+  },
+  {
+    "id": 7,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which of these first names evokes a symbol of the Republic?",
+    "options": ["Jeanne", "Joséphine", "Marianne", "Marguerite"],
+    "bonne_reponse": 2,
+    "explication": "Marianne is the symbolic figure embodying the French Republic."
+  },
+  {
+    "id": 8,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which of these symbols represents the French Republic?",
+    "options": ["The fleur-de-lis", "The tricolor flag", "The imperial eagle", "The cross of Lorraine"],
+    "bonne_reponse": 1,
+    "explication": "The blue-white-red flag is the national emblem defined by the Constitution."
+  },
+  {
+    "id": 9,
+    "categorie": "Principles and values of the Republic",
+    "question": "Where can the motto of the Republic be seen?",
+    "options": ["On public buildings", "In churches", "On all euro banknotes", "Only at the Élysée Palace"],
+    "bonne_reponse": 0,
+    "explication": "The motto is inscribed on the facades of town halls, schools, and courthouses."
+  },
+  {
+    "id": 10,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which are official symbols of the French Republic?",
+    "options": ["The rooster and the baguette", "The Eiffel Tower and the Louvre", "The flag, the anthem, and the motto", "The President and the Parliament"],
+    "bonne_reponse": 2,
+    "explication": "Article 2 of the Constitution defines the official symbols of France."
+  },
+  {
+    "id": 11,
+    "categorie": "Principles and values of the Republic",
+    "question": "Is it legal to publicly burn a French flag?",
+    "options": ["Yes, it's freedom of expression", "No, it's an offense punishable by law", "Yes, if it's old", "Only during a demonstration"],
+    "bonne_reponse": 1,
+    "explication": "Outraging the tricolor flag is punished by a €1,500 fine."
+  },
+  {
+    "id": 12,
+    "categorie": "Principles and values of the Republic",
+    "question": "When was social security established in France?",
+    "options": ["1789", "1905", "1958", "1945"],
+    "bonne_reponse": 3,
+    "explication": "Social Security was created in 1945 after the Second World War."
+  },
+  {
+    "id": 13,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the national holiday commemorate?",
+    "options": ["November 11, 1918", "The birth of the Fifth Republic", "The storming of the Bastille (1789)", "The abolition of slavery"],
+    "bonne_reponse": 2,
+    "explication": "July 14 commemorates 1789 and the Fête de la Fédération of 1790."
+  },
+  {
+    "id": 14,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does Marianne wear on her head?",
+    "options": ["A crown", "A helmet", "A tiara", "A Phrygian cap"],
+    "bonne_reponse": 3,
+    "explication": "The Phrygian cap symbolizes the freedom acquired by freed slaves."
+  },
+  {
+    "id": 15,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the word \"fraternité\" (fraternity) mean in the French motto?",
+    "options": ["Solidarity between citizens", "Biological family", "Sharing housing", "Equal salaries"],
+    "bonne_reponse": 0,
+    "explication": "Fraternity represents tolerance and mutual aid between all members of society."
+  },
+  {
+    "id": 16,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which symbol can be seen on the jerseys of the French national football team?",
+    "options": ["The fleur-de-lis", "The Gallic rooster", "The Phrygian cap", "Marianne"],
+    "bonne_reponse": 1,
+    "explication": "The Gallic rooster is a popular and sporting symbol of France."
+  },
+  {
+    "id": 17,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the motto of the French Republic?",
+    "options": ["Peace and Work", "Liberty, Equality, Fraternity", "Unity and Solidarity", "Order and Progress"],
+    "bonne_reponse": 1,
+    "explication": "Inherited from the Revolution, this motto is enshrined in the Constitution."
+  },
+  {
+    "id": 18,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is freedom of association?",
+    "options": ["Creating a company", "Joining a trade union", "Freely joining a group of people", "The mayor's agreement"],
+    "bonne_reponse": 2,
+    "explication": "It allows people to freely group together for a common project (1901 law)."
+  },
+  {
+    "id": 19,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is a freedom?",
+    "options": ["Doing whatever you want without laws", "Doing anything that does not harm others", "Imposing your opinions", "The absence of government"],
+    "bonne_reponse": 3,
+    "explication": "Individual freedom is limited by respect for the rights of others."
+  },
+  {
+    "id": 20,
+    "categorie": "Principles and values of the Republic",
+    "question": "According to the Constitution, France is a Republic...",
+    "options": ["Liberal and solidary", "Indivisible, secular, democratic, and social", "Sovereign and fraternal", "Parliamentary"],
+    "bonne_reponse": 1,
+    "explication": "This is the official definition of the State given by Article 1 of the Constitution."
+  },
+  {
+    "id": 21,
+    "categorie": "Principles and values of the Republic",
+    "question": "On which document can Marianne be seen?",
+    "options": ["The passport", "The driving license", "Postage stamps", "The Carte Vitale (health card)"],
+    "bonne_reponse": 2,
+    "explication": "Marianne traditionally illustrates everyday postage stamps."
+  },
+  {
+    "id": 22,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does Equality mean in the motto?",
+    "options": ["Same salary for everyone", "Same job for everyone", "The law is the same for everyone", "The rich pay for everything"],
+    "bonne_reponse": 2,
+    "explication": "Equality means that all citizens have the same rights and duties before the law."
+  },
+  {
+    "id": 23,
+    "categorie": "Principles and values of the Republic",
+    "question": "Can you freely change your religion in France?",
+    "options": ["Yes, it is an absolute right", "No, you keep your parents' religion", "Yes, with the town hall's agreement", "Only for Catholicism"],
+    "bonne_reponse": 0,
+    "explication": "Freedom of conscience includes the right to change faith or to have none."
+  },
+  {
+    "id": 24,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the neutrality of the State (laïcité) mean?",
+    "options": ["Banning religions", "Choosing priests", "Treating all citizens equally", "Financing all cults"],
+    "bonne_reponse": 2,
+    "explication": "The State does not favor any religion and ensures equal treatment."
+  },
+  {
+    "id": 25,
+    "categorie": "Principles and values of the Republic",
+    "question": "What can a user do in a town hall?",
+    "options": ["Demand a civil servant of their religion", "Ask not to see a woman", "Pray in public", "Wear a visible religious sign"],
+    "bonne_reponse": 3,
+    "explication": "The user is free to express their faith, unlike public officials."
+  },
+  {
+    "id": 26,
+    "categorie": "Principles and values of the Republic",
+    "question": "In France, the State can finance:",
+    "options": ["New mosques", "The salary of imams", "The maintenance of pre-1905 churches", "Pilgrimages"],
+    "bonne_reponse": 2,
+    "explication": "The State maintains the religious buildings of which it became the owner in 1905."
+  },
+  {
+    "id": 27,
+    "categorie": "Principles and values of the Republic",
+    "question": "In what year was the separation law passed?",
+    "options": ["1789", "1881", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "The 1905 law marks the end of the Concordat and establishes secularism (laïcité)."
+  },
+  {
+    "id": 28,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the 1905 law state?",
+    "options": ["Ban religion", "Pay priests", "The official religion", "Ensure freedom of conscience"],
+    "bonne_reponse": 3,
+    "explication": "It separates the Churches from the State and guarantees freedom of worship."
+  },
+  {
+    "id": 29,
+    "categorie": "Principles and values of the Republic",
+    "question": "What does the principle of secularism (laïcité) guarantee?",
+    "options": ["Being an atheist at work", "Equality of everyone before the law", "More public holidays", "Rejecting sciences"],
+    "bonne_reponse": 2,
+    "explication": "Secularism ensures that religion creates no privilege or discrimination."
+  },
+  {
+    "id": 30,
+    "categorie": "Principles and values of the Republic",
+    "question": "What day is secularism (laïcité) celebrated?",
+    "options": ["May 1st", "July 14th", "December 9th", "November 11th"],
+    "bonne_reponse": 2,
+    "explication": "December 9th is the anniversary of the 1905 law."
+  },
+  {
+    "id": 31,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which religious sign can be worn in public schools?",
+    "options": ["A large cross", "A kippah", "No ostensible sign", "A veil"],
+    "bonne_reponse": 2,
+    "explication": "The 2004 law prohibits highly visible religious signs for students."
+  },
+  {
+    "id": 32,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which term designates hatred against Jews?",
+    "options": ["Racism", "Antisemitism", "Homophobia", "Sexism"],
+    "bonne_reponse": 1,
+    "explication": "Antisemitism is a specific offense condemned by law."
+  },
+  {
+    "id": 33,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is the founding text of secularism (laïcité)?",
+    "options": ["DDHC 1789", "Civil Code 1804", "1905 Law", "1958 Constitution"],
+    "bonne_reponse": 2,
+    "explication": "The 1905 law is the central pillar of French secularism."
+  },
+  {
+    "id": 34,
+    "categorie": "Principles and values of the Republic",
+    "question": "Which institution must remain neutral?",
+    "options": ["Private companies", "State and public services", "Sports clubs", "Political parties"],
+    "bonne_reponse": 1,
+    "explication": "The administration must treat everyone impartially."
+  },
+  {
+    "id": 35,
+    "categorie": "Principles and values of the Republic",
+    "question": "What is secularism (laïcité)?",
+    "options": ["Banning religions", "Obligation to believe", "Separation of State/Religions", "Financing cults"],
+    "bonne_reponse": 2,
+    "explication": "It is a framework of freedom and equality for all citizens."
+  },
+  {
+    "id": 36,
+    "categorie": "Principles and values of the Republic",
+    "question": "At school, the charter of secularism helps to:",
+    "options": ["Remind rules and gender mixing", "Ban origins", "Authorize prayers", "Change menus"],
+    "bonne_reponse": 0,
+    "explication": "It explains how neutrality guarantees a peaceful learning environment."
+  },
+  {
+    "id": 37,
+    "categorie": "Principles and values of the Republic",
+    "question": "Who must respect neutrality in public services?",
+    "options": ["Users", "Agents (civil servants)", "Only the mayor", "Nobody"],
+    "bonne_reponse": 1,
+    "explication": "State employees must not manifest any religious affiliation."
+  },
+  {
+    "id": 38,
+    "categorie": "Principles and values of the Republic",
+    "question": "A person who does not believe in any god is:",
+    "options": ["Secular", "Agnostic", "Atheist", "Anticlerical"],
+    "bonne_reponse": 2,
+    "explication": "Atheism is the fact of not believing in any deity."
+  },
+  {
+    "id": 39,
+    "categorie": "Institutional and political system",
+    "question": "How is the Prime Minister appointed?",
+    "options": ["Direct suffrage", "Appointed by the President", "Elected by MPs", "Drawn by lot"],
+    "bonne_reponse": 1,
+    "explication": "The President chooses the Prime Minister according to the majority in the Assembly."
+  },
+  {
+    "id": 40,
+    "categorie": "Institutional and political system",
+    "question": "Who can run in the presidential election?",
+    "options": ["Adult French citizen with 500 sponsorships", "Resident for 10 years", "Former minister", "European citizen"],
+    "bonne_reponse": 0,
+    "explication": "You must be a French citizen and have the support of local elected officials."
+  },
+  {
+    "id": 41,
+    "categorie": "Institutional and political system",
+    "question": "To whom does national sovereignty belong?",
+    "options": ["To the President", "To the Parliament", "To the people", "To the Constitutional Council"],
+    "bonne_reponse": 2,
+    "explication": "The people exercise it through their representatives or by referendum."
+  },
+  {
+    "id": 42,
+    "categorie": "Institutional and political system",
+    "question": "Who is elected in municipal elections?",
+    "options": ["The prefect", "The MPs", "The municipal councilors", "The Regional President"],
+    "bonne_reponse": 2,
+    "explication": "Citizens elect the council which will then elect the mayor."
+  },
+  {
+    "id": 43,
+    "categorie": "Institutional and political system",
+    "question": "Registration on the electoral rolls is:",
+    "options": ["Paid", "Optional", "Automatic for foreigners", "Mandatory to vote"],
+    "bonne_reponse": 3,
+    "explication": "You must be registered at the town hall to exercise your right to vote."
+  },
+  {
+    "id": 44,
+    "categorie": "Institutional and political system",
+    "question": "Condition for voting in the presidential election:",
+    "options": ["Pay tax", "French, adult, registered", "Have a permanent contract (CDI)", "Born in France"],
+    "bonne_reponse": 1,
+    "explication": "The national vote is reserved for adult French citizens."
+  },
+  {
+    "id": 45,
+    "categorie": "Institutional and political system",
+    "question": "Condition to be a candidate in municipal elections:",
+    "options": ["French or European resident, adult", "Homeowner mandatory", "Be 25 years old", "Designated by the prefect"],
+    "bonne_reponse": 0,
+    "explication": "Municipal elections are open to resident EU citizens."
+  },
+  {
+    "id": 46,
+    "categorie": "Institutional and political system",
+    "question": "Which of these authorities is elected?",
+    "options": ["The prefect", "The minister", "The prosecutor", "The mayor"],
+    "bonne_reponse": 3,
+    "explication": "The mayor is a local elected official resulting from indirect universal suffrage."
+  },
+  {
+    "id": 47,
+    "categorie": "Institutional and political system",
+    "question": "Functions of the mayor:",
+    "options": ["Vote on laws", "Manage the municipality and civil status", "Judge offenses", "Lead the army"],
+    "bonne_reponse": 1,
+    "explication": "The mayor administers the city and celebrates marriages."
+  },
+  {
+    "id": 48,
+    "categorie": "Institutional and political system",
+    "question": "Who can run in the presidential election?",
+    "options": ["Only senior civil servants", "European citizens", "Any eligible French citizen", "Taxable foreigners"],
+    "bonne_reponse": 2,
+    "explication": "It is an election reserved for citizens of French nationality."
+  },
+  {
+    "id": 49,
+    "categorie": "Institutional and political system",
+    "question": "Where to register on the electoral rolls without the internet?",
+    "options": ["Police station", "Prefecture", "Town hall", "Post office"],
+    "bonne_reponse": 2,
+    "explication": "Registration is done at the civil status service of your town hall."
+  },
+  {
+    "id": 50,
+    "categorie": "Institutional and political system",
+    "question": "At what age do you become a voter?",
+    "options": ["16 years old", "18 years old", "21 years old", "25 years old"],
+    "bonne_reponse": 1,
+    "explication": "The voting age has been set at 18 since 1974."
+  },
+  {
+    "id": 51,
+    "categorie": "Institutional and political system",
+    "question": "Is voting mandatory?",
+    "options": ["Yes, under penalty of a fine", "No, it's a moral right and duty", "Yes for the presidential election", "Only for civil servants"],
+    "bonne_reponse": 1,
+    "explication": "The law does not require voting, unlike other countries."
+  },
+  {
+    "id": 52,
+    "categorie": "Institutional and political system",
+    "question": "Right not to respect the law?",
+    "options": ["If unfair", "No, ignorance of the law is no excuse", "With the mayor's agreement", "If rich"],
+    "bonne_reponse": 1,
+    "explication": "The law applies to everyone in a rule of law."
+  },
+  {
+    "id": 53,
+    "categorie": "Institutional and political system",
+    "question": "How are MPs appointed?",
+    "options": ["Appointed by the President", "Drawn by lot", "Elected by direct suffrage", "Appointed by judges"],
+    "bonne_reponse": 2,
+    "explication": "The 577 MPs are elected during legislative elections."
+  },
+  {
+    "id": 54,
+    "categorie": "Institutional and political system",
+    "question": "Who votes on laws?",
+    "options": ["The President", "The Government", "The Parliament", "Constitutional Council"],
+    "bonne_reponse": 2,
+    "explication": "The legislative power belongs to the National Assembly and the Senate."
+  },
+  {
+    "id": 55,
+    "categorie": "Institutional and political system",
+    "question": "The three powers are:",
+    "options": ["Political, Economic, Media", "Legislative, Executive, Judicial", "National, Regional, Local", "Civil, Penal, Administrative"],
+    "bonne_reponse": 1,
+    "explication": "The separation of powers prevents the concentration of authority."
+  },
+  {
+    "id": 56,
+    "categorie": "Institutional and political system",
+    "question": "What is the rule of law (État de droit)?",
+    "options": ["Country without laws", "State subject to the law", "Dictatorship", "Managed by judges"],
+    "bonne_reponse": 1,
+    "explication": "The public authorities must themselves respect the rules."
+  },
+  {
+    "id": 57,
+    "categorie": "Institutional and political system",
+    "question": "Length of a mayor's term:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 2,
+    "explication": "The municipal mandate lasts six years."
+  },
+  {
+    "id": 58,
+    "categorie": "Institutional and political system",
+    "question": "Who is elected in legislative elections?",
+    "options": ["Senators", "Mayors", "MPs", "Regional councilors"],
+    "bonne_reponse": 2,
+    "explication": "Legislative elections are used to form the National Assembly."
+  },
+  {
+    "id": 59,
+    "categorie": "Institutional and political system",
+    "question": "Length of the President's term:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 1,
+    "explication": "The President is elected for five years (quinquennat)."
+  },
+  {
+    "id": 60,
+    "categorie": "Institutional and political system",
+    "question": "Length of MPs' term:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 1,
+    "explication": "The Assembly is renewed every five years."
+  },
+  {
+    "id": 61,
+    "categorie": "Institutional and political system",
+    "question": "Length of senators' term:",
+    "options": ["4 years", "5 years", "6 years", "7 years"],
+    "bonne_reponse": 2,
+    "explication": "They are elected for 6 years by an electoral college."
+  },
+  {
+    "id": 62,
+    "categorie": "Institutional and political system",
+    "question": "Who directs the action of the government?",
+    "options": ["The President", "The Prime Minister", "President of the Assembly", "Constitutional Council"],
+    "bonne_reponse": 1,
+    "explication": "The Prime Minister coordinates the ministerial team."
+  },
+  {
+    "id": 63,
+    "categorie": "Institutional and political system",
+    "question": "Joining a party:",
+    "options": ["Forbidden", "Only elected officials", "Guaranteed right", "Needs prefecture agreement"],
+    "bonne_reponse": 2,
+    "explication": "Everyone is free to support or join a political party."
+  },
+  {
+    "id": 64,
+    "categorie": "Institutional and political system",
+    "question": "Who punishes a theft?",
+    "options": ["Police", "Victim", "Mayor", "Judicial authority"],
+    "bonne_reponse": 3,
+    "explication": "Only a judge can condemn after investigation."
+  },
+  {
+    "id": 65,
+    "categorie": "Institutional and political system",
+    "question": "Who manages middle schools (collèges)?",
+    "options": ["Municipality", "Department", "Region", "State"],
+    "bonne_reponse": 1,
+    "explication": "Middle schools are the responsibility of the Departmental Council."
+  },
+  {
+    "id": 66,
+    "categorie": "Institutional and political system",
+    "question": "Who manages primary schools?",
+    "options": ["Municipality", "Department", "Region", "State"],
+    "bonne_reponse": 0,
+    "explication": "The town hall maintains the premises and manages registrations."
+  },
+  {
+    "id": 67,
+    "categorie": "Institutional and political system",
+    "question": "Appointment of mayors:",
+    "options": ["Appointed by prefect", "Direct suffrage", "Elected by municipal council", "Drawn by lot"],
+    "bonne_reponse": 2,
+    "explication": "It is an indirect suffrage within the town hall."
+  },
+  {
+    "id": 68,
+    "categorie": "Institutional and political system",
+    "question": "Responsible for TER (regional trains):",
+    "options": ["Municipality", "Department", "Region", "Ministry"],
+    "bonne_reponse": 2,
+    "explication": "The region organizes regional rail transport."
+  },
+  {
+    "id": 69,
+    "categorie": "Institutional and political system",
+    "question": "Modify the Constitution:",
+    "options": ["President's decision", "Simple majority", "Referendum", "Petition"],
+    "bonne_reponse": 2,
+    "explication": "The people or the Congress can revise the supreme text."
+  },
+  {
+    "id": 70,
+    "categorie": "Institutional and political system",
+    "question": "Interim President:",
+    "options": ["Prime Minister", "President of the Senate", "President of the Assembly", "Constitutional Council"],
+    "bonne_reponse": 1,
+    "explication": "In the event of a vacancy, the Senate ensures the transition."
+  },
+  {
+    "id": 71,
+    "categorie": "Institutional and political system",
+    "question": "Role of the Constitutional Council:",
+    "options": ["Vote on laws", "Judge criminals", "Verify compliance with the Constitution", "Lead the army"],
+    "bonne_reponse": 2,
+    "explication": "The 'Sages' ensure that the law is in accordance with rights."
+  },
+  {
+    "id": 72,
+    "categorie": "Institutional and political system",
+    "question": "Presidential condition:",
+    "options": ["Married", "Military service", "French nationality", "Pay €5000"],
+    "bonne_reponse": 2,
+    "explication": "You must be a French citizen to vie for the Élysée."
+  },
+  {
+    "id": 73,
+    "categorie": "Institutional and political system",
+    "question": "Number of departments:",
+    "options": ["13", "50", "101", "348"],
+    "bonne_reponse": 2,
+    "explication": "There are 101 departments in total (96 + 5 overseas)."
+  },
+  {
+    "id": 74,
+    "categorie": "Institutional and political system",
+    "question": "Administrative organization:",
+    "options": ["Federated states", "Cantons", "Municipalities, Departments, Regions", "Metropolises"],
+    "bonne_reponse": 2,
+    "explication": "These are the three levels of decentralization."
+  },
+  {
+    "id": 75,
+    "categorie": "Institutional and political system",
+    "question": "Represents the State in the department:",
+    "options": ["The Prefect", "The Mayor", "The MP", "The Departmental President"],
+    "bonne_reponse": 0,
+    "explication": "The prefect guarantees the order and authority of the State locally."
+  },
+  {
+    "id": 76,
+    "categorie": "Institutional and political system",
+    "question": "Role of the President:",
+    "options": ["Manage hospitals", "Head of State/Armed Forces/Constitution", "Judge citizens", "Local taxes"],
+    "bonne_reponse": 1,
+    "explication": "The President has the highest sovereign functions."
+  },
+  {
+    "id": 77,
+    "categorie": "Institutional and political system",
+    "question": "Role of the Prime Minister:",
+    "options": ["Direct government/Execute laws", "Preside over Assembly", "Declare war", "UN"],
+    "bonne_reponse": 0,
+    "explication": "He is the operational head of the executive."
+  },
+  {
+    "id": 78,
+    "categorie": "Institutional and political system",
+    "question": "Role of the Defender of Rights (Défenseur des droits):",
+    "options": ["Defend State", "Free lawyers", "Protect liberties/Discrimination", "Replace police"],
+    "bonne_reponse": 2,
+    "explication": "It is an independent and free administrative authority."
+  },
+  {
+    "id": 79,
+    "categorie": "Institutional and political system",
+    "question": "European citizenship:",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Established by the Maastricht Treaty."
+  },
+  {
+    "id": 80,
+    "categorie": "Institutional and political system",
+    "question": "Last EU State in 2013:",
+    "options": ["Romania", "Croatia", "Poland", "Ukraine"],
+    "bonne_reponse": 1,
+    "explication": "Croatia is the 28th member (before Brexit)."
+  },
+  {
+    "id": 81,
+    "categorie": "Institutional and political system",
+    "question": "Composer of the EU anthem:",
+    "options": ["Mozart", "Chopin", "Beethoven", "Debussy"],
+    "bonne_reponse": 2,
+    "explication": "It is an arrangement of the 9th symphony."
+  },
+  {
+    "id": 82,
+    "categorie": "Institutional and political system",
+    "question": "Europe Day:",
+    "options": ["May 1st", "May 8th", "May 9th", "July 14th"],
+    "bonne_reponse": 2,
+    "explication": "Tribute to the Schuman Declaration of 1950."
+  },
+  {
+    "id": 83,
+    "categorie": "Institutional and political system",
+    "question": "ECB Headquarters:",
+    "options": ["Paris", "Brussels", "Frankfurt", "Geneva"],
+    "bonne_reponse": 2,
+    "explication": "The central bank is located in Germany."
+  },
+  {
+    "id": 84,
+    "categorie": "Institutional and political system",
+    "question": "European Commission Headquarters:",
+    "options": ["Strasbourg", "Brussels", "Luxembourg", "Berlin"],
+    "bonne_reponse": 1,
+    "explication": "The heart of the European executive is in Belgium."
+  },
+  {
+    "id": 85,
+    "categorie": "Institutional and political system",
+    "question": "Who sits in the European Parliament?",
+    "options": ["Presidents", "Judges", "Elected MEPs", "Military"],
+    "bonne_reponse": 2,
+    "explication": "MEPs represent the citizens."
+  },
+  {
+    "id": 86,
+    "categorie": "Institutional and political system",
+    "question": "European local voting:",
+    "options": ["Forbidden", "If married", "Municipal/European", "Presidential"],
+    "bonne_reponse": 2,
+    "explication": "An EU citizen can vote locally in France."
+  },
+  {
+    "id": 87,
+    "categorie": "Institutional and political system",
+    "question": "Number of EU States in 2025:",
+    "options": ["15", "27", "35", "50"],
+    "bonne_reponse": 1,
+    "explication": "The EU has had 27 members since the UK's departure."
+  },
+  {
+    "id": 88,
+    "categorie": "Institutional and political system",
+    "question": "Maastricht Treaty:",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "It founds the European Union as we know it."
+  },
+  {
+    "id": 89,
+    "categorie": "Institutional and political system",
+    "question": "EU construction treaty:",
+    "options": ["Versailles", "Maastricht", "Paris", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Maastricht is the reference text for the Union."
+  },
+  {
+    "id": 90,
+    "categorie": "Institutional and political system",
+    "question": "Departure from the EU in 2020:",
+    "options": ["Switzerland", "Iceland", "United Kingdom", "Norway"],
+    "bonne_reponse": 2,
+    "explication": "Brexit took effect in January 2020."
+  },
+  {
+    "id": 91,
+    "categorie": "Institutional and political system",
+    "question": "EU motto:",
+    "options": ["United in diversity", "Liberty...", "Unity makes strength", "Peace..."],
+    "bonne_reponse": 0,
+    "explication": "This is the official motto of the Union."
+  },
+  {
+    "id": 92,
+    "categorie": "Institutional and political system",
+    "question": "EU Anthem:",
+    "options": ["Marseillaise", "Ode to Joy", "Hymne à l'amour", "Chant des Partisans"],
+    "bonne_reponse": 1,
+    "explication": "The melody is taken from Beethoven."
+  },
+  {
+    "id": 93,
+    "categorie": "Institutional and political system",
+    "question": "European flag:",
+    "options": ["White cross", "12 gold stars", "27 stars", "Black eagle"],
+    "bonne_reponse": 1,
+    "explication": "The 12 stars form a circle."
+  },
+  {
+    "id": 94,
+    "categorie": "Institutional and political system",
+    "question": "Who elects Members of the European Parliament?",
+    "options": ["Presidents", "Senators", "Citizens", "Commission"],
+    "bonne_reponse": 2,
+    "explication": "Elections are held every 5 years."
+  },
+  {
+    "id": 95,
+    "categorie": "Institutional and political system",
+    "question": "European Parliament Headquarters:",
+    "options": ["Strasbourg", "Brussels", "Berlin", "Luxembourg"],
+    "bonne_reponse": 0,
+    "explication": "The Parliament sits in Alsace."
+  },
+  {
+    "id": 96,
+    "categorie": "Rights and duties",
+    "question": "Right to strike:",
+    "options": ["More holidays", "Defend demands", "Destroy equipment", "No taxes"],
+    "bonne_reponse": 1,
+    "explication": "It is a collective cessation of work."
+  },
+  {
+    "id": 97,
+    "categorie": "Rights and duties",
+    "question": "Restriction of rights:",
+    "options": ["Order/Security/Health", "Economic only", "Favor French", "Ministers' comfort"],
+    "bonne_reponse": 0,
+    "explication": "The State can limit freedoms for the general interest."
+  },
+  {
+    "id": 98,
+    "categorie": "Rights and duties",
+    "question": "Quote from DDHC 1789 (Declaration of the Rights of Man and of the Citizen):",
+    "options": ["I am the State", "Men born free and equal", "Motto", "Diversity"],
+    "bonne_reponse": 1,
+    "explication": "This is Article 1 of the Declaration."
+  },
+  {
+    "id": 99,
+    "categorie": "Rights and duties",
+    "question": "Art 4 DDHC freedom:",
+    "options": ["Break the law", "Stops at others", "Not punished", "Without rules"],
+    "bonne_reponse": 1,
+    "explication": "Freedom implies not harming others."
+  },
+  {
+    "id": 100,
+    "categorie": "Rights and duties",
+    "question": "Art 1 Constitution:",
+    "options": ["Empire", "Catholic religion", "Indivisible/secular/dem/soc Rep.", "Monarchy"],
+    "bonne_reponse": 2,
+    "explication": "This is the founding text of the Fifth Republic."
+  },
+  {
+    "id": 101,
+    "categorie": "Rights and duties",
+    "question": "Freedom of the press:",
+    "options": ["Free newspapers", "Without censorship", "Lie", "Support government"],
+    "bonne_reponse": 1,
+    "explication": "1881 law on the freedom to broadcast."
+  },
+  {
+    "id": 102,
+    "categorie": "Rights and duties",
+    "question": "Freedom of movement:",
+    "options": ["Without ticket", "Without license", "At others' homes", "National territory"],
+    "bonne_reponse": 3,
+    "explication": "Fundamental right to come and go."
+  },
+  {
+    "id": 103,
+    "categorie": "Rights and duties",
+    "question": "Being a citizen:",
+    "options": ["Nobility", "Member of the nation/Rights/Duties", "No taxes", "Choose laws"],
+    "bonne_reponse": 1,
+    "explication": "Legal and political link to the State."
+  },
+  {
+    "id": 104,
+    "categorie": "Rights and duties",
+    "question": "Fundamental rights:",
+    "options": ["Men only", "Guaranteed by Constitution", "Rich only", "EU trade"],
+    "bonne_reponse": 1,
+    "explication": "Inalienable rights of the person."
+  },
+  {
+    "id": 105,
+    "categorie": "Rights and duties",
+    "question": "Arbitrary arrest:",
+    "options": ["Right to security", "Right to image", "Right to housing", "Trade union freedom"],
+    "bonne_reponse": 0,
+    "explication": "Protects against abusive arrests."
+  },
+  {
+    "id": 106,
+    "categorie": "Rights and duties",
+    "question": "Text of rights/duties:",
+    "options": ["Highway code", "EU Regulation", "DDHC", "UN Charter"],
+    "bonne_reponse": 2,
+    "explication": "The 1789 DDHC is the reference."
+  },
+  {
+    "id": 107,
+    "categorie": "Rights and duties",
+    "question": "Text 'born free/equal':",
+    "options": ["Penal Code", "DDHC", "Rome", "Civil"],
+    "bonne_reponse": 1,
+    "explication": "Famous quote from Article 1."
+  },
+  {
+    "id": 108,
+    "categorie": "Rights and duties",
+    "question": "Attack on dignity:",
+    "options": ["Waiting line", "Slavery/Torture", "Taxes", "35h"],
+    "bonne_reponse": 1,
+    "explication": "Prohibition of inhuman treatment."
+  },
+  {
+    "id": 109,
+    "categorie": "Rights and duties",
+    "question": "Freedom of expression:",
+    "options": ["Respect law", "Insults", "Threats", "Lying to police"],
+    "bonne_reponse": 0,
+    "explication": "Right to express oneself without harming."
+  },
+  {
+    "id": 110,
+    "categorie": "Rights and duties",
+    "question": "After arrest:",
+    "options": ["Flee", "Hit", "Silence/Lawyer", "Fake identity"],
+    "bonne_reponse": 2,
+    "explication": "Rights in police custody."
+  },
+  {
+    "id": 111,
+    "categorie": "Rights and duties",
+    "question": "Mandatory religion?",
+    "options": ["Yes", "No, secularism (laïcité)", "Yes Catholic", "Yes hidden"],
+    "bonne_reponse": 1,
+    "explication": "Right to believe or not to believe."
+  },
+  {
+    "id": 112,
+    "categorie": "Rights and duties",
+    "question": "Digital majority:",
+    "options": ["10 years", "13 years", "15 years", "18 years"],
+    "bonne_reponse": 2,
+    "explication": "Age of consent for online data."
+  },
+  {
+    "id": 113,
+    "categorie": "Rights and duties",
+    "question": "Allowed to smoke:",
+    "options": ["Hospital", "Restaurant", "School", "At home"],
+    "bonne_reponse": 3,
+    "explication": "Évin Law on public places."
+  },
+  {
+    "id": 114,
+    "categorie": "Rights and duties",
+    "question": "Driving a motorcycle without a license:",
+    "options": ["Offense", "€35", "Short trip", "Friend's motorcycle"],
+    "bonne_reponse": 0,
+    "explication": "It is a penal and security risk."
+  },
+  {
+    "id": 115,
+    "categorie": "Rights and duties",
+    "question": "Duty of solidarity:",
+    "options": ["Taxes/Public services", "Give money to neighbors", "Host homeless", "Work for free"],
+    "bonne_reponse": 0,
+    "explication": "Contribution to social protection."
+  },
+  {
+    "id": 116,
+    "categorie": "Rights and duties",
+    "question": "Multiple marriage:",
+    "options": ["Yes", "No, polygamy prohibited", "If agreed", "If foreigner"],
+    "bonne_reponse": 1,
+    "explication": "The law imposes monogamy."
+  },
+  {
+    "id": 117,
+    "categorie": "Rights and duties",
+    "question": "Mandatory tax declaration?",
+    "options": ["No", "If rich", "Yes all residents", "If French"],
+    "bonne_reponse": 2,
+    "explication": "It is an annual formality for everyone."
+  },
+  {
+    "id": 118,
+    "categorie": "Rights and duties",
+    "question": "Provide assistance:",
+    "options": ["Mandatory", "Ignore", "If doctor", "If family"],
+    "bonne_reponse": 0,
+    "explication": "Assistance to a person in danger."
+  },
+  {
+    "id": 119,
+    "categorie": "Rights and duties",
+    "question": "Assize court juror:",
+    "options": ["Job", "Civic duty", "Lawyers", "Volunteer"],
+    "bonne_reponse": 1,
+    "explication": "Citizen participation in justice."
+  },
+  {
+    "id": 120,
+    "categorie": "Rights and duties",
+    "question": "Sale of alcohol prohibited:",
+    "options": ["14 years", "16 years", "18 years", "21 years"],
+    "bonne_reponse": 2,
+    "explication": "Protection of minors."
+  },
+  {
+    "id": 121,
+    "categorie": "Rights and duties",
+    "question": "To get a National ID Card (CNI):",
+    "options": ["€100", "French nationality", "Adult", "Born in France"],
+    "bonne_reponse": 1,
+    "explication": "Proof of French citizenship."
+  },
+  {
+    "id": 122,
+    "categorie": "Rights and duties",
+    "question": "Summoned as assize court juror:",
+    "options": ["Refuse", "Pay tax", "Obligation to appear", "Law studies"],
+    "bonne_reponse": 2,
+    "explication": "It is a State requisition."
+  },
+  {
+    "id": 123,
+    "categorie": "Rights and duties",
+    "question": "Civil majority:",
+    "options": ["16", "18", "21", "25"],
+    "bonne_reponse": 1,
+    "explication": "Age of full legal capacity."
+  },
+  {
+    "id": 124,
+    "categorie": "Rights and duties",
+    "question": "Main duty:",
+    "options": ["Military service", "Vote", "Respect law/Taxes", "Union"],
+    "bonne_reponse": 2,
+    "explication": "Basis of the social contract."
+  },
+  {
+    "id": 125,
+    "categorie": "Rights and duties",
+    "question": "Digital citizenship:",
+    "options": ["Free computer", "Internet voting", "Social networks", "Web Rights/Duties"],
+    "bonne_reponse": 3,
+    "explication": "Responsible behavior online."
+  },
+  {
+    "id": 126,
+    "categorie": "Rights and duties",
+    "question": "Duty of remembrance:",
+    "options": ["Know everything", "Remember tragedies", "Erase shame", "Monument tax"],
+    "bonne_reponse": 1,
+    "explication": "Transmit history for the future."
+  },
+  {
+    "id": 127,
+    "categorie": "Rights and duties",
+    "question": "Who is an assize court juror:",
+    "options": ["Judges", "French 23 years old literate", "Police", "Students"],
+    "bonne_reponse": 1,
+    "explication": "Conditions for random drawing."
+  },
+  {
+    "id": 128,
+    "categorie": "Rights and duties",
+    "question": "Deprived of civil rights:",
+    "options": ["Loses nationality", "Expelled", "Neither vote nor candidate", "No work"],
+    "bonne_reponse": 2,
+    "explication": "Penal sanction of civic indignity."
+  },
+  {
+    "id": 129,
+    "categorie": "Rights and duties",
+    "question": "Deprivation of civil rights for:",
+    "options": ["Parking", "Terrorism/Corruption", "Speeding", "Trash bin"],
+    "bonne_reponse": 1,
+    "explication": "Sanctions for serious acts."
+  },
+  {
+    "id": 130,
+    "categorie": "History, geography and culture",
+    "question": "Text adopted under Napoleon:",
+    "options": ["DDHC", "Civil Code (1804)", "1905 Law", "Abolition"],
+    "bonne_reponse": 1,
+    "explication": "Unification of French law."
+  },
+  {
+    "id": 131,
+    "categorie": "History, geography and culture",
+    "question": "First President of 5th Rep:",
+    "options": ["Clemenceau", "Napoleon", "De Gaulle", "Jaurès"],
+    "bonne_reponse": 2,
+    "explication": "Founder of the current regime."
+  },
+  {
+    "id": 132,
+    "categorie": "History, geography and culture",
+    "question": "Objective of Ferry laws:",
+    "options": ["Paid", "Religious", "Free/Secular/Mandatory", "No girls"],
+    "bonne_reponse": 2,
+    "explication": "Foundation of the Republican school."
+  },
+  {
+    "id": 133,
+    "categorie": "History, geography and culture",
+    "question": "July 14th:",
+    "options": ["National holiday", "End 1945", "Birth of Rep", "Election"],
+    "bonne_reponse": 0,
+    "explication": "Storming of the Bastille in 1789."
+  },
+  {
+    "id": 134,
+    "categorie": "History, geography and culture",
+    "question": "Importance of 1958:",
+    "options": ["Revolution", "End 1918", "Constitution 5th Rep", "Euro"],
+    "bonne_reponse": 2,
+    "explication": "Beginning of the current system."
+  },
+  {
+    "id": 135,
+    "categorie": "History, geography and culture",
+    "question": "Founding country of EU:",
+    "options": ["UK", "Switzerland", "Spain", "France"],
+    "bonne_reponse": 3,
+    "explication": "One of the 6 original countries."
+  },
+  {
+    "id": 136,
+    "categorie": "History, geography and culture",
+    "question": "Simone Veil:",
+    "options": ["Abortion law 1975", "Voting right 1944", "President", "Women's DDHC"],
+    "bonne_reponse": 0,
+    "explication": "Fight for women's rights."
+  },
+  {
+    "id": 137,
+    "categorie": "History, geography and culture",
+    "question": "Landing beaches:",
+    "options": ["Provence", "Brittany", "Normandy", "Occitanie"],
+    "bonne_reponse": 2,
+    "explication": "June 6, 1944."
+  },
+  {
+    "id": 138,
+    "categorie": "History, geography and culture",
+    "question": "Coronation city of kings:",
+    "options": ["Paris", "Versailles", "Orléans", "Reims"],
+    "bonne_reponse": 3,
+    "explication": "City of coronations."
+  },
+  {
+    "id": 139,
+    "categorie": "History, geography and culture",
+    "question": "Guillotined king:",
+    "options": ["Louis XIV", "Henry IV", "Louis XVI", "Charles X"],
+    "bonne_reponse": 2,
+    "explication": "Executed in 1793."
+  },
+  {
+    "id": 140,
+    "categorie": "History, geography and culture",
+    "question": "Start of Revolution:",
+    "options": ["1789", "1804", "1914", "1958"],
+    "bonne_reponse": 0,
+    "explication": "Fall of absolute monarchy."
+  },
+  {
+    "id": 141,
+    "categorie": "History, geography and culture",
+    "question": "Napoleon Emperor:",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Coronation at Notre-Dame."
+  },
+  {
+    "id": 142,
+    "categorie": "History, geography and culture",
+    "question": "Link with the Republic:",
+    "options": ["Charlemagne", "Caesar", "Joan of Arc", "Marianne"],
+    "bonne_reponse": 3,
+    "explication": "Allegory of the Republic."
+  },
+  {
+    "id": 143,
+    "categorie": "History, geography and culture",
+    "question": "De Gaulle's Appeal:",
+    "options": ["July 14", "Nov 11", "June 18, 1940", "May 8"],
+    "bonne_reponse": 2,
+    "explication": "Call to Resistance."
+  },
+  {
+    "id": 144,
+    "categorie": "History, geography and culture",
+    "question": "Shoah:",
+    "options": ["Battle", "Party", "Appeal", "Genocide of Jews"],
+    "bonne_reponse": 3,
+    "explication": "Holocaust during 39-45."
+  },
+  {
+    "id": 145,
+    "categorie": "History, geography and culture",
+    "question": "French colony:",
+    "options": ["Brazil", "Australia", "Algeria", "India"],
+    "bonne_reponse": 2,
+    "explication": "Independence in 1962."
+  },
+  {
+    "id": 146,
+    "categorie": "History, geography and culture",
+    "question": "Free/secular/mandatory school:",
+    "options": ["Hugo", "Napoleon", "Ferry", "De Gaulle"],
+    "bonne_reponse": 2,
+    "explication": "Father of public school."
+  },
+  {
+    "id": 147,
+    "categorie": "History, geography and culture",
+    "question": "President direct suffrage:",
+    "options": ["1789", "1944", "1962", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Gaullist reform."
+  },
+  {
+    "id": 148,
+    "categorie": "History, geography and culture",
+    "question": "Foundation of EU:",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Maastricht Treaty."
+  },
+  {
+    "id": 149,
+    "categorie": "History, geography and culture",
+    "question": "Second World War:",
+    "options": ["14-18", "70-71", "54-62", "39-45"],
+    "bonne_reponse": 3,
+    "explication": "Global conflict against Nazism."
+  },
+  {
+    "id": 150,
+    "categorie": "History, geography and culture",
+    "question": "First World War:",
+    "options": ["70-71", "39-45", "14-18", "54-62"],
+    "bonne_reponse": 2,
+    "explication": "The Great War."
+  },
+  {
+    "id": 151,
+    "categorie": "History, geography and culture",
+    "question": "Abolition of death penalty:",
+    "options": ["De Gaulle", "Giscard", "Mitterrand", "Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "Robert Badinter in 1981."
+  },
+  {
+    "id": 152,
+    "categorie": "History, geography and culture",
+    "question": "May 8th:",
+    "options": ["End Europe 1945", "1918", "Labor", "Bastille"],
+    "bonne_reponse": 0,
+    "explication": "German capitulation."
+  },
+  {
+    "id": 153,
+    "categorie": "History, geography and culture",
+    "question": "EU construction 1951:",
+    "options": ["Schengen", "Euro", "ECSC", "UN"],
+    "bonne_reponse": 2,
+    "explication": "Coal and Steel."
+  },
+  {
+    "id": 154,
+    "categorie": "History, geography and culture",
+    "question": "Figure of Resistance:",
+    "options": ["Jean Moulin", "Pétain", "Louis XVI", "Napoleon III"],
+    "bonne_reponse": 0,
+    "explication": "Sacrificed hero."
+  },
+  {
+    "id": 155,
+    "categorie": "History, geography and culture",
+    "question": "November 11th:",
+    "options": ["1944", "5th Rep", "1918", "Abolition"],
+    "bonne_reponse": 2,
+    "explication": "Great War Armistice."
+  },
+  {
+    "id": 156,
+    "categorie": "History, geography and culture",
+    "question": "Abolition of slavery:",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Definitive under the 2nd Rep."
+  },
+  {
+    "id": 157,
+    "categorie": "History, geography and culture",
+    "question": "Who abolished slavery:",
+    "options": ["Schœlcher", "Hugo", "Napoleon", "Moulin"],
+    "bonne_reponse": 0,
+    "explication": "Victor Schœlcher."
+  },
+  {
+    "id": 158,
+    "categorie": "History, geography and culture",
+    "question": "Free school:",
+    "options": ["1789", "1881", "1945", "1968"],
+    "bonne_reponse": 1,
+    "explication": "Jules Ferry Laws."
+  },
+  {
+    "id": 159,
+    "categorie": "History, geography and culture",
+    "question": "1944 women:",
+    "options": ["Work", "Bank", "Right to vote", "Military service"],
+    "bonne_reponse": 2,
+    "explication": "Obtaining political citizenship."
+  },
+  {
+    "id": 160,
+    "categorie": "History, geography and culture",
+    "question": "Organization 1945:",
+    "options": ["EU", "UN", "NATO", "Red Cross"],
+    "bonne_reponse": 1,
+    "explication": "United Nations for peace."
+  },
+  {
+    "id": 161,
+    "categorie": "History, geography and culture",
+    "question": "Euro currency:",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Arrival of cash."
+  },
+  {
+    "id": 162,
+    "categorie": "History, geography and culture",
+    "question": "Liberation of Paris:",
+    "options": ["June 1940", "August 1944", "May 1945", "Nov 1918"],
+    "bonne_reponse": 1,
+    "explication": "Leclerc Division."
+  },
+  {
+    "id": 163,
+    "categorie": "History, geography and culture",
+    "question": "Slave port 18th century:",
+    "options": ["Marseille", "Brest", "Nantes", "Le Havre"],
+    "bonne_reponse": 2,
+    "explication": "First slave trade port."
+  },
+  {
+    "id": 164,
+    "categorie": "History, geography and culture",
+    "question": "Enlightenment against slavery:",
+    "options": ["Descartes", "Voltaire", "Hugo", "Zola"],
+    "bonne_reponse": 1,
+    "explication": "Author of Candide."
+  },
+  {
+    "id": 165,
+    "categorie": "History, geography and culture",
+    "question": "Victor Hugo:",
+    "options": ["Three Musketeers", "Bovary", "Les Misérables", "Little Prince"],
+    "bonne_reponse": 2,
+    "explication": "Jean Valjean and Cosette."
+  },
+  {
+    "id": 166,
+    "categorie": "History, geography and culture",
+    "question": "French painter:",
+    "options": ["Picasso", "Da Vinci", "Van Gogh", "Monet"],
+    "bonne_reponse": 3,
+    "explication": "Father of Impressionism."
+  },
+  {
+    "id": 167,
+    "categorie": "History, geography and culture",
+    "question": "Culinary specialty:",
+    "options": ["Paella", "Beef bourguignon", "Pizza", "Couscous"],
+    "bonne_reponse": 1,
+    "explication": "Traditional dish."
+  },
+  {
+    "id": 168,
+    "categorie": "History, geography and culture",
+    "question": "Marie Curie:",
+    "options": ["Queen", "Scientist 2 Nobels", "Writer", "Resistance fighter"],
+    "bonne_reponse": 1,
+    "explication": "Radioactivity."
+  },
+  {
+    "id": 169,
+    "categorie": "History, geography and culture",
+    "question": "Liberty Leading the People:",
+    "options": ["Monet", "Delacroix", "Renoir", "Cézanne"],
+    "bonne_reponse": 1,
+    "explication": "Painting from 1830."
+  },
+  {
+    "id": 170,
+    "categorie": "History, geography and culture",
+    "question": "Mona Lisa museum:",
+    "options": ["Orsay", "Pompidou", "Louvre", "Grévin"],
+    "bonne_reponse": 2,
+    "explication": "Former royal palace."
+  },
+  {
+    "id": 171,
+    "categorie": "History, geography and culture",
+    "question": "Louis XIV's Castle:",
+    "options": ["Chambord", "Versailles", "Fontainebleau", "Chenonceau"],
+    "bonne_reponse": 1,
+    "explication": "Symbol of absolutism."
+  },
+  {
+    "id": 172,
+    "categorie": "History, geography and culture",
+    "question": "Prehistoric paintings:",
+    "options": ["Catacombs", "Mont Blanc", "Arenas", "Lascaux"],
+    "bonne_reponse": 3,
+    "explication": "Cave in Dordogne."
+  },
+  {
+    "id": 173,
+    "categorie": "History, geography and culture",
+    "question": "Water Lilies (Nymphéas):",
+    "options": ["Rodin", "Cézanne", "Monet", "Manet"],
+    "bonne_reponse": 2,
+    "explication": "Series by Claude Monet."
+  },
+  {
+    "id": 174,
+    "categorie": "History, geography and culture",
+    "question": "Free heritage:",
+    "options": ["Music", "Heritage Days", "July 14", "Secularism"],
+    "bonne_reponse": 1,
+    "explication": "In September."
+  },
+  {
+    "id": 175,
+    "categorie": "History, geography and culture",
+    "question": "May 1st:",
+    "options": ["Spring", "Labor Day", "End of war", "National holiday"],
+    "bonne_reponse": 1,
+    "explication": "Lily of the valley and protests."
+  },
+  {
+    "id": 176,
+    "categorie": "History, geography and culture",
+    "question": "Rouget de Lisle:",
+    "options": ["President", "General", "Author of Marseillaise", "Painter"],
+    "bonne_reponse": 2,
+    "explication": "Composer of the anthem."
+  },
+  {
+    "id": 177,
+    "categorie": "History, geography and culture",
+    "question": "Construction of Eiffel Tower:",
+    "options": ["End of WWI", "1889 Expo", "Queen's visit", "Antenna"],
+    "bonne_reponse": 1,
+    "explication": "Centenary of the Revolution."
+  },
+  {
+    "id": 178,
+    "categorie": "History, geography and culture",
+    "question": "Mountains France/Italy:",
+    "options": ["Pyrenees", "Jura", "Alps", "Vosges"],
+    "bonne_reponse": 2,
+    "explication": "South-East of France."
+  },
+  {
+    "id": 179,
+    "categorie": "History, geography and culture",
+    "question": "Molière:",
+    "options": ["Scientist", "17th Century Theater", "King", "Musician"],
+    "bonne_reponse": 1,
+    "explication": "Famous comedies."
+  },
+  {
+    "id": 180,
+    "categorie": "History, geography and culture",
+    "question": "Baudelaire:",
+    "options": ["Sculptor", "Politician", "Poet The Flowers of Evil", "Explorer"],
+    "bonne_reponse": 2,
+    "explication": "Poetic modernity."
+  },
+  {
+    "id": 181,
+    "categorie": "History, geography and culture",
+    "question": "George Sand:",
+    "options": ["Queen", "19th Century Writer", "Actress", "Scientist"],
+    "bonne_reponse": 1,
+    "explication": "Aurore Dupin."
+  },
+  {
+    "id": 182,
+    "categorie": "History, geography and culture",
+    "question": "Simone de Beauvoir:",
+    "options": ["Napoleon", "Singer", "Feminist Philosopher", "Aviation"],
+    "bonne_reponse": 2,
+    "explication": "The Second Sex."
+  },
+  {
+    "id": 183,
+    "categorie": "History, geography and culture",
+    "question": "Albert Camus:",
+    "options": ["King", "Painter", "Nobel Writer", "Vaccine"],
+    "bonne_reponse": 2,
+    "explication": "The Plague."
+  },
+  {
+    "id": 184,
+    "categorie": "History, geography and culture",
+    "question": "Marguerite Yourcenar:",
+    "options": ["Resistance fighter", "First woman in Academy", "Champion", "Minister"],
+    "bonne_reponse": 1,
+    "explication": "Elected in 1980."
+  },
+  {
+    "id": 185,
+    "categorie": "History, geography and culture",
+    "question": "Paul Cézanne:",
+    "options": ["Modern art painter", "Sculptor", "State", "Explorer"],
+    "bonne_reponse": 0,
+    "explication": "Aix-en-Provence."
+  },
+  {
+    "id": 186,
+    "categorie": "History, geography and culture",
+    "question": "Auguste Rodin:",
+    "options": ["Architect", "Poet", "Sculptor The Thinker", "Actor"],
+    "bonne_reponse": 2,
+    "explication": "Expressionist sculpture."
+  },
+  {
+    "id": 187,
+    "categorie": "History, geography and culture",
+    "question": "French composer:",
+    "options": ["Mozart", "Debussy", "Beethoven", "Verdi"],
+    "bonne_reponse": 1,
+    "explication": "Impressionist music."
+  },
+  {
+    "id": 188,
+    "categorie": "History, geography and culture",
+    "question": "Auguste Renoir:",
+    "options": ["Doctor", "General", "Impressionist painter", "Eiffel"],
+    "bonne_reponse": 2,
+    "explication": "Colors and light."
+  },
+  {
+    "id": 189,
+    "categorie": "History, geography and culture",
+    "question": "Paris Museum:",
+    "options": ["British", "Orsay", "Hermitage", "Prado"],
+    "bonne_reponse": 1,
+    "explication": "Former train station."
+  },
+  {
+    "id": 190,
+    "categorie": "History, geography and culture",
+    "question": "Mont-Saint-Michel:",
+    "options": ["Versailles", "Normandy island", "Strasbourg", "Popes"],
+    "bonne_reponse": 1,
+    "explication": "Marvel of the West."
+  },
+  {
+    "id": 191,
+    "categorie": "History, geography and culture",
+    "question": "Top 10 Metropolis:",
+    "options": ["Biarritz", "Lyon", "Saint-Malo", "Carcassonne"],
+    "bonne_reponse": 1,
+    "explication": "Second largest city in France."
+  },
+  {
+    "id": 192,
+    "categorie": "History, geography and culture",
+    "question": "Caribbean Island:",
+    "options": ["Corsica", "Tahiti", "Guadeloupe", "Madagascar"],
+    "bonne_reponse": 2,
+    "explication": "Overseas department."
+  },
+  {
+    "id": 193,
+    "categorie": "History, geography and culture",
+    "question": "French island:",
+    "options": ["Sicily", "Corsica", "Mallorca", "Crete"],
+    "bonne_reponse": 1,
+    "explication": "Mediterranean."
+  },
+  {
+    "id": 194,
+    "categorie": "History, geography and culture",
+    "question": "High mountain:",
+    "options": ["Canigou", "Puy", "Mont Blanc", "Piton"],
+    "bonne_reponse": 2,
+    "explication": "Alps."
+  },
+  {
+    "id": 195,
+    "categorie": "History, geography and culture",
+    "question": "Indian Ocean Island:",
+    "options": ["Reunion", "Martinique", "New Caledonia", "Saint-Pierre"],
+    "bonne_reponse": 0,
+    "explication": "DROM (Overseas Department/Region)."
+  },
+  {
+    "id": 196,
+    "categorie": "History, geography and culture",
+    "question": "Brazil border:",
+    "options": ["Guadeloupe", "French Guiana", "Martinique", "Polynesia"],
+    "bonne_reponse": 1,
+    "explication": "Amazonia."
+  },
+  {
+    "id": 197,
+    "categorie": "History, geography and culture",
+    "question": "Ariane rocket:",
+    "options": ["Paris", "Toulouse", "Kourou", "Brest"],
+    "bonne_reponse": 2,
+    "explication": "French Guiana."
+  },
+  {
+    "id": 198,
+    "categorie": "History, geography and culture",
+    "question": "Metropolitan sea borders:",
+    "options": ["Pacific", "Atlantic/Channel/Mediterranean", "Red", "Indian"],
+    "bonne_reponse": 1,
+    "explication": "Multiple coasts."
+  },
+  {
+    "id": 199,
+    "categorie": "History, geography and culture",
+    "question": "Sea France/England:",
+    "options": ["Baltic", "Mediterranean", "English Channel", "Caspian"],
+    "bonne_reponse": 2,
+    "explication": "North-West."
+  },
+  {
+    "id": 200,
+    "categorie": "History, geography and culture",
+    "question": "DROM Island:",
+    "options": ["Mauritius", "Madagascar", "Haiti", "Martinique"],
+    "bonne_reponse": 3,
+    "explication": "Caribbean."
+  },
+  {
+    "id": 201,
+    "categorie": "History, geography and culture",
+    "question": "France overseas:",
+    "options": ["Embassies", "Outside Europe", "Neighbors", "Former colonies"],
+    "bonne_reponse": 1,
+    "explication": "Territories of the Republic."
+  },
+  {
+    "id": 202,
+    "categorie": "History, geography and culture",
+    "question": "Population 2025:",
+    "options": ["45M", "68M", "90M", "120M"],
+    "bonne_reponse": 1,
+    "explication": "Current estimate."
+  },
+  {
+    "id": 203,
+    "categorie": "History, geography and culture",
+    "question": "Seaport:",
+    "options": ["Marseille", "Nice", "Bordeaux", "Nantes"],
+    "bonne_reponse": 0,
+    "explication": "Mediterranean."
+  },
+  {
+    "id": 204,
+    "categorie": "History, geography and culture",
+    "question": "Metropolitan regions:",
+    "options": ["10", "13", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "Since 2016."
+  },
+  {
+    "id": 205,
+    "categorie": "History, geography and culture",
+    "question": "Mountains France/Spain:",
+    "options": ["Jura", "Massif Central", "Alps", "Pyrenees"],
+    "bonne_reponse": 3,
+    "explication": "South-West."
+  },
+  {
+    "id": 206,
+    "categorie": "History, geography and culture",
+    "question": "Island southeast Africa:",
+    "options": ["Martinique", "Corsica", "Reunion", "Tahiti"],
+    "bonne_reponse": 2,
+    "explication": "Indian Ocean."
+  },
+  {
+    "id": 207,
+    "categorie": "History, geography and culture",
+    "question": "Capital of Auvergne-Rhône-Alpes:",
+    "options": ["Grenoble", "Clermont", "Lyon", "Saint-Étienne"],
+    "bonne_reponse": 2,
+    "explication": "Regional capital."
+  },
+  {
+    "id": 208,
+    "categorie": "History, geography and culture",
+    "question": "Capital of Brittany:",
+    "options": ["Brest", "Rennes", "Quimper", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Ille-et-Vilaine."
+  },
+  {
+    "id": 209,
+    "categorie": "History, geography and culture",
+    "question": "Capital of PACA (Provence-Alpes-Côte d'Azur):",
+    "options": ["Nice", "Toulon", "Marseille", "Avignon"],
+    "bonne_reponse": 2,
+    "explication": "Bouches-du-Rhône."
+  },
+  {
+    "id": 210,
+    "categorie": "History, geography and culture",
+    "question": "101st department:",
+    "options": ["New Caledonia", "Saint Barts", "Mayotte", "Wallis"],
+    "bonne_reponse": 2,
+    "explication": "Since 2011."
+  },
+  {
+    "id": 211,
+    "categorie": "History, geography and culture",
+    "question": "Ski region:",
+    "options": ["Brittany", "Normandy", "Auvergne-Rhône-Alpes", "Île-de-France"],
+    "bonne_reponse": 2,
+    "explication": "Alpine massif."
+  },
+  {
+    "id": 212,
+    "categorie": "History, geography and culture",
+    "question": "River in Paris:",
+    "options": ["Loire", "Seine", "Rhône", "Garonne"],
+    "bonne_reponse": 1,
+    "explication": "Crosses the capital."
+  },
+  {
+    "id": 213,
+    "categorie": "Living in French society",
+    "question": "Declare a birth:",
+    "options": ["Prefecture", "Town hall of birthplace", "Police station", "Maternity ward"],
+    "bonne_reponse": 1,
+    "explication": "Civil status service."
+  },
+  {
+    "id": 214,
+    "categorie": "Living in French society",
+    "question": "Action a tenant is free to take:",
+    "options": ["Load-bearing wall", "Sublet", "Paint/Frames", "No rent"],
+    "bonne_reponse": 2,
+    "explication": "Arrangement without transformation."
+  },
+  {
+    "id": 215,
+    "categorie": "Living in French society",
+    "question": "Legal marriage:",
+    "options": ["Religious", "Civil at town hall", "Lawyer", "Notary"],
+    "bonne_reponse": 1,
+    "explication": "Only the mayor legally officiates."
+  },
+  {
+    "id": 216,
+    "categorie": "Living in French society",
+    "question": "Disabled parking spot:",
+    "options": ["5 min", "Forbidden without card", "Pregnant women", "Sunday"],
+    "bonne_reponse": 1,
+    "explication": "€135 fine."
+  },
+  {
+    "id": 217,
+    "categorie": "Living in French society",
+    "question": "Broken dishwasher:",
+    "options": ["Sidewalk", "Yellow bin", "Forest", "Waste collection center/Bulky waste"],
+    "bonne_reponse": 2,
+    "explication": "Environmental protection."
+  },
+  {
+    "id": 218,
+    "categorie": "Living in French society",
+    "question": "Declare a child:",
+    "options": ["Married", "Any birth", "First one", "French"],
+    "bonne_reponse": 1,
+    "explication": "Universal obligation."
+  },
+  {
+    "id": 219,
+    "categorie": "Living in French society",
+    "question": "Birth deadline:",
+    "options": ["5 days", "Year", "School", "Same day"],
+    "bonne_reponse": 0,
+    "explication": "Strict legal deadline."
+  },
+  {
+    "id": 220,
+    "categorie": "Living in French society",
+    "question": "Call the police:",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 1,
+    "explication": "Emergency number."
+  },
+  {
+    "id": 221,
+    "categorie": "Living in French society",
+    "question": "Call SAMU (medical emergency):",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 0,
+    "explication": "Medical emergency."
+  },
+  {
+    "id": 222,
+    "categorie": "Living in French society",
+    "question": "School registration:",
+    "options": ["Prefecture", "Town hall", "Police station", "Department"],
+    "bonne_reponse": 1,
+    "explication": "Local school service."
+  },
+  {
+    "id": 223,
+    "categorie": "Living in French society",
+    "question": "Divorce parental authority:",
+    "options": ["Mother", "Father", "Judge", "Both parents"],
+    "bonne_reponse": 3,
+    "explication": "Maintenance of the bond."
+  },
+  {
+    "id": 224,
+    "categorie": "Living in French society",
+    "question": "Lawyer assistance:",
+    "options": ["APL", "AME", "Legal aid (Aide juridictionnelle)", "RSA"],
+    "bonne_reponse": 2,
+    "explication": "Access to justice."
+  },
+  {
+    "id": 225,
+    "categorie": "Living in French society",
+    "question": "Request a divorce:",
+    "options": ["Husband", "Wife", "Either one/Both", "Mayor"],
+    "bonne_reponse": 2,
+    "explication": "Equality of spouses."
+  },
+  {
+    "id": 226,
+    "categorie": "Living in French society",
+    "question": "Health reimbursement:",
+    "options": ["CPAM", "Prefecture", "France Travail", "Town hall"],
+    "bonne_reponse": 0,
+    "explication": "Social Security."
+  },
+  {
+    "id": 227,
+    "categorie": "Living in French society",
+    "question": "Contraception:",
+    "options": ["Forbidden", "Free and cost-free for youth", "Husband's agreement", "Married adults"],
+    "bonne_reponse": 1,
+    "explication": "Sexual health right."
+  },
+  {
+    "id": 228,
+    "categorie": "Living in French society",
+    "question": "Health confidentiality:",
+    "options": ["Police file", "Medical secrecy", "Hide illness", "Employer's right"],
+    "bonne_reponse": 1,
+    "explication": "Privacy."
+  },
+  {
+    "id": 229,
+    "categorie": "Living in French society",
+    "question": "Carte Vitale:",
+    "options": ["Care reimbursement", "Airplane", "Taxes", "Europe"],
+    "bonne_reponse": 0,
+    "explication": "Electronic care sheet."
+  },
+  {
+    "id": 230,
+    "categorie": "Living in French society",
+    "question": "Mutual insurance (Mutuelle):",
+    "options": ["Replaces Secu", "Completes Secu", "Rent", "Free doctor"],
+    "bonne_reponse": 1,
+    "explication": "Complementary part."
+  },
+  {
+    "id": 231,
+    "categorie": "Living in French society",
+    "question": "Third-party payment (Tiers payant):",
+    "options": ["Tax", "X3", "No advance payment", "Paid in 3X"],
+    "bonne_reponse": 2,
+    "explication": "Direct coverage."
+  },
+  {
+    "id": 232,
+    "categorie": "Living in French society",
+    "question": "Health insurance:",
+    "options": ["Mandatory for residents", "Optional", "French only", "If poor"],
+    "bonne_reponse": 0,
+    "explication": "Universal protection."
+  },
+  {
+    "id": 233,
+    "categorie": "Living in French society",
+    "question": "Abortion possible?",
+    "options": ["No", "Yes (IVG)", "If medical danger", "Father's agreement"],
+    "bonne_reponse": 1,
+    "explication": "Veil Law."
+  },
+  {
+    "id": 234,
+    "categorie": "Living in French society",
+    "question": "Undeclared work:",
+    "options": ["Legal for small jobs", "Offense", "Tolerance", "Probation period"],
+    "bonne_reponse": 1,
+    "explication": "Concealed work."
+  },
+  {
+    "id": 235,
+    "categorie": "Living in French society",
+    "question": "SMIC:",
+    "options": ["Medical", "Legal minimum wage", "Union", "Company"],
+    "bonne_reponse": 1,
+    "explication": "Minimum income."
+  },
+  {
+    "id": 236,
+    "categorie": "Living in French society",
+    "question": "Looking for a job:",
+    "options": ["France Travail/CV", "Prefecture", "Wait", "Town hall tax"],
+    "bonne_reponse": 0,
+    "explication": "Proactive approach."
+  },
+  {
+    "id": 237,
+    "categorie": "Living in French society",
+    "question": "Working time:",
+    "options": ["30h", "35h", "39h", "40h"],
+    "bonne_reponse": 1,
+    "explication": "Legal duration."
+  },
+  {
+    "id": 238,
+    "categorie": "Living in French society",
+    "question": "Parental leave:",
+    "options": ["Mother", "Father", "Employee for 1 year", "Grandparents"],
+    "bonne_reponse": 2,
+    "explication": "Parental diversity."
+  },
+  {
+    "id": 239,
+    "categorie": "Living in French society",
+    "question": "Foreign entrepreneur:",
+    "options": ["Forbidden", "If residence permit allows", "If married to French", "Building"],
+    "bonne_reponse": 1,
+    "explication": "Freedom of enterprise."
+  },
+  {
+    "id": 240,
+    "categorie": "Living in French society",
+    "question": "Female entrepreneur:",
+    "options": ["Yes freely", "Forbidden", "Husband's agreement", "Fashion/Beauty"],
+    "bonne_reponse": 0,
+    "explication": "Equality of rights."
+  },
+  {
+    "id": 241,
+    "categorie": "Living in French society",
+    "question": "Rules at work:",
+    "options": ["Civil Code", "Labor Code/Convention/Contract", "Town hall regulation", "DDHC"],
+    "bonne_reponse": 1,
+    "explication": "Legal framework."
+  },
+  {
+    "id": 242,
+    "categorie": "Living in French society",
+    "question": "Labor Court (Prud'hommes):",
+    "options": ["Merchants", "Individual labor disputes", "Truck driver", "Divorces"],
+    "bonne_reponse": 1,
+    "explication": "Parity justice."
+  },
+  {
+    "id": 243,
+    "categorie": "Living in French society",
+    "question": "To unionize:",
+    "options": ["Any worker", "Public only", "French only", "Delegates"],
+    "bonne_reponse": 0,
+    "explication": "Constitutional right."
+  },
+  {
+    "id": 244,
+    "categorie": "Living in French society",
+    "question": "Dismiss a pregnant woman?",
+    "options": ["If absent", "If no means", "No, absolute protection", "If 3rd child"],
+    "bonne_reponse": 2,
+    "explication": "Maternity protection."
+  },
+  {
+    "id": 245,
+    "categorie": "Living in French society",
+    "question": "Mandatory schooling:",
+    "options": ["3 to 16 years", "6 to 14 years", "3 to 18 years", "6 to 18 years"],
+    "bonne_reponse": 0,
+    "explication": "Fundamental right."
+  },
+  {
+    "id": 246,
+    "categorie": "Living in French society",
+    "question": "Sanction for refusing schooling:",
+    "options": ["Warning", "Loss of allowances", "6 months/€7500", "Expulsion"],
+    "bonne_reponse": 2,
+    "explication": "Criminal offense."
+  },
+  {
+    "id": 247,
+    "categorie": "Living in French society",
+    "question": "Parental authority:",
+    "options": ["Physical punishment", "Father decides", "Child's interest/Protect", "Choose job"],
+    "bonne_reponse": 2,
+    "explication": "Minor protection."
+  },
+  {
+    "id": 248,
+    "categorie": "Living in French society",
+    "question": "Accepted reason for absence:",
+    "options": ["Vacation", "Sleeping in", "Illness/Serious event", "Birthday"],
+    "bonne_reponse": 2,
+    "explication": "School attendance."
+  },
+  {
+    "id": 249,
+    "categorie": "Living in French society",
+    "question": "Age of mandatory schooling:",
+    "options": ["14 years", "16 years", "18 years", "Not mandatory"],
+    "bonne_reponse": 1,
+    "explication": "Core education."
+  },
+  {
+    "id": 250,
+    "categorie": "Living in French society",
+    "question": "Schooling starting from:",
+    "options": ["2 years", "3 years", "6 years", "7 years"],
+    "bonne_reponse": 1,
+    "explication": "Since 2019."
+  },
+  {
+    "id": 251,
+    "categorie": "Living in French society",
+    "question": "After elementary school:",
+    "options": ["High school", "University", "Middle school (Collège)", "Kindergarten"],
+    "bonne_reponse": 2,
+    "explication": "Secondary cycle."
+  },
+  {
+    "id": 252,
+    "categorie": "Living in French society",
+    "question": "Student's parent right:",
+    "options": ["Vote for representatives", "Choose program", "Enter class", "Punish children"],
+    "bonne_reponse": 0,
+    "explication": "Co-education."
+  },
+  {
+    "id": 253,
+    "categorie": "Living in French society",
+    "question": "Child not speaking French:",
+    "options": ["No school", "UPE2A systems", "Private lessons", "Foreigner schools"],
+    "bonne_reponse": 1,
+    "explication": "School inclusion."
+  },
+  {
+    "id": 254,
+    "categorie": "Living in French society",
+    "question": "Disabled child:",
+    "options": ["Inclusive school", "Hospitals", "Not mandatory", "More expensive"],
+    "bonne_reponse": 0,
+    "explication": "2005 Law."
+  },
+  {
+    "id": 255,
+    "categorie": "Living in French society",
+    "question": "Paternity leave:",
+    "options": ["3 days", "14 days", "28 days", "3 months"],
+    "bonne_reponse": 2,
+    "explication": "2021 Reform."
+  },
+  {
+    "id": 256,
+    "categorie": "Living in French society",
+    "question": "Physical punishment:",
+    "options": ["Yes", "Hand only", "Forbidden", "If +10 years"],
+    "bonne_reponse": 2,
+    "explication": "2019 anti-spanking law."
+  },
+  {
+    "id": 257,
+    "categorie": "Living in French society",
+    "question": "School bullying:",
+    "options": ["Nothing", "Criminal offense", "Change school", "No police"],
+    "bonne_reponse": 1,
+    "explication": "Protection of the bullied."
+  },
+  {
+    "id": 258,
+    "categorie": "Living in French society",
+    "question": "Workplace harassment:",
+    "options": ["Resignation", "Silence", "Alert/Complaint", "Violence"],
+    "bonne_reponse": 2,
+    "explication": "Employee rights."
+  },
+  {
+    "id": 259,
+    "categorie": "Living in French society",
+    "question": "Occupational medicine:",
+    "options": ["Check simulation", "Health prevention", "Treat family", "Replace general practitioner"],
+    "bonne_reponse": 1,
+    "explication": "Health at work."
+  },
+  {
+    "id": 260,
+    "categorie": "Living in French society",
+    "question": "High school diploma:",
+    "options": ["Brevet", "License", "Baccalaureate (Baccalauréat)", "Master"],
+    "bonne_reponse": 2,
+    "explication": "The Bac."
+  }
+]
