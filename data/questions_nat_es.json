@@ -1,0 +1,3382 @@
+[
+  {
+    "id": 1,
+    "categorie": "Principios y valores de la República",
+    "question": "Completa la letra de La Marsellesa \"Allons enfants de la patrie...\"",
+    "options": [
+      "Le jour de gloire est arrivé ! (¡El día de gloria ha llegado!)",
+      "L'étendard sanglant est levé ! (¡El estandarte sangriento se ha alzado!)",
+      "Marchons, marchons ! (¡Marchemos, marchemos!)",
+      "Contre nous de la tyrannie (Contra nosotros de la tiranía)"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El primer verso del himno nacional francés es seguido inmediatamente por « Le jour de gloire est arrivé ! ». La Marsellesa fue compuesta por Claude Joseph Rouget de Lisle en 1792."
+  },
+  {
+    "id": 2,
+    "categorie": "Principios y valores de la República",
+    "question": "En una entrevista de trabajo, ¿qué se le puede preguntar al candidato?",
+    "options": [
+      "Sus opiniones políticas y creencias religiosas",
+      "Su experiencia profesional y sus diplomas",
+      "Su estado de salud o su historial médico",
+      "Su situación familiar y su intención de tener hijos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La ley francesa prohíbe estrictamente cualquier pregunta relacionada con la vida privada durante la contratación para evitar cualquier forma de discriminación. El empleador solo puede evaluar las competencias."
+  },
+  {
+    "id": 3,
+    "categorie": "Principios y valores de la República",
+    "question": "Declarar los ingresos a las autoridades fiscales es:",
+    "options": [
+      "Opcional si los ingresos no superan el umbral del salario mínimo (SMIC)",
+      "Obligatorio solo para los ciudadanos de nacionalidad francesa",
+      "Una obligación legal anual para todos los residentes fiscales en Francia",
+      "Exclusivamente reservado para los propietarios de bienes inmuebles"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Cada año, toda persona que resida en Francia debe declarar sus ingresos a la administración fiscal, incluso si no está sujeta a impuestos. Es un deber cívico fundamental."
+  },
+  {
+    "id": 4,
+    "categorie": "Principios y valores de la República",
+    "question": "En Francia, los impuestos permiten financiar el gasto público. ¿Qué afirmación es correcta?",
+    "options": [
+      "Están destinados únicamente a pagar a los cargos electos y a los ministros",
+      "Su pago es un paso voluntario dejado a la elección de cada uno",
+      "Se transfieren en su totalidad a los bancos privados nacionales",
+      "Sirven para financiar los servicios públicos como escuelas, hospitales y carreteras"
+    ],
+    "bonne_reponse": 3,
+    "explication": "El impuesto es el principal medio de financiación del Estado. Garantiza el funcionamiento de los servicios públicos (educación, salud, seguridad, infraestructuras) que benefician a toda la población."
+  },
+  {
+    "id": 5,
+    "categorie": "Principios y valores de la República",
+    "question": "La libertad de asociación es:",
+    "options": [
+      "El derecho a crear, unirse o abandonar libremente una asociación sin autorización previa",
+      "La obligación cívica de realizar horas de voluntariado anuales",
+      "Una exención especial que requiere un decreto del Ministro del Interior",
+      "El derecho exclusivo de crear una empresa comercial libre de impuestos"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Garantizada por la famosa ley de 1901, la libertad de asociación permite que varias personas se reúnan libremente con un fin distinto al de repartir beneficios."
+  },
+  {
+    "id": 6,
+    "categorie": "Principios y valores de la República",
+    "question": "La libertad de expresión en las redes sociales en Francia es:",
+    "options": [
+      "Total y absoluta, no se permite ninguna censura",
+      "Enmarcada y limitada por la ley (difamación, insultos, incitación al odio)",
+      "Estrictamente prohibida para cualquier tema de carácter político",
+      "Reservada únicamente para los periodistas que posean un carnet de prensa"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Aunque la libertad de expresión es un derecho fundamental, no es absoluta. La ley condena los abusos como la difamación, los insultos públicos o la incitación al odio racial o religioso."
+  },
+  {
+    "id": 7,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Cuál de estos nombres evoca un símbolo de la República?",
+    "options": [
+      "Jeanne (Juana)",
+      "Joséphine (Josefina)",
+      "Marianne (Mariana)",
+      "Marguerite (Margarita)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Marianne es la figura alegórica de la República Francesa. Encarna los valores de Libertad, Igualdad y Fraternidad."
+  },
+  {
+    "id": 8,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Cuál de estos símbolos representa a la República Francesa?",
+    "options": [
+      "La flor de lis",
+      "La bandera tricolor",
+      "El águila imperial",
+      "La cruz de Lorena"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El artículo 2 de la Constitución de la Quinta República especifica que « el emblema nacional es la bandera tricolor, azul, blanca y roja »."
+  },
+  {
+    "id": 9,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Dónde se puede ver el lema de la República?",
+    "options": [
+      "En el frontón de la mayoría de los edificios públicos, como ayuntamientos y escuelas",
+      "Solo en el interior de los lugares de culto",
+      "En todos los billetes de euro impresos en Francia",
+      "Exclusivamente en las puertas del Palacio del Elíseo"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El lema « Libertad, Igualdad, Fraternidad » está inscrito en las fachadas de los edificios públicos (ayuntamientos, prefecturas, escuelas, tribunales) para recordar los valores fundacionales de la Nación."
+  },
+  {
+    "id": 10,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Cuáles son los símbolos oficiales de la República Francesa?",
+    "options": [
+      "El gallo galo y la baguette",
+      "La Torre Eiffel y el museo del Louvre",
+      "La bandera tricolor, el himno nacional y el lema",
+      "El Presidente de la República y la Asamblea Nacional"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Tal y como los define la Constitución, los símbolos oficiales de Francia son la bandera azul-blanca-roja, el himno de La Marsellesa y el lema Libertad, Igualdad, Fraternidad."
+  },
+  {
+    "id": 11,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Es legal quemar una bandera francesa en público?",
+    "options": [
+      "Sí, es parte de la libertad de expresión",
+      "No, es un delito de ultraje penado por la ley",
+      "Sí, siempre y cuando sea una bandera vieja y dañada",
+      "Solo durante una manifestación autorizada"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El ultraje a la bandera tricolor o al himno nacional, especialmente durante un evento público, es un delito castigado con una fuerte multa (ley de 2003)."
+  },
+  {
+    "id": 12,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Cuándo se creó la Seguridad Social (Sécurité sociale) en Francia?",
+    "options": [
+      "En 1789, durante la Revolución Francesa",
+      "En 1905, con la separación de la Iglesia y el Estado",
+      "En 1958, al crearse la Quinta República",
+      "En 1945, tras el fin de la Segunda Guerra Mundial"
+    ],
+    "bonne_reponse": 3,
+    "explication": "La Seguridad Social fue fundada por ordenanza en octubre de 1945. Su objetivo es proteger a los ciudadanos contra los riesgos de la vida (enfermedad, accidentes laborales, vejez)."
+  },
+  {
+    "id": 13,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué conmemora la fiesta nacional?",
+    "options": [
+      "El Armisticio del 11 de noviembre de 1918",
+      "La proclamación de la Quinta República por Charles de Gaulle",
+      "La toma de la Bastilla (1789) y la Fiesta de la Federación (1790)",
+      "La abolición definitiva de la esclavitud en 1848"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Celebrada el 14 de julio, la fiesta nacional conmemora la toma de la Bastilla (símbolo del fin del absolutismo en 1789) y la Fiesta de la Federación de 1790 (símbolo de la unión de la Nación)."
+  },
+  {
+    "id": 14,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué lleva Marianne en la cabeza?",
+    "options": [
+      "Una corona enjoyada",
+      "Un casco militar",
+      "Una tiara religiosa",
+      "Un gorro frigio (bonnet phrygien)"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Marianne lleva el gorro frigio. En la Antigüedad, este gorro era usado por los esclavos liberados. Fue adoptado durante la Revolución como un poderoso símbolo de emancipación y libertad."
+  },
+  {
+    "id": 15,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué significa la palabra \"fraternidad\" en el lema francés?",
+    "options": [
+      "La solidaridad, la ayuda mutua y la tolerancia entre todos los ciudadanos",
+      "Solo los vínculos biológicos dentro de una misma familia",
+      "La obligación de compartir su vivienda con los más desfavorecidos",
+      "La igualdad estricta de salarios para todos los trabajadores"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La fraternidad es el principio según el cual todos los ciudadanos deben mostrar solidaridad y respeto mutuo, fundando así la cohesión social de la Nación."
+  },
+  {
+    "id": 16,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué símbolo de la República se puede ver en las camisetas de la selección nacional de fútbol de Francia?",
+    "options": [
+      "La flor de lis",
+      "El gallo galo (Le coq gaulois)",
+      "El gorro frigio",
+      "El retrato de Marianne"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El gallo galo es un símbolo popular de Francia, utilizado a menudo para representar al país en competiciones deportivas internacionales."
+  },
+  {
+    "id": 17,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Cuál es el lema de la República Francesa?",
+    "options": [
+      "Paz, Trabajo, Patria",
+      "Libertad, Igualdad, Fraternidad",
+      "Unidad y Solidaridad",
+      "Orden, Progreso, Justicia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Heredado de la Ilustración y de la Revolución de 1789, « Libertad, Igualdad, Fraternidad » es el lema oficial de la República, inscrito en el artículo 2 de la Constitución."
+  },
+  {
+    "id": 18,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué es la libertad de asociación?",
+    "options": [
+      "El derecho a crear una sociedad anónima para obtener beneficios",
+      "La obligación de afiliarse a un sindicato representativo en su empresa",
+      "El derecho a reunirse con otras personas para un proyecto o pasión común",
+      "Un trámite que requiere el acuerdo sistemático del alcalde de la ciudad"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La libertad de asociación (ley de 1901) es un principio democrático que permite a los ciudadanos unirse voluntariamente para actuar colectivamente en los ámbitos cultural, deportivo o social."
+  },
+  {
+    "id": 19,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué es la libertad?",
+    "options": [
+      "La posibilidad de hacer todo lo que uno desea ignorando las leyes",
+      "El derecho a poder hacer todo lo que no perjudique a los demás",
+      "El permiso para imponer las propias opiniones por la fuerza",
+      "La ausencia total de gobierno y reglas de convivencia en sociedad"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Esta es la definición exacta dada por el artículo 4 de la Declaración de los Derechos del Hombre y del Ciudadano de 1789. El ejercicio de la libertad individual está limitado por el respeto a los derechos de los demás."
+  },
+  {
+    "id": 20,
+    "categorie": "Principios y valores de la República",
+    "question": "Según la Constitución, Francia es una República que es...",
+    "options": [
+      "Federal, liberal y descentralizada",
+      "Indivisible, laica, democrática y social",
+      "Soberana, fraternal y europea",
+      "Parlamentaria, unitaria y autoritaria"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El artículo 1 de la Constitución de 1958 define la naturaleza del Estado francés: indivisible (una sola ley para todos), laica (separación de las religiones y el Estado), democrática (el poder para el pueblo) y social (solidaridad)."
+  },
+  {
+    "id": 21,
+    "categorie": "Principios y valores de la República",
+    "question": "¿En qué documento se puede ver a Marianne?",
+    "options": [
+      "El pasaporte internacional de color burdeos",
+      "El permiso de conducir plastificado",
+      "Los sellos postales de uso corriente",
+      "La tarjeta de seguro médico Vitale"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Marianne aparece tradicionalmente en los sellos postales de uso corriente en Francia. Su perfil también está acuñado en las monedas de euro francesas (especialmente en los céntimos)."
+  },
+  {
+    "id": 22,
+    "categorie": "Principios y valores de la República",
+    "question": "Uno de los valores del lema republicano es la Igualdad. ¿Qué significa esto?",
+    "options": [
+      "Que el Estado garantiza el mismo salario para todas las profesiones",
+      "Que todos deben ejercer la misma profesión a lo largo de su vida",
+      "Que la ley es la misma para todos, y todos los ciudadanos tienen los mismos derechos y deberes",
+      "Que los impuestos recaen únicamente sobre las categorías más ricas de la población"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La igualdad republicana es ante todo una igualdad de derechos (artículo 6 de la DDHC de 1789). Garantiza que la justicia, el acceso al empleo público y los deberes fiscales se apliquen a todos por igual."
+  },
+  {
+    "id": 23,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Puede una persona cambiar libremente de religión en Francia?",
+    "options": [
+      "Sí, es un derecho absoluto garantizado por la libertad de conciencia",
+      "No, el estado civil le obliga a mantener la religión de sus padres",
+      "Sí, pero requiere autorización previa del prefecto",
+      "Solo si se trata de una conversión al catolicismo"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La libertad de conciencia, pilar de la laicidad francesa, incluye el derecho a tener una religión, a no tener ninguna, a cambiarla libremente o a abandonarla."
+  },
+  {
+    "id": 24,
+    "categorie": "Principios y valores de la República",
+    "question": "Según el principio de laicidad, ¿qué significa la neutralidad del Estado?",
+    "options": [
+      "La prohibición absoluta de practicar una religión en el territorio",
+      "Que el Estado elige a los sacerdotes, rabinos e imanes",
+      "Que la administración trata a todos los ciudadanos de manera imparcial sin favorecer a ninguna religión",
+      "Que el Estado financia los lugares de culto de todas las religiones por igual"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La neutralidad religiosa del Estado y los servicios públicos significa que la administración no reconoce, no paga ni subvenciona ningún culto. Garantiza la imparcialidad hacia todos los usuarios."
+  },
+  {
+    "id": 25,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué puede hacer un usuario de un servicio público en un ayuntamiento?",
+    "options": [
+      "Exigir ser atendido por un empleado público de su misma religión",
+      "Negarse a ser atendido por una mujer en el mostrador",
+      "Organizar rezos colectivos en la sala de espera",
+      "Llevar un símbolo religioso visible (cruz, kipá, velo) siempre que no altere el orden público"
+    ],
+    "bonne_reponse": 3,
+    "explication": "A diferencia de los empleados de los servicios públicos (funcionarios) que están sujetos a un estricto deber de neutralidad, los usuarios gozan de la libertad de expresar sus creencias religiosas, siempre y cuando respeten el orden público."
+  },
+  {
+    "id": 26,
+    "categorie": "Principios y valores de la República",
+    "question": "En Francia, es posible que el Estado financie:",
+    "options": [
+      "La construcción completa de nuevas mezquitas o templos",
+      "El salario mensual de todos los ministros de culto",
+      "El mantenimiento de edificios religiosos construidos antes de la ley de 1905",
+      "Viajes y peregrinaciones al extranjero organizados por los fieles"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ley de 1905 prohíbe la financiación de los cultos. Sin embargo, los edificios religiosos construidos antes de 1905 (como las grandes catedrales) pasaron a ser propiedad del Estado o los municipios, que por lo tanto garantizan su mantenimiento patrimonial."
+  },
+  {
+    "id": 27,
+    "categorie": "Principios y valores de la República",
+    "question": "¿En qué año se aprobó la ley de separación de las Iglesias y el Estado?",
+    "options": [
+      "En 1789",
+      "En 1881",
+      "En 1905",
+      "En 1958"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ley del 9 de diciembre de 1905 es el texto fundacional de la laicidad francesa moderna. Puso fin al régimen del Concordato, separando de forma permanente el poder político de las instituciones religiosas."
+  },
+  {
+    "id": 28,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué dice la ley de 1905?",
+    "options": [
+      "Prohíbe la práctica de la religión en los espacios públicos",
+      "Obliga al Estado a pagar el salario de los sacerdotes",
+      "Define al catolicismo como la religión oficial de Francia",
+      "Garantiza el libre ejercicio de los cultos y separa las Iglesias del Estado"
+    ],
+    "bonne_reponse": 3,
+    "explication": "El artículo 1 de la ley de 1905 establece: « La República asegura la libertad de conciencia. Garantiza el libre ejercicio de los cultos ». El artículo 2 establece el principio de separación financiera e institucional."
+  },
+  {
+    "id": 29,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué garantiza el principio de laicidad?",
+    "options": [
+      "La obligación de declararse ateo o agnóstico en su entorno profesional",
+      "La igualdad de todos los ciudadanos ante la ley, sin distinción de religión o creencia",
+      "El establecimiento de días festivos adicionales para las religiones minoritarias",
+      "El derecho a cuestionar las enseñanzas científicas en la escuela por motivos religiosos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La laicidad no es un arma contra las religiones, sino un marco legal que permite a quienes creen y a quienes no creen vivir juntos, con los mismos derechos y libertades."
+  },
+  {
+    "id": 30,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué día se celebra oficialmente la laicidad en Francia?",
+    "options": [
+      "El 1 de mayo",
+      "El 14 de julio",
+      "El 9 de diciembre",
+      "El 11 de noviembre"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Día Nacional de la Laicidad se celebra el 9 de diciembre, fecha del aniversario de la promulgación de la ley de separación de las Iglesias y el Estado de 1905."
+  },
+  {
+    "id": 31,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué símbolo religioso se puede llevar en una escuela pública respetando la laicidad?",
+    "options": [
+      "Un símbolo religioso discreto (cruz pequeña, estrella de David, mano de Fátima...)",
+      "Una prenda de vestir que cubra todo el rostro",
+      "Un símbolo grande y llamativo (velo islámico, kipá, cruz grande)",
+      "Ningún símbolo está permitido, incluso si está oculto bajo la ropa"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La ley de 2004 prohíbe el uso de signos o vestimentas por los cuales los estudiantes manifiestan de manera ostensible una afiliación religiosa. Sin embargo, el uso de símbolos religiosos discretos sigue estando permitido."
+  },
+  {
+    "id": 32,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué término designa específicamente el odio o los prejuicios contra los judíos?",
+    "options": [
+      "El racismo",
+      "El antisemitismo",
+      "La islamofobia",
+      "La xenofobia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El antisemitismo designa la hostilidad, los prejuicios o el odio dirigidos específicamente contra los judíos. Como cualquier forma de racismo, es un delito castigado penalmente en Francia."
+  },
+  {
+    "id": 33,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué texto se considera el texto fundacional de la laicidad?",
+    "options": [
+      "La Declaración de los Derechos del Hombre y del Ciudadano de 1789",
+      "El Código Civil de 1804",
+      "La ley de separación de las Iglesias y el Estado de 1905",
+      "La Constitución de la Quinta República de 1958"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ley del 9 de diciembre de 1905 es el pilar de la laicidad en Francia. Puso fin al Concordato y estableció la separación institucional y financiera entre las religiones y el Estado."
+  },
+  {
+    "id": 34,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué institución francesa debe permanecer neutral en materia de religión?",
+    "options": [
+      "Las empresas comerciales privadas",
+      "El Estado y todos los servicios públicos",
+      "Las asociaciones deportivas o culturales",
+      "Los partidos políticos y los sindicatos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El principio de laicidad impone una estricta neutralidad al Estado, a las autoridades locales y a todos los servicios públicos, con el fin de garantizar la igualdad de todos los ciudadanos ante la administración."
+  },
+  {
+    "id": 35,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Qué es la laicidad?",
+    "options": [
+      "La prohibición de cualquier práctica religiosa en territorio francés",
+      "La obligación del Estado de financiar todos los cultos",
+      "El principio de separación entre la sociedad civil y la sociedad religiosa",
+      "La adopción del ateísmo como doctrina oficial del Estado"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La laicidad se basa en la separación del Estado y las organizaciones religiosas. No es una religión de estado (ni tampoco ateísmo), sino el marco que garantiza la libertad de conciencia y de culto para todos."
+  },
+  {
+    "id": 36,
+    "categorie": "Principios y valores de la República",
+    "question": "En la escuela, la carta de la laicidad sirve para:",
+    "options": [
+      "Recordar las reglas de convivencia y garantizar un clima de respeto y neutralidad",
+      "Prohibir a los estudiantes discutir sus orígenes culturales",
+      "Autorizar momentos de oración durante los recreos",
+      "Adaptar los menús del comedor según los requisitos religiosos de cada uno"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Exhibida en todos los establecimientos escolares, la Carta de la Laicidad recuerda cómo la neutralidad de la escuela pública protege a los estudiantes de cualquier proselitismo y les garantiza un entorno de aprendizaje pacífico."
+  },
+  {
+    "id": 37,
+    "categorie": "Principios y valores de la República",
+    "question": "¿Quién debe respetar y garantizar la neutralidad religiosa en los servicios públicos?",
+    "options": [
+      "Solo los usuarios del servicio público",
+      "Los agentes (funcionarios y contratistas) del servicio público",
+      "Solo el alcalde de la ciudad o el ministro",
+      "Absolutamente todos, tanto agentes como visitantes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Los agentes del servicio público encarnan al Estado y están sujetos a una obligación de estricta neutralidad (prohibición de llevar un símbolo religioso). Los usuarios, por su parte, conservan su libertad religiosa."
+  },
+  {
+    "id": 38,
+    "categorie": "Principios y valores de la República",
+    "question": "Una persona declara que no cree en ningún dios. Se puede decir:",
+    "options": [
+      "Que es laica (laïque)",
+      "Que es agnóstica",
+      "Que es atea",
+      "Que es anticlerical"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El ateísmo es el hecho de no creer en ninguna deidad. El agnosticismo es la opinión de que la existencia de un dios es imposible de demostrar. La laicidad protege el derecho a ser creyente, agnóstico o ateo."
+  },
+  {
+    "id": 39,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cómo es nombrado el Primer Ministro?",
+    "options": [
+      "Es elegido por sufragio universal directo por el pueblo",
+      "Es nombrado por el Presidente de la República",
+      "Es elegido por los diputados de la Asamblea Nacional",
+      "Se elige por sorteo entre los senadores de la mayoría"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Según el artículo 8 de la Constitución de la Quinta República, el Presidente de la República nombra al Primer Ministro. Históricamente, la elección refleja la mayoría política presente en la Asamblea Nacional."
+  },
+  {
+    "id": 40,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién puede presentarse como candidato a las elecciones presidenciales?",
+    "options": [
+      "Cualquier ciudadano francés elegible que haya reunido 500 patrocinios (avales) de cargos electos",
+      "Cualquier ciudadano que haya residido en Francia durante más de 10 años",
+      "Solo exministros o parlamentarios",
+      "Cualquier ciudadano de la Unión Europea que resida en Francia"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Para ser candidato al Elíseo, se debe tener la nacionalidad francesa, ser mayor de edad, gozar de sus derechos civiles y políticos, y reunir al menos 500 firmas (patrocinios) de cargos electos."
+  },
+  {
+    "id": 41,
+    "categorie": "Sistema institucional y político",
+    "question": "¿A quién pertenece la soberanía nacional?",
+    "options": [
+      "Al Presidente de la República y su gobierno",
+      "Al Parlamento (Asamblea Nacional y Senado)",
+      "Al pueblo",
+      "Al Consejo Constitucional"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El artículo 3 de la Constitución estipula que « la soberanía nacional pertenece al pueblo que la ejerce por sus representantes y por vía de referéndum »."
+  },
+  {
+    "id": 42,
+    "categorie": "Sistema institucional y político",
+    "question": "¿A quién se elige durante las elecciones municipales?",
+    "options": [
+      "Al prefecto del departamento",
+      "A los diputados de la circunscripción",
+      "A los concejales municipales",
+      "A los consejeros regionales"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Durante las elecciones municipales, los ciudadanos eligen a los miembros del consejo municipal mediante sufragio universal directo. Estos concejales se reúnen posteriormente para elegir al alcalde de entre ellos."
+  },
+  {
+    "id": 43,
+    "categorie": "Sistema institucional y político",
+    "question": "La inscripción en el censo electoral es:",
+    "options": [
+      "Un trámite de pago que se realiza en la prefectura",
+      "Opcional y sin ninguna consecuencia sobre la ciudadanía",
+      "Automática solo para los ciudadanos extranjeros",
+      "Una condición obligatoria para poder votar"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Es imposible votar en Francia sin estar inscrito en el censo electoral. La inscripción es automática para los jóvenes franceses censados a los 18 años, pero requiere un trámite voluntario en caso de mudanza."
+  },
+  {
+    "id": 44,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué condición es necesaria para votar en las elecciones presidenciales?",
+    "options": [
+      "Pagar el impuesto sobre la renta",
+      "Ser ciudadano francés, mayor de edad y estar inscrito en el censo electoral",
+      "Tener un contrato de trabajo indefinido (CDI)",
+      "Haber nacido obligatoriamente en Francia metropolitana"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El derecho de voto en las elecciones nacionales (incluidas las presidenciales) está estrictamente reservado a los ciudadanos franceses, de 18 años o más, que gocen de sus derechos civiles y políticos."
+  },
+  {
+    "id": 45,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué condición se debe cumplir para ser candidato en las elecciones municipales?",
+    "options": [
+      "Ser ciudadano francés o nacional de la Unión Europea residente en el municipio",
+      "Debe ser obligatoriamente propietario de bienes inmuebles en el municipio",
+      "Tener al menos 25 años",
+      "Ser designado expresamente por el prefecto del departamento"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Las elecciones municipales (así como las elecciones europeas) están abiertas a los ciudadanos franceses y a los ciudadanos de otros países de la Unión Europea que residan en Francia (excepto para llegar a ser alcalde)."
+  },
+  {
+    "id": 46,
+    "categorie": "Sistema institucional y político",
+    "question": "De entre estas autoridades, ¿cuál es elegida (por votación)?",
+    "options": [
+      "El prefecto",
+      "El ministro",
+      "El fiscal de la República (Fiscal general)",
+      "El alcalde"
+    ],
+    "bonne_reponse": 3,
+    "explication": "El alcalde es un funcionario local elegido por sufragio universal (indirecto). El prefecto, el ministro y el fiscal, en cambio, son nombrados por el poder ejecutivo."
+  },
+  {
+    "id": 47,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuáles son las funciones del alcalde?",
+    "options": [
+      "Votar las leyes en la Asamblea Nacional",
+      "Gestionar el presupuesto del municipio, administrar el estado civil y celebrar matrimonios",
+      "Impartir justicia en el tribunal superior",
+      "Dirigir el ejército y la política internacional"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El alcalde es a la vez el ejecutivo del municipio (gestión de escuelas primarias, urbanismo) y el representante del Estado en su ciudad (publicación de leyes, estado civil, matrimonios)."
+  },
+  {
+    "id": 48,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién puede presentarse como candidato a las elecciones presidenciales?",
+    "options": [
+      "Solo altos funcionarios graduados de las grandes escuelas",
+      "Ciudadanos europeos que residen en Francia desde hace más de 5 años",
+      "Cualquier ciudadano francés mayor de edad, inscrito en el censo electoral y que haya obtenido 500 patrocinios (avales)",
+      "Ciudadanos de cualquier país si demuestran que pagan impuestos en Francia"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Esta es la elección principal de la Quinta República. Está abierta a todos los ciudadanos franceses que cumplan los criterios de mayoría de edad y probidad, siempre que demuestren anclaje político a través de los 500 patrocinios."
+  },
+  {
+    "id": 49,
+    "categorie": "Sistema institucional y político",
+    "question": "Una persona, sin acceso a internet, quiere inscribirse en el censo electoral para poder votar en las próximas elecciones políticas. ¿Dónde puede inscribirse?",
+    "options": [
+      "En la comisaría de policía o gendarmería",
+      "En la prefectura de su región",
+      "En el ayuntamiento (mairie) de su domicilio",
+      "En la oficina de impuestos local"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los censos electorales se gestionan localmente. La inscripción presencial se hace siempre en la oficina de estado civil o de elecciones del ayuntamiento de su residencia, con un documento de identidad y un justificante de domicilio."
+  },
+  {
+    "id": 50,
+    "categorie": "Sistema institucional y político",
+    "question": "¿A qué edad se puede ser votante?",
+    "options": [
+      "A los 16 años",
+      "A los 18 años",
+      "A los 21 años",
+      "A los 25 años"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La edad de votación se fijó en 18 años desde una ley de 1974 (bajo la presidencia de Valéry Giscard d'Estaing), reduciendo la mayoría de edad que antes estaba fijada en 21 años."
+  },
+  {
+    "id": 51,
+    "categorie": "Sistema institucional y político",
+    "question": "En Francia, ¿es obligatorio votar?",
+    "options": [
+      "Sí, la abstención injustificada se castiga con una multa",
+      "No, es un derecho y un deber cívico, pero ninguna ley obliga a votar",
+      "Sí, pero obligatoriamente solo para las elecciones presidenciales",
+      "Solo para las personas que trabajan en la función pública"
+    ],
+    "bonne_reponse": 1,
+    "explication": "A diferencia de algunos países, el voto no es una obligación legalmente sancionada en Francia (a excepción de los grandes electores durante las elecciones senatoriales). Sin embargo, sigue siendo el deber cívico por excelencia."
+  },
+  {
+    "id": 52,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Tenemos derecho a no respetar una ley?",
+    "options": [
+      "Sí, si consideramos personalmente que es injusta o contraria a nuestros principios",
+      "No, la ignorancia de la ley no es excusa y todos deben someterse a ella",
+      "Sí, con el acuerdo escrito de un juez o del alcalde de la ciudad",
+      "Sí, con la condición de poder demostrar que uno desconocía su existencia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El adagio jurídico « la ignorancia de la ley no exime de su cumplimiento (nul n'est censé ignorer la loi) » fundamenta el Estado de derecho. Las reglas se aplican a todos de forma universal para garantizar la convivencia y la protección de todos."
+  },
+  {
+    "id": 53,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cómo se designan los diputados (Députés)?",
+    "options": [
+      "Son nombrados por el Presidente de la República a propuesta del Primer Ministro",
+      "Se eligen por sorteo entre los ciudadanos inscritos en el censo electoral",
+      "Son elegidos por sufragio universal directo por los ciudadanos",
+      "Son designados por los grandes electores (alcaldes, consejeros departamentales)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los 577 diputados son los representantes directos del pueblo en la Asamblea Nacional. Son elegidos durante las elecciones legislativas, por voto mayoritario a dos vueltas en cada circunscripción."
+  },
+  {
+    "id": 54,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién vota las leyes?",
+    "options": [
+      "El Presidente de la República",
+      "El Gobierno y sus ministros",
+      "El Parlamento (Asamblea Nacional y Senado)",
+      "El Consejo de Estado"
+    ],
+    "bonne_reponse": 2,
+    "explication": "En Francia, la elaboración de leyes puede ser iniciada por el Gobierno o el Parlamento, pero el poder exclusivo para votar y aprobar estas leyes pertenece al Parlamento (diputados y senadores)."
+  },
+  {
+    "id": 55,
+    "categorie": "Sistema institucional y político",
+    "question": "La separación de poderes es un principio fundamental. ¿Cuáles son los tres poderes involucrados?",
+    "options": [
+      "El poder político, el poder económico y el poder mediático",
+      "El poder legislativo, el poder ejecutivo y el poder judicial",
+      "El poder nacional, el poder regional y el poder local",
+      "El poder civil, el poder penal y el poder administrativo"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La democracia se basa en la separación teorizada por Montesquieu: el ejecutivo (que aplica las leyes), el legislativo (que vota las leyes) y el judicial (que supervisa su aplicación y penaliza)."
+  },
+  {
+    "id": 56,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué es el Estado de derecho (État de droit)?",
+    "options": [
+      "Un país gobernado exclusivamente por profesionales del derecho",
+      "Un sistema institucional en el que el poder público (el Estado) está sometido al respeto de la ley",
+      "Una forma de dictadura militar justificada por el mantenimiento del orden",
+      "Un sistema donde todas las leyes son abolidas a favor de las costumbres"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En un Estado de derecho, las instituciones públicas, los gobernantes y los ciudadanos deben respetar las leyes vigentes. Un juez independiente se encarga de verificar este cumplimiento."
+  },
+  {
+    "id": 57,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es la duración del mandato del consejo municipal y del alcalde?",
+    "options": [
+      "4 años",
+      "5 años",
+      "6 años",
+      "7 años"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El nivel democrático local se renueva cada seis años durante las elecciones municipales. Por lo tanto, el alcalde y sus concejales son elegidos por un mandato de 6 años."
+  },
+  {
+    "id": 58,
+    "categorie": "Sistema institucional y político",
+    "question": "¿A quién se elige durante las elecciones legislativas?",
+    "options": [
+      "A los senadores",
+      "A los alcaldes",
+      "A los diputados",
+      "A los representantes en el Parlamento Europeo"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Las elecciones legislativas sirven específicamente para designar a los diputados que se sentarán en el Palacio Borbón (Asamblea Nacional) para votar las leyes y supervisar la acción del gobierno."
+  },
+  {
+    "id": 59,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es la duración del mandato del Presidente de la República Francesa?",
+    "options": [
+      "4 años",
+      "5 años",
+      "6 años",
+      "7 años"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El mandato presidencial es de 5 años. Es un « quinquennat », introducido en el año 2000 tras un referéndum, sustituyendo así al antiguo mandato de 7 años (el « septennat »)."
+  },
+  {
+    "id": 60,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es la duración del mandato de los diputados?",
+    "options": [
+      "4 años",
+      "5 años",
+      "6 años",
+      "7 años"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Los diputados son elegidos por 5 años, una duración modelada sobre el mandato presidencial para facilitar la formación de una mayoría gubernamental estable en la Asamblea Nacional."
+  },
+  {
+    "id": 61,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es la duración del mandato de los senadores?",
+    "options": [
+      "4 años",
+      "5 años",
+      "6 años",
+      "7 años"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los senadores son elegidos por un mandato de seis años por sufragio universal indirecto por un colegio electoral de grandes electores (alcaldes, consejeros departamentales y regionales). La mitad del Senado se renueva cada tres años."
+  },
+  {
+    "id": 62,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién dirige la acción del gobierno?",
+    "options": [
+      "El Presidente de la República",
+      "El Primer Ministro",
+      "El Presidente de la Asamblea Nacional",
+      "El Consejo de Estado"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Según el artículo 21 de la Constitución de la Quinta República, es el Primer Ministro quien « dirige la acción del Gobierno ». Es responsable de la Defensa Nacional y asegura la ejecución de las leyes."
+  },
+  {
+    "id": 63,
+    "categorie": "Sistema institucional y político",
+    "question": "En Francia, ¿es posible afiliarse a un partido político?",
+    "options": [
+      "No, esto está estrictamente reservado para los cargos electos de la República",
+      "Sí, es un derecho garantizado por la Constitución para todos los ciudadanos",
+      "Solo con autorización escrita de la prefectura",
+      "Solo durante los períodos electorales oficiales"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Afiliarse a un partido político es totalmente libre. El artículo 4 de la Constitución consagra el papel de los partidos políticos y garantiza que « se forman y ejercen su actividad libremente »."
+  },
+  {
+    "id": 64,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién penaliza al autor de un robo?",
+    "options": [
+      "La policía municipal o la gendarmería nacional",
+      "La víctima del robo, como reparación por su perjuicio",
+      "El alcalde de la ciudad donde ocurrió el delito",
+      "La autoridad judicial (un juez o un tribunal)"
+    ],
+    "bonne_reponse": 3,
+    "explication": "En un Estado de derecho, solo el sistema de justicia (el poder judicial) tiene la autoridad para juzgar y pronunciar una sentencia contra una persona declarada culpable. La policía registra el delito y lleva a cabo la investigación."
+  },
+  {
+    "id": 65,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién gestiona los colegios públicos (educación secundaria obligatoria / collèges)?",
+    "options": [
+      "El municipio (el ayuntamiento)",
+      "El departamento (el Consejo Departamental)",
+      "La región (el Consejo Regional)",
+      "El Estado central directamente"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Desde las leyes de descentralización, la construcción, mantenimiento, equipamiento y funcionamiento material de los colegios públicos (así como la gestión del personal no docente) recaen en la jurisdicción del Consejo Departamental."
+  },
+  {
+    "id": 66,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién gestiona las escuelas primarias y preescolares públicas?",
+    "options": [
+      "El municipio (el ayuntamiento / La commune)",
+      "El departamento (el Consejo Departamental)",
+      "La región (el Consejo Regional)",
+      "El Ministerio de Educación Nacional exclusivamente"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La responsabilidad de las escuelas públicas de primer grado (preescolar y primaria) recae en los municipios. El alcalde es responsable de los edificios, los comedores y el personal municipal (como los ATSEM)."
+  },
+  {
+    "id": 67,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cómo se designan los alcaldes?",
+    "options": [
+      "Son nombrados directamente por el prefecto del departamento",
+      "Son elegidos directamente por sufragio universal por los ciudadanos",
+      "Son elegidos por el consejo municipal de entre sus miembros",
+      "Se eligen por sorteo entre los habitantes de la ciudad inscritos en los censos"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La elección del alcalde es por sufragio universal indirecto: durante las elecciones municipales, los ciudadanos eligen a los miembros del consejo municipal, y son estos últimos quienes luego eligen al alcalde durante la primera reunión del consejo."
+  },
+  {
+    "id": 68,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué autoridad local es responsable del transporte regional?",
+    "options": [
+      "El municipio",
+      "El departamento",
+      "La región (Région)",
+      "El gobierno (Ministerio de Transportes)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Consejo Regional gestiona muchas competencias en todo su territorio, en particular el desarrollo económico, los institutos (lycées) y la organización del transporte no urbano (trenes TER y autobuses regionales)."
+  },
+  {
+    "id": 69,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es una de las formas posibles de modificar la Constitución?",
+    "options": [
+      "Una simple decisión unilateral del Presidente de la República",
+      "El voto de una ley ordinaria por mayoría simple de los diputados",
+      "El referéndum, donde el pueblo aprueba directamente la revisión",
+      "Una petición ciudadana que reúna 100.000 firmas en línea"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El artículo 89 de la Constitución describe su revisión. El proyecto de ley constitucional debe ser votado en términos idénticos por ambas asambleas, luego validado ya sea por referéndum popular o por el Parlamento reunido en Congreso (mayoría de 3/5)."
+  },
+  {
+    "id": 70,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién actúa como presidente interino de la República en caso de fallecimiento?",
+    "options": [
+      "El Primer Ministro",
+      "El Presidente del Senado",
+      "El Presidente de la Asamblea Nacional",
+      "El Presidente del Consejo Constitucional"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En caso de vacante en la Presidencia de la República (fallecimiento, dimisión o impedimento permanente), es el Presidente del Senado quien asume temporalmente las funciones de Jefe de Estado hasta que se celebren elecciones anticipadas."
+  },
+  {
+    "id": 71,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el papel del Consejo Constitucional?",
+    "options": [
+      "Redactar y votar todas las nuevas leyes",
+      "Juzgar los crímenes más graves durante los grandes juicios penales",
+      "Verificar que las leyes cumplan con la Constitución y asegurar la regularidad de las elecciones",
+      "Dirigir las operaciones militares de Francia en el extranjero"
+    ],
+    "bonne_reponse": 2,
+    "explication": "A menudo apodado los \"Sabios\", el Consejo Constitucional es el supremo garante del Estado de derecho. Verifica la constitucionalidad de las leyes antes de su promulgación y supervisa el correcto desarrollo de las elecciones nacionales (presidenciales, legislativas, referéndums)."
+  },
+  {
+    "id": 72,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué condición es obligatoria para presentarse a las elecciones presidenciales?",
+    "options": [
+      "Estar casado y tener una situación profesional estable",
+      "Haber completado obligatoriamente el servicio militar o civil",
+      "Poseer la nacionalidad francesa",
+      "Demostrar que se pagan más de 5.000 euros en impuestos al año"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Para aspirar al cargo más alto en Francia, se requieren varias condiciones: la primera y más fundamental es tener la nacionalidad francesa. También se debe ser mayor de edad, gozar de sus derechos cívicos y reunir 500 patrocinios."
+  },
+  {
+    "id": 73,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuántos departamentos (départements) hay en Francia?",
+    "options": [
+      "13",
+      "50",
+      "101",
+      "348"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El territorio de la República Francesa está estructurado en 101 departamentos: 96 en Francia metropolitana, más 5 departamentos y regiones de ultramar (Guadalupe, Martinica, Guayana Francesa, Reunión, Mayotte)."
+  },
+  {
+    "id": 74,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cómo está organizada la división administrativa de Francia?",
+    "options": [
+      "En estados federales autónomos que poseen sus propias leyes",
+      "En cantones soberanos e independientes",
+      "Principalmente en municipios, departamentos y regiones",
+      "Solo en metrópolis urbanas gigantes"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Francia es un estado unitario descentralizado. Su administración territorial descansa en tres niveles principales de autoridades locales: el municipio (commune), el departamento y la región."
+  },
+  {
+    "id": 75,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién representa al Estado en un departamento?",
+    "options": [
+      "El prefecto (Le préfet)",
+      "El alcalde de la ciudad principal",
+      "El diputado de la circunscripción",
+      "El presidente del consejo departamental"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El prefecto es el representante directo del Estado y del Gobierno en el departamento. Nombrado por el Presidente de la República, está a cargo de los intereses nacionales, la supervisión administrativa y el mantenimiento del orden público."
+  },
+  {
+    "id": 76,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el papel del Presidente de la República?",
+    "options": [
+      "Gestionar directamente los servicios públicos locales (hospitales, carreteras, escuelas)",
+      "Es el Jefe de Estado, el comandante en jefe de las fuerzas armadas y el garante del respeto de la Constitución",
+      "Juzgar en última instancia a todos los ciudadanos condenados",
+      "Fijar personalmente el importe de los impuestos locales para cada municipio"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Verdadera piedra angular de las instituciones de la Quinta República, el Presidente asegura el respeto de la Constitución, asegura el funcionamiento regular de los poderes públicos y encarna la independencia nacional."
+  },
+  {
+    "id": 77,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el papel del Primer Ministro?",
+    "options": [
+      "Dirigir la acción del gobierno y asegurar la ejecución de las leyes",
+      "Presidir las sesiones diarias de la Asamblea Nacional",
+      "Tener el poder exclusivo de declarar la guerra a países extranjeros",
+      "Representar unilateralmente a Francia en el Consejo de Seguridad de la ONU"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Nombrado por el Presidente, el Primer Ministro forma y dirige el Gobierno. Es responsable de la política de la Nación ante la Asamblea Nacional y dirige la administración civil para ejecutar las leyes."
+  },
+  {
+    "id": 78,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el papel del Defensor de los Derechos (Défenseur des droits)?",
+    "options": [
+      "Asegurar la defensa del Estado durante los grandes juicios internacionales",
+      "Proporcionar abogados gratuitos a personas sin recursos",
+      "Asegurar el respeto de los derechos y libertades y luchar contra la discriminación",
+      "Reemplazar a las fuerzas del orden para resolver conflictos vecinales"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Consagrado en la Constitución desde 2008, el Defensor de los Derechos es una autoridad administrativa independiente. Cualquier persona que se considere víctima de discriminación o de una injusticia por parte de un servicio público puede recurrir a él de forma gratuita."
+  },
+  {
+    "id": 79,
+    "categorie": "Sistema institucional y político",
+    "question": "¿En qué año se creó la ciudadanía europea?",
+    "options": [
+      "En 1945",
+      "En 1957",
+      "En 1992",
+      "En 2002"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ciudadanía de la Unión se estableció mediante el Tratado de Maastricht, firmado en 1992. Complementa a la ciudadanía nacional y otorga derechos adicionales, como la libertad de circulación o el derecho a votar en las elecciones locales y europeas."
+  },
+  {
+    "id": 80,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el último Estado que se unió a la Unión Europea en 2013?",
+    "options": [
+      "Rumanía",
+      "Croacia",
+      "Polonia",
+      "Ucrania"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Croacia se unió oficialmente a la Unión Europea el 1 de julio de 2013, convirtiéndose en el 28º Estado miembro en ese momento (antes de la salida del Reino Unido)."
+  },
+  {
+    "id": 81,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién compuso el himno de la Unión Europea?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Frédéric Chopin",
+      "Ludwig van Beethoven",
+      "Claude Debussy"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El himno europeo es un extracto del preludio de la \"Oda a la Alegría\", el movimiento final de la Novena Sinfonía compuesta por Ludwig van Beethoven en 1823, que simboliza el ideal de la fraternidad humana."
+  },
+  {
+    "id": 82,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuándo se celebra el Día de Europa?",
+    "options": [
+      "El 1 de mayo",
+      "El 8 de mayo",
+      "El 9 de mayo",
+      "El 14 de julio"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Cada 9 de mayo, el Día de Europa conmemora la \"Declaración Schuman\" del 9 de mayo de 1950. Este discurso de Robert Schuman se considera el acto fundacional de la construcción europea."
+  },
+  {
+    "id": 83,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Dónde está la sede del Banco Central Europeo?",
+    "options": [
+      "En París, Francia",
+      "En Bruselas, Bélgica",
+      "En Fráncfort del Meno, Alemania",
+      "En Ginebra, Suiza"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Banco Central Europeo (BCE), responsable de la estabilidad de precios dentro de la zona del euro, tiene su sede oficial en Fráncfort, la capital financiera de Alemania."
+  },
+  {
+    "id": 84,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Dónde está la sede de la Comisión Europea?",
+    "options": [
+      "En Estrasburgo, Francia",
+      "En Bruselas, Bélgica",
+      "En Luxemburgo, Luxemburgo",
+      "En Berlín, Alemania"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El corazón administrativo del ejecutivo europeo se encuentra en Bruselas, Bélgica. La Comisión Europea es responsable de proponer leyes e implementar las políticas de la UE."
+  },
+  {
+    "id": 85,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién se sienta en el Parlamento Europeo?",
+    "options": [
+      "Todos los Jefes de Estado y de Gobierno de la Unión",
+      "Los jueces del Tribunal de Justicia de la Unión Europea",
+      "Los miembros del Parlamento Europeo (eurodiputados) elegidos por sufragio universal",
+      "Exclusivamente los presidentes de las regiones europeas"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Parlamento Europeo, la institución colegisladora de la UE, está compuesto por eurodiputados que representan a los ciudadanos. Son elegidos democráticamente por sufragio universal directo en cada estado miembro."
+  },
+  {
+    "id": 86,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Pueden los ciudadanos de la Unión Europea votar en las elecciones locales en otro Estado de la Unión?",
+    "options": [
+      "No, el derecho al voto siempre está estrictamente reservado a los nacionales del país",
+      "Solo con la condición de estar casado durante 3 años con un nacional de ese país",
+      "Sí, pero exclusivamente en las elecciones municipales y europeas del país de residencia",
+      "Sí, de forma ilimitada, incluso para elegir al jefe de estado del país anfitrión"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Uno de los grandes avances de la ciudadanía europea (Tratado de Maastricht) es otorgar a cualquier nacional de la UE que resida en otro Estado miembro el derecho a votar y presentarse como candidato en las elecciones municipales y al Parlamento Europeo en su país de residencia."
+  },
+  {
+    "id": 87,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuántos Estados forman parte de la Unión Europea a 1 de enero de 2025?",
+    "options": [
+      "15 Estados",
+      "27 Estados",
+      "35 Estados",
+      "50 Estados"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Desde la salida oficial del Reino Unido el 31 de enero de 2020, la Unión Europea está compuesta por 27 Estados miembros."
+  },
+  {
+    "id": 88,
+    "categorie": "Sistema institucional y político",
+    "question": "¿En qué año se firmó el Tratado de Maastricht, que marca la fundación de la Unión Europea?",
+    "options": [
+      "En 1957",
+      "En 1981",
+      "En 1992",
+      "En 2002"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Firmado en 1992, el Tratado de la Unión Europea (TUE) o Tratado de Maastricht, es el principal tratado fundacional que transformó las comunidades europeas de naturaleza económica en una Unión política (moneda única, política exterior, seguridad, ciudadanía)."
+  },
+  {
+    "id": 89,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué tratado concierne a la construcción de la Unión Europea?",
+    "options": [
+      "El Tratado de Versalles (1919)",
+      "El Tratado de Maastricht (1992)",
+      "El Tratado de París de 1783 (Independencia de los Estados Unidos)",
+      "El Edicto de Nantes (1598)"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Entre las opciones históricas propuestas, solo el Tratado de Maastricht concierne directamente a la fundación y construcción de la Unión Europea moderna tal y como la conocemos."
+  },
+  {
+    "id": 90,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Qué Estado abandonó la Unión Europea en 2020?",
+    "options": [
+      "Suiza",
+      "Islandia",
+      "El Reino Unido",
+      "Noruega"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Tras un referéndum nacional celebrado en 2016, el Reino Unido abandonó oficialmente la Unión Europea el 31 de enero de 2020, un evento históricamente llamado \"Brexit\"."
+  },
+  {
+    "id": 91,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el lema de la Unión Europea?",
+    "options": [
+      "Unidos en la diversidad",
+      "Libertad, Igualdad, Fraternidad",
+      "La unión hace la fuerza",
+      "Paz, Trabajo, Patria"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Adoptado en el año 2000, este lema significa que los europeos se unen para trabajar por la paz y la prosperidad, al mismo tiempo que se enriquecen con las diferentes culturas, tradiciones e idiomas del continente."
+  },
+  {
+    "id": 92,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Cuál es el himno de la Unión Europea?",
+    "options": [
+      "La Marsellesa",
+      "La Oda a la Alegría",
+      "El Himno al Amor",
+      "El Canto de los Partisanos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La melodía del himno europeo está tomada de la Novena Sinfonía compuesta en 1823 por Ludwig van Beethoven, quien puso música al poema \"Oda a la Alegría\" de Friedrich von Schiller."
+  },
+  {
+    "id": 93,
+    "categorie": "Sistema institucional y político",
+    "question": "¿De qué está hecha la bandera europea?",
+    "options": [
+      "Una cruz blanca sobre fondo rojo",
+      "12 estrellas doradas dispuestas en círculo sobre un fondo azul",
+      "27 estrellas que representan a los actuales Estados miembros",
+      "Un águila negra sobre fondo amarillo"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La bandera europea consta de 12 estrellas doradas en círculo sobre un fondo azul. El número 12 simboliza la perfección, la plenitud y la unidad, y no cambia en función del número de Estados miembros."
+  },
+  {
+    "id": 94,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Quién elige a los miembros del Parlamento Europeo?",
+    "options": [
+      "Los presidentes de cada Estado miembro",
+      "Los senadores y alcaldes de los países de la Unión",
+      "Los ciudadanos de los Estados miembros de la Unión Europea",
+      "Los miembros de la Comisión Europea"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los diputados al Parlamento Europeo (o eurodiputados) son los representantes directos de los ciudadanos a nivel europeo. Son elegidos por sufragio universal directo cada cinco años durante las elecciones europeas."
+  },
+  {
+    "id": 95,
+    "categorie": "Sistema institucional y político",
+    "question": "¿Dónde está la sede del Parlamento Europeo?",
+    "options": [
+      "Estrasburgo",
+      "Bruselas",
+      "Berlín",
+      "Luxemburgo"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La sede oficial del Parlamento Europeo está fijada en Estrasburgo, Francia. Aquí es donde se celebran las principales sesiones plenarias, aunque las reuniones de los comités también tienen lugar en Bruselas."
+  },
+  {
+    "id": 96,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál es el propósito del derecho a huelga?",
+    "options": [
+      "Obtener vacaciones pagadas adicionales sin motivo",
+      "Dejar de trabajar colectivamente para defender demandas profesionales",
+      "Justificar legalmente los daños a la propiedad de la empresa",
+      "Estar exento del pago del impuesto sobre la renta en caso de crisis"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Inscrito en el preámbulo de la Constitución de 1946, el derecho a huelga permite a los empleados dejar de trabajar de manera concertada para presionar a su empleador (salarios, condiciones de trabajo, derechos)."
+  },
+  {
+    "id": 97,
+    "categorie": "Derechos y deberes",
+    "question": "¿En nombre de qué justifica el Estado la restricción de derechos?",
+    "options": [
+      "Para salvaguardar el orden público, la seguridad o la salud pública",
+      "Por razones puramente económicas y de ahorro presupuestario",
+      "Para favorecer exclusivamente a los ciudadanos de nacionalidad francesa",
+      "Para garantizar el confort personal de los miembros del gobierno"
+    ],
+    "bonne_reponse": 0,
+    "explication": "En Francia, la libertad es la regla y la restricción la excepción. El Estado solo puede limitar las libertades individuales de manera proporcional, para proteger un interés superior (orden público, seguridad nacional, emergencia sanitaria)."
+  },
+  {
+    "id": 98,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál de estas citas está inscrita en la Declaración de los Derechos del Hombre y del Ciudadano de 1789?",
+    "options": [
+      "\"El Estado soy yo (L'État, c'est moi)\"",
+      "\"Los hombres nacen y permanecen libres e iguales en derechos\"",
+      "\"Libertad, Igualdad, Fraternidad\"",
+      "\"Unidos en la diversidad\""
+    ],
+    "bonne_reponse": 1,
+    "explication": "Este es el Artículo 1 de la Declaración de los Derechos del Hombre y del Ciudadano (DDHC) de 1789. Esta frase fundamental abolió la sociedad de estamentos y los privilegios de nacimiento."
+  },
+  {
+    "id": 99,
+    "categorie": "Derechos y deberes",
+    "question": "El artículo 4 de la Declaración de los Derechos del Hombre y del Ciudadano establece que \"la libertad consiste en poder hacer todo lo que no perjudique a los demás\". ¿Qué significa esto?",
+    "options": [
+      "Que todo el mundo tiene derecho a infringir la ley si considera que está justificado",
+      "Que el ejercicio de la libertad individual termina donde comienzan los derechos de los demás",
+      "Que los delitos menores nunca son castigados por los tribunales",
+      "Que uno puede actuar sin límites mientras no lastime físicamente a nadie"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Este principio establece que la libertad no es un derecho absoluto para hacer cualquier cosa. Está enmarcada por la ley para garantizar una vida armoniosa en sociedad, respetuosa con la libertad y seguridad de cada persona."
+  },
+  {
+    "id": 100,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué dice el artículo 1 de la Constitución francesa?",
+    "options": [
+      "Que Francia es un Imperio fundado por Napoleón",
+      "Que el catolicismo es la religión oficial del estado",
+      "Que Francia es una República indivisible, laica, democrática y social",
+      "Que Francia es una monarquía constitucional parlamentaria"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El artículo 1 de la Constitución de 1958 establece los cuatro grandes pilares de la República: la indivisibilidad del territorio y de las leyes, la laicidad, la democracia por el pueblo, y la solidaridad social."
+  },
+  {
+    "id": 101,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué garantiza la libertad de prensa?",
+    "options": [
+      "La distribución gratuita de todos los periódicos de noticias",
+      "El derecho a informar y ser informado libremente, sin censura previa por parte del Estado",
+      "El derecho de los periodistas a difamar y mentir con total impunidad",
+      "La obligación de que los medios sean validados por el gobierno antes de su publicación"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Regulada por la ley del 29 de julio de 1881, la libertad de prensa es un pilar de la democracia. Prohíbe la censura previa, al tiempo que establece sanciones judiciales en caso de abuso (difamación, incitación al odio)."
+  },
+  {
+    "id": 102,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué permite la libertad de circulación?",
+    "options": [
+      "Viajar en transporte público sin pagar billete",
+      "Conducir cualquier tipo de vehículo sin carnet",
+      "Entrar libremente en las propiedades privadas valladas de otros",
+      "Moverse libremente por el territorio nacional, entrar y salir de él"
+    ],
+    "bonne_reponse": 3,
+    "explication": "La libertad de ir y venir es un derecho fundamental reconocido por la Constitución francesa y los tratados europeos. Garantiza a cualquier individuo que resida legalmente la capacidad de moverse libremente."
+  },
+  {
+    "id": 103,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué significa ser ciudadano de un Estado?",
+    "options": [
+      "Pertenecer a la nobleza o la élite de ese país",
+      "Ser reconocido como miembro de una Nación, con derechos y deberes civiles y políticos",
+      "Estar totalmente exento de pagar impuestos nacionales",
+      "Tener el derecho de elegir qué leyes se desea obedecer"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La ciudadanía crea un vínculo legal y de pertenencia entre el individuo y el Estado. Otorga derechos (como el derecho a votar y a ser elegido) a cambio de deberes (respetar la ley, pagar impuestos, defender el país)."
+  },
+  {
+    "id": 104,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué son los derechos fundamentales?",
+    "options": [
+      "Derechos otorgados solo a los hombres y no a las mujeres",
+      "Libertades y derechos esenciales e inalienables, garantizados por la Constitución y textos internacionales",
+      "Privilegios financieros reservados para los ciudadanos más ricos",
+      "Reglas comerciales definidas por el Banco Central Europeo"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Los derechos fundamentales (derecho a la vida, libertad de expresión, igualdad, derecho a un juicio justo) son inherentes a todo ser humano. Están protegidos por textos supremos como la DDHC o la Convención Europea de Derechos Humanos."
+  },
+  {
+    "id": 105,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué derecho protege a una persona contra el arresto arbitrario?",
+    "options": [
+      "El derecho a la seguridad (Le droit à la sûreté)",
+      "El derecho a la propia imagen",
+      "El derecho exigible a la vivienda",
+      "La libertad de asociación"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Inscrito en el Artículo 7 de la Declaración de los Derechos del Hombre de 1789, el derecho a la seguridad garantiza que ninguna persona puede ser acusada, arrestada o detenida arbitrariamente, sino solo en los casos previstos por la ley."
+  },
+  {
+    "id": 106,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál es el texto fundacional que establece los derechos y deberes de cada ciudadano?",
+    "options": [
+      "El Código de Circulación (Highway Code)",
+      "El Reglamento General de Protección de Datos de la UE",
+      "La Declaración de los Derechos del Hombre y del Ciudadano (DDHC) de 1789",
+      "La Carta de las Naciones Unidas"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Aprobada durante la Revolución Francesa en 1789, la DDHC es el texto de referencia absoluto. Integrada en el bloque de constitucionalidad, establece las libertades fundamentales que rigen la sociedad francesa."
+  },
+  {
+    "id": 107,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué texto afirma que todos los hombres nacen libres e iguales en derechos?",
+    "options": [
+      "El Código Penal",
+      "La Declaración de los Derechos del Hombre y del Ciudadano de 1789",
+      "El Tratado de Roma",
+      "El Código Civil de 1804"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Esta es la redacción exacta del Primer Artículo de la DDHC de 1789. Este texto marcó el fin legal de la monarquía absoluta y de los privilegios de la nobleza y el clero."
+  },
+  {
+    "id": 108,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué situación es un ataque a la dignidad humana?",
+    "options": [
+      "Tener que esperar en una larga fila en la prefectura",
+      "La esclavitud, la tortura, la trata de seres humanos o el trato degradante",
+      "El hecho de tener que pagar impuestos sobre la renta",
+      "La duración legal del tiempo de trabajo fijada en 35 horas"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El respeto a la dignidad de la persona humana es un principio absoluto e inviolable en el derecho francés. Cualquier forma de sometimiento, esclavitud o tortura es una violación penal grave del mismo."
+  },
+  {
+    "id": 109,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué es la libertad de expresión?",
+    "options": [
+      "El derecho a expresar públicamente las propias ideas y opiniones respetando la ley y a los demás",
+      "El derecho incondicional a proferir insultos racistas",
+      "El derecho a amenazar de muerte a una persona en una red social",
+      "El derecho a mentir bajo juramento al ser escuchado por un juez"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La libertad de expresión permite comunicar los pensamientos libremente (políticos, religiosos, filosóficos). Sin embargo, sus límites están fijados por la ley: la difamación, el insulto o la incitación al odio son delitos."
+  },
+  {
+    "id": 110,
+    "categorie": "Derechos y deberes",
+    "question": "Tras un arresto por la policía, es posible:",
+    "options": [
+      "Huir corriendo para evitar un control de identidad",
+      "Oponerse física y violentamente a las fuerzas del orden",
+      "Guardar silencio y pedir la asistencia de un abogado",
+      "Dar la identidad falsa de un familiar para protegerse"
+    ],
+    "bonne_reponse": 2,
+    "explication": "En un estado de derecho, toda persona arrestada o puesta bajo custodia policial (garde à vue) tiene derechos garantizados (derechos de defensa). Puede guardar silencio, pedir que se avise a su familia, ver a un médico y exigir un abogado."
+  },
+  {
+    "id": 111,
+    "categorie": "Derechos y deberes",
+    "question": "¿Todos los ciudadanos franceses tienen una religión?",
+    "options": [
+      "Sí, pertenecer a una religión es obligatorio",
+      "No, el principio de laicidad garantiza el derecho a no tener religión",
+      "Sí, la religión católica es la religión estatal obligatoria",
+      "Sí, pero están obligados a ocultarlo en los espacios públicos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La libertad de conciencia, pilar central de la laicidad, deja a cada ciudadano la elección absoluta de tener una religión, cambiarla o no practicar ninguna (ateísmo, agnosticismo)."
+  },
+  {
+    "id": 112,
+    "categorie": "Derechos y deberes",
+    "question": "¿A qué edad es la mayoría de edad digital en Francia?",
+    "options": [
+      "10 años",
+      "13 años",
+      "15 años",
+      "18 años"
+    ],
+    "bonne_reponse": 2,
+    "explication": "En Francia, la mayoría de edad digital está fijada a los 15 años. Es la edad a partir de la cual un menor puede consentir solo, sin el acuerdo de sus padres, a registrarse en una red social y al procesamiento de sus datos."
+  },
+  {
+    "id": 113,
+    "categorie": "Derechos y deberes",
+    "question": "¿En cuál de estos lugares está permitido fumar?",
+    "options": [
+      "Dentro de los pasillos de un hospital",
+      "En la sala cerrada de un restaurante",
+      "En el patio de recreo de una escuela primaria",
+      "En casa, en el propio domicilio privado o jardín"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Por razones de salud pública (ley Évin y decretos posteriores), está estrictamente prohibido fumar (y vapear) en lugares destinados a uso colectivo, cerrados y cubiertos, así como en escuelas."
+  },
+  {
+    "id": 114,
+    "categorie": "Derechos y deberes",
+    "question": "En Francia, conducir una motocicleta sin carnet es:",
+    "options": [
+      "Un delito (délit) susceptible de severas sanciones penales (multa y prisión)",
+      "Una simple infracción (contravention) castigada con una multa de 35 euros",
+      "Permitido si el conductor solo hace un viaje muy corto en su vecindario",
+      "Permitido siempre que la motocicleta pertenezca a un miembro de la familia"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Conducir un vehículo motorizado sin poseer el permiso de conducir correspondiente es un delito grave, que pone en peligro la vida de los demás. Está penado con hasta 1 año de prisión y 15.000 euros de multa."
+  },
+  {
+    "id": 115,
+    "categorie": "Derechos y deberes",
+    "question": "¿En qué consiste el deber de solidaridad?",
+    "options": [
+      "Participar en la financiación de la protección social y los servicios públicos a través de los impuestos",
+      "Pagar obligatoriamente una parte del salario a los vecinos",
+      "Tener la obligación legal de alojar a una persona sin hogar en su casa",
+      "Trabajar gratis para el ayuntamiento un día al mes"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El pacto republicano se basa en la solidaridad nacional: cada ciudadano y residente contribuye de acuerdo con sus medios financieros (a través de impuestos y contribuciones) para financiar la salud, la educación y ayudar a los más vulnerables."
+  },
+  {
+    "id": 116,
+    "categorie": "Derechos y deberes",
+    "question": "¿Es legal estar casado con varias personas al mismo tiempo?",
+    "options": [
+      "Sí, esto cae dentro de la libertad y la vida privada",
+      "No, la poligamia está estrictamente prohibida por la ley francesa",
+      "Sí, con la única condición de que todas las personas implicadas estén de acuerdo",
+      "Sí, pero solo para ciudadanos extranjeros"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El artículo 147 del Código Civil estipula que \"no se puede contraer un segundo matrimonio antes de la disolución del primero\". La poligamia es un delito en territorio francés, independientemente de la nacionalidad de las personas."
+  },
+  {
+    "id": 117,
+    "categorie": "Derechos y deberes",
+    "question": "¿Es obligatorio declarar los impuestos cada año en Francia?",
+    "options": [
+      "No, es un trámite opcional y voluntario",
+      "Solo para las personas consideradas más ricas",
+      "Sí, es una obligación legal para todos los residentes fiscales, incluso sin ingresos",
+      "Solo si se tiene la nacionalidad francesa"
+    ],
+    "bonne_reponse": 2,
+    "explication": "En Francia, la declaración de ingresos es una obligación anual para todas las personas que tienen su domicilio fiscal en el territorio, incluso para estudiantes, jubilados o personas no sujetas a impuestos."
+  },
+  {
+    "id": 118,
+    "categorie": "Derechos y deberes",
+    "question": "¿Es obligatorio ayudar a una persona en peligro?",
+    "options": [
+      "Sí, la \"omisión de socorro a una persona en peligro\" es un delito penado por la ley",
+      "No, uno tiene derecho a seguir su camino si tiene prisa",
+      "Solo si uno trabaja en la profesión de médico, enfermera o bombero",
+      "Solo si se trata de un miembro de la propia familia o un amigo"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La ley exige que todo el que presencie una situación de peligro intervenga para rescatar a la persona en peligro, ya sea actuando directamente (sin riesgo para sí mismo) o llamando inmediatamente a los servicios de emergencia."
+  },
+  {
+    "id": 119,
+    "categorie": "Derechos y deberes",
+    "question": "Ser jurado (juré d'assises) es:",
+    "options": [
+      "Un trabajo a tiempo completo en el servicio público judicial",
+      "Un deber cívico al que debe someterse el ciudadano elegido por sorteo",
+      "Una función exclusivamente reservada para estudiantes de derecho",
+      "Una actividad de voluntariado totalmente opcional"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El jurado popular del tribunal de lo penal (cour d'assises) juzga los delitos graves (crímenes). Los jurados son ciudadanos mayores de 23 años elegidos por sorteo del censo electoral. Salvo por una razón grave reconocida, es una obligación cívica imperativa."
+  },
+  {
+    "id": 120,
+    "categorie": "Derechos y deberes",
+    "question": "La venta de alcohol en Francia está prohibida a personas menores de:",
+    "options": [
+      "14 años",
+      "16 años",
+      "18 años",
+      "21 años"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Con el objetivo de proteger la salud pública y a los menores, la legislación francesa prohíbe formalmente vender, o incluso ofrecer gratis, bebidas alcohólicas a menores de 18 años."
+  },
+  {
+    "id": 121,
+    "categorie": "Derechos y deberes",
+    "question": "Para obtener un carné de identidad (carte d'identité), se debe:",
+    "options": [
+      "Ser de nacionalidad francesa",
+      "Tener al menos 18 años",
+      "Pagar sistemáticamente una tasa de 100 euros",
+      "Haber nacido obligatoriamente en territorio francés"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El Documento Nacional de Identidad (CNI) es un documento oficial que acredita la identidad y la nacionalidad francesa. Puede expedirse a cualquier edad (incluso a un menor) y es gratuito para una primera solicitud."
+  },
+  {
+    "id": 122,
+    "categorie": "Derechos y deberes",
+    "question": "¿Por qué motivo se puede limitar la libertad de expresión?",
+    "options": [
+      "Para proteger el orden público o los derechos de los demás (difamación, insulto, incitación al odio)",
+      "Para evitar cualquier crítica al gobierno actual",
+      "Solo durante los periodos de elecciones presidenciales",
+      "Para favorecer exclusivamente las opiniones de la mayoría"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La libertad de expresión es fundamental pero no absoluta. Está enmarcada por la ley para proteger a las personas (contra insultos, difamación o racismo) y preservar la paz social."
+  },
+  {
+    "id": 123,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué debe hacer un ciudadano si es llamado para ser miembro del jurado en un juicio penal (cour d'assises)?",
+    "options": [
+      "Está obligado a comparecer, a menos que tenga una razón grave legítima (enfermedad, etc.)",
+      "Puede negarse libremente sin tener que justificarse",
+      "Debe demostrar primero que ha estudiado derecho",
+      "Puede enviar a un miembro de la familia para que lo reemplace"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Ser miembro del jurado es un deber cívico. Una persona elegida por sorteo no puede negarse a participar sin una razón grave reconocida por la ley (enfermedad grave, vejez, sordera). La ausencia injustificada se castiga con una multa."
+  },
+  {
+    "id": 124,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál es la edad de mayoría civil en Francia?",
+    "options": [
+      "16 años",
+      "18 años",
+      "21 años",
+      "25 años"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La edad de la mayoría civil (que confiere la plena capacidad para ejercer los propios derechos) se ha fijado en 18 años en Francia desde la ley del 5 de julio de 1974."
+  },
+  {
+    "id": 125,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál es uno de los principales deberes de un ciudadano francés?",
+    "options": [
+      "Debe hacer un servicio militar de un año",
+      "Afiliarse a un sindicato en su empresa",
+      "Respetar la ley, pagar impuestos y participar en la defensa del país",
+      "Votar en todas las elecciones bajo pena de prisión"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ciudadanía implica un contrato social: a cambio de derechos (voto, libertades), el ciudadano tiene deberes hacia la colectividad, en particular el respeto a las leyes comunes y la contribución financiera a través de impuestos."
+  },
+  {
+    "id": 126,
+    "categorie": "Derechos y deberes",
+    "question": "¿Cuál es la infracción más grave?",
+    "options": [
+      "Un crimen (Le crime) (ej., asesinato, violación)",
+      "Un delito menor (Le délit) (ej., robo simple, acoso)",
+      "Una contravención (La contravention) (ej., exceso de velocidad, aparcamiento obstructivo)",
+      "Un litigio civil"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El Código Penal francés clasifica las infracciones en tres categorías según su gravedad: la contravención (juzgada por el tribunal de policía), el delito menor (tribunal correccional) y el crimen (tribunal de lo penal o cour d'assises), que es el más grave."
+  },
+  {
+    "id": 127,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué es la ciudadanía digital (citoyenneté numérique)?",
+    "options": [
+      "El hecho de tener un ordenador proporcionado gratis por el Estado",
+      "La obligación de votar solo a través de internet en las elecciones",
+      "El respeto de las reglas, derechos y deberes relacionados con el uso de internet y las herramientas digitales",
+      "El derecho absoluto a utilizar una identidad falsa en las redes sociales"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ciudadanía digital implica tener un comportamiento responsable y respetuoso en línea (protección de datos, rechazo del ciberacoso, respeto de los derechos de autor), al igual que en la vida real."
+  },
+  {
+    "id": 128,
+    "categorie": "Derechos y deberes",
+    "question": "¿Qué es el deber de memoria (devoir de mémoire)?",
+    "options": [
+      "La obligación escolar de aprender de memoria las fechas de la historia de Francia",
+      "La obligación moral de recordar eventos trágicos para evitar que vuelvan a ocurrir",
+      "Un impuesto recaudado para mantener los monumentos históricos nacionales",
+      "El borrado voluntario de los episodios oscuros en la historia del país"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El deber de memoria designa la obligación moral para un país y sus ciudadanos de recordar eventos significativos y a menudo trágicos (guerras, genocidios, esclavitud) con el fin de rendir homenaje a las víctimas y prevenir su repetición."
+  },
+  {
+    "id": 129,
+    "categorie": "Derechos y deberes",
+    "question": "¿Quién puede ser llamado a formar parte de un jurado (cour d'assises) en Francia?",
+    "options": [
+      "Solo los jueces profesionales y magistrados",
+      "Cualquier ciudadano francés de al menos 23 años, que sepa leer y escribir en francés, elegido por sorteo",
+      "Exclusivamente miembros de las fuerzas del orden",
+      "Solo ciudadanos que acrediten un título universitario"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El tribunal de lo penal (cour d'assises) es la única jurisdicción donde ciudadanos comunes participan en el juicio. Son elegidos por sorteo del censo electoral y deben cumplir ciertas condiciones (nacionalidad, edad, capacidad de leer/escribir)."
+  },
+  {
+    "id": 130,
+    "categorie": "Derechos y deberes",
+    "question": "Una persona es privada de sus derechos civiles y políticos durante 5 años tras una condena. ¿Cuál de estas afirmaciones es correcta? Durante 5 años,...",
+    "options": [
+      "Pierde permanentemente su nacionalidad francesa",
+      "Ya no tiene derecho a trabajar o recibir un salario",
+      "Ya no puede votar ni presentarse a unas elecciones",
+      "Es expulsada obligatoriamente del territorio europeo"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La privación de los derechos cívicos, civiles y familiares es una pena adicional pronunciada por un juez. Resulta notablemente en la prohibición de votar (eliminación del censo) y la inelegibilidad por la duración fijada."
+  },
+  {
+    "id": 131,
+    "categorie": "Historia, geografía y cultura",
+    "question": "De entre estos textos, ¿cuál fue adoptado bajo Napoleón I?",
+    "options": [
+      "La Declaración de los Derechos del Hombre y del Ciudadano",
+      "El Código Civil (1804)",
+      "La ley sobre la separación de las Iglesias y el Estado",
+      "El tratado que abolió permanentemente la esclavitud"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El Código Civil de los Franceses, promulgado en 1804 por Napoleón Bonaparte, unificó las leyes y reglas jurídicas de la sociedad. Sigue siendo el texto fundacional del derecho civil francés contemporáneo."
+  },
+  {
+    "id": 132,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Presidente de la Quinta República?",
+    "options": [
+      "Georges Clemenceau",
+      "Charles de Gaulle",
+      "Jean Jaurès",
+      "Léon Blum"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El General Charles de Gaulle es el fundador y el primer presidente de la Quinta República (de 1958 a 1969). Las otras figuras mencionadas fueron importantes jefes de gobierno o figuras políticas bajo la Tercera República."
+  },
+  {
+    "id": 133,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es el objetivo de las leyes escolares de la Tercera República?",
+    "options": [
+      "Hacer que la escuela primaria pública sea gratuita, laica y obligatoria",
+      "Imponer una estricta enseñanza religiosa en todas las escuelas",
+      "Reservar la educación superior para la élite financiera del país",
+      "Hacer que la escuela primaria sea de pago para financiar el ejército"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Votadas en 1881 y 1882 bajo el impulso de Jules Ferry, estas leyes democratizaron la educación al hacer que la escuela pública fuera gratuita, obligatoria (de 6 a 13 años en ese momento) y laica."
+  },
+  {
+    "id": 134,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué significa la fecha del 14 de julio para los franceses?",
+    "options": [
+      "Es la fiesta nacional que conmemora la toma de la Bastilla (1789) y la Fiesta de la Federación (1790)",
+      "Es la fecha de la firma del Armisticio que puso fin a la Primera Guerra Mundial",
+      "Es el aniversario del nacimiento de la Quinta República",
+      "Es la fecha del aniversario del fin de la Segunda Guerra Mundial"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Establecida como fiesta nacional en 1880, el 14 de julio celebra la doble memoria de un evento insurreccional (el fin del absolutismo real en 1789) y un evento unificador (la Federación de 1790)."
+  },
+  {
+    "id": 135,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Por qué el año 1958 es importante para Francia?",
+    "options": [
+      "Marca el fin de la Primera Guerra Mundial",
+      "Corresponde a la adopción de la Constitución de la Quinta República",
+      "Es el año de la abolición definitiva de la pena de muerte",
+      "Es el año de la introducción del euro como moneda única"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En medio de la crisis ligada a la guerra de Argelia, Francia cambió su régimen político en 1958. La nueva Constitución, que establecía la Quinta República con un fuerte poder ejecutivo, fue adoptada por referéndum."
+  },
+  {
+    "id": 136,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál de estos países es un país fundador de la Unión Europea?",
+    "options": [
+      "El Reino Unido",
+      "España",
+      "Francia",
+      "Suiza"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Francia es uno de los 6 países fundadores históricos de la construcción europea en 1951 (CECA) y luego en 1957 (Tratado de Roma), junto con Alemania, Italia, Bélgica, los Países Bajos y Luxemburgo."
+  },
+  {
+    "id": 137,
+    "categorie": "Historia, geografía y cultura",
+    "question": "Simone Veil es una figura importante en la historia de Francia. Ella en particular:",
+    "options": [
+      "Hizo aprobar la ley que despenalizó la interrupción voluntaria del embarazo (aborto) en 1975",
+      "Fue la primera mujer Presidenta de la República Francesa",
+      "Otorgó por decreto el derecho de voto a las mujeres en 1944",
+      "Redactó la Declaración de los Derechos de la Mujer durante la Revolución"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Superviviente del Holocausto y gran política, Simone Veil, entonces Ministra de Sanidad, promovió y defendió la ley de 1975 que despenalizaba el aborto, un avance importante para los derechos de las mujeres."
+  },
+  {
+    "id": 138,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué región se encuentra parte de las playas del desembarco que permitieron iniciar la liberación de Francia?",
+    "options": [
+      "En Bretaña",
+      "En Normandía",
+      "En Provenza-Alpes-Costa Azul",
+      "En Altos de Francia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Fue en las playas de Normandía donde las fuerzas aliadas (estadounidenses, británicos, canadienses, franceses libres...) desembarcaron el 6 de junio de 1944 (Operación Overlord) para liberar a Europa de la ocupación nazi."
+  },
+  {
+    "id": 139,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué ciudad eran coronados los reyes de Francia?",
+    "options": [
+      "París",
+      "Versalles",
+      "Orleans",
+      "Reims"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Históricamente, casi todos los reyes de Francia fueron coronados en la Catedral de Notre-Dame en Reims. Este rito legitimaba el poder del soberano."
+  },
+  {
+    "id": 140,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué Rey de Francia fue guillotinado durante la Revolución Francesa?",
+    "options": [
+      "Luis XIV",
+      "Enrique IV",
+      "Luis XVI",
+      "Carlos X"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Luis XVI fue juzgado por la Convención Nacional, condenado a muerte por traición y guillotinado el 21 de enero de 1793 en París."
+  },
+  {
+    "id": 141,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué año comenzó la Revolución Francesa?",
+    "options": [
+      "1789",
+      "1804",
+      "1848",
+      "1905"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El año 1789 marca el comienzo de la Revolución, con eventos importantes como la reunión de los Estados Generales, la toma de la Bastilla (14 de julio) y la Declaración de los Derechos del Hombre y del Ciudadano."
+  },
+  {
+    "id": 142,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué año se convirtió Napoleón I en emperador?",
+    "options": [
+      "1789",
+      "1804",
+      "1815",
+      "1848"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Napoleón Bonaparte fue coronado Emperador de los franceses bajo el nombre de Napoleón I el 2 de diciembre de 1804, en la Catedral de Notre-Dame de París."
+  },
+  {
+    "id": 143,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál de estos personajes tiene un vínculo con la República Francesa?",
+    "options": [
+      "Carlomagno",
+      "Vercingétorix",
+      "Marianne",
+      "Juana de Arco"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Marianne es la representación simbólica y la alegoría de la República Francesa. Su busto está presente en todos los ayuntamientos de Francia."
+  },
+  {
+    "id": 144,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿De cuándo data el llamamiento a la resistencia del General de Gaulle?",
+    "options": [
+      "14 de julio de 1789",
+      "11 de noviembre de 1918",
+      "18 de junio de 1940",
+      "8 de mayo de 1945"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Tras la derrota militar de Francia contra Alemania, el General de Gaulle lanzó desde Londres, el 18 de junio de 1940, un llamamiento en las ondas de la BBC invitando a los franceses a continuar la lucha."
+  },
+  {
+    "id": 145,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué es la Shoah (Holocausto)?",
+    "options": [
+      "Una famosa batalla decisiva de la Primera Guerra Mundial",
+      "El exterminio sistemático y genocida de los judíos por la Alemania nazi durante la Segunda Guerra Mundial",
+      "El nombre secreto del llamamiento a la resistencia del General de Gaulle",
+      "El tratado fundacional de la Unión Europea firmado en 1992"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El término Shoah (que significa catástrofe en hebreo) designa la empresa de exterminio de casi 6 millones de judíos europeos por el régimen nazi y sus colaboradores durante la Segunda Guerra Mundial."
+  },
+  {
+    "id": 146,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué país fue una colonia francesa?",
+    "options": [
+      "Brasil",
+      "Australia",
+      "Senegal",
+      "India"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Senegal formó parte del imperio colonial francés hasta su independencia en 1960. Los otros países mencionados nunca estuvieron bajo soberanía francesa en su totalidad."
+  },
+  {
+    "id": 147,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién hizo que la escuela fuera gratuita, laica y obligatoria?",
+    "options": [
+      "Víctor Hugo",
+      "Napoleón Bonaparte",
+      "Jules Ferry",
+      "Charles de Gaulle"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Bajo la Tercera República, Jules Ferry, Ministro de Instrucción Pública, hizo aprobar las leyes de 1881 y 1882 que establecían la educación primaria pública, gratuita, obligatoria y laica."
+  },
+  {
+    "id": 148,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Desde cuándo los franceses eligen al Presidente de la República por sufragio universal directo?",
+    "options": [
+      "Desde la Revolución de 1789",
+      "Desde 1944, con la obtención del derecho al voto por parte de las mujeres",
+      "Desde la reforma constitucional de 1962 deseada por de Gaulle",
+      "Desde la creación de la Unión Europea en 1992"
+    ],
+    "bonne_reponse": 2,
+    "explication": "En 1962, mediante un referéndum, los franceses aprobaron la elección del Presidente por sufragio universal directo (anteriormente elegido por un colegio electoral). La primera elección bajo este método tuvo lugar en 1965."
+  },
+  {
+    "id": 149,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué año se fundó la Unión Europea?",
+    "options": [
+      "1945",
+      "1957",
+      "1992",
+      "2002"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La Unión Europea tal y como la conocemos políticamente (que sucedió a la CEE de 1957) fue fundada formalmente con la firma del Tratado de Maastricht en 1992."
+  },
+  {
+    "id": 150,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuándo tuvo lugar la Segunda Guerra Mundial?",
+    "options": [
+      "De 1870 a 1871",
+      "De 1914 a 1918",
+      "De 1939 a 1945",
+      "De 1954 a 1962"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La Segunda Guerra Mundial, el conflicto más mortífero de la historia, estalló en septiembre de 1939 y terminó en 1945 con la capitulación de Alemania y luego de Japón."
+  },
+  {
+    "id": 151,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Bajo qué presidente se abolió la pena de muerte en Francia?",
+    "options": [
+      "Charles de Gaulle",
+      "Valéry Giscard d'Estaing",
+      "François Mitterrand",
+      "Jacques Chirac"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La pena de muerte fue abolida en Francia en 1981, bajo la presidencia de François Mitterrand, gracias a la ley promovida por su Ministro de Justicia, Robert Badinter."
+  },
+  {
+    "id": 152,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué se celebra el 8 de mayo?",
+    "options": [
+      "El fin de la Segunda Guerra Mundial en Europa (1945)",
+      "El fin de la Primera Guerra Mundial (1918)",
+      "El Día del Trabajo",
+      "La toma de la Bastilla (1789)"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El 8 de mayo es un día festivo en Francia que conmemora la victoria de los Aliados y la capitulación de la Alemania nazi el 8 de mayo de 1945, marcando el fin de la Segunda Guerra Mundial en Europa."
+  },
+  {
+    "id": 153,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es el primer paso de la construcción europea en 1951?",
+    "options": [
+      "La creación del espacio Schengen",
+      "El lanzamiento de la moneda única (Euro)",
+      "La creación de la Comunidad Europea del Carbón y del Acero (CECA)",
+      "La fundación de las Naciones Unidas (ONU)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Iniciada por Robert Schuman y Jean Monnet, el tratado que establecía la CECA (1951) agrupó las producciones de carbón y acero de 6 países (incluidos Francia y Alemania), haciendo que una nueva guerra fuera materialmente imposible."
+  },
+  {
+    "id": 154,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue una figura de la Resistencia francesa durante la Segunda Guerra Mundial?",
+    "options": [
+      "Jean Moulin",
+      "El Mariscal Pétain",
+      "Luis XVI",
+      "Napoleón III"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Jean Moulin recibió el encargo del General de Gaulle de unificar los movimientos de la Resistencia interna francesa. Arrestado y torturado por la Gestapo, murió sin haber hablado en 1943."
+  },
+  {
+    "id": 155,
+    "categorie": "Historia, geografía y cultura",
+    "question": "El 11 de noviembre es un día festivo. ¿A qué corresponde esta fecha?",
+    "options": [
+      "La Liberación de París en 1944",
+      "El nacimiento de la Quinta República",
+      "El Armisticio que puso fin a la Primera Guerra Mundial (1918)",
+      "La abolición definitiva de la esclavitud"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El 11 de noviembre de 1918 marca la firma del Armisticio en Rethondes, poniendo fin a los combates de la Primera Guerra Mundial. Hoy se rinde homenaje a todos aquellos que murieron por Francia."
+  },
+  {
+    "id": 156,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Desde cuándo se abolió la esclavitud en Francia?",
+    "options": [
+      "Desde 1789",
+      "Desde 1848",
+      "Desde 1905",
+      "Desde 1945"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La esclavitud había sido abolida por primera vez en 1794 y luego restablecida por Napoleón en 1802. Fue abolida permanentemente en todas las colonias francesas por el decreto del 27 de abril de 1848, bajo la Segunda República."
+  },
+  {
+    "id": 157,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién abolió la esclavitud en Francia?",
+    "options": [
+      "Victor Schœlcher",
+      "Víctor Hugo",
+      "Napoleón Bonaparte",
+      "Jean Moulin"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Victor Schœlcher, político francés y Subsecretario de Estado de la Armada, fue el principal instigador del decreto de 1848 que abolió permanentemente la esclavitud en Francia."
+  },
+  {
+    "id": 158,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Desde qué año la escuela pública es gratuita?",
+    "options": [
+      "1789",
+      "1881",
+      "1945",
+      "1968"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La ley del 16 de junio de 1881, promovida por el Ministro Jules Ferry, estableció el carácter gratuito absoluto de la educación primaria en las escuelas públicas. La obligatoriedad y la laicidad siguieron en 1882."
+  },
+  {
+    "id": 159,
+    "categorie": "Historia, geografía y cultura",
+    "question": "En 1944, ¿qué cambió para las mujeres?",
+    "options": [
+      "Obtuvieron el derecho a trabajar sin el acuerdo de su marido",
+      "Pudieron abrir una cuenta bancaria a su nombre",
+      "Obtuvieron el derecho al voto y a presentarse a las elecciones",
+      "Se les permitió hacer el servicio militar"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Por una ordenanza de abril de 1944 del Gobierno Provisional dirigido por de Gaulle, las mujeres francesas se convirtieron en electoras y elegibles para postularse al cargo en las mismas condiciones que los hombres."
+  },
+  {
+    "id": 160,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué organización se creó en 1945 después de la Segunda Guerra Mundial?",
+    "options": [
+      "La Unión Europea (UE)",
+      "Las Naciones Unidas (ONU)",
+      "La Organización del Tratado del Atlántico Norte (OTAN)",
+      "La Cruz Roja Internacional"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La ONU fue fundada en 1945 (Carta de San Francisco) con el objetivo de mantener la paz y la seguridad internacionales, sucediendo así a la Sociedad de Naciones."
+  },
+  {
+    "id": 161,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué año se convirtió el euro en la moneda oficial de Francia?",
+    "options": [
+      "1992",
+      "1999",
+      "2002",
+      "2010"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Si bien el euro se convirtió en una moneda virtual para los mercados financieros en 1999, fue el 1 de enero de 2002 cuando se introdujeron físicamente las monedas y los billetes de euro para los ciudadanos franceses (reemplazando al franco)."
+  },
+  {
+    "id": 162,
+    "categorie": "Historia, geografía y cultura",
+    "question": "Durante la Segunda Guerra Mundial, ¿en qué fecha fue liberada la ciudad de París?",
+    "options": [
+      "Junio de 1940",
+      "Agosto de 1944",
+      "Mayo de 1945",
+      "Noviembre de 1918"
+    ],
+    "bonne_reponse": 1,
+    "explication": "París fue liberada de la ocupación nazi el 25 de agosto de 1944, sobre todo gracias a la insurrección parisina y a la entrada de la 2ª División Blindada (2e DB) del general Leclerc."
+  },
+  {
+    "id": 163,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál fue el principal puerto francés involucrado en la trata de esclavos en el siglo XVIII?",
+    "options": [
+      "Marsella",
+      "Brest",
+      "Nantes",
+      "Le Havre"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Nantes fue el primer puerto esclavista de Francia en el siglo XVIII, organizando casi la mitad de las expediciones francesas en el comercio triangular."
+  },
+  {
+    "id": 164,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué famoso filósofo de la Ilustración denunció la esclavitud?",
+    "options": [
+      "René Descartes",
+      "Voltaire",
+      "Víctor Hugo",
+      "Émile Zola"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En su cuento filosófico \"Cándido\", Voltaire denuncia violentamente el horror de la esclavitud a través del famoso episodio del \"Negro de Surinam\"."
+  },
+  {
+    "id": 165,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué obra fue escrita por Víctor Hugo?",
+    "options": [
+      "Los Tres Mosqueteros",
+      "Madame Bovary",
+      "Los Miserables (Les Misérables)",
+      "El Principito"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Publicada en 1862, \"Los Miserables\" es una de las mayores obras maestras de Víctor Hugo y de la literatura mundial, contando los destinos cruzados de Jean Valjean, Cosette y Gavroche."
+  },
+  {
+    "id": 166,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué pintor es francés?",
+    "options": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Vincent Van Gogh",
+      "Claude Monet"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Claude Monet (1840-1926) es un inmenso pintor francés, uno de los creadores y líderes del movimiento impresionista."
+  },
+  {
+    "id": 167,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué plato es una especialidad de la cocina francesa?",
+    "options": [
+      "La paella",
+      "El buey a la borgoñona (Le bœuf bourguignon)",
+      "La pizza",
+      "El cuscús"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El buey a la borgoñona, cocinado con vino tinto, es un plato emblemático del terruño y la gastronomía francesa, originario de la región de Borgoña."
+  },
+  {
+    "id": 168,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Marie Curie?",
+    "options": [
+      "Una reina de Francia durante la época del Renacimiento",
+      "Una científica que ganó dos premios Nobel (física y química)",
+      "Una famosa escritora del movimiento romántico",
+      "Una figura importante de la Resistencia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "De origen polaco y naturalizada francesa, Marie Curie realizó importantes descubrimientos sobre la radiactividad. Es la primera mujer en recibir un Premio Nobel, y la única persona en haber recibido dos en diferentes campos científicos."
+  },
+  {
+    "id": 169,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién pintó \"La Libertad guiando al pueblo\"?",
+    "options": [
+      "Claude Monet",
+      "Eugène Delacroix",
+      "Auguste Renoir",
+      "Paul Cézanne"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Este famoso cuadro, expuesto en el Museo del Louvre, fue pintado por Eugène Delacroix. Simboliza la revolución de los \"Tres Días Gloriosos\" de julio de 1830 en París."
+  },
+  {
+    "id": 170,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿En qué importante museo parisino se expone la Mona Lisa (La Joconde)?",
+    "options": [
+      "El Museo de Orsay",
+      "El Centro Pompidou",
+      "El Museo del Louvre",
+      "El Museo Grévin"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La Mona Lisa (La Joconde), obra maestra mundialmente famosa pintada por Leonardo da Vinci en el siglo XVI, se exhibe en el Museo del Louvre, el antiguo palacio de los reyes de Francia que se convirtió en uno de los museos más grandes del mundo."
+  },
+  {
+    "id": 171,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué famoso castillo está situado cerca de París y simboliza el poder real de Luis XIV?",
+    "options": [
+      "El Castillo de Chambord",
+      "El Palacio de Versalles (Le château de Versailles)",
+      "El Castillo de Fontainebleau",
+      "El Castillo de Chenonceau"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Diseñado por el \"Rey Sol\" Luis XIV en el siglo XVII, el suntuoso Palacio de Versalles encarna la monarquía absoluta francesa y la influencia cultural del país en toda Europa."
+  },
+  {
+    "id": 172,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Dónde se pueden ver pinturas prehistóricas en Francia?",
+    "options": [
+      "En las catacumbas de París",
+      "En las paredes del Mont Blanc",
+      "En las arenas de Nîmes",
+      "En las cuevas de Lascaux"
+    ],
+    "bonne_reponse": 3,
+    "explication": "La cueva de Lascaux (en Dordoña) alberga algunas de las obras prehistóricas (arte rupestre) más espectaculares del mundo, a veces apodada la \"Capilla Sixtina de la prehistoria\"."
+  },
+  {
+    "id": 173,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué famoso pintor pintó los Nenúfares (Nymphéas)?",
+    "options": [
+      "Auguste Rodin",
+      "Paul Cézanne",
+      "Claude Monet",
+      "Édouard Manet"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los Nenúfares (Nymphéas) forman una inmensa serie de pinturas al óleo creadas por el impresionista Claude Monet, inspiradas en los nenúfares de su jardín en Giverny. Una parte se exhibe en el Musée de l'Orangerie de París."
+  },
+  {
+    "id": 174,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Durante qué días se pueden visitar los sitios culturales de forma gratuita en Francia?",
+    "options": [
+      "Durante la Fiesta de la Música (Fête de la Musique)",
+      "Durante las Jornadas Europeas del Patrimonio",
+      "Solo el 14 de julio",
+      "Durante el Día de la Laicidad"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Organizadas tradicionalmente el tercer fin de semana de septiembre, las Jornadas del Patrimonio permiten visitas gratuitas a monumentos, castillos, ministerios o museos que a menudo son inaccesibles el resto del año."
+  },
+  {
+    "id": 175,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué simboliza el 1 de mayo?",
+    "options": [
+      "La llegada oficial de la primavera",
+      "El Día del Trabajo y la celebración de los trabajadores",
+      "El fin de la Primera Guerra Mundial",
+      "La fiesta nacional francesa"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El 1 de mayo es el Día del Trabajo (día internacional de las reivindicaciones de los trabajadores). En Francia, es un día festivo no laborable donde también es costumbre regalarse muguetes (lirio de los valles)."
+  },
+  {
+    "id": 176,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién era Monsieur Rouget de Lisle?",
+    "options": [
+      "El primer Presidente de la República",
+      "Un gran general del imperio de Napoleón",
+      "El autor del himno nacional, la Marsellesa",
+      "Un famoso pintor impresionista"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Claude Joseph Rouget de Lisle fue un oficial francés que compuso en 1792 en Estrasburgo el \"Canto de guerra para el Ejército del Rin\", que más tarde se convirtió en el himno nacional francés, La Marsellesa."
+  },
+  {
+    "id": 177,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Para qué ocasión se construuyó la Torre Eiffel?",
+    "options": [
+      "Para celebrar el fin de la guerra del 14-18",
+      "Para la Exposición Universal de 1889 en París",
+      "Para la visita oficial de la Reina de Inglaterra",
+      "Para servir como antena de radio nacional"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La Torre Eiffel fue erigida por Gustave Eiffel para la Exposición Universal de 1889, que también celebraba el centenario de la Revolución Francesa."
+  },
+  {
+    "id": 178,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué cadena montañosa se encuentra entre Francia e Italia?",
+    "options": [
+      "Los Pirineos",
+      "El Jura",
+      "Los Alpes",
+      "Los Vosgos"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Los Alpes forman una inmensa frontera natural al sureste de Francia, separándola de Italia y Suiza. Aquí se encuentra el Mont Blanc, el pico más alto de Europa Occidental."
+  },
+  {
+    "id": 179,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Molière?",
+    "options": [
+      "Un gran científico de la Ilustración",
+      "Un famoso dramaturgo, actor y líder de compañía del siglo XVII",
+      "El Rey de Francia apodado el Rey Sol",
+      "Un gran músico y compositor romántico"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Jean-Baptiste Poquelin, conocido como Molière (1622-1673), es el más ilustre de los autores cómicos franceses (El burgués gentilhombre, El avaro, Tartufo). La lengua francesa a menudo recibe el apodo de \"la lengua de Molière\"."
+  },
+  {
+    "id": 180,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Charles Baudelaire?",
+    "options": [
+      "Un escultor francés",
+      "Un importante hombre político de la Tercera República",
+      "Uno de los más grandes poetas franceses del siglo XIX (Las flores del mal)",
+      "Un gran explorador marítimo"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Charles Baudelaire es un poeta fundamental de la modernidad. Su poemario esencial, \"Las flores del mal\", revolucionó profundamente la poesía francesa al mezclar la belleza y lo mórbido."
+  },
+  {
+    "id": 181,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue George Sand?",
+    "options": [
+      "Una reina de Francia durante el Renacimiento",
+      "Una gran escritora del siglo XIX",
+      "Una famosa actriz de teatro",
+      "Una científica pionera en química"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Amantine Aurore Lucile Dupin, conocida por su seudónimo masculino George Sand, es una de las escritoras más prolíficas del siglo XIX (autora de \"El pantano del diablo\" en particular), también famosa por su compromiso político y su estilo de vida muy libre para la época."
+  },
+  {
+    "id": 182,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Simone de Beauvoir?",
+    "options": [
+      "Una figura política en el entorno de Napoleón",
+      "Una famosa cantante de los locos años veinte",
+      "Una importante escritora y filósofa del feminismo",
+      "Una pionera de la aviación francesa"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Simone de Beauvoir es una filósofa y mujer de letras francesa. Su ensayo \"El segundo sexo\" (1949) se convirtió en una obra fundacional del feminismo moderno."
+  },
+  {
+    "id": 183,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Albert Camus?",
+    "options": [
+      "Un rey de la dinastía merovingia",
+      "Un gran pintor del movimiento surrealista",
+      "Un escritor, periodista y filósofo que recibió el Premio Nobel",
+      "El creador de la primera vacuna contra la rabia"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Albert Camus (1913-1960) es un escritor fundamental del siglo XX (autor de \"El Extranjero\" y \"La Peste\"). Recibió el Premio Nobel de Literatura en 1957 por su obra que arroja luz sobre los problemas de la conciencia humana."
+  },
+  {
+    "id": 184,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Marguerite Yourcenar?",
+    "options": [
+      "Una gran figura de la Resistencia fusilada en 1944",
+      "La primera mujer elegida para la Academia Francesa",
+      "Una campeona olímpica de la Belle Époque",
+      "La primera mujer nombrada ministra en Francia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Famosa escritora (\"Memorias de Adriano\", \"Opus Nigrum\"), Marguerite Yourcenar marcó la historia de la literatura al convertirse, en 1980, en la primera mujer elegida entre los \"Inmortales\" de la Academia Francesa."
+  },
+  {
+    "id": 185,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Paul Cézanne?",
+    "options": [
+      "Un gran pintor precursor del arte moderno",
+      "El escultor designado por el Rey Luis XIV",
+      "Un estadista bajo la Tercera República",
+      "Un gran explorador francés del siglo XVI"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Paul Cézanne (1839-1906) es un importante pintor postimpresionista, originario de Aix-en-Provence. Su trabajo de deconstrucción de las formas allanó el camino para el cubismo y el arte moderno del siglo XX."
+  },
+  {
+    "id": 186,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Auguste Rodin?",
+    "options": [
+      "El arquitecto de la Catedral de Notre-Dame",
+      "Un gran poeta romántico",
+      "Un famoso escultor, autor de \"El Pensador\"",
+      "Un famoso actor del cine mudo"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Auguste Rodin es uno de los más grandes escultores franceses de la segunda mitad del siglo XIX. Revolucionó la escultura con su expresividad, en particular con su obra mundialmente conocida, \"El Pensador\"."
+  },
+  {
+    "id": 187,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue un famoso compositor francés?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Claude Debussy",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Claude Debussy (1862-1918) es uno de los compositores franceses más influyentes, a menudo asociado con el movimiento de la música impresionista (autor de \"Claro de luna\" o \"El Mar\")."
+  },
+  {
+    "id": 188,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Quién fue Auguste Renoir?",
+    "options": [
+      "El médico que inventó el estetoscopio",
+      "Un gran general del ejército imperial",
+      "Un famoso pintor del movimiento impresionista",
+      "El ingeniero que colaboró con Gustave Eiffel"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Pierre-Auguste Renoir es uno de los maestros de la pintura impresionista francesa, famoso por sus luminosos lienzos que capturan escenas de la vida cotidiana (\"Baile en el Moulin de la Galette\", \"El almuerzo de los remeros\")."
+  },
+  {
+    "id": 189,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué museo se encuentra en París?",
+    "options": [
+      "El Museo Británico",
+      "El Museo de Orsay",
+      "El Museo del Hermitage",
+      "El Museo del Prado"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El Museo de Orsay, situado en París en la antigua estación de tren de Orsay construida para la Exposición Universal de 1900, alberga la mayor colección de pinturas impresionistas y postimpresionistas del mundo."
+  },
+  {
+    "id": 190,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué monumento histórico está situado en una isla en Normandía?",
+    "options": [
+      "El Palacio de Versalles",
+      "El Mont-Saint-Michel",
+      "La Catedral de Estrasburgo",
+      "El Palacio de los Papas"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El Mont-Saint-Michel, coronado por su famosa abadía, se alza sobre un islote rocoso en el corazón de una inmensa bahía en Normandía. Está clasificado como Patrimonio de la Humanidad por la UNESCO."
+  },
+  {
+    "id": 191,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué ciudad francesa se encuentra entre las 10 metrópolis más grandes del país?",
+    "options": [
+      "Biarritz",
+      "Lyon",
+      "Saint-Malo",
+      "Carcasona"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Junto con París y Marsella, Lyon es una de las ciudades más grandes de Francia en términos de población e influencia económica. Las otras ciudades mencionadas son famosas pero mucho menos pobladas."
+  },
+  {
+    "id": 192,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué isla forma parte de las Antillas Francesas?",
+    "options": [
+      "Córcega",
+      "Tahití",
+      "Guadalupe (La Guadeloupe)",
+      "Madagascar"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Guadalupe, situada en el Mar Caribe (en las Antillas), es a la vez un departamento (DROM) y una región de ultramar de la República Francesa."
+  },
+  {
+    "id": 193,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué isla es francesa?",
+    "options": [
+      "Sicilia",
+      "Córcega (La Corse)",
+      "Mallorca",
+      "Creta"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Apodada la \"Isla de la Belleza\", Córcega es una isla francesa situada en el Mar Mediterráneo. Ha estado unida a Francia desde 1768."
+  },
+  {
+    "id": 194,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es la montaña más alta de Francia?",
+    "options": [
+      "El pico del Canigó",
+      "El Puy de Dôme",
+      "El Mont Blanc",
+      "El Piton des Neiges"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Situado en el macizo de los Alpes, en la frontera entre Francia e Italia, el Mont Blanc culmina a una altitud de aproximadamente 4.805 metros, lo que lo convierte en el pico más alto de Europa Occidental."
+  },
+  {
+    "id": 195,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué isla francesa se encuentra en el Océano Índico?",
+    "options": [
+      "La Reunión (La Réunion)",
+      "Martinica",
+      "Nueva Caledonia",
+      "San Pedro y Miquelón"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La Reunión es un departamento y región de ultramar francés situado en el suroeste del Océano Índico, al este de Madagascar."
+  },
+  {
+    "id": 196,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué departamento francés tiene frontera con Brasil?",
+    "options": [
+      "Guadalupe",
+      "Guayana Francesa (La Guyane)",
+      "Martinica",
+      "Polinesia Francesa"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La Guayana Francesa, situada en América del Sur, comparte una larga frontera terrestre de más de 700 kilómetros con Brasil, lo que la convierte en la frontera más larga de Francia."
+  },
+  {
+    "id": 197,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Desde qué ciudad francesa despega el cohete Ariane?",
+    "options": [
+      "Desde París",
+      "Desde Toulouse",
+      "Desde Kourou",
+      "Desde Brest"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Centro Espacial Guayanés (CSG) es la base de lanzamiento de la Agencia Espacial Europea (ESA) y del CNES, situada en Kourou, en la Guayana Francesa, cerca del ecuador."
+  },
+  {
+    "id": 198,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Con qué mar u océano limita la Francia metropolitana?",
+    "options": [
+      "El Océano Pacífico",
+      "El Océano Atlántico, el Canal de la Mancha, el Mar del Norte y el Mar Mediterráneo",
+      "El Mar Rojo",
+      "El Océano Índico"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La Francia metropolitana tiene múltiples fachadas marítimas: el Mar del Norte y el Canal de la Mancha al noroeste, el Océano Atlántico al oeste, y el Mar Mediterráneo al sur."
+  },
+  {
+    "id": 199,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué mar se encuentra entre Francia e Inglaterra?",
+    "options": [
+      "El Mar Báltico",
+      "El Mar Mediterráneo",
+      "El Canal de la Mancha",
+      "El Mar Caspio"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Canal de la Mancha es el brazo de mar que separa el noroeste de Francia del sur de Inglaterra. Es una de las rutas marítimas más transitadas del mundo."
+  },
+  {
+    "id": 200,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué isla es un departamento de ultramar francés?",
+    "options": [
+      "Mauricio",
+      "Madagascar",
+      "Haití",
+      "Martinica"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Martinica es una isla caribeña que tiene el estatus de DROM (Departamento y Región de Ultramar) francés."
+  },
+  {
+    "id": 201,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué es la Francia de ultramar (la France d'outre-mer)?",
+    "options": [
+      "Todas las embajadas francesas en el mundo",
+      "Los territorios de la República Francesa situados fuera del continente europeo",
+      "Los países europeos vecinos a la Francia metropolitana",
+      "Todas las antiguas colonias francesas que se han independizado"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La Francia de ultramar (o el Outre-mer) designa a todos los territorios de la República Francesa distantes del continente europeo, distribuidos por los océanos Atlántico, Índico y Pacífico."
+  },
+  {
+    "id": 202,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es la población aproximada de Francia en 2025?",
+    "options": [
+      "Cerca de 45 millones de habitantes",
+      "Cerca de 68 millones de habitantes",
+      "Cerca de 90 millones de habitantes",
+      "Cerca de 120 millones de habitantes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Incluyendo los departamentos metropolitanos y de ultramar, la población francesa asciende a poco más de 68 millones de habitantes según estimaciones recientes del INSEE."
+  },
+  {
+    "id": 203,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es el principal puerto marítimo de Francia?",
+    "options": [
+      "Marsella",
+      "Niza",
+      "Burdeos",
+      "Nantes"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El Gran puerto marítimo de Marsella es el primer puerto de Francia y uno de los primeros puertos europeos, desempeñando un papel importante en la economía y el comercio internacional."
+  },
+  {
+    "id": 204,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuántas regiones hay en la Francia metropolitana?",
+    "options": [
+      "10",
+      "13",
+      "22",
+      "96"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Desde la gran reforma territorial de 2015 (ley NOTRe que entró en vigor en 2016), el número de regiones en la Francia metropolitana pasó de 22 a 13 regiones administrativas (a las que se suman las 5 regiones de ultramar)."
+  },
+  {
+    "id": 205,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué cadena montañosa se encuentra entre Francia y España?",
+    "options": [
+      "El Jura",
+      "El Macizo Central",
+      "Los Alpes",
+      "Los Pirineos"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Los Pirineos forman una barrera natural de unos 430 km al suroeste de Francia, delimitando la frontera terrestre entre la Península Ibérica (España) y el resto de Europa."
+  },
+  {
+    "id": 206,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué isla francesa se encuentra al sureste del continente africano?",
+    "options": [
+      "Martinica",
+      "Córcega",
+      "La Reunión",
+      "Tahití"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La Reunión (así como Mayotte) se encuentra en el Océano Índico, frente a la costa sureste del continente africano y cerca de Madagascar."
+  },
+  {
+    "id": 207,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es la capital (chef-lieu) de la región de Auvernia-Ródano-Alpes?",
+    "options": [
+      "Grenoble",
+      "Clermont-Ferrand",
+      "Lyon",
+      "Saint-Étienne"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Resultado de la fusión de Auvernia y Ródano-Alpes en 2016, la vasta región de Auvernia-Ródano-Alpes tiene a la ciudad de Lyon como su capital y metrópolis administrativa."
+  },
+  {
+    "id": 208,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es la capital (chef-lieu) de la región de Bretaña?",
+    "options": [
+      "Brest",
+      "Rennes",
+      "Quimper",
+      "Nantes"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Rennes (departamento de Ille-et-Vilaine) es la prefectura y la capital de la región de Bretaña."
+  },
+  {
+    "id": 209,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es la capital (chef-lieu) de la región de Provenza-Alpes-Costa Azul?",
+    "options": [
+      "Niza",
+      "Tolón",
+      "Marsella",
+      "Aviñón"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La región de Provenza-Alpes-Costa Azul (a menudo llamada PACA o Región Sur) tiene como capital a la ciudad de Marsella, en el departamento de Bocas del Ródano."
+  },
+  {
+    "id": 210,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Cuál es el 101º departamento francés desde 2011?",
+    "options": [
+      "Nueva Caledonia",
+      "San Bartolomé",
+      "Mayotte",
+      "Wallis y Futuna"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Mayotte, un archipiélago situado en el Océano Índico entre Mozambique y Madagascar, adquirió oficialmente el estatus de departamento francés (el 101º) en marzo de 2011 tras un referéndum local."
+  },
+  {
+    "id": 211,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué región francesa es famosa por sus estaciones de esquí?",
+    "options": [
+      "Bretaña",
+      "Normandía",
+      "Auvernia-Ródano-Alpes",
+      "Isla de Francia (Île-de-France)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La región de Auvernia-Ródano-Alpes abarca una gran parte del macizo de los Alpes y del Macizo Central, albergando así numerosas estaciones de deportes de invierno de fama internacional (Chamonix, Courchevel...)."
+  },
+  {
+    "id": 212,
+    "categorie": "Historia, geografía y cultura",
+    "question": "¿Qué río atraviesa París?",
+    "options": [
+      "El Loira",
+      "El Sena (La Seine)",
+      "El Ródano",
+      "El Garona"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El Sena fluye por el corazón de París, dividiendo la capital histórica en dos partes: la Margen Derecha al norte y la Margen Izquierda al sur."
+  },
+  {
+    "id": 213,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Dónde se debe declarar el nacimiento de un niño?",
+    "options": [
+      "En la prefectura del departamento",
+      "En el ayuntamiento del lugar de nacimiento",
+      "En la comisaría de policía",
+      "Exclusivamente en la sala de maternidad"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Declarar un nacimiento es obligatorio para cualquier niño nacido en Francia. Debe hacerlo una persona que asistió al parto, ante el encargado del registro civil en el ayuntamiento del lugar de nacimiento."
+  },
+  {
+    "id": 214,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué acción puede llevar a cabo el inquilino de una vivienda sin el permiso del propietario?",
+    "options": [
+      "Derribar un muro de carga",
+      "Subarrendar el apartamento a un estudiante",
+      "Pintar las paredes y colgar cuadros",
+      "Dejar de pagar el alquiler si considera que el apartamento es demasiado pequeño"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El inquilino tiene derecho a organizar libremente el alojamiento (decoración, pintura, agujeros para fijar muebles) siempre que no transforme la estructura o el propósito de la propiedad, y pueda restaurarla a su estado original al marcharse."
+  },
+  {
+    "id": 215,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué matrimonio está legalmente reconocido?",
+    "options": [
+      "El matrimonio religioso",
+      "El matrimonio civil celebrado en el ayuntamiento",
+      "Una unión redactada por un abogado",
+      "Una simple declaración ante notario"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En Francia, solo el matrimonio civil celebrado públicamente por un oficial del registro civil (el alcalde o su adjunto) tiene valor legal. Un matrimonio religioso solo puede tener lugar después de la celebración del matrimonio civil."
+  },
+  {
+    "id": 216,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Aparcar en una plaza reservada para personas discapacitadas:",
+    "options": [
+      "Está permitido por una duración máxima de 5 minutos",
+      "Está estrictamente prohibido sin la tarjeta de aparcamiento adecuada",
+      "Está reservado para mujeres embarazadas",
+      "Está permitido los domingos y festivos"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Solo las personas que poseen la Tarjeta de Inclusión de Movilidad (CMI) con la mención \"aparcamiento\" están autorizadas a usar estos espacios. Cualquier infractor se enfrenta a una multa de 135 euros y a la retirada del vehículo por la grúa."
+  },
+  {
+    "id": 217,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Si una lavadora se rompe, es posible:",
+    "options": [
+      "Dejarla en la acera",
+      "Tirarla en el contenedor de basura de tapa amarilla",
+      "Abandonarla en el borde de un bosque",
+      "Llevarla al centro de reciclaje o utilizar el servicio de recogida de objetos voluminosos"
+    ],
+    "bonne_reponse": 3,
+    "explication": "Para proteger el medio ambiente, los electrodomésticos grandes (RAEE) nunca deben abandonarse en la naturaleza. Deben dejarse en un centro de reciclaje (déchetterie), confiarse al servicio de objetos voluminosos del ayuntamiento o ser retirados por la tienda durante una nueva compra."
+  },
+  {
+    "id": 218,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿En qué caso se debe declarar al hijo ante el servicio de estado civil?",
+    "options": [
+      "Solo si los padres están casados",
+      "Para cualquier nacimiento",
+      "Solo para el primer hijo",
+      "Solo si los padres son de nacionalidad francesa"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La declaración de un nacimiento es una obligación universal en el territorio francés. Concierne a todos los nacimientos, independientemente de la situación familiar o la nacionalidad de los padres, con el fin de dar al niño una existencia legal."
+  },
+  {
+    "id": 219,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuándo se debe declarar al hijo ante el servicio de estado civil?",
+    "options": [
+      "Dentro de los 5 días posteriores al nacimiento",
+      "Dentro del mes posterior al nacimiento",
+      "Antes de la entrada a la escuela infantil (maternelle)",
+      "Obligatoriamente el mismo día del nacimiento"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La ley impone un plazo muy estricto de 5 días hábiles a partir del día del parto. Si se supera este plazo, el encargado del registro civil ya no puede registrar al niño, y entonces se debe iniciar un largo procedimiento judicial."
+  },
+  {
+    "id": 220,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué número de emergencia le permite llamar a la policía?",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "119"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En Francia, el 17 es el número de llamada de emergencia para comunicarse con la Policía (Police Secours) o la Gendarmería Nacional en caso de violencia, robo, allanamiento o alteración grave del orden público."
+  },
+  {
+    "id": 221,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué número de emergencia le permite llamar al SAMU (Servicio de Ayuda Médica Urgente)?",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "112"
+    ],
+    "bonne_reponse": 0,
+    "explication": "El 15 le permite comunicarse con el SAMU para obtener la intervención de un equipo médico durante una emergencia que ponga en peligro la vida (desmayo, accidente, lesión grave)."
+  },
+  {
+    "id": 222,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿En qué institución pueden los padres inscribir a sus hijos para la escuela pública?",
+    "options": [
+      "En la prefectura",
+      "En el ayuntamiento (mairie)",
+      "En la comisaría de policía",
+      "En el consejo departamental"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La inscripción para la escuela infantil (maternelle) o primaria pública se realiza en el servicio escolar del ayuntamiento del municipio de residencia, que emite un certificado de inscripción indicando la escuela asignada."
+  },
+  {
+    "id": 223,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "En caso de divorcio, ¿quién ejerce la patria potestad?",
+    "options": [
+      "Solo la madre",
+      "Solo el padre",
+      "El juez de lo familiar",
+      "Ambos padres conjuntamente"
+    ],
+    "bonne_reponse": 3,
+    "explication": "En Francia, la separación o el divorcio no alteran los deberes hacia los hijos. La ley establece el principio del ejercicio conjunto de la patria potestad para que el niño mantenga los lazos con cada uno de sus padres."
+  },
+  {
+    "id": 224,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué ayuda permite a las personas con dificultades financieras tener un abogado?",
+    "options": [
+      "La Ayuda Personalizada a la Vivienda (APL)",
+      "La Ayuda Médica Estatal (AME)",
+      "La Asistencia Jurídica Gratuita (L'aide juridictionnelle)",
+      "La Renta de Solidaridad Activa (RSA)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La asistencia jurídica gratuita es la cobertura estatal de la totalidad o parte de los gastos legales (honorarios de abogados, agentes judiciales) para personas que demuestran recursos insuficientes para defenderse de manera justa."
+  },
+  {
+    "id": 225,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Quién puede solicitar el divorcio de personas casadas?",
+    "options": [
+      "Solo el marido",
+      "Solo la esposa",
+      "Cualquiera de los dos, o ambos",
+      "El alcalde del municipio"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ley establece una estricta igualdad entre los cónyuges. Cada uno de ellos tiene el derecho de iniciar un procedimiento de divorcio individualmente (por culpa o alteración del vínculo matrimonial), o conjuntamente (de mutuo acuerdo)."
+  },
+  {
+    "id": 226,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿A qué organización se debe solicitar el reembolso de los gastos de salud?",
+    "options": [
+      "A la CPAM (Caja Primaria de Seguro de Enfermedad)",
+      "A la Prefectura",
+      "A France Travail",
+      "Al Ayuntamiento"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La Seguridad Social (de la cual la CPAM es la sucursal local) es la organización encargada de procesar las hojas de atención médica y reembolsar la parte obligatoria de los gastos médicos a las personas aseguradas."
+  },
+  {
+    "id": 227,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "La anticoncepción:",
+    "options": [
+      "Está prohibida en Francia",
+      "Es gratuita y sin restricciones para los jóvenes",
+      "Requiere el acuerdo oficial del marido",
+      "Está reservada para mujeres adultas casadas"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En Francia, la anticoncepción es un derecho. Los métodos anticonceptivos son de libre acceso. Desde 2022, es totalmente gratuita y sin costes iniciales para todas las mujeres menores de 26 años."
+  },
+  {
+    "id": 228,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuál es el principio de confidencialidad en el ámbito de la salud?",
+    "options": [
+      "La elaboración de perfiles de pacientes por parte de la policía",
+      "El secreto médico",
+      "El acto de ocultar la enfermedad a la familia",
+      "El derecho del empleador a acceder al expediente médico"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El secreto médico garantiza que la información personal y médica confiada a un profesional de la salud no será divulgada sin el acuerdo del paciente, garantizando así su privacidad."
+  },
+  {
+    "id": 229,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Para qué sirve la tarjeta Vitale (carte Vitale)?",
+    "options": [
+      "Para permitir el reembolso de los cuidados médicos",
+      "Para tomar el avión",
+      "Para declarar los impuestos",
+      "Para viajar gratis por Europa"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Un chip que contiene la información administrativa del asegurado, la tarjeta Vitale se entrega a los profesionales de la salud para transmitir telemáticamente la hoja de atención electrónica, lo que permite un reembolso rápido por parte del Seguro de Enfermedad."
+  },
+  {
+    "id": 230,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuál es el propósito de una mutua de salud (mutuelle)?",
+    "options": [
+      "Sustituir a la Seguridad Social",
+      "Complementar los reembolsos del Seguro de Enfermedad",
+      "Pagar el alquiler",
+      "Tener un médico gratuito"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El Seguro de Enfermedad no reembolsa la totalidad de los gastos médicos. La mutua (o seguro de salud complementario) sirve para reembolsar la parte restante, el \"ticket moderador\", e incluso los honorarios excesivos."
+  },
+  {
+    "id": 231,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué es el sistema de pago por terceros (tiers payant)?",
+    "options": [
+      "Un impuesto para el hospital",
+      "El acto de pagar en 3 plazos",
+      "El hecho de no tener que adelantar el pago de los gastos médicos",
+      "El hecho de que el salario se pague en tres plazos"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El pago por terceros (tiers payant) es un sistema que exime al paciente de adelantar los gastos en el médico o farmacéutico. El profesional recibe el pago directamente de la Seguridad Social y de la mutua del paciente."
+  },
+  {
+    "id": 232,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "La inscripción en el Seguro de Enfermedad (Assurance Maladie) es:",
+    "options": [
+      "Obligatoria para los residentes estables",
+      "Opcional",
+      "Solo para franceses",
+      "Si se es pobre"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La Protección Universal de Enfermedad (PUMa) garantiza a cualquier persona que trabaje o resida en Francia de manera estable y regular la cobertura de sus gastos de salud, de forma obligatoria y universal."
+  },
+  {
+    "id": 233,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Es posible abortar en Francia?",
+    "options": [
+      "No, está prohibido",
+      "Sí, la Interrupción Voluntaria del Embarazo (IVG) es un derecho",
+      "Solo si hay peligro médico",
+      "Si el padre está de acuerdo"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La Interrupción Voluntaria del Embarazo (IVG) es un derecho para cualquier mujer que no desee continuar con un embarazo, sin tener que justificarlo, dentro del plazo legal de 14 semanas."
+  },
+  {
+    "id": 234,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Trabajar sin ser declarado (trabajo en negro) es:",
+    "options": [
+      "Legal para trabajos esporádicos",
+      "Un delito castigado por la ley",
+      "Una tolerancia del Estado",
+      "Posible durante un período de prueba"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El trabajo encubierto (o trabajar en negro) es estrictamente ilegal. Penaliza al empleado privándole de sus derechos sociales (desempleo, jubilación, seguro de accidentes) y constituye un fraude para el empleador."
+  },
+  {
+    "id": 235,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué es el SMIC?",
+    "options": [
+      "Un servicio médico",
+      "El salario mínimo legal",
+      "Un sindicato profesional",
+      "Una sociedad civil"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El SMIC (Salario Mínimo Interprofesional de Crecimiento) es el umbral salarial por hora por debajo del cual un empleador no tiene derecho a remunerar a un empleado mayor de 18 años en Francia."
+  },
+  {
+    "id": 236,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuál es el primer paso que se debe dar al buscar empleo?",
+    "options": [
+      "Inscribirse en France Travail",
+      "Ir a la prefectura",
+      "Esperar a que le llamen",
+      "Pagar un impuesto del ayuntamiento"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Registrarse en France Travail (anteriormente Pôle Emploi) permite estructurar la búsqueda (redactar un currículum), acceder a ofertas de trabajo y, bajo ciertas condiciones, recibir prestaciones por desempleo."
+  },
+  {
+    "id": 237,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuál es la duración legal del tiempo de trabajo por semana?",
+    "options": [
+      "30h",
+      "35h",
+      "39h",
+      "40h"
+    ],
+    "bonne_reponse": 1,
+    "explication": "En Francia, el tiempo de trabajo legal está fijado en 35 horas por semana para un empleo a tiempo completo. Más allá de eso, las horas trabajadas se consideran horas extraordinarias."
+  },
+  {
+    "id": 238,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Quién puede solicitar el permiso de educación parental (excedencia por cuidado de hijos)?",
+    "options": [
+      "Solo la madre",
+      "Solo el padre",
+      "El padre o la madre, si llevan 1 año empleados",
+      "Los abuelos"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Para cuidar de su hijo tras un nacimiento o una adopción, cualquier empleado (hombre o mujer) con al menos un año de antigüedad tiene derecho a solicitar una excedencia parental."
+  },
+  {
+    "id": 239,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Una persona extranjera, en situación regular, puede crear su empresa:",
+    "options": [
+      "Está prohibido",
+      "Sí, si su permiso de residencia lo autoriza",
+      "Si está casada con un francés/francesa",
+      "Solo en el sector de la construcción"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Los ciudadanos extranjeros que residen legalmente en Francia disfrutan de libertad de empresa, siempre que la naturaleza de su permiso de residencia no les prohíba ejercer una profesión no asalariada (autónoma)."
+  },
+  {
+    "id": 240,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Puede una mujer crear su propia empresa?",
+    "options": [
+      "Sí, libremente",
+      "Está prohibido",
+      "Con el acuerdo de su marido",
+      "Solo en el sector de la moda"
+    ],
+    "bonne_reponse": 0,
+    "explication": "En virtud del principio constitucional de igualdad entre los sexos, una mujer es totalmente libre de abrir una cuenta bancaria, trabajar, o crear y gestionar la empresa de su elección sin ninguna autorización."
+  },
+  {
+    "id": 241,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuáles son los textos que definen las reglas en el trabajo?",
+    "options": [
+      "El Código Civil",
+      "El Código de Trabajo, los convenios colectivos y el contrato",
+      "El reglamento del ayuntamiento",
+      "La Declaración de Derechos del Hombre y del Ciudadano (DDHC)"
+    ],
+    "bonne_reponse": 1,
+    "explication": "La relación empleador/empleado está estrictamente regulada por la ley (el Código de Trabajo), por los acuerdos de la rama (convenios colectivos) y por el contrato de trabajo firmado entre las dos partes."
+  },
+  {
+    "id": 242,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuáles son los casos que maneja el consejo de prud'hommes (tribunal laboral)?",
+    "options": [
+      "Disputas comerciales",
+      "Conflictos laborales individuales",
+      "Problemas de tráfico",
+      "Divorcios"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El consejo de prud'hommes es el tribunal especializado para resolver conflictos individuales (despido, salarios impagados, acoso) entre un empleado y su empleador en el sector privado."
+  },
+  {
+    "id": 243,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Quién tiene derecho a sindicarse?",
+    "options": [
+      "Cualquier trabajador",
+      "Solo en el sector público",
+      "Solo los franceses",
+      "Los delegados"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La libertad de afiliarse a un sindicato es un derecho reconocido por la Constitución. Todo trabajador, empleado, funcionario o desempleado puede afiliarse libremente al sindicato de su elección para defender sus intereses."
+  },
+  {
+    "id": 244,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Es posible despedir a una mujer que está embarazada o en licencia de maternidad, debido a su embarazo?",
+    "options": [
+      "Sí, si falta a menudo",
+      "Sí, si no hay dinero",
+      "No, disfruta de protección absoluta",
+      "Si ya tiene 3 hijos"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El Código de Trabajo prohíbe en absoluto el despido de una mujer por motivo de su embarazo. La empleada está protegida durante todo su embarazo y durante toda la duración de su licencia de maternidad."
+  },
+  {
+    "id": 245,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "La educación de los niños es obligatoria desde:",
+    "options": [
+      "Los 3 a los 16 años",
+      "Los 6 a los 14 años",
+      "Los 3 a los 18 años",
+      "Los 6 a los 18 años"
+    ],
+    "bonne_reponse": 0,
+    "explication": "Desde la ley \"Por una escuela de confianza\" (2019), la educación (en la escuela o excepcionalmente en casa) es un derecho del niño y una obligación legal para sus padres desde los 3 años hasta los 16."
+  },
+  {
+    "id": 246,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Los padres no respetan la obligación de escolarización de sus hijos. ¿A qué pena máxima se exponen?",
+    "options": [
+      "Una advertencia",
+      "La pérdida de prestaciones",
+      "6 meses de prisión y 7.500 € de multa",
+      "Expulsión"
+    ],
+    "bonne_reponse": 2,
+    "explication": "No educar a un hijo es un grave incumplimiento de los deberes educativos. Es un delito penal fuertemente sancionado para garantizar el derecho a la educación del niño."
+  },
+  {
+    "id": 247,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cuál es la definición de patria potestad (autorité parentale)?",
+    "options": [
+      "El derecho a castigar físicamente",
+      "El padre decidiendo todo",
+      "Un conjunto de derechos y deberes para proteger al niño en su interés",
+      "La elección forzada de una profesión"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La patria potestad (generalmente ejercida conjuntamente por ambos padres) tiene como objetivo proteger la seguridad, la salud y la moralidad del hijo menor para asegurar su educación, sin violencia."
+  },
+  {
+    "id": 248,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué motivo de ausencia es aceptado por la escuela?",
+    "options": [
+      "Irse de vacaciones antes",
+      "Despertarse tarde",
+      "Enfermedad o un evento familiar grave",
+      "Un cumpleaños"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La asistencia a la escuela es estricta. Las únicas ausencias toleradas son aquellas justificadas por razones de fuerza mayor (enfermedad del niño, enfermedad contagiosa de un familiar, reunión familiar solemne)."
+  },
+  {
+    "id": 249,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Hasta qué edad es obligatoria la escuela?",
+    "options": [
+      "14 años",
+      "16 años",
+      "18 años",
+      "No es obligatoria"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Es la educación (instrucción) la que es obligatoria, y esto hasta la edad de 16 años (la edad que simboliza el fin de la escolarización obligatoria en el instituto), aunque los jóvenes de 16 a 18 años están ahora sujetos a una obligación de formación."
+  },
+  {
+    "id": 250,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿A qué edad comienza la educación obligatoria de los niños?",
+    "options": [
+      "A los 2 años",
+      "A los 3 años",
+      "A los 6 años",
+      "A los 7 años"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Reducida de 6 años a 3 años en 2019, esta obligación tiene como objetivo reducir las desigualdades reforzando el aprendizaje del lenguaje y la socialización desde la escuela infantil (maternelle)."
+  },
+  {
+    "id": 251,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cómo se llaman las escuelas a las que entran los alumnos después de la escuela primaria (école élémentaire)?",
+    "options": [
+      "Instituto (Lycée)",
+      "Universidad (Université)",
+      "Colegio de educación secundaria (Collège)",
+      "Escuela infantil (Maternelle)"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Al final de la escuela primaria (alrededor de los 11 años), todos los estudiantes franceses entran al collège (colegio) para cuatro años de educación secundaria (de 6º a 3º curso)."
+  },
+  {
+    "id": 252,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Como padre/madre de un alumno, es posible:",
+    "options": [
+      "Votar para elegir a sus representantes en el consejo escolar",
+      "Elegir el plan de estudios",
+      "Entrar al aula sin previo aviso",
+      "Castigar a otros niños"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La comunidad educativa incluye a los padres. Si bien no reemplazan a los maestros en la pedagogía, están representados en los consejos escolares a través de elecciones celebradas cada año."
+  },
+  {
+    "id": 253,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué educación se imparte a los niños que no hablan francés?",
+    "options": [
+      "Ninguna escuela",
+      "Dispositivos de aprendizaje específicos (UPE2A)",
+      "Clases particulares obligatorias",
+      "Una escuela para extranjeros"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El derecho a la educación es universal. Los estudiantes recién llegados que no hablan francés son matriculados en clases especializadas llamadas UPE2A para el aprendizaje intensivo del idioma."
+  },
+  {
+    "id": 254,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "En cuanto a la acogida de niños con discapacidad en la escuela, ¿cuál de las afirmaciones es verdadera?",
+    "options": [
+      "La escuela es inclusiva y educa a todos los niños",
+      "Deben ir al hospital",
+      "No es obligatorio",
+      "Es más caro"
+    ],
+    "bonne_reponse": 0,
+    "explication": "La ley de 2005 consagra el derecho a la escolarización en un entorno ordinario. La escuela pública es inclusiva y adapta su enseñanza (equipamiento, ayuda humana como AESH) a las necesidades del niño con discapacidad."
+  },
+  {
+    "id": 255,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Desde el 1 de julio de 2021, ¿cuál es la duración del permiso de paternidad?",
+    "options": [
+      "3 días",
+      "14 días",
+      "28 días",
+      "3 meses"
+    ],
+    "bonne_reponse": 2,
+    "explication": "Para promover la igualdad entre mujeres/hombres y la implicación del segundo progenitor, el permiso de paternidad se duplicó a 28 días en 2021 (incluidos 7 días obligatorios a tomar inmediatamente al nacer)."
+  },
+  {
+    "id": 256,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Es posible castigar físicamente a los hijos?",
+    "options": [
+      "Sí",
+      "Solo en la mano",
+      "No, está prohibido",
+      "Si es mayor de 10 años"
+    ],
+    "bonne_reponse": 2,
+    "explication": "La ley del 10 de julio de 2019 prohíbe estrictamente la Violencia Educativa Ordinaria (VEO), incluyendo azotes y bofetadas. La educación debe realizarse respetando la integridad del niño."
+  },
+  {
+    "id": 257,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Con respecto al acoso escolar (bullying):",
+    "options": [
+      "No hay nada que hacer",
+      "Es un delito penal",
+      "Se debe cambiar de escuela",
+      "La policía no interviene"
+    ],
+    "bonne_reponse": 1,
+    "explication": "El acoso escolar es una forma de violencia (burlas repetidas, ciberacoso) castigada por la ley. Desde 2022, es un delito penal castigado con penas de prisión para los acosadores."
+  },
+  {
+    "id": 258,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "Con respecto al acoso en el trabajo:",
+    "options": [
+      "Hay que dimitir",
+      "Hay que callarse",
+      "Hay que alertar, testificar o presentar una denuncia",
+      "Hay que responder con violencia"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El acoso moral o sexual es castigado por el Código de Trabajo y el Código Penal. La víctima no debe permanecer aislada, sino alertar a los sindicatos, al médico del trabajo o a la inspección de trabajo."
+  },
+  {
+    "id": 259,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Qué hace la medicina del trabajo?",
+    "options": [
+      "Comprueba la simulación",
+      "Hace prevención para la salud de los empleados",
+      "Trata a la familia",
+      "Reemplaza al médico de familia"
+    ],
+    "bonne_reponse": 1,
+    "explication": "Su papel es exclusivamente preventivo: se asegura de que las condiciones de trabajo (postura, estrés, productos peligrosos) no alteren la salud física o mental de los empleados."
+  },
+  {
+    "id": 260,
+    "categorie": "Vivir en la sociedad francesa",
+    "question": "¿Cómo se llama el diploma que se obtiene al final del instituto (lycée)?",
+    "options": [
+      "El brevet",
+      "La licence",
+      "El bachillerato (Le baccalauréat)",
+      "El master"
+    ],
+    "bonne_reponse": 2,
+    "explication": "El bachillerato (\"Bac\") es el primer título de educación superior. Concluye los estudios secundarios en el instituto y es esencial para cursar estudios universitarios."
+  }
+]
