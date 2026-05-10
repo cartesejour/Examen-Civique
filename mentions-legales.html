@@ -1,1 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='impact-site-verification' value='c7196d20-cd2c-44ec-a9d7-78b7f566a56b'>
+    <title>Simulateur Examen Civique 2026 | Carte de Séjour & Naturalisation</title>
+    <meta name="description" content="Préparez l'examen civique 2026 (carte de séjour et naturalisation). Simulateur gratuit, questions officielles, traduction et outils pour dossier ANEF."><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { 'bleu-france': '#000091', 'rouge-marianne': '#E1000F', 'fond-gris': '#F6F6F6' } } }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="js/api.js" defer></script>
+    <script src="js/quiz.js" defer></script>
+    <script src="js/ui.js" defer></script>
+    <script src="js/app.js" defer></script>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5981987195508706"
+     crossorigin="anonymous"></script>
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7WLRWFVNED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7WLRWFVNED');
+</script>
+
+    
+</head>
+<body class="bg-fond-gris text-gray-900 min-h-screen flex flex-col">
+
+<header dir="ltr" class="bg-white border-b border-gray-200 shadow-sm fixed top-0 w-full z-50">
+    <div class="container mx-auto px-4 py-2 max-w-4xl flex justify-between items-center w-full flex-nowrap">
+        
+        <div class="flex items-center flex-shrink min-w-0">
+            <a href="#" onclick="location.reload(); return false;" class="flex items-center cursor-pointer transition hover:opacity-80 min-w-0">
+                
+                <img src="logo.svg" alt="Logo CarteSejour.fr" class="h-12 sm:h-14 w-auto mr-2 sm:mr-3 flex-shrink-0 drop-shadow-md">
+                
+                <div class="flex flex-col justify-center mt-1 min-w-0">
+                    <div class="notranslate hidden sm:block uppercase font-black text-[10px] sm:text-[11px] leading-[11px] tracking-tighter text-gray-400 mb-1">
+                        Plateforme<br>Indépendante
+                    </div>
+                    <div class="notranslate text-[12px] sm:text-[14px] font-black text-gray-900 uppercase leading-none tracking-tighter truncate">
+                        Préparation à l'Examen<br><span class="text-bleu-france">Civique Français</span>
+                    </div>
+                </div>
+        
+            </a>
+        </div>
+
+        <div class="gtranslate_wrapper flex-shrink-0 ml-2"></div>
+        
+    </div>
+</header>
+
+    <div id="modal-alert" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[1000] flex items-center justify-center p-4" aria-hidden="true">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-bleu-france text-center">
+            <h3 id="modal-title" class="text-lg font-bold text-gray-900 mb-2 font-black uppercase">Attention</h3>
+            <p id="modal-message" class="text-sm text-gray-600 mb-6 font-medium"></p>
+            <button onclick="UI.closeModal('modal-alert')" class="w-full py-3 bg-bleu-france text-white font-bold text-xs uppercase tracking-widest">D'accord</button>
+        </div>
+    </div>
+
+    <div id="modal-quit" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4" aria-hidden="true">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-rouge-marianne text-center rounded">
+            <h3 id="quit-title" class="text-lg font-bold text-gray-900 mb-2 font-black uppercase text-rouge-marianne">Abandonner ?</h3>
+            <p id="quit-desc" class="text-sm text-gray-600 mb-6 font-medium">Votre score sera calculé uniquement sur les questions auxquelles vous avez déjà répondu.</p>
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="UI.closeModal('modal-quit')" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase rounded hover:bg-gray-200 transition">Continuer</button>
+                <button id="btn-confirm-quit" onclick="App.abandonQuiz()" class="py-3 bg-rouge-marianne text-white font-bold text-xs uppercase shadow-md rounded hover:bg-red-700 transition">Voir mon score</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-resume" class="hidden fixed inset-0 bg-black bg-opacity-60 z-[200] flex items-center justify-center p-4" aria-hidden="true">
+        <div class="bg-white w-full max-w-xs p-6 shadow-2xl border-t-4 border-bleu-france text-center">
+            <h3 class="text-lg font-bold text-gray-900 mb-2 font-black uppercase">Reprendre ?</h3>
+            <p class="text-sm text-gray-600 mb-6 font-medium">Vous avez un quiz en cours ! Voulez-vous le reprendre là où vous vous étiez arrêté ?</p>
+            <div class="grid grid-cols-2 gap-3">
+                <button onclick="App.discardQuiz()" class="py-3 bg-gray-100 text-gray-700 font-bold text-xs uppercase">Non</button>
+                <button onclick="App.resumeQuiz()" class="py-3 bg-bleu-france text-white font-bold text-xs uppercase shadow-md">Oui</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ad-overlay" class="hidden fixed inset-0 bg-white z-[250] flex flex-col items-center justify-center p-8 text-center">
+        <div class="w-12 h-12 border-4 border-bleu-france border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p id="ad-text" class="text-bleu-france font-bold mb-2 uppercase tracking-widest text-xs italic">Chargement...</p>
+        <div class="w-full bg-gray-100 h-1 rounded-full overflow-hidden max-w-xs"><div class="ad-bar h-full bg-bleu-france"></div></div>
+    </div>
+
+    
+<div id="modal-newsletter-popup" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[400] flex items-center justify-center p-4 backdrop-blur-sm" aria-hidden="true">
+    <div class="bg-white max-w-sm w-full p-6 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative">
+        <button onclick="document.getElementById('modal-newsletter-popup').classList.add('hidden')" class="absolute top-2 right-3 text-gray-400 hover:text-gray-800 font-black text-xl">&times;</button>
+        
+        <span class="text-4xl mb-2 block">💌</span>
+        <h3 class="text-lg font-black text-bleu-france uppercase tracking-tight mb-2">Ne ratez aucune astuce !</h3>
+        <p class="text-xs text-gray-600 mb-5 font-medium leading-relaxed">Abonnez-vous gratuitement pour recevoir les mises à jour des lois et nos outils exclusifs pour la préfecture.</p>
+        
+        <form method="POST" action="https://88f4c451.sibforms.com/serve/MUIFABMpVB0ZSaUKLslq8MKLAb1BMopP4p9-CQ1pYB0gAwrUGceBmK6kgbnVvnHE5bfxBr-2pYFEXFxeornC9oof_-jKPQL4532OL8SnywoIbFhEroNtxrues0bcvI1m3XBu5SRSQgiv0atYoLOcgFcatxM8GkKvaMDLHdDyIe_gal1N7hBBxf-IqpRzBO8XntEqtHouW5QAODcmLQ==" target="hidden_iframe" onsubmit="window.validerAbonnement()">
+            <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="w-full p-3 mb-3 text-sm border border-gray-300 rounded focus:outline-none focus:border-bleu-france focus:ring-1 focus:ring-bleu-france">
+            <button type="submit" class="w-full bg-rouge-marianne text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow-md hover:bg-red-700 transition">Je m'abonne</button>
+        </form>
+        
+        <div class="mt-5 pt-4 border-t border-gray-100 flex justify-center items-center gap-4">
+            <span class="text-[9px] text-gray-400 uppercase font-bold tracking-widest">Nous suivre :</span>
+            <a href="https://www.tiktok.com/@cartesejour.fr" target="_blank" class="text-gray-400 hover:text-black transition-colors" title="TikTok">
+                <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 16 16"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"></path></svg>
+            </a>
+            <a href="https://www.instagram.com/cartesejour.fr/" target="_blank" class="text-gray-400 hover:text-[#E1306C] transition-colors" title="Instagram">
+                <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+            </a>
+            <a href="https://www.youtube.com/@CarteSejour-o8y" target="_blank" class="text-gray-400 hover:text-[#FF0000] transition-colors" title="YouTube">
+                <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+   <div id="modal-newsletter-success" class="hidden fixed inset-0 bg-black bg-opacity-70 z-[500] flex items-center justify-center p-4 backdrop-blur-sm">
+    <div class="bg-white max-w-sm w-full p-8 shadow-2xl border-t-4 border-bleu-france rounded-lg text-center relative transform transition-all">
+        <div class="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-blue-50 border border-blue-100 mb-4 text-bleu-france">
+            <span class="text-3xl">🎉</span>
+        </div>
+        
+        <h3 class="text-xl font-black text-bleu-france uppercase tracking-tight mb-2">Inscription validée !</h3>
+        <p class="text-sm text-gray-600 mb-5 font-medium leading-relaxed">
+            Félicitations, vous faites maintenant partie de la communauté. Vous recevrez très bientôt nos meilleures astuces dans votre boîte mail !
+        </p>
+        
+        <div class="bg-gray-50 rounded-lg p-4 mb-6 border border-gray-100">
+            <p class="text-[10px] font-black text-gray-500 uppercase tracking-widest mb-3">Pendant que vous êtes là...</p>
+            <p class="text-xs text-gray-700 mb-4">Rejoignez-nous sur les réseaux pour des vidéos et des quiz quotidiens :</p>
+            <div class="flex justify-center items-center gap-5">
+                <a href="https://www.instagram.com/cartesejour.fr/" target="_blank" class="text-gray-400 hover:text-[#E1306C] transition-colors hover:scale-110 transform duration-200" title="Instagram">
+                    <svg class="w-6 h-6 fill-currentColor" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg>
+                </a>
+                <a href="https://www.tiktok.com/@cartesejour.fr" target="_blank" class="text-gray-400 hover:text-black transition-colors hover:scale-110 transform duration-200" title="TikTok">
+                    <svg class="w-6 h-6 fill-currentColor" viewBox="0 0 16 16"><path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"></path></svg>
+                </a>
+                <a href="https://www.youtube.com/@CarteSejour-o8y" target="_blank" class="text-gray-400 hover:text-[#FF0000] transition-colors hover:scale-110 transform duration-200" title="YouTube">
+                    <svg class="w-6 h-6 fill-currentColor flex-shrink-0" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>
+                </a>
+            </div>
+        </div>
+        
+        <button onclick="document.getElementById('modal-newsletter-success').classList.add('hidden')" class="w-full bg-bleu-france text-white font-black text-xs uppercase tracking-widest py-3 rounded shadow-md hover:bg-blue-800 transition">
+            Fermer
+        </button>
+    </div>
+</div>
+    
+<main class="flex-grow container mx-auto px-4 pt-28 pb-16 max-w-4xl">
+        
+
+        
+<div id="main-nav" class="flex flex-wrap gap-2 md:gap-3 w-full justify-center mb-8">
+    <button id="btn-nav-home" onclick="UI.switchScreen('screen-home')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-bleu-france text-white rounded-full shadow-sm transition-colors hover:bg-blue-800">Accueil</button>
+    
+    <button id="btn-nav-quiz-setup" onclick="UI.switchScreen('screen-quiz-setup')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Lancer l'examen</button>
+    
+    <button id="btn-nav-revisions" onclick="UI.switchScreen('screen-revisions')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Formation</button>
+    
+    <button id="btn-nav-demarches" onclick="UI.switchScreen('screen-demarches')" class="nav-btn text-[11px] font-black uppercase px-4 py-3 md:px-5 bg-gray-200 text-gray-800 rounded-full shadow-sm transition-colors hover:bg-gray-300">Outils ANEF</button>
+</div>
+
+
+    
+        <div id="screen-legal" class="hidden space-y-6">
+            <div class="bg-white p-6 border border-gray-200 shadow-sm text-sm text-gray-700">
+                
+                <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center border-b pb-2">Mentions Légales</h2>
+                
+                <div class="space-y-4">
+                    <p><strong>1. Éditeur du site :</strong><br>
+                    Le site <em>CarteSejour.fr</em> est un outil de simulation indépendant. Pour toute question ou demande, vous pouvez nous contacter à l'adresse email suivante : <em>CONTACT@CARTESEJOUR.FR</em>.</p>
+
+                    <p><strong>2. Hébergement :</strong><br>
+                    Ce site est hébergé par GitHub Pages (GitHub Inc.), 88 Colin P Kelly Jr St, San Francisco, CA 94107, États-Unis.</p>
+
+                    <p><strong>3. Propriété intellectuelle :</strong><br>
+                    La structure générale, les textes, ainsi que les éléments informatiques composant ce simulateur sont la propriété de l'éditeur. Toute reproduction totale ou partielle est interdite sans autorisation expresse.</p>
+
+                    <p class="p-3 bg-red-50 border-l-4 border-rouge-marianne text-rouge-marianne font-bold text-xs mt-4">
+                        Avertissement : Ce site est une initiative strictement privée et indépendante. Il n'est en aucun cas affilié, soutenu ou validé par le Ministère de l'Intérieur ou le gouvernement français. Les démarches officielles doivent s'effectuer sur les plateformes de l'État.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="screen-privacy" class="hidden space-y-6">
+            <div class="bg-white p-6 border border-gray-200 shadow-sm text-sm text-gray-700">
+                <h2 class="text-xl font-black text-bleu-france mb-4 uppercase tracking-tight text-center border-b pb-2">Politique de Confidentialité</h2>
+                
+                <div class="space-y-4">
+                    <p><strong>1. Collecte des données :</strong><br>
+                    Notre simulateur fonctionne entièrement dans votre navigateur. Nous ne collectons, ne stockons et ne revendons aucune donnée personnelle (ni nom, ni adresse, ni réponses aux quiz) sur nos serveurs.</p>
+
+                    <p><strong>2. Cookies et Publicité (Google AdSense) :</strong><br>
+                    Ce site est 100% gratuit et se finance grâce à la publicité. En tant que prestataire tiers, Google utilise des cookies pour diffuser des annonces sur ce site.</p>
+                    <ul class="list-disc pl-5 mt-2 space-y-1 text-xs text-gray-600">
+                        <li>L'utilisation par Google des cookies publicitaires permet de diffuser des annonces aux utilisateurs en fonction de leur visite sur notre site et sur d'autres sites web.</li>
+                        <li>Les utilisateurs peuvent désactiver la publicité personnalisée en consultant les <a href="https://myadcenter.google.com/" target="_blank" class="text-bleu-france underline">Paramètres des annonces Google</a>.</li>
+                    </ul>
+
+                    <p><strong>3. Statistiques :</strong><br>
+                    Afin d'améliorer votre expérience, nous pouvons utiliser des outils d'analyse d'audience (anonymisés) pour comprendre comment notre site est utilisé.</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </main>
+
+
+
+
+    <footer class="container mx-auto max-w-4xl px-4 pb-12 text-center">
+        <div class="h-px w-12 bg-gray-200 mx-auto mb-4"></div>
+       
+        <div id="footer-newsletter" class="bg-white p-4 rounded-lg shadow-sm border border-gray-200 mb-8 max-w-md mx-auto">
+            <h4 class="text-xs font-black text-bleu-france uppercase mb-2">💌 Restez informé</h4>
+            <p class="text-[10px] text-gray-600 mb-3 leading-relaxed">Abonnez-vous gratuitement pour recevoir nos astuces et les nouveautés de la préfecture.</p>
+            
+            <form method="POST" action="https://88f4c451.sibforms.com/serve/MUIFABMpVB0ZSaUKLslq8MKLAb1BMopP4p9-CQ1pYB0gAwrUGceBmK6kgbnVvnHE5bfxBr-2pYFEXFxeornC9oof_-jKPQL4532OL8SnywoIbFhEroNtxrues0bcvI1m3XBu5SRSQgiv0atYoLOcgFcatxM8GkKvaMDLHdDyIe_gal1N7hBBxf-IqpRzBO8XntEqtHouW5QAODcmLQ==" target="hidden_iframe" onsubmit="window.validerAbonnement()">
+                <div class="flex gap-2">
+                    <input type="email" name="EMAIL" placeholder="Votre adresse e-mail..." required class="flex-1 p-2 text-xs border border-gray-300 rounded focus:outline-none focus:border-bleu-france">
+                    <button type="submit" class="bg-rouge-marianne text-white font-black text-[10px] uppercase px-4 py-2 rounded hover:bg-red-700 transition shadow-sm">S'abonner</button>
+                </div>
+            </form>
+        </div>
+                <div class="flex flex-wrap justify-center items-center gap-3 mb-6">
+            
+            <a href="https://www.instagram.com/cartesejour.fr/" target="_blank" rel="noopener noreferrer" 
+               class="group flex items-center gap-2.5 px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-[11px] font-black uppercase tracking-wider hover:bg-[#E1306C] hover:text-white transition-colors shadow-sm">
+                <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                </svg>
+                <span class="relative top-[0.5px]">Instagram</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@cartesejour.fr" target="_blank" rel="noopener noreferrer" 
+               class="group flex items-center gap-2.5 px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-[11px] font-black uppercase tracking-wider hover:bg-black hover:text-white transition-colors shadow-sm">
+                <svg class="w-4 h-4 fill-currentColor" viewBox="0 0 16 16">
+                    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"></path>
+                </svg>
+                <span class="relative top-[0.5px]">TikTok</span>
+            </a>
+
+            <a href="https://www.youtube.com/@CarteSejour-o8y" target="_blank" rel="noopener noreferrer" 
+               class="group flex items-center gap-2.5 px-5 py-2.5 bg-gray-100 text-gray-700 rounded-full text-[11px] font-black uppercase tracking-wider hover:bg-[#FF0000] hover:text-white transition-colors shadow-sm">
+                <svg class="w-4 h-4 fill-currentColor flex-shrink-0" viewBox="0 0 24 24">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+                </svg>
+                <span class="relative top-[0.5px]">YouTube</span>
+            </a>
+                    
+                </div>
+        
+        <div class="flex justify-center gap-4 mb-3 text-[10px] font-bold text-gray-500 uppercase">
+            <button onclick="UI.switchScreen('screen-legal')" class="hover:text-bleu-france">Mentions Légales</button>
+            <span>|</span>
+            <button onclick="UI.switchScreen('screen-privacy')" class="hover:text-bleu-france">Confidentialité</button>
+        </div>
+        <p class="text-[9px] text-gray-400 uppercase font-black tracking-[0.2em]">
+            © 2026 CarteSejour.fr . Tous droits réservés.
+        </p>
+        <p class="text-[8px] text-gray-300 mt-1 italic">
+            Toute reproduction ou exploitation, même partielle, est strictement interdite. Ce site n'est pas affilié au gouvernement français.
+        </p>
+    </footer>
+    
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+   
+    <div id="modal-adblock" class="hidden fixed inset-0 bg-gray-900 bg-opacity-95 z-[300] flex flex-col items-center justify-center p-6 text-center backdrop-blur-sm">
+        <div class="bg-white max-w-sm w-full p-8 shadow-2xl border-t-4 border-rouge-marianne rounded">
+            <span class="text-4xl mb-4 block">🛑</span>
+            <h3 class="text-xl font-black text-gray-900 mb-3 uppercase tracking-tight">Bloqueur de pub détecté</h3>
+            <p class="text-sm text-gray-600 mb-6 font-medium">Ce simulateur est 100% gratuit. Pour payer nos serveurs et continuer de vous aider, nous avons besoin de la publicité.</p>
+            <p class="text-xs text-rouge-marianne font-bold mb-6">Veuillez désactiver votre bloqueur (ou mettre ce site sur liste blanche) pour pouvoir continuer.</p>
+            <button onclick="location.reload()" class="w-full py-4 bg-bleu-france text-white font-black text-xs uppercase tracking-widest shadow-md">J'ai désactivé, recharger</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script>
+        window.gtranslateSettings = {
+            "default_language": "fr",
+            "languages": [
+                "fr", "en" ,"es", "ar","tr", "ja", "ko", "zh-CN", "th", "tl", "ru", "uk", "hi", "ur", "fa"
+            ],
+            "wrapper_selector": ".gtranslate_wrapper",
+            "flag_style": "2d"
+        }
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/popup.js" defer></script>
+
+</body>
+</html>
