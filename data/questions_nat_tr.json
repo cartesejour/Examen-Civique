@@ -1,0 +1,2082 @@
+[
+  {
+    "id": 1,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "La Marseillaise'in sözlerini tamamlayın: \"Allons enfants de la patrie...\"",
+    "options": ["Le jour de gloire est arrivé ! (Şan günü geldi!)", "L'étendard sanglant est levé ! (Kanlı sancak çekildi!)", "Marchons, marchons ! (Yürüyelim, yürüyelim!)", "Contre nous de la tyrannie (Bize karşı tiranlığın)"],
+    "bonne_reponse": 0,
+    "explication": "\"Allons enfants de la patrie\" sözünden hemen sonra \"Le jour de gloire est arrivé !\" cümlesi gelir."
+  },
+  {
+    "id": 2,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir iş görüşmesi kapsamında adaya ne sorulabilir?",
+    "options": ["Siyasi ve dini görüşleri", "Mesleki deneyimi ve diplomaları", "Sağlık durumu veya tıbbi geçmişi", "Yakın zamanda çocuk sahibi olma niyeti"],
+    "bonne_reponse": 1,
+    "explication": "Kanun, bir mülakat sırasında özel hayatla ilgili soru sorulmasını kesinlikle yasaklar."
+  },
+  {
+    "id": 3,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Gelirinizi vergi dairelerine beyan etmek:",
+    "options": ["Asgari ücret (SMIC) kazanıyorsanız isteğe bağlıdır", "Sadece Fransız vatandaşları için zorunludur", "Fransa'da ikamet eden herkes için zorunludur", "Sadece ev sahiplerine özeldir"],
+    "bonne_reponse": 2,
+    "explication": "Gelir beyanı, Fransa'da ikamet eden herkes için yıllık bir zorunluluktur."
+  },
+  {
+    "id": 4,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'da vergiler kamu harcamalarını finanse etmek için kullanılır. Hangi ifade doğrudur?",
+    "options": ["Sadece bakanlar içindir", "Herkes ödeyip ödememekte serbesttir", "Bankalara geri ödenir", "Okulları, hastaneleri, polisi ve yolları finanse etmek için kullanılır"],
+    "bonne_reponse": 3,
+    "explication": "Vergiler, herkesin yararına olan temel kamu hizmetlerini finanse eder."
+  },
+  {
+    "id": 5,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Örgütlenme özgürlüğü (Dernek kurma özgürlüğü) nedir?",
+    "options": ["Bir derneği serbestçe kurma, ona katılma veya ondan ayrılma hakkı", "Gönüllü çalışma zorunluluğu", "Belediye başkanından alınan özel bir izin", "Vergisiz bir şirket kurma hakkı"],
+    "bonne_reponse": 0,
+    "explication": "1901 kanunu ile güvence altına alınmıştır ve insanların önceden izin almadan bir araya gelmelerine olanak tanır."
+  },
+  {
+    "id": 6,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'da sosyal ağlarda ifade özgürlüğü:",
+    "options": ["Tam ve sınırsızdır", "Kanunla sınırlandırılmıştır (hakaret, nefret söylemi)", "Siyaset için yasaktır", "Sadece gazetecilere özeldir"],
+    "bonne_reponse": 1,
+    "explication": "Hakaret ve nefrete teşvik, yaptırımlara tabi suçlardır."
+  },
+  {
+    "id": 7,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bu isimlerden hangisi Cumhuriyetin bir sembolünü çağrıştırır?",
+    "options": ["Jeanne", "Joséphine", "Marianne", "Marguerite"],
+    "bonne_reponse": 2,
+    "explication": "Marianne, Fransız Cumhuriyetini temsil eden sembolik figürdür."
+  },
+  {
+    "id": 8,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bu sembollerden hangisi Fransız Cumhuriyetini temsil eder?",
+    "options": ["Zambak çiçeği (Fleur de lys)", "Üç renkli bayrak", "İmparatorluk kartalı", "Lorraine Haçı"],
+    "bonne_reponse": 1,
+    "explication": "Mavi-beyaz-kırmızı bayrak, Anayasa tarafından belirlenen ulusal amblemdir."
+  },
+  {
+    "id": 9,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Cumhuriyetin sloganı nerede görülebilir?",
+    "options": ["Kamu binalarında", "Kiliselerde", "Tüm euro banknotlarında", "Sadece Élysée Sarayı'nda"],
+    "bonne_reponse": 0,
+    "explication": "Slogan; belediye binalarının, okulların ve adliyelerin alınlıklarında yazılıdır."
+  },
+  {
+    "id": 10,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransız Cumhuriyetinin resmi sembolleri hangileridir?",
+    "options": ["Horoz ve baget", "Eyfel Kulesi ve Louvre", "Bayrak, marş ve slogan", "Cumhurbaşkanı ve Parlamento"],
+    "bonne_reponse": 2,
+    "explication": "Anayasanın 2. maddesi Fransa'nın resmi sembollerini tanımlar."
+  },
+  {
+    "id": 11,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir Fransız bayrağı halka açık bir şekilde yakılabilir mi?",
+    "options": ["Evet, bu ifade özgürlüğüdür", "Hayır, kanunla cezalandırılan bir suçtur", "Evet, eğer eskiyse", "Sadece gösterilerde"],
+    "bonne_reponse": 1,
+    "explication": "Üç renkli bayrağa hakaret 1.500 € para cezası ile cezalandırılır."
+  },
+  {
+    "id": 12,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'da sosyal güvenlik ne zaman kurulmuştur?",
+    "options": ["1789", "1905", "1958", "1945"],
+    "bonne_reponse": 3,
+    "explication": "Sosyal Güvenlik, İkinci Dünya Savaşı'ndan sonra 1945'te kurulmuştur."
+  },
+  {
+    "id": 13,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Ulusal bayram (14 Temmuz) neyi anar?",
+    "options": ["11 Kasım 1918'i", "5. Cumhuriyetin doğuşunu", "Bastille'in alınışını (1789)", "Köleliğin kaldırılmasını"],
+    "bonne_reponse": 2,
+    "explication": "14 Temmuz, 1789'u ve 1790 Federasyon Bayramı'nı anar."
+  },
+  {
+    "id": 14,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marianne'in başında ne vardır?",
+    "options": ["Bir taç", "Bir kask", "Bir tiyara", "Bir Frigya başlığı (Bonnet phrygien)"],
+    "bonne_reponse": 3,
+    "explication": "Frigya başlığı, azat edilmiş kölelerin kazandığı özgürlüğü simgeler."
+  },
+  {
+    "id": 15,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransız sloganındaki \"kardeşlik\" (fraternité) kelimesi ne anlama gelir?",
+    "options": ["Vatandaşlar arasındaki dayanışma", "Biyolojik aile", "Konutu paylaşmak", "Maaşların eşitliği"],
+    "bonne_reponse": 0,
+    "explication": "Kardeşlik, toplumun tüm üyeleri arasındaki hoşgörü ve yardımlaşmayı temsil eder."
+  },
+  {
+    "id": 16,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa milli futbol takımının formalarında hangi sembol görülebilir?",
+    "options": ["Zambak çiçeği", "Gal horozu (Coq gaulois)", "Frigya başlığı", "Marianne"],
+    "bonne_reponse": 1,
+    "explication": "Gal horozu, Fransa'nın popüler ve sportif bir sembolüdür."
+  },
+  {
+    "id": 17,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransız Cumhuriyetinin sloganı nedir?",
+    "options": ["Barış ve Çalışma", "Özgürlük, Eşitlik, Kardeşlik", "Birlik ve Dayanışma", "Düzen ve İlerleme"],
+    "bonne_reponse": 1,
+    "explication": "Devrimden miras kalan bu slogan Anayasada yer almaktadır."
+  },
+  {
+    "id": 18,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Örgütlenme özgürlüğü nedir?",
+    "options": ["Bir şirket kurmak", "Bir sendikaya kaydolmak", "Bir grup insana serbestçe katılmak", "Belediye başkanının onayı"],
+    "bonne_reponse": 2,
+    "explication": "Ortak bir proje için insanların serbestçe bir araya gelmesini sağlar (1901 kanunu)."
+  },
+  {
+    "id": 19,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Özgürlük nedir?",
+    "options": ["Kanunlar olmadan istediğini yapmak", "Başkalarına zarar vermeyen her şeyi yapmak", "Kendi görüşlerini dayatmak", "Hükümetin olmaması"],
+    "bonne_reponse": 1,
+    "explication": "Bireysel özgürlük, başkalarının haklarına saygı ile sınırlıdır."
+  },
+  {
+    "id": 20,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Anayasaya göre, Fransa ... bir Cumhuriyettir.",
+    "options": ["Liberal ve dayanışmacı", "Bölünmez, laik, demokratik ve sosyal", "Egemen ve kardeşçe", "Parlamenter"],
+    "bonne_reponse": 1,
+    "explication": "Bu, Anayasanın 1. maddesinde verilen devletin resmi tanımıdır."
+  },
+  {
+    "id": 21,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marianne hangi belgede görülebilir?",
+    "options": ["Pasaport", "Ehliyet", "Posta pulları", "Vitale Kartı (Sağlık kartı)"],
+    "bonne_reponse": 2,
+    "explication": "Marianne geleneksel olarak günlük kullanım posta pullarını süsler."
+  },
+  {
+    "id": 22,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Slogandaki 'Eşitlik' ne anlama gelir?",
+    "options": ["Herkes için aynı maaş", "Herkes için aynı meslek", "Kanun herkes için aynıdır", "Zenginler her şeyi öder"],
+    "bonne_reponse": 2,
+    "explication": "Eşitlik, tüm vatandaşların kanun önünde aynı hak ve yükümlülüklere sahip olduğu anlamına gelir."
+  },
+  {
+    "id": 23,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'da dininizi özgürce değiştirebilir misiniz?",
+    "options": ["Evet, bu mutlak bir haktır", "Hayır, kişi ebeveynlerinin dinini korur", "Evet, belediyenin onayıyla", "Sadece Katoliklik için"],
+    "bonne_reponse": 0,
+    "explication": "Vicdan özgürlüğü, inancı değiştirme veya hiçbir inanca sahip olmama hakkını içerir."
+  },
+  {
+    "id": 24,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Devletin tarafsızlığı (laiklik) ne anlama gelir?",
+    "options": ["Dinleri yasaklamak", "Rahipleri seçmek", "Tüm vatandaşlara eşit davranmak", "Tüm inançları finanse etmek"],
+    "bonne_reponse": 2,
+    "explication": "Devlet hiçbir dini kayırmaz ve eşit muameleyi sağlar."
+  },
+  {
+    "id": 25,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir vatandaş belediyede ne yapabilir?",
+    "options": ["Kendi dininden bir memur talep etmek", "Bir kadınla görüşmemeyi talep etmek", "Halka açık alanda dua etmek", "Görünür bir dini sembol takmak"],
+    "bonne_reponse": 3,
+    "explication": "Kamu görevlilerinin aksine, vatandaş inancını ifade etmekte özgürdür."
+  },
+  {
+    "id": 26,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'da devlet şunları finanse edebilir:",
+    "options": ["Yeni camileri", "İmamların maaşını", "1905 öncesi kiliselerin bakımını", "Hac yolculuklarını"],
+    "bonne_reponse": 2,
+    "explication": "Devlet, 1905'te sahibi olduğu dini yapıların bakımını üstlenir."
+  },
+  {
+    "id": 27,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Ayrılık kanunu (Din ve Devlet işlerinin ayrılması) hangi yıl kabul edildi?",
+    "options": ["1789", "1881", "1905", "1958"],
+    "bonne_reponse": 2,
+    "explication": "1905 kanunu Konkordato'nun sonunu işaret eder ve laikliği kurar."
+  },
+  {
+    "id": 28,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "1905 kanunu ne der?",
+    "options": ["Dini yasaklamak", "Rahiplere ödeme yapmak", "Resmi din", "Vicdan özgürlüğünü sağlamak"],
+    "bonne_reponse": 3,
+    "explication": "Kiliseleri Devletten ayırır ve ibadet özgürlüğünü garanti eder."
+  },
+  {
+    "id": 29,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik ilkesi neyi garanti eder?",
+    "options": ["İşte ateist olmayı", "Kanun önünde herkesin eşitliğini", "Daha fazla resmi tatili", "Bilimleri reddetmeyi"],
+    "bonne_reponse": 2,
+    "explication": "Laiklik, dinin hiçbir ayrıcalık veya ayrımcılık yaratmamasını sağlar."
+  },
+  {
+    "id": 30,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik günü hangi gün kutlanır?",
+    "options": ["1 Mayıs", "14 Temmuz", "9 Aralık", "11 Kasım"],
+    "bonne_reponse": 2,
+    "explication": "9 Aralık, 1905 kanununun yıl dönümüdür."
+  },
+  {
+    "id": 31,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Devlet okullarında hangi dini sembol takılabilir?",
+    "options": ["Büyük bir haç", "Bir kippa", "Hiçbir göze çarpan sembol takılamaz", "Bir başörtüsü"],
+    "bonne_reponse": 2,
+    "explication": "2004 kanunu, öğrenciler için oldukça belirgin dini sembolleri yasaklamaktadır."
+  },
+  {
+    "id": 32,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Yahudilere karşı nefreti ifade eden terim hangisidir?",
+    "options": ["Irkçılık (Racisme)", "Antisemitizm (Yahudi düşmanlığı)", "Homofobi", "Cinsiyetçilik (Sexisme)"],
+    "bonne_reponse": 1,
+    "explication": "Antisemitizm, kanun tarafından kınanan spesifik bir suçtur."
+  },
+  {
+    "id": 33,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laikliğin kurucu metni hangisidir?",
+    "options": ["İnsan Hakları Bildirgesi (DDHC) 1789", "Medeni Kanun 1804", "1905 Kanunu", "1958 Anayasası"],
+    "bonne_reponse": 2,
+    "explication": "1905 kanunu Fransız laikliğinin merkezi direğidir."
+  },
+  {
+    "id": 34,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Hangi kurum tarafsız kalmalıdır?",
+    "options": ["Özel şirketler", "Devlet ve kamu hizmetleri", "Spor kulüpleri", "Siyasi partiler"],
+    "bonne_reponse": 1,
+    "explication": "İdare herkese karşı tarafsız davranmalıdır."
+  },
+  {
+    "id": 35,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik (Laïcité) nedir?",
+    "options": ["Dinleri yasaklamak", "İnanma zorunluluğu", "Devlet/Din ayrılığı", "İnançları finanse etmek"],
+    "bonne_reponse": 2,
+    "explication": "Tüm vatandaşlar için bir özgürlük ve eşitlik çerçevesidir."
+  },
+  {
+    "id": 36,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Okulda, laiklik sözleşmesi şunları sağlar:",
+    "options": ["Kuralları ve karma eğitimi hatırlatmak", "Kökenleri yasaklamak", "Dualara izin vermek", "Menüleri değiştirmek"],
+    "bonne_reponse": 0,
+    "explication": "Tarafsızlığın nasıl huzurlu bir öğrenme ortamını garanti ettiğini açıklar."
+  },
+  {
+    "id": 37,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Kamu hizmetlerinde tarafsızlığa kim saygı göstermelidir?",
+    "options": ["Vatandaşlar", "Memurlar", "Sadece belediye başkanı", "Hiç kimse"],
+    "bonne_reponse": 1,
+    "explication": "Devlet çalışanları hiçbir dini aidiyet göstermemelidir."
+  },
+  {
+    "id": 38,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Hiçbir tanrıya inanmayan bir kişi, o:",
+    "options": ["Laik", "Agnostik", "Ateist", "Antiklerikal"],
+    "bonne_reponse": 2,
+    "explication": "Ateizm, hiçbir ilaha inanmama durumudur."
+  },
+  {
+    "id": 39,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Başbakan nasıl atanır?",
+    "options": ["Doğrudan oylama", "Cumhurbaşkanı tarafından atanır", "Milletvekilleri tarafından seçilir", "Kura ile"],
+    "bonne_reponse": 1,
+    "explication": "Cumhurbaşkanı, Meclisteki çoğunluğa göre Başbakanı seçer."
+  },
+  {
+    "id": 40,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanlığı seçimlerinde kimler aday olabilir?",
+    "options": ["500 imza (sponsorluk) toplamış reşit Fransız", "10 yıldır ikamet eden", "Eski bir bakan", "Avrupa vatandaşı"],
+    "bonne_reponse": 0,
+    "explication": "Fransız vatandaşı olmak ve yerel seçilmiş yetkililerin desteğine sahip olmak gerekir."
+  },
+  {
+    "id": 41,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Ulusal egemenlik kime aittir?",
+    "options": ["Cumhurbaşkanına", "Parlamentoya", "Halka", "Anayasa Konseyine"],
+    "bonne_reponse": 2,
+    "explication": "Halk bunu temsilcileri veya referandum aracılığıyla kullanır."
+  },
+  {
+    "id": 42,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye seçimlerinde (municipales) kimler seçilir?",
+    "options": ["Vali (Préfet)", "Milletvekilleri", "Belediye meclis üyeleri", "Bölge Başkanı"],
+    "bonne_reponse": 2,
+    "explication": "Vatandaşlar meclisi seçer ve o meclis daha sonra belediye başkanını seçer."
+  },
+  {
+    "id": 43,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Seçmen listelerine kayıt olmak:",
+    "options": ["Ücretlidir", "İsteğe bağlıdır", "Yabancılar için otomatiktir", "Oy kullanmak için zorunludur"],
+    "bonne_reponse": 3,
+    "explication": "Oy kullanma hakkınızı kullanabilmeniz için belediyeye kayıtlı olmanız gerekir."
+  },
+  {
+    "id": 44,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanlığı seçiminde oy kullanma şartı:",
+    "options": ["Vergi ödemek", "Fransız, reşit, kayıtlı olmak", "Süresiz iş sözleşmesine (CDI) sahip olmak", "Fransa'da doğmuş olmak"],
+    "bonne_reponse": 1,
+    "explication": "Ulusal oylama, reşit Fransız vatandaşlarına ayrılmıştır."
+  },
+  {
+    "id": 45,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye seçimlerinde aday olma şartı:",
+    "options": ["Fransız veya ikamet eden Avrupalı, reşit olmak", "Ev sahibi olmak zorunludur", "25 yaşında olmak", "Vali tarafından atanmak"],
+    "bonne_reponse": 0,
+    "explication": "Belediye seçimleri ikamet eden AB vatandaşlarına açıktır."
+  },
+  {
+    "id": 46,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bu yetkililerden hangisi seçimle göreve gelir?",
+    "options": ["Vali", "Bakan", "Savcı", "Belediye Başkanı"],
+    "bonne_reponse": 3,
+    "explication": "Belediye başkanı, dolaylı genel oyla gelen yerel bir seçilmiş yetkilidir."
+  },
+  {
+    "id": 47,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye başkanının görevleri:",
+    "options": ["Kanunları oylamak", "Belediyeyi ve nüfus işlerini yönetmek", "Suçları yargılamak", "Orduyu yönetmek"],
+    "bonne_reponse": 1,
+    "explication": "Belediye başkanı şehri yönetir ve nikah kıyar."
+  },
+  {
+    "id": 48,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanlığı seçimlerinde kimler aday olabilir?",
+    "options": ["Sadece üst düzey memurlar", "Avrupa vatandaşları", "Seçilme hakkına sahip herhangi bir Fransız vatandaşı", "Vergi mükellefi yabancılar"],
+    "bonne_reponse": 2,
+    "explication": "Bu, Fransız uyruklu vatandaşlara ayrılmış bir seçimdir."
+  },
+  {
+    "id": 49,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İnternet olmadan seçmen listelerine nerede kayıt olunur?",
+    "options": ["Karakol", "Valilik (Préfecture)", "Belediye (Mairie)", "Postane"],
+    "bonne_reponse": 2,
+    "explication": "Kayıt, belediyenizin nüfus dairesinde (état civil) yapılır."
+  },
+  {
+    "id": 50,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir kişi kaç yaşında seçmen olur?",
+    "options": ["16 yaş", "18 yaş", "21 yaş", "25 yaş"],
+    "bonne_reponse": 1,
+    "explication": "Oy kullanma yaşı 1974'ten beri 18 olarak belirlenmiştir."
+  },
+  {
+    "id": 51,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Oy kullanmak zorunlu mudur?",
+    "options": ["Evet, para cezası vardır", "Hayır, bir haktır ve ahlaki bir görevdir", "Cumhurbaşkanlığı seçiminde evet", "Sadece memurlar için"],
+    "bonne_reponse": 1,
+    "explication": "Bazı ülkelerin aksine, kanun oy kullanmayı zorunlu kılmaz."
+  },
+  {
+    "id": 52,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Kanuna uymama hakkı var mıdır?",
+    "options": ["Eğer adaletsizse", "Hayır, kanunu bilmemek mazeret sayılmaz", "Belediye başkanının onayıyla", "Eğer zenginseniz"],
+    "bonne_reponse": 1,
+    "explication": "Hukuk devletinde kanun herkes için geçerlidir."
+  },
+  {
+    "id": 53,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Milletvekilleri (députés) nasıl belirlenir?",
+    "options": ["Cumhurbaşkanı tarafından atanır", "Kura ile", "Doğrudan oylama ile seçilir", "Hakimler tarafından atanır"],
+    "bonne_reponse": 2,
+    "explication": "Genel seçimler (législatives) sırasında 577 milletvekili seçilir."
+  },
+  {
+    "id": 54,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Kanunları kim onaylar?",
+    "options": ["Cumhurbaşkanı", "Hükümet", "Parlamento", "Anayasa Konseyi"],
+    "bonne_reponse": 2,
+    "explication": "Yasama yetkisi Ulusal Meclis'e (Assemblée nationale) ve Senato'ya aittir."
+  },
+  {
+    "id": 55,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Üç erk (güç) şunlardır:",
+    "options": ["Siyasi, Ekonomik, Medya", "Yasama, Yürütme, Yargı", "Ulusal, Bölgesel, Yerel", "Medeni, Ceza, İdari"],
+    "bonne_reponse": 1,
+    "explication": "Kuvvetler ayrılığı otoritenin yoğunlaşmasını önler."
+  },
+  {
+    "id": 56,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hukuk devleti (État de droit) nedir?",
+    "options": ["Kanunları olmayan ülke", "Hukuka tabi devlet", "Diktatörlük", "Hakimler tarafından yönetilen"],
+    "bonne_reponse": 1,
+    "explication": "Kamu otoritesinin kendisi de kurallara saygı göstermelidir."
+  },
+  {
+    "id": 57,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye başkanının görev süresi:",
+    "options": ["4 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 2,
+    "explication": "Belediye görevi altı yıl sürer."
+  },
+  {
+    "id": 58,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Genel seçimlerde (législatives) kimler seçilir?",
+    "options": ["Senatörler", "Belediye Başkanları", "Milletvekilleri (Députés)", "Bölge meclis üyeleri"],
+    "bonne_reponse": 2,
+    "explication": "Genel seçimler Ulusal Meclis'i oluşturmak için yapılır."
+  },
+  {
+    "id": 59,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanının görev süresi:",
+    "options": ["4 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 1,
+    "explication": "Cumhurbaşkanı beş yıllığına seçilir (quinquennat)."
+  },
+  {
+    "id": 60,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Milletvekillerinin görev süresi:",
+    "options": ["4 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 1,
+    "explication": "Meclis her beş yılda bir yenilenir."
+  },
+  {
+    "id": 61,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Senatörlerin görev süresi:",
+    "options": ["4 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 2,
+    "explication": "Seçici kurul (grands électeurs) tarafından 6 yıllığına seçilirler."
+  },
+  {
+    "id": 62,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hükümetin eylemlerini kim yönlendirir?",
+    "options": ["Cumhurbaşkanı", "Başbakan", "Meclis Başkanı", "Anayasa Konseyi"],
+    "bonne_reponse": 1,
+    "explication": "Başbakan bakanlar ekibini koordine eder."
+  },
+  {
+    "id": 63,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir partiye katılmak:",
+    "options": ["Yasaktır", "Sadece seçilmişler için", "Garanti altına alınmış bir haktır", "Valiliğin onayını gerektirir"],
+    "bonne_reponse": 2,
+    "explication": "Herkes bir siyasi partiyi desteklemekte veya ona katılmakta serbesttir."
+  },
+  {
+    "id": 64,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir hırsızlığı kim cezalandırır?",
+    "options": ["Polis", "Mağdur", "Belediye Başkanı", "Yargı makamı"],
+    "bonne_reponse": 3,
+    "explication": "Sadece bir hakim soruşturmanın ardından mahkumiyet verebilir."
+  },
+  {
+    "id": 65,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Ortaokulları (collèges) kim yönetir?",
+    "options": ["Belediye", "İl (Département)", "Bölge (Région)", "Devlet"],
+    "bonne_reponse": 1,
+    "explication": "Ortaokullar İl Meclisine (Conseil départemental) bağlıdır."
+  },
+  {
+    "id": 66,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İlkokulları kim yönetir?",
+    "options": ["Belediye", "İl", "Bölge", "Devlet"],
+    "bonne_reponse": 0,
+    "explication": "Belediye (Mairie) binaların bakımını yapar ve kayıtları yönetir."
+  },
+  {
+    "id": 67,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye başkanlarının atanması:",
+    "options": ["Vali tarafından atanır", "Doğrudan oylama", "Belediye meclisi tarafından seçilir", "Kura ile"],
+    "bonne_reponse": 2,
+    "explication": "Bu, belediye içindeki dolaylı bir oylamadır."
+  },
+  {
+    "id": 68,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bölgesel trenlerden (TER) sorumlu olan:",
+    "options": ["Belediye", "İl", "Bölge", "Bakanlık"],
+    "bonne_reponse": 2,
+    "explication": "Bölge, bölgesel demiryolu ulaşımını düzenler."
+  },
+  {
+    "id": 69,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Anayasayı değiştirmek:",
+    "options": ["Cumhurbaşkanının kararı", "Salt çoğunluk", "Referandum", "Dilekçe"],
+    "bonne_reponse": 2,
+    "explication": "Halk veya Kongre en üst metni revize edebilir."
+  },
+  {
+    "id": 70,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Geçici Cumhurbaşkanı:",
+    "options": ["Başbakan", "Senato Başkanı", "Meclis Başkanı", "Anayasa Konseyi"],
+    "bonne_reponse": 1,
+    "explication": "Boşalma durumunda geçişi Senato Başkanı sağlar."
+  },
+  {
+    "id": 71,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Anayasa Konseyinin rolü:",
+    "options": ["Kanunları oylamak", "Suçluları yargılamak", "Anayasaya uygunluğu doğrulamak", "Orduyu yönetmek"],
+    "bonne_reponse": 2,
+    "explication": "'Bilgeler' (Les Sages), kanunun haklara uygun olmasını sağlarlar."
+  },
+  {
+    "id": 72,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanı olma şartı:",
+    "options": ["Evli olmak", "Askerlik hizmeti", "Fransız vatandaşlığı", "5000€ ödemek"],
+    "bonne_reponse": 2,
+    "explication": "Élysée'ye aday olmak için Fransız vatandaşı olmak gerekir."
+  },
+  {
+    "id": 73,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İl (Départements) sayısı:",
+    "options": ["13", "50", "101", "348"],
+    "bonne_reponse": 2,
+    "explication": "Toplamda 101 il vardır (96 anakara + 5 denizaşırı)."
+  },
+  {
+    "id": 74,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İdari teşkilatlanma:",
+    "options": ["Fedaratif devletler", "Kantonlar", "Belediyeler, İller, Bölgeler", "Metropoller"],
+    "bonne_reponse": 2,
+    "explication": "Bunlar ademi merkeziyetçiliğin üç kademesidir."
+  },
+  {
+    "id": 75,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İlde Devleti temsil eden:",
+    "options": ["Vali (Le Préfet)", "Belediye Başkanı", "Milletvekili", "İl Meclis Başkanı"],
+    "bonne_reponse": 0,
+    "explication": "Vali, yerel olarak devletin düzenini ve otoritesini garanti eder."
+  },
+  {
+    "id": 76,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanının rolü:",
+    "options": ["Hastaneleri yönetmek", "Devlet/Ordu Başkanı/Anayasanın Koruyucusu", "Vatandaşları yargılamak", "Yerel vergiler"],
+    "bonne_reponse": 1,
+    "explication": "Cumhurbaşkanı en yüksek egemenlik işlevlerine sahiptir."
+  },
+  {
+    "id": 77,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Başbakanın rolü:",
+    "options": ["Hükümeti yönetmek/Kanunları yürütmek", "Meclise başkanlık etmek", "Savaş ilan etmek", "BM'de temsil etmek"],
+    "bonne_reponse": 0,
+    "explication": "Yürütmenin operasyonel başkanıdır."
+  },
+  {
+    "id": 78,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hak Savunucusunun (Défenseur des droits) rolü:",
+    "options": ["Devleti savunmak", "Ücretsiz avukatlar", "Özgürlükleri korumak/Ayrımcılıkla mücadele", "Polisin yerini almak"],
+    "bonne_reponse": 2,
+    "explication": "Bağımsız ve ücretsiz bir idari otoritedir."
+  },
+  {
+    "id": 79,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa vatandaşlığı:",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Maastricht Antlaşması ile kurulmuştur."
+  },
+  {
+    "id": 80,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "2013'te AB'ye katılan son ülke:",
+    "options": ["Romanya", "Hırvatistan", "Polonya", "Ukrayna"],
+    "bonne_reponse": 1,
+    "explication": "Hırvatistan 28. üyedir (Brexit öncesi)."
+  },
+  {
+    "id": 81,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "AB marşının bestecisi:",
+    "options": ["Mozart", "Chopin", "Beethoven", "Debussy"],
+    "bonne_reponse": 2,
+    "explication": "Bu 9. senfoninin bir aranjmanıdır."
+  },
+  {
+    "id": 82,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Günü:",
+    "options": ["1 Mayıs", "8 Mayıs", "9 Mayıs", "14 Temmuz"],
+    "bonne_reponse": 2,
+    "explication": "1950 Schuman Bildirgesi'ne saygı duruşu."
+  },
+  {
+    "id": 83,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Merkez Bankası (ECB) Merkezi:",
+    "options": ["Paris", "Brüksel", "Frankfurt", "Cenevre"],
+    "bonne_reponse": 2,
+    "explication": "Merkez bankası Almanya'da bulunmaktadır."
+  },
+  {
+    "id": 84,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Komisyonu Merkezi:",
+    "options": ["Strazburg", "Brüksel", "Lüksemburg", "Berlin"],
+    "bonne_reponse": 1,
+    "explication": "Avrupa yürütme erkinin kalbi Belçika'dadır."
+  },
+  {
+    "id": 85,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Parlamentosu'nda kimler oturur?",
+    "options": ["Cumhurbaşkanları", "Hakimler", "Seçilmiş AP Milletvekilleri", "Askerler"],
+    "bonne_reponse": 2,
+    "explication": "Avrupa milletvekilleri (Eurodéputés) vatandaşları temsil eder."
+  },
+  {
+    "id": 86,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupalıların yerel seçimlerde oy kullanması:",
+    "options": ["Yasak", "Eğer evliyse", "Belediye/Avrupa", "Cumhurbaşkanlığı"],
+    "bonne_reponse": 2,
+    "explication": "Bir AB vatandaşı Fransa'da yerel seçimlerde oy kullanabilir."
+  },
+  {
+    "id": 87,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "2025'te AB Ülkelerinin Sayısı:",
+    "options": ["15", "27", "35", "50"],
+    "bonne_reponse": 1,
+    "explication": "Birleşik Krallık'ın ayrılışından bu yana AB'nin 27 üyesi vardır."
+  },
+  {
+    "id": 88,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Maastricht Antlaşması:",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Bildiğimiz şekliyle Avrupa Birliği'ni kurmuştur."
+  },
+  {
+    "id": 89,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "AB'nin inşası antlaşması:",
+    "options": ["Versay", "Maastricht", "Paris", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Maastricht, Birlik için referans metindir."
+  },
+  {
+    "id": 90,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "2020'de AB'den ayrılış:",
+    "options": ["İsviçre", "İzlanda", "Birleşik Krallık", "Norveç"],
+    "bonne_reponse": 2,
+    "explication": "Brexit, Ocak 2020'de yürürlüğe girdi."
+  },
+  {
+    "id": 91,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "AB'nin sloganı:",
+    "options": ["Çeşitlilikte Birlik", "Özgürlük...", "Birlikten kuvvet doğar", "Barış..."],
+    "bonne_reponse": 0,
+    "explication": "Bu, Birliğin resmi sloganıdır."
+  },
+  {
+    "id": 92,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "AB Marşı:",
+    "options": ["La Marseillaise", "Neşe'ye Övgü (Ode à la joie)", "Aşka İlahi", "Partizanların Şarkısı"],
+    "bonne_reponse": 1,
+    "explication": "Melodi Beethoven'dan alınmıştır."
+  },
+  {
+    "id": 93,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa bayrağı:",
+    "options": ["Beyaz haç", "12 altın yıldız", "27 yıldız", "Siyah kartal"],
+    "bonne_reponse": 1,
+    "explication": "12 yıldız bir daire oluşturur."
+  },
+  {
+    "id": 94,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Parlamentosu milletvekillerini kim seçer?",
+    "options": ["Cumhurbaşkanları", "Senatörler", "Vatandaşlar", "Komisyon"],
+    "bonne_reponse": 2,
+    "explication": "Seçimler her 5 yılda bir yapılır."
+  },
+  {
+    "id": 95,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Parlamentosu Merkezi:",
+    "options": ["Strazburg", "Brüksel", "Berlin", "Lüksemburg"],
+    "bonne_reponse": 0,
+    "explication": "Parlamento Alsace bölgesinde yer almaktadır."
+  },
+  {
+    "id": 96,
+    "categorie": "Hak ve ödevler",
+    "question": "Grev hakkı:",
+    "options": ["Daha fazla izin", "Talepleri savunmak", "Ekipmanı tahrip etmek", "Vergi ödememek"],
+    "bonne_reponse": 1,
+    "explication": "Kolektif olarak işin bırakılmasıdır."
+  },
+  {
+    "id": 97,
+    "categorie": "Hak ve ödevler",
+    "question": "Hakların kısıtlanması:",
+    "options": ["Düzen/Güvenlik/Sağlık", "Sadece ekonomik", "Fransızları kayırmak", "Bakanların rahatı"],
+    "bonne_reponse": 0,
+    "explication": "Devlet, genel çıkar için özgürlükleri sınırlayabilir."
+  },
+  {
+    "id": 98,
+    "categorie": "Hak ve ödevler",
+    "question": "İnsan Hakları Bildirgesi (DDHC 1789) alıntısı:",
+    "options": ["Devlet benim", "İnsanlar özgür ve eşit doğarlar", "Slogan", "Çeşitlilik"],
+    "bonne_reponse": 1,
+    "explication": "Bu Bildirgenin 1. maddesidir."
+  },
+  {
+    "id": 99,
+    "categorie": "Hak ve ödevler",
+    "question": "DDHC Madde 4 Özgürlük:",
+    "options": ["Kanunu çiğnemek", "Başkalarına zarar vermediği yerde biter", "Cezalandırılmaz", "Kuralsız"],
+    "bonne_reponse": 1,
+    "explication": "Özgürlük, başkasına zarar vermemeyi gerektirir."
+  },
+  {
+    "id": 100,
+    "categorie": "Hak ve ödevler",
+    "question": "Anayasa Madde 1:",
+    "options": ["İmparatorluk", "Katolik dini", "Bölünmez/laik/demokratik/sosyal Cumhuriyet", "Monarşi"],
+    "bonne_reponse": 2,
+    "explication": "Bu 5. Cumhuriyetin temel metnidir."
+  },
+  {
+    "id": 101,
+    "categorie": "Hak ve ödevler",
+    "question": "Basın özgürlüğü:",
+    "options": ["Ücretsiz gazeteler", "Sansürsüz", "Yalan söylemek", "Hükümeti desteklemek"],
+    "bonne_reponse": 1,
+    "explication": "1881 yayın özgürlüğü kanunu."
+  },
+  {
+    "id": 102,
+    "categorie": "Hak ve ödevler",
+    "question": "Dolaşım (Seyahat) özgürlüğü:",
+    "options": ["Biletsiz", "Ehliyetsiz", "Başkalarının evinde", "Ulusal topraklarda"],
+    "bonne_reponse": 3,
+    "explication": "Gidip gelme temel hakkı."
+  },
+  {
+    "id": 103,
+    "categorie": "Hak ve ödevler",
+    "question": "Vatandaş olmak:",
+    "options": ["Soyluluk", "Ulusun bir üyesi/Haklar/Ödevler", "Vergi yok", "Kanunları seçmek"],
+    "bonne_reponse": 1,
+    "explication": "Devletle olan hukuki ve siyasi bağ."
+  },
+  {
+    "id": 104,
+    "categorie": "Hak ve ödevler",
+    "question": "Temel haklar:",
+    "options": ["Sadece erkekler", "Anayasa tarafından güvence altına alınmıştır", "Sadece zenginler", "AB ticareti"],
+    "bonne_reponse": 1,
+    "explication": "Kişinin devredilemez hakları."
+  },
+  {
+    "id": 105,
+    "categorie": "Hak ve ödevler",
+    "question": "Keyfi tutuklama:",
+    "options": ["Güvenlik hakkı", "Görüntü hakkı", "Barınma hakkı", "Sendika özgürlüğü"],
+    "bonne_reponse": 0,
+    "explication": "Kötü niyetli tutuklamalara karşı korur."
+  },
+  {
+    "id": 106,
+    "categorie": "Hak ve ödevler",
+    "question": "Haklar/ödevler metni:",
+    "options": ["Trafik kuralları", "AB Yönetmeliği", "DDHC (İnsan Hakları Bildirgesi)", "BM Şartı"],
+    "bonne_reponse": 2,
+    "explication": "1789 DDHC referanstır."
+  },
+  {
+    "id": 107,
+    "categorie": "Hak ve ödevler",
+    "question": "Eser metni 'özgür/eşit doğarlar':",
+    "options": ["Ceza Kanunu", "DDHC", "Roma", "Medeni Kanun"],
+    "bonne_reponse": 1,
+    "explication": "1. maddeden ünlü alıntı."
+  },
+  {
+    "id": 108,
+    "categorie": "Hak ve ödevler",
+    "question": "Onura saldırı:",
+    "options": ["Bekleme kuyruğu", "Kölelik/İşkence", "Vergiler", "35 saat çalışma"],
+    "bonne_reponse": 1,
+    "explication": "İnsanlık dışı muamelenin yasaklanması."
+  },
+  {
+    "id": 109,
+    "categorie": "Hak ve ödevler",
+    "question": "İfade özgürlüğü:",
+    "options": ["Kanuna saygı", "Hakaret", "Tehdit", "Polise yalan söylemek"],
+    "bonne_reponse": 0,
+    "explication": "Zarar vermeden kendini ifade etme hakkı."
+  },
+  {
+    "id": 110,
+    "categorie": "Hak ve ödevler",
+    "question": "Gözaltına alındıktan sonra:",
+    "options": ["Kaçmak", "Vurmak", "Susma/Avukat hakkı", "Sahte kimlik"],
+    "bonne_reponse": 2,
+    "explication": "Polis gözaltısı (garde à vue) sırasındaki haklar."
+  },
+  {
+    "id": 111,
+    "categorie": "Hak ve ödevler",
+    "question": "Din zorunlu mudur?",
+    "options": ["Evet", "Hayır, laiklik", "Evet Katolik", "Evet gizli"],
+    "bonne_reponse": 1,
+    "explication": "İnanma veya inanmama hakkı."
+  },
+  {
+    "id": 112,
+    "categorie": "Hak ve ödevler",
+    "question": "Dijital rüşt yaşı:",
+    "options": ["10 yaş", "13 yaş", "15 yaş", "18 yaş"],
+    "bonne_reponse": 2,
+    "explication": "Çevrimiçi veriler için rıza gösterme yaşı."
+  },
+  {
+    "id": 113,
+    "categorie": "Hak ve ödevler",
+    "question": "Sigara içilmesine izin verilen yer:",
+    "options": ["Hastane", "Restoran", "Okul", "Kendi eviniz"],
+    "bonne_reponse": 3,
+    "explication": "Halka açık yerlerle ilgili Évin kanunu."
+  },
+  {
+    "id": 114,
+    "categorie": "Hak ve ödevler",
+    "question": "Ehliyetsiz motosiklet kullanmak:",
+    "options": ["Suç (Délit)", "35€", "Kısa mesafe", "Arkadaşın motosikleti"],
+    "bonne_reponse": 0,
+    "explication": "Bu cezai ve güvenlik açısından bir risktir."
+  },
+  {
+    "id": 115,
+    "categorie": "Hak ve ödevler",
+    "question": "Dayanışma görevi:",
+    "options": ["Vergiler/Kamu hizmetleri", "Komşulara para vermek", "Evsizleri barındırmak", "Ücretsiz çalışmak"],
+    "bonne_reponse": 0,
+    "explication": "Sosyal korumaya katkı."
+  },
+  {
+    "id": 116,
+    "categorie": "Hak ve ödevler",
+    "question": "Çok eşlilik (Poligami):",
+    "options": ["Evet", "Hayır, çok eşlilik yasaktır", "Anlaşılırsa", "Eğer yabancıysa"],
+    "bonne_reponse": 1,
+    "explication": "Kanun tek eşliliği şart koşar."
+  },
+  {
+    "id": 117,
+    "categorie": "Hak ve ödevler",
+    "question": "Vergi beyanı zorunlu mu?",
+    "options": ["Hayır", "Zenginse", "Evet tüm sakinler", "Fransızsa"],
+    "bonne_reponse": 2,
+    "explication": "Herkes için yıllık bir formalitedir."
+  },
+  {
+    "id": 118,
+    "categorie": "Hak ve ödevler",
+    "question": "Yardım sağlamak:",
+    "options": ["Zorunludur", "Görmezden gelmek", "Doktorsa", "Aileyse"],
+    "bonne_reponse": 0,
+    "explication": "Tehlikede olan kişiye yardım etme zorunluluğu."
+  },
+  {
+    "id": 119,
+    "categorie": "Hak ve ödevler",
+    "question": "Ağır Ceza Mahkemesi Jürisi (Juré d'assises):",
+    "options": ["Meslek", "Vatandaşlık görevi", "Avukatlar", "Gönüllü"],
+    "bonne_reponse": 1,
+    "explication": "Adalete vatandaş katılımı."
+  },
+  {
+    "id": 120,
+    "categorie": "Hak ve ödevler",
+    "question": "Alkol satışı şu yaşın altındakilere yasaktır:",
+    "options": ["14 yaş", "16 yaş", "18 yaş", "21 yaş"],
+    "bonne_reponse": 2,
+    "explication": "Reşit olmayanların korunması."
+  },
+  {
+    "id": 121,
+    "categorie": "Hak ve ödevler",
+    "question": "CNI (Ulusal Kimlik Kartı) almak için:",
+    "options": ["100€", "Fransız vatandaşı olmak", "Reşit olmak", "Fransa'da doğmuş olmak"],
+    "bonne_reponse": 1,
+    "explication": "Fransız vatandaşlığının kanıtı."
+  },
+  {
+    "id": 122,
+    "categorie": "Hak ve ödevler",
+    "question": "Ağır ceza jürisi olarak çağrılmak:",
+    "options": ["Reddetmek", "Vergi ödemek", "Katılma zorunluluğu", "Hukuk okumak"],
+    "bonne_reponse": 2,
+    "explication": "Bu devletin bir talebidir (yükümlülüğüdür)."
+  },
+  {
+    "id": 123,
+    "categorie": "Hak ve ödevler",
+    "question": "Medeni rüşt (Reşit olma yaşı):",
+    "options": ["16", "18", "21", "25"],
+    "bonne_reponse": 1,
+    "explication": "Tam hukuki ehliyet yaşı."
+  },
+  {
+    "id": 124,
+    "categorie": "Hak ve ödevler",
+    "question": "Ana görev:",
+    "options": ["Askerlik hizmeti", "Oy kullanmak", "Kanuna saygı/Vergiler", "Sendika"],
+    "bonne_reponse": 2,
+    "explication": "Sosyal sözleşmenin temeli."
+  },
+  {
+    "id": 125,
+    "categorie": "Hak ve ödevler",
+    "question": "Dijital vatandaşlık:",
+    "options": ["Ücretsiz bilgisayar", "İnternetten oylama", "Sosyal ağlar", "Web Hakları/Görevleri"],
+    "bonne_reponse": 3,
+    "explication": "Çevrimiçi ortamda sorumlu davranış."
+  },
+  {
+    "id": 126,
+    "categorie": "Hak ve ödevler",
+    "question": "Hatırlama görevi (Devoir de mémoire):",
+    "options": ["Her şeyi bilmek", "Trajedileri hatırlamak", "Utancı silmek", "Anıt vergisi"],
+    "bonne_reponse": 1,
+    "explication": "Gelecek için tarihi aktarmak."
+  },
+  {
+    "id": 127,
+    "categorie": "Hak ve ödevler",
+    "question": "Kim ağır ceza jürisi olabilir:",
+    "options": ["Hakimler", "Okuma yazma bilen 23 yaşındaki Fransız", "Polis", "Öğrenciler"],
+    "bonne_reponse": 1,
+    "explication": "Kura çekimi şartları."
+  },
+  {
+    "id": 128,
+    "categorie": "Hak ve ödevler",
+    "question": "Medeni haklardan mahrum bırakılma:",
+    "options": ["Uyruğu kaybeder", "Sınır dışı edilir", "Ne oy kullanabilir ne de aday olabilir", "Çalışamaz"],
+    "bonne_reponse": 2,
+    "explication": "Medeni haklardan mahrumiyetin cezai yaptırımı."
+  },
+  {
+    "id": 129,
+    "categorie": "Hak ve ödevler",
+    "question": "Medeni haklardan mahrum bırakılma sebebi:",
+    "options": ["Park etme", "Terörizm/Yolsuzluk", "Hız", "Çöp"],
+    "bonne_reponse": 1,
+    "explication": "Ağır eylemler için yaptırımlar."
+  },
+  {
+    "id": 130,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Napolyon döneminde kabul edilen metin:",
+    "options": ["İnsan Hakları Bildirgesi (DDHC)", "Medeni Kanun (1804)", "1905 Kanunu", "Köleliğin kaldırılması"],
+    "bonne_reponse": 1,
+    "explication": "Fransız hukukunun birleştirilmesi."
+  },
+  {
+    "id": 131,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "5. Cumhuriyetin İlk Cumhurbaşkanı:",
+    "options": ["Clemenceau", "Napolyon", "De Gaulle", "Jaurès"],
+    "bonne_reponse": 2,
+    "explication": "Mevcut rejimin kurucusu."
+  },
+  {
+    "id": 132,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Ferry kanunlarının amacı:",
+    "options": ["Ücretli", "Dini", "Ücretsiz/Laik/Zorunlu", "Kızlar hariç"],
+    "bonne_reponse": 2,
+    "explication": "Cumhuriyet okulunun temeli."
+  },
+  {
+    "id": 133,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "14 Temmuz:",
+    "options": ["Ulusal bayram", "1945'in sonu", "Cumhuriyetin doğuşu", "Seçim"],
+    "bonne_reponse": 0,
+    "explication": "1789'da Bastille'in alınışı."
+  },
+  {
+    "id": 134,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1958'in önemi:",
+    "options": ["Devrim", "1918'in sonu", "5. Cumhuriyet Anayasası", "Euro"],
+    "bonne_reponse": 2,
+    "explication": "Mevcut sistemin başlangıcı."
+  },
+  {
+    "id": 135,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "AB'nin kurucu ülkesi:",
+    "options": ["Birleşik Krallık", "İsviçre", "İspanya", "Fransa"],
+    "bonne_reponse": 3,
+    "explication": "Orijinal 6 ülkeden biri."
+  },
+  {
+    "id": 136,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Simone Veil:",
+    "options": ["1975 Kürtaj Kanunu (IVG)", "1944 Oy Hakkı", "Cumhurbaşkanı", "Kadın Hakları Bildirgesi"],
+    "bonne_reponse": 0,
+    "explication": "Kadın hakları için mücadele."
+  },
+  {
+    "id": 137,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Çıkarma plajları (Normandiya):",
+    "options": ["Provence", "Bretagne", "Normandiya", "Occitanie"],
+    "bonne_reponse": 2,
+    "explication": "6 Haziran 1944."
+  },
+  {
+    "id": 138,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Kralların taç giyme şehri:",
+    "options": ["Paris", "Versay", "Orléans", "Reims"],
+    "bonne_reponse": 3,
+    "explication": "Taç giyme törenlerinin şehri."
+  },
+  {
+    "id": 139,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Giyotinle idam edilen kral:",
+    "options": ["XIV. Louis", "IV. Henri", "XVI. Louis", "X. Charles"],
+    "bonne_reponse": 2,
+    "explication": "1793'te idam edildi."
+  },
+  {
+    "id": 140,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Devrimin Başlangıcı:",
+    "options": ["1789", "1804", "1914", "1958"],
+    "bonne_reponse": 0,
+    "explication": "Mutlak monarşinin çöküşü."
+  },
+  {
+    "id": 141,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Napolyon'un İmparator olması:",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Notre-Dame'da taç giyme töreni."
+  },
+  {
+    "id": 142,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Cumhuriyet ile bağlantı:",
+    "options": ["Şarlman", "Sezar", "Jan Dark (Jeanne d'Arc)", "Marianne"],
+    "bonne_reponse": 3,
+    "explication": "Cumhuriyetin alegorisi."
+  },
+  {
+    "id": 143,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "De Gaulle'ün çağrısı:",
+    "options": ["14 Temmuz", "11 Kasım", "18 Haziran 1940", "8 Mayıs"],
+    "bonne_reponse": 2,
+    "explication": "Direnişe (Résistance) çağrı."
+  },
+  {
+    "id": 144,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Shoah nedir?",
+    "options": ["Muharebe", "Parti", "Çağrı", "Yahudi Soykırımı"],
+    "bonne_reponse": 3,
+    "explication": "39-45 yılları arasındaki Holokost."
+  },
+  {
+    "id": 145,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransız kolonisi:",
+    "options": ["Brezilya", "Avustralya", "Cezayir", "Hindistan"],
+    "bonne_reponse": 2,
+    "explication": "1962'de bağımsızlık."
+  },
+  {
+    "id": 146,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Ücretsiz/laik/zorunlu okul:",
+    "options": ["Hugo", "Napolyon", "Ferry", "De Gaulle"],
+    "bonne_reponse": 2,
+    "explication": "Devlet okulunun babası."
+  },
+  {
+    "id": 147,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Cumhurbaşkanının doğrudan halk oyuyla seçilmesi:",
+    "options": ["1789", "1944", "1962", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Gaullist reform."
+  },
+  {
+    "id": 148,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "AB'nin kuruluşu:",
+    "options": ["1945", "1957", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "Maastricht Antlaşması."
+  },
+  {
+    "id": 149,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "İkinci Dünya Savaşı:",
+    "options": ["14-18", "70-71", "54-62", "39-45"],
+    "bonne_reponse": 3,
+    "explication": "Nazizme karşı küresel çatışma."
+  },
+  {
+    "id": 150,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Birinci Dünya Savaşı:",
+    "options": ["70-71", "39-45", "14-18", "54-62"],
+    "bonne_reponse": 2,
+    "explication": "Büyük Savaş (La Grande Guerre)."
+  },
+  {
+    "id": 151,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "İdam cezasının kaldırılması:",
+    "options": ["De Gaulle", "Giscard", "Mitterrand", "Pompidou"],
+    "bonne_reponse": 2,
+    "explication": "1981'de Robert Badinter."
+  },
+  {
+    "id": 152,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "8 Mayıs:",
+    "options": ["Avrupa'da 1945'in sonu", "1918", "İşçi Bayramı", "Bastille"],
+    "bonne_reponse": 0,
+    "explication": "Alman teslimiyeti."
+  },
+  {
+    "id": 153,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1951 AB inşası:",
+    "options": ["Schengen", "Euro", "AKÇT (Kömür ve Çelik)", "BM"],
+    "bonne_reponse": 2,
+    "explication": "Kömür ve Çelik Topluluğu."
+  },
+  {
+    "id": 154,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Direnişin (Résistance) figürü:",
+    "options": ["Jean Moulin", "Pétain", "XVI. Louis", "III. Napolyon"],
+    "bonne_reponse": 0,
+    "explication": "Kendini feda eden kahraman."
+  },
+  {
+    "id": 155,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "11 Kasım:",
+    "options": ["1944", "5. Cumhuriyet", "1918", "İdamın kaldırılması"],
+    "bonne_reponse": 2,
+    "explication": "Büyük Savaşın Mütarekesi."
+  },
+  {
+    "id": 156,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Köleliğin kaldırılması:",
+    "options": ["1789", "1848", "1905", "1945"],
+    "bonne_reponse": 1,
+    "explication": "2. Cumhuriyet altında kesin olarak kaldırıldı."
+  },
+  {
+    "id": 157,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Köleliği kim kaldırdı:",
+    "options": ["Schœlcher", "Hugo", "Napolyon", "Moulin"],
+    "bonne_reponse": 0,
+    "explication": "Victor Schœlcher."
+  },
+  {
+    "id": 158,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Ücretsiz okul:",
+    "options": ["1789", "1881", "1945", "1968"],
+    "bonne_reponse": 1,
+    "explication": "Jules Ferry kanunları."
+  },
+  {
+    "id": 159,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1944 kadınlar için:",
+    "options": ["Çalışmak", "Banka hesabı", "Oy hakkı", "Askerlik hizmeti"],
+    "bonne_reponse": 2,
+    "explication": "Siyasi vatandaşlığın elde edilmesi."
+  },
+  {
+    "id": 160,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1945'te kurulan organizasyon:",
+    "options": ["AB", "BM (ONU)", "NATO", "Kızılhaç"],
+    "bonne_reponse": 1,
+    "explication": "Barış için Birleşmiş Milletler."
+  },
+  {
+    "id": 161,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Euro para birimi:",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Nakit paranın gelişi."
+  },
+  {
+    "id": 162,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Paris'in kurtuluşu:",
+    "options": ["Haziran 1940", "Ağustos 1944", "Mayıs 1945", "Kasım 1918"],
+    "bonne_reponse": 1,
+    "explication": "Leclerc Tümeni."
+  },
+  {
+    "id": 163,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "18. yüzyıl köle limanı:",
+    "options": ["Marsilya", "Brest", "Nantes", "Le Havre"],
+    "bonne_reponse": 2,
+    "explication": "İlk köle ticareti limanı."
+  },
+  {
+    "id": 164,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Köleliğe karşı Aydınlanma (Lumières) düşünürü:",
+    "options": ["Descartes", "Voltaire", "Hugo", "Zola"],
+    "bonne_reponse": 1,
+    "explication": "Candide'in yazarı."
+  },
+  {
+    "id": 165,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Victor Hugo:",
+    "options": ["Üç Silahşörler", "Bovary", "Sefiller (Les Misérables)", "Küçük Prens"],
+    "bonne_reponse": 2,
+    "explication": "Jean Valjean ve Cosette."
+  },
+  {
+    "id": 166,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransız ressam:",
+    "options": ["Picasso", "Da Vinci", "Van Gogh", "Monet"],
+    "bonne_reponse": 3,
+    "explication": "Empresyonizmin babası."
+  },
+  {
+    "id": 167,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Mutfak spesiyalitesi:",
+    "options": ["Paella", "Bœuf bourguignon", "Pizza", "Kuskus"],
+    "bonne_reponse": 1,
+    "explication": "Geleneksel yemek."
+  },
+  {
+    "id": 168,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Marie Curie:",
+    "options": ["Kraliçe", "2 Nobel ödüllü bilim insanı", "Yazar", "Direnişçi"],
+    "bonne_reponse": 1,
+    "explication": "Radyoaktivite."
+  },
+  {
+    "id": 169,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Halka Yol Gösteren Özgürlük (La Liberté guidant le peuple):",
+    "options": ["Monet", "Delacroix", "Renoir", "Cézanne"],
+    "bonne_reponse": 1,
+    "explication": "1830 tarihli tablo."
+  },
+  {
+    "id": 170,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Mona Lisa müzesi:",
+    "options": ["Orsay", "Pompidou", "Louvre", "Grévin"],
+    "bonne_reponse": 2,
+    "explication": "Eski kraliyet sarayı."
+  },
+  {
+    "id": 171,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "XIV. Louis'nin Şatosu:",
+    "options": ["Chambord", "Versay", "Fontainebleau", "Chenonceau"],
+    "bonne_reponse": 1,
+    "explication": "Mutlakiyetin sembolü."
+  },
+  {
+    "id": 172,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Tarih öncesi resimler:",
+    "options": ["Yeraltı mezarları", "Mont Blanc", "Arenalar", "Lascaux"],
+    "bonne_reponse": 3,
+    "explication": "Dordogne'daki mağara."
+  },
+  {
+    "id": 173,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Nilüferler (Nymphéas):",
+    "options": ["Rodin", "Cézanne", "Monet", "Manet"],
+    "bonne_reponse": 2,
+    "explication": "Claude Monet'nin serisi."
+  },
+  {
+    "id": 174,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Ücretsiz miras:",
+    "options": ["Müzik", "Miras Günleri (Journées Patrimoine)", "14 Temmuz", "Laiklik"],
+    "bonne_reponse": 1,
+    "explication": "Eylül ayında."
+  },
+  {
+    "id": 175,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1 Mayıs:",
+    "options": ["İlkbahar", "İşçi Bayramı (Fête du Travail)", "Savaşın sonu", "Ulusal bayram"],
+    "bonne_reponse": 1,
+    "explication": "Müge çiçeği ve gösteriler."
+  },
+  {
+    "id": 176,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Rouget de Lisle:",
+    "options": ["Cumhurbaşkanı", "General", "Marseillaise'in yazarı", "Ressam"],
+    "bonne_reponse": 2,
+    "explication": "Marşın bestecisi."
+  },
+  {
+    "id": 177,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Eyfel Kulesi'nin inşası:",
+    "options": ["1. Dünya Savaşının sonu", "1889 Fuarı", "Kraliçenin ziyareti", "Anten"],
+    "bonne_reponse": 1,
+    "explication": "Devrimin yüzüncü yılı."
+  },
+  {
+    "id": 178,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransa/İtalya sınırındaki dağlar:",
+    "options": ["Pireneler", "Jura", "Alpler", "Vosges"],
+    "bonne_reponse": 2,
+    "explication": "Fransa'nın güneydoğusu."
+  },
+  {
+    "id": 179,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Molière:",
+    "options": ["Bilim insanı", "17. yüzyıl tiyatrosu", "Kral", "Müzisyen"],
+    "bonne_reponse": 1,
+    "explication": "Ünlü komediler."
+  },
+  {
+    "id": 180,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Baudelaire:",
+    "options": ["Heykeltıraş", "Politikacı", "Kötülük Çiçekleri (Fleurs du mal) Şairi", "Kaşif"],
+    "bonne_reponse": 2,
+    "explication": "Şiirsel modernite."
+  },
+  {
+    "id": 181,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "George Sand:",
+    "options": ["Kraliçe", "19. yüzyıl yazarı", "Aktris", "Bilim insanı"],
+    "bonne_reponse": 1,
+    "explication": "Gerçek adı Aurore Dupin'dir."
+  },
+  {
+    "id": 182,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Simone de Beauvoir:",
+    "options": ["Napolyon", "Şarkıcı", "Feminist Filozof", "Havacılık"],
+    "bonne_reponse": 2,
+    "explication": "İkinci Cinsiyet (Le Deuxième Sexe)."
+  },
+  {
+    "id": 183,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Albert Camus:",
+    "options": ["Kral", "Ressam", "Nobel ödüllü yazar", "Aşı"],
+    "bonne_reponse": 2,
+    "explication": "Veba (La Peste)."
+  },
+  {
+    "id": 184,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Marguerite Yourcenar:",
+    "options": ["Direnişçi", "Fransız Akademisine giren ilk kadın", "Şampiyon", "Bakan"],
+    "bonne_reponse": 1,
+    "explication": "1980'de seçildi."
+  },
+  {
+    "id": 185,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Paul Cézanne:",
+    "options": ["Modern sanat ressamı", "Heykeltıraş", "Devlet", "Kaşif"],
+    "bonne_reponse": 0,
+    "explication": "Aix-en-Provence doğumludur."
+  },
+  {
+    "id": 186,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Auguste Rodin:",
+    "options": ["Mimar", "Şair", "Düşünen Adam (Penseur) Heykeltıraşı", "Aktör"],
+    "bonne_reponse": 2,
+    "explication": "Dışavurumcu heykel."
+  },
+  {
+    "id": 187,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransız besteci:",
+    "options": ["Mozart", "Debussy", "Beethoven", "Verdi"],
+    "bonne_reponse": 1,
+    "explication": "Empresyonist müzik."
+  },
+  {
+    "id": 188,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Auguste Renoir:",
+    "options": ["Doktor", "General", "Empresyonist ressam", "Eyfel"],
+    "bonne_reponse": 2,
+    "explication": "Renkler ve ışık."
+  },
+  {
+    "id": 189,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Paris'teki müze:",
+    "options": ["British", "Orsay", "Ermitaj", "Prado"],
+    "bonne_reponse": 1,
+    "explication": "Eski tren istasyonu."
+  },
+  {
+    "id": 190,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Mont-Saint-Michel:",
+    "options": ["Versay", "Normandiya'da ada", "Strazburg", "Papalar"],
+    "bonne_reponse": 1,
+    "explication": "Batı'nın harikası."
+  },
+  {
+    "id": 191,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "En büyük 10 metropolden biri:",
+    "options": ["Biarritz", "Lyon", "Saint-Malo", "Carcassonne"],
+    "bonne_reponse": 1,
+    "explication": "Fransa'nın ikinci büyük şehri."
+  },
+  {
+    "id": 192,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Antiller'deki ada:",
+    "options": ["Korsika", "Tahiti", "Guadeloupe", "Madagaskar"],
+    "bonne_reponse": 2,
+    "explication": "Denizaşırı il."
+  },
+  {
+    "id": 193,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransız adası:",
+    "options": ["Sicilya", "Korsika (Corse)", "Mallorca", "Girit"],
+    "bonne_reponse": 1,
+    "explication": "Akdeniz'de."
+  },
+  {
+    "id": 194,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Yüksek dağ:",
+    "options": ["Canigou", "Puy", "Mont Blanc", "Piton"],
+    "bonne_reponse": 2,
+    "explication": "Alpler'de."
+  },
+  {
+    "id": 195,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hint Okyanusu'ndaki ada:",
+    "options": ["Réunion", "Martinique", "Yeni Kaledonya", "Saint-Pierre"],
+    "bonne_reponse": 0,
+    "explication": "DROM (Denizaşırı il ve bölge)."
+  },
+  {
+    "id": 196,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Brezilya sınırı:",
+    "options": ["Guadeloupe", "Fransız Guyanası (Guyane)", "Martinique", "Polinezya"],
+    "bonne_reponse": 1,
+    "explication": "Amazonya."
+  },
+  {
+    "id": 197,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Ariane roketi:",
+    "options": ["Paris", "Toulouse", "Kourou", "Brest"],
+    "bonne_reponse": 2,
+    "explication": "Fransız Guyanası'nda."
+  },
+  {
+    "id": 198,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Anakara kıyıları:",
+    "options": ["Pasifik", "Atlantik/Manş/Akdeniz", "Kızıldeniz", "Hint"],
+    "bonne_reponse": 1,
+    "explication": "Çoklu cepheler."
+  },
+  {
+    "id": 199,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransa/İngiltere arasındaki deniz:",
+    "options": ["Baltık", "Akdeniz", "Manş Denizi", "Hazar"],
+    "bonne_reponse": 2,
+    "explication": "Kuzey-Batı."
+  },
+  {
+    "id": 200,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "DROM Adası:",
+    "options": ["Mauritius", "Madagaskar", "Haiti", "Martinique"],
+    "bonne_reponse": 3,
+    "explication": "Antiller'de."
+  },
+  {
+    "id": 201,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Denizaşırı Fransa:",
+    "options": ["Büyükelçilikler", "Avrupa dışı", "Komşular", "Eski sömürgeler"],
+    "bonne_reponse": 1,
+    "explication": "Cumhuriyetin toprakları."
+  },
+  {
+    "id": 202,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "2025 Nüfusu:",
+    "options": ["45M", "68M", "90M", "120M"],
+    "bonne_reponse": 1,
+    "explication": "Mevcut tahmin."
+  },
+  {
+    "id": 203,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Deniz limanı:",
+    "options": ["Marsilya (Marseille)", "Nice", "Bordeaux", "Nantes"],
+    "bonne_reponse": 0,
+    "explication": "Akdeniz'de."
+  },
+  {
+    "id": 204,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Anakara bölgeleri (Régions):",
+    "options": ["10", "13", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "2016'dan beri."
+  },
+  {
+    "id": 205,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransa/İspanya arasındaki dağlar:",
+    "options": ["Jura", "Massif Central", "Alpler", "Pireneler (Pyrénées)"],
+    "bonne_reponse": 3,
+    "explication": "Güney-Batı."
+  },
+  {
+    "id": 206,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Afrika'nın güneydoğusundaki ada:",
+    "options": ["Martinique", "Korsika", "Réunion", "Tahiti"],
+    "bonne_reponse": 2,
+    "explication": "Hint Okyanusu."
+  },
+  {
+    "id": 207,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Auvergne-Rhône-Alpes'in başkenti:",
+    "options": ["Grenoble", "Clermont", "Lyon", "Saint-Étienne"],
+    "bonne_reponse": 2,
+    "explication": "Bölgesel başkent."
+  },
+  {
+    "id": 208,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Bretagne'ın başkenti:",
+    "options": ["Brest", "Rennes", "Quimper", "Nantes"],
+    "bonne_reponse": 1,
+    "explication": "Ille-et-Vilaine ilinde."
+  },
+  {
+    "id": 209,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "PACA başkenti:",
+    "options": ["Nice", "Toulon", "Marsilya", "Avignon"],
+    "bonne_reponse": 2,
+    "explication": "Bouches-du-Rhône ilinde."
+  },
+  {
+    "id": 210,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "101. il:",
+    "options": ["Yeni Kaledonya", "Saint-Barth", "Mayotte", "Wallis"],
+    "bonne_reponse": 2,
+    "explication": "2011'den beri."
+  },
+  {
+    "id": 211,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Kayak bölgesi:",
+    "options": ["Bretagne", "Normandiya", "Auvergne-Rhône-Alpes", "Île-de-France"],
+    "bonne_reponse": 2,
+    "explication": "Alp masifi."
+  },
+  {
+    "id": 212,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Paris'in nehri:",
+    "options": ["Loire", "Sen (Seine)", "Rhône", "Garonne"],
+    "bonne_reponse": 1,
+    "explication": "Başkenti baştan başa geçer."
+  },
+  {
+    "id": 213,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Doğumu bildirmek:",
+    "options": ["Valilik", "Doğum yerinin belediyesi (Mairie)", "Karakol", "Doğumhane"],
+    "bonne_reponse": 1,
+    "explication": "Nüfus dairesi (état civil)."
+  },
+  {
+    "id": 214,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Kiracının serbestçe yapabileceği eylem:",
+    "options": ["Taşıyıcı duvarı yıkmak", "Alt kiraya vermek", "Boya yapmak/çerçeve asmak", "Kira ödememek"],
+    "bonne_reponse": 2,
+    "explication": "Yapıyı değiştirmeden düzenleme."
+  },
+  {
+    "id": 215,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Yasal evlilik:",
+    "options": ["Dini", "Belediyede resmi", "Avukat", "Noter"],
+    "bonne_reponse": 1,
+    "explication": "Sadece belediye başkanı yasal olarak nikah kıyar."
+  },
+  {
+    "id": 216,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Engelli park yeri:",
+    "options": ["5 dakika", "Kart olmadan yasaktır", "Hamile kadınlar", "Pazar günleri"],
+    "bonne_reponse": 1,
+    "explication": "135€ para cezası."
+  },
+  {
+    "id": 217,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Bozuk bulaşık makinesi:",
+    "options": ["Kaldırım", "Sarı çöp kutusu", "Orman", "Geri dönüşüm merkezi/Büyük hacimli çöpler (Encombrants)"],
+    "bonne_reponse": 2,
+    "explication": "Çevreyi korumak için."
+  },
+  {
+    "id": 218,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Çocuğu bildirmek:",
+    "options": ["Sadece evliler", "Tüm doğumlar", "Sadece ilk çocuk", "Fransızlar"],
+    "bonne_reponse": 1,
+    "explication": "Evrensel bir zorunluluktur."
+  },
+  {
+    "id": 219,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Doğum bildirim süresi:",
+    "options": ["5 gün", "Bir yıl", "Okul çağı", "Aynı gün"],
+    "bonne_reponse": 0,
+    "explication": "Kesin yasal süre."
+  },
+  {
+    "id": 220,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Polisi aramak:",
+    "options": ["15", "17", "18", "119"],
+    "bonne_reponse": 1,
+    "explication": "Acil durum numarası."
+  },
+  {
+    "id": 221,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "SAMU'yu (Ambulans) aramak:",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 0,
+    "explication": "Tıbbi acil durum."
+  },
+  {
+    "id": 222,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Okula kayıt:",
+    "options": ["Valilik", "Belediye (Mairie)", "Karakol", "İl meclisi"],
+    "bonne_reponse": 1,
+    "explication": "Yerel okul hizmetleri."
+  },
+  {
+    "id": 223,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Boşanmada velayet:",
+    "options": ["Anne", "Baba", "Hakim", "Her iki ebeveyn"],
+    "bonne_reponse": 3,
+    "explication": "Bağın korunması."
+  },
+  {
+    "id": 224,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Avukat yardımı:",
+    "options": ["APL", "AME", "Adli yardım (Aide juridictionnelle)", "RSA"],
+    "bonne_reponse": 2,
+    "explication": "Adalete erişim."
+  },
+  {
+    "id": 225,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Boşanma talebinde bulunmak:",
+    "options": ["Koca", "Eş (kadın)", "Biri veya diğeri/Her ikisi", "Belediye başkanı"],
+    "bonne_reponse": 2,
+    "explication": "Eşlerin eşitliği."
+  },
+  {
+    "id": 226,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Sağlık geri ödemesi:",
+    "options": ["CPAM", "Valilik", "France Travail", "Belediye"],
+    "bonne_reponse": 0,
+    "explication": "Sosyal Güvenlik (Sécu)."
+  },
+  {
+    "id": 227,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Doğum kontrolü (Contraception):",
+    "options": ["Yasaktır", "Gençler için serbest ve ücretsizdir", "Kocanın izni gerekir", "Sadece evli yetişkinler içindir"],
+    "bonne_reponse": 1,
+    "explication": "Cinsel sağlık hakkı."
+  },
+  {
+    "id": 228,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Sağlık gizliliği:",
+    "options": ["Polis dosyası", "Tıbbi sır (Secret médical)", "Hastalığı gizlemek", "İşverenin hakkı"],
+    "bonne_reponse": 1,
+    "explication": "Özel hayat."
+  },
+  {
+    "id": 229,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Vitale Kartı (Carte Vitale):",
+    "options": ["Tedavi geri ödemesi", "Uçak", "Vergiler", "Avrupa"],
+    "bonne_reponse": 0,
+    "explication": "Elektronik tedavi belgesi."
+  },
+  {
+    "id": 230,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Tamamlayıcı sağlık sigortası (Mutuelle):",
+    "options": ["Sécu'nün yerini alır", "Sécu'yü tamamlar", "Kira", "Ücretsiz doktor"],
+    "bonne_reponse": 1,
+    "explication": "Tamamlayıcı kısım."
+  },
+  {
+    "id": 231,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Üçüncü taraf ödemesi (Tiers payant):",
+    "options": ["Vergi", "3 ile çarpım", "Masrafları peşin ödememek", "3 taksitte ödeme"],
+    "bonne_reponse": 2,
+    "explication": "Doğrudan karşılama."
+  },
+  {
+    "id": 232,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Sağlık sigortası:",
+    "options": ["Sakinler için zorunludur", "İsteğe bağlıdır", "Sadece Fransızlar içindir", "Sadece fakirler içindir"],
+    "bonne_reponse": 0,
+    "explication": "Evrensel koruma."
+  },
+  {
+    "id": 233,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Kürtaj (kürtaj) mümkün müdür?",
+    "options": ["Hayır", "Evet (IVG)", "Sadece tıbbi tehlike varsa", "Babanın onayıyla"],
+    "bonne_reponse": 1,
+    "explication": "Veil Kanunu."
+  },
+  {
+    "id": 234,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Kayıt dışı çalışma:",
+    "options": ["Küçük işler için yasaldır", "Suçtur (Délit)", "Görmezden gelinir", "Deneme süresidir"],
+    "bonne_reponse": 1,
+    "explication": "Gizli çalışma."
+  },
+  {
+    "id": 235,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "SMIC nedir:",
+    "options": ["Tıbbi bir terim", "Yasal asgari ücret", "Sendika", "Şirket"],
+    "bonne_reponse": 1,
+    "explication": "Asgari gelir."
+  },
+  {
+    "id": 236,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İş aramak:",
+    "options": ["France Travail/Özgeçmiş (CV)", "Valilik", "Beklemek", "Belediye vergisi"],
+    "bonne_reponse": 0,
+    "explication": "Proaktif yaklaşım."
+  },
+  {
+    "id": 237,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Çalışma süresi:",
+    "options": ["30 saat", "35 saat", "39 saat", "40 saat"],
+    "bonne_reponse": 1,
+    "explication": "Yasal süre."
+  },
+  {
+    "id": 238,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Ebeveyn izni (Congé parental):",
+    "options": ["Anne", "Baba", "1 yıllık çalışan", "Büyükanne ve büyükbaba"],
+    "bonne_reponse": 2,
+    "explication": "Ebeveyn eşitliği."
+  },
+  {
+    "id": 239,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Yabancı girişimci:",
+    "options": ["Yasaktır", "Oturma izni izin veriyorsa", "Eğer bir Fransızla evliyse", "Sadece inşaat"],
+    "bonne_reponse": 1,
+    "explication": "Girişimcilik özgürlüğü."
+  },
+  {
+    "id": 240,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Kadın girişimci:",
+    "options": ["Evet özgürce", "Yasaktır", "Kocasının izni gerekir", "Sadece Moda/Güzellik"],
+    "bonne_reponse": 0,
+    "explication": "Hak eşitliği."
+  },
+  {
+    "id": 241,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İş yerindeki kurallar:",
+    "options": ["Medeni Kanun", "İş Kanunu/Sözleşme/Kontrat", "Belediye yönetmeliği", "İnsan Hakları Bildirgesi"],
+    "bonne_reponse": 1,
+    "explication": "Yasal çerçeve."
+  },
+  {
+    "id": 242,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İş Mahkemesi (Prud'hommes):",
+    "options": ["Tüccarlar", "Bireysel iş uyuşmazlıkları", "Kamyon şoförleri", "Boşanmalar"],
+    "bonne_reponse": 1,
+    "explication": "Eşitlikçi adalet."
+  },
+  {
+    "id": 243,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Sendikaya üye olmak:",
+    "options": ["Tüm çalışanlar", "Sadece kamu", "Sadece Fransızlar", "Sadece delegeler"],
+    "bonne_reponse": 0,
+    "explication": "Anayasal hak."
+  },
+  {
+    "id": 244,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Hamile bir kadın işten çıkarılabilir mi?",
+    "options": ["Eğer devamsızlık yaparsa", "İmkan yoksa", "Hayır mutlak koruma", "Eğer 3. çocuksa"],
+    "bonne_reponse": 2,
+    "explication": "Annelik koruması."
+  },
+  {
+    "id": 245,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Zorunlu eğitim:",
+    "options": ["3 ila 16 yaş arası", "6 ila 14 yaş arası", "3 ila 18 yaş arası", "6 ila 18 yaş arası"],
+    "bonne_reponse": 0,
+    "explication": "Temel hak."
+  },
+  {
+    "id": 246,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Eğitimi reddetmenin cezası:",
+    "options": ["Uyarı", "Ödeneklerin kaybı", "6 ay hapis/7500€ para cezası", "Sınır dışı etme"],
+    "bonne_reponse": 2,
+    "explication": "Cezai suç."
+  },
+  {
+    "id": 247,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Velayet hakkı (Autorité parentale):",
+    "options": ["Fiziksel ceza vermek", "Baba karar verir", "Çocuğun çıkarı/Korumak", "Meslek seçmek"],
+    "bonne_reponse": 2,
+    "explication": "Reşit olmayanın korunması."
+  },
+  {
+    "id": 248,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Kabul edilen devamsızlık nedeni:",
+    "options": ["Tatil", "Geç uyanmak", "Hastalık/Ciddi olay", "Doğum günü"],
+    "bonne_reponse": 2,
+    "explication": "Okula devamlılık."
+  },
+  {
+    "id": 249,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Zorunlu okul yaşı:",
+    "options": ["14 yaş", "16 yaş", "18 yaş", "Zorunlu değil"],
+    "bonne_reponse": 1,
+    "explication": "Temel eğitim."
+  },
+  {
+    "id": 250,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Eğitim şu yaştan itibaren başlar:",
+    "options": ["2 yaş", "3 yaş", "6 yaş", "7 yaş"],
+    "bonne_reponse": 1,
+    "explication": "2019'dan beri."
+  },
+  {
+    "id": 251,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İlkokuldan sonra:",
+    "options": ["Lise (Lycée)", "Üniversite", "Ortaokul (Collège)", "Anaokulu"],
+    "bonne_reponse": 2,
+    "explication": "Ortaöğretim döngüsü."
+  },
+  {
+    "id": 252,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Öğrenci velisinin hakkı:",
+    "options": ["Temsilcilere oy vermek", "Programı seçmek", "Sınıfa girmek", "Çocukları cezalandırmak"],
+    "bonne_reponse": 0,
+    "explication": "Ortak eğitim (Co-éducation)."
+  },
+  {
+    "id": 253,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Fransızca konuşamayan çocuk:",
+    "options": ["Okula gidemez", "UPE2A destek sistemleri", "Özel dersler", "Yabancılar için okullar"],
+    "bonne_reponse": 1,
+    "explication": "Okulda kapsayıcılık (Inclusion)."
+  },
+  {
+    "id": 254,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Engelli çocuk:",
+    "options": ["Kapsayıcı okul (École inclusive)", "Hastaneler", "Zorunlu değil", "Daha pahalı"],
+    "bonne_reponse": 0,
+    "explication": "2005 Kanunu."
+  },
+  {
+    "id": 255,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Babalık izni:",
+    "options": ["3 gün", "14 gün", "28 gün", "3 ay"],
+    "bonne_reponse": 2,
+    "explication": "2021 Reformu."
+  },
+  {
+    "id": 256,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Fiziksel ceza:",
+    "options": ["Evet", "Sadece elle", "Yasaktır", "Eğer +10 yaşındaysa"],
+    "bonne_reponse": 2,
+    "explication": "Çocuklara tokat atılmasına karşı 2019 kanunu."
+  },
+  {
+    "id": 257,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Okulda zorbalık (Harcèlement scolaire):",
+    "options": ["Bir şey yapılmaz", "Cezai suçtur", "Okul değiştirilir", "Polis karışamaz"],
+    "bonne_reponse": 1,
+    "explication": "Zorbalığa uğrayanın korunması."
+  },
+  {
+    "id": 258,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İş yerinde taciz/mobbing:",
+    "options": ["İstifa etmek", "Sessiz kalmak", "Uyarı/Şikayet", "Şiddet"],
+    "bonne_reponse": 2,
+    "explication": "Çalışan hakları."
+  },
+  {
+    "id": 259,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "İş yeri hekimliği (Médecine du travail):",
+    "options": ["Numara yapıp yapmadığını kontrol etmek", "Sağlığı korumak (Önlem)", "Aileyi tedavi etmek", "Aile hekiminin yerini almak"],
+    "bonne_reponse": 1,
+    "explication": "İş yerinde sağlık."
+  },
+  {
+    "id": 260,
+    "categorie": "Fransız toplumunda yaşamak",
+    "question": "Lise diploması:",
+    "options": ["Brevet", "Lisans (Licence)", "Bakalorya (Baccalauréat)", "Yüksek Lisans (Master)"],
+    "bonne_reponse": 2,
+    "explication": "Le Bac."
+  }
+]

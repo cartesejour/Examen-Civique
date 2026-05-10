@@ -1,0 +1,1698 @@
+[
+  {
+    "id": 1,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Aşağıdaki seçeneklerden hangisi bir vatandaş katılımıdır?",
+    "options": ["Süpermarkette alışveriş ödemesi yapmak", "Seçimlerde oy kullanmak", "Banka hesabına sahip olmak", "Okula gitmek"],
+    "bonne_reponse": 1,
+    "explication": "Oy kullanmak, temsilcilerin seçilmesini sağlayan demokrasilerde vatandaş katılımının temel eylemidir."
+  },
+  {
+    "id": 2,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "İfade özgürlüğü neyi garanti eder?",
+    "options": ["İstediği kişiye hakaret etme hakkını", "Kanunlara saygı çerçevesinde düşündüğünü söyleme veya yazma hakkını", "Vergi ödememe hakkını", "Polise yalan söyleme hakkını"],
+    "bonne_reponse": 1,
+    "explication": "İfade özgürlüğü temeldir ancak mutlak değildir: Suçların (hakaret, nefret söylemi, ırkçı hakaretler) başladığı yerde sona erer."
+  },
+  {
+    "id": 3,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Oturum izni (titre de séjour) ne işe yarar?",
+    "options": ["Trenle ücretsiz seyahat etmeye", "Fransa'da yasal olarak kalma hakkını kanıtlamaya", "Otomatik olarak vatandaşlık almaya", "Vergi ödememeye"],
+    "bonne_reponse": 1,
+    "explication": "Oturum izni, bir yabancının Fransa topraklarında yasal bir statüde bulunduğunu kanıtlayan, valilik (préfecture) tarafından verilen resmi bir belgedir."
+  },
+  {
+    "id": 4,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Seyahat özgürlüğü herkese aşağıdakilerden hangisine izin verir:",
+    "options": ["Ehliyetsiz araç kullanmaya", "Ücretsiz seyahat etmeye", "Ülke topraklarında serbestçe dolaşmaya", "Özel mülklere girmeye"],
+    "bonne_reponse": 2,
+    "explication": "Fransa'da herkesin (vatandaş veya yasal olarak bulunan yabancı) kamusal alanlarda serbestçe dolaşma hakkı vardır."
+  },
+  {
+    "id": 5,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa Cumhuriyeti'nin sembolü hangi web sitesinde bulunabilir?",
+    "options": ["Ticari sitelerde (.com)", "Sadece sosyal ağlarda", "Tüm devlet sitelerinde (.gouv.fr ile biten)", "Wikipedia'da"],
+    "bonne_reponse": 2,
+    "explication": "Cumhuriyetin resmi logosu (Marianne ve sloganı içeren) tüm devlet sitelerinde (impots.gouv.fr, service-public.gouv.fr...) zorunlu olarak bulunur."
+  },
+  {
+    "id": 6,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marseillaise'in (Fransız Milli Marşı) şu sözlerini tamamlayın: \"Aux armes […] ! Formez vos bataillons\" (Silah başına [...]! Taburlarınızı kurun)",
+    "options": ["Citoyens (Vatandaşlar)", "Soldats (Askerler)", "Français (Fransızlar)", "Enfants (Çocuklar)"],
+    "bonne_reponse": 0,
+    "explication": "Milli marşın nakaratı halkı özgürlüğü savunmaya çağırır: 'Silah başına, vatandaşlar, Taburlarınızı kurun, Yürüyelim, yürüyelim...'."
+  },
+  {
+    "id": 7,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marseillaise'in sözlerini tamamlayın: \"Allons enfants de la patrie […]\" (İleri vatanın çocukları [...])",
+    "options": ["La guerre est finie (Savaş bitti)", "Le jour de gloire est arrivé (Şan günü geldi)", "La France est grande (Fransa büyüktür)", "La liberté nous guide (Özgürlük bize rehberlik ediyor)"],
+    "bonne_reponse": 1,
+    "explication": "Bu, 1792'de Rouget de Lisle tarafından yazılan milli marşımızın en ilk cümlesidir."
+  },
+  {
+    "id": 8,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bireysel özgürlüğün uygulanmasına ilişkin olarak hangi ifade doğrudur? Bir kişi şunları yapabilir:",
+    "options": ["Kendi adaletini kendisi sağlamak", "Yaşam tarzını, mesleğini ve görüşlerini özgürce seçmek", "Çocuklarını okula göndermeyi reddetmek", "Kanunları görmezden gelmek"],
+    "bonne_reponse": 1,
+    "explication": "Bireysel özgürlük, yalnızca kanunlara ve başkalarının özgürlüklerine saygı duymak şartıyla, herkesin hayatını dilediği gibi yaşamasına izin verir."
+  },
+  {
+    "id": 9,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Dini inançların uygulanmasıyla ilgili olarak hangi ifade doğrudur?",
+    "options": ["Fransa'da yasaktır", "Kamu düzenini bozmadığı sürece özel ve kamusal alanda serbesttir", "Sadece Katolik dinine izin verilir", "Oy kullanabilmek için zorunludur"],
+    "bonne_reponse": 1,
+    "explication": "Laiklik, ibadet özgürlüğünü garanti eder. Kişi, inançlarını başkalarına dayatmamak ve kamu düzenini bozmamak şartıyla dinini özgürce yaşayabilir."
+  },
+  {
+    "id": 10,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir ebeveyn olarak, karma (kız-erkek) oldukları için çocuğunuzun okuldaki spor derslerine katılmasını reddedebilir misiniz?",
+    "options": ["Evet, bu ebeveynlerin seçimidir", "Evet, dini nedenlerleyse", "Hayır, okul müfredatı zorunlu ve laiktir", "Evet, belediyenin onayıyla"],
+    "bonne_reponse": 2,
+    "explication": "Devlet okulları kız-erkek eşitliğini (karma eğitimi) zorunlu kılar. Hiçbir dini inanç bundan kaçınmaya izin vermez."
+  },
+  {
+    "id": 11,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'nın sloganı nedir?",
+    "options": ["Özgürlük, Eşitlik, Kardeşlik (Liberté, Égalité, Fraternité)", "Çalışma, Aile, Vatan", "Barış, Sevgi, Adalet", "Birlik, Dayanışma, İlerleme"],
+    "bonne_reponse": 0,
+    "explication": "Aydınlanma Çağı ve Devrim'den miras kalan bu slogan, Cumhuriyet Anayasası'nda yer almaktadır."
+  },
+  {
+    "id": 12,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Karıyı boşamak (tek taraflı reddetmek) şudur:",
+    "options": ["Evlilik yurtdışında yapılmışsa izin verilir", "Fransa'da yasal bir uygulamadır", "Eşler arası eşitlik ilkesine aykırı olduğu için Fransa'da tamamen yasaktır", "Sadece bir hakim tarafından izin verilir"],
+    "bonne_reponse": 2,
+    "explication": "Tek taraflı boşanma (bir erkeğin evliliği tek başına bozması) kadınlara yönelik bir şiddettir. Fransa'da yalnızca (eşitliğe saygı duyan) yasal boşanma geçerlidir."
+  },
+  {
+    "id": 13,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Vergiler kamu harcamalarını finanse etmeye yarar. Hangi ifade doğrudur?",
+    "options": ["Vergi ödemek isteğe bağlıdır", "Vergiler hastaneleri, okulları, yolları ve güvenliği finanse eder", "Sadece Fransız vatandaşları vergi öder", "Vergi bakanları zenginleştirmeye yarar"],
+    "bonne_reponse": 1,
+    "explication": "Vergi, temel kamu hizmetlerini yürütmek ve ulusal dayanışmayı sağlamak için her ikamet edenin zorunlu mali katkısıdır."
+  },
+  {
+    "id": 14,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransız bayrağı halka açık bir yerde yakılabilir mi?",
+    "options": ["Evet, bu ifade özgürlüğüdür", "Hayır, bu kanunla cezalandırılan Cumhuriyetin sembollerine hakaret suçudur", "Evet, bir gösteri sırasında", "Evet, eğer eskiyse"],
+    "bonne_reponse": 1,
+    "explication": "Halka açık bir gösteri sırasında üç renkli bayrağa veya milli marşa hakaret etmek ceza hukuku kapsamında para cezası ile cezalandırılır."
+  },
+  {
+    "id": 15,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Devlet ayrımcılıkla mücadele etmek için ne yapar?",
+    "options": ["Hiçbir şey yapmaz", "Ceza Kanunu aracılığıyla ayrımcı eylemleri şiddetle cezalandırır ve 'Hak Savunucusu'nu (Défenseur des droits) destekler", "Mağdurlara para verir", "Ayrımcılık yapan şirketleri yasaklar"],
+    "bonne_reponse": 1,
+    "explication": "Her türlü ayrımcılık (cinsiyet, ırk, din, engellilik üzerinden) bir suçtur. Hak Savunucusu, mağdurlara ücretsiz yardım eden bir devlet kurumudur."
+  },
+  {
+    "id": 16,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marianne neyi temsil eder?",
+    "options": ["İlk cumhurbaşkanının annesini", "Fransa Cumhuriyeti'nin ve özgürlüğün sembolik figürünü", "Bir şarkıcıyı", "Bayrağın yaratıcısını"],
+    "bonne_reponse": 1,
+    "explication": "Frigya başlığı takan Marianne, Cumhuriyeti kişileştirir. Büstü Fransa'daki tüm belediye binalarında bulunur."
+  },
+  {
+    "id": 17,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Dernek kurma özgürlüğü nedir?",
+    "options": ["İstediği kişiyle evlenme hakkı", "Vatandaşların ortak bir proje veya bir amacı savunmak için özgürce bir araya gelme hakkı", "Bir şirket kurmak için ortak olma hakkı", "Grev yapma hakkı"],
+    "bonne_reponse": 1,
+    "explication": "Bu, 1901 yasasıyla düzenlenen temel bir haktır. Vatandaşların spor kulüpleri, yardım veya kültür dernekleri kurmalarına olanak tanır."
+  },
+  {
+    "id": 18,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Özgürlük nedir?",
+    "options": ["Başkalarına zarar vermeyen her şeyi yapabilme hakkı", "Kurallar olmadan her istediğini yapmak", "Hükümetin tamamen yokluğu", "Fikirlerini başkalarına dayatma hakkı"],
+    "bonne_reponse": 0,
+    "explication": "1789 İnsan Hakları Bildirgesi'nin 4. maddesine göre özgürlük, başkalarına zarar vermeyecek her şeyi yapabilmekten ibarettir."
+  },
+  {
+    "id": 19,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marseillaise nedir?",
+    "options": ["Victor Hugo'nun bir şiiri", "Fransa'nın resmi milli marşı", "Güney Fransa'nın bir yemeği", "Bir askeri geminin adı"],
+    "bonne_reponse": 1,
+    "explication": "Devrim sırasında 1792'de yazılan Marseillaise, Fransa Cumhuriyeti'nin marşıdır."
+  },
+  {
+    "id": 20,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Marianne hangi belgede görülebilir?",
+    "options": ["Sürücü belgesi", "Sağlık kartı (Carte Vitale)", "Genel kullanım posta pulları ve hükümet logosu", "Üniversite diplomaları"],
+    "bonne_reponse": 2,
+    "explication": "Marianne'ın yüzü geleneksel olarak Fransız posta pullarını süsler ve Fransa Cumhuriyeti'nin resmi logosunun ayrılmaz bir parçasıdır."
+  },
+  {
+    "id": 21,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir işveren şirketinde kadınları işe almayı reddediyor. Kanun ne diyor?",
+    "options": ["Patron olarak bu onun hakkıdır", "Bu, tamamen yasaklanmış ve yasalarca cezalandırılan cinsiyetçi bir ayrımcılıktır", "Fiziksel meslekler için yasaldır", "Zaten çok fazla kadını varsa yasaldır"],
+    "bonne_reponse": 1,
+    "explication": "Mesleki eşitlik yasal bir zorunluluktur. Cinsiyet kriteri üzerinden işe alımı reddetmek bir suçtur."
+  },
+  {
+    "id": 22,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Cumhuriyetin sloganının değerlerinden biri eşitliktir. Bu ne anlama gelir?",
+    "options": ["Kanun herkes için aynıdır (aynı hak ve görevler)", "Herkes aynı maaşı kazanmalıdır", "Artık zenginler olmamalıdır", "Herkes aynı düşünmelidir"],
+    "bonne_reponse": 0,
+    "explication": "Cumhuriyetçi eşitlik, hukuk önünde eşitliktir: Doğum, ten rengi veya din ile bağlantılı hiçbir ayrıcalığa tolerans gösterilmez."
+  },
+  {
+    "id": 23,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransızcanın Cumhuriyet'teki yeri nedir?",
+    "options": ["Bir seçenektir", "Cumhuriyetin resmi dilidir (adalet, kanunlar, yönetim)", "Sadece okulda konuşulur", "İngilizce ile değiştirilmiştir"],
+    "bonne_reponse": 1,
+    "explication": "Anayasanın 2. maddesi Cumhuriyetin dilinin Fransızca olduğunu belirtir. Kamu görevlileri vatandaşlarla Fransızca iletişim kurmalıdır."
+  },
+  {
+    "id": 24,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa Cumhuriyeti'nin resmi sembolleri nelerdir?",
+    "options": ["Baget ve peynir", "Üç renkli bayrak, milli marş ve slogan", "Louvre ve Eiffel Kulesi", "Zambak çiçeği ve horoz"],
+    "bonne_reponse": 1,
+    "explication": "Anayasa resmi olarak bayrağı (mavi, beyaz, kırmızı), marşı (Marseillaise) ve sloganı (Özgürlük, Eşitlik, Kardeşlik) tanımlar."
+  },
+  {
+    "id": 25,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Farklı olduğu için (engellilik, fiziksel görünüm, cinsiyet vb.) birine herkesin içinde hakaret etme hakkınız var mı?",
+    "options": ["Evet, ifade özgürlüğüdür", "Hayır, ayrımcı hakaret yasalarca cezalandırılan bir suçtur", "Evet, sosyal ağlarda", "Evet, şaka amaçlıysa"],
+    "bonne_reponse": 1,
+    "explication": "Fransız yasaları her türlü ayrımcılığı, hakareti veya nefrete teşviki (ırkçılık, homofobi vb.) şiddetle cezalandırır."
+  },
+  {
+    "id": 26,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa'nın rejimi nedir:",
+    "options": ["Bir diktatörlük", "Bir monarşi", "Demokratik bir Cumhuriyet", "Bir imparatorluk"],
+    "bonne_reponse": 2,
+    "explication": "Fransa, iktidarın temsilcilerini demokratik olarak seçen halka ait olduğu bir Cumhuriyettir."
+  },
+  {
+    "id": 27,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Okulda neden laiklik ilkesine saygı gösterilmelidir?",
+    "options": ["Öğrencileri her türlü dini baskıdan korumak ve eşitliği garanti etmek için", "Fransa'daki tüm dinleri yasaklamak için", "Gelenek olduğu için", "Öğrencileri her şeyi yemeye zorlamak için"],
+    "bonne_reponse": 0,
+    "explication": "Devlet okulu tarafsız bir bilgi yuvasıdır. Çocukların vicdan özgürlüğünü korumak için göze çarpan dini semboller orada yasaklanmıştır."
+  },
+  {
+    "id": 28,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Kilise ve Devletin Ayrılması Yasası hangi yıl kabul edildi?",
+    "options": ["1789", "1905", "1958", "1981"],
+    "bonne_reponse": 1,
+    "explication": "1905 yasası Konkordato'ya son vermiştir. Cumhuriyetin hiçbir dini tanımadığını, maaş ödemediğini veya sübvanse etmediğini belirtir."
+  },
+  {
+    "id": 29,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir kişinin hiçbir dine inanmama hakkı var mıdır?",
+    "options": ["Hayır, yasadışıdır", "Evet, vicdan özgürlüğü ateist olma (inanmama) hakkını içerir", "Sadece Fransız vatandaşıysa", "Evet, ama gizlice"],
+    "bonne_reponse": 1,
+    "explication": "Laiklik, inanma, inanmama ve dinini özgürce değiştirme özgürlüğünü garanti eder."
+  },
+  {
+    "id": 30,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik tarafından hangi hak garanti edilir?",
+    "options": ["Barınma hakkı", "Vicdan ve ibadet özgürlüğü", "Oy kullanma hakkı", "Sendika özgürlüğü"],
+    "bonne_reponse": 1,
+    "explication": "Laiklik dinlerin düşmanı değildir: aksine herkese yasalara saygı çerçevesinde seçtiği dini tamamen özgürce yaşama hakkını garanti eder."
+  },
+  {
+    "id": 31,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Devlet okullarında çok görünür dini sembolleri kimler takabilir?",
+    "options": ["Öğrenciler", "Öğretmenler", "Laiklik ilkesi gereği ne öğrenciler ne de öğretmenler", "Sadece müdür"],
+    "bonne_reponse": 2,
+    "explication": "Çocukları misyonerlikten korumak için yasa öğrencilerin göze çarpan dini semboller takmasını yasaklar. Öğretmenler devlet görevlisi olarak katı bir tarafsızlığa tabidir."
+  },
+  {
+    "id": 32,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik ilkesine göre devletin tarafsızlığı ne anlama gelir?",
+    "options": ["Devlet tüm dinleri yasaklar", "Devletin resmi bir dini vardır", "Devlet ve görevlileri hiçbir dini kayırmaz ve hiçbir dine karşı çıkmaz", "Devlet ibadet yerlerini finanse eder"],
+    "bonne_reponse": 2,
+    "explication": "Tarafsızlık, kamu idaresinin tüm vatandaşlara dini inançlarını dikkate almadan eşit davrandığı anlamına gelir."
+  },
+  {
+    "id": 33,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir kamu hizmeti kullanıcısı (örneğin bir belediyede) ne yapabilir?",
+    "options": ["Dini inancını gizlemelidir", "Kamu düzenini veya güvenliğini bozmadığı sürece dini bir sembol takabilir", "Gişede dua etme hakkına sahiptir", "Kendi dininden bir memur talep edebilir"],
+    "bonne_reponse": 1,
+    "explication": "Tarafsız olması gereken personelin aksine, kullanıcı, kamu hizmetinin işleyişini engellememek kaydıyla (örneğin güvenlik için yüzün görünürlüğü) inançlarını ifade etmekte özgürdür."
+  },
+  {
+    "id": 34,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Bir valilikte (préfecture) dini tarafsızlık ilkesine kim saygı göstermelidir?",
+    "options": ["Sadece kullanıcılar (halk)", "Sadece kamu görevlileri (devlet personeli)", "Herkes", "Hiç kimse"],
+    "bonne_reponse": 1,
+    "explication": "Sadece kamu görevlileri (memurlar) katı tarafsızlık görevine tabidir. İşyerlerinde görünür hiçbir dini sembol takmamalıdırlar."
+  },
+  {
+    "id": 35,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik, kamu görevlilerinin kullanıcılara karşı tarafsız olmasını gerektirir mi?",
+    "options": ["Evet, dinlerine bakılmaksızın tüm vatandaşlara eşit davranmalıdırlar", "Hayır, kendi topluluklarından olanları kayırabilirler", "Sadece belediye başkanı isterse", "Hayır, tarafsızlık sadece kıyafetle ilgilidir"],
+    "bonne_reponse": 0,
+    "explication": "Tarafsızlık sadece kıyafetle ilgili değildir: Davranışlar için de geçerlidir. Devlet memuru herkese karşı tarafsız olmalıdır."
+  },
+  {
+    "id": 36,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik ilkesi neyi garanti eder?",
+    "options": ["Vicdan özgürlüğü, ibadet özgürlüğü ve herkesin kanun önünde eşitliği", "İbadet yerleri inşa etme yasağı", "Ateist olma zorunluluğu", "Tüm dinler için resmi tatiller"],
+    "bonne_reponse": 0,
+    "explication": "Laiklik bir görüş değildir, birleşik ve eşitlikçi bir toplumda herkesin inançlarında özgür olmasını sağlayan yasal bir çerçevedir."
+  },
+  {
+    "id": 37,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Din değiştirme hakkımız var mı?",
+    "options": ["Hayır", "Evet, bu vicdan özgürlüğü ile güvence altına alınmış mutlak bir haktır", "Sadece reşit olunca", "Sadece ebeveynler kabul ederse"],
+    "bonne_reponse": 1,
+    "explication": "Kimsenin sizi bir dini korumaya zorlama hakkı yoktur. Başka bir inanca geçmekte veya ateist olmakta tamamen özgürsünüz."
+  },
+  {
+    "id": 38,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Laiklik neyi temsil eder?",
+    "options": ["Siyasi gücün dine boyun eğmesini", "Kamu kurumları ve dini kuruluşların ayrılmasını", "Dinin yerini siyasetin almasını", "Dinlere karşı savaşı"],
+    "bonne_reponse": 1,
+    "explication": "Laiklik, ruhani gücü dünyevi güçten ayırır. Devlet dinleri yönetmez ve dinler devletin kanunlarını koymaz."
+  },
+  {
+    "id": 39,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Okulda Laiklik Şartı tarafından yasaklanan nedir?",
+    "options": ["Tarih okumak", "Öğrencilerin dini aidiyetlerini açıkça gösterdikleri kıyafetler veya semboller giymeleri", "Kantin de yemek yemek", "Başkalarıyla konuşmak"],
+    "bonne_reponse": 1,
+    "explication": "Okulu tarafsız bir öğrenme yeri olarak korumak için 2004 yasası, İslami başörtüsü, kipa, büyük haçlar veya diğer çok göze çarpan dini sembolleri yasaklar."
+  },
+  {
+    "id": 40,
+    "categorie": "Cumhuriyetin ilke ve değerleri",
+    "question": "Fransa Anayasası'nın 1. maddesi ne der?",
+    "options": ["Fransa bir imparatorluktur", "Fransa bölünmez, laik, demokratik ve sosyal bir Cumhuriyettir", "Fransa'nın resmi bir dini vardır", "Güç krala aittir"],
+    "bonne_reponse": 1,
+    "explication": "1. Madde ülkemizin temellerini atar ve köken, ırk veya din ayrımı gözetmeksizin tüm vatandaşların kanun önünde eşitliğini sağladığını hatırlatır."
+  },
+  {
+    "id": 41,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hukuk devleti (État de droit) nedir?",
+    "options": ["Başkanın her şeye tek başına karar verdiği bir sistem", "Devletin (kamu gücünün) kendisinin de yasalara uymaya tabi olduğu bir sistem", "Bir polis diktatörlüğü", "Yargıçların olmadığı bir ülke"],
+    "bonne_reponse": 1,
+    "explication": "Hukuk devletinde yöneticiler, bakanlar ve idare vatandaşlarla aynı yasalara uymalıdır. Adalet bu uyumu sağlar."
+  },
+  {
+    "id": 42,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanı bir suç işledi. Hangi ifade doğrudur?",
+    "options": ["Başkan olduğu için yargılanamaz", "Görevlerini ağır bir şekilde ihlal etmesi durumunda Yüksek Mahkeme sıfatıyla toplanan Parlamento tarafından görevden alınabilir", "Kendi suçunu kendisi yargılar", "Sadece para cezası öder"],
+    "bonne_reponse": 1,
+    "explication": "Görev süresi boyunca dokunulmazlığı olmasına rağmen, Başkan görevleriyle açıkça bağdaşmayan bir eylemde bulunursa görevden alınabilir."
+  },
+  {
+    "id": 43,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Kanun neyin ifadesidir:",
+    "options": ["Başkanın iradesinin", "Genel iradenin (halkın)", "Yargıçların iradesinin", "Ordunun iradesinin"],
+    "bonne_reponse": 1,
+    "explication": "İnsan Hakları Bildirgesi'ne göre kanun, genel iradenin ifadesidir. Halkın temsilcileri (milletvekilleri) tarafından oylanır."
+  },
+  {
+    "id": 44,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediye meclisinin ve belediye başkanının görev süresi ne kadardır?",
+    "options": ["4 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 2,
+    "explication": "Belediyenin yönetim ekibini yenilemek için belediye seçimleri altı yılda bir yapılır."
+  },
+  {
+    "id": 45,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hukuk devleti neyi garanti eder?",
+    "options": ["Sadece zenginlerin hakları olduğunu", "Temel özgürlüklerin korunmasını ve vatandaşların kanun önünde eşitliğini", "Siyasetçilerin zenginleşmesini", "Hükümetin asla eleştirilemeyeceğini"],
+    "bonne_reponse": 1,
+    "explication": "Hukuk devleti, her siyasi veya idari kararın Hukuka saygı duymasını sağlayarak vatandaşı gücün keyfiliğine karşı korur."
+  },
+  {
+    "id": 46,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir kişi başka birinin yerine oy kullanabilir mi?",
+    "options": ["Hayır, her durumda kesinlikle yasaktır", "Evet, diğer kişi ona resmi olarak vekalet (procuration) verdiyse", "Evet, eşi ise", "Evet, telefonla"],
+    "bonne_reponse": 1,
+    "explication": "Oy kullanmak kişiseldir. Ancak, bir seçmen yoksa, başka bir seçmenin onun yerine oy kullanması için karakolda resmi bir 'vekalet' oluşturabilir."
+  },
+  {
+    "id": 47,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Oy kullanmak zorunlu mudur?",
+    "options": ["Evet, para cezası vardır", "Hayır, bir hak ve ahlaki vatandaşlık görevidir, ancak yasal bir zorunluluk değildir", "Evet, 70 yaş üstü hariç", "Sadece cumhurbaşkanlığı seçimi için"],
+    "bonne_reponse": 1,
+    "explication": "Bazı ülkelerin (Belçika gibi) aksine, Fransa'da oy kullanmak zorunlu değildir. Çekimser kalmak cezalandırılmaz."
+  },
+  {
+    "id": 48,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Görev süresinin sonunda Cumhurbaşkanı iktidarda kalmaya karar verebilir mi?",
+    "options": ["Evet, iyi çalıştıysa", "Hayır, demokratik seçimlerde yeniden seçilmeden iktidarda kalamaz", "Evet, ordunun onayıyla", "Evet, süresiz olarak"],
+    "bonne_reponse": 1,
+    "explication": "Demokrasi zamanla sınırlı görev süreleri dayatır (Başkan için 5 yıl). Ayrıca arka arkaya ikiden fazla görev yapamaz."
+  },
+  {
+    "id": 49,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hükümetin eylemlerini kim yönetir?",
+    "options": ["Başbakan", "Ulusal Meclis Başkanı", "Paris Belediye Başkanı", "İçişleri Bakanı"],
+    "bonne_reponse": 0,
+    "explication": "Anayasaya göre Başbakan 'Hükümetin eylemlerini yönetir' ve kanunların yürütülmesini sağlar."
+  },
+  {
+    "id": 50,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Başbakanı kim atar?",
+    "options": ["Halk", "Cumhurbaşkanı", "Milletvekilleri", "Hakimler"],
+    "bonne_reponse": 1,
+    "explication": "Cumhurbaşkanı, genellikle Ulusal Meclisteki siyasi çoğunluğu dikkate alarak Başbakanı atama yetkisine sahiptir."
+  },
+  {
+    "id": 51,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Fransa'nın idari teşkilatı nasıldır?",
+    "options": ["Mahalleler ve sokaklar", "Belediye (commune), il (département) ve bölge (région)", "Eyaletler ve krallıklar", "Kontluklar"],
+    "bonne_reponse": 1,
+    "explication": "Fransa üç ana yerel yönetim düzeyine ayrılmıştır: belediye (belediye başkanı tarafından yönetilir), il (il meclisi) ve bölge (bölge meclisi)."
+  },
+  {
+    "id": 52,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Yasama gücü nedir?",
+    "options": ["Adaleti sağlama gücü", "Kanunları uygulama gücü", "Kanunları tartışma ve oylama gücü (Parlamento tarafından yürütülür)", "Orduyu yönetme gücü"],
+    "bonne_reponse": 2,
+    "explication": "Yasama yetkisi, yasaları yapan Ulusal Meclis'e (milletvekilleri) ve Senato'ya (senatörler) aittir."
+  },
+  {
+    "id": 53,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir demokraside neden üç kuvvet ayrılır?",
+    "options": ["Daha fazla iş sağlamak için", "Gücün tek bir adamın elinde toplanmasını (diktatörlük) önlemek ve özgürlükleri korumak için", "Daha pahalıya mal olması için", "Kanunları karmaşıklaştırmak için"],
+    "bonne_reponse": 1,
+    "explication": "Montesquieu tarafından teorize edilen güçler ayrılığı (Yasama, Yürütme, Yargı), bir gücün diğerini durdurmasını sağlayarak demokrasiyi garanti eder."
+  },
+  {
+    "id": 54,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir hırsızlığın failini kim cezalandırır?",
+    "options": ["Mağdur", "Belediye Başkanı", "Yargı makamı (mahkemedeki bir hakim)", "Sadece polis"],
+    "bonne_reponse": 2,
+    "explication": "Polis şüpheliyi tutuklarsa, yalnızca yargı onu suçlu bulma ve bir ceza (para cezası, hapis) verme yetkisine sahiptir."
+  },
+  {
+    "id": 55,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hükümetin rolü nedir?",
+    "options": ["Kanunları oylamak", "Ulusun politikasını belirlemek, yürütmek ve kanunların uygulanmasını sağlamak", "Sivil davaları yargılamak", "Milli bayramları düzenlemek"],
+    "bonne_reponse": 1,
+    "explication": "Başbakanın önderliğindeki Hükümet, ülkeyi (ekonomi, sağlık, güvenlik) yönetmek için günlük kararlar alır ve Parlamento tarafından oylanan metinleri uygular."
+  },
+  {
+    "id": 56,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bir bakan yasalara uymazsa ne olur?",
+    "options": ["Hiçbir riski yoktur", "Herkesin cezasını o öder", "Her vatandaş gibi yargı tarafından kovuşturulabilir ve mahkum edilebilir", "Başkan onu affeder"],
+    "bonne_reponse": 2,
+    "explication": "Hukuk devletinde yöneticiler de diğer vatandaşlarla aynı yasalara tabidir. Özel bir mahkeme olan Cumhuriyet Adalet Divanı, bakanları görevlerini yerine getirirken işledikleri suçlardan dolayı yargılar."
+  },
+  {
+    "id": 57,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Ulusal Meclis'te kaç milletvekili vardır?",
+    "options": ["100", "348", "577", "1000"],
+    "bonne_reponse": 2,
+    "explication": "Ulusal Meclis, 5 yıllık bir görev süresi için doğrudan genel oyla seçilen 577 milletvekilinden oluşur."
+  },
+  {
+    "id": 58,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Fransa'daki seçimlerde kimler oy kullanabilir?",
+    "options": ["Seçmen listelerine kayıtlı Fransız vatandaşları (ve yerel/Avrupa seçimleri için Avrupa vatandaşları)", "Tüm sakinler", "Sadece erkekler", "Sadece mülk sahipleri"],
+    "bonne_reponse": 0,
+    "explication": "Ulusal seçimlerde oy kullanma hakkı Fransız vatandaşlığına bağlıdır. Belediye ve Avrupa seçimleri için AB vatandaşlarına açık olan bir istisna vardır."
+  },
+  {
+    "id": 59,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Senatörler ne kadar süre için seçilirler?",
+    "options": ["3 yıl", "5 yıl", "6 yıl", "7 yıl"],
+    "bonne_reponse": 2,
+    "explication": "Senato, dolaylı genel oyla ('büyük seçmenler' tarafından) 6 yıllık bir süre için seçilen 348 senatörden oluşur."
+  },
+  {
+    "id": 60,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Güçler ayrılığı temel bir ilkedir. İlgili üç güç hangileridir?",
+    "options": ["Siyasi, Askeri, Dini", "Yasama, Yürütme, Yargı", "Ulusal, Bölgesel, Yerel", "Ekonomik, Sosyal, Çevresel"],
+    "bonne_reponse": 1,
+    "explication": "Demokratik denge bu üç sütuna dayanır: yasayı yapanlar (Yasama), uygulayanlar (Yürütme) ve uygulanmasını sağlayanlar (Yargı)."
+  },
+  {
+    "id": 61,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanının tüm yetkileri var mı?",
+    "options": ["Evet, o bir hükümdar gibidir", "Hayır, demokrasiyi garanti altına almak için güç paylaşılır (güçler ayrılığı)", "Evet, Anayasa değişikliğinden beri", "Evet, ama sadece savaş zamanında"],
+    "bonne_reponse": 1,
+    "explication": "Diktatörlükten kaçınmak için yürütme gücü (Başkan), yasama gücü (Parlamento) ve yargı gücü (Hakimler) kesin olarak birbirinden ayrılmıştır."
+  },
+  {
+    "id": 62,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Vali (préfet) kimdir?",
+    "options": ["Bölgedeki (département) Cumhurbaşkanı ve Hükümetin doğrudan temsilcisi", "İtfaiyenin başı", "Bölge meclisinin seçilmiş bir üyesi", "En büyük şehrin belediye başkanı"],
+    "bonne_reponse": 0,
+    "explication": "Vali, Cumhurbaşkanı tarafından atanan üst düzey bir devlet memurudur. Devleti yerel düzeyde temsil eder ve kamu düzeninin korunmasını sağlar."
+  },
+  {
+    "id": 63,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "(Ulusal) seçimlerde oy kullanmak için hangi koşul gereklidir?",
+    "options": ["Ev sahibi olmak", "Gelir vergisi ödemek", "Reşit olmak, Fransız vatandaşı olmak ve seçmen listelerine kayıtlı olmak", "Bir işe sahip olmak"],
+    "bonne_reponse": 2,
+    "explication": "Ulusal oylama (cumhurbaşkanlığı gibi) en az 18 yaşında olmayı, Fransız vatandaşı olmayı ve belediyede seçmen listelerine kayıtlı olmayı gerektirir."
+  },
+  {
+    "id": 64,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediyeyi (commune) kim yönetir?",
+    "options": ["İl meclisi başkanı", "Vali (Préfet)", "Milletvekili", "Belediye Başkanı ve belediye meclisi"],
+    "bonne_reponse": 3,
+    "explication": "Belediye başkanı, belediyenin yürütme organının başıdır. (Kendileri de vatandaşlar tarafından seçilen) belediye meclisi üyeleri tarafından seçilir."
+  },
+  {
+    "id": 65,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bugün Fransa'nın siyasi rejimi nedir?",
+    "options": ["Mutlak bir başkanlık sistemi", "Parlamenter bir monarşi", "Demokratik bir Cumhuriyet", "Askeri bir rejim"],
+    "bonne_reponse": 2,
+    "explication": "Fransa Demokratik bir Cumhuriyettir: Ulusal egemenlik, onu temsilcileri aracılığıyla ve referandum yoluyla kullanan halka aittir."
+  },
+  {
+    "id": 66,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Matignon Köşkü (Hôtel de Matignon) nedir?",
+    "options": ["Anayasa Konseyi'nin merkezi", "Başbakanın resmi konutu ve çalışma yeri", "Paris'te büyük bir müze", "İçişleri Bakanlığı"],
+    "bonne_reponse": 1,
+    "explication": "Paris'te bulunan Matignon Köşkü, tıpkı Elysée'nin Cumhurbaşkanı için olduğu gibi, Hükümet Başkanı'nın (Başbakan) resmi konutudur."
+  },
+  {
+    "id": 67,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Parlamento şunlardan oluşur:",
+    "options": ["Başkan ve bakanları", "Ulusal Meclis ve Senato", "Belediye başkanları ve valiler", "Hakimler ve avukatlar"],
+    "bonne_reponse": 1,
+    "explication": "Fransa'da Parlamento 'iki meclislidir' (iki oda): milletvekilleri (Ulusal Meclis) ve senatörlerden (Senato) oluşur."
+  },
+  {
+    "id": 68,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Cumhurbaşkanının rolü nedir?",
+    "options": ["Kanunları oylamak", "Hakimleri yönetmek", "Devlet başkanı, orduların başkomutanı ve Anayasa'nın garantörüdür", "Belediyelerin bütçelerini yönetmek"],
+    "bonne_reponse": 2,
+    "explication": "Başkan, Anayasa'ya uyulmasını sağlar. Hakemliğiyle kamu yetkililerinin düzenli işleyişini ve Devletin sürekliliğini sağlar."
+  },
+  {
+    "id": 69,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Başbakanın rolü nedir?",
+    "options": ["Hükümetin eylemlerini yönetmek", "Senatoya başkanlık etmek", "Devleti yurtdışında temsil etmek", "Parlamento yerine kanun yapmak"],
+    "bonne_reponse": 0,
+    "explication": "Başbakan, hükümet ekibinin (bakanların) eylemlerini yönetir ve kanunların uygulanmasını sağlar."
+  },
+  {
+    "id": 70,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hükümet Başkanı (Chef du Gouvernement) kimdir?",
+    "options": ["Cumhurbaşkanı", "İçişleri Bakanı", "Başbakan", "Ulusal Meclis Başkanı"],
+    "bonne_reponse": 2,
+    "explication": "Başbakandır. (Tuzağa dikkat edin: Cumhurbaşkanı Devlet Başkanıdır, Hükümet Başkanı değil)."
+  },
+  {
+    "id": 71,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Fransa'da kaç bölge (région) vardır?",
+    "options": ["10", "Anakara'da 13 (denizaşırı bölgelerle toplam 18)", "22", "96"],
+    "bonne_reponse": 1,
+    "explication": "2016 bölgesel reformundan bu yana Fransa'nın 18 bölgesi vardır (13'ü Anakara Fransa'sında ve 5'i denizaşırı)."
+  },
+  {
+    "id": 72,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hak Savunucusunun (Défenseur des droits) rolü nedir?",
+    "options": ["Mahkemelerde Devleti savunmak", "Vatandaşların hak ve özgürlüklerini korumak ve ayrımcılıkla mücadele etmek", "Polisin yerini almak", "Sosyal yasaları oylamak"],
+    "bonne_reponse": 1,
+    "explication": "Hak Savunucusu devletten bağımsız bir kurumdur. Ayrımcılığa veya idari adaletsizliğe kurban gittiğine inanan herkes ona ücretsiz olarak başvurabilir."
+  },
+  {
+    "id": 73,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Euro ne zamandan beri Fransa'da tek para birimidir?",
+    "options": ["1958", "1992", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "Karar daha önce alınmış olsa da euro madeni paraları ve banknotları ilk kez 1 Ocak 2002'de dolaşıma girmiştir."
+  },
+  {
+    "id": 74,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "İlin (département) ana rolü nedir?",
+    "options": ["Orduyu yönetmek", "Sosyal eylem (yaşlılara yardım, RSA), ortaokulların (collèges) ve il yollarının yönetimi", "Para basmak", "Devlet bütçesini oylamak"],
+    "bonne_reponse": 1,
+    "explication": "İl meclisinin ana yetkisi dayanışma ve sosyal eylemdir (RSA, çocuklara sosyal yardım, engellilik)."
+  },
+  {
+    "id": 75,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Belediyelerin (communes) ana rolü nedir?",
+    "options": ["Diplomatik ilişkileri yönetmek", "Nüfus idaresini (état civil), yerel şehir planlamasını, ilkokulları ve yerel sosyal eylemleri yönetmek", "Para basmak", "Suçları yargılamak"],
+    "bonne_reponse": 1,
+    "explication": "Belediye sakinlere en yakın yerel yönetim birimidir (okul kayıtları, evlilikler, inşaat ruhsatları)."
+  },
+  {
+    "id": 76,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Fransa'da yaklaşık olarak kaç belediye (commune) vardır?",
+    "options": ["Yaklaşık 5.000", "Yaklaşık 15.000", "Yaklaşık 35.000", "Yaklaşık 100.000"],
+    "bonne_reponse": 2,
+    "explication": "Fransa'da 35.000'in biraz altında belediye bulunmaktadır. Avrupa'da en fazla belediyeye sahip ülkedir."
+  },
+  {
+    "id": 77,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Bugün bildiğimiz haliyle Avrupa Birliği'nin kurulmasına ilişkin antlaşma hangisidir?",
+    "options": ["Versay Antlaşması", "Maastricht Antlaşması", "Paris Antlaşması", "Nantes Fermanı"],
+    "bonne_reponse": 1,
+    "explication": "1992'de imzalanan Maastricht Antlaşması, Avrupa vatandaşlığını ve tek para birimi projesini başlatarak Avrupa Birliği'nin kuruluşunu işaretler."
+  },
+  {
+    "id": 78,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hangi devlet 2020'de Avrupa Birliği'nden ayrıldı?",
+    "options": ["İtalya", "Birleşik Krallık", "Yunanistan", "İspanya"],
+    "bonne_reponse": 1,
+    "explication": "Birleşik Krallık, 'Brexit' olarak bilinen halk referandumunun ardından 31 Ocak 2020'de resmi olarak Avrupa Birliği'nden ayrıldı."
+  },
+  {
+    "id": 79,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Birliği'nin sloganı nedir?",
+    "options": ["Özgürlük, Eşitlik, Kardeşlik", "Çeşitlilik içinde birlik (Unie dans la diversité)", "Birlikten kuvvet doğar", "Barış ve Refah"],
+    "bonne_reponse": 1,
+    "explication": "'Çeşitlilik içinde birlik' sloganı, Avrupalıların farklı kültürleriyle zenginleşirken barış için çalışmak üzere bir araya gelmelerini vurgular."
+  },
+  {
+    "id": 80,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Birliği'nin marşı nedir?",
+    "options": ["Marseillaise", "Neşeye Övgü (L'Ode à la joie)", "Aşk İlahisi", "Partizanların Şarkısı"],
+    "bonne_reponse": 1,
+    "explication": "Neşeye Övgü (besteci Beethoven'ın 9. senfonisinden alınmıştır) Avrupa Birliği'nin resmi marşıdır."
+  },
+  {
+    "id": 81,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa bayrağı neden oluşur?",
+    "options": ["Siyah bir kartal", "Beyaz bir haç", "Daire şeklinde dizilmiş 12 altın yıldız", "27 yıldız (her ülke için bir tane)"],
+    "bonne_reponse": 2,
+    "explication": "Bayrak her zaman mükemmellik, bütünlük ve birliğin sembolü olarak daire şeklinde 12 yıldız içerir (yıldız sayısı üye ülke sayısıyla değişmez)."
+  },
+  {
+    "id": 82,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa bayrağı ne renktir?",
+    "options": ["Mavi zemin üzerine sarı/altın yıldızlar", "Beyaz zemin üzerine kırmızı yıldızlar", "Yeşil zemin üzerine sarı güneş", "Kırmızı ve siyah"],
+    "bonne_reponse": 0,
+    "explication": "Avrupa bayrağı, Avrupa halklarının uyumunu simgeleyen, mavi zemin üzerinde 12 altın yıldızdan oluşan bir daireyi temsil eder."
+  },
+  {
+    "id": 83,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Birliği'nin temellerini atan Maastricht Antlaşması hangi yıl imzalandı?",
+    "options": ["1957", "1981", "1992", "2002"],
+    "bonne_reponse": 2,
+    "explication": "1992'de imzalanan Maastricht Antlaşması, Avrupa Ekonomik Topluluğu'nu (AET) mevcut Avrupa Birliği'ne dönüştürdü."
+  },
+  {
+    "id": 84,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Parlamentosu'nun merkezi nerededir?",
+    "options": ["Paris'te (Fransa)", "Strazburg'da (Fransa)", "Berlin'de (Almanya)", "Roma'da (İtalya)"],
+    "bonne_reponse": 1,
+    "explication": "Avrupa Parlamentosu'nun (milletvekillerinin genel kurul toplantılarının yapıldığı) resmi merkezi Strazburg, Fransa'da bulunmaktadır."
+  },
+  {
+    "id": 85,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Komisyonu'nun merkezi nerededir?",
+    "options": ["Brüksel'de (Belçika)", "Cenevre'de (İsviçre)", "Madrid'te (İspanya)", "Strazburg'da (Fransa)"],
+    "bonne_reponse": 0,
+    "explication": "Avrupa Birliği'nin yürütme organı (yasaları öneren ve uygulayan) olan Avrupa Komisyonu'nun ana merkezi Brüksel'dedir."
+  },
+  {
+    "id": 86,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Birliği üyesi OLMAYAN devlet hangisidir?",
+    "options": ["İsviçre", "Fransa", "Almanya", "İspanya"],
+    "bonne_reponse": 0,
+    "explication": "Avrupa'nın merkezindeki konumuna rağmen İsviçre (Norveç veya Birleşik Krallık gibi) Avrupa Birliği'ne üye değildir."
+  },
+  {
+    "id": 87,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa Günü'nü ne zaman kutluyoruz?",
+    "options": ["1 Mayıs", "9 Mayıs", "14 Temmuz", "11 Kasım"],
+    "bonne_reponse": 1,
+    "explication": "9 Mayıs, Avrupa inşasının başlangıç noktası olan 9 Mayıs 1950 tarihli Schuman Deklarasyonu anısına Avrupa'yı kutlar."
+  },
+  {
+    "id": 88,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa seçimleri ne sıklıkla düzenlenir?",
+    "options": ["Her 3 yılda bir", "Her 5 yılda bir", "Her 7 yılda bir", "Her yıl"],
+    "bonne_reponse": 1,
+    "explication": "Avrupa Birliği vatandaşları, Avrupa Parlamentosu'nda kendilerini temsil edecek milletvekillerini seçmek için her 5 yılda bir oy kullanırlar."
+  },
+  {
+    "id": 89,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Avrupa seçimlerinde oy kullanabilmek için hangi şart gereklidir?",
+    "options": ["Uluslararası bir pasaporta sahip olmak", "Bir Avrupa Birliği üye ülkesinin vatandaşı olmak ve seçmen kütüklerine kayıtlı olmak", "Avrupa vergisi ödemek", "Yükseköğrenim görmüş olmak"],
+    "bonne_reponse": 1,
+    "explication": "Fransa'da, başka bir Üye Devletin Avrupa vatandaşı ek seçmen kütüklerine kayıtlıysa Avrupa seçimlerinde oy kullanabilir."
+  },
+  {
+    "id": 90,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Hangi ülke Avrupa Birliği'nin kurucu ülkelerinden biridir?",
+    "options": ["Fransa", "İsveç", "Avusturya", "Polonya"],
+    "bonne_reponse": 0,
+    "explication": "Fransa, ilk altı kurucu üyeden biridir (Almanya, İtalya, Belçika, Hollanda ve Lüksemburg ile birlikte)."
+  },
+  {
+    "id": 91,
+    "categorie": "Haklar ve görevler",
+    "question": "PMA (Tıbbi Destekli Üreme) hangi özgürlüğü ifade eder?",
+    "options": ["Basın özgürlüğü", "Sağlık hakkı ve aile kurma özgürlüğü", "Seyahat özgürlüğü", "Oy kullanma hakkı"],
+    "bonne_reponse": 1,
+    "explication": "Tıbbi Destekli Üreme (PMA), temel sağlık hizmetlerine erişim hakkı ve çiftlerin veya bekar kadınların aile kurma özgürlüğü kapsamına girer."
+  },
+  {
+    "id": 92,
+    "categorie": "Haklar ve görevler",
+    "question": "Devlet hakların sınırlandırılmasını ne adına gerekçelendirir?",
+    "options": ["Kamu düzeninin, güvenliğin veya kamu sağlığının korunması adına", "Sadece ekonomik nedenlerle", "Yabancıları cezalandırmak için", "Bakanlara avantaj sağlamak için"],
+    "bonne_reponse": 0,
+    "explication": "Özgürlükler mutlak değildir. Genel çıkarlar (pandemi sırasında herkesin güvenliği gibi) kesinlikle gerektiriyorsa devlet bunları sınırlandırabilir."
+  },
+  {
+    "id": 93,
+    "categorie": "Haklar ve görevler",
+    "question": "Evlenme hakkıyla ilgili olarak hangi ifade doğrudur?",
+    "options": ["Heteroseksüel çiftlere ayrılmıştır", "Evlilik farklı cinsiyetten ve eşcinsel çiftlere açık bir haktır", "Polisten izin alınması gerekir", "Yabancı biriyle evlenmek yasaktır"],
+    "bonne_reponse": 1,
+    "explication": "2013 yılında yürürlüğe giren 'Herkes İçin Evlilik' (Mariage pour tous), aynı veya farklı cinsiyetten olsun, tüm çiftlere resmi olarak evlenme hakkını garanti eder."
+  },
+  {
+    "id": 94,
+    "categorie": "Haklar ve görevler",
+    "question": "Boşanmak her zaman mümkün müdür?",
+    "options": ["Hayır, yasaktır", "Evet, boşanma hakkı yasa ile tüm evli çiftler için garanti altındadır", "Sadece çocuk yoksa", "Sadece ailenin onayıyla"],
+    "bonne_reponse": 1,
+    "explication": "Boşanma hakkı, ister anlaşmalı ister bir hakim önünde çekişmeli olsun, Fransa'da temel bir özgürlüktür."
+  },
+  {
+    "id": 95,
+    "categorie": "Haklar ve görevler",
+    "question": "Ölüm cezası:",
+    "options": ["Ciddi suçlar için her zaman uygulanır", "Geçici olarak askıya alınmıştır", "Fransa'da 1981'den beri kesin olarak kaldırılmıştır", "Sadece yüksek güvenlikli hapishanelerde kullanılır"],
+    "bonne_reponse": 2,
+    "explication": "François Mitterrand'ın cumhurbaşkanlığı döneminde ve Robert Badinter sayesinde ölüm cezası kaldırıldı ve yerini hapis cezaları aldı."
+  },
+  {
+    "id": 96,
+    "categorie": "Haklar ve görevler",
+    "question": "Bu alıntılardan hangisi 1789 İnsan ve Yurttaş Hakları Bildirgesi'nde yer almaktadır?",
+    "options": ["\"Fransa bir İmparatorluktur\"", "\"İnsanlar haklar bakımından özgür ve eşit doğarlar ve yaşarlar\"", "\"Devlet benim\"", "\"Çalışın, zahmet çekin\""],
+    "bonne_reponse": 1,
+    "explication": "1789 İnsan Hakları Bildirgesi'nin 1. Maddesi Cumhuriyetin temelidir: Doğumlarından itibaren vatandaşlar arasındaki mutlak eşitlik ilkesini ortaya koyar."
+  },
+  {
+    "id": 97,
+    "categorie": "Haklar ve görevler",
+    "question": "Kürtaja izin veriliyor mu?",
+    "options": ["Hayır, bu bir suçtur", "Evet, Gebeliğin İsteğe Bağlı Sonlandırılması (IVG) garanti edilen bir haktır", "Sadece baba kabul ederse", "Sadece ciddi tıbbi nedenlerle"],
+    "bonne_reponse": 1,
+    "explication": "1975'teki Veil yasasından beri kürtaja izin verilmektedir. IVG'ye başvurma özgürlüğü artık Anayasa'da da yer almaktadır."
+  },
+  {
+    "id": 98,
+    "categorie": "Haklar ve görevler",
+    "question": "Anayasa neleri içerir?",
+    "options": ["Karayolları Kanunu", "Kamu yetkililerinin organizasyonu ve vatandaşların temel hakları", "Tren saatleri", "Hapishane kuralları"],
+    "bonne_reponse": 1,
+    "explication": "Anayasa, ülkenin nasıl yönetildiğini (Cumhurbaşkanı, Parlamento) tanımlayan ve insan haklarını koruyan temel metindir."
+  },
+  {
+    "id": 99,
+    "categorie": "Haklar ve görevler",
+    "question": "Basın özgürlüğü neyi garanti eder?",
+    "options": ["Gazetelerin ücretsiz olmasını", "Gazetecilerin önceden sansür olmadan bilgi yayma ve iktidarı eleştirme hakkını", "Cezasız kalarak iftira atma hakkını", "Başkanı destekleme zorunluluğunu"],
+    "bonne_reponse": 1,
+    "explication": "Demokrasinin dayanağı olan basın özgürlüğü (1881 yasası), Devletin medyayı kontrol etmesini veya sansürlemesini engeller."
+  },
+  {
+    "id": 100,
+    "categorie": "Haklar ve görevler",
+    "question": "Çevre Şartı neyi öngörür?",
+    "options": ["Bir bahçeye sahip olma zorunluluğu", "Herkesin dengeli ve sağlığa saygılı bir çevrede yaşama hakkı", "Arabaların yasaklanması", "Para ödeyerek çevreyi kirletme hakkı"],
+    "bonne_reponse": 1,
+    "explication": "2005 yılında Anayasaya entegre edilen bu şart, çevrenin korunmasını anayasal değere sahip temel bir hak olarak kutsamaktadır."
+  },
+  {
+    "id": 101,
+    "categorie": "Haklar ve görevler",
+    "question": "İnsan onuru ne anlama gelir?",
+    "options": ["İyi giyimli olmak", "Aşağılayıcı muameleyi yasaklayarak her insanın kişiliğine mutlak saygı gösterilmesi hakkına sahip olduğu ilkesi", "Çok para kazanmak", "Asla özür dilememek"],
+    "bonne_reponse": 1,
+    "explication": "İnsan onuru yüce bir yasal ilkedir. Köleliği, işkenceyi ve insanlık dışı muameleyi yasaklar."
+  },
+  {
+    "id": 102,
+    "categorie": "Haklar ve görevler",
+    "question": "Gösteri yapma hakkı ne anlama gelir?",
+    "options": ["Vitrinleri kırma hakkı", "Halka açık yollarda toplu olarak ve barışçıl bir şekilde kendini ifade etme hakkı", "İşi bırakma hakkı", "Evden çıkma yasağı"],
+    "bonne_reponse": 1,
+    "explication": "Kanunla garanti altına alınan gösteri, vatandaşların taleplerini açıkça ifade etmelerini sağlar. Mutlaka barışçıl olmalı ve önceden bildirilmelidir."
+  },
+  {
+    "id": 103,
+    "categorie": "Haklar ve görevler",
+    "question": "PMA ne anlama gelir?",
+    "options": ["Aylık Aktivite Primi", "Tıbbi Destekli Üreme (Procréation Médicalement Assistée)", "Yardımcı Belediye Polisi", "Piyasaya Sürme İzni"],
+    "bonne_reponse": 1,
+    "explication": "Tıbbi Destekli Üreme (PMA), bir çocuğun gebe kalmasına yardımcı olmayı sağlayan klinik ve biyolojik uygulamaları (tüp bebek gibi) bir araya getirir."
+  },
+  {
+    "id": 104,
+    "categorie": "Haklar ve görevler",
+    "question": "Değiştirilmesi en zor olan metin hangisidir?",
+    "options": ["Bir okulun kuralları", "Sıradan bir kanun", "Anayasa", "Karayolları Kanunu"],
+    "bonne_reponse": 2,
+    "explication": "Anayasa normlar hiyerarşisinin en üstündedir. Değiştirilmesi çok ağır bir prosedür (referandum veya Kongre olarak toplanan Parlamentonun oyu) gerektirir."
+  },
+  {
+    "id": 105,
+    "categorie": "Haklar ve görevler",
+    "question": "Hangi özgürlük bir kişinin kendi seçtiği dine inanmasına izin verir?",
+    "options": ["Basın özgürlüğü", "Seyahat özgürlüğü", "Dernek kurma özgürlüğü", "Vicdan özgürlüğü (laiklik tarafından garanti edilir)"],
+    "bonne_reponse": 3,
+    "explication": "Vicdan özgürlüğü, her bireyin Devletin müdahalesi olmadan değerlerini, inançlarını veya dinini seçme hakkıdır."
+  },
+  {
+    "id": 106,
+    "categorie": "Haklar ve görevler",
+    "question": "Grev hakkı nedir?",
+    "options": ["Patronuna vurma hakkı", "Mesleki talepleri savunmak için işin toplu olarak ve anlaşarak durdurulması", "Yağmur yağdığında işe gitmeme hakkı", "Meslektaşlarına hakaret etme hakkı"],
+    "bonne_reponse": 1,
+    "explication": "Anayasa tarafından tanınan grev hakkı, çalışanların çalışma koşullarını iyileştirmek için işverenlerine barışçıl bir şekilde baskı yapmalarına olanak tanır."
+  },
+  {
+    "id": 107,
+    "categorie": "Haklar ve görevler",
+    "question": "Anayasa nedir?",
+    "options": ["Ulusal Meclis'in adı", "Milli marş", "Yetkileri düzenleyen ve hakları koruyan Devletin en yüksek kanunu", "Ceza kanunlarını listeleyen kitap"],
+    "bonne_reponse": 2,
+    "explication": "Fransa'da oylanan diğer tüm yasalar, Anayasa tarafından belirlenen kurallara zorunlu olarak uymalıdır."
+  },
+  {
+    "id": 108,
+    "categorie": "Haklar ve görevler",
+    "question": "Kürtaj (IVG) talebinde kim bulunabilir?",
+    "options": ["Hamile kadının kocası", "Sadece bir doktor", "Hamileliğini sürdürmek istemeyen tüm hamile kadınlar", "Kadının işvereni"],
+    "bonne_reponse": 2,
+    "explication": "Kürtaja (IVG) başvurma seçimi sadece hamile kadına aittir. Kimsenin iznine ihtiyacı yoktur."
+  },
+  {
+    "id": 109,
+    "categorie": "Haklar ve görevler",
+    "question": "Fransız vatandaşı olan reşit bir kadının seçimlerde oy kullanma hakkı var mıdır?",
+    "options": ["Hayır, oy kullanma hakkı erkeklere aittir", "Evet, kadınlar erkeklerle tamamen aynı siyasi haklara sahiptir", "Evet, ama sadece belediye seçimleri için", "Sadece kocasının onayı varsa"],
+    "bonne_reponse": 1,
+    "explication": "1944'te elde edilen kadınların oy hakkı, tüm Fransız vatandaşları arasında mükemmel bir medeni ve siyasi eşitlik sağlar."
+  },
+  {
+    "id": 110,
+    "categorie": "Haklar ve görevler",
+    "question": "Sosyal ağların kullanımına ilişkin olarak hangi ifade doğrudur?",
+    "options": ["Cumhuriyet yasaları orada geçerlidir (hakaretler ve tehditler orada cezalandırılır)", "Anonim kalarak orada her şey söylenebilir", "Polisin oraya erişimi yoktur", "İnternette yasalar yoktur"],
+    "bonne_reponse": 0,
+    "explication": "Dijital alan kanunsuz bir bölge değildir. Siber zorbalık, iftira ve çevrimiçi nefret söylemi yargı tarafından takip edilen suçlardır."
+  },
+  {
+    "id": 111,
+    "categorie": "Haklar ve görevler",
+    "question": "Yere bir izmarit atmak şudur:",
+    "options": ["Tolere edilen bir eylem", "Çevre Kanunu'nun para cezası ile cezalandırılan bir ihlali", "Dolu bir çöp kutusunun yanındaysa yasal", "Özgürlüğün bir kanıtı"],
+    "bonne_reponse": 1,
+    "explication": "Halka açık yollara (küçük bir izmarit de dahil olmak üzere) çöp atmak, kesinlikle yasaklanmış ve cezai olarak cezalandırılan bir medeniyetsizliktir."
+  },
+  {
+    "id": 112,
+    "categorie": "Haklar ve görevler",
+    "question": "Devlet, hakları ve özgürlükleri sınırlayabilir mi?",
+    "options": ["Hayır, asla", "Evet, ancak sadece kanunla ve kamu düzenini veya başkalarının haklarını korumak için gerekliyse", "Evet, bir polis memurunun basit bir kararıyla", "Evet, belediye başkanının isteğine göre"],
+    "bonne_reponse": 1,
+    "explication": "Özgürlük, kuralların olmaması demek değildir. Herkesin güvenliğini korumak için yasal sınırlamalar (ör. karantina, bagaj kontrolü) mümkündür."
+  },
+  {
+    "id": 113,
+    "categorie": "Haklar ve görevler",
+    "question": "Bu eylemlerden hangisi çevreye saygılı bir tutum benimsemeyi sağlar?",
+    "options": ["Suyu akarken bırakmak", "Atıklarını ayırmak ve enerji tüketimini sınırlamak", "Bahçesinde çöplerini yakmak", "Çok kısa mesafeler için arabasını kullanmak"],
+    "bonne_reponse": 1,
+    "explication": "Ekolojik geçiş herkesin çabasına dayanır: atık ayırma, su ve elektrik tasarrufu, toplu taşıma kullanımı."
+  },
+  {
+    "id": 114,
+    "categorie": "Haklar ve görevler",
+    "question": "Hangi seçenek Fransa'da ikamet eden herkes için bir zorunluluğu temsil eder?",
+    "options": ["Vergilerini ödemek ve Cumhuriyetin kanunlarına uymak", "Bir araba satın almak", "30 yaşından önce evlenmek", "Bir sendikaya üye olmak"],
+    "bonne_reponse": 0,
+    "explication": "Toplum içinde yaşamak kesin görevler dayatır: kanun metinlerine saygı, mali katkı (vergi) ve diğer vatandaşlara saygı."
+  },
+  {
+    "id": 115,
+    "categorie": "Haklar ve görevler",
+    "question": "İfade özgürlüğü hangi nedenle sınırlandırılabilir?",
+    "options": ["Başkanı eleştiriden korumak için", "Nefret söylemi, hakaret veya iftira durumunda", "Basın Hükümet ile aynı fikirde değilse", "Şakaları sansürlemek için"],
+    "bonne_reponse": 1,
+    "explication": "Kendini ifade etme özgürlüğü, insanların onuruna saldırma hakkı vermez. Şiddet çağrıları ve ırkçılık birer fikir değil, suçtur."
+  },
+  {
+    "id": 116,
+    "categorie": "Haklar ve görevler",
+    "question": "Neden çöplerimizi ayırmalıyız?",
+    "options": ["Güzel görünmesi için", "Geri dönüşümlerini sağlamak, doğal kaynakları korumak ve kirlilikle mücadele etmek için", "Çöpçüleri meşgul etmek için", "Çöp kutuları çok küçük olduğu için"],
+    "bonne_reponse": 1,
+    "explication": "Atık ayırma, sürdürülebilir kalkınmayı sağlamak için Çevre Şartı'nın bir parçası olan vatandaşlık görevidir."
+  },
+  {
+    "id": 117,
+    "categorie": "Haklar ve görevler",
+    "question": "Bir şiddet mağduru ne yapmalıdır?",
+    "options": ["Sorunu kendisi çözmeli", "Sorunlardan kaçınmak için susmalı", "Güvenli bir yere geçmeli, acil servisleri (17 veya 112) aramalı ve şikayette bulunmalı", "Geçmesini beklemeli"],
+    "bonne_reponse": 2,
+    "explication": "Devletin mağdurları koruma görevi vardır. Şikayette bulunmak, saldırganı cezalandırmak için adli bir soruşturma başlatılmasını sağlar."
+  },
+  {
+    "id": 118,
+    "categorie": "Haklar ve görevler",
+    "question": "Polislerin veya jandarmaların emirleri karşısında ne yapılmalıdır?",
+    "options": ["Kaçmak", "İtaat etmek ve talimatlarına uymak", "Onlarla pazarlık yapmak", "Fiziksel olarak kendini savunmak"],
+    "bonne_reponse": 1,
+    "explication": "Kolluk kuvvetleri Devletin otoritesini temsil eder. 'İtaat etmeyi reddetmek' (bir kontrolde durmamak) veya 'isyan etmek' cezai suçlardır."
+  },
+  {
+    "id": 119,
+    "categorie": "Haklar ve görevler",
+    "question": "Polisin rolü nedir?",
+    "options": ["Kanunlar yapmak", "Suçluları yargılamak", "İnsanların güvenliğini sağlamak, kamu düzenini korumak ve suçluları aramak", "Ülkeyi yönetmek"],
+    "bonne_reponse": 2,
+    "explication": "Ulusal polis ve jandarma, sahada yasaları uygulamakla, halkı korumakla ve adaletin emirleri doğrultusunda soruşturma yapmakla görevlidir."
+  },
+  {
+    "id": 120,
+    "categorie": "Haklar ve görevler",
+    "question": "Tehlikede olan bir kişiye yardım etmenin bir örneği nedir?",
+    "options": ["Bir kazayı telefonuyla filme almak", "Hiçbir şey yapmadan izlemek", "Yaralı birini görünce derhal acil servisleri (SAMU, İtfaiye) uyarmak", "Tanık olmamak için kaçmak"],
+    "bonne_reponse": 2,
+    "explication": "Tehlikede olan birine yardım etmemek ciddi bir suçtur. Bir kaza karşısında acil servisleri (15, 18 veya 112) aramak yasal bir zorunluluktur."
+  },
+  {
+    "id": 121,
+    "categorie": "Haklar ve görevler",
+    "question": "Hangi örnek kamu yararını korumak için bir özgürlük sınırlamasını göstermektedir?",
+    "options": ["Ehliyetsiz araç kullanmayı yasaklamak", "İnsanları aynı dine sahip olmaya zorlamak", "Kadınların çalışmasını yasaklamak", "Hastaneleri pazar günleri kapatmak"],
+    "bonne_reponse": 0,
+    "explication": "Seyahat özgürlüğü temeldir, ancak Devlet tüm kullanıcıların hayatını korumak için ehliyet ve trafik kuralları zorunluluğu getirir."
+  },
+  {
+    "id": 122,
+    "categorie": "Haklar ve görevler",
+    "question": "Bir şiddet olayına tanık olunduğunda nasıl bir tutum sergilenmelidir?",
+    "options": ["Hiçbir şey görmemiş gibi yapmak", "Sosyal ağlar için bir video çekmek", "Derhal kolluk kuvvetlerini (17 veya 112) uyarmak ve güvenli bir yere geçmek", "Kavgayı teşvik etmek"],
+    "bonne_reponse": 2,
+    "explication": "Bir saldırıya tanık olan herkesin yardım çağırma görevi vardır. Bunu yapmamak, tehlikede olan birine yardım etmeme suçunu oluşturabilir."
+  },
+  {
+    "id": 123,
+    "categorie": "Haklar ve görevler",
+    "question": "En ciddi suç hangisidir?",
+    "options": ["Kabahat (La contravention)", "Cürüm (Le délit)", "Ağır Suç (Le crime)", "Kabaretsizlik (L'incivilité)"],
+    "bonne_reponse": 2,
+    "explication": "Ceza hukuku ihlalleri üç seviyede sınıflandırır: kabahat (para cezası), cürüm (ör: hırsızlık, asliye ceza mahkemesinde cezalandırılır) ve ağır suç (ör: cinayet, ağır ceza mahkemesinde cezalandırılır)."
+  },
+  {
+    "id": 124,
+    "categorie": "Haklar ve görevler",
+    "question": "Uyruğu ne olursa olsun Fransa'da ikamet eden tüm kişileri ilgilendiren yükümlülük hangisidir?",
+    "options": ["Oy kullanma zorunluluğu", "Askerlik yapma zorunluluğu", "Fransız yasalarına kesinlikle uyma zorunluluğu", "Mükemmel Fransızca konuşma zorunluluğu"],
+    "bonne_reponse": 2,
+    "explication": "Kanun, tüm Fransa topraklarında herkese (vatandaşlar, yabancı sakinler, turistler) uygulanır."
+  },
+  {
+    "id": 125,
+    "categorie": "Haklar ve görevler",
+    "question": "Hangi seçenek bir ağır suç (crime) örneğidir?",
+    "options": ["Hız sınırı ihlali", "Bir mağazada hırsızlık", "Bir cinayet veya tecavüz", "Gece gürültü yapmak"],
+    "bonne_reponse": 2,
+    "explication": "Ağır suçlar en ciddi ihlallerdir (cinayet, tecavüz, terörizm). Yargıçlar ve vatandaş jürisinden oluşan bir Ağır Ceza Mahkemesi (Cour d'assises) tarafından yargılanırlar."
+  },
+  {
+    "id": 126,
+    "categorie": "Haklar ve görevler",
+    "question": "Hangi seçenek bir cürüm (délit) örneğidir?",
+    "options": ["Hatalı park", "Hırsızlık, kasten yaralama veya taciz", "Bir cinayet", "Yere bir kağıt atmak"],
+    "bonne_reponse": 1,
+    "explication": "Cürümler, hapis cezaları veya yüksek para cezalarıyla cezalandırılabilen orta dereceli ihlallerdir (hırsızlık, dolandırıcılık, şiddet, taciz)."
+  },
+  {
+    "id": 127,
+    "categorie": "Haklar ve görevler",
+    "question": "Kamu düzeninin korunmasını kim denetler?",
+    "options": ["Ordu", "Ulusal polis ve ulusal jandarma", "İtfaiyeciler", "Hakimler"],
+    "bonne_reponse": 1,
+    "explication": "Devletin otoritesi altında (İçişleri Bakanı ve valiler aracılığıyla), polis ve jandarmanın görevi insanları ve mülkiyeti korumaktır."
+  },
+  {
+    "id": 128,
+    "categorie": "Haklar ve görevler",
+    "question": "Çöplerle ilgili olarak hangi ifade doğrudur?",
+    "options": ["Kırık mobilyalarınızı gece kaldırıma atabilirsiniz", "Atık ayırma ve geri dönüşüm vatandaşlık ve yasal görevlerdir", "Çöp kutuları isteğe bağlıdır", "Bahçenizde her şeyi yakabilirsiniz"],
+    "bonne_reponse": 1,
+    "explication": "Çevreyi korumak için çöplerin ayrıştırılması zorunludur. Hacimli eşyaların yasadışı olarak atılması para cezalarıyla şiddetle cezalandırılır."
+  },
+  {
+    "id": 129,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "XIV. Louis'nin takma adı neydi?",
+    "options": ["Şövalye Kral", "Güneş Kral (Le Roi-Soleil)", "Sevilen Kral", "Demir Kral"],
+    "bonne_reponse": 1,
+    "explication": "Fransa'da ilahi haklara dayalı mutlak monarşinin sembolü olan XIV. Louis amblemi olarak güneşi seçmişti. Versay Sarayı'nı inşa ettirmiştir."
+  },
+  {
+    "id": 130,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransız Devrimi sırasında idam edilen Fransa kralı kimdir?",
+    "options": ["IV. Henri", "XIV. Louis", "XVI. Louis", "III. Napolyon"],
+    "bonne_reponse": 2,
+    "explication": "XVI. Louis devrimciler tarafından vatana ihanetten yargılanmış ve 1793'te Paris'te giyotinle idam edilmiştir."
+  },
+  {
+    "id": 131,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "I. Napolyon hangi yıl imparator oldu?",
+    "options": ["1789", "1804", "1815", "1848"],
+    "bonne_reponse": 1,
+    "explication": "Napolyon Bonapart 1804'te kendini Fransızların İmparatoru olarak taçlandırdı. Devlette derin reformlar yaptı (Medeni Kanun, valilikler, liselerin kuruluşu)."
+  },
+  {
+    "id": 132,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Bu karakterlerden hangisinin Fransa Cumhuriyeti ile doğrudan bir bağlantısı vardır?",
+    "options": ["Şarlman (Charlemagne)", "Jül Sezar", "Marianne", "Jeanne d'Arc"],
+    "bonne_reponse": 2,
+    "explication": "Marianne Fransa Cumhuriyeti'nin alegorik figürüdür (sembolüdür). Özgürlük, Eşitlik, Kardeşlik değerlerini bünyesinde barındırır."
+  },
+  {
+    "id": 133,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "General de Gaulle'ün direniş çağrısı ne zamandır?",
+    "options": ["14 Temmuz 1789", "11 Kasım 1918", "18 Haziran 1940", "8 Mayıs 1945"],
+    "bonne_reponse": 2,
+    "explication": "18 Haziran 1940'ta Londra'dan General de Gaulle, radyo (BBC) üzerinden Fransızları yenilgiyi reddetmeye ve Nazi Almanyası'na karşı mücadeleyi sürdürmeye çağırdı."
+  },
+  {
+    "id": 134,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Okulda neden Shoah (Holokost) incelenir?",
+    "options": ["Bir anma görevi olarak ve antisemitizm ve nefretle savaşmak için", "Sadece isteğe bağlı bir seçenek olduğu için", "Avrupa coğrafyasını öğrenmek için", "Çünkü o eski bir savaş"],
+    "bonne_reponse": 0,
+    "explication": "Nazi Almanyası tarafından Yahudilere yapılan soykırımın öğretilmesi, hafızayı aktarmak ve genç nesilleri ırkçılığa karşı eğitmek için gereklidir."
+  },
+  {
+    "id": 135,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hangi ülke Fransa tarafından sömürgeleştirildi?",
+    "options": ["Japonya", "Avustralya", "Cezayir", "Arjantin"],
+    "bonne_reponse": 2,
+    "explication": "Cezayir, 1830'dan 1962'ye kadar Fransa'nın bir sömürgesiydi, bu tarihte uzun bir savaşın ardından bağımsızlığını kazanmıştır."
+  },
+  {
+    "id": 136,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransızlar Cumhurbaşkanını ne zamandan beri doğrudan genel oy hakkı ile seçiyorlar?",
+    "options": ["1789", "1944", "1962", "2000"],
+    "bonne_reponse": 2,
+    "explication": "Bu, 1962'de Charles de Gaulle tarafından istenen büyük bir reformdur. Bundan önce, Başkan bir seçiciler kurulu tarafından dolaylı olarak seçiliyordu."
+  },
+  {
+    "id": 137,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1951'de Avrupa'nın inşasındaki ilk adım neydi?",
+    "options": ["Euro'nun yaratılması", "AKÇT (Avrupa Kömür ve Çelik Topluluğu)", "Maastricht Antlaşması", "Schengen bölgesi"],
+    "bonne_reponse": 1,
+    "explication": "AKÇT, kömür ve çelik üretimini havuzda toplayarak yeni bir savaşı önlemek amacıyla 1951'de 6 ülke (Fransa ve Almanya dahil) tarafından kuruldu."
+  },
+  {
+    "id": 138,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hangi cumhurbaşkanının döneminde ölüm cezası kaldırıldı?",
+    "options": ["Charles de Gaulle", "Valéry Giscard d'Estaing", "François Mitterrand", "Jacques Chirac"],
+    "bonne_reponse": 2,
+    "explication": "Ölüm cezası, François Mitterrand'ın Cumhurbaşkanı seçilmesinden birkaç ay sonra 1981'de kaldırıldı."
+  },
+  {
+    "id": 139,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1792'de Fransız Devrimi sırasında hangi siyasi rejim kuruldu?",
+    "options": ["İkinci İmparatorluk", "Birinci Cumhuriyet", "Anayasal monarşi", "Konsüllük (Le Consulat)"],
+    "bonne_reponse": 1,
+    "explication": "Krallığın kaldırılmasının ardından 22 Eylül 1792'de Birinci Cumhuriyet ilan edildi."
+  },
+  {
+    "id": 140,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "İkinci Dünya Savaşı sırasında Fransız Direnişinin önemli bir figürü kimdi?",
+    "options": ["XVI. Louis", "Jean Moulin", "Napolyon Bonapart", "Mareşal Pétain"],
+    "bonne_reponse": 1,
+    "explication": "General de Gaulle tarafından gönderilen Jean Moulin, 1943'te Fransız iç direnişinin farklı hareketlerini birleştirmeyi başarmıştır."
+  },
+  {
+    "id": 141,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1944'te kadınlar için ne değişti?",
+    "options": ["Çalışma hakkı elde ettiler", "Seçme ve seçilme hakkını elde ettiler", "Banka hesabı açabildiler", "Askerlik hizmeti yapmak zorunda bırakıldılar"],
+    "bonne_reponse": 1,
+    "explication": "General de Gaulle tarafından imzalanan 21 Nisan 1944 tarihli bir kararnameyle, Fransız kadınları nihayet oy kullanma hakkını elde ettiler (ilk kez 1945'te oy kullandılar)."
+  },
+  {
+    "id": 142,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "İkinci Dünya Savaşı'ndan sonra 1945'te hangi uluslararası örgüt kuruldu?",
+    "options": ["Avrupa Birliği (AB)", "Birleşmiş Milletler (BM/ONU)", "NATO", "Kızılhaç"],
+    "bonne_reponse": 1,
+    "explication": "BM, dünyada barış ve güvenliği korumak amacıyla 1945 yılında kurulmuştur. Fransa, Güvenlik Konseyi'nin 5 daimi üyesinden biridir."
+  },
+  {
+    "id": 143,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1981 yılında hangi ceza kaldırılmıştır?",
+    "options": ["Ömür boyu hapis cezası", "Zorla çalıştırma (Kürek cezası)", "Ölüm cezası", "Hız sınırını aşma cezaları"],
+    "bonne_reponse": 2,
+    "explication": "Fransa 1981'de ölüm cezasını kaldırmıştır. Bugün hiçbir Avrupa Birliği ülkesi ölüm cezası uygulamamaktadır."
+  },
+  {
+    "id": 144,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Euro hangi yıl Fransa'da kullanılan para birimi oldu?",
+    "options": ["1992", "1999", "2002", "2010"],
+    "bonne_reponse": 2,
+    "explication": "1999'da finansal piyasalar için yaratılmış olsa da, euro madeni paraları ve banknotları 1 Ocak 2002'de Fransızların cebine girerek Frank'ın yerini almıştır."
+  },
+  {
+    "id": 145,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Birinci Dünya Savaşı hangi yıl başladı?",
+    "options": ["1870", "1914", "1939", "1945"],
+    "bonne_reponse": 1,
+    "explication": "Saraybosna suikastıyla tetiklenen Birinci Dünya Savaşı Ağustos 1914'te başlamıştır."
+  },
+  {
+    "id": 146,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "1944 çıkarması (Çıkarma Günü) nerede gerçekleşti?",
+    "options": ["Böötanya'da (Bretagne)", "Normandiya sahillerinde", "Côte d'Azur'de", "Paris'te"],
+    "bonne_reponse": 1,
+    "explication": "6 Haziran 1944'te müttefik kuvvetleri (Amerikan, İngiliz, Kanadalı vb.) Fransa'yı Nazi işgalinden kurtarmak için Normandiya'ya çıkarma yapmıştır."
+  },
+  {
+    "id": 147,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "İkinci Dünya Savaşı sonrasında Fransa'nın dekolonizasyonundan (sömürgesizleştirme) en çok etkilenen kıta hangisiydi?",
+    "options": ["Güney Amerika", "Okyanusya", "Afrika", "Doğu Avrupa"],
+    "bonne_reponse": 2,
+    "explication": "Eski Fransız sömürgelerinin çoğu Sahra Altı Afrika ve Kuzey Afrika'da bulunuyordu. Bu ülkeler bağımsızlıklarını 1950'ler ve 1960'lar arasında kazandılar."
+  },
+  {
+    "id": 148,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "8 Mayıs'ta neyi kutluyoruz?",
+    "options": ["Müzik festivalini", "Avrupa'da İkinci Dünya Savaşı'nın sona ermesini (1945)", "Bastille'in alınmasını", "1918 Ateşkesini"],
+    "bonne_reponse": 1,
+    "explication": "8 Mayıs, Müttefiklerin zaferini ve Nazi Almanyası'nın Avrupa'da 1945'te teslim olmasını anar."
+  },
+  {
+    "id": 149,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Anakara Fransa'sının (France métropolitaine) kıyısı olan deniz veya okyanus hangisidir?",
+    "options": ["Pasifik Okyanusu", "Hint Okyanusu", "Akdeniz, Atlantik Okyanusu, Manş Denizi ve Kuzey Denizi", "Kızıldeniz"],
+    "bonne_reponse": 2,
+    "explication": "Fransa, Akdeniz (güney), Atlantik (batı), Manş ve Kuzey Denizi'ne (kuzey) yayılmış binlerce kilometrelik bir sahil şeridine sahiptir."
+  },
+  {
+    "id": 150,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hangi ülkenin Anakara Fransa'sıyla kara sınırı vardır?",
+    "options": ["Portekiz", "Birleşik Krallık", "İspanya", "İsveç"],
+    "bonne_reponse": 2,
+    "explication": "Fransa'nın İspanya, İtalya, İsviçre, Almanya, Lüksemburg, Belçika ile ayrıca Monako ve Andorra ile kara sınırı vardır."
+  },
+  {
+    "id": 151,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hangi ülke Fransa'dan deniz (Manş Denizi) ile ayrılmaktadır?",
+    "options": ["İspanya", "Birleşik Krallık (İngiltere)", "Almanya", "İtalya"],
+    "bonne_reponse": 1,
+    "explication": "Birleşik Krallık, anakara Fransa'sından Manş denizi ile ayrılmış bir adadır. İki ülke bugün Manş Tüneli ile birbirine bağlıdır."
+  },
+  {
+    "id": 152,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransa ile İspanya arasında doğal bir sınır oluşturan dağ sırası hangisidir?",
+    "options": ["Alpler", "Pireneler", "Massif Central", "Vosges"],
+    "bonne_reponse": 1,
+    "explication": "Pireneler, Fransa'nın güneybatısında yer alır ve İspanya ile olan sınırı belirler."
+  },
+  {
+    "id": 153,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Paris şehrinin içinden geçen nehir hangisidir?",
+    "options": ["Loire", "Rhône", "Seine", "Garonne"],
+    "bonne_reponse": 2,
+    "explication": "Seine nehri Fransız başkentinden geçer ve ardından Normandiya'da Manş denizine dökülür."
+  },
+  {
+    "id": 154,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "DROM (eski adıyla DOM) nedir?",
+    "options": ["Bir üniversite diploması", "Bir Denizaşırı İl veya Bölge (Département ou Région d'Outre-Mer)", "Belediyeden alınan bir belge", "Yerel bir vergi"],
+    "bonne_reponse": 1,
+    "explication": "DROM'lar (Guadeloupe, Martinik, Fransız Guyanası, Reunion, Mayotte) Avrupa dışında yer alan ve Fransız yasalarının anakarada olduğu gibi uygulandığı Fransız topraklarıdır."
+  },
+  {
+    "id": 155,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Bu bölgelerden hangisi Fransızdır?",
+    "options": ["Haiti", "Reunion (La Réunion)", "Madagaskar", "Quebec"],
+    "bonne_reponse": 1,
+    "explication": "Hint Okyanusu'nda yer alan Reunion adası, bir Fransız denizaşırı ilidir."
+  },
+  {
+    "id": 156,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Victor Hugo kimdi?",
+    "options": ["Bir Fransa kralı", "19. yüzyılın büyük bir yazarı ve şairi", "Bir bilim insanı", "Eiffel Kulesi'nin yaratıcısı"],
+    "bonne_reponse": 1,
+    "explication": "'Sefiller'in (Les Misérables) yazarı Victor Hugo, en büyük Fransız yazarlarından biridir. Aynı zamanda, özellikle ölüm cezasına karşı çıkmış kararlı bir siyasetçiydi."
+  },
+  {
+    "id": 157,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Bu karakterlerden hangisi bir 'Aydınlanma' (18. yüzyıl) dönemi buydu?",
+    "options": ["Voltaire", "Charlemagne", "Vercingétorix", "Napolyon"],
+    "bonne_reponse": 0,
+    "explication": "Rousseau veya Montesquieu gibi Voltaire de, özgürlük ve hoşgörü konusundaki fikirleriyle Fransız Devrimi'ne ilham veren bir Aydınlanma filozofudur."
+  },
+  {
+    "id": 158,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Marie Curie kimdi?",
+    "options": ["Ünlü bir kraliçe", "20. yüzyıldan bir avukat", "İki kez Nobel Ödülü almış bir fizikçi ve kimyager", "Bir yazar"],
+    "bonne_reponse": 2,
+    "explication": "Polonya asıllı ve sonradan Fransız vatandaşı olan Marie Curie, radyoaktivite üzerine yaptığı keşiflerle dünya çapında tanınmaktadır. Naaşı Panthéon'da yatmaktadır."
+  },
+  {
+    "id": 159,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Louvre nedir?",
+    "options": ["Bir futbol stadyumu", "Cumhurbaşkanının yaşadığı saray", "Fransa'nın en büyük sanat müzesi, Paris'te bulunur", "Ulusal Meclis binası"],
+    "bonne_reponse": 2,
+    "explication": "Fransa krallarının eski sarayı olan Louvre, günümüzde dünyanın en çok ziyaret edilen müzelerinden biridir (özellikle Mona Lisa'yı barındırır)."
+  },
+  {
+    "id": 160,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Hangi Paris anıtı 1889 Evrensel Sergisi için inşa edilmiştir?",
+    "options": ["Zafer Takı (L'Arc de Triomphe)", "Notre-Dame Katedrali", "Eiffel Kulesi", "Pompidou Merkezi"],
+    "bonne_reponse": 2,
+    "explication": "Mühendis Gustave Eiffel tarafından tasarlanan Eiffel Kulesi'nin başlangıçta Evrensel Sergi'den sonra sökülmesi planlanıyordu, ancak korunmuştur."
+  },
+  {
+    "id": 161,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Devrim sırasında, Kadın ve Kadın Yurttaş Hakları Bildirgesi'ni kim taslağını hazırlamıştır?",
+    "options": ["Marie-Antoinette", "Olympe de Gouges", "Jeanne d'Arc", "Simone de Beauvoir"],
+    "bonne_reponse": 1,
+    "explication": "Olympe de Gouges ilk Fransız feministlerinden biriydi. 1791'de kadın ve erkek arasında tam bir siyasi ve sosyal eşitlik talep etmiştir."
+  },
+  {
+    "id": 162,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Simone Veil kimdir?",
+    "options": ["Ünlü bir aktris", "Kürtaja (IVG) izin veren yasanın oylanmasını sağlayan Fransız kadın devlet adamı", "Cumhuriyetin ilk kadın Cumhurbaşkanı", "Büyük bir sporcu"],
+    "bonne_reponse": 1,
+    "explication": "Holokost'tan kurtulan biri olan Simone Veil önemli bir siyasi figürdür. 1975'te Sağlık Bakanı olarak, kürtajı suç olmaktan çıkaran yasayı taşımıştır."
+  },
+  {
+    "id": 163,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Mikrobiyolojinin öncüsü ve kuduz aşısının mucidi olan büyük Fransız bilim insanı kimdir?",
+    "options": ["Louis Pasteur", "Gustave Eiffel", "Auguste Rodin", "Molière"],
+    "bonne_reponse": 0,
+    "explication": "Louis Pasteur (19. yüzyıl), tıpta devrim yaratan mikroplar ve aşılama üzerine yaptığı çalışmalarla ünlüdür."
+  },
+  {
+    "id": 164,
+    "categorie": "Tarih, coğrafya ve kültür",
+    "question": "Fransa Cumhuriyeti tarihinde iz bırakmış büyük şahsiyetler nereye gömülmektedir?",
+    "options": ["Elysée'ye", "Panthéon'a", "Versay Sarayı'na", "Eiffel Kulesi'nin içine"],
+    "bonne_reponse": 1,
+    "explication": "Paris'te bulunan Panthéon, Ulusun Victor Hugo, Jean Moulin veya Simone Veil gibi 'Büyük Adamlarını' (ve kadınlarını) onurlandırdığı bir anıttır."
+  },
+  {
+    "id": 165,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "TVA nedir?",
+    "options": ["Gelişmiş Hızlı Tren", "Katma Değer Vergisi (La Taxe sur la Valeur Ajoutée)", "Konut için mali bir yardım", "Ağırlaştırılmış Şiddet Mahkemesi"],
+    "bonne_reponse": 1,
+    "explication": "TVA, bir ürün veya hizmet satın alındığında tüm tüketiciler tarafından ödenen dolaylı bir vergidir."
+  },
+  {
+    "id": 166,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Maaşlardan, emekli maaşlarından veya karlardan alınan doğrudan verginin adı nedir?",
+    "options": ["Emlak vergisi", "Gelir vergisi (L'impôt sur le revenu)", "Konut vergisi", "Noter masrafları"],
+    "bonne_reponse": 1,
+    "explication": "Gelir vergisi zorunlu ve beyana tabidir. Tutarı, gelirlere ve hanenin yapısına göre hesaplanır."
+  },
+  {
+    "id": 167,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "İş dünyasında CDI nedir?",
+    "options": ["Belirsiz Süreli Sözleşme (Un Contrat à Durée Indéterminée)", "Bir İç Yönetim Kurulu", "Bilişim Konut Çeki", "Belirsiz süreli hastalık izni"],
+    "bonne_reponse": 0,
+    "explication": "CDI, genel hukuka tabi iş sözleşmesidir. Önceden belirlenmiş bir bitiş tarihi yoktur, bu da çalışana iş güvencesi sunar."
+  },
+  {
+    "id": 168,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "SMIC nedir?",
+    "options": ["Doktorlar sendikası", "Ulusal Asgari Ücret (Le Salaire Minimum Interprofessionnel de Croissance)", "Öğrenciler için bir yardım", "Bir işveren vergisi"],
+    "bonne_reponse": 1,
+    "explication": "SMIC, çalışana bundan daha az ödeme yapılamayacağı yasal asgari saatlik ücrete karşılık gelir."
+  },
+  {
+    "id": 169,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir çalışanın mesleki bir sendikaya (syndicat) katılma hakkı var mıdır?",
+    "options": ["Hayır, işveren tarafından yasaklanmıştır", "Evet, sendika özgürlüğü anayasal bir haktır", "Sadece Fransızsa", "Sadece üst düzey yöneticiyse"],
+    "bonne_reponse": 1,
+    "explication": "Herkes haklarını ve maddi veya manevi çıkarlarını savunmak için bir sendikaya üye olmakta (veya olmamakta) özgürdür."
+  },
+  {
+    "id": 170,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Vitale kartı (carte Vitale) ne işe yarar?",
+    "options": ["Tüm Avrupa'da seyahat etmeye", "Kimlik kartının yerine geçmeye", "Sağlık bakımı geri ödemesini almak için Sağlık Sigortası haklarını kanıtlamaya", "Süpermarkette indirim almaya"],
+    "bonne_reponse": 2,
+    "explication": "Vitale kartı, sağlık bakım belgelerinin elektronik olarak iletilmesine olanak tanıyarak, tıbbi masrafların Sosyal Güvenlik tarafından hızlı bir şekilde geri ödenmesini garanti eder."
+  },
+  {
+    "id": 171,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Hastalandınız ve işe gidemiyorsunuz. 48 saat içinde işvereninize ne sağlamalısınız?",
+    "options": ["Basit bir mektup", "Bir doktor tarafından verilen iş göremezlik belgesi (un avis d'arrêt de travail)", "İlaçlar için bir reçete", "Hiçbir şey, bir telefon görüşmesi yeterlidir"],
+    "bonne_reponse": 1,
+    "explication": "Tıbbi iş göremezlik belgesi, yokluğunuzu haklı çıkarmanıza ve Sağlık Sigortasından günlük ödenekler almanıza olanak tanıyan tek yasal belgedir."
+  },
+  {
+    "id": 172,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Tüm Avrupa Birliği'nde geçerli olan acil durum numarası (Avrupa acil durum numarası) hangisidir?",
+    "options": ["15", "17", "18", "112"],
+    "bonne_reponse": 3,
+    "explication": "112, Avrupa acil arama numarasıdır, ücretsizdir ve SIM kart olmasa bile herhangi bir telefondan ulaşılabilir."
+  },
+  {
+    "id": 173,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "15 numarası hangi acil servise karşılık gelir?",
+    "options": ["Polis", "İtfaiye", "SAMU (Acil Tıbbi Yardım Servisi)", "Tehlikedeki çocuklar"],
+    "bonne_reponse": 2,
+    "explication": "15, her türlü tıbbi acil durum (ciddi rahatsızlık, bedensel kaza) için aranır. Yönlendirici bir doktor telefonda durumu değerlendirir."
+  },
+  {
+    "id": 174,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Tehlikedeki çocuklara adanmış ulusal çağrı numarası hangisidir?",
+    "options": ["119", "17", "3919", "115"],
+    "bonne_reponse": 0,
+    "explication": "119 ücretsizdir ve gizlidir. Şiddet mağduru olan veya olma riski taşıyan bir çocuğun durumunu bildirmeye olanak tanır."
+  },
+  {
+    "id": 175,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Aile içi şiddet veya kadınlara yönelik şiddet durumunda, dinleme ve yönlendirme için hangi numara aranabilir?",
+    "options": ["114", "119", "3919", "15"],
+    "bonne_reponse": 2,
+    "explication": "3919 (Kadın Şiddet Bilgisi), şiddet mağduru kadınlara yönelik ulusal, ücretsiz ve isimsiz bir dinleme numarasıdır."
+  },
+  {
+    "id": 176,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Fransız hukukunda, reşit olmayan bir çocuk üzerinde velayet hakkını (autorité parentale) kim kullanır?",
+    "options": ["Sadece baba", "Sadece anne", "Çocuk hakimi", "Evli olsunlar ya da olmasınlar, her iki ebeveyn birlikte"],
+    "bonne_reponse": 3,
+    "explication": "Velayet, çocuğu korumak ve eğitimini sağlamak için baba ve anneye ortaklaşa ait olan hak ve görevlerin bütünüdür."
+  },
+  {
+    "id": 177,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Fransa'da eğitim (okul) hangi yaşa kadar zorunludur?",
+    "options": ["6'dan 14 yaşa kadar", "3'ten 16 yaşa kadar", "6'dan 18 yaşa kadar", "Zorunlu değildir"],
+    "bonne_reponse": 1,
+    "explication": "Eğitim, Fransa topraklarında bulunan kız ve erkek tüm çocuklar için 3 yaşından tam 16 yaşına kadar zorunludur."
+  },
+  {
+    "id": 178,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Evinizin kiracısı olarak, onu sigortalatmak zorunda mısınız?",
+    "options": ["Hayır, isteğe bağlıdır", "Evet, kapsamlı ev sigortası (multirisques habitation) yaptırmak zorunludur", "Sadece ev büyükse", "Hayır, her şeyi ev sahibi ödemelidir"],
+    "bonne_reponse": 1,
+    "explication": "Kiracı, evi kiralama risklerine (yangın, su hasarı) karşı zorunlu olarak sigortalatmalıdır. Ev sahibi her yıl bir sertifika talep edecektir."
+  },
+  {
+    "id": 179,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir çocuğun doğumu nerede beyan edilir?",
+    "options": ["Valilikte", "Karakolda", "Doğum yerinin belediyesinde (nüfus müdürlüğü)", "Sadece hastanede"],
+    "bonne_reponse": 2,
+    "explication": "Belediyede doğum beyanı, çocuğun nüfus kütüklerine kaydedilmesi için zorunlu yasal bir işlemdir."
+  },
+  {
+    "id": 180,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Belediyede doğum beyanı en geç ne kadar süre içinde yapılmalıdır?",
+    "options": ["Doğumu takip eden 5 gün içinde", "2 hafta içinde", "1 ay içinde", "Okula başlamadan önce"],
+    "bonne_reponse": 0,
+    "explication": "Kanun kesin bir 5 günlük süre (resmi tatiller hariç) dayatır. Bu süre aşılırsa, çocuğu kaydettirmek için bir mahkeme kararı gerekecektir."
+  },
+  {
+    "id": 181,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Devlet tarafından hangi evlilik tanınır?",
+    "options": ["Sadece dini evlilik", "Sadece belediyede kıyılan resmi nikah yasal olarak tanınır", "Yurtdışında transkripsiyonu yapılmadan kıyılan evlilik", "Bir noter tarafından yapılan evlilik"],
+    "bonne_reponse": 1,
+    "explication": "Fransa'da sadece resmi nikahın yasal değeri vardır. Çiftler dini bir tören istiyorsa, bu mutlaka belediyedeki evlilikten sonra gerçekleşmelidir."
+  },
+  {
+    "id": 182,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Ebeveynler çocuklarını bir devlet okuluna kaydettirmek için hangi kuruma başvurabilirler?",
+    "options": ["Valilik", "Karakol", "İkamet ettikleri yerin belediyesi", "İl meclisi"],
+    "bonne_reponse": 2,
+    "explication": "Devlet anaokuluna ve ilkokuluna kayıt belediyede yapılır. Belediye başkanı, atanacak okulu gösteren bir kayıt belgesi verir."
+  },
+  {
+    "id": 183,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Boşanma durumunda, velayeti (autorité parentale) kim kullanır?",
+    "options": ["Sadece baba", "Sadece anne", "Devlet", "İlke olarak, her iki ebeveyn ortaklaşa"],
+    "bonne_reponse": 3,
+    "explication": "Boşanma velayeti sona erdirmez. Hakim tarafından karar verilen ciddi bir neden haricinde, her iki ebeveyn çocuk için önemli kararları birlikte almaya devam eder."
+  },
+  {
+    "id": 184,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Mali zorlukları olan kişilerin bir avukata sahip olmasını sağlayan yardım nedir?",
+    "options": ["RSA", "Adli yardım (L'aide juridictionnelle)", "Başarı bursu", "Vitale Kartı"],
+    "bonne_reponse": 1,
+    "explication": "Adli yardım, mütevazı gelire sahip kişiler için yargı masraflarının (avukat, icra memuru) Devlet tarafından (tamamen veya kısmen) karşılanmasıdır."
+  },
+  {
+    "id": 185,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bozuk bir bulaşık makinesi nereye bırakılabilir?",
+    "options": ["Kaldırıma", "Sarı çöp kutusuna", "Ormana", "Atık toplama merkezine (déchetterie) veya belediyenin 'hacimli eşyalar' servisine"],
+    "bonne_reponse": 3,
+    "explication": "Büyük atıkların (hacimli eşyaların) halka açık yollara bırakılması yasaktır. Onlardan ekolojik olarak kurtulmak için belediyenin ücretsiz servisleri mevcuttur."
+  },
+  {
+    "id": 186,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Polisi aramak için kullanılacak acil durum numarası hangisidir?",
+    "options": ["15", "17", "18", "3919"],
+    "bonne_reponse": 1,
+    "explication": "17, hırsızlık, saldırı veya kolluk kuvvetlerinin müdahalesini gerektiren acil bir tehlike durumunda Polis İmdat'ı aramayı sağlar."
+  },
+  {
+    "id": 187,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir kira sözleşmesi (bail locatif) şu koşullarda geçerlidir:",
+    "options": ["Sadece sözlü olarak yapılırsa", "Mülk sahibi ve kiracı tarafından imzalanmış ve yazılıysa", "Belediye başkanı tarafından imzalanırsa", "Polis tarafından imzalanırsa"],
+    "bonne_reponse": 1,
+    "explication": "Kiracıyı ve mülk sahibini korumak için yasa, kira bedelini, masrafları ve kira süresini detaylandıran yazılı bir kiralama sözleşmesi (bail) talep eder."
+  },
+  {
+    "id": 188,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Sağlık hizmetlerine erişimle ilgili olarak hangi ifade doğrudur?",
+    "options": ["Hastane sadece Fransız vatandaşlarını tedavi eder", "Doktorlar dininize göre sizi tedavi etmeyi reddedebilirler", "En yoksullar için dayanışma mekanizmaları (CSS, AME) ile herkes için bakıma erişim garanti edilmektedir", "Hastaneye girmeden önce ameliyatın tamamını ödemeniz gerekir"],
+    "bonne_reponse": 2,
+    "explication": "Fransız sağlık sistemi dayanışma ilkesine dayanmaktadır. Hiç kimse mali nedenlerle veya kökeninden dolayı acil bakımdan mahrum bırakılamaz."
+  },
+  {
+    "id": 189,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Doğum kontrolüne (contraception) kimler erişebilir?",
+    "options": ["Sadece reşit ve evli kadınlar", "Reşit olmayanlar da dahil olmak üzere tüm kadınlar ve erkekler (gizlilik ile ve bazıları için ücretsiz)", "Sadece erkekler", "Zaten çocuğu olan kadınlar"],
+    "bonne_reponse": 1,
+    "explication": "Doğum kontrolü (hap, prezervatif) bir haktır. Herkes için erişilebilirdir ve hatta 25 yaşına kadar olan gençler için eczanelerde ücretsizdir."
+  },
+  {
+    "id": 190,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Sağlık alanında gizlilik (confidentialité) ilkesi nedir?",
+    "options": ["Doktor her şeyi polise anlatmalıdır", "Tıbbi sır: Sağlık profesyonelinin bir hastanın sağlığı hakkındaki bilgileri açıklama hakkı yoktur", "Tıbbi dosyasını internette yayınlama hakkı", "İşverenin hastalığınızı bilme hakkı"],
+    "bonne_reponse": 1,
+    "explication": "Tıbbi sır hasta için temel bir haktır. Kanunla öngörülen nadir istisnalar dışında, bir doktor bunu ihlal ederse hapis cezasıyla karşı karşıya kalır."
+  },
+  {
+    "id": 191,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Sağlık Sigortasına (Assurance maladie) kayıt olmak:",
+    "options": ["İsteğe bağlıdır", "Sadece memurlar içindir", "Fransa'da istikrarlı ve düzenli bir şekilde ikamet eden herkes için zorunludur", "Hasta insanlar için ayrılmıştır"],
+    "bonne_reponse": 2,
+    "explication": "Bu, Fransa'daki sosyal korumanın temelidir. Sağlık sigortasına kayıt olmak (Vitale kartını veren) sağlık harcamalarının karşılanmasını sağlar."
+  },
+  {
+    "id": 192,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Çocuk yetiştirme ebeveyn izni (congé parental d'éducation) kim tarafından talep edilebilir?",
+    "options": ["Sadece anne", "Sadece baba", "Mesleki faaliyetini durdurmak veya azaltmak için küçük bir çocuğun annesi veya babası", "Sadece büyükanne ve büyükbabalar"],
+    "bonne_reponse": 2,
+    "explication": "Yasa, şirkette en az 1 yıllık kıdemi olan herhangi bir çalışanın (baba veya anne) çocuğuyla ilgilenmek için izin almasına olanak tanır."
+  },
+  {
+    "id": 193,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "İş mahkemesi (conseil de prud'hommes) hangi davalara bakar?",
+    "options": ["Boşanmalar", "Hırsızlık ve saldırılar", "Bir işveren ile bir çalışan arasındaki iş sözleşmesiyle bağlantılı bireysel uyuşmazlıklar (çatışmalar)", "Komşuluk sorunları"],
+    "bonne_reponse": 2,
+    "explication": "İş mahkemesi işle ilgili sorunları (haksız işten çıkarma, ödenmeyen maaşlar, işyerinde taciz) yargılar."
+  },
+  {
+    "id": 194,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Beyan edilmeden çalışmak (kayıtsız çalışma):",
+    "options": ["Daha fazla kazanmak için tavsiye edilir", "İşveren kabul ederse yasaldır", "Çalışanı sosyal haklarından mahrum bırakan bir suçtur (gizli çalışma veya 'kayıtdışı')", "Öğrenciler için yasaldır"],
+    "bonne_reponse": 2,
+    "explication": "Gizli çalışma çok risklidir. Çalışan iş kazası durumunda korunmaz, işsizlik veya emeklilik için prim ödemez."
+  },
+  {
+    "id": 195,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir işveren, bir çalışanın iş sözleşmesinde öngörülen süreden daha uzun süre çalışmasını istediğinde:",
+    "options": ["Çalışan ücretsiz çalışmalıdır", "Bu fazla mesailer zorunlu olarak ödenmeli veya dinlenme ile telafi edilmelidir", "İşveren polisi aramalıdır", "Kesinlikle yasaktır"],
+    "bonne_reponse": 1,
+    "explication": "Fransız iş hukuku, işveren tarafından dayatılan her fiili çalışma süresinin ödenmesi gerektiğini (genellikle fazla mesai için zamlı tarifeyle) şart koşar."
+  },
+  {
+    "id": 196,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "France Travail'ın (İş ve İşçi Bulma Kurumu) misyonu nedir?",
+    "options": ["Oturum izinleri vermek", "İş arayanlara araştırmalarında eşlik etmek ve işsizlik maaşı ödemek", "İşverenleri yargılamak", "Emekli maaşlarını ödemek"],
+    "bonne_reponse": 1,
+    "explication": "France Travail (Pôle emploi'nin yeni adı), iş bulmaya yardımcı olan, eğitimler sunan ve ödenekleri ödeyen büyük kamu hizmetidir."
+  },
+  {
+    "id": 197,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir şirkette, sendika hakkı (droit syndical) aşağıdakilere izin verir:",
+    "options": ["Çalışanların çıkarlarını savunmak için serbestçe bir sendikaya katılmalarına", "Patronun toplantıları yasaklamasına", "Sözleşmesiz çalışmaya", "Şirket komitesinin (comité d'entreprise) yerini almaya"],
+    "bonne_reponse": 0,
+    "explication": "Bu anayasal bir haktır. Bir işverenin bir çalışanı bir sendikanın parçası olduğu için cezalandırması yasaktır."
+  },
+  {
+    "id": 198,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Bir şirkette, grev hakkı (droit de grève) aşağıdakilere izin verir:",
+    "options": ["Malzemelerin tahrip edilmesine", "Mesleki talepler için çalışmanın toplu ve uyumlu bir şekilde durdurulmasına", "İhbar süresi olmaksızın işten çıkarmaya", "Malların çalınmasına"],
+    "bonne_reponse": 1,
+    "explication": "Grev, topluysa, şirketle ilgiliyse ve çalışma koşullarını veya maaşları iyileştirmeyi amaçlıyorsa yasaldır."
+  },
+  {
+    "id": 199,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "İşsizlik ödeneği (allocations chômage) almanın şartları nelerdir?",
+    "options": ["En az 1 ay çalışmış olmak", "İstem dışı işsiz kalmak, France Travail'a kayıtlı olmak ve aktif olarak iş aramak", "Sadece istifa etmek", "Öğrenci olmak"],
+    "bonne_reponse": 1,
+    "explication": "İşsizlik hakkına sahip olmak için genellikle işten çıkarılmış (veya belirli süreli sözleşmenin bitmiş) olmak, minimum bir süre prim ödemiş olmak ve yeni bir iş aradığınızı kanıtlamak gerekir."
+  },
+  {
+    "id": 200,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Anaokulu (école maternelle) nedir?",
+    "options": ["Ücretli bir kreş", "İlk öğrenimlere olanak tanıyan okul sürecinin ilk aşaması (3 yaşından itibaren)", "Bir tıp okulu", "Sadece kızlar için bir okul"],
+    "bonne_reponse": 1,
+    "explication": "2019 yılından bu yana eğitim 3 yaşından itibaren zorunludur. Bu nedenle devlet anaokulu başlı başına bir okuldur, laik ve ücretsizdir."
+  },
+  {
+    "id": 201,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Öğrencilerin ortaokulun (collège) sonunda geçtikleri diplomanın adı nedir?",
+    "options": ["Le Baccalauréat (Lise bitirme sınavı)", "La Licence (Lisans)", "Le Diplôme National du Brevet (DNB)", "Le Master (Yüksek Lisans)"],
+    "bonne_reponse": 2,
+    "explication": "Brevet (yaklaşık 14-15 yaş civarında), liseye (lycée) girmeden önce ortaokulun sonunda edinilen bilgileri değerlendirir."
+  },
+  {
+    "id": 202,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Öğrencilerin velileri şu haklara sahiptir:",
+    "options": ["Çocuklarının notlarını seçmek", "Okul konseylerine katılan temsilcilerini seçmek için oy kullanmak", "Devamsız öğretmenlerin yerine geçmek", "Tarih müfredatını reddetmek"],
+    "bonne_reponse": 1,
+    "explication": "Okul aileleri sürece dahil eder. Ebeveynler kurumun kurullarına katılan temsilciler seçerler."
+  },
+  {
+    "id": 203,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Okul kantininde kimler yemek yiyebilir?",
+    "options": ["Sadece Fransız çocuklar", "Sadece ebeveynleri çalışan çocuklar", "Ebeveynleri talep eden okula kayıtlı tüm çocuklar (belediyeye göre)", "Sadece öğretmenler"],
+    "bonne_reponse": 2,
+    "explication": "Okul yemeği bir kamu hizmetidir. Var olduğu durumlarda, tüm aileler çocukları için buraya erişebilmelidir."
+  },
+  {
+    "id": 204,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Çocukların zorunlu eğitimi hangi yaşta başlar?",
+    "options": ["3 yaş", "6 yaş", "11 yaş", "16 yaş"],
+    "bonne_reponse": 0,
+    "explication": "'Güven Okulu' yasasından (2019) bu yana, eğitim 3 yaşından itibaren (anaokulu) zorunludur."
+  },
+  {
+    "id": 205,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Fransa'da reşit olma yaşı kaçtır?",
+    "options": ["16 yaş", "18 yaş", "21 yaş", "25 yaş"],
+    "bonne_reponse": 1,
+    "explication": "18 yaşında bir genç yasal olarak reşit olur: oy kullanabilir, araç kullanabilir, sözleşme imzalayabilir ve adalet karşısında eylemlerinden tamamen sorumludur."
+  },
+  {
+    "id": 206,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Okulda ebeveynlerin şunları yapması yasaktır:",
+    "options": ["Öğretmenle randevu almak", "Öğretmenlerin yerine geçmek veya şiddet içeren davranışlarda bulunmak", "Çocuğuna ödevlerinde yardım etmek", "Okul partilerine katılmak"],
+    "bonne_reponse": 1,
+    "explication": "Öğretmenlere saygı temeldir. Bir ebeveynin okul personeline yönelik her türlü sözlü veya fiziksel şiddeti sert bir şekilde cezalandırılır."
+  },
+  {
+    "id": 207,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Okul tarafından hangi devamsızlık nedeni kabul edilir?",
+    "options": ["Çocuk çok yorgundu", "Çocuğun hastalığı veya ciddi bir aile olayı (ölüm)", "Okul takvimi dışında tatile çıkmak", "Doğum günü partisi"],
+    "bonne_reponse": 1,
+    "explication": "Devam zorunludur. Ders saatlerinde tatile çıkmak veya tıbbi veya ciddi bir neden olmaksızın çocuğunuzu evde tutmak yasaktır."
+  },
+  {
+    "id": 208,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Çocuklarının eğitim zorunluluğuna uymayan ebeveynlerin alabileceği en yüksek ceza nedir?",
+    "options": ["Hiçbir ceza almazlar", "Maaştan kesinti", "6 ay hapis ve 7.500 € para cezası", "Derhal sınır dışı etme"],
+    "bonne_reponse": 2,
+    "explication": "Bir çocuğu eğitim hakkından mahrum bırakmak (tekrarlayan mazeretsiz devamsızlık veya okula kaydettirmeyi reddetme) Ceza Kanunu tarafından cezalandırılan bir suçtur."
+  },
+  {
+    "id": 209,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Okul Noel tatilleri ne zamandır?",
+    "options": ["Yazın", "Yıl sonunda (Aralık sonu / Ocak başı)", "Nisan ayında", "Şubat ayında"],
+    "bonne_reponse": 1,
+    "explication": "Noel (veya yıl sonu) tatilleri, tüm Fransa topraklarında ortak olan iki haftalık bir süre boyunca gerçekleşir."
+  },
+  {
+    "id": 210,
+    "categorie": "Fransız toplumunda yaşam",
+    "question": "Okulda engelli bir çocuk:",
+    "options": ["Okula gitme hakkı yoktur", "Gerekirse bir refakatçi eşliğinde, normal ortamda kapsayıcı eğitim alma hakkına sahiptir", "Zorunlu olarak evde kalmalıdır", "Sadece hastaneye gidebilir"],
+    "bonne_reponse": 1,
+    "explication": "Hak eşitliği yasası, engelli çocukların mümkün olduğunca sık normal bir okul sınıfında, bazen bir refakatçi (AESH) yardımıyla eğitim almasını garanti eder."
+  },
+  {
+    "id": 211,
+    "categorie": "Kurumsal ve siyasi sistem",
+    "question": "Ehliyet sınavına girmek için gerekli koşullardan biri nedir?",
+    "options": ["Araba sahibi olmak", "Gerekli yaşa ulaşmış olmak ve teorik sınavı (kuralları) geçmek", "Bir işe sahip olmak", "Fransız uyruklu olmak"],
+    "bonne_reponse": 1,
+    "explication": "Ehliyet alabilmek için öncelikle 'Karayolları Kuralları' (code de la route) sınavını geçmek gerekir. Bağımsız olarak araç kullanabilmek için yasal asgari yaş 18'dir (en son reforma göre artık 17'dir)."
+  },
+  {
+    "id": 212,
+    "categorie": "Haklar ve görevler",
+    "question": "Bir kadın kendi şirketini kurabilir mi?",
+    "options": ["Evet, kanun erkeklerle eşit düzeyde girişimcilik özgürlüğünü garanti eder", "Hayır, bu hak sadece erkeklere aittir", "Sadece babasının veya kocasının izniyle", "Evet, ama sadece küçük işletmeler için"],
+    "bonne_reponse": 0,
+    "explication": "1965'ten beri kadınlar erkeklerle kesin bir eşitlik ve tam bir bağımsızlık içinde çalışma, banka hesabı açma ve bir şirketi yönetme hakkına sahiptir."
+  }
+]
